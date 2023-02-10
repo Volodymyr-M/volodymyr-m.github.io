@@ -6,14 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript">
         function redirectToDesktop() {
-          const url = window.location.href;
-          const updatedUrl = new URL(url.replace('#', '?'));
-          const searchParams = new URLSearchParams(updatedUrl.search);
-          const idToken = searchParams.get("id_token");
-          const accessToken = searchParams.get("access_token");
+          const url = window.location.href.split('#');
           const appLinkScheme = "example-scheme";
           const appLinkAuthority = "app.example.com";
-          const appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?id_token=${idToken}&access_token=${accessToken}`;
+          const appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?` + url[1];
           setTimeout(() => {
             window.location.href = appLinkUrl;
           }, 100);
