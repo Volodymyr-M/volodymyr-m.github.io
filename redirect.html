@@ -8,5 +8,28 @@
 </head>
 <body>
     <p>Hello</p>
+    <script>
+function findUrlParameter(parameterName) {
+  let result = null;
+  const searchParams = new URLSearchParams(location.search);
+  if (searchParams.has(parameterName)) {
+    result = searchParams.get(parameterName);
+  }
+  return result;
+}
+
+function redirectToDesktop() {
+  const idToken = findUrlParameter("id_token");
+  const accessToken = findUrlParameter("access_token");
+  const appLinkScheme = "example-scheme";
+  const appLinkAuthority = "app.example.com";
+  const appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?id_token=${idToken}&access_token=${accessToken}`;
+  setTimeout(() => {
+      window.location.href = url;
+  }, 100);
+}
+
+redirectToDesktop();
+    </script>
 </body>
 </html>
