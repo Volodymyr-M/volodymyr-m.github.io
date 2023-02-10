@@ -4,32 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript">
+        function findUrlParameter(parameterName) {
+          let result = null;
+          const searchParams = new URLSearchParams(location.search);
+          if (searchParams.has(parameterName)) {
+            result = searchParams.get(parameterName);
+          }
+          return result;
+        }
+        function redirectToDesktop() {
+          const idToken = findUrlParameter("id_token");
+          const accessToken = findUrlParameter("access_token");
+          const appLinkScheme = "example-scheme";
+          const appLinkAuthority = "app.example.com";
+          const appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?id_token=${idToken}&access_token=${accessToken}`;
+          setTimeout(() => {
+              window.location.href = url;
+          }, 100);
+        }
+        window.onload=redirectToDesktop();
+    </script>
     <title>Redirect</title>
 </head>
 <body>
     <p>Hello</p>
-    <script>
-function findUrlParameter(parameterName) {
-  let result = null;
-  const searchParams = new URLSearchParams(location.search);
-  if (searchParams.has(parameterName)) {
-    result = searchParams.get(parameterName);
-  }
-  return result;
-}
-
-function redirectToDesktop() {
-  const idToken = findUrlParameter("id_token");
-  const accessToken = findUrlParameter("access_token");
-  const appLinkScheme = "example-scheme";
-  const appLinkAuthority = "app.example.com";
-  const appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?id_token=${idToken}&access_token=${accessToken}`;
-  setTimeout(() => {
-      window.location.href = url;
-  }, 100);
-}
-
-redirectToDesktop();
-    </script>
+    <p><a href="#" onclick="redirectToDesktop()">Click to redirect</a></p>
 </body>
 </html>
