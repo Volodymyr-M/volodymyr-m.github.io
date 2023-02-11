@@ -69,7 +69,7 @@
             </div>
 		    <nav id="docs-nav" class="docs-nav navbar">
 			    <ul class="section-items list-unstyled nav flex-column pb-3">
-				    <li class="nav-item section-title"><a class="nav-link" href="getting-started.html"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Getting Started</a></li>
+					<li class="nav-item section-title"><a class="nav-link" href="getting-started.html"><span class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Getting Started</a></li>
 					<li class="nav-item"><a class="nav-link" href="getting-started.html#item-1-1">Installation</a></li>
 				    <li class="nav-item"><a class="nav-link" href="getting-started.html#item-1-2">Logging in (optional)</a></li>
 				    <li class="nav-item"><a class="nav-link" href="getting-started.html#item-1-3">Creating basic schedule</a></li>
@@ -85,10 +85,12 @@
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-4">Task Dependencies</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-5">Resources</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#item-2-6">Calendars</a></li>
-				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-box"></i></span>APIs</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Section Item 3.1</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Section Item 3.2</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Section Item 3.3</a></li>
+				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-box"></i></span>Tasks</a></li>
+				    <li class="nav-item"><a class="nav-link" href="tasks.html#item-3-1">Deadlines</a></li>
+				    <li class="nav-item"><a class="nav-link" href="tasks.html#item-3-2">Milestones</a></li>
+				    <li class="nav-item"><a class="nav-link" href="tasks.html#item-3-3">Critical Tasks</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tasks.html#item-3-4">Task Constraints</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tasks.html#item-3-5">Task Type</a></li>
 				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span class="theme-icon-holder me-2"><i class="fas fa-cogs"></i></span>Integrations</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Section Item 4.1</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Section Item 4.2</a></li>
@@ -151,6 +153,7 @@
 					<section class="docs-section" id="item-2-4">
 						<h2 class="section-heading">Task Dependencies</h2>
 						<p>We've learned that linking 2 tasks makes the second task start after the first one finishes. Such link is called "Finish-To-Start" dependency, and is one of 4 dependency types available: "Finish-To-Finish" (the second task finishes at the same time as the first task finishes), "Start-To-Finish" (the second task finishes at the same time as the first task starts), "Start-To-Start" (the second task starts at the same time as the first task starts).</p>
+						<p>Once there's a dependency set between tasks (in other words, the tasks are <strong>linked</strong>), one of them is called <strong>predecessor</strong> of the other.</p>
 						<p>"Finish-To-Start" dependency is the most widely used dependency, that's why it's possible to set it by linking tasks. Dependencies of other types can be set in "Task Properties" dialog, "Predecessors" tab.</p>
 
 					</section><!--//section-->
