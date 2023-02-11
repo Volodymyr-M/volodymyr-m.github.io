@@ -87,7 +87,7 @@
 					<li class="nav-item"><a class="nav-link" href="main-concepts.html#item-2-6">Calendars</a></li>
 				    <li class="nav-item section-title mt-3"><a class="nav-link scrollto active" href="#section-3"><span class="theme-icon-holder me-2"><i class="fas fa-box"></i></span>Tasks</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Deadlines</a></li>
-				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Milestones</a></li>
+				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Milestone</a></li>
 				    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Critical Tasks</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#item-3-4">Task Constraints</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#item-3-5">Task Type</a></li>
@@ -127,9 +127,26 @@
 				    </header>
 
 					<section class="docs-section" id="item-3-1">
-						<h2 class="section-heading">Deadlines</h2>
-                       <p>Sometimes you need to keep in mind that a task should be complete by a particular day. It's important to remember about the day, so [Project] has an easy to use interface to assign deadlines to tasks.</p>
-                        <p>In "Task Properties" dialog go to the first tab (General). Choose your deadline date in "Deadline".</p>
+						<h2 class="section-heading">Duration</h2>
+                       <p>While planning your project you enter Durations as estimates, meaning that the duration is a reasonable guess of how much a task will take.</p>
+					   <p>Work can be changed using <strong>Duration</strong> field in <strong>Task Properties</strong> dialog.</p>
+					   <p>When you're not yet confident with your estimate for the Duration, you can mark the Duration as <strong>Is Estimate</strong> in <strong>Task Properties</strong> dialog, in which case the Duration is always displayed with a question mark "?".</p>
+					   <p>Duration can be set in Hours, Days, Weeks or Months. By default "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed on <strong>Advanced</strong> tab of <strong>Project Properties</strong> dialog.</p>
+
+					</section><!--//section-->
+
+					<section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">Work</h2>
+						<p>Once a task has a work resource assigned (like a person who does the task), <strong>Work</strong> property of the task becomes different from 0. It shows the time all resources would spend working on the task. By default, if there are 2 people working on a task of duration of 1 day, Work becomes equal to 16 hours.</p>
+						<p>Work can be changed using <strong>Work</strong> field in <strong>Task Properties</strong> dialog.</p>
+						<p>When you change resource assignments, work or duration, one of these is recalculated according to <a class="scrollto" href="#item-3-5">Task Type</a>.</p>
+						<p>Just like Duration, Work can be specified in Hours, Days, Weeks or Months using definitions of these on <strong>Advanced</strong> tab of <strong>Project Properties</strong> dialog. However, Work is always displayed in Hours.</p>
+					</section><!--//section-->
+
+					<section class="docs-section" id="item-3-1">
+						<h2 class="section-heading">Deadline</h2>
+                        <p>Sometimes you need to keep in mind that a task should be complete by a particular day typically called a deadine.</p>
+                        <p>Deadline of a task can be specifed using <strong>Deadline</strong> field in <strong>Task Properties</strong> dialog.</p>
                         <p>Deadlines are for your own reference only, they do not affect scheduling.</p>   
                         <p>Deadlines are shown in the Gantt chart as red circles.</p>
                         <div class="callout-block callout-block-info">
@@ -151,29 +168,29 @@
 		                            </span><!--//icon-holder-->
 	                                Note
 	                            </h4>
-                                <p>You can set a deadline for the entire project by setting the deadline to its root summary task.</p>
+                                <p>You can set a deadline for the entire project by setting the deadline to its root summary task. Just make sure the root summary task is visible in <strong>Options</strong> dialog.</p>
                             </div><!--//content-->
                         </div><!--//callout-block-->
 					</section><!--//section-->
 
 					<section class="docs-section" id="item-3-2">
-						<h2 class="section-heading">Milestones</h2>
-						<p>Any task can be marked as a milestone by ticking the appropriate flag in "Task Properties" dialog. This doesn't change its duration, doesn't affect scheduling, but the task is shown in the Gantt chart as a black circle.</p>
-                        <p>It is possible to create a milestone as a task of 0 duration.</p>
+						<h2 class="section-heading">Milestone</h2>
+						<p>Any task can be marked as a milestone by checking <strong>Is Milestone</strong> checkbox in <strong>Task Properties</strong> dialog. This doesn't change its duration, doesn't affect scheduling, but the task is shown in the Gantt chart as a black circle.</p>
+                        <p>When you specify 0 as the Duration of a task, the task is marked as a Milestone automatically once you save the change.</p>
 					</section><!--//section-->
 
 
 					<section class="docs-section" id="item-3-3">
 						<h2 class="section-heading">Critical Tasks</h2>
-						<p>Depending on your schedule, some tasks can be implemented with some delay but this will not make the entire project longer. But if some other tasks are delayed the entire project will be delayed. Such tasks which cannot be delayed without delaying the entire project are called critical tasks. If you expect your project to finish in time it is usually important to pay attention to critical tasks.</p>
-                        <p>[Project] allows to detect critical tasks automatically. In the main menu choose "Highlight critical tasks", such tasks are highlighted in red color in the Gantt chart.</p>
+						<p>Depending on your schedule, some tasks can be implemented with some delay but this will not make the entire project longer. But if some other tasks are delayed the entire project will be delayed. Such tasks which cannot be delayed without delaying the entire project are called <strong>critical tasks</strong>. If you expect your project to finish in time it is usually important to pay special attention to critical tasks.</p>
+                        <p>[Project] allows to detect critical tasks automatically. If in the <strong>Options</strong> dialog <strong>Highlight critical tasks in the Gantt chart</strong> is checked, such tasks are displayed in red.</p>
 					</section><!--//section-->
 
 
 					<section class="docs-section" id="item-3-4">
 						<h2 class="section-heading">Task Constraints</h2>
 						<p>In combination with task dependencies (tasks linked to the task as predecessors), constraint of a task defines how the task is scheduled.</p>
-                        <p>Constraints are configured on "Advanced" tab of "Task Properties" dialog. The default constraint for a task is "As soon as possible" (in projects planned from Finish date the default constraint is "As late as possible"). This means that the task is set as close to the project's start date as possible with respect to dependencies with other tasks the task has.</p>
+                        <p>Constraints are set on <strong>Advanced</strong> tab of <strong>Task Properties</strong> dialog. The default constraint for a task is <strong>As soon as possible</strong> (in projects planned from Finish date the default constraint is <strong>As late as possible</strong>). This means that the task is set as close to the project's start date as possible with respect to dependencies with other tasks the task has.</p>
                         <p>When you need to define that a task needs to start on a particular date, it is recommended to set "Start to earlier than" (followed by the chosen date) constraint. When you need to define that a task needs to finish on a particular date, it is recommended to set "Finish no earlier than" (chosen date) constraint. These constraints are called <strong>flexible</strong>, as they respect task dependencies and if such dependencies cause the task to start/finish at a later date then the task starts/finishes at the later date. Other 2 flexible constraints are "Start no later than" and "Finish no later than" which can be configured at "Advanced" tab of "Task Properties" dialog.</p>
                         <p>But there are also 2 constraints which force the task to start or finish at the date specified regardless of dependencies. These constraints are called <strong>inflexible constraints</strong> and are "Must start on" and "Must finish on". It is recommended to set such constraints to your tasks only if you are absolutely confident that they are necessary for these tasks.</p>
                         <h5>Task Constraints:</h5>
@@ -219,7 +236,8 @@
 
                     <section class="docs-section" id="item-3-5">
 						<h2 class="section-heading">Task Type</h2>
-                        <p>Task's Type does not affect how the task is scheduled. </p>
+						<p>Resource assignments (or, rather units of assigned resources), work and duration depend on each other. So once you change one of these, the rest should somehow change. Task Type defines, which of the remaining 2 properties shoud stay fixed, so that the remaining one would be recalculated.</p>
+						<p>For example, you can set the Task Type to Fixed units (like it is by default), in which case when you change Duration Work is automatically recalculated.</p>
                         <h5>Task Types:</h5>
 						<div class="table-responsive my-4">
 							<table class="table table-bordered">
