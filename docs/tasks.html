@@ -430,6 +430,45 @@
 							any other text data.</p>
 					</section><!--//section-->
 
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">Resource Assignments and Units</h2>
+						<p>Resources can be assigned to a task on <strong>Resources</strong> tab of <strong>Task Properties</strong> dialog.</p>
+						<p>To assign a resource, simply check the checkbox in the row with the resource. To unassign a resource, uncheck the checkbox.</p>
+						<p>Each resource assignment has <strong>Units</strong> as shown in the corresponding column. By clicking <strong>Edit</strong> button you can update the default value.</p>
+						<p>By default, work resources are assigned with 100% units. This means that they will do the particular task fully dedicating their time available in their calendar.</p>
+						<p>TBD</p>
+					</section><!--//section-->
+
+
+					<section class="docs-section" id="item-3-4">
+						<h2 class="section-heading">Predecessors, Dependencies and Lags</h2>
+						<p>When you link tasks using <strong>Link selected tasks</strong> toolbar button, you create a dependency between the tasks. The dependency is called <strong>Finish-To-Start</strong> and it is one of 4 dependencies available:</p>
+						<div class="table-responsive my-4">
+							<table class="table table-bordered">
+								<tbody>
+									<tr>
+										<th class="theme-bg-light">Finish to Start</th>
+										<td>the second task starts at the same time as the first task finishes</td>
+									</tr>
+									<tr>
+										<th class="theme-bg-light">Finish to Finish</th>
+										<td>the second task finishes at the same time as the first task finishes</td>
+									</tr>
+									<tr>
+										<th class="theme-bg-light">Start to Finish</th>
+										<td>the second task finishes at the same time as the first task starts</td>
+									</tr>
+									<tr>
+										<th class="theme-bg-light">Start to Start</th>
+										<td>the second task starts at the same time as the first task starts</td>
+									</tr>
+								</tbody>
+							</table>
+						</div><!--//table-responsive-->
+						<p>To assign predecessors and edit dependencies, use <strong>Predecessors</strong> tab in <strong>Task Properties</strong> dialog.</p>
+						<p>Sometimes it's necessary to set some lag between 2 dependent tasks. For example, your first task is "Paint the wall", your second task is "Hang pictures on the wall", these tasks are linked (have Finish-To-Start dependency). It's not possible to hang pictures until the paint is dry, so you need to wait. That's where lags are useful. You just set the lag (for example, 1d) for the Finish-To-Start dependency. Note that lags can be set in hours (for example, 1h), days (1d), weeks (1w), months (1m) or as a fraction of the first task's duration (for example, 50%).</p>
+					</section><!--//section-->
+
 
 					<footer class="footer">
 						<div class="container text-center py-5">
