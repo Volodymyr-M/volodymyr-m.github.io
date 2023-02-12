@@ -126,20 +126,41 @@
 					    <h1 class="docs-heading">Tasks <span class="docs-time">Last updated: 2023-02-11</span></h1>
 				    </header>
 
+					<section class="docs-section" id="item-2-2">
+						<h2 class="section-heading">Summary Tasks</h2>
+						<p>Summary tasks allow you to group your tasks. To create a summary task, you simply indent (by tapping <strong>Indent selected tasks</strong> button on the toolbar) the tasks under the designated summary task. By unindenting all subtasks of a summary task (<strong>Unindent selected tasks</strong> button) you can change the summary task back to being a regular task. </p>
+						<p>As summary tasks group other tasks, they are not tasks on themselves, so their durations show the overall (but not total) duration of the tasks within the group. The end date of a summary task is the latest end date among end dates of subtasks.</p>
+						<p>Similarly, a summary tasks show the overall % complete of its subtasks, the total cost of its subtasks, the total work of its subtasks.</p>
+						<p>In the Gantt chart summary tasks are shown black bars. In the list of tasks then can be <strong>expanded</strong> or <strong>collapsed</strong> to show or hide the list of their subtasks.</p>
+
+					</section><!--//section-->
+
+
+					<section class="docs-section" id="item-2-3">
+						<h2 class="section-heading">Root Summary Task</h2>
+						<p>In [Project], there's always a summary task for your entire project. This task is task number 0, above all of your tasks.</p>
+						<p>The root summary task might not be visible by default. To change this, check <strong>Show root summary task</strong> in <strong>Options</strong> dialog.</p>
+						<p>Just like any other summary task, the root summary task shows the overall data of its subtasks. As all tasks in your schedule are its subtasks, the root summary task shows the overall data of your entire project.</p>
+
+					</section><!--//section-->
+
+
 					<section class="docs-section" id="item-3-1">
 						<h2 class="section-heading">Duration</h2>
-                       <p>While planning your project you enter Durations as estimates, meaning that the duration is a reasonable guess of how much a task will take.</p>
-					   <p>Work can be changed using <strong>Duration</strong> field in <strong>Task Properties</strong> dialog.</p>
-					   <p>When you're not yet confident with your estimate for the Duration, you can mark the Duration as <strong>Is Estimate</strong> in <strong>Task Properties</strong> dialog, in which case the Duration is always displayed with a question mark "?".</p>
+                       <p>While planning your project you enter Durations as estimates, meaning that the duration is a reasonable guess of how much time a task will take for all resources involved.</p>
+					   <p>Don't confuse <strong>Duration</strong> with <strong>Work</strong>. You can have, for example, 3 people working on your task, but if they complete it in 1 day, you set the Duration of the task to 1 day. If these 3 people are assigned to the task, [Project] calculates Work property for you as 3 days.</p>
+					   <p>Duration can be changed using <strong>Duration</strong> field in <strong>Task Properties</strong> dialog.</p>
+					   <p>When you're not yet confident with your estimate for the Duration, you can mark the Duration as <strong>Is Estimate</strong> in <strong>Task Properties</strong> dialog, in which case the Duration is always displayed with a question mark "<strong>?</strong>". Checking or unchecking this flag does not affect scheduling.</p>
+					   <p>If at least one subtask of a summary task has <strong>Is Estimate</strong> checked, the summary task's duration is also marked as <strong>Is Estimate</strong> and thus also shows "<strong>?</strong>".</p>
 					   <p>Duration can be set in Hours, Days, Weeks or Months. By default "1 Day" means 8 hours, "1 Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed on <strong>Advanced</strong> tab of <strong>Project Properties</strong> dialog.</p>
 
 					</section><!--//section-->
 
 					<section class="docs-section" id="item-3-1">
 						<h2 class="section-heading">Work</h2>
-						<p>Once a task has a work resource assigned (like a person who does the task), <strong>Work</strong> property of the task becomes different from 0. It shows the time all resources would spend working on the task. By default, if there are 2 people working on a task of duration of 1 day, Work becomes equal to 16 hours.</p>
+						<p>Once a task has a work resource assigned (like a person who does the task), <strong>Work</strong> property of the task becomes different from 0. It shows the time all resources would spend working on the task. For example, if there are 2 people working on a task of duration of 1 day, Work becomes equal to 16 hours.</p>
 						<p>Work can be changed using <strong>Work</strong> field in <strong>Task Properties</strong> dialog.</p>
-						<p>When you change resource assignments, work or duration, one of these is recalculated according to <a class="scrollto" href="#item-3-5">Task Type</a>.</p>
+						<p>When you change resource assignments, work or duration, one of these is recalculated according to task's <a class="scrollto" href="#item-3-5">Type</a>.</p>
 						<p>Just like Duration, Work can be specified in Hours, Days, Weeks or Months using definitions of these on <strong>Advanced</strong> tab of <strong>Project Properties</strong> dialog. However, Work is always displayed in Hours.</p>
 					</section><!--//section-->
 
@@ -160,15 +181,15 @@
                                 <p>If your schedule shows that a task finishes later than its deadline specifies, [Project] shows an icon in the list of tasks and counts such tasks in the navigation drawer.</p>
                             </div><!--//content-->
                         </div><!--//callout-block-->
-                        <div class="callout-block callout-block-info">
+                        <div class="callout-block callout-block-success">
                             <div class="content">
                                 <h4 class="callout-title">
 	                                <span class="callout-icon-holder me-1">
 		                                <i class="fas fa-info-circle"></i>
 		                            </span><!--//icon-holder-->
-	                                Note
+	                                Tip
 	                            </h4>
-                                <p>You can set a deadline for the entire project by setting the deadline to its root summary task. Just make sure the root summary task is visible in <strong>Options</strong> dialog.</p>
+                                <p>You can set a deadline for the entire project by setting the deadline to its root summary task. Just make sure the root summary task is set to visible in <strong>Options</strong> dialog.</p>
                             </div><!--//content-->
                         </div><!--//callout-block-->
 					</section><!--//section-->
@@ -182,11 +203,34 @@
 
 					<section class="docs-section" id="item-3-3">
 						<h2 class="section-heading">Critical Tasks</h2>
-						<p>Depending on your schedule, some tasks can be implemented with some delay but this will not make the entire project longer. But if some other tasks are delayed the entire project will be delayed. Such tasks which cannot be delayed without delaying the entire project are called <strong>critical tasks</strong>. If you expect your project to finish in time it is usually important to pay special attention to critical tasks.</p>
+						<p>Once your plan is put into action, reality happens. Some tasks are done earlier than planned (good!), but some are not. And you might notice that some tasks are done a little longer but this does not make the entire project longer. These tasks have some room to grow, some <strong>slack</strong>.</p>
+						<p>On the other hand, there are other tasks, and when they are done longer, the entire project's end date is shifted. They don't have room to grow at all, their slack is zero. Such tasks which cannot be delayed without delaying the entire project are called <strong>critical tasks</strong>. If you expect your project to finish in time it is important to pay special attention to critical tasks.</p>
                         <p>[Project] allows to detect critical tasks automatically. If in the <strong>Options</strong> dialog <strong>Highlight critical tasks in the Gantt chart</strong> is checked, such tasks are displayed in red.</p>
 					</section><!--//section-->
 
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">Fixed Cost</h2>
+						<p>If there's a cost specifically assotiated with your particular task, you can set it in <strong>Fixed Cost</strong> property available in <strong>Task Properties</strong> dialog.</p>
+						<p>Task's total cost (shown in <strong>Cost</strong> column of the task list) is calculated as a total of Fixed Cost and costs of assigned resources based on their costs/rates.</p>
+						<p>For more information on costs, see <a href="#">Planning costs</a>.</p>
+					</section><!--//section-->
 
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">% Complete</h2>
+						<p>Once your project is running, you need to track its progress. If you have % Complete set and up-to-date for each task, you can see the overall % Complete of the project in its root summary task.</p>
+						<p>Use <strong>% Complete</strong> field in <strong>Task Properties</strong> dialog to set % complete of a particular task.</p>
+						<div class="callout-block callout-block-info">
+                            <div class="content">
+                                <h4 class="callout-title">
+	                                <span class="callout-icon-holder me-1">
+		                                <i class="fas fa-info-circle"></i>
+		                            </span><!--//icon-holder-->
+	                                Note
+	                            </h4>
+                                <p>Updating this property updates visual representation of a task and summary tasks above it in the Gantt chart. It also updates <strong>% Complete</strong> column in the task list. But changing this property in [Project] does not affect your schedule.</p>
+                            </div><!--//content-->
+                        </div><!--//callout-block-->
+					</section><!--//section-->
 					<section class="docs-section" id="item-3-4">
 						<h2 class="section-heading">Task Constraints</h2>
 						<p>In combination with task dependencies (tasks linked to the task as predecessors), constraint of a task defines how the task is scheduled.</p>
@@ -199,11 +243,11 @@
 								<tbody>
 								    <tr>
 									    <th class="theme-bg-light">As soon as possible</th>
-									    <td>Task is scheduled as soon as the predecessors allow. So, if no predecessors linked, the task starts at the beginning of the project.</td>
+									    <td>Task is scheduled as soon as the predecessors allow. So, if no predecessors linked, the task starts at the beginning of the parent's summary task.</td>
 									</tr>
 									<tr>
 									      <th class="theme-bg-light">As late as possible</th>
-									      <td>Task is scheduled as late as the predecessors allow. So, if no predecessors linked, the task finishes at the end of the project. </td>
+									      <td>Task is scheduled as late as the predecessors allow. So, if no predecessors linked, the task finishes at the end of the parent's summary task.</td>
 									</tr>
 									<tr>
 									    <th class="theme-bg-light">Start no earlier than</th>
@@ -236,7 +280,7 @@
 
                     <section class="docs-section" id="item-3-5">
 						<h2 class="section-heading">Task Type</h2>
-						<p>Resource assignments (or, rather units of assigned resources), work and duration depend on each other. So once you change one of these, the rest should somehow change. Task Type defines, which of the remaining 2 properties shoud stay fixed, so that the remaining one would be recalculated.</p>
+						<p>Work resource assignments (or, rather units of assigned work resources), work and duration depend on each other. So once you change one of these, the rest should somehow change. Task Type defines, which of the remaining 2 properties shoud stay fixed, so that the remaining one would be recalculated.</p>
 						<p>For example, you can set the Task Type to Fixed units (like it is by default), in which case when you change Duration Work is automatically recalculated.</p>
                         <h5>Task Types:</h5>
 						<div class="table-responsive my-4">
@@ -244,19 +288,24 @@
 								<tbody>
 								    <tr>
 									    <th class="theme-bg-light">Fixed units</th>
-									    <td>Task is scheduled as soon as the predecessors allow. So, if no predecessors linked, the task starts at the beginning of the project.</td>
+									    <td>When you change Duration: Work is recalculated. When you change Work: Duration is recalculated. When you change Units: Work is recalculated.</td>
 									</tr>
 									<tr>
 									      <th class="theme-bg-light">Fixed duration</th>
-									      <td>Task is scheduled as late as the predecessors allow. So, if no predecessors linked, the task finishes at the end of the project. </td>
+									      <td>TBD</td>
 									</tr>
 									<tr>
 									    <th class="theme-bg-light">Fixed work</th>
-									    <td>If the task starts later than the specified date due to predecessors, nothing changes. Otherwise the task is scheduled to start on the specified date. </td>
+									    <td>TBD</td>
 									</tr>
 								</tbody>
 							</table>
 						</div><!--//table-responsive-->
+					</section><!--//section-->
+
+					<section class="docs-section" id="item-3-3">
+						<h2 class="section-heading">Notes</h2>
+						<p>You can add any texts to your task by filling in <strong>Notes</strong> field in <strong>Task Properties</strong> dialog. Use it for task description, contact information, ideas or any other text data.</p>
 					</section><!--//section-->
 
 
