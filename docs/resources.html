@@ -151,152 +151,82 @@
             <div class="container">
                 <article class="docs-article" id="section-3">
                     <header class="docs-header">
-                        <h1 class="docs-heading">Calendars <span class="docs-time">Last updated: 2023-02-11</span></h1>
+                        <h1 class="docs-heading">Resources <span class="docs-time">Last updated: 2023-02-11</span></h1>
                     </header>
 
                     <section class="docs-section" id="item-2-2">
-                        <h2 class="section-heading">Calendars</h2>
-                        <p>Calendars define days/time when work can be done. This definition is done through 2 types of
-                            calendar data:
-                        <ul>
-                            <li><strong>Weekdays</strong>. Work time is set for each day of a week: Sunday, Monday,
-                                Tuesday etc. This
-                                defines typical, routine calendar for work.</li>
-                            <li><strong>Exceptions</strong>. If work is not done or done in different time periods on a
-                                particular date,
-                                this is defined as a calendar exception.</li>
-                        </ul>
+                        <h2 class="section-heading">Overallocated resources</h2>
+                        <p>A work resource can be <strong>overallocated</strong>, which means that it has more work
+                            assigned than it can do based on its calendar data. For example, if your project has only 2
+                            tasks with
+                            a duration of 1 day with no dependency between them both assigned to the same work resource,
+                            the resource is overallocated: in that one calendar day the resource has to do 2 days of
+                            work! To
+                            resolve this, in this example simply linking the tasks fixes the issue.</p>
                         </p>
+                        <p>If a task has overallocated resources assigned, [Project] shows a special icon for it in the
+                            list of tasks.</p>
+                        <p>If a resource is overallocated, [Project] shows a special icon for it in the list of
+                            resources.</p>
+                        <p>Also, [Project] counts such tasks and resources and shows the numbers in the navigation
+                            drawer.</p>
 
                     </section><!--//section-->
 
                     <section class="docs-section" id="item-2-2">
-                        <h2 class="section-heading">Project Calendar</h2>
-                        <p>Project has a <strong>Calendar</strong> assotiated with it as specified in <strong>Project
-                                Properties</strong> dialog. This calendar defines how tasks not assigned to work
-                            resources or their own calendars are scheduled. Also, days off like weekends are shown in
-                            the Gantt chart according to this calendar.</p>
+                        <h2 class="section-heading">Autoleveling</h2>
+                        <p>It's possible to set dependencies between tasks and thus modify
+                            their position on the timeline. In projects with many resources and tasks it's easy to miss
+                            setting a dependency, so that it's possible that your schedule contains 2 or more tasks
+                            assigned to the same work resource but which (because of the lack of dependency) are
+                            scheduled to be done at the same time. This means that the resource has to do more work than
+                            it can do in that time: it is overallocated and you are notified about that by [Project]
+                            using special icons in tasks and resources lists.</p>
+                        <p>You can resolve the overallocation manually by setting dependencies or constraints to move
+                            some of the tasks so that work is not done at the same time.</p>
+
+                        <p>An alternative way to resolve overallocation is autoleveling. If you choose to
+                            <strong>Auto-level resources</strong> in the main menu [Project] automatically shifts some tasks further in
+                            the timeline to prevent overallocation of resources. You can clear these automatic adjustments
+                            by choosing  <strong>Clear leveling</strong> in the main menu.</p>
                     </section><!--//section-->
 
                     <section class="docs-section" id="item-2-2">
-                        <h2 class="section-heading">Resource Calendar</h2>
-
-                        <p>Each work resource has a calendar assotiated with it as specified in
-                            <strong>Base Calendar</strong> field of <strong>Resource
-                                Properties</strong> dialog. Once the work resource is assigned to a task, its calendar
-                            affects
-                            scheduling of the task.
-                        </p>
-
-                        <div class="callout-block callout-block-success">
-                            <div class="content">
-                                <h4 class="callout-title">
-                                    <span class="callout-icon-holder me-1">
-                                        <i class="fas fa-info-circle"></i>
-                                    </span><!--//icon-holder-->
-                                    Tip
-                                </h4>
-                                <p>If you have multiple resources working according to a similar work schedule, you can
-                                    create a
-                                    Calendar and assign it to them. At the same time, you can specify Exceptions for
-                                    each of
-                                    them separately in <strong>Resource Properties</strong> if they have personal events
-                                    like vacations or shorter/longer work periods on
-                                    some
-                                    dates.</p>
-                            </div><!--//content-->
-                        </div><!--//callout-block-->
-
-                    </section><!--//section-->
-
-
-
-                    <section class="docs-section" id="item-2-2">
-                        <h2 class="section-heading">Task Calendar</h2>
-                        <p>Task has <strong>Calendar</strong> property in <strong>Task Properties</strong> dialog.
-                            It is set to <strong>NONE</strong> by default, in this case:</p>
-                        <ul>
-                            <li>If a task is not assigned to any work resources, the task is scheduled according to
-                                project's calendar.</li>
-                            <li>If a task is assigned to work resources, the task is scheduled according to their
-                                calendars. </li>
-                        </ul>
-                        <p>If task's <strong>Calendar</strong> property is set to a calendar instead of
-                            <strong>NONE</strong>:</p>
-                        <li>If a task is not assigned to any work resources, the task is scheduled according to the
-                            specified calendar.</li>
-                        <li>If a task is assigned to work resources, the task is scheduled according to the intersection
-                            of the specified calendar with calendars of the assigned work resources. You can
-                            also check <strong>Ignore resource calendars</strong> flag in order to schedule the task
-                            only according to the specified calendar. </li>
-                    </section><!--//section-->
-
-
-                    <section class="docs-section" id="item-2-2">
-                        <h2 class="section-heading">Pre-defined calendars</h2>
-
-                        <p>[Project] has 3 predefined calendars, one of which (Standard) is assigned to the Project by
-                            default.</p>
-
+                        <h2 class="section-heading">Type</h2>
+                        [Project] supports 3 types of resources:
+                        
                         <div class="table-responsive my-4">
                             <table class="table table-bordered">
                                 <tbody>
                                     <tr>
-                                        <th class="theme-bg-light">Standard</th>
-                                        <td>Work is done each day Monday to Friday, 8 AM to 5 PM with 1 hour (12 AM to 1
-                                            PM) break.</td>
+                                        <th class="theme-bg-light">Work</th>
+                                        <td>Someone or something doing your task. Can be a person, team, contractor company, or equipment.</td>
                                     </tr>
                                     <tr>
-                                        <th class="theme-bg-light">Night Shift</th>
+                                        <th class="theme-bg-light">Material</th>
                                         <td>
-                                            Work is done Monday night through Saturday morning, 11 PM to 8 AM with an
-                                            hour off (3 AM to 4AM) break.
+                                            Something which is used to do your task. Materials, ingridients, components.
                                         </td>
                                     </tr>
                                     <tr>
-                                        <th class="theme-bg-light">24-hours</th>
-                                        <td>Work is done 24 hours a day each day.</td>
+                                        <th class="theme-bg-light">Cost</th>
+                                        <td>Cost which can be applied to multiple of your tasks. Delivery cost, deployment cost, any repeatable cost.</td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div><!--//table-responsive-->
 
-
-                        <p>As mentioned above, Standard
-                            calendar defines, that work is done Monday-Friday 8 AM - 5 PM with 1 hour break. This means
-                            that when using this calendar
-                            [Project] will not schedule tasks on Saturday, Sunday or at night.</p>
-
-                        <p>You can edit any of the pre-defined calendars using <strong>Calendar Properties</strong>
-                            dialog or make your own calendars based on them using <strong>Add Calendar</strong> dialog.
-                        </p>
-
+                        <p>Only work resources, when assigned to tasks, affect scheduling.</p>
                     </section><!--//section-->
 
                     <section class="docs-section" id="item-2-2">
-                        <h2 class="section-heading">Calendar exceptions</h2>
-
-                        <p>Calendar Exceptions are dates on which work is done (or not done at all) differently than
-                            specified in Weekdays.</p>
-                        <p>Calendar Exceptions can be specified:</p>
-                        <ul>
-                            <li>
-                                in <strong>Resource Properties</strong> dialog for a particular resource
-                            </li>
-                            <li>
-                                in <strong>Calendar Properties</strong> for a particular calendar to make project,
-                                resources or tasks using this Calendar have this exception
-                            </li>
-                        </ul>
-
-                        <p>For example, if you would like to configure a vacation for a person, add it as an exception
-                            for this resource. If you would like to configure a holiday for everyone, add it as an
-                            exception to a calendar which everyone uses.</p>
-                        <p>When adding or editing calendar exception you specify working time periods for the exception.
-                            If you don't specify any, you make the Exception having no working time, which means that
-                            the exception defines a day off.</p>
-
+                        <h2 class="section-heading">Cost</h2>
+                        <p>All types of resources, if you specify their cost, affect total cost of tasks to which they are assigned.</p>
+                        <p>For work resources cost is specified as rate with hourly (TBD: change this) cost of your work resource</p>
+                        <p>For other types of resources cost is specified per Unit. So that once the resource is assigned to the task, you can specify the number of Units used by the task and total cost is calculated automatically.</p>
+                        <p>For more information on costs, see <a href="#">Planning costs</a>.</p>
                     </section><!--//section-->
+
 
 
 
