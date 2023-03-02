@@ -168,11 +168,11 @@
 								selected tasks</strong> button) you can change the summary task back to being a regular
 							task. </p>
 						<p>As summary tasks group other tasks, they are not tasks on themselves, so their durations show
-							the overall (but not total) duration of the tasks within the group. The end date of a
-							summary task is the latest end date among end dates of subtasks.</p>
+							the overall duration of the tasks within the group. The end date of a summary task is the
+							latest end date among end dates of subtasks.</p>
 						<p>Similarly, a summary tasks show the overall % complete of its subtasks, the total cost of its
 							subtasks, the total work of its subtasks.</p>
-						<p>In the Gantt chart summary tasks are shown as black bars. In the list of tasks then can be
+						<p>In the Gantt chart summary tasks are shown as black bars. In the list of tasks they can be
 							<strong>expanded</strong> or <strong>collapsed</strong> to show or hide the list of their
 							subtasks.
 						</p>
@@ -209,6 +209,8 @@
 						<p>Duration can be set in Hours, Days, Weeks or Months. By default "1 Day" means 8 hours, "1
 							Week" means 5 days (40 hours) and "1 Month" means 20 days and these defaults can be changed
 							on <strong>Advanced</strong> tab of <strong>Project Properties</strong> dialog.</p>
+						<p>When you change resource assignments, work or duration, one of these is recalculated
+							according to task's <a class="scrollto" href="#tasktype">Type</a>.</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="work">
@@ -216,15 +218,16 @@
 						<p>Once a task has a work resource assigned (like a person who does the task),
 							<strong>Work</strong> property of the task becomes different from 0. It shows the time all
 							resources would spend working on the task. For example, if there are 2 people working on a
-							task of duration of 1 day, Work becomes equal to 16 hours.
+							task of duration of 1 day, Work becomes equal to 2 days (16 hours according to default
+							settings).
 						</p>
 						<p>Work can be changed using <strong>Work</strong> field in <strong>Task Properties</strong>
 							dialog.</p>
-						<p>When you change resource assignments, work or duration, one of these is recalculated
-							according to task's <a class="scrollto" href="#item-3-5">Type</a>.</p>
 						<p>Just like Duration, Work can be specified in Hours, Days, Weeks or Months using definitions
 							of these on <strong>Advanced</strong> tab of <strong>Project Properties</strong> dialog.
 							However, Work is always displayed in Hours.</p>
+						<p>When you change resource assignments, work or duration, one of these is recalculated
+							according to task's <a class="scrollto" href="#tasktype">Type</a>.</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="deadline">
@@ -234,7 +237,7 @@
 						<p>Deadline of a task can be specifed using <strong>Deadline</strong> field in <strong>Task
 								Properties</strong> dialog.</p>
 						<p>Deadlines are for your own reference only, they do not affect scheduling.</p>
-						<p>Deadlines are shown in the Gantt chart as red circles.</p>
+						<p>Deadlines are shown in the Gantt chart as special icons.</p>
 						<div class="callout-block callout-block-info">
 							<div class="content">
 								<h4 class="callout-title">
@@ -268,24 +271,26 @@
 						<h2 class="section-heading">Milestone</h2>
 						<p>Any task can be marked as a milestone by checking <strong>Is Milestone</strong> checkbox in
 							<strong>Task Properties</strong> dialog. This doesn't change its duration, doesn't affect
-							scheduling, but the task is shown in the Gantt chart as a black circle.
+							scheduling, but the task is shown in the Gantt chart as an icon.
 						</p>
-						<p>When you specify 0 as the Duration of a task, the task is marked as a Milestone automatically
-							once you save the change.</p>
+						<p>If you specify <em>0</em> as the <strong>Duration</strong> of a task, the task is marked as
+							<strong>Is Milestone</strong> automatically
+							once you save the change.
+						</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="critical">
 						<h2 class="section-heading">Critical Tasks</h2>
-						<p>Once your plan is put into action, reality happens. Some tasks are done earlier than planned
-							(good!), but some are not. And you might notice that some tasks are done a little longer but
+						<p>Once your plan is put into action, reality happens. Some tasks finish earlier than planned,
+							but some are not. And you might notice that some tasks are done a little longer but
 							this does not make the entire project longer. These tasks have some room to grow, some
-							<strong>slack</strong>.
+							<em>slack</em>.
 						</p>
 						<p>On the other hand, there are other tasks, and when they are done longer, the entire project's
 							end date is shifted. They don't have room to grow at all, their slack is zero. Such tasks
-							which cannot be delayed without delaying the entire project are called <strong>critical
-								tasks</strong>. If you expect your project to finish in time it is important to pay
-							special attention to critical tasks.</p>
+							which cannot be delayed without delaying the entire project are called <em>critical
+								tasks</em>. If you expect your project to finish in time it is important to pay
+							special attention to critical tasks when tracking your project's progress.</p>
 						<p>[Project] allows to detect critical tasks automatically. If in the <strong>Options</strong>
 							dialog <strong>Highlight critical tasks in the Gantt chart</strong> is checked, such tasks
 							are displayed in red.</p>
@@ -298,7 +303,7 @@
 						</p>
 						<p>Task's total cost (shown in <strong>Cost</strong> column of the task list) is calculated as a
 							total of Fixed Cost and costs of assigned resources based on their costs/rates.</p>
-						<p>For more information on costs, see <a href="#">Planning costs</a>.</p>
+						<p>For more information on costs, see <a href="planning-costs.html">Planning costs</a>.</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="complete">
@@ -325,7 +330,7 @@
 					</section><!--//section-->
 
 					<section class="docs-section" id="constraints">
-						<h2 class="section-heading">Task Constraints</h2>
+						<h2 class="section-heading">Constraints</h2>
 						<p>In combination with task dependencies (tasks linked to the task as predecessors), constraint
 							of a task defines how the task is scheduled.</p>
 						<p>Constraints are set on <strong>Advanced</strong> tab of <strong>Task Properties</strong>
@@ -333,20 +338,19 @@
 							projects planned from Finish date the default constraint is <strong>As late as
 								possible</strong>). This means that the task is set as close to the project's start date
 							as possible with respect to dependencies with other tasks the task has.</p>
-						<p>When you need to define that a task needs to start on a particular date, it is recommended to
-							set "Start to earlier than" (followed by the chosen date) constraint. When you need to
-							define that a task needs to finish on a particular date, it is recommended to set "Finish no
-							earlier than" (chosen date) constraint. These constraints are called
-							<strong>flexible</strong>, as they respect task dependencies and if such dependencies cause
-							the task to start/finish at a later date then the task starts/finishes at the later date.
-							Other 2 flexible constraints are "Start no later than" and "Finish no later than" which can
-							be configured at "Advanced" tab of "Task Properties" dialog.
-						</p>
-						<p>But there are also 2 constraints which force the task to start or finish at the date
-							specified regardless of dependencies. These constraints are called <strong>inflexible
-								constraints</strong> and are "Must start on" and "Must finish on". It is recommended to
+						<p>There are 2 constraints which force the task to start or finish at the date
+							specified regardless of dependencies. These constraints are called <em>inflexible
+								constraints</em> and are <strong>Must start on</strong> and <strong>Must finish
+								on</strong>. It is recommended to
 							set such constraints to your tasks only if you are absolutely confident that they are
 							necessary for these tasks.</p>
+						<p>
+							Other constraints (<strong>Start/Finish no earlier/later than</strong>) are called
+							<em>flexible</em>, as they respect task dependencies and if such dependencies cause
+							the task to start/finish at a different date then the task starts/finishes at the different
+							date.
+
+						</p>
 						<h5>Task Constraints:</h5>
 						<div class="table-responsive my-4">
 							<table class="table table-bordered">
@@ -400,15 +404,32 @@
 						</div><!--//table-responsive-->
 						<p>If a flexible or inflexible constraint is applied for a task, a special icon is shown for the
 							task in the list of tasks.</p>
+						<div class="callout-block callout-block-success">
+							<div class="content">
+								<h4 class="callout-title">
+									<span class="callout-icon-holder me-1">
+										<i class="fas fa-info-circle"></i>
+									</span><!--//icon-holder-->
+									Tip
+								</h4>
+								<p>Use default constraints for most tasks, use flexible constraints for tasks where
+									Start or Finish depends on a particular date.
+								</p>
+							</div><!--//content-->
+						</div><!--//callout-block-->
 					</section><!--//section-->
 
 					<section class="docs-section" id="tasktype">
-						<h2 class="section-heading">Task Type</h2>
+						<h2 class="section-heading">Type and Is Effort Driven</h2>
 						<p>Work resource assignments (or, rather units of assigned work resources), work and duration
-							depend on each other. So once you change one of these, the rest should somehow change. Task
-							Type defines, which of the remaining 2 properties shoud stay fixed, so that the remaining
-							one would be recalculated.</p>
-						<p>For example, you can set the Task Type to Fixed units (like it is by default), in which case
+							depend on each other. So once you change one of these, the rest should somehow change.
+							Task's
+							<strong>Type</strong> (with the help of <strong>Is Effort Driven</strong> flag) defines,
+							which of the remaining 2 properties shoud stay unchanged, so that only
+							one of them would be recalculated.
+						</p>
+						<p>For example, you can set the <strong>Type</strong> to <strong>Fixed units</strong> (like it
+							is by default), in which case
 							when you change Duration Work is automatically recalculated.</p>
 						<h5>Task Types:</h5>
 						<div class="table-responsive my-4">
@@ -416,20 +437,54 @@
 								<tbody>
 									<tr>
 										<th class="theme-bg-light">Fixed units</th>
-										<td>When you change Duration: Work is recalculated. When you change Work:
-											Duration is recalculated. When you change Units: Work is recalculated.</td>
+										<td>
+											<ul>
+												<li>When you change Duration: Work is recalculated.</li>
+												<li>When you change Work: Duration is recalculated.</li>
+												<li>When you change Units:
+													<ul>
+														<li>If <strong>Is Effort Driven</strong> is set: Duration is
+															recalculated</li>
+														<li>If <strong>Is Effort Driven</strong> is not set: Work is
+															recalculated</li>
+													</ul>
+												</li>
+											</ul>
+										</td>
 									</tr>
 									<tr>
 										<th class="theme-bg-light">Fixed duration</th>
-										<td>TBD</td>
+										<td>
+											<ul>
+												<li>When you change Duration: Work is recalculated.</li>
+												<li>When you change Work: Units is recalculated.</li>
+												<li>When you change Units:
+													<ul>
+														<li>If <strong>Is Effort Driven</strong> is set: Units is
+															recalculated</li>
+														<li>If <strong>Is Effort Driven</strong> is not set: Work is
+															recalculated</li>
+													</ul>
+												</li>
+											</ul>
+										</td>
 									</tr>
 									<tr>
 										<th class="theme-bg-light">Fixed work</th>
-										<td>TBD</td>
+										<td>
+										<ul>
+											<li>When you change Duration: Units is recalculated.</li>
+											<li>When you change Work: Duration is recalculated.</li>
+											<li>When you change Units: Duration is recalculated</li>
+										</ul>
+									</td>
 									</tr>
 								</tbody>
 							</table>
 						</div><!--//table-responsive-->
+						<p>In other words, thanks to <strong>Type</strong> you can freeze one of the 3 properties, while
+							<strong>Is Effort Driven</strong> defines whether Work should stay unchanged among the remaining
+							two.</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="notes">
@@ -448,17 +503,22 @@
 								Properties</strong> dialog.</p>
 						<p>To assign a resource, simply check the checkbox in the row with the resource. To unassign a
 							resource, uncheck the checkbox.</p>
-						<p>Each resource assignment has <strong>Units</strong> as shown in the corresponding column. By
-							clicking <strong>Edit</strong> button you can update the default value.</p>
+						<p>Resource assignments of work or material resource types have <strong>Units</strong> as shown
+							in the corresponding column. By
+							clicking <strong>Edit</strong> button you can change the value of <strong>Units</strong> set
+							by default when assigning.</p>
 						<p>By default, work resources are assigned with 100% units. This means that they will do the
-							particular task fully dedicating their time available in their calendar.</p>
-						<p>TBD</p>
+							particular task fully dedicating their time available in their calendar. You can change the
+							default value to a lower number.</p>
+						<p>By default, material resources are assigned with 1 unit. This means that 1 unit (box, gallon,
+							ton etc depending on how you define it for the material) of that material will be spent when
+							implementing the task. You can change the default value and set any number of units.</p>
 					</section><!--//section-->
 
 					<section class="docs-section" id="predecessors">
 						<h2 class="section-heading">Predecessors and Dependencies</h2>
 						<p>When you link tasks using <strong>Link selected tasks</strong> toolbar button, you create a
-							dependency between the tasks. The dependency is called <strong>Finish-To-Start</strong> and
+							dependency between the tasks. The dependency is called <strong>Finish to Start</strong> and
 							it is one of 4 dependencies available:</p>
 						<div class="table-responsive my-4">
 							<table class="table table-bordered">
@@ -493,13 +553,17 @@
 						<p>Let's say that your first
 							task is "Paint the wall" and your second task is "Hang pictures on the wall", these tasks
 							are
-							linked (have Finish-To-Start dependency). It's not possible to hang pictures until the paint
+							linked (have <strong>Finish to Start</strong> dependency). It's not possible to hang
+							pictures until the paint
 							is dry, so you need to wait. To reflect this in your schedule, set the <strong>Lag</strong>
 							(for
 							example, 1 day) for the dependency between the two tasks.</p>
 						<p>Lags can also be used in a situation directly opposite to waiting, when the depending task
 							should start a little bit earlier. To set this, make the <strong>Lag</strong> negative (for
-							example, -1 day). This is called <strong>lead time</strong>.</p>
+							example, -1 day). This is called <em>lead time</em>.</p>
+						<p>To set lag or lead time, use <strong>Edit</strong> button in <strong>Predecessors</strong>
+							tab in <strong>Task Properties</strong> dialog to set such time between the task that is
+							being edited and its precessor in the list.</p>
 						<div class="callout-block callout-block-info">
 							<div class="content">
 								<h4 class="callout-title">
