@@ -77,26 +77,40 @@
 			<nav id="docs-nav" class="docs-nav navbar">
 				<ul class="section-items list-unstyled nav flex-column pb-3">
 
-					<li class="nav-item section-title"><a class="nav-link" href="getting-started.html"><span
-								class="theme-icon-holder me-2"><i class="fas fa-map-signs"></i></span>Getting
-							Started</a></li>
-					<li class="nav-item"><a class="nav-link" href="getting-started.html#installation">Installation</a>
+					<!-- Getting Started -->
+					<li class="nav-item section-title">
+						<div class="nav-link" data-toggle="collapse" data-target=".collapse.getStarted"
+							data-text="Collapse"><span class="theme-icon-holder me-2"><i
+									class="fas fa-bars-progress"></i></span>Getting
+							Started</div>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="getting-started.html#logginin">Logging in
-							(optional)</a></li>
-					<li class="nav-item"><a class="nav-link" href="getting-started.html#basics">Creating basic
-							schedule</a></li>
-					<li class="nav-item"><a class="nav-link" href="getting-started.html#projectstartname">Setting project's
-							Start Date and Name</a></li>
-					<li class="nav-item"><a class="nav-link" href="getting-started.html#addres">Adding and assigning
-							resources</a></li>
-					<li class="nav-item"><a class="nav-link" href="getting-started.html#vacations">Setting vacations</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="getting-started.html#holidays">Setting holidays</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="getting-started.html#saving">Saving your schedule</a>
-					</li>
+					<div class="block collapse getStarted">
+						<div class="block__content">
+							<li class="nav-item"><a class="nav-link"
+									href="getting-started.html#installation">Installation</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="getting-started.html#logginin">Logging in
+									(optional)</a></li>
+							<li class="nav-item"><a class="nav-link" href="getting-started.html#basics">Creating basic
+									schedule</a></li>
+							<li class="nav-item"><a class="nav-link"
+									href="getting-started.html#projectstartname">Setting project's
+									Name and Start Date</a></li>
+							<li class="nav-item"><a class="nav-link" href="getting-started.html#addres">Adding and
+									assigning resources</a></li>
+							<li class="nav-item"><a class="nav-link" href="getting-started.html#vacations">Setting
+									vacations</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="getting-started.html#holidays">Setting
+									holidays</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="getting-started.html#saving">Saving your
+									schedule</a>
+							</li>
+						</div>
+					</div>
 
+					<!-- Tasks: Active -->
 					<li class="nav-item section-title mt-3"><a class="nav-link scrollto active"
 							href="#tasks-section"><span class="theme-icon-holder me-2"><i
 									class="fas fa-box"></i></span>Tasks</a></li>
@@ -107,61 +121,107 @@
 					<li class="nav-item"><a class="nav-link scrollto" href="#deadline">Deadline</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#milestone">Milestone</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#critical">Critical Tasks</a></li>
-					<li class="nav-item"><a class="nav-link scrollto" href="#fixedcost">Fixed Cost</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#taskfixedcost">Fixed Cost</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#complete">% Complete</a></li>
-					<li class="nav-item"><a class="nav-link scrollto" href="#constraints">Task Constraints</a></li>
-					<li class="nav-item"><a class="nav-link scrollto" href="#tasktype">Task Type</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#constraints">Constraints</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#tasktype">Type and Is Effort Driven</a>
+					</li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#notes">Notes</a></li>
 					<li class="nav-item"><a class="nav-link scrollto" href="#assignments">Resource Assignments and
 							Units</a></li>
-					<li class="nav-item"><a class="nav-link scrollto" href="#predecessors">Predecessors, Dependencies
-							and Lags</a></li>
-
-					<li class="nav-item section-title mt-3"><a class="nav-link" href="resources.html"><span
-								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Resources</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="resources.html#overallocated">Overallocated
-							resources</a></li>
-					<li class="nav-item"><a class="nav-link" href="resources.html#autoleveling">Autoleveling</a></li>
-					<li class="nav-item"><a class="nav-link" href="resources.html#resourcetype">Resource Type</a></li>
-					<li class="nav-item"><a class="nav-link" href="resources.html#resourcecost">Resource Cost</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#predecessors">Predecessors and
+							Dependencies</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#lags">Lag and Lead time</a></li>
+					<li class="nav-item"><a class="nav-link scrollto" href="#circulardep">Circular dependencies</a></li>
 
 
-					<li class="nav-item section-title mt-3"><a class="nav-link" href="calendars.html"><span
-								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Calendars</a>
+					<!-- Resources -->
+					<li class="nav-item section-title mt-3">
+						<div class="nav-link" href="#" data-toggle="collapse" data-target=".collapse.resources"
+							data-text="Collapse"><span class="theme-icon-holder me-2"><i
+									class="fas fa-user"></i></span>Resources</div>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="calendars.html#calendars">Calendars</a></li>
-					<li class="nav-item"><a class="nav-link" href="calendars.html#projectcal">Project Calendar</a></li>
-					<li class="nav-item"><a class="nav-link" href="calendars.html#resourcecal">Resource Calendar</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="calendars.html#taskcal">Task Calendar</a></li>
-					<li class="nav-item"><a class="nav-link" href="calendars.html#predef">Pre-defined calendars</a></li>
-					<li class="nav-item"><a class="nav-link" href="calendars.html#exceptions">Calendar exceptions</a>
-					</li>
+					<div class="block collapse resources">
+						<div class="block__content">
+							<li class="nav-item"><a class="nav-link" href="resources.html#overallocated">Overallocated
+									resources</a></li>
+							<li class="nav-item"><a class="nav-link" href="resources.html#autoleveling">Autoleveling</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="resources.html#resourcetype">Resource
+									Type</a></li>
+							<li class="nav-item"><a class="nav-link" href="resources.html#resourcecostfield">Resource
+									Cost</a></li>
+						</div>
+					</div>
 
-					<li class="nav-item section-title mt-3"><a class="nav-link" href="#project.html"><span
-								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Project</a>
+					<!-- Calendars -->
+					<li class="nav-item section-title mt-3">
+						<div class="nav-link" href="#" data-toggle="collapse" data-target=".collapse.calendars"
+							data-text="Collapse"><span class="theme-icon-holder me-2"><i
+									class="fas fa-calendar"></i></span>Calendars</div>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="project.html#projectname">Project Name</a></li>
-					<li class="nav-item"><a class="nav-link" href="project.html#projectstart">Start Date and planning
-							from Start and Finish dates</a></li>
-					<li class="nav-item"><a class="nav-link" href="project.html#projectfirstday">First Day of Week</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="project.html#projectcurrency">Currency and Currency
-							Position</a></li>
-					<li class="nav-item"><a class="nav-link" href="project.html#projectadvanced">Hours per Day, Days per
-							Week, Days per Month</a></li>
+					<div class="block collapse calendars">
+						<div class="block__content">
+							<li class="nav-item"><a class="nav-link" href="calendars.html#calendars">Calendars</a></li>
+							<li class="nav-item"><a class="nav-link" href="calendars.html#projectcal">Project
+									Calendar</a></li>
+							<li class="nav-item"><a class="nav-link" href="calendars.html#resourcecal">Resource
+									Calendar</a></li>
+							<li class="nav-item"><a class="nav-link" href="calendars.html#taskcal">Task Calendar</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="calendars.html#predef">Pre-defined
+									calendars</a></li>
+							<li class="nav-item"><a class="nav-link" href="calendars.html#exceptions">Calendar
+									exceptions</a></li>
+							<li class="nav-item"><a class="nav-link" href="calendars.html#emptycalendars">Empty and
+									partial calendars</a></li>
+						</div>
+					</div>
 
-					<li class="nav-item section-title mt-3"><a class="nav-link" href="planning-costs.html"><span
-								class="theme-icon-holder me-2"><i class="fas fa-arrow-down"></i></span>Planning
-							Costs</a>
+					<!-- Project -->
+					<li class="nav-item section-title mt-3">
+						<div class="nav-link" href="#" data-toggle="collapse" data-target=".collapse.project"
+							data-text="Collapse"><span class="theme-icon-holder me-2"><i
+									class="fas fa-briefcase"></i></span>Project</div>
 					</li>
-					<li class="nav-item"><a class="nav-link" href="planning-costs.html#fixedcost">Task's Fixed Cost</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="planning-costs.html#resourcecost">Resource's Cost</a>
-					</li>
-					<li class="nav-item"><a class="nav-link" href="planning-costs.html#currency">Currency</a></li>
+					<div class="block collapse project">
+						<div class="block__content">
+							<li class="nav-item"><a class="nav-link" href="project.html#projectname">Project Name</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="project.html#projectstart">Start Date and
+									planning
+									from Start and Finish dates</a></li>
+							<li class="nav-item"><a class="nav-link" href="project.html#projectfirstday">First Day of
+									Week</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="project.html#projectcurrency">Currency and
+									Currency
+									Position</a></li>
+							<li class="nav-item"><a class="nav-link" href="project.html#projectadvanced">Hours per Day,
+									Days per
+									Week, Days per Month</a></li>
+						</div>
+					</div>
 
+					<!-- Costs -->
+					<li class="nav-item section-title mt-3">
+						<div class="nav-link" href="#" data-toggle="collapse" data-target=".collapse.costs"
+							data-text="Collapse"><span class="theme-icon-holder me-2"><i
+									class="fas fa-sack-dollar"></i></span>Planning
+							Costs</div>
+					</li>
+					<div class="block collapse costs">
+						<div class="block__content">
+							<li class="nav-item"><a class="nav-link" href="planning-costs.html#fixedcost">Task's Fixed
+									Cost</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="planning-costs.html#resourcecost">Resource's
+									Cost</a>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="planning-costs.html#currency">Currency</a>
+							</li>
+						</div>
+					</div>
 				</ul>
 
 			</nav><!--//docs-nav-->
@@ -310,7 +370,7 @@
 							are displayed in red.</p>
 					</section><!--//section-->
 
-					<section class="docs-section" id="fixedcost">
+					<section class="docs-section" id="taskfixedcost">
 						<h2 class="section-heading">Fixed Cost</h2>
 						<p>If there's a cost specifically assotiated with your particular task, you can set it in
 							<strong>Fixed Cost</strong> property available in <strong>Task Properties</strong> dialog.
@@ -594,15 +654,13 @@
 						</div><!--//callout-block-->
 					</section><!--//section-->
 
-					<section class="docs-section" id="lags">
+					<section class="docs-section" id="circulardep">
 						<h2 class="section-heading">Circular dependencies</h2>
 						<p>If you accidentally create two dependencies between two tasks, making each task a predecessor
 							of the second one, [Project] detects such situations and reverts the last action. There can
 							be other, more complex situations when such circular dependencies occur, but in all cases
 							they are immediately detected and the last action causing them is reverted.</p>
 					</section><!--//section-->
-
-
 
 					<footer class="footer">
 						<div class="container text-center py-5">
@@ -623,6 +681,7 @@
 							</ul><!--//social-list-->
 						</div>
 					</footer>
+				</article>
 			</div>
 		</div>
 	</div><!--//docs-wrapper-->
