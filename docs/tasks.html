@@ -2,49 +2,38 @@
 <html lang="en">
 
 <head>
-	<title>CoderDocs - Bootstrap 4 Documentation Template For Software Projects</title>
-
+	<title>Ingantt - Project Scheduling Application for Windows, Android and Web</title>
 	<!-- Meta -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-	<meta name="description" content="Bootstrap 4 Template For Software Startups">
-	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">
+	<meta name="description" content="Scheduling application with Gantt chart support for Project Management, alternative to Microsoft Project">
 	<link rel="shortcut icon" href="favicon.ico">
-
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
-
 	<!-- FontAwesome JS-->
 	<script defer src="assets/fontawesome/js/all.min.js"></script>
-
 	<!-- Plugins CSS -->
 	<link rel="stylesheet" href="assets/plugins/simplelightbox/simple-lightbox.min.css">
-
 	<!-- Theme CSS -->
 	<link id="theme-style" rel="stylesheet" href="assets/scss/theme.css">
-
 </head>
 
 <body class="docs-page">
 	<header class="header fixed-top">
-		<div class="branding docs-branding">
-			<div class="container-fluid position-relative py-2">
-				<div class="docs-logo-wrapper">
-					<button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none"
-						type="button">
-						<span></span>
-						<span></span>
-						<span></span>
-					</button>
-					<div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon me-2"
-								src="assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">Coder<span
-									class="text-alt">Docs</span></span></a></div>
-				</div><!--//docs-logo-wrapper-->
-			</div><!--//container-->
-		</div><!--//branding-->
-	</header><!--//header-->
+        <div class="branding docs-branding">
+            <div class="container-fluid position-relative py-2">
+                <div class="docs-logo-wrapper">
+                    <button id="docs-sidebar-toggler" class="docs-sidebar-toggler docs-sidebar-visible me-2 d-xl-none"
+                        type="button">
+                    </button>
+                    <div class="site-logo"><a class="navbar-brand" href="index.html"><img class="logo-icon me-2"
+                                src="assets/images/coderdocs-logo.svg" alt="logo"><span class="logo-text">In<span
+                                    class="text-alt">gantt</span></span></a></div>
+                </div><!--//docs-logo-wrapper-->
+            </div><!--//container-->
+        </div><!--//branding-->
+    </header><!--//header-->
 
 
 	<div class="docs-wrapper">
@@ -242,7 +231,7 @@
 
 					<section class="docs-section" id="root">
 						<h2 class="section-heading">Root Summary Task</h2>
-						<p>In [Project], there's always a summary task for your entire project. This task is task number
+						<p>In Ingantt, there's always a summary task for your entire project. This task is task number
 							0, above all of your tasks.</p>
 						<p>The root summary task might not be visible by default. To change this, check <strong>Show
 								root summary task</strong> in <strong>Options</strong> dialog.</p>
@@ -258,7 +247,7 @@
 							reasonable guess of how much time a task will take for all resources involved.</p>
 						<p>Don't confuse <strong>Duration</strong> with <strong>Work</strong>. You can have, for
 							example, 3 people working on your task, but if they complete it in 1 day, you set the
-							Duration of the task to 1 day. If these 3 people are assigned to the task, [Project]
+							Duration of the task to 1 day. If these 3 people are assigned to the task, Ingantt
 							calculates Work property for you as 3 days.</p>
 						<p>Duration can be changed using <strong>Duration</strong> field in <strong>Task
 								Properties</strong> dialog.</p>
@@ -310,7 +299,7 @@
 									Note
 								</h4>
 								<p>If your schedule shows that a task finishes later than its deadline specifies,
-									[Project] shows an icon in the list of tasks and counts such tasks in the navigation
+									Ingantt shows an icon in the list of tasks and counts such tasks in the navigation
 									drawer.</p>
 							</div><!--//content-->
 						</div><!--//callout-block-->
@@ -354,7 +343,7 @@
 							which cannot be delayed without delaying the entire project are called <em>critical
 								tasks</em>. If you expect your project to finish in time it is important to pay
 							special attention to critical tasks when tracking your project's progress.</p>
-						<p>[Project] allows to detect critical tasks automatically. If in the <strong>Options</strong>
+						<p>Ingantt allows to detect critical tasks automatically. If in the <strong>Options</strong>
 							dialog <strong>Highlight critical tasks in the Gantt chart</strong> is checked, such tasks
 							are displayed in red.</p>
 					</section><!--//section-->
@@ -386,7 +375,7 @@
 								</h4>
 								<p>Updating this property updates visual representation of a task and summary tasks
 									above it in the Gantt chart. It also updates <strong>% Complete</strong> column in
-									the task list. But changing this property in [Project] does not affect your
+									the task list. But changing this property in Ingantt does not affect your
 									schedule.</p>
 							</div><!--//content-->
 						</div><!--//callout-block-->
@@ -558,7 +547,7 @@
 								Properties</strong> dialog. Use it for task description, contact information, ideas or
 							any other text data.</p>
 						<p>If a task has <strong>Notes</strong> field filled in, a special icon is shown for the task in
-							the list of tasks. In Windows and Web versions of [Project] hovering the mouse over the icon
+							the list of tasks. In Windows and Web versions of Ingantt hovering the mouse over the icon
 							shows the note.</p>
 					</section><!--//section-->
 
@@ -646,20 +635,19 @@
 					<section class="docs-section" id="circulardep">
 						<h2 class="section-heading">Circular dependencies</h2>
 						<p>If you accidentally create two dependencies between two tasks, making each task a predecessor
-							of the second one, [Project] detects such situations and reverts the last action. There can
+							of the second one, Ingantt detects such situations and reverts the last action. There can
 							be other, more complex situations when such circular dependencies occur, but in all cases
 							they are immediately detected and the last action causing them is reverted.</p>
 					</section><!--//section-->
 
 					<footer class="footer">
-						<div class="container text-center py-5">
-							<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
-							<small class="copyright">Designed with <span class="sr-only">love</span><i
-									class="fas fa-heart" style="color: #fb866a;"></i> by <a class="theme-link"
-									href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for
-								developers</small>
-						</div>
-					</footer>
+                        <div class="container text-center py-5">
+                            <!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+                            <small class="copyright">Copyright &copy; by Ingantt developers, 2023.</small>
+                                    <small class="copyright">Site template designed by <a class="theme-link"
+                                        href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+                        </div>
+                    </footer>
 				</article>
 			</div>
 		</div>
