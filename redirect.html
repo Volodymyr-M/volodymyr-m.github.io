@@ -1,25 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="text/javascript">
-        function redirectToDesktop() {
-          const url = window.location.href.split('#');
-          const appLinkScheme = "ingantt-scheme";
-          const appLinkAuthority = "ingantt.com";
-          const appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?` + url[1];
-          setTimeout(() => {
-            window.location.href = appLinkUrl;
-          }, 100);
-        }
-        window.onload=redirectToDesktop();
-    </script>
-    <title>Ingantt redirect</title>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7X0M8RBRK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-M7X0M8RBRK');
+  </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">
+    function redirectToDesktop() {
+      const url = window.location.href.split('#');
+      const appLinkScheme = "ingantt-scheme";
+      const appLinkAuthority = "ingantt.com";
+      const appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?` + url[1];
+      setTimeout(() => {
+        window.location.href = appLinkUrl;
+      }, 100);
+    }
+    window.onload = redirectToDesktop();
+  </script>
+  <title>Ingantt redirect</title>
 </head>
+
 <body>
-    <p>If Ingantt is not opened for you automatically, click the link below.</p>
-    <p><a href="#" onclick="redirectToDesktop()">Click to redirect</a></p>
+  <p>If Ingantt is not opened for you automatically, click the link below.</p>
+  <p><a href="#" onclick="redirectToDesktop()">Click to redirect</a></p>
 </body>
+
 </html>
