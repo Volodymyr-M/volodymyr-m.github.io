@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <base href="/web/">
 
+<head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-M7X0M8RBRK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-M7X0M8RBRK');
+  </script>
+  <base href="/web/">
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="Ingantt for Web">
@@ -14,11 +22,12 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
+  <link rel="icon" type="image/png" href="favicon.png" />
 
   <title>Ingantt for Web: Project Scheduling App</title>
   <link rel="manifest" href="manifest.json">
 </head>
+
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
@@ -26,10 +35,11 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('flutter-first-frame', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=2482268706');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3174096565');
       });
     }
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
+
 </html>
