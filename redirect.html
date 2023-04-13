@@ -13,6 +13,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
   <script type="text/javascript">
     function redirectToDesktop() {
       const url = window.location.href.split('#');
@@ -25,12 +26,14 @@
     }
     window.onload = redirectToDesktop();
   </script>
-  <title>Ingantt redirect</title>
+  <title>Ingantt opening page</title>
 </head>
 
 <body>
-  <p>If Ingantt is not opened for you automatically, click the link below.</p>
-  <p><a href="#" onclick="redirectToDesktop()">Click to redirect</a></p>
+  <div id="main">
+    <p>Click &quot;<strong>Open Ingantt</strong>&quot; in the dialog that you see to sign in Ingantt to Google.</p>
+    <p>If the dialog is not opened for you automatically, click the link below.</p>
+    <p><a href="#" onclick="redirectToDesktop()">Click to Sign in Ingantt to Google account</a></p>
+  </div>
 </body>
-
 </html>
