@@ -1,0 +1,78 @@
+.btn-super {
+    color: #fff;
+    background-color: #51a852;
+    border-color: #51a852;
+}
+
+.btn-super:hover,
+.btn-super:focus {
+    color: #fff;
+    background: darken(#51a852, 15%);
+    border-color: darken(#51a852, 15%);
+}
+
+.laptop-screen img {
+    width: 1140px;
+}
+
+.phone-screen {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.phone-screen img {
+    width: 205px;
+}
+
+.tablet-screen {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.tablet-screen img {
+    width: 520px;
+}
+
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.container {
+    max-width: 1320px;
+    position: relative;
+}
+
+.app-stores {
+    margin-top: 100px;
+}
+
+.app-stores .btn-text,
+.app-stores .main-text {
+    font-size: 13pt;
+}
+
+.dark-mode {
+    background: #1D1E22;
+}
+
+.dark-mode .site-headline {
+    color: #fff;
+}
+
+.dark-mode .logo-text {
+    color: #fff;
+}
+
+.dark-mode h2 {
+    color: #fff;
+}
+
+.dark-mode .testimonial-section h3 {
+    color: #fff;
+}
