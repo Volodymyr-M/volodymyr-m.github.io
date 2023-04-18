@@ -1,3 +1,8 @@
+.logo-icon {
+    height: 40px;
+    border-radius: 10px;
+}
+
 .btn-super {
     color: #fff;
     background-color: #51a852;
@@ -111,4 +116,60 @@ figure {
 
 .dark-mode .testimonial-section h3 {
     color: #fff;
+}
+
+.hero-section .figure-holder {
+    background: url(../images/hero-figure-light.png) no-repeat right top;
+    background-size: 480px auto;
+    min-height: 600px
+}
+
+.dark-mode .hero-section .figure-holder {
+    background: url(../images/hero-figure-dark.png) no-repeat right top;
+    background-size: 480px auto;
+    min-height: 600px
+}
+
+figure.laptop-screen img {
+    content: url(../images/screens/laptop-screen-light.png);
+}
+
+.dark-mode figure.laptop-screen img {
+    content: url(../images/screens/laptop-screen-dark.png);
+}
+
+figure.tablet-screen img {
+    content: url(../images/screens/tablet-screen-light.png);
+}
+
+.dark-mode figure.tablet-screen img {
+    content: url(../images/screens/tablet-screen-dark.png);
+}
+
+figure.phone-screen img {
+    content: url(../images/screens/phone-screen-light.png);
+}
+
+.dark-mode figure.phone-screen img {
+    content: url(../images/screens/phone-screen-dark.png);
+}
+
+img.product-figure-1 {
+    content: url(../images/product-figure-1-light.png);
+}
+
+.dark-mode img.product-figure-1 {
+    content: url(../images/product-figure-1-dark.png);
+}
+
+.testimonial-carousel {
+    height: 200px;
+ }
+
+img.product-figure-2 {
+    content: url(../images/product-figure-2-light.png);
+}
+
+ .dark-mode img.product-figure-2 {
+    content: url(../images/product-figure-2-dark.png);
 }
