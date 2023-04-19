@@ -5,11 +5,8 @@ layout: page
 	<div class="container">
 		<div class="row figure-holder">
 			<div class="col-12 col-md-6 pt-3 pt-md-4">
-				<h2 class="site-headline font-weight-bold mt-lg-5 pt-lg-5">Similar to MS Project. Available
-					everywhere. Easy to use.</h2>
-				<div class="site-tagline mb-3">Ingantt has advanced functionality allowing you to
-					create complex schedules, plan costs and track your project's progress.
-				</div>
+				<h2 class="site-headline font-weight-bold mt-lg-5 pt-lg-5">{{ site.data.index.main_title }}</h2>
+				<div class="site-tagline mb-3">{{ site.data.index.main_description }}</div>
 				<div class="cta-btns">
 					<div class="mb-4"><a id="tryWeb" class="btn btn-super btn-primary font-weight-bold theme-btn"
 							href="{{ site.data.const.web_url }}" target="_blank">Try FREE Web version</a></div>
@@ -46,11 +43,11 @@ layout: page
 <section class="benefits-section theme-bg-primary py-5">
 	<div class="container py-lg-5">
 		<div class="row">
-			{% for feature in site.features %}
+			{% for feature in site.data.index.main_features %}
 			<div class="item col-12 col-lg-4">
 				<div class="item-inner text-center p-3 p-lg-5">
 					<h3 class="item-title">{{ feature.title }}</h3>
-					<div>{{ feature.content }}</div>
+					<div>{{ feature.text }}</div>
 				</div>
 			</div>
 			{% endfor %}
@@ -64,10 +61,10 @@ layout: page
 
 <section class="logos-section py-5 text-center">
 	<h2 class="section-title">
-		Create schedules everywhere
+		{{ site.data.index.sub_title }}
 	</h2>
 	<div class="section-intro">
-		Ingantt is available on all screen sizes. On the Web, Android and Windows.
+		{{ site.data.index.sub_description }}
 	</div>
 	<div class="figures-wrapper">
 		<div class="container text-center">
@@ -84,20 +81,20 @@ layout: page
 
 <section class="features-section py-5">
 	<div class="container py-lg-5 position-relative">
-		<h3 class="mb-3 text-center font-weight-bold section-heading">Feature Highlights</h3>
+		<h3 class="mb-3 text-center font-weight-bold section-heading">{{ site.data.index.features_title }}</h3>
 		<div class="row pt-5 mb-5">
 			<div class="col-12 col-md-6 col-xl-5 offset-xl-1 d-none d-md-block">
 				<img class="product-figure product-figure-1 img-fluid" src="assets/images/product-figure-1-light.png"
 					alt="" />
 			</div>
 			<div class="col-12 col-md-6 col-xl-5 pr-xl-3 pt-md-3">
-				{% for feature1 in site.features1 %}
+				{% for feature1 in site.data.index.features1 %}
 				<div class="card rounded border-0 shadow-lg  mb-5">
 					<div class="card-body p-4">
 						<h5 class="card-title"><i
 								class="fas fa-laptop-code me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{ feature1.title
 							}}</h5>
-						<p class="card-text">{{ feature1.content }}</p>
+						{{ feature1.text  | markdownify }}
 					</div>
 				</div>
 				{% endfor %}
@@ -109,12 +106,12 @@ layout: page
 					alt="" />
 			</div>
 			<div class="col-12 col-md-6 col-xl-5 order-md-1 offset-xl-1 pt-xl-5">
-				{% for feature2 in site.features2 %}
+				{% for feature2 in site.data.index.features2 %}
 				<div class="card rounded border-0 shadow-lg  mb-5">
 					<div class="card-body p-4">
 						<h5 class="card-title"><i class="fas fa-user me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{
 							feature2.title }}</h5>
-						<p class="card-text">{{ feature2.content }}</p>
+						{{ feature2.text | markdownify }}
 					</div>
 				</div>
 				{% endfor %}
@@ -125,10 +122,8 @@ layout: page
 
 <section class="cta-section py-5 theme-bg-secondary text-center">
 	<div class="container">
-		<h3 class="text-white font-weight-bold mb-3">Registration? Not needed!</h3>
-		<div class="text-white mx-auto single-col-max-width section-intro">Create or open local files with no sign
-			up, or
-			just sign in with your existing Google account to save your files to your Google Drive.</div>
+		<h3 class="text-white font-weight-bold mb-3">{{ site.data.index.sub2_title }}</h3>
+		<div class="text-white mx-auto single-col-max-width section-intro">{{ site.data.index.sub2_description }}</div>
 		<a class="btn theme-btn theme-btn-ghost theme-btn-on-bg mt-4" href="{{ site.data.const.web_url }}"
 			target="_blank">Try Ingantt for Web - it's FREE</a>
 	</div>
@@ -136,7 +131,7 @@ layout: page
 
 <section id="quote" class="testimonial-section py-5">
 	<div class="py-lg-5">
-		<h3 class="mb-5 text-center">Tips</h3>
+		<h3 class="mb-5 text-center">{{ site.data.index.tips_title }}</h3>
 		<div id="testimonial-carousel" class="testimonial-carousel">
 			{% for tip in site.tips %}
 			<div class="carousel-cell">

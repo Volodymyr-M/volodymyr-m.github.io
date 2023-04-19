@@ -185,3 +185,7 @@ section.text h3 {
 section.text {
     padding-bottom: 200px;
 }
+
+.card-body p {
+    margin-top: 15px;
+}
