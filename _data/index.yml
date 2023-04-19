@@ -31,7 +31,7 @@ features1:
     icon: fa-calendar-alt
 
   - title: Set complex task dependencies
-    text: A task doesn't always follow another one. Besides this "Finish to Start" dependency set more advanced ones like "Start to Start" and set Lag or Lead time between tasks.
+    text: A task doesn't always follow another one. Besides this "Finish to Start" dependency, set more advanced ones like "Start to Start" and set Lag or Lead time between tasks.
     icon: fa-link
 
   - title: Edit tasks directly in the Gantt chart

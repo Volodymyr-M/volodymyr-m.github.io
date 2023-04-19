@@ -11,7 +11,9 @@ Personal Information is information or an opinion that identifies an individual.
 
 All data which is received from the user and processed by Ingantt is stored either in local storage local files on the user's own device, or in the user's Google Drive in case the user has explicitly chosen this option and has explicitly enabled this functionality with Google.
 
-Thus, no data is sent to or collected by Ingantt developers.
+MPP files opened from user's computer are sent to Ingantt conversion web service to be converted and sent back in XML format. The files are not stored on the service.
+
+Thus, no data is collected by Ingantt developers.
 
 ### Policy Updates
 
