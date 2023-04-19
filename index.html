@@ -19,8 +19,8 @@ layout: page
 	</div>
 </section>
 
-<section class="benefits-section theme-bg-primary py-5">
-	<div class="container py-lg-5">
+<section class="benefits-section theme-bg-primary">
+	<div class="container">
 		<div class="row">
 			{% for feature in site.data.index.main_features %}
 			<div class="item col-12 col-lg-4">
@@ -71,7 +71,7 @@ layout: page
 				<div class="card rounded border-0 shadow-lg  mb-5">
 					<div class="card-body p-4">
 						<h5 class="card-title"><i
-								class="fas fa-laptop-code me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{ feature1.title
+								class="fas {{ feature1.icon }} me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{ feature1.title
 							}}</h5>
 						{{ feature1.text  | markdownify }}
 					</div>
@@ -88,7 +88,7 @@ layout: page
 				{% for feature2 in site.data.index.features2 %}
 				<div class="card rounded border-0 shadow-lg  mb-5">
 					<div class="card-body p-4">
-						<h5 class="card-title"><i class="fas fa-user me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{
+						<h5 class="card-title"><i class="fas {{ feature2.icon }} me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{
 							feature2.title }}</h5>
 						{{ feature2.text | markdownify }}
 					</div>
