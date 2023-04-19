@@ -181,3 +181,7 @@ img.product-figure-2 {
 section.text h3 {
     margin-top: 50px;
 }
+
+section.text {
+    padding-bottom: 200px;
+}

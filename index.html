@@ -12,13 +12,13 @@ layout: page
 				</div>
 				<div class="cta-btns">
 					<div class="mb-4"><a id="tryWeb" class="btn btn-super btn-primary font-weight-bold theme-btn"
-							href="https://web.ingantt.com" target="_blank">Try FREE Web version</a></div>
+							href="{{ site.data.const.web_url }}" target="_blank">Try FREE Web version</a></div>
 					<ul class="app-stores list-unstyled list-inline mx-auto mx-md-0 d-inline-block">
 						<li class="list-inline-item"><a class="btn btn-primary theme-btn"
-								href="ms-windows-store://pdp/?productid=9NHQ26QV09F6"><svg
-									class="svg-inline--fa fa-windows" aria-hidden="true" focusable="false"
-									data-prefix="fab" data-icon="windows" role="img" xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 448 512" data-fa-i2svg="">
+								href="{{ site.data.const.windows_url }}"><svg class="svg-inline--fa fa-windows"
+									aria-hidden="true" focusable="false" data-prefix="fab" data-icon="windows"
+									role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+									data-fa-i2svg="">
 									<path fill="currentColor"
 										d="M0 93.7l183.6-25.3v177.4H0V93.7zm0 324.6l183.6 25.3V268.4H0v149.9zm203.8 28L448 480V268.4H203.8v177.9zm0-380.6v180.1H448V32L203.8 65.7z">
 									</path>
@@ -26,10 +26,10 @@ layout: page
 									class="btn-text"><span class="intro-text">Get for</span> <span
 										class="main-text">Windows</span></span></a></li>
 						<li class="list-inline-item"><a class="btn btn-primary theme-btn"
-								href="https://play.google.com/store/apps/details?id=com.ingantt_development.ingantt"
-								target="_blank"><svg class="svg-inline--fa fa-android" aria-hidden="true"
-									focusable="false" data-prefix="fab" data-icon="android" role="img"
-									xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+								href="{{ site.data.const.android_url }}" target="_blank"><svg
+									class="svg-inline--fa fa-android" aria-hidden="true" focusable="false"
+									data-prefix="fab" data-icon="android" role="img" xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 576 512" data-fa-i2svg="">
 									<path fill="currentColor"
 										d="M420.5 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.94-83a10 10 0 1 0 -17.27-10h0l-48.54 84.07a301.3 301.3 0 0 0 -246.6 0L116.2 64.45a10 10 0 1 0 -17.27 10h0l47.94 83C64.53 202.2 8.24 285.5 0 384H576c-8.24-98.45-64.54-181.8-146.9-226.6">
 									</path>
@@ -56,7 +56,7 @@ layout: page
 			{% endfor %}
 		</div><!--//row-->
 		<div class="pt-3 text-center">
-			<a class="btn btn-primary theme-btn theme-btn-ghost font-weight-bold" href="https://docs.ingantt.com"
+			<a class="btn btn-primary theme-btn theme-btn-ghost font-weight-bold" href="{{ site.data.const.docs_url }}"
 				target="_blank">Read Documentation</a>
 		</div>
 	</div>
@@ -95,7 +95,8 @@ layout: page
 				<div class="card rounded border-0 shadow-lg  mb-5">
 					<div class="card-body p-4">
 						<h5 class="card-title"><i
-								class="fas fa-laptop-code me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{ feature1.title }}</h5>
+								class="fas fa-laptop-code me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{ feature1.title
+							}}</h5>
 						<p class="card-text">{{ feature1.content }}</p>
 					</div>
 				</div><!--//card-->
@@ -110,12 +111,13 @@ layout: page
 			</div>
 			<div class="col-12 col-md-6 col-xl-5 order-md-1 offset-xl-1 pt-xl-5">
 				{% for feature2 in site.features2 %}
-					<div class="card rounded border-0 shadow-lg  mb-5">
-						<div class="card-body p-4">
-							<h5 class="card-title"><i class="fas fa-user me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{ feature2.title }}</h5>
-							<p class="card-text">{{ feature2.content }}</p>
-						</div>
-					</div><!--//card-->
+				<div class="card rounded border-0 shadow-lg  mb-5">
+					<div class="card-body p-4">
+						<h5 class="card-title"><i class="fas fa-user me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{
+							feature2.title }}</h5>
+						<p class="card-text">{{ feature2.content }}</p>
+					</div>
+				</div><!--//card-->
 				{% endfor %}
 			</div>
 
@@ -130,7 +132,8 @@ layout: page
 		<div class="text-white mx-auto single-col-max-width section-intro">Create or open local files with no sign
 			up, or
 			just sign in with your existing Google account to save your files to your Google Drive.</div>
-		<a class="btn theme-btn theme-btn-ghost theme-btn-on-bg mt-4" href="https://web.ingantt.com" target="_blank">Try
+		<a class="btn theme-btn theme-btn-ghost theme-btn-on-bg mt-4" href="{{ site.data.const.web_url }}"
+			target="_blank">Try
 			Ingantt for Web - it's FREE</a>
 	</div>
 </section><!--//cta-section-->
@@ -141,22 +144,23 @@ layout: page
 		<h3 class="mb-5 text-center">Tips</h3>
 		<div id="testimonial-carousel" class="testimonial-carousel">
 			{% for tip in site.tips %}
-				<div class="carousel-cell">
-					<div class="item-inner shadow rounded">
-						<h5 class="mb-2">{{ tip.title }}</h5>
-						<div class="mb-3">{{ tip.content | markdownify }}</div>
-					</div><!--//item-inner-->
-				</div>
+			<div class="carousel-cell">
+				<div class="item-inner shadow rounded">
+					<h5 class="mb-2">{{ tip.title }}</h5>
+					<div class="mb-3">{{ tip.content | markdownify }}</div>
+				</div><!--//item-inner-->
+			</div>
 			{% endfor %}
 		</div><!--//testimonial-carousel-->
 
 		<div class="pt-5 text-center">
 			<ul class="app-stores list-unstyled list-inline mx-auto mx-md-0 d-inline-block">
-				<li class="list-inline-item"><a class="btn btn-primary theme-btn" href="https://web.ingantt.com"
-						target="_blank"><span class="btn-text"><span class="intro-text">Try FREE</span> <span
-								class="main-text">Web version</span></span></a></li>
 				<li class="list-inline-item"><a class="btn btn-primary theme-btn"
-						href="ms-windows-store://pdp/?productid=9NHQ26QV09F6"><svg class="svg-inline--fa fa-windows"
+						href="{{ site.data.const.web_url }}" target="_blank"><span class="btn-text"><span
+								class="intro-text">Try FREE</span> <span class="main-text">Web version</span></span></a>
+				</li>
+				<li class="list-inline-item"><a class="btn btn-primary theme-btn"
+						href="{{ site.data.const.windows_url }}"><svg class="svg-inline--fa fa-windows"
 							aria-hidden="true" focusable="false" data-prefix="fab" data-icon="windows" role="img"
 							xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
 							<path fill="currentColor"
@@ -166,10 +170,10 @@ layout: page
 							class="btn-text"><span class="intro-text">Get for</span> <span
 								class="main-text">Windows</span></span></a></li>
 				<li class="list-inline-item"><a class="btn btn-primary theme-btn"
-						href="https://play.google.com/store/apps/details?id=com.ingantt_development.ingantt"
-						target="_blank"><svg class="svg-inline--fa fa-android" aria-hidden="true" focusable="false"
-							data-prefix="fab" data-icon="android" role="img" xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 576 512" data-fa-i2svg="">
+						href="{{ site.data.const.android_url }}" target="_blank"><svg
+							class="svg-inline--fa fa-android" aria-hidden="true" focusable="false" data-prefix="fab"
+							data-icon="android" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+							data-fa-i2svg="">
 							<path fill="currentColor"
 								d="M420.5 301.9a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m-265.1 0a24 24 0 1 1 24-24 24 24 0 0 1 -24 24m273.7-144.5 47.94-83a10 10 0 1 0 -17.27-10h0l-48.54 84.07a301.3 301.3 0 0 0 -246.6 0L116.2 64.45a10 10 0 1 0 -17.27 10h0l47.94 83C64.53 202.2 8.24 285.5 0 384H576c-8.24-98.45-64.54-181.8-146.9-226.6">
 							</path>
