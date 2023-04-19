@@ -163,7 +163,7 @@ img.product-figure-1 {
 }
 
 .testimonial-carousel {
-    height: 200px;
+    height: 250px;
  }
 
 img.product-figure-2 {
@@ -172,4 +172,12 @@ img.product-figure-2 {
 
  .dark-mode img.product-figure-2 {
     content: url(../images/product-figure-2-dark.png);
+}
+
+.dark-mode section.text h3 {
+    color: #fff;
+}
+
+section.text h3 {
+    margin-top: 50px;
 }
