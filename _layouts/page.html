@@ -15,14 +15,7 @@
 	<link rel="stylesheet" href="assets/plugins/flickity/flickity.min.css">
 	<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
 	<link id="theme-style" rel="stylesheet" href="assets/css/additional.css">
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-M7X0M8RBRK"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag() { dataLayer.push(arguments); }
-		gtag('js', new Date());
-		gtag('config', 'G-M7X0M8RBRK');
-	</script>
+	{% include google_analytics.html %}
 </head>
 
 <body>
@@ -100,7 +93,8 @@
 		</div>
 		<div class="footer-bottom text-center pb-5">
 			<small class="copyright">&copy; Ingantt Development, 2023. Website template designed by <a
-					href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a></small>
+					href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a>. Google Play and the Google Play logo are trademarks of Google LLC.
+			</small>
 		</div>
 	</footer>
 	<script type="text/javascript" src="assets/plugins/popper.min.js"></script>

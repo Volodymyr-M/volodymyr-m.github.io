@@ -177,3 +177,11 @@ section.text {
 .card-body p {
     margin-top: 15px;
 }
+
+.hero-section .app-stores img.google-badge, .google-badge {
+    height: 76px;
+}
+
+.hero-section .app-stores img.ms-badge, .ms-badge {
+    height: 52px;
+}
