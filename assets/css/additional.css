@@ -178,10 +178,11 @@ section.text {
     margin-top: 15px;
 }
 
-.hero-section .app-stores img.google-badge, .google-badge {
+.hero-section .app-stores img.google-badge {
     height: 76px;
 }
 
-.hero-section .app-stores img.ms-badge, .ms-badge {
-    height: 52px;
+ms-store-badge::part(img) {
+    max-height: 52px;
+    vertical-align: middle;
 }
