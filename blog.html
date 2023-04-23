@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<section class="py-5">
+    <div class="container">
+        {% assign sorted_posts = site.blog_posts | sort:"order" | reverse %}
+        {% for post in sorted_posts %}
+        <div class="card rounded border-0 shadow-lg mb-5 px-5 py-5">
+            <div class="card-body p-4 blog-post">
+                <div class="blog-date">{{ post.published_on }}</div>
+                <h2 class="card-title">{{ post.title }}</h5>
+                {{ post.content | markdownify }}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

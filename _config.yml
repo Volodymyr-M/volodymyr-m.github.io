@@ -1,5 +1,6 @@
 collections:
   tips:
+  blog_posts:
 
 compress_html:
   clippings: all

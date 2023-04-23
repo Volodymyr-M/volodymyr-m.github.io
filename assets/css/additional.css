@@ -186,3 +186,17 @@ ms-store-badge::part(img) {
     max-height: 52px;
     vertical-align: middle;
 }
+
+.blog-date {
+    text-align: right;
+    color: darkgrey;
+    font-size: 10pt;
+}
+
+.dark-mode .blog-post h2 {
+    color: black;
+}
+
+.blog-post p {
+    font-size: 14pt;
+}
