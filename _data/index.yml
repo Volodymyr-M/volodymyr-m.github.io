@@ -44,9 +44,9 @@ features2:
     icon: fa-calendar-day
 
   - title: Use all types of resources
-    text: Assign work, material or cost resources to your tasks and see how this changes schedule, cost or both.
+    text: Assign work, material or cost resources to your tasks and see how this changes your schedule, cost or both.
     icon: fa-user
 
   - title: Level resources
-    text: Be informed if a resource is overallocated and fix this easily with auto-leveling.
+    text: Know if a resource is overallocated and fix this easily with auto-leveling.
     icon: fa-clock-rotate-left
