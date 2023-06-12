@@ -1,8 +1,8 @@
 main_title: Similar to MS Project. Available everywhere. Easy to use.
-main_description: Ingantt has advanced functionality allowing you to create complex schedules, plan costs and track your project's progress.
+main_description: Create project schedules based on Gantt charts, plan costs and track your project's progress with Ingantt.
 
 sub_title: Create schedules everywhere
-sub_description: Ingantt is available on all screen sizes. On the Web, Android and Windows.
+sub_description: Schedule your projects with Gantt chart on Android, Windows and the Web on any device.
 
 sub2_title: Sign up? Not needed!
 sub2_description: Create or open local files with no sign up, or just sign in with your existing Google account to save your files to your Google Drive.
@@ -15,7 +15,7 @@ main_features:
   - title: Plan your project's cost
     text: Set the costs for all types of resources in your project (work, material or cost), apply fixed costs to tasks and see the overall cost of each of your summary tasks.
 
-  - title: Create project schedules with a Gantt chart
+  - title: Create project schedule with Gantt chart
     text: Use your Microsoft Project skills to get started and create a project plan for your project in a much leaner, easier to use tool, yet with the necessary features fully available.
     
   - title: Track your project's progress
