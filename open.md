@@ -18,6 +18,7 @@ If the dialog is not opened for you automatically, click the link below.
       setTimeout(() => {
         window.location.href = appLinkUrl;
       }, 100);
+      return false;
     }
     window.onload = redirectToDesktop();
 </script>
