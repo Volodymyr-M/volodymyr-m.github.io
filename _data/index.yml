@@ -1,4 +1,4 @@
-main_title: Similar to MS Project. Available everywhere. Easy to use.
+main_title: Similar to MS Project. Available everywhere. Now with AI.
 main_description: Create project schedules based on Gantt charts, plan costs and track your project's progress with Ingantt.
 
 sub_title: Create schedules everywhere
@@ -26,17 +26,17 @@ features1:
     text: Open your existing **.MPP** and **.XML** files created by Microsoft Project or compatible software.
     icon: fa-laptop-code
 
-  - title: Edit calendars the way your team works
-    text: Enter holidays, vacations, shorter or longer work days in calendars and see how this changes your schedule.
-    icon: fa-calendar-alt
-
-  - title: Set complex task dependencies
-    text: A task doesn't always follow another one. Besides this "Finish to Start" dependency, set more advanced ones like "Start to Start" and set Lag or Lead time between tasks.
-    icon: fa-link
+  - title: Generate full project plans with AI
+    text: Just enter the description of your project and click a button. AI will do the rest.
+    icon: fa-magic
 
   - title: Edit tasks directly in the Gantt chart
     text: Zoom in and out to get the best view, see the Gantt chart only or list only, use our innovative Edit mode to instantly see your changes to even the most advanced properties.
     icon: fa-chart-bar
+
+  - title: Edit calendars the way your team works
+    text: Enter holidays, vacations, shorter or longer work days in calendars and see how this changes your schedule.
+    icon: fa-calendar-alt
 
 features2:
   - title: Set task deadlines, constraints and more
