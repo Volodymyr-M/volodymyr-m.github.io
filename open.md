@@ -8,7 +8,7 @@ Click "**Open Ingantt**" in the dialog that you see to sign in Ingantt to Google
 Click the link below if:
 
 * If the dialog is not opened for you automatically.
-* If Ingantt is not refreshed with the list of your projects after all the above.
+* If Ingantt is not updated with the list of your Google Drive projects.
 
 <p><a href="#" onclick="redirectToDesktop()">Click to Sign in Ingantt to Google account</a></p>
 
