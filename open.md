@@ -10,7 +10,7 @@ Click the link below if:
 * If the dialog is not opened for you automatically.
 * If Ingantt is not updated with the list of your Google Drive projects.
 
-<p><a href="#" onclick="redirectToDesktop()">Click to Sign in Ingantt to Google account</a></p>
+<p><a id="redirectLink" href="#" onclick="redirectToDesktop()">Click to Sign in Ingantt to Google account</a></p>
 
 <script type="text/javascript">
     function findUrlParameter(parameterName) {
@@ -31,6 +31,9 @@ Click the link below if:
         const idToken = findUrlParameter("id_token");
         const accessToken = findUrlParameter("access_token");
         appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?access_token=${accessToken}&id_token=${idToken}`;
+        const linkElement = document.getElementById('redirectLink');
+        linkElement.href = appLinkUrl;
+        linkElement.removeAttribute('onclick');
       }
       setTimeout(() => {
         window.location.href = appLinkUrl;
