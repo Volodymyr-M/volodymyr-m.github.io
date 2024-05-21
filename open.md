@@ -13,13 +13,24 @@ Click the link below if:
 <p><a href="#" onclick="redirectToDesktop()">Click to Sign in Ingantt to Google account</a></p>
 
 <script type="text/javascript">
-    var appLinkUrl = '';
+    function findUrlParameter(parameterName) {
+      let result = null;
+      const searchParams = new URLSearchParams(location.search);
+      if (searchParams.has(parameterName)) {
+        result = searchParams.get(parameterName);
+      }
+      return result;
+    }
+
+    let appLinkUrl = '';
+
     function redirectToDesktop() {
       if (appLinkUrl == '') {
-        const url = window.location.href.split('#');
         const appLinkScheme = "ingantt-scheme";
         const appLinkAuthority = "ingantt.com";
-        appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?` + url[1];
+        const idToken = findUrlParameter("id_token");
+        const accessToken = findUrlParameter("access_token");
+        appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?access_token=${accessToken}&id_token=${idToken}`;
       }
       setTimeout(() => {
         window.location.href = appLinkUrl;
