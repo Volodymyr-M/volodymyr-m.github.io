@@ -14,9 +14,10 @@ Click the link below if:
 
 <script type="text/javascript">
 
-function getUrlParameter(paramName) {
-  const urlParams = new URLSearchParams(window.location.search);
-  return urlParams.get(paramName);
+function getFragmentParameter(paramName) {
+  const fragment = window.location.hash.substring(1);
+  const params = new URLSearchParams(fragment);
+  return params.get(paramName);
 }
 
 let appLinkUrl = '';
@@ -25,8 +26,8 @@ function redirectToDesktop() {
   if (appLinkUrl === '') {
     const appLinkScheme = "ingantt-scheme";
     const appLinkAuthority = "ingantt.com";
-    const idToken = getUrlParameter("id_token");
-    const accessToken = getUrlParameter("access_token");
+    const idToken = getFragmentParameter("id_token");
+    const accessToken = getFragmentParameter("access_token");
     appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?access_token=${accessToken}&id_token=${idToken}`;
     const linkElement = document.getElementById('redirectLink');
     if (linkElement) {
