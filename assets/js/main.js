@@ -1,11 +1,10 @@
 "use strict";
 
 var elem = document.querySelector('.testimonial-carousel');
-var flkty = new Flickity( elem, {
+var flkty = elem == null ? null : new Flickity( elem, {
     // options
 	contain: true,
 	wrapAround: true,
 	autoPlay: true,
-	percentPosition: false, //carousel-cell is using px width
-  
+	percentPosition: false, //carousel-cell is using px width 
 });
