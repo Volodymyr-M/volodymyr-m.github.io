@@ -1,16 +1,11 @@
 ---
-layout: text
+layout: open
 title: Open Ingantt
 ---
 
-Click "**Open Ingantt**" in the dialog that you see to sign in Ingantt to Google.
+Click "**Open**" in the dialog above.
 
-Click the link below if:
-
-* If the dialog is not opened for you automatically.
-* If Ingantt is not updated with the list of your Google Drive projects.
-
-<p><a id="redirectLink" href="#" onclick="redirectToDesktop()">Click to Sign in Ingantt to Google account</a></p>
+<p><a id="redirectLink" href="#" onclick="redirectToDesktop()">If you don't see a dialog or Ingantt does not sign in, click here</a>.</p>
 
 <script type="text/javascript">
 
