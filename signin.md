@@ -9,10 +9,9 @@ Click "**Open**" in the dialog above.
 
 <script type="text/javascript">
 
-function getFragmentParameter(paramName) {
-  const fragment = window.location.hash.substring(1);
-  const params = new URLSearchParams(fragment);
-  return params.get(paramName);
+function getURLParameter(paramName) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(paramName);
 }
 
 let appLinkUrl = '';
@@ -21,7 +20,7 @@ function redirectToDesktop() {
   if (appLinkUrl === '') {
     const appLinkScheme = "ingantt";
     const appLinkAuthority = "ingantt";
-    const code = getFragmentParameter("code");
+    const code = getURLParameter("code");
     appLinkUrl = `${appLinkScheme}://${appLinkAuthority}/google-auth?code=${code}`;
     const linkElement = document.getElementById('redirectLink');
     if (linkElement) {
