@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OAuth Redirect</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      // Extract the authorization code from the URL
+      const urlParams = new URLSearchParams(window.location.search);
+      const code = urlParams.get('code');
+
+      // Post the code to the parent window
+      if (code) {
+        window.opener.postMessage(`auth_code=${code}`, '*');
+        window.close();
+      }
+    </script>
+  </body>
+</html>
