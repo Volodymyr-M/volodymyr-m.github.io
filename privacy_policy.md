@@ -27,6 +27,10 @@ No other data is shared with any third parties.
 
 No user data is used to develop, improve, or train generalized AI and/or ML models. This includes the user data obtained through Google Workspace APIs.
 
+### Data protection
+
+We implement appropriate technical and organizational measures to protect your data from unauthorized access, loss, or disclosure.
+
 ### Policy Updates
 
 This Policy may change from time to time and is available on our website.
