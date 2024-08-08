@@ -23,6 +23,10 @@ To enable the AI-related functionality, the prompt entered by the user to create
 
 No other data is shared with any third parties.
 
+### Data usage
+
+No user data is used to develop, improve, or train generalized AI and/or ML models. This includes the user data obtained through Google Workspace APIs.
+
 ### Policy Updates
 
 This Policy may change from time to time and is available on our website.
