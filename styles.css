@@ -1,0 +1,459 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* Applying font to the entire body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+/* Header */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #333;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+    color: #4285f4;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #357ae8;
+}
+
+/* Top Section */
+#top-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    text-align: left;
+}
+
+.top-section .text-content {
+    flex: 1;
+    max-width: 45%;
+    padding: 40px;
+}
+
+.top-section h1 {
+    font-weight: 400;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#main-screenshot {
+    flex: 1;
+    max-width: 80%;
+    padding-top: 80px;
+}
+
+#main-screenshot img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.top-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.tip {
+    font-style: italic;
+    color: #777;
+}
+
+.main-button {
+    padding: 15px 30px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 600;
+}
+
+.main-button:hover {
+    background-color: #357ae8;
+}
+
+/* Other Versions Section */
+.other-versions {
+    padding: 10px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.other-versions h2 {
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+#badges-list ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+#badges-list li {
+    display: inline;
+    max-height: 52px;
+}
+
+#android-badge img {
+    max-height: 76px;
+    margin-top: -12px;
+}
+
+ms-store-badge::part(img) {
+    max-height: 52px;
+    vertical-align: middle;
+}
+
+.badge {
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: 500;
+    color: #ffffff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.google-play {
+    background-color: #34a853;
+}
+
+.google-play:hover {
+    background-color: #2c8d43;
+}
+
+.app-store {
+    background-color: #000000;
+}
+
+.app-store:hover {
+    background-color: #333333;
+}
+
+.windows {
+    background-color: #0078d6;
+}
+
+.windows:hover {
+    background-color: #006bb5;
+}
+
+.macos {
+    background-color: #888888;
+}
+
+.macos:hover {
+    background-color: #666666;
+}
+
+/* Features Overview Section */
+.features-overview {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.features-overview .feature {
+    margin-bottom: 30px;
+    text-align: center;
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.features-overview h3 {
+    font-weight: 400;
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.features-overview p {
+    font-size: 1.1em;
+}
+
+/* See How It Works Section */
+.see-how-it-works {
+    padding: 20px 20px;
+    background-color: #f1f1f1;
+   /* border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    text-align: left;
+  /*  margin-top: 20px; */
+}
+
+/*.see-how-it-works > h2 {
+    font-weight: 500;
+    font-size: 1.8em;
+    color: #333;
+    text-align: center;
+}*/
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.tabs {
+    flex: 0 0 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tab-button {
+    font-size: 1em;
+    font-weight: 500;
+    color: #333;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.tab-button:hover {
+    background-color: #f1f1f1;
+}
+
+.tab-button.active {
+    background-color: #4285f4;
+    color: #fff;
+}
+
+.tab-content {
+    flex: 1;
+    padding: 20px 20px 40px 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tab-content h3 {
+    font-weight: 500;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Why Project Planning Software Section */
+.why-project-planning {
+    padding: 40px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.why-project-planning h2 {
+    font-weight: 400;
+    font-size: 1.7em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.item {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    flex: 1 1 calc(33% - 40px);
+    text-align: center;
+}
+
+.icon {
+    font-size: 2em;
+    color:#f6ad01;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    font-weight: 400;
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+
+.item p {
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Randomly Scattered Features Section */
+.scattered-features {
+    position: relative;
+    height: 600px; /* Adjust as needed */
+    margin-top: 40px;
+}
+
+.scattered-item {
+    position: absolute;
+    width: 200px; /* Adjust width as needed */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.quote-icon {
+    font-size: 1.5em;
+    color: #4286f47c;
+    margin: 5px;
+}
+
+/* Randomly position each scattered-item within the section */
+.scattered-item:nth-child(1) { top: 20px; left: 30px; }
+.scattered-item:nth-child(2) { top: 110px; left: 280px; }
+.scattered-item:nth-child(3) { top: 240px; left: 50px; }
+.scattered-item:nth-child(4) { top: 300px; left: 325px; }
+.scattered-item:nth-child(5) { top: 400px; left: 590px; }
+.scattered-item:nth-child(6) { top: 55px; left: 530px; }
+.scattered-item:nth-child(7) { top: 278px; left: 590px; }
+.scattered-item:nth-child(8) { top: 200px; left: 850px; }
+.scattered-item:nth-child(9) { top: 50px; left: 800px; }
+.scattered-item:nth-child(10) { top: 450px; left: 200px; }
+
+/* Frequently Asked Questions Section */
+.faq-section {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.faq-content {
+    flex: 2;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.faq-answer {
+    margin-top: 10px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.faq-toggle {
+    font-size: 1.2em;
+    color: #4285f4;
+}
+
+
+.faq-side-box {
+    flex: 1;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.faq-side-box p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.main-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #4285f4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main-button:hover {
+    background-color: #357ae8;
+}
+
+/* Button Animation */
+.main-button, .badge {
+    transition: transform 0.3s;
+}
+
+.main-button:hover, .badge:hover {
+    transform: translateY(-3px);
+}
