@@ -392,6 +392,13 @@ ms-store-badge::part(img) {
     padding: 20px;
 }
 
+.faq-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
 .faq-content {
     flex: 2;
 }
@@ -434,6 +441,93 @@ ms-store-badge::part(img) {
     margin-bottom: 20px;
 }
 
+/* Call to Action Section */
+.cta-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    margin-top: 40px;
+}
+
+.cta-section img {
+    height: 80px;
+    width: auto;
+    border-radius: 4px;
+    border-color: #777;
+}
+
+.cta-section h3 {
+    font-weight: 500;
+    
+    margin-bottom: 20px;
+}
+
+.platform-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.platform-link {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #4285f4;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.platform-link:hover {
+    background-color: #f1f1f1;
+    color: #357ae8;
+}
+
+/* Footer */
+.footer-section {
+    background-color: #eff2f5;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer-column h3 {
+    font-weight: 500;
+    margin-bottom: 15px;
+
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #526b84;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #4285f4;
+}
+
+
+/* Buttons */
+
 .main-button {
     padding: 10px 20px;
     font-size: 1em;
@@ -449,11 +543,41 @@ ms-store-badge::part(img) {
     background-color: #357ae8;
 }
 
-/* Button Animation */
 .main-button, .badge {
     transition: transform 0.3s;
 }
 
 .main-button:hover, .badge:hover {
     transform: translateY(-3px);
+}
+
+.secondary-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #4285f4;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-button:hover {
+    background-color: #f1f1f1;
+}
+
+.expand-collapse-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #4285f4;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.expand-collapse-button:hover {
+    background-color: #f1f1f1;
+    color: #357ae8;
 }

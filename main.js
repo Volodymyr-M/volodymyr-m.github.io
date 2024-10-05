@@ -43,3 +43,29 @@ function toggleAnswer(element) {
         icon.style.transform = "rotate(0deg)";
     }
 }
+
+function toggleAllAnswers() {
+    const button = document.querySelector('.expand-collapse-button');
+    const allAnswers = document.querySelectorAll('.faq-answer');
+    const allToggles = document.querySelectorAll('.faq-toggle');
+
+    if (button.innerText === "Expand all") {
+        allAnswers.forEach(answer => {
+            answer.style.display = "block";
+        });
+        allToggles.forEach(toggle => {
+            toggle.classList.remove('fa-chevron-down');
+            toggle.classList.add('fa-chevron-up');
+        });
+        button.innerText = "Collapse all";
+    } else {
+        allAnswers.forEach(answer => {
+            answer.style.display = "none";
+        });
+        allToggles.forEach(toggle => {
+            toggle.classList.remove('fa-chevron-up');
+            toggle.classList.add('fa-chevron-down');
+        });
+        button.innerText = "Expand all";
+    }
+}
