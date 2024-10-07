@@ -22,7 +22,7 @@ function toggleAnswer(element) {
     const answer = element.nextElementSibling;
     const icon = element.querySelector('.faq-toggle');
     
-    if (answer.style.display === "block" || answer.style.display === "") {
+    if (answer.style.display === "block") {
         answer.style.display = "none";
         element.classList.remove('active');
         icon.classList.remove('fa-chevron-up');
@@ -35,13 +35,13 @@ function toggleAnswer(element) {
     }
 
     // Add animation effect to the icon
-    icon.style.transition = "transform 0.3s ease";
-     if (icon.classList.contains('fa-chevron-down')) {
-         icon.style.transform = "rotate(90deg)";
+    // icon.style.transition = "transform 0.3s ease";
+    //  if (icon.classList.contains('fa-chevron-down')) {
+    //      icon.style.transform = "rotate(90deg)";
      
-    } else {
-        icon.style.transform = "rotate(0deg)";
-    }
+    // } else {
+    //     icon.style.transform = "rotate(0deg)";
+    // }
 }
 
 function toggleAllAnswers() {

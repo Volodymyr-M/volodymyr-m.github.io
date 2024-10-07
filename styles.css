@@ -71,8 +71,8 @@ body {
 
 .top-section .text-content {
     flex: 1;
-    max-width: 45%;
-    padding: 40px;
+    max-width: 40%;
+    padding: 60px;
 }
 
 .top-section h1 {
@@ -304,14 +304,6 @@ ms-store-badge::part(img) {
     text-align: center;
 }
 
-.why-project-planning h2 {
-    font-weight: 400;
-    font-size: 1.7em;
-    color: #333;
-    margin-top: 0;
-    margin-bottom: 40px;
-}
-
 .item-container {
     display: flex;
     flex-wrap: wrap;
@@ -344,6 +336,71 @@ ms-store-badge::part(img) {
 .item p {
     font-size: 1em;
     line-height: 1.5;
+}
+
+.item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Text and Image Section */
+
+.text-image-section h2 {
+    font-weight: 400;
+    font-size: 1.7em;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.text-image-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.text-image-section .merged-content {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+}
+
+.text-image-section .content-wrapper {
+    background-color: #eee;
+    /*background-color: rgb(241, 238, 232);*/
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+.text-image-section .text-content {
+    flex: 1;
+}
+
+.text-image-section .text-content h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.text-image-section .image-content {
+    flex: 1;
+}
+
+.text-image-section .image-content i {
+    position: relative;
+    top: -26px;
+}
+
+.text-image-section .image-content img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-image-section .content-wrapper.reverse {
+    flex-direction: row-reverse;
 }
 
 /* Randomly Scattered Features Section */
@@ -416,6 +473,7 @@ ms-store-badge::part(img) {
 }
 
 .faq-answer {
+    display: none;
     margin-top: 10px;
     color: #333;
     line-height: 1.6;
@@ -425,7 +483,6 @@ ms-store-badge::part(img) {
     font-size: 1.2em;
     color: #4285f4;
 }
-
 
 .faq-side-box {
     flex: 1;
@@ -441,6 +498,9 @@ ms-store-badge::part(img) {
     margin-bottom: 20px;
 }
 
+.faq-side-box button {
+    margin-bottom: 28px;
+}
 /* Call to Action Section */
 .cta-section {
     text-align: center;
@@ -458,8 +518,11 @@ ms-store-badge::part(img) {
 
 .cta-section h3 {
     font-weight: 500;
-    
     margin-bottom: 20px;
+}
+
+.cta-section .main-button {
+    margin-bottom: 8px;
 }
 
 .platform-links {
@@ -530,7 +593,7 @@ ms-store-badge::part(img) {
 
 .main-button {
     padding: 10px 20px;
-    font-size: 1em;
+    font-size: 1.1em;
     color: #fff;
     background-color: #4285f4;
     border: none;
