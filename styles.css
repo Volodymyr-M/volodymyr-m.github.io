@@ -15,16 +15,20 @@ body {
     width: 80%;
     margin: 0 auto;
     max-width: 1140px;
+    padding: 20px;
 }
 
 /* Header */
+
+header {
+    background-color: #ffffff;
+}
+
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 40px;
-    background-color: #ffffff;
-   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    padding: 20px 60px;
 }
 
 .logo-container {
@@ -60,12 +64,16 @@ body {
 }
 
 /* Top Section */
+
+.top-section {
+    background-color: white;
+}
+
 #top-content {
     display: flex;
     justify-content: space-between;
     align-items: start;
     flex-wrap: wrap;
-    background-color: #ffffff;
     text-align: left;
 }
 
@@ -122,7 +130,6 @@ body {
 
 /* Other Versions Section */
 .other-versions {
-    padding: 10px;
     background-color: #f1f1f1;
     text-align: center;
 }
@@ -228,12 +235,10 @@ ms-store-badge::part(img) {
 
 /* See How It Works Section */
 .see-how-it-works {
-    padding: 20px 20px;
     background-color: #f1f1f1;
    /* border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     text-align: left;
-  /*  margin-top: 20px; */
 }
 
 /*.see-how-it-works > h2 {
@@ -301,12 +306,11 @@ ms-store-badge::part(img) {
 .text-image-section {
     text-align: center;
     background-color: rgb(247, 244, 240);
-    padding: 20px 20px;
 }
 
 .text-image-section h2 {
     font-weight: 400;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #333;
     margin-top: 0;
     margin-bottom: 40px;
@@ -416,7 +420,7 @@ ms-store-badge::part(img) {
 /* Randomly Scattered Features Section */
 .scattered-features {
     position: relative;
-    height: 600px; /* Adjust as needed */
+    height: 555px;
     background-color: #eee;
 }
 
@@ -443,18 +447,17 @@ ms-store-badge::part(img) {
 .scattered-item:nth-child(1) { top: 20px; left: 30px; transform: rotate(-5deg); }
 .scattered-item:nth-child(2) { top: 110px; left: 280px; transform: rotate(5deg); }
 .scattered-item:nth-child(3) { top: 240px; left: 50px; transform: rotate(8deg); }
-.scattered-item:nth-child(4) { top: 300px; left: 325px; width: 300px; transform: rotate(5deg);}
+.scattered-item:nth-child(4) { top: 300px; left: 300px; width: 300px; transform: rotate(-5deg);}
 .scattered-item:nth-child(5) { top: 400px; left: 670px; width: 320px; transform: rotate(-4deg);}
-.scattered-item:nth-child(6) { top: 55px; left: 450px; width: 350px; transform: rotate(7deg);}
-.scattered-item:nth-child(7) { top: 216px; left: 590px; transform: rotate-(5deg);}
-.scattered-item:nth-child(8) { top: 200px; left: 815px; width: 300px; transform: rotate(1deg);}
-.scattered-item:nth-child(9) { top: 50px; left: 830px; width: 290px; transform: rotate(-2deg);}
+.scattered-item:nth-child(6) { top: 55px; left: 410px; width: 350px; transform: rotate(7deg);}
+.scattered-item:nth-child(7) { top: 216px; left: 524px; transform: rotate-(5deg);}
+.scattered-item:nth-child(8) { top: 200px; left: 765px; width: 300px; transform: rotate(1deg);}
+.scattered-item:nth-child(9) { top: 50px; left: 770px; width: 290px; transform: rotate(-2deg);}
 
 /* Frequently Asked Questions Section */
 .faq-section {
     display: flex;
     gap: 20px;
-    padding: 20px;
     background-color: white;
 }
 
@@ -467,6 +470,7 @@ ms-store-badge::part(img) {
 
 .faq-content {
     flex: 2;
+    margin: 40px;
 }
 
 .faq-item {
@@ -500,6 +504,7 @@ ms-store-badge::part(img) {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
+    margin: 40px;
 }
 
 .faq-side-box p {
@@ -513,9 +518,7 @@ ms-store-badge::part(img) {
 /* Call to Action Section */
 .cta-section {
     text-align: center;
-    padding: 40px 20px;
-    background-color: #f9f9f9;
-    margin-top: 40px;
+    background-color: #e6e6e6;
 }
 
 .cta-section img {
