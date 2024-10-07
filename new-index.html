@@ -81,7 +81,8 @@ layout: compress
             <div class="tabs">
                 <button class="tab-button active" onclick="switchTab(0)">Generate project plans with AI</button>
                 <button class="tab-button" onclick="switchTab(1)">Open MS Project files</button>
-                <button class="tab-button" onclick="switchTab(2)">Edit tasks directly in the Gantt chart</button>
+                <button class="tab-button" onclick="switchTab(2)">Create and open project plans from Google Drive</button>
+                <button class="tab-button" onclick="switchTab(3)">Edit tasks directly in the Gantt chart</button>
             </div>
             <div class="tab-content" id="tab-content-0">
                 <h3>Generate project plans with AI</h3>
@@ -98,6 +99,13 @@ layout: compress
                 </div>
             </div>
             <div class="tab-content" id="tab-content-2" style="display: none;">
+                <h3>Create and open project plans from Google Drive</h3>
+                <p>Create and open Ingantt project plans directly from Google Drive's UI.</p>
+                     <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/placeholder2" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="tab-content" id="tab-content-3" style="display: none;">
                 <h3>Edit tasks directly in the Gantt chart</h3>
                 <p>Use our innovative Edit mode to instantly see your changes to even the most advanced properties. </p>
                   <div class="video-container">
@@ -107,14 +115,15 @@ layout: compress
         </div>
     </section>
 
-<!-- Merged Section -->
-<section id="merged-section" class="text-image-section container">
-    <h2>Why Ingantt?</h2>
+<!-- Combined Section -->
+<section id="combined-section" class="text-image-section container">
+    <h2>Why use Ingantt?</h2>
+    <!-- First Row -->
     <div class="merged-content">
-        <!-- Left Part (First Original Section) -->
-        <div class="content-wrapper">
+        <!-- First Content Wrapper -->
+        <div class="content-wrapper feature-item">
             <div class="text-content">
-                <h2>Visualize your project</h2>
+                <h3>Visualize your project</h3>
                 <p>Go beyond the plain list of tasks and assignments by grouping your tasks and using the Gantt chart.</p>
             </div>
             <div class="image-content">
@@ -122,70 +131,67 @@ layout: compress
                 <img src="images/chart.png" alt="Gantt chart illustration">
             </div>
         </div>
-        <!-- Right Part (Second Original Section) -->
-        <div class="content-wrapper reverse">
+        <!-- Second Content Wrapper -->
+        <div class="content-wrapper feature-item">
+            <div class="text-content">
+                <h3>Improve Resource Allocation</h3>
+                <p>Allocate your resources effectively to prevent overburdening your team and avoid resource conflicts during project execution.</p>
+            </div>
             <div class="image-content">
                 <i class="fas fa-users-cog icon"></i>
                 <img src="images/resource_usage.png" alt="Resource allocation illustration">
             </div>
-            <div class="text-content">
-                <h2>Improve Resource Allocation</h2>
-                <p>Allocate your resources effectively to prevent overburdening your team and avoid resource conflicts during project execution.</p>
-            </div>
         </div>
     </div>
-</section>
 
-
-    <!-- Why You Need Project Planning Software Section -->
-    <section id="why-project-planning" class="why-project-planning container">
-        <div class="item-container">           
-            <div class="item">
-                <i class="fas fa-dollar-sign icon"></i>
-                <h3>Plan your project's cost</h3>
-                <p>Set costs for your resources and tasks and see the total cost of your project.</p>
-                <img src="images/cost.png" alt="Cost illustration">
-            </div>
-            <div class="item">
-                <i class="fas fa-sync-alt icon"></i>
-                <h3>Adapt Easily</h3>
-                <p>Adjust project plans on the fly and adapt to changes while keeping everything organized and aligned.</p>
-            </div>
-            <div class="item">
-                <i class="fas fa-chart-line icon"></i>
-                <h3>Track your project's progress</h3>
-                <p>Update your project plan as you go with % complete values for your tasks and see the overall % complete of your project.</p>
-                <img src="images/percent.png" alt="Percent Complete illustration">
-            </div>
+    <!-- Second Row (Items from the second section) -->
+    <div class="item-container">
+        <div class="item">
+            <i class="fas fa-dollar-sign icon"></i>
+            <h3>Plan Project's Costs</h3>
+            <p>Set costs for your resources and tasks and see the total cost of your project.</p>
+            <img src="images/cost.png" alt="Cost illustration">
         </div>
-    </section>
+        <div class="item">
+            <i class="fas fa-sync-alt icon"></i>
+            <h3>Adapt Easily</h3>
+            <p>Adjust project plans on the fly and adapt to changes while keeping everything organized and aligned.</p>
+        </div>
+        <div class="item">
+            <i class="fas fa-chart-line icon"></i>
+            <h3>Track Project's Progress</h3>
+            <p>Update your project plan as you go with % complete values for your tasks and see the overall % complete of your project.</p>
+            <img src="images/percent.png" alt="Percent Complete illustration">
+        </div>
+    </div>
 
-<section id="merged-section" class="text-image-section container">
+    <!-- Third Row -->
     <div class="merged-content">
-        <!-- Left Part (First Original Section) -->
-        <div class="content-wrapper">
+        <!-- Third Content Wrapper -->
+        <div class="content-wrapper feature-item">
             <div class="text-content">
-                <h2>Predict Project Outcome</h2>
+                <h3>Predict Project Outcome</h3>
                 <p>Anticipate completion dates and identify potential roadblocks early.</p>
             </div>
             <div class="image-content">
                 <i class="fas fa-calendar-alt icon"></i>
-                <img src="images/milestone.png" alt="Gantt chart illustration">
+                <img src="images/milestone.png" alt="Milestone illustration">
             </div>
         </div>
-        <!-- Right Part (Second Original Section) -->
-        <div class="content-wrapper reverse">
+        <!-- Fourth Content Wrapper -->
+        <div class="content-wrapper feature-item">
+            <div class="text-content">
+                <h3>Manage Risks</h3>
+                <p>Identify potential project risks and implement contingency plans to minimize the impact on your project goals.</p>
+            </div>
             <div class="image-content">
                 <i class="fas fa-exclamation-triangle icon"></i>
-                <img src="images/resource_usage.png" alt="Resource allocation illustration">
-            </div>
-            <div class="text-content">
-                <h2>Manage Risks</h2>
-                <p>Identify potential project risks and implement contingency plans to minimize the impact on your project goals.</p>
+                <img src="images/resource_usage.png" alt="Risk management illustration">
             </div>
         </div>
     </div>
 </section>
+
 
    <!-- Randomly Scattered Features Section -->
 <section id="scattered-features" class="scattered-features container">
