@@ -225,12 +225,12 @@ ms-store-badge::part(img) {
 
 .features-overview h3 {
     font-weight: 400;
-    font-size: 1.8em;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
 .features-overview p {
-    font-size: 1.1em;
+    font-size: 1.0em;
 }
 
 /* See How It Works Section */
@@ -302,6 +302,11 @@ ms-store-badge::part(img) {
     margin-top: 20px;
 }
 
+.video-container iframe {
+    aspect-ratio: 16 / 9;
+    width: 80% !important;
+}
+
 /* Text and Image Section */
 .text-image-section {
     text-align: center;
@@ -357,12 +362,6 @@ ms-store-badge::part(img) {
 .text-image-section .image-content {
     flex: 1;
     text-align: center;
-}
-
-.text-image-section .image-content i {
-    font-size: 2em;
-    color: #f6ad01;
-    margin-bottom: 10px;
 }
 
 .text-image-section .image-content img {
