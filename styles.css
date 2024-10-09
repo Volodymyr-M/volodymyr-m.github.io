@@ -136,7 +136,7 @@ header {
 
 .other-versions h2 {
     font-weight: 400;
-    font-size: 1.4em;
+    font-size: 1.2em;
     margin-bottom: 20px;
 }
 
@@ -305,7 +305,7 @@ ms-store-badge::part(img) {
 /* Text and Image Section */
 .text-image-section {
     text-align: center;
-    background-color: rgb(247, 244, 240);
+    background-color: white;
 }
 
 .text-image-section h2 {
@@ -330,7 +330,7 @@ ms-store-badge::part(img) {
     display: flex;
     align-items: center;
     gap: 20px;
-    padding: 40px;
+    padding: 20px;
     border-radius: 15px;
     box-sizing: border-box;
 }
@@ -344,13 +344,13 @@ ms-store-badge::part(img) {
 }
 
 .text-image-section .text-content h3 {
-    font-size: 1.4em;
+    font-size: 1.1em;
     font-weight: 400;
     margin-bottom: 10px;
 }
 
 .text-image-section .text-content p {
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.5;
 }
 
@@ -402,12 +402,12 @@ ms-store-badge::part(img) {
 
 .item h3 {
     font-weight: 400;
-    font-size: 1.4em;
+    font-size: 1.1em;
     margin-bottom: 10px;
 }
 
 .item p {
-    font-size: 1em;
+    font-size: 0.9em;
     line-height: 1.5;
 }
 
@@ -548,7 +548,7 @@ ms-store-badge::part(img) {
     padding: 10px 20px;
     font-size: 1em;
     color: #4285f4;
-    background-color: transparent;
+    background-color: white;
     border: 1px solid #ccc;
     border-radius: 5px;
     text-decoration: none;
