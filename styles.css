@@ -340,6 +340,11 @@ ms-store-badge::part(img) {
     box-sizing: border-box;
 }
 
+.content-wrapper .text-content h3 i {
+    margin-right: 10px;
+    color: #4286f47c;
+}
+
 .text-image-section .content-wrapper.reverse {
     flex-direction: row-reverse;
 }
@@ -393,16 +398,15 @@ ms-store-badge::part(img) {
     box-sizing: border-box;
 }
 
-.item .icon {
-    font-size: 2em;
-    color: #f6ad01;
-    margin-bottom: 10px;
-}
-
 .item h3 {
     font-weight: 400;
     font-size: 1.1em;
     margin-bottom: 10px;
+}
+
+.item h3 i {
+    margin-right: 10px;
+    color: #4286f47c;;
 }
 
 .item p {
