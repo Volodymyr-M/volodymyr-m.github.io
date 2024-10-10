@@ -122,6 +122,7 @@ header {
     cursor: pointer;
     transition: background-color 0.3s ease;
     font-weight: 600;
+    text-decoration: none;
 }
 
 .main-button:hover {
@@ -515,8 +516,8 @@ ms-store-badge::part(img) {
     margin-bottom: 20px;
 }
 
-.faq-side-box button {
-    margin-bottom: 28px;
+.faq-side-box div {
+    margin-bottom: 44px;
 }
 /* Call to Action Section */
 .cta-section {
@@ -534,6 +535,10 @@ ms-store-badge::part(img) {
 .cta-section h3 {
     font-weight: 500;
     margin-bottom: 20px;
+}
+
+.cta-section .button-container {
+    margin-bottom: 44px;
 }
 
 .cta-section .main-button {
@@ -638,6 +643,7 @@ ms-store-badge::part(img) {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 
 .secondary-button:hover {
