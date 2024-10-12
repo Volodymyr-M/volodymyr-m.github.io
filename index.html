@@ -1,136 +1,334 @@
 ---
 layout: default
 ---
-<section class="hero-section">
-	<div class="container">
-		<div class="row figure-holder">
-			<div class="col-12 col-md-6 pt-3 pt-md-4">
-				<h2 class="site-headline font-weight-bold mt-lg-5 pt-lg-5">{{ site.data.index.main_title }}</h2>
-				<div class="site-tagline mb-3">{{ site.data.index.main_description }}</div>
-				<div class="cta-btns">
-					<div class="mb-4">{% include button_web.html %}</div>
-					<ul class="app-stores list-unstyled list-inline mx-auto mx-md-0 d-inline-block">
-						<li class="list-inline-item">{% include badge_windows.html %}</li>
-						<li class="list-inline-item">{% include badge_android.html %}</li>
-						<li class="list-inline-item">{% include badge_macos.html %}</li>
-						<li class="list-inline-item">{% include badge_ios.html %}</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
+<!-- Top Section -->
+<section id="top-section" class="top-section container">
+    <div id="top-content">
+        <div class="text-content">
+            <h1>Collaborative MS Project alternative for the Web</h1>
+            <p>Plan, schedule, and track your projects directly within Google Workspace with the help of AI &ndash; even
+                in a mobile web browser!</p>
+            <p class="tip">Also works with Google Drive for Gmail users!</p>
+            <div><a class="main-button" href="{{ site.data.const.workspace_url }}" target="_blank">Try Ingantt for Web
+                    for Free</a></div>
+        </div>
+        <div id="main-screenshot">
+            <img src="images/screen.png" alt="Ingantt interface screenshot within Google Workspace">
+        </div>
+    </div>
 </section>
 
-<section class="benefits-section theme-bg-primary">
-	<div class="container">
-		<div class="row">
-			{% for feature in site.data.index.main_features %}
-			<div class="item col-12 col-lg-4">
-				<div class="item-inner text-center p-3 p-lg-5">
-					<h3 class="item-title">{{ feature.title }}</h3>
-					<div>{{ feature.text }}</div>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-		<div class="pt-3 text-center">
-			<a class="btn btn-primary theme-btn theme-btn-ghost font-weight-bold" href="{{ site.data.const.docs_url }}"
-				target="_blank">Read Documentation</a>
-		</div>
-	</div>
+<!-- Other Versions Section -->
+<section id="other-versions" class="other-versions container">
+    <h2>Need a native version for personal use?</h2>
+    <div id="badges-list">
+        <ul>
+            <li>{% include badge_windows.html %}</li>
+            <li id="android-badge">{% include badge_android.html %}</li>
+            <li>{% include badge_macos.html %}</li>
+            <li>{% include badge_ios.html %}</li>
+        </ul>
+        <div>
 </section>
 
-<section class="logos-section py-5 text-center">
-	<h2 class="section-title">
-		{{ site.data.index.sub_title }}
-	</h2>
-	<div class="section-intro">
-		{{ site.data.index.sub_description }}
-	</div>
-	<div class="figures-wrapper">
-		<div class="container text-center">
-			<figure class="laptop-screen"><img class="img-fluid" src="assets/images/screens/laptop-screen-light.png"
-					alt="">
-			</figure>
-			<figure class="tablet-screen"><img class="img-fluid" src="assets/images/screens/tablet-screen-light.png" alt="">
-			</figure>
-			<figure class="phone-screen"><img class="img-fluid" src="assets/images/screens/phone-screen-light.png" alt="">
-			</figure>
-		</div>
-	</div>
+<!-- Features Overview Section -->
+<section id="features-overview" class="features-overview container">
+    <div class="feature">
+        <h3>Import or create project plans</h3>
+        <p>Import from MS Project, use AI or your planning skills to get started and create a project plan in an
+            easy-to-use, full-featured tool.</p>
+    </div>
+    <div class="feature">
+        <h3>Collaborate on your project plans</h3>
+        <p>Use Google Drive's or Ingantt's built-in sharing feature to share your project plans with others on Google
+            Drive.</p>
+    </div>
+    <div class="feature">
+        <h3>Export or print your project plans</h3>
+        <p>Export your project plan as a Gantt chart or a Microsoft Project file to PNG, PDF or XML format. Ingantt uses
+            the XML format natively.</p>
+    </div>
 </section>
 
-<section class="features-section py-5">
-	<div class="container py-lg-5 position-relative">
-		<h3 class="mb-3 text-center font-weight-bold section-heading">{{ site.data.index.features_title }}</h3>
-		<div class="row pt-5 mb-5">
-			<div class="col-12 col-md-6 col-xl-5 offset-xl-1 d-none d-md-block">
-				<img class="product-figure product-figure-1 img-fluid" src="assets/images/product-figure-1-light.png"
-					alt="" />
-			</div>
-			<div class="col-12 col-md-6 col-xl-5 pr-xl-3 pt-md-3">
-				{% for feature1 in site.data.index.features1 %}
-				<div class="card rounded border-0 shadow-lg  mb-5">
-					<div class="card-body p-4">
-						<h5 class="card-title"><i
-								class="fas {{ feature1.icon }} me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{ feature1.title
-							}}</h5>
-						{{ feature1.text  | markdownify }}
-					</div>
-				</div>
-				{% endfor %}
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12 col-md-6 col-xl-5 order-md-2 pr-xl-3 d-none d-md-block">
-				<img class="product-figure product-figure-2 img-fluid" src="assets/images/product-figure-2-light.png"
-					alt="" />
-			</div>
-			<div class="col-12 col-md-6 col-xl-5 order-md-1 offset-xl-1 pt-xl-5">
-				{% for feature2 in site.data.index.features2 %}
-				<div class="card rounded border-0 shadow-lg  mb-5">
-					<div class="card-body p-4">
-						<h5 class="card-title"><i class="fas {{ feature2.icon }} me-2 me-lg-3 text-primary fa-lg fa-fw"></i>{{
-							feature2.title }}</h5>
-						{{ feature2.text | markdownify }}
-					</div>
-				</div>
-				{% endfor %}
-			</div>
-		</div>
-	</div>
+<!-- Videos Section -->
+<section id="see-how-it-works" class="see-how-it-works container">
+    <div class="content-container">
+        <div class="tabs">
+            <button class="tab-button active" onclick="switchTab(0)">Generate project plans with AI</button>
+            <button class="tab-button" onclick="switchTab(1)">Open MS Project files</button>
+            <button class="tab-button" onclick="switchTab(2)">Create and open project plans from Google Drive</button>
+            <button class="tab-button" onclick="switchTab(3)">Edit tasks directly in the Gantt chart</button>
+        </div>
+        <div class="tab-content" id="tab-content-0">
+            <h3>Generate project plans with AI</h3>
+            <p>Just enter the description of your project and click a button. AI will do the rest.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/66MmRFr16Lk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="tab-content" id="tab-content-1" style="display: none;">
+            <h3>Open MS Project files</h3>
+            <p>Open your existing .MPP and .XML files created by Microsoft Project or compatible software.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/66MmRFr16Lk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="tab-content" id="tab-content-2" style="display: none;">
+            <h3>Create and open project plans from Google Drive</h3>
+            <p>Create and open Ingantt project plans directly from Google Drive's UI.</p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/66MmRFr16Lk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="tab-content" id="tab-content-3" style="display: none;">
+            <h3>Edit tasks directly in the Gantt chart</h3>
+            <p>Use our innovative Edit mode to instantly see your changes to even the most advanced properties. </p>
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/66MmRFr16Lk" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="cta-section py-5 theme-bg-secondary text-center">
-	<div class="container">
-		<h3 class="text-white font-weight-bold mb-3">{{ site.data.index.sub2_title }}</h3>
-		<div class="text-white mx-auto single-col-max-width section-intro">{{ site.data.index.sub2_description }}</div>
-		<a class="btn theme-btn theme-btn-ghost theme-btn-on-bg mt-4" href="{{ site.data.const.web_url }}"
-			target="_blank">Try Ingantt for Web for FREE</a>
-	</div>
+<!-- Combined Section -->
+<section id="combined-section" class="text-image-section container">
+    <h2>Why use Ingantt?</h2>
+    <!-- First Row -->
+    <div class="merged-content">
+        <!-- First Content Wrapper -->
+        <div class="content-wrapper feature-item">
+            <div class="text-content">
+                <h3><i class="fas fa-chart-line"></i> Visualize your project</h3>
+                <p>Go beyond the plain list of tasks and assignments by grouping your tasks and using the Gantt chart.
+                </p>
+            </div>
+            <div class="image-content">
+                <img src="images/chart.png" alt="Gantt chart illustration">
+            </div>
+        </div>
+        <!-- Second Content Wrapper -->
+        <div class="content-wrapper feature-item">
+            <div class="text-content">
+                <h3><i class="fas fa-flag-checkered"></i> Predict Project Outcome</h3>
+                <p>Anticipate completion dates and identify potential roadblocks early.</p>
+            </div>
+            <div class="image-content">
+                <img src="images/milestone.png" alt="Milestone illustration">
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Row (Items from the second section) -->
+    <div class="item-container">
+        <div class="item">
+            <h3><i class="fas fa-dollar-sign"></i> Plan Project's Costs</h3>
+            <p>Set costs for your resources and tasks and see the total cost of your project.</p>
+            <img src="images/cost.png" alt="Cost illustration">
+        </div>
+        <div class="item">
+            <h3><i class="fas fa-sync-alt"></i> Adapt Easily</h3>
+            <p>Adjust project plans on the fly and adapt to changes while keeping everything organized and aligned.</p>
+        </div>
+        <div class="item">
+            <h3><i class="fas fa-chart-pie"></i> Track Project's Progress</h3>
+            <p>Update your project plan as you go with % complete values for your tasks and see the overall % complete
+                of your project.</p>
+            <img src="images/percent.png" alt="Percent Complete illustration">
+        </div>
+    </div>
+
+    <!-- Third Row -->
+    <div class="merged-content">
+        <!-- Third Content Wrapper -->
+        <div class="content-wrapper feature-item">
+            <div class="text-content">
+                <h3><i class="fas fa-user-check"></i> Improve Resource Allocation</h3>
+                <p>Allocate your resources effectively to prevent overburdening your team and avoid resource conflicts
+                    during project execution.</p>
+            </div>
+            <div class="image-content">
+                <img src="images/resource_usage.png" alt="Resource allocation illustration">
+            </div>
+        </div>
+        <!-- Fourth Content Wrapper -->
+        <div class="content-wrapper feature-item">
+            <div class="text-content">
+                <h3><i class="fas fa-exclamation-triangle"></i> Manage Risks</h3>
+                <p>Identify potential project risks and implement contingency plans to minimize the impact on your
+                    project goals.</p>
+            </div>
+            <div class="image-content">
+                <img src="images/resource_usage.png" alt="Risk management illustration">
+            </div>
+        </div>
+    </div>
 </section>
 
-<section id="quote" class="testimonial-section py-5">
-	<div class="py-lg-5">
-		<h3 class="mb-5 text-center">{{ site.data.index.tips_title }}</h3>
-		<div id="testimonial-carousel" class="testimonial-carousel">
-			{% for tip in site.tips %}
-			<div class="carousel-cell">
-				<div class="item-inner shadow rounded">
-					<h5 class="mb-2">{{ tip.title }}</h5>
-					<div class="mb-3">{{ tip.content | markdownify }}</div>
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-		<div class="pt-5 text-center">
-			<ul class="app-stores list-unstyled list-inline mx-auto mx-md-0 d-inline-block">
-				<li class="list-inline-item">{% include button_web.html %}</li>
-				<li class="list-inline-item">{% include button_windows.html %}</li>
-				<li class="list-inline-item">{% include button_android.html %}</li>
-				<li class="list-inline-item">{% include button_macos.html %}</li>
-				<li class="list-inline-item">{% include button_ios.html %}</li>
-			</ul>
-		</div>
-	</div>
+
+<!-- Randomly Scattered Features Section -->
+<section id="scattered-features" class="scattered-features container">
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        The best Gantt app that also doesn't lock you to its own file format or its own cloud storage.
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        Full power of MS Project in your pocket!
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        Intuitive, structured Gantt charts can be created with milestones and resource planning, including manual
+        progress tracking.
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        Performs faster [than competitors], since I can feel that scrolling the timeline and opening the project feels
+        really fast compared to the other apps. Thumbs up!
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        I also use it as an MPP viewer and editor for Microsoft Project files.
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        Finally some Microsoft Project alternative which works great, especially on iPad!
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        Excellent program!
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        AI project plan generation is a game changer for me. I use it as a starting point and inspiration for my project
+        plans. It literally saves me from forgetting to add some of the tasks and underestimating my projects!
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+    <div class="scattered-item">
+        <i class="fas fa-quote-left quote-icon"></i>
+        It works as expected and I am really happy for this.
+        <i class="fas fa-quote-right quote-icon"></i>
+    </div>
+</section>
+
+<!-- Frequently Asked Questions Section -->
+<section id="faq-section" class="faq-section container">
+    <div class="faq-content">
+        <div class="faq-header">
+            <h2>Frequently Asked Questions</h2>
+            <button class="expand-collapse-button" onclick="toggleAllAnswers()">Expand all</button>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <h3>What is Ingantt?</h3>
+                <i class="fas fa-chevron-down faq-toggle"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Ingantt is a project planning tool that integrates with Google Workspace, allowing users to create,
+                    manage, and track projects effectively with AI-powered features.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <h3>What are the differences between Ingantt versions?</h3>
+                <i class="fas fa-chevron-down faq-toggle"></i>
+            </div>
+            <div class="faq-answer">
+                <p><strong>Ingantt for Web </strong>version works in both desktop and mobile web browsers, has the
+                    ability to share project plans and is integrated with Google Workspace and Google Drive.</p>
+                <p><strong>4 platform-specific versions</strong>: Windows, Android, macOS and iOS are native apps for
+                    each platform available through the corresponding Store. While they have the ability to save files
+                    to Google Drive, they are intended for personal use.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <h3>What is the price?</h3>
+                <i class="fas fa-chevron-down faq-toggle"></i>
+            </div>
+            <div class="faq-answer">
+                <p><strong>Ingantt for Web</strong> is available in 2 subscription types: Monthly ($4.5 per month per
+                    user) or Yearly ($45 per year per user).</p>
+                <p><strong>4 platform-specific versions</strong>: Windows, Android, macOS and iOS have fixed prices per
+                    installation as mentioned in the corresponding Store.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <h3>Can I try Ingantt before comitting?</h3>
+                <i class="fas fa-chevron-down faq-toggle"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, <strong>Ingantt for Web</strong> has a free 30-day trial. <a
+                        href="{{ site.data.const.workspace_url }}" target="_blank">Click here to start your free
+                        trial.</a></p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <h3>How can I buy Ingantt for Web for my company?</h3>
+                <i class="fas fa-chevron-down faq-toggle"></i>
+            </div>
+            <div class="faq-answer">
+                <p><a href="{{ site.data.const.web_url }}" target="_blank">Sign in to Ingantt</a> with your Google
+                    account, click on your avatar in the top right corner and choose &quot;<em>Purchase
+                        subsciptions</em>&quot;. Check &quot;<em>I want to purchase subscriptions for others</em>&quot;
+                    and enter Google-account emails of your coworkers. Choose the plan that best fits your needs and
+                    proceed to checkout.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <h3>Where and how my data is stored?</h3>
+                <i class="fas fa-chevron-down faq-toggle"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Ingantt stores your data either on your local computer or in your Google Workspace or Google Drive
+                    account.</p>
+                <p>Ingantt saves your project plans in XML format that is fully compatible with Microsoft Project.</p>
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question" onclick="toggleAnswer(this)">
+                <h3>Can I import my existing project plans?</h3>
+                <i class="fas fa-chevron-down faq-toggle"></i>
+            </div>
+            <div class="faq-answer">
+                <p>Yes, Ingantt allows you to import your existing MS Project (.MPP or .XML) files for seamless
+                    integration and project continuity.</p>
+            </div>
+        </div>
+    </div>
+    <div class="faq-side-box">
+        <p>Get started planning with Ingantt</p>
+        <div><a class="secondary-button" href="{{ site.data.const.docs_url }}" target="_blank">Go to Documentation</a>
+        </div>
+        <p>Have more questions? Contact a real person for support!</p>
+        <div><a class="secondary-button" href="mailto:support@ingantt.com">Email us</a></div>
+    </div>
+</section>
+
+<!-- Call to Action Section -->
+<section id="cta-section" class="cta-section container">
+    <img src="images/icon.png" alt="Ingantt Logo">
+    <h3>Ready for a Web-based collaborative planning tool?</h3>
+    <div class="button-container"><a class="main-button" href="{{ site.data.const.workspace_url }}" target="_blank">Try
+            Ingantt for Web for Free</a></div>
+    <h3>Or need a personal project planning tool for your operating system?</h3>
+    <div class="platform-links">
+        <a href="{{ site.data.const.android_url }}" target="_blank" class="platform-link android"><i
+                class="fab fa-android"></i> Android</a>
+        <a href="{{ site.data.const.windows_url }}" target="_blank" class="platform-link windows"><i
+                class="fab fa-windows"></i> Windows</a>
+        <a href="{{ site.data.const.ios_url }}" target="_blank" class="platform-link macos"><i class="fab fa-apple"></i>
+            iOS</a>
+        <a href="{{ site.data.const.macos_url }}" target="_blank" class="platform-link ios"><i class="fab fa-apple"></i>
+            macOS</a>
+    </div>
 </section>
