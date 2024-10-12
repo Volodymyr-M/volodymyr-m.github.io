@@ -3,7 +3,7 @@ layout: text
 title: Terms of Service
 ---
 
-Welcome to Ingantt! By using our web app, you agree to the following terms and conditions:
+Welcome to Ingantt! By using our app, you agree to the following terms and conditions:
 
 ### 1. Acceptance of Terms
 

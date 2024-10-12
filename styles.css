@@ -31,9 +31,10 @@ header {
     padding: 20px 60px;
 }
 
-.logo-container {
+.logo-container a {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
 .logo {
@@ -265,7 +266,7 @@ ms-store-badge::part(img) {
 .tab-button {
     font-size: 1em;
     font-weight: 500;
-    color: #333;
+    color: #4285f4;
     background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 5px;
@@ -275,13 +276,13 @@ ms-store-badge::part(img) {
     text-align: left;
 }
 
-.tab-button:hover {
+.tab-button.active {
     background-color: #f1f1f1;
+    color: #333;
 }
 
-.tab-button.active {
-    background-color: #4285f4;
-    color: #fff;
+.tab-button:hover {
+    background-color: #f1f1f1;
 }
 
 .tab-content {
@@ -319,7 +320,6 @@ ms-store-badge::part(img) {
     font-size: 1.5em;
     color: #333;
     margin-top: 0;
-    margin-bottom: 40px;
 }
 
 .text-image-section .merged-content {
@@ -424,7 +424,7 @@ ms-store-badge::part(img) {
 /* Randomly Scattered Features Section */
 .scattered-features {
     position: relative;
-    height: 555px;
+    height: 510px;
     background-color: #eee;
 }
 
@@ -448,9 +448,9 @@ ms-store-badge::part(img) {
 }
 
 /* Randomly position each scattered-item within the section */
-.scattered-item:nth-child(1) { top: 20px; left: 30px; transform: rotate(-5deg); }
+.scattered-item:nth-child(1) { top: 20px; left: 70px; transform: rotate(-5deg); }
 .scattered-item:nth-child(2) { top: 110px; left: 280px; transform: rotate(5deg); }
-.scattered-item:nth-child(3) { top: 240px; left: 50px; transform: rotate(8deg); }
+.scattered-item:nth-child(3) { top: 240px; left: 80px; transform: rotate(8deg); }
 .scattered-item:nth-child(4) { top: 300px; left: 300px; width: 300px; transform: rotate(-5deg);}
 .scattered-item:nth-child(5) { top: 400px; left: 670px; width: 320px; transform: rotate(-4deg);}
 .scattered-item:nth-child(6) { top: 55px; left: 410px; width: 350px; transform: rotate(7deg);}
@@ -664,4 +664,31 @@ ms-store-badge::part(img) {
 .expand-collapse-button:hover {
     background-color: #f1f1f1;
     color: #357ae8;
+}
+
+.text-section, .blog-section {
+    background-color: #fff;
+}
+
+.text-section .text-content, .blog-section .blog-content {
+    padding: 60px;;
+}
+
+.card {
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 60px;
+    margin-bottom: 60px;
+    border: 1px solid #eee;
+}
+
+.blog-content .blog-date {
+    text-align: right;
+    font-size: 10pt;
+    color: darkgray;
+}
+
+.text-content h2 {
+    font-size: 1.8em;
+    text-align: center;
 }

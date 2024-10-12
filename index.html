@@ -164,7 +164,6 @@ layout: default
     </div>
 </section>
 
-
 <!-- Randomly Scattered Features Section -->
 <section id="scattered-features" class="scattered-features container">
     <div class="scattered-item">
@@ -224,86 +223,18 @@ layout: default
             <h2>Frequently Asked Questions</h2>
             <button class="expand-collapse-button" onclick="toggleAllAnswers()">Expand all</button>
         </div>
+        {% assign sorted_faqs = site.faq | sort:"order" %}
+        {% for faq in sorted_faqs %}
         <div class="faq-item">
             <div class="faq-question" onclick="toggleAnswer(this)">
-                <h3>What is Ingantt?</h3>
+                <h3>{{ faq.title }}</h3>
                 <i class="fas fa-chevron-down faq-toggle"></i>
             </div>
             <div class="faq-answer">
-                <p>Ingantt is a project planning tool that integrates with Google Workspace, allowing users to create,
-                    manage, and track projects effectively with AI-powered features.</p>
+                {{ faq.content | markdownify }}
             </div>
         </div>
-        <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-                <h3>What are the differences between Ingantt versions?</h3>
-                <i class="fas fa-chevron-down faq-toggle"></i>
-            </div>
-            <div class="faq-answer">
-                <p><strong>Ingantt for Web </strong>version works in both desktop and mobile web browsers, has the
-                    ability to share project plans and is integrated with Google Workspace and Google Drive.</p>
-                <p><strong>4 platform-specific versions</strong>: Windows, Android, macOS and iOS are native apps for
-                    each platform available through the corresponding Store. While they have the ability to save files
-                    to Google Drive, they are intended for personal use.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-                <h3>What is the price?</h3>
-                <i class="fas fa-chevron-down faq-toggle"></i>
-            </div>
-            <div class="faq-answer">
-                <p><strong>Ingantt for Web</strong> is available in 2 subscription types: Monthly ($4.5 per month per
-                    user) or Yearly ($45 per year per user).</p>
-                <p><strong>4 platform-specific versions</strong>: Windows, Android, macOS and iOS have fixed prices per
-                    installation as mentioned in the corresponding Store.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-                <h3>Can I try Ingantt before comitting?</h3>
-                <i class="fas fa-chevron-down faq-toggle"></i>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, <strong>Ingantt for Web</strong> has a free 30-day trial. <a
-                        href="{{ site.data.const.workspace_url }}" target="_blank">Click here to start your free
-                        trial.</a></p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-                <h3>How can I buy Ingantt for Web for my company?</h3>
-                <i class="fas fa-chevron-down faq-toggle"></i>
-            </div>
-            <div class="faq-answer">
-                <p><a href="{{ site.data.const.web_url }}" target="_blank">Sign in to Ingantt</a> with your Google
-                    account, click on your avatar in the top right corner and choose &quot;<em>Purchase
-                        subsciptions</em>&quot;. Check &quot;<em>I want to purchase subscriptions for others</em>&quot;
-                    and enter Google-account emails of your coworkers. Choose the plan that best fits your needs and
-                    proceed to checkout.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-                <h3>Where and how my data is stored?</h3>
-                <i class="fas fa-chevron-down faq-toggle"></i>
-            </div>
-            <div class="faq-answer">
-                <p>Ingantt stores your data either on your local computer or in your Google Workspace or Google Drive
-                    account.</p>
-                <p>Ingantt saves your project plans in XML format that is fully compatible with Microsoft Project.</p>
-            </div>
-        </div>
-        <div class="faq-item">
-            <div class="faq-question" onclick="toggleAnswer(this)">
-                <h3>Can I import my existing project plans?</h3>
-                <i class="fas fa-chevron-down faq-toggle"></i>
-            </div>
-            <div class="faq-answer">
-                <p>Yes, Ingantt allows you to import your existing MS Project (.MPP or .XML) files for seamless
-                    integration and project continuity.</p>
-            </div>
-        </div>
+        {% endfor %}
     </div>
     <div class="faq-side-box">
         <p>Get started planning with Ingantt</p>
