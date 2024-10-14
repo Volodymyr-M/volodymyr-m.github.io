@@ -343,7 +343,7 @@ ms-store-badge::part(img) {
 
 .content-wrapper .text-content h3 i {
     margin-right: 10px;
-    color: #4286f47c;
+    color: #f6ad01;
 }
 
 .text-image-section .content-wrapper.reverse {
@@ -407,7 +407,7 @@ ms-store-badge::part(img) {
 
 .item h3 i {
     margin-right: 10px;
-    color: #4286f47c;;
+    color: #f6ad01;
 }
 
 .item p {
@@ -686,6 +686,10 @@ ms-store-badge::part(img) {
     text-align: right;
     font-size: 10pt;
     color: darkgray;
+}
+
+.blog-content .card {
+    padding: 30px 60px 60px 60px;
 }
 
 .text-content h2 {
