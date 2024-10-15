@@ -696,3 +696,209 @@ ms-store-badge::part(img) {
     font-size: 1.8em;
     text-align: center;
 }
+
+/* Top Section: Make text and images stack on smaller screens */
+@media (max-width: 768px) {
+    #top-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-section .text-content {
+        max-width: 90%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    #main-screenshot {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    #main-screenshot img {
+        max-width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    .top-section h1 {
+        font-size: 1.8em;
+    }
+
+    .top-section p {
+        font-size: 1em;
+    }
+
+    .main-button {
+        font-size: 1em;
+        padding: 10px 20px;
+    }
+
+    .header-content {
+        padding: 0;
+    }
+}
+
+/* Other Versions Section */
+@media (max-width: 768px) {
+    .other-versions h2 {
+        font-size: 1.2em;
+    }
+
+    #badges-list ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #badges-list li {
+        margin-bottom: 10px;
+    }
+}
+
+/* Features Overview Section: Stack features vertically on smaller screens */
+@media (max-width: 768px) {
+    .features-overview {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .features-overview .feature {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Combined Section: Stack text and images vertically */
+@media (max-width: 768px) {
+    .merged-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-content {
+        text-align: center;
+    }
+
+    .image-content img {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Text (Article) Section & Blog */
+@media (max-width: 768px) {
+    .text-section .text-content {
+        padding: 0;
+    }
+
+    .blog-section .blog-content {
+        padding: 0;
+    }
+
+    .card, .blog-content .card {
+        padding: 20px;
+    }
+}
+
+/* Item Container */
+@media (max-width: 768px) {
+    .item-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .item {
+        max-width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Scattered Features Section: Adjust the positioning for smaller screens */
+@media (max-width: 768px) {
+    .scattered-features {
+        height: auto;
+        padding: 20px;
+    }
+
+    .scattered-item,
+    .scattered-item:nth-child(1),
+    .scattered-item:nth-child(2),
+    .scattered-item:nth-child(3),
+    .scattered-item:nth-child(4),
+    .scattered-item:nth-child(5),
+    .scattered-item:nth-child(6),
+    .scattered-item:nth-child(7),
+    .scattered-item:nth-child(8),
+    .scattered-item:nth-child(9)
+    {
+            width: 90%;
+            margin-bottom: 20px;
+            transform: none;
+            left: 0;
+            top: 0;
+            position: relative;
+    }
+}
+
+/* FAQ Section */
+@media (max-width: 768px) {
+    .faq-section {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .faq-side-box {
+        margin: 20px 0;
+        padding: 10px;
+    }
+
+    .faq-content {
+        padding: 10px;
+    }
+}
+
+/* CTA Section */
+@media (max-width: 768px) {
+    .cta-section {
+        padding: 20px 10px;
+    }
+
+    .cta-section img {
+        height: 60px;
+        width: auto;
+    }
+
+    .cta-section h3 {
+        font-size: 1.2em;
+    }
+
+    .platform-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .platform-link {
+        text-align: center;
+    }
+}
+
+/* Footer */
+@media (max-width: 768px) {
+    .footer-section {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+    }
+
+    .footer-column {
+        min-width: 100%;
+        text-align: center;
+    }
+}
