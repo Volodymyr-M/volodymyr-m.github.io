@@ -73,7 +73,7 @@ header {
 #top-content {
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: center;
     flex-wrap: wrap;
     text-align: left;
 }
@@ -81,7 +81,7 @@ header {
 .top-section .text-content {
     flex: 1;
     max-width: 40%;
-    padding: 0 60px 0 60px;
+    padding: 0 60px 60px 60px;
 }
 
 .top-section h1 {
@@ -107,26 +107,10 @@ header {
     margin-bottom: 20px;
 }
 
-.tip {
+.top-section p.tip {
     font-style: italic;
     color: #777;
-}
-
-.main-button {
-    padding: 15px 30px;
     font-size: 1em;
-    color: #fff;
-    background-color: #4285f4;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-.main-button:hover {
-    background-color: #357ae8;
 }
 
 /* Other Versions Section */
@@ -614,15 +598,17 @@ ms-store-badge::part(img) {
     padding: 10px 20px;
     font-size: 1.1em;
     color: #fff;
-    background-color: #4285f4;
+    background-color: #f6ad01;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-weight: 600;
+    text-decoration: none;
 }
 
 .main-button:hover {
-    background-color: #357ae8;
+    background-color: #ffc130;
 }
 
 .main-button, .badge {
