@@ -81,7 +81,7 @@ header {
 .top-section .text-content {
     flex: 1;
     max-width: 40%;
-    padding: 60px;
+    padding: 0 60px 0 60px;
 }
 
 .top-section h1 {
@@ -93,7 +93,6 @@ header {
 #main-screenshot {
     flex: 1;
     max-width: 80%;
-    padding-top: 80px;
 }
 
 #main-screenshot img {
