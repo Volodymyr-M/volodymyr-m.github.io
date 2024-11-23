@@ -9,7 +9,7 @@ layout: default
             <p>Plan, schedule, and track your projects directly within Google Workspace with the help of AI &ndash; even
                 in a mobile web browser!</p>
             <p class="tip">Also works with Google Drive for Gmail users!</p>
-            <div><a class="main-button" href="{{ site.data.const.workspace_url }}" target="_blank">Try Ingantt for Web
+            <div><a class="main-button" data-label="topCTA" href="{{ site.data.const.workspace_url }}" target="_blank">Try Ingantt for Web
                     for Free</a></div>
         </div>
         <div id="main-screenshot">
@@ -251,7 +251,7 @@ layout: default
 <section id="cta-section" class="cta-section container">
     <img src="images/icon.png" alt="Ingantt Logo">
     <h3>Ready for a Web-based collaborative planning tool?</h3>
-    <div class="button-container"><a class="main-button" href="{{ site.data.const.workspace_url }}" target="_blank">Try
+    <div class="button-container"><a class="main-button" data-label="bottomCTA" href="{{ site.data.const.workspace_url }}" target="_blank">Try
             Ingantt for Web for Free</a></div>
     <h3>Or need a personal project planning tool for your operating system?</h3>
     <div class="platform-links">
@@ -265,3 +265,15 @@ layout: default
             macOS</a>
     </div>
 </section>
+
+<script>
+document.querySelectorAll('.main-button').forEach(function(element) {
+    element.addEventListener('click', function() {
+        const label = element.getAttribute('data-label') || 'Unknown';
+        gtag('event', 'try_web_click', {
+            'event_category': 'click',
+            'event_label': label
+        });
+    });
+});
+</script>
