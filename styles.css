@@ -1,14 +1,26 @@
 /* Importing Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
+:root {
+    --primary-color: #f6ad01;
+    --primary-color-hover: #ffc130;
+    --secondary-color: #526b84;
+    --secondary-color-hover: #4285f4;
+    --background-color: #f9f9f9;
+    --text-color: #333;
+    --dark-gray: #777;
+    --light-gray: #eee;
+    --dark-text-color: #526b84;
+}
+
 /* Applying font to the entire body */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: var(--background-color);
+    color: var(--text-color);
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .container {
@@ -45,7 +57,7 @@ header {
 .logo-text {
     font-size: 1.5em;
     font-weight: 700;
-    color: #333;
+    color: var(--text-color);
 }
 
 .nav-links {
@@ -221,7 +233,7 @@ ms-store-badge::part(img) {
 /* See How It Works Section */
 .see-how-it-works {
     background-color: #f1f1f1;
-   /* border-radius: 10px;
+    /* border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     text-align: left;
 }
@@ -368,7 +380,8 @@ ms-store-badge::part(img) {
     margin-bottom: 40px;
 }
 
-.feature-item, .item {
+.feature-item,
+.item {
     background-color: #eee;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -413,7 +426,8 @@ ms-store-badge::part(img) {
 
 .scattered-item {
     position: absolute;
-    width: 200px; /* Adjust width as needed */
+    width: 200px;
+    /* Adjust width as needed */
     padding: 20px;
     background-color: #ffffff;
     border-radius: 5px;
@@ -431,15 +445,64 @@ ms-store-badge::part(img) {
 }
 
 /* Randomly position each scattered-item within the section */
-.scattered-item:nth-child(1) { top: 20px; left: 70px; transform: rotate(-5deg); }
-.scattered-item:nth-child(2) { top: 110px; left: 280px; transform: rotate(5deg); }
-.scattered-item:nth-child(3) { top: 240px; left: 80px; transform: rotate(8deg); }
-.scattered-item:nth-child(4) { top: 300px; left: 300px; width: 300px; transform: rotate(-5deg);}
-.scattered-item:nth-child(5) { top: 400px; left: 670px; width: 320px; transform: rotate(-4deg);}
-.scattered-item:nth-child(6) { top: 55px; left: 410px; width: 350px; transform: rotate(7deg);}
-.scattered-item:nth-child(7) { top: 216px; left: 524px; transform: rotate-(5deg);}
-.scattered-item:nth-child(8) { top: 200px; left: 765px; width: 300px; transform: rotate(1deg);}
-.scattered-item:nth-child(9) { top: 50px; left: 770px; width: 290px; transform: rotate(-2deg);}
+.scattered-item:nth-child(1) {
+    top: 20px;
+    left: 70px;
+    transform: rotate(-5deg);
+}
+
+.scattered-item:nth-child(2) {
+    top: 110px;
+    left: 280px;
+    transform: rotate(5deg);
+}
+
+.scattered-item:nth-child(3) {
+    top: 240px;
+    left: 80px;
+    transform: rotate(8deg);
+}
+
+.scattered-item:nth-child(4) {
+    top: 300px;
+    left: 300px;
+    width: 300px;
+    transform: rotate(-5deg);
+}
+
+.scattered-item:nth-child(5) {
+    top: 400px;
+    left: 670px;
+    width: 320px;
+    transform: rotate(-4deg);
+}
+
+.scattered-item:nth-child(6) {
+    top: 55px;
+    left: 410px;
+    width: 350px;
+    transform: rotate(7deg);
+}
+
+.scattered-item:nth-child(7) {
+    top: 216px;
+    left: 524px;
+    transform: rotate-(5deg);
+}
+
+.scattered-item:nth-child(8) {
+    top: 200px;
+    left: 765px;
+    width: 300px;
+    transform: rotate(1deg);
+}
+
+.scattered-item:nth-child(9) {
+    top: 50px;
+    left: 770px;
+    width: 290px;
+    transform: rotate(-2deg);
+}
 
 /* Frequently Asked Questions Section */
 .faq-section {
@@ -502,6 +565,7 @@ ms-store-badge::part(img) {
 .faq-side-box div {
     margin-bottom: 44px;
 }
+
 /* Call to Action Section */
 .cta-section {
     text-align: center;
@@ -595,27 +659,36 @@ ms-store-badge::part(img) {
 /* Buttons */
 
 .main-button {
-    padding: 10px 20px;
+    padding: 12px 24px;
     font-size: 1.1em;
-    color: #fff;
-    background-color: #f6ad01;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
     font-weight: 600;
+    color: #fff;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
     text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .main-button:hover {
-    background-color: #ffc130;
+    background-color: var(--primary-color-hover);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-.main-button, .badge {
+.main-button:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.main-button,
+.badge {
     transition: transform 0.3s;
 }
 
-.main-button:hover, .badge:hover {
+.main-button:hover,
+.badge:hover {
     transform: translateY(-3px);
 }
 
@@ -651,12 +724,15 @@ ms-store-badge::part(img) {
     color: #357ae8;
 }
 
-.text-section, .blog-section {
+.text-section,
+.blog-section {
     background-color: #fff;
 }
 
-.text-section .text-content, .blog-section .blog-content {
-    padding: 60px;;
+.text-section .text-content,
+.blog-section .blog-content {
+    padding: 60px;
+    ;
 }
 
 .card {
@@ -787,7 +863,8 @@ ms-store-badge::part(img) {
         padding: 0;
     }
 
-    .card, .blog-content .card {
+    .card,
+    .blog-content .card {
         padding: 20px;
     }
 }
@@ -821,14 +898,13 @@ ms-store-badge::part(img) {
     .scattered-item:nth-child(6),
     .scattered-item:nth-child(7),
     .scattered-item:nth-child(8),
-    .scattered-item:nth-child(9)
-    {
-            width: 90%;
-            margin-bottom: 20px;
-            transform: none;
-            left: 0;
-            top: 0;
-            position: relative;
+    .scattered-item:nth-child(9) {
+        width: 90%;
+        margin-bottom: 20px;
+        transform: none;
+        left: 0;
+        top: 0;
+        position: relative;
     }
 }
 
