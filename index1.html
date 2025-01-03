@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingantt - Modern Project Management in Google Workspace</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="light-mode">
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="Ingantt Logo" class="logo-img">
+                <span class="logo-text">Ingantt</span>
+            </div>
+            <div class="nav-right">
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#" class="cta-button primary">Start Free Trial</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <h1>AI-Powered Project Management in Google Workspace</h1>
+                        <p class="hero-subtitle">Transform your project planning with intelligent Gantt charts, seamless collaboration, and AI assistance - all within your Google Drive.</p>
+                        <div class="cta-group">
+                            <a href="#" class="cta-button primary">Start Free Trial</a>
+                        </div>
+                        <div class="hero-badges">
+                            <img src="images/google-workspace.png" alt="Google Workspace Badge" class="workspace-badge">
+                            <div class="rating">
+                                <div class="stars">★★★★★</div>
+                                <span>4.8/5 on Workspace Marketplace</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-image-wrapper">
+                            <img src="images/screen.png" alt="Ingantt interface" class="floating">
+                            <div class="hero-shape-1"></div>
+                            <div class="hero-shape-2"></div>
+                            <div class="hero-shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section class="features">
+            <div class="container">
+                <h2>Why Teams Choose Ingantt</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI-Powered Planning</h3>
+                        <p>Generate complete project plans from simple descriptions using our advanced AI assistant.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Native Google Integration</h3>
+                        <p>Works seamlessly with Google Drive, making collaboration natural and effortless.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-file-import"></i>
+                        <h3>MS Project Compatible</h3>
+                        <p>Import and export .MPP files with full fidelity - no data loss, no compromises.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Works Everywhere</h3>
+                        <p>Full functionality on desktop, tablet, and mobile - no app installation needed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Demo Section -->
+        <section id="demo" class="demo">
+            <div class="container">
+                <h2>See Ingantt in Action</h2>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/66MmRFr16Lk" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Proof -->
+        <section class="testimonials">
+            <div class="container">
+                <h2>Trusted by Project Managers Worldwide</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"Finally, a proper MS Project alternative that works in the browser. The AI features are game-changing!"</p>
+                        <div class="author">
+                            <img src="images/avatar1.jpg" alt="User avatar">
+                            <div>
+                                <strong>Sarah Chen</strong>
+                                <span>Senior PM at TechCorp</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"The Google Drive integration is seamless. It's like it was always part of Google Workspace."</p>
+                        <div class="author">
+                            <img src="images/avatar2.jpg" alt="User avatar">
+                            <div>
+                                <strong>Mark Johnson</strong>
+                                <span>Program Director</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"Love how I can access my project plans from any device. The mobile experience is fantastic!"</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Features Section -->
+         <section class="features-detailed">
+            <div class="container">
+                <h2>Everything You Need for Successful Project Management</h2>
+                <p class="section-subtitle">Powerful features designed for modern project managers</p>
+                
+                <div class="features-tabs">
+                    <div class="features-nav">
+                        <button class="feature-tab active" data-tab="planning">
+                            <i class="fas fa-brain"></i>
+                            Planning
+                        </button>
+                        <button class="feature-tab" data-tab="collaboration">
+                            <i class="fas fa-users"></i>
+                            Collaboration
+                        </button>
+                        <button class="feature-tab" data-tab="tracking">
+                            <i class="fas fa-chart-line"></i>
+                            Tracking
+                        </button>
+                        <button class="feature-tab" data-tab="integration">
+                            <i class="fas fa-plug"></i>
+                            Integration
+                        </button>
+                    </div>
+
+                    <div class="features-content">
+                        <div class="feature-panel active" id="planning">
+                            <div class="feature-details">
+                                <div class="feature-text">
+                                    <h3>AI-Powered Planning</h3>
+                                    <ul class="feature-list">
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>AI Project Generator</h4>
+                                                <p>Create complete project plans from simple text descriptions using advanced AI</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Smart Task Dependencies</h4>
+                                                <p>Automatically identify and suggest task dependencies based on your project structure</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Resource Optimization</h4>
+                                                <p>AI-powered resource leveling and optimization suggestions</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="feature-image">
+                                    <img src="images/ai-planning.png" alt="AI Planning Feature">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-panel" id="collaboration">
+                            <div class="feature-details">
+                                <div class="feature-text">
+                                    <h3>Seamless Collaboration</h3>
+                                    <ul class="feature-list">
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Real-time Updates</h4>
+                                                <p>See changes instantly as your team updates the project plan</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Google Drive Integration</h4>
+                                                <p>Share and collaborate using familiar Google Drive permissions</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Comment & Discuss</h4>
+                                                <p>Add comments and discuss tasks directly within the project plan</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="feature-image">
+                                    <img src="images/collaboration.png" alt="Collaboration Features">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-panel" id="tracking">
+                            <div class="feature-details">
+                                <div class="feature-text">
+                                    <h3>Advanced Tracking</h3>
+                                    <ul class="feature-list">
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Progress Monitoring</h4>
+                                                <p>Track completion percentage and milestone progress in real-time</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Resource Usage</h4>
+                                                <p>Monitor resource allocation and identify potential bottlenecks</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Timeline Analysis</h4>
+                                                <p>Analyze critical path and track schedule variations</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="feature-image">
+                                    <img src="images/tracking.png" alt="Tracking Features">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="feature-panel" id="integration">
+                            <div class="feature-details">
+                                <div class="feature-text">
+                                    <h3>Powerful Integrations</h3>
+                                    <ul class="feature-list">
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>MS Project Compatibility</h4>
+                                                <p>Import and export .MPP files with complete fidelity</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Google Calendar Sync</h4>
+                                                <p>Sync milestones and deadlines with Google Calendar</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <i class="fas fa-check"></i>
+                                            <div>
+                                                <h4>Export Options</h4>
+                                                <p>Export to PDF, Excel, and other popular formats</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="feature-image">
+                                    <img src="images/integration.png" alt="Integration Features">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="pricing">
+            <div class="container">
+                <h2>Simple, Transparent Pricing</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Free Trial</h3>
+                            <div class="price">$0</div>
+                            <span>14 days</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Full Feature Access</li>
+                            <li><i class="fas fa-check"></i> AI Project Generation</li>
+                            <li><i class="fas fa-check"></i> MS Project Import/Export</li>
+                            <li><i class="fas fa-check"></i> Google Drive Integration</li>
+                        </ul>
+                        <a href="#" class="cta-button secondary">Start Trial</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="pricing-header">
+                            <h3>Professional</h3>
+                            <div class="price">$3.5</div>
+                            <span>per user/month</span>
+                            <div class="annual-price">or $35/user annually</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Everything in Free Trial</li>
+                            <li><i class="fas fa-check"></i> Unlimited Projects</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                        </ul>
+                        <a href="#" class="cta-button primary">Start Trial</a>
+                    </div>
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Enterprise</h3>
+                            <div class="price">Custom</div>
+                            <span>for large teams</span>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Everything in Professional</li>
+                            <li><i class="fas fa-check"></i> Custom Integration</li>
+                            <li><i class="fas fa-check"></i> Dedicated Support</li>
+                            <li><i class="fas fa-check"></i> SLA Guarantee</li>
+                        </ul>
+                        <a href="#" class="cta-button secondary">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What is Ingantt and how does it work with Google Workspace?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Ingantt is a professional project management tool that integrates seamlessly with Google Workspace. It allows you to create, manage, and share project plans directly from your Google Drive, making collaboration effortless for teams already using Google's ecosystem.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Can I import my existing Microsoft Project files?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! Ingantt fully supports importing .MPP and .XML files from Microsoft Project. All your project data, including tasks, resources, and dependencies, will be preserved during the import process.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>How does the AI project generation work?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our AI assistant can generate complete project plans from simple text descriptions. Just describe your project goals and requirements, and the AI will create a structured plan with tasks, timelines, and dependencies based on best project management practices.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What's included in the free trial?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>The 14-day free trial includes all Professional plan features: AI project generation, MS Project import/export, unlimited projects, and full Google Workspace integration. No credit card required to start.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Can I use Ingantt on mobile devices?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes! Ingantt works on any device with a web browser. Our responsive interface adapts perfectly to mobile phones and tablets, giving you full access to your projects on the go.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What happens to my data if I cancel my subscription?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Your project files remain safely stored in your Google Drive even after cancellation. You can export them anytime in various formats, including MS Project format, ensuring you never lose access to your data.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Transform Your Project Management?</h2>
+                <p>Join thousands of successful project managers who've made the switch to Ingantt.</p>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-button primary">Start Free Trial</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Enterprise</a></li>
+                        <li><a href="#">Security</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Legal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ingantt. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggler
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const icon = themeToggle.querySelector('i');
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            icon.classList.toggle('fa-moon');
+            icon.classList.toggle('fa-sun');
+        });
+
+        // FAQ toggles
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                // Toggle this answer
+                answer.style.maxHeight = answer.style.maxHeight ? null : answer.scrollHeight + 'px';
+                icon.classList.toggle('fa-chevron-up');
+                icon.classList.toggle('fa-chevron-down');
+                
+                // Close other answers
+                document.querySelectorAll('.faq-answer').forEach(otherAnswer => {
+                    if (otherAnswer !== answer && otherAnswer.style.maxHeight) {
+                        otherAnswer.style.maxHeight = null;
+                        otherAnswer.previousElementSibling.querySelector('i').classList.remove('fa-chevron-up');
+                        otherAnswer.previousElementSibling.querySelector('i').classList.add('fa-chevron-down');
+                    }
+                });
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Features tabs
+        const featureTabs = document.querySelectorAll('.feature-tab');
+        const featurePanels = document.querySelectorAll('.feature-panel');
+
+        featureTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                // Remove active class from all tabs and panels
+                featureTabs.forEach(t => t.classList.remove('active'));
+                featurePanels.forEach(p => p.classList.remove('active'));
+
+                // Add active class to clicked tab and corresponding panel
+                tab.classList.add('active');
+                document.getElementById(tab.dataset.tab).classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
