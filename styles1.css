@@ -3,21 +3,28 @@
     /* Light Mode Colors */
     --primary-color: #4f46e5;
     --primary-hover: #4338ca;
-    --secondary-color: #64748b;
-    --secondary-hover: #475569;
-    --background: #e2e8f0;
-    --surface: #cbd5e1;
+    --secondary-color: #475569;
+    --secondary-hover: #334155;
+    --background: #f8fafc;
+    --surface: #ffffff;
+    --surface-alt: #f1f5f9;
     --text-primary: #0f172a;
-    --text-secondary: #475569;
-    --border: #94a3b8;
-    --shadow: rgba(79, 70, 229, 0.1);
-    
+    --text-secondary: #334155;
+    --border: #e2e8f0;
+    --shadow: rgba(79, 70, 229, 0.12);
+    --star-color: #f7dc6f;
     /* Accents */
-    --accent-1: #06b6d4;
-    --accent-2: #8b5cf6;
-    --accent-3: #ec4899;
-    --gradient-1: linear-gradient(135deg, var(--primary-color), var(--accent-1));
-    --gradient-2: linear-gradient(135deg, var(--accent-2), var(--accent-3));
+    --accent-1: #0284c7;
+    --accent-2: #7c3aed;
+    --accent-3: #db2777;
+    --gradient-1: linear-gradient(135deg, #7c3aed, #0284c7);
+    --gradient-2: linear-gradient(135deg, #db2777, #7c3aed);
+    
+    /* Shadows */
+    --shadow-sm: 0 2px 4px rgba(15, 23, 42, 0.06);
+    --shadow-md: 0 4px 6px -1px rgba(15, 23, 42, 0.08);
+    --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08);
+    --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.08);
     
     /* Other Variables */
     --spacing-xs: 0.5rem;
@@ -40,15 +47,24 @@
     --secondary-hover: #cbd5e1;
     --background: #0f172a;
     --surface: #1e293b;
+    --surface-alt: #151e2f;
     --text-primary: #f8fafc;
-    --text-secondary: #cbd5e1;
-    --border: #334155;
-    --shadow: rgba(129, 140, 248, 0.1);
-    
+    --text-secondary: #e2e8f0;
+    --border: #2d3a4f;
+    --shadow: rgba(0, 0, 0, 0.25);
+    --star-color: #f7dc6f;
     /* Dark Mode Accents */
-    --accent-1: #22d3ee;
+    --accent-1: #38bdf8;
     --accent-2: #a78bfa;
     --accent-3: #f472b6;
+    --gradient-1: linear-gradient(135deg, #a78bfa, #38bdf8);
+    --gradient-2: linear-gradient(135deg, #f472b6, #a78bfa);
+    
+    /* Dark Mode Shadows */
+    --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.3);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
 }
 
 /* Base Styles */
@@ -242,6 +258,12 @@ h1 {
     right: -50px;
 }
 
+.hero .stars {
+    color: var(--star-color);
+    font-size: 1.25rem;
+    margin-right: 0.5rem;
+}
+
 /* Buttons & CTAs */
 .cta-group {
     display: flex;
@@ -283,7 +305,7 @@ h1 {
 /* Features Section */
 .features {
     padding: var(--spacing-xl) 0;
-    background-color: var(--surface);
+    background: var(--surface-alt);
 }
 
 .features h2 {
@@ -362,7 +384,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54 28h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6V4zm-6 36h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm36-20h6v4h-6v-4zm-36 0h6v4h-6v-4zm36 36h6v4h-6v-4zm-36 0h6v4h-6v-4z' fill='currentColor' fill-opacity='0.05'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54 28h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6V4zm-6 36h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm36-20h6v4h-6v-4zm-36 0h6v4h-6v-4zm36 36h6v4h-6v-4zm-36 0h6v4h-6v-4z' fill='currentColor' fill-opacity='0.05'/%3E%3C/svg%3E");
     background-size: 60px 60px;
     opacity: 0.03;
     pointer-events: none;
@@ -600,8 +622,8 @@ h1 {
 /* Demo Section */
 .demo {
     padding: var(--spacing-xl) 0;
-    background: var(--surface);
     position: relative;
+    background: var(--surface);
     overflow: hidden;
 }
 
@@ -613,28 +635,35 @@ h1 {
     width: 100%;
     height: 100%;
     background: 
-        radial-gradient(circle at 0% 0%, var(--primary-color) 0%, transparent 50%),
-        radial-gradient(circle at 100% 100%, var(--accent-2) 0%, transparent 50%);
-    opacity: 0.08;
+        radial-gradient(circle 80vh at 20% 30%, var(--accent-1) 0%, transparent 60%),
+        radial-gradient(circle 80vh at 80% 70%, var(--accent-2) 0%, transparent 60%);
+    opacity: 0.15;
     pointer-events: none;
 }
 
 .demo::after {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: 
-        linear-gradient(45deg, var(--primary-color) 25%, transparent 25%),
-        linear-gradient(-45deg, var(--primary-color) 25%, transparent 25%),
-        linear-gradient(45deg, transparent 75%, var(--primary-color) 75%),
-        linear-gradient(-45deg, transparent 75%, var(--primary-color) 75%);
-    background-size: 60px 60px;
-    background-position: 0 0, 0 30px, 30px -30px, -30px 0px;
-    opacity: 0.03;
+    inset: 0;
+    background: 
+        radial-gradient(circle 100vh at 70% 20%, var(--accent-1) 0%, transparent 60%),
+        radial-gradient(circle 100vh at 30% 80%, var(--accent-1) 0%, transparent 60%);
+    opacity: 0.2;
     pointer-events: none;
+}
+
+.dark-mode .demo::before {
+    background: 
+        radial-gradient(circle 80vh at 20% 30%, var(--accent-3) 0%, transparent 60%),
+        radial-gradient(circle 80vh at 80% 70%, var(--accent-2) 0%, transparent 60%);
+    opacity: 0.3;
+}
+
+.dark-mode .demo::after {
+    background: 
+        radial-gradient(circle 100vh at 70% 20%, var(--primary-color) 0%, transparent 60%),
+        radial-gradient(circle 100vh at 30% 80%, var(--primary-color) 0%, transparent 60%);
+    opacity: 0.25;
 }
 
 .demo .container {
@@ -675,8 +704,8 @@ h1 {
 
 .dark-mode .demo::before {
     background: 
-        radial-gradient(circle at 0% 0%, var(--accent-1) 0%, transparent 50%),
-        radial-gradient(circle at 100% 100%, var(--accent-2) 0%, transparent 50%);
+        radial-gradient(circle 80vh at 20% 30%, var(--accent-1) 0%, transparent 60%),
+        radial-gradient(circle 80vh at 80% 70%, var(--accent-2) 0%, transparent 60%);
     opacity: 0.07;
 }
 
@@ -712,7 +741,7 @@ h1 {
 /* Testimonials */
 .testimonials {
     padding: var(--spacing-xl) 0;
-    background-color: var(--surface);
+    background: var(--surface-alt);
 }
 
 .testimonials-grid {
@@ -722,29 +751,25 @@ h1 {
 }
 
 .testimonial-card {
-    background-color: var(--background);
+    background: var(--surface);
     padding: var(--spacing-lg);
     border-radius: var(--radius-lg);
-    box-shadow: 0 4px 6px var(--shadow);
+    border: 1px solid var(--border);
+    box-shadow: var(--shadow-md);
+    transition: all var(--transition-normal);
 }
 
+.testimonial-card:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--primary-color);
+}
+
+.testimonial-card .rating i,
 .testimonial-card .quote {
-    color: #fbbf24;
+    color: var(--star-color);
     font-size: 1.25rem;
-    margin-bottom: var(--spacing-sm);
-}
-
-.author {
-    display: flex;
-    align-items: center;
-    gap: var(--spacing-sm);
-    margin-top: var(--spacing-md);
-}
-
-.author img {
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
+    margin-right: 0.25rem;
 }
 
 /* Pricing Section */
@@ -834,8 +859,9 @@ h1 {
 }
 
 .faq-item {
-    background-color: var(--background);
+    background-color: var(--surface-alt);
     border-radius: var(--radius-md);
+    border: 1px solid var(--border);
     overflow: hidden;
     transition: all var(--transition-normal);
 }
@@ -851,7 +877,8 @@ h1 {
 
 .faq-question h3 {
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 600;
+    color: var(--text-primary);
     margin: 0;
     padding-right: var(--spacing-md);
 }
@@ -872,10 +899,11 @@ h1 {
 }
 
 .faq-answer p {
-    padding: 0 var(--spacing-md) var(--spacing-md);
+    padding: var(--spacing-md);
     color: var(--text-secondary);
     line-height: 1.6;
     margin: 0;
+    background: var(--surface);
 }
 
 .faq-item:hover {
@@ -891,9 +919,9 @@ h1 {
 /* CTA Section */
 .cta {
     position: relative;
-    padding: calc(var(--spacing-xl) * 2) 0;
+    padding: var(--spacing-xl) 0;
     background: var(--gradient-1);
-    overflow: hidden;
+    color: white;
 }
 
 .cta::before {
@@ -921,95 +949,39 @@ h1 {
 }
 
 .cta h2 {
-    color: white !important;
-    font-size: clamp(2rem, 5vw, 2.5rem);
-    text-align: center;
-    margin-bottom: var(--spacing-lg);
+    color: white;
+    font-size: 2.5rem;
     font-weight: 700;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    background: none;
-    -webkit-background-clip: unset;
-    padding: 0;
+    margin-bottom: var(--spacing-md);
 }
 
 .cta p {
-    color: rgba(255, 255, 255, 0.9) !important;
-    text-align: center;
-    font-size: 1.2rem;
-    max-width: 600px;
-    margin: 0 auto var(--spacing-xl);
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    padding: 0 var(--spacing-md);
-}
-
-.cta .cta-buttons {
-    display: flex;
-    gap: var(--spacing-md);
-    justify-content: center;
-    width: 100%;
-}
-
-.cta .cta-button {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: var(--spacing-sm) var(--spacing-lg);
-    min-width: 180px;
-    font-size: 1.1rem;
-    font-weight: 500;
-    border-radius: var(--radius-md);
-    transition: all var(--transition-normal);
-    text-decoration: none;
-    border: none;
-    cursor: pointer;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-lg);
 }
 
 .cta .cta-button.primary {
-    background: var(--primary-color);
-    color: white;
+    background: white;
+    color: var(--primary-color);
+    font-weight: 600;
 }
 
 .cta .cta-button.primary:hover {
-    background: var(--primary-hover);
+    background: var(--surface);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow-lg);
 }
 
 .cta .cta-button.secondary {
-    background-color: var(--surface);
-    color: var(--text-primary);
-    border: 1px solid var(--border);
+    background: transparent;
+    color: white;
+    border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .cta .cta-button.secondary:hover {
-    background-color: var(--background);
+    background: rgba(255, 255, 255, 0.1);
     transform: translateY(-2px);
-}
-
-@media (max-width: 768px) {
-    .cta {
-        padding: var(--spacing-xl) 0;
-    }
-    
-    .cta .container {
-        padding: 0 var(--spacing-md);
-    }
-    
-    .cta .cta-buttons {
-        flex-direction: column;
-        align-items: center;
-    }
-    
-    .cta .cta-button {
-        width: 100%;
-        max-width: 280px;
-    }
-}
-
-.dark-mode .cta::before {
-    background: linear-gradient(to right,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.2));
 }
 
 /* Footer */
