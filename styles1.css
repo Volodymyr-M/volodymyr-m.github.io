@@ -1044,11 +1044,12 @@ footer {
 .social-links {
     display: flex;
     gap: var(--spacing-md);
+    justify-content: flex-start;
 }
 
 .social-links a {
     color: var(--text-secondary);
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     transition: color var(--transition);
 }
 
@@ -1061,8 +1062,104 @@ footer {
     margin-top: var(--spacing-lg);
     padding: var(--spacing-lg) 0;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bottom p {
+    text-align: center;
+    margin: 0;
+}
+
+/* Language Dropdown */
+.language-select {
+    position: relative;
+    margin-top: var(--spacing-md);
+    text-align: left;
+    width: 180px;
+}
+
+.language-current {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all var(--transition);
     color: var(--text-secondary);
-    font-size: 0.95rem;
+    width: 100%;
+    padding: var(--spacing-sm);
+    background: var(--background);
+    position: relative;
+    z-index: 2;
+    border: 1px solid var(--border);
+}
+
+.language-current:hover {
+    color: var(--text-primary);
+}
+
+.language-select:hover .language-current {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-top-color: transparent;
+}
+
+.language-current i {
+    font-size: 0.9rem;
+}
+
+.language-current span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.language-current .fa-chevron-up {
+    margin-left: auto;
+    font-size: 0.8rem;
+}
+
+.language-dropdown {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-top-left-radius: var(--radius-sm);
+    border-top-right-radius: var(--radius-sm);
+    padding: var(--spacing-xs) 0;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.05);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all var(--transition);
+}
+
+.language-select:hover .language-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.language-dropdown a {
+    display: block;
+    padding: var(--spacing-sm);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: all var(--transition);
+}
+
+.language-dropdown a:hover {
+    color: var(--text-primary);
+    background: var(--surface-alt);
+}
+
+.language-dropdown a.active {
+    color: var(--primary-color);
+    background: var(--surface-alt);
 }
 
 /* Animations */
@@ -1270,4 +1367,80 @@ section h2 {
 .text-content a:hover {
     color: var(--primary-hover);
     border-bottom-color: var(--primary-hover);
+}
+
+/* Language Dropdown */
+.language-select {
+    position: relative;
+    margin-top: var(--spacing-md);
+}
+
+.language-current {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    border-radius: var(--radius-sm);
+    cursor: pointer;
+    transition: all var(--transition);
+    color: var(--text-secondary);
+}
+
+.language-current:hover {
+    color: var(--text-primary);
+    background: var(--surface);
+}
+
+.language-current i {
+    font-size: 0.9rem;
+}
+
+.language-current span {
+    font-size: 0.9rem;
+}
+
+.language-current .fa-chevron-down {
+    margin-left: auto;
+    font-size: 0.8rem;
+}
+
+.language-dropdown {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background: var(--background);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: var(--spacing-xs);
+    box-shadow: 0 -4px 6px var(--shadow);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: all var(--transition);
+}
+
+.language-select:hover .language-dropdown {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.language-dropdown a {
+    display: block;
+    padding: var(--spacing-xs) var(--spacing-sm);
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-size: 0.9rem;
+    border-radius: var(--radius-sm);
+    transition: all var(--transition);
+}
+
+.language-dropdown a:hover {
+    color: var(--text-primary);
+    background: var(--surface);
+}
+
+.language-dropdown a.active {
+    color: var(--primary-color);
+    background: var(--surface);
 }
