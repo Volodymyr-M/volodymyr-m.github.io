@@ -292,6 +292,18 @@ h1 {
 .cta-button.primary {
     background-color: var(--primary-color);
     color: white;
+    padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.cta-button.primary .button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.cta-button.primary .button-title {
+    font-weight: 600;
 }
 
 .cta-button.primary:hover {
@@ -300,14 +312,106 @@ h1 {
 }
 
 .cta-button.secondary {
-    background-color: var(--surface);
-    color: var(--text-primary);
+    background: transparent;
     border: 1px solid var(--border);
+    color: var(--text-secondary);
+    transition: all var(--transition);
+    padding: var(--spacing-sm) var(--spacing-md);
+}
+
+.button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.button-title {
+    font-weight: 500;
+    margin-bottom: var(--spacing-xxs);
+}
+
+.platform-icons {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-xs);
+    margin-right: var(--spacing-xs);
+}
+
+.platform-icons i {
+    font-size: 0.85em;
+    opacity: 0.7;
 }
 
 .cta-button.secondary:hover {
-    background-color: var(--background);
-    transform: translateY(-2px);
+    background: var(--surface-alt);
+}
+
+.cta-button.secondary:hover .platform-icons i {
+    opacity: 1;
+}
+
+.workspace-logo {
+    height: 14px;
+    opacity: 0.9;
+    filter: brightness(0) invert(1);
+}
+
+.cta-button.primary:hover .workspace-logo {
+    opacity: 1;
+}
+
+.cta .workspace-logo {
+    height: 14px;
+    opacity: 1;
+    filter: brightness(0);
+}
+
+.cta .cta-button.primary:hover .workspace-logo {
+    filter: brightness(0);
+}
+
+.hero .workspace-logo {
+    height: 14px;
+    opacity: 0.9;
+    filter: brightness(0) invert(1);
+}
+
+.hero .cta-button.primary:hover .workspace-logo {
+    opacity: 1;
+}
+
+.cta .workspace-logo {
+    height: 14px;
+    opacity: 1;
+    filter: brightness(0);
+}
+
+.light-mode .cta .cta-button.primary:hover .workspace-logo {
+    filter: brightness(0);
+}
+
+.dark-mode .cta .cta-button.primary:hover .workspace-logo {
+    filter: brightness(0) invert(1);
+}
+
+/* Dark theme specific styles */
+.dark-mode .cta-button.secondary {
+    border: 1px solid white !important;
+}
+
+.dark-mode .cta-button.secondary:hover {
+    border-color: white !important;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Light theme specific styles */
+.light-mode .cta-button.secondary {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.light-mode .cta-button.secondary:hover {
+    border-color: rgba(0, 0, 0, 0.4);
 }
 
 /* Features Section */
@@ -392,7 +496,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54 28h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6V4zm-6 36h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm36-20h6v4h-6v-4zm-36 0h6v4h-6v-4zm36 36h6v4h-6v-4zm-36 0h6v4h-6v-4z' fill='currentColor' fill-opacity='0.05'/%3E%3C/svg%3E");
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M54 28h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6V4zm-6 36h6v4h-6v-4zm-6-6h6v4h-6v-4zm-6-6h6v4h-6v-4zm36-20h6v4h-6v-4zm-36 0h6v4h-6v-4zm36 36h6v4h-6v-4zm-36 0h6v4h-6v-4z' fill='currentColor' fill-opacity='0.05'/%3E%3C/svg%3E");
     background-size: 60px 60px;
     opacity: 0.03;
     pointer-events: none;
@@ -1565,4 +1669,12 @@ section h2 {
 .cta-section p {
     color: var(--text-secondary);
     margin-bottom: var(--spacing-lg);
+}
+
+.light-mode .cta-button.secondary {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.light-mode .cta-button.secondary:hover {
+    border-color: rgba(0, 0, 0, 0.4);
 }
