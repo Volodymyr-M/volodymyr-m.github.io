@@ -1947,3 +1947,7 @@ section h2 {
         position: static;
     }
 }
+
+.support-content .cta-button i {
+    margin-right: var(--spacing-xs);
+}
