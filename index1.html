@@ -15,10 +15,23 @@
                 <span class="logo-text">Ingantt</span>
             </div>
             <div class="nav-right">
-                <button id="theme-toggle" aria-label="Toggle dark mode">
+                <div class="language-select nav-version">
+                    <div class="language-current">
+                        <i class="fa-brands fa-google"></i>
+                        <span>Ingantt for Google Workspace</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="language-dropdown">
+                        <a href="#" class="active"><i class="fa-brands fa-google"></i> Ingantt for Google Workspace</a>
+                        <a href="#"><i class="fab fa-windows"></i> Ingantt for Windows</a>
+                        <a href="#"><i class="fab fa-apple"></i> Ingantt for macOS</a>
+                        <a href="#"><i class="fab fa-app-store-ios"></i> Ingantt for iOS</a>
+                        <a href="index-android.html"><i class="fab fa-android"></i> Ingantt for Android</a>
+                    </div>
+                </div>
+                <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
                     <i class="fas fa-adjust"></i>
                 </button>
-                <a href="#" class="cta-button primary">Start Free Trial</a>
             </div>
         </nav>
     </header>
@@ -38,17 +51,25 @@
                                     <img src="assets/images/Google_Workspace_Logo.svg.png" alt="Google Workspace" class="workspace-logo">
                                 </span>
                             </a>
-                            <a href="#app-stores" class="cta-button secondary">
-                                <span class="button-content">
-                                    <span class="button-title">Other versions</span>
-                                    <span class="platform-icons">
-                                        <i class="fab fa-windows"></i>
-                                        <i class="fab fa-apple"></i>
-                                        <i class="fab fa-android"></i>
-                                        <i class="fab fa-app-store-ios"></i>
+                            <div class="language-select nav-version">
+                                <a href="#" class="cta-button secondary other-versions">
+                                    <span class="button-content">
+                                        <span class="button-title">Other versions <i class="fas fa-chevron-down"></i></span>
+                                        <span class="platform-icons">
+                                            <i class="fab fa-windows"></i>
+                                            <i class="fab fa-apple"></i>
+                                            <i class="fab fa-android"></i>
+                                            <i class="fab fa-app-store-ios"></i>
+                                        </span>
                                     </span>
-                                </span>
-                            </a>
+                                </a>
+                                <div class="language-dropdown">
+                                    <a href="#"><i class="fab fa-windows"></i> Ingantt for Windows</a>
+                                    <a href="#"><i class="fab fa-apple"></i> Ingantt for macOS</a>
+                                    <a href="#"><i class="fab fa-app-store-ios"></i> Ingantt for iOS</a>
+                                    <a href="index-android.html"><i class="fab fa-android"></i> Ingantt for Android</a>
+                                </div>
+                            </div>
                         </div>
                         <div class="hero-badges">
                             <div class="rating">
@@ -535,9 +556,28 @@
 
         themeToggle.addEventListener('click', () => {
             body.classList.toggle('dark-mode');
-            icon.classList.toggle('fa-adjust');
             icon.classList.toggle('fa-sun');
+            icon.classList.toggle('fa-moon');
         });
+
+        // Position versions dropdown
+        const otherVersionsBtn = document.querySelector('.cta-group .nav-version');
+        const versionsDropdown = otherVersionsBtn?.querySelector('.language-dropdown');
+
+        if (otherVersionsBtn && versionsDropdown) {
+            const updateDropdownPosition = () => {
+                const btnRect = otherVersionsBtn.getBoundingClientRect();
+                versionsDropdown.style.top = `${btnRect.bottom}px`;
+                versionsDropdown.style.left = `${btnRect.left + (btnRect.width / 2)}px`;
+            };
+
+            // Update position on hover
+            otherVersionsBtn.addEventListener('mouseenter', updateDropdownPosition);
+            // Update position on scroll
+            window.addEventListener('scroll', updateDropdownPosition);
+            // Update position on resize
+            window.addEventListener('resize', updateDropdownPosition);
+        }
 
         // FAQ toggles
         document.querySelectorAll('.faq-question').forEach(question => {

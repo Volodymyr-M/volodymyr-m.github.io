@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingantt for Android - Personal Project Management App</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body class="light-mode">
+    <header>
+        <nav class="container">
+            <div class="logo">
+                <img src="images/icon_transparent.png" alt="Ingantt Logo" class="logo-img">
+                <span class="logo-text">Ingantt</span>
+            </div>
+            <div class="nav-right">
+                <button id="theme-toggle" aria-label="Toggle dark mode">
+                    <i class="fas fa-adjust"></i>
+                </button>
+                <a href="#" class="cta-button primary">Get it on Google Play</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <h1>AI-Powered Project Management on Android</h1>
+                        <p class="hero-subtitle">Transform your project planning with intelligent Gantt charts and AI assistance - all integrated with your Google Drive for personal use.</p>
+                        <div class="cta-group">
+                            <a href="#" class="cta-button primary">
+                                <span class="button-content">
+                                    <span class="button-title">Get it on Google Play</span>
+                                    <img src="assets/images/Google_Play_Logo.png" alt="Google Play" class="workspace-logo">
+                                </span>
+                            </a>
+                        </div>
+                        <div class="hero-badges">
+                            <div class="rating">
+                                <div class="stars">★★★★★</div>
+                                <span>4.8/5 on Google Play</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-image-wrapper">
+                            <img src="images/screen.png" alt="Ingantt interface" class="floating">
+                            <div class="hero-shape-1"></div>
+                            <div class="hero-shape-2"></div>
+                            <div class="hero-shape-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Grid -->
+        <section class="features">
+            <div class="container">
+                <h2>Why Choose Ingantt for Android</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <i class="fas fa-robot"></i>
+                        <h3>AI-Powered Planning</h3>
+                        <p>Generate complete project plans from simple descriptions using our advanced AI assistant, optimized for Android devices.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Google Drive Integration</h3>
+                        <p>Works seamlessly with Google Drive, making access effortless on your Android device.</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-file-import"></i>
+                        <h3>Offline Access</h3>
+                        <p>Full functionality on Android - no additional app installation needed.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="demo" class="demo">
+            <div class="container">
+                <h2>See Ingantt in Action</h2>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/66MmRFr16Lk" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                            allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        
+        <section class="testimonials">
+            <div class="container">
+                <h2>Why Choose Ingantt for Android</h2>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"Perfect for managing my projects on the go. The mobile-first design makes everything so intuitive!"</p>
+                        <div class="author">
+                            <img src="images/avatar1.jpg" alt="User avatar">
+                            <div>
+                                <strong>David Chen</strong>
+                                <span>Freelance Project Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"The Google Drive integration is seamless. I can access my projects from anywhere."</p>
+                        <div class="author">
+                            <img src="images/avatar2.jpg" alt="User avatar">
+                            <div>
+                                <strong>Lisa Johnson</strong>
+                                <span>Construction Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"Finally, a proper project management app that works perfectly on Android!"</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Mike Rodriguez</strong>
+                                <span>Independent Contractor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rating-summary">
+                    <div class="stars">★★★★★</div>
+                    <p>4.8/5 on Google Play Store</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="features-detailed">
+            <div class="container">
+                <h2>Everything You Need for Project Management</h2>
+                <p class="section-subtitle">Powerful features designed for mobile project managers</p>
+                
+                <div class="features-tabs">
+                    <div class="features-nav">
+                        <button class="feature-tab active" data-tab="planning">
+                            <i class="fas fa-brain"></i>
+                            Planning
+                        </button>
+                        <button class="feature-tab" data-tab="tracking">
+                            <i class="fas fa-chart-line"></i>
+                            Tracking
+                        </button>
+                        <button class="feature-tab" data-tab="mobile">
+                            <i class="fas fa-mobile-alt"></i>
+                            Mobile
+                        </button>
+                        <button class="feature-tab" data-tab="storage">
+                            <i class="fas fa-cloud"></i>
+                            Storage
+                        </button>
+                    </div>
+                    
+                    <div class="features-content">
+                        <div class="feature-panel active" id="planning">
+                            <div class="feature-details">
+                                <div class="feature-text">
+                                    <h3>AI-Powered Planning</h3>
+                                    <ul class="feature-list">
+                                        <li>Create project schedules with AI assistance</li>
+                                        <li>Generate task dependencies automatically</li>
+                                        <li>Get smart suggestions for task durations</li>
+                                        <li>Optimize resource allocation</li>
+                                    </ul>
+                                </div>
+                                <div class="feature-image">
+                                    <img src="images/ai-planning-android.png" alt="AI Planning Feature">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-panel" id="tracking">
+                            <div class="feature-details">
+                                <div class="feature-text">
+                                    <h3>Advanced Tracking</h3>
+                                    <ul class="feature-list">
+                                        <li>Monitor project progress in real-time</li>
+                                        <li>Track milestones and deadlines</li>
+                                        <li>View critical path analysis</li>
+                                        <li>Get insights into project health</li>
+                                    </ul>
+                                </div>
+                                <div class="feature-image">
+                                    <img src="images/tracking-android.png" alt="Tracking Feature">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-panel" id="mobile">
+                            <div class="feature-details">
+                                <div class="feature-text">
+                                    <h3>Mobile-First Experience</h3>
+                                    <ul class="feature-list">
+                                        <li>Native Android app for optimal performance</li>
+                                        <li>Touch-optimized Gantt chart interface</li>
+                                        <li>Work offline with local storage</li>
+                                        <li>Quick access to project details</li>
+                                    </ul>
+                                </div>
+                                <div class="feature-image">
+                                    <img src="images/mobile-android.png" alt="Mobile Feature">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="feature-panel" id="storage">
+                            <div class="feature-details">
+                                <div class="feature-text">
+                                    <h3>Google Drive Integration</h3>
+                                    <ul class="feature-list">
+                                        <li>Save projects directly to Google Drive</li>
+                                        <li>Access your projects across devices</li>
+                                        <li>Automatic backup of your work</li>
+                                        <li>Export to various formats</li>
+                                    </ul>
+                                </div>
+                                <div class="feature-image">
+                                    <img src="images/storage-android.png" alt="Storage Feature">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing -->
+        <section class="pricing">
+            <div class="container">
+                <h2>Simple, One-Time Purchase</h2>
+                <p class="section-subtitle">Get started with Ingantt for Android today - just $15</p>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Full Version</h3>
+                            <div class="price">
+                                <span class="amount">$15</span>
+                                <span class="period">one-time</span>
+                            </div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li><i class="fas fa-check"></i> Full access to all features</li>
+                            <li><i class="fas fa-check"></i> Google Drive integration</li>
+                            <li><i class="fas fa-check"></i> AI-powered planning</li>
+                            <li><i class="fas fa-check"></i> Offline access</li>
+                            <li><i class="fas fa-check"></i> Export to various formats</li>
+                            <li><i class="fas fa-check"></i> Future updates included</li>
+                        </ul>
+                        <a href="#" class="cta-button primary">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What makes Ingantt different from other project management apps?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Ingantt combines powerful AI-driven project planning with an intuitive mobile interface, making it perfect for managing projects on the go. Our focus on personal project management means you get all the features you need without the complexity of team collaboration tools.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Do I need an internet connection to use Ingantt?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>No, Ingantt works offline. You only need an internet connection when syncing with Google Drive or using AI features.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Can I try Ingantt before buying?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>While we don't offer a free trial, you can see detailed feature previews and tutorials on our Google Play store page. Plus, Google Play offers a refund window if the app doesn't meet your needs.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>What happens to my data if I uninstall the app?</h3>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Your project files remain safely stored in your Google Drive even after uninstalling. You can always reinstall the app and access your projects, or export them to various formats for backup.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA -->
+        <section class="cta">
+            <div class="container">
+                <h2>Ready to Transform Your Project Management?</h2>
+                <p>Get started with Ingantt for Android today</p>
+                <div class="cta-buttons">
+                    <a href="#" class="cta-button primary">
+                        <span class="button-content">
+                            <span class="button-title">Get it on Google Play</span>
+                            <img src="assets/images/Google_Play_Logo.png" alt="Google Play" class="workspace-logo">
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>Product</h3>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="index1.html#pricing">Pricing</a></li>
+                        <li><a href="index1.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy_policy.html">Privacy Policy</a></li>
+                        <li><a href="terms_of_service.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Bluesky"><i class="fab fa-bluesky"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                    <div class="language-select">
+                        <div class="language-current">
+                            <i class="fas fa-globe"></i>
+                            <span>English</span>
+                            <i class="fas fa-chevron-up"></i>
+                        </div>
+                        <div class="language-dropdown">
+                            <a href="#" class="active">English</a>
+                            <a href="#">Українська</a>
+                            <a href="#">Deutsch</a>
+                            <a href="#">Español</a>
+                            <a href="#">Français</a>
+                            <a href="#">हिन्दी</a>
+                            <a href="#">Bahasa Indonesia</a>
+                            <a href="#">Italiano</a>
+                            <a href="#">日本語</a>
+                            <a href="#">한국어</a>
+                            <a href="#">Bahasa Melayu</a>
+                            <a href="#">Polski</a>
+                            <a href="#">Português</a>
+                            <a href="#">ภาษาไทย</a>
+                            <a href="#">Türkçe</a>
+                            <a href="#">Tiếng Việt</a>
+                            <a href="#">简体中文</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Ingantt. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggler
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+        const icon = themeToggle.querySelector('i');
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            icon.classList.toggle('fa-adjust');
+            icon.classList.toggle('fa-sun');
+        });
+
+        // FAQ toggles
+        document.querySelectorAll('.faq-question').forEach(question => {
+            question.addEventListener('click', () => {
+                const answer = question.nextElementSibling;
+                const icon = question.querySelector('i');
+                
+                // Toggle this answer
+                answer.style.maxHeight = answer.style.maxHeight ? null : answer.scrollHeight + 'px';
+                icon.classList.toggle('fa-chevron-up');
+                icon.classList.toggle('fa-chevron-down');
+                
+                // Close other answers
+                document.querySelectorAll('.faq-answer').forEach(otherAnswer => {
+                    if (otherAnswer !== answer && otherAnswer.style.maxHeight) {
+                        otherAnswer.style.maxHeight = null;
+                        otherAnswer.previousElementSibling.querySelector('i').classList.remove('fa-chevron-up');
+                        otherAnswer.previousElementSibling.querySelector('i').classList.add('fa-chevron-down');
+                    }
+                });
+            });
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
