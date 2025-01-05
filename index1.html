@@ -11,7 +11,7 @@
     <header>
         <nav class="container">
             <div class="logo">
-                <img src="images/icon_transparent.png" alt="Ingantt Logo" class="logo-img">
+                <img src="images/icon.png" alt="Ingantt Logo" class="logo-img">
                 <span class="logo-text">Ingantt</span>
             </div>
             <div class="nav-right">
@@ -22,7 +22,6 @@
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="language-dropdown">
-                        <a href="#" class="active"><i class="fa-brands fa-google"></i> Ingantt for Google Workspace</a>
                         <a href="#"><i class="fab fa-windows"></i> Ingantt for Windows</a>
                         <a href="#"><i class="fab fa-apple"></i> Ingantt for macOS</a>
                         <a href="#"><i class="fab fa-app-store-ios"></i> Ingantt for iOS</a>
@@ -171,6 +170,113 @@
                             </div>
                         </div>
                     </div>
+                </div>
+                <div class="testimonials-grid hidden-testimonials">
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"The best Gantt app that also doesn't lock you to its own file format or its own cloud storage."</p>
+                        <div class="author">
+                            <img src="images/avatar2.jpg" alt="User avatar">
+                            <div>
+                                <strong>Mark Johnson</strong>
+                                <span>Program Director</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"Finally some Microsoft Project alternative which works great, especially on iPad!"</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>" It works as expected and I am really happy for this."</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>" Full power of MS Project in your pocket!"</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"Intuitive, structured Gantt charts can be created with milestones and resource planning, including manual progress tracking."</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"Performs faster [than competitors], since I can feel that scrolling the timeline and opening the project feels really fast compared to the other apps. Thumbs up!"</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"AI project plan generation is a game changer for me. I use it as a starting point and inspiration for my project plans. It literally saves me from forgetting to add some of the tasks and underestimating my projects!"</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"I also use it as an MPP viewer and editor for Microsoft Project files."</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="quote">★★★★★</div>
+                        <p>"Excellent program!"</p>
+                        <div class="author">
+                            <img src="images/avatar3.jpg" alt="User avatar">
+                            <div>
+                                <strong>Emma Rodriguez</strong>
+                                <span>Agile Coach</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show-more-container">
+                    <button class="show-more-button">
+                        Show more
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
                 </div>
             </div>
         </section>
@@ -741,6 +847,21 @@
                 document.getElementById(tab.dataset.tab).classList.add('active');
             });
         });
+
+        // Show more testimonials functionality
+        const showMoreBtn = document.querySelector('.show-more-button');
+        const hiddenTestimonials = document.querySelector('.hidden-testimonials');
+
+        if (showMoreBtn && hiddenTestimonials) {
+            showMoreBtn.addEventListener('click', () => {
+                const isHidden = hiddenTestimonials.style.display === 'none' || hiddenTestimonials.style.display === '';
+                hiddenTestimonials.style.display = isHidden ? 'grid' : 'none';
+                showMoreBtn.classList.toggle('active');
+                showMoreBtn.innerHTML = isHidden ? 
+                    'Show less <i class="fas fa-chevron-up"></i>' : 
+                    'Show more <i class="fas fa-chevron-down"></i>';
+            });
+        }
     </script>
 </body>
 </html>
