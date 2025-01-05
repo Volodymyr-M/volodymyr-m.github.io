@@ -698,6 +698,7 @@ h1 {
     border: none;
     max-width: 100%;
     height: auto;
+    border-radius: var(--radius-sm);
 }
 
 @keyframes pulse {
@@ -1628,7 +1629,6 @@ section h2 {
     background: var(--gradient-1);
     -webkit-background-clip: text;
     color: transparent;
-    padding: 0 var(--spacing-lg);
 }
 
 /* Text Pages (Privacy Policy, Terms of Service, etc.) */
