@@ -431,6 +431,7 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
 }
 
 .feature-card {
@@ -441,6 +442,24 @@ h1 {
     transition: all var(--transition-normal);
     position: relative;
     overflow: hidden;
+    text-align: center;
+}
+
+.feature-card i {
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-md);
+    display: block;
+    text-align: center;
+}
+
+.feature-card h3 {
+    margin-bottom: var(--spacing-sm);
+    text-align: center;
+}
+
+.feature-card p {
+    text-align: center;
 }
 
 .feature-card::before {
@@ -461,12 +480,6 @@ h1 {
 
 .feature-card:hover {
     transform: translateY(-4px);
-}
-
-.feature-card i {
-    font-size: 2rem;
-    color: var(--primary-color);
-    margin-bottom: var(--spacing-md);
 }
 
 /* Detailed Features Section */
@@ -835,7 +848,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 1px;
-    background: linear-gradient(to right, 
+    background: linear-gradient(to right,
         transparent, 
         var(--border), 
         transparent);
@@ -1825,30 +1838,37 @@ section h2 {
 }
 
 .platform-item {
-    padding: var(--spacing-md);
-    background: var(--surface);
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--border);
-    transition: all var(--transition);
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: var(--spacing-xs);
+    padding: var(--spacing-md);
+    background-color: var(--surface);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border);
+    transition: all var(--transition-normal);
+    text-decoration: none;
+    color: var(--text-primary);
 }
 
 .platform-item:hover {
     transform: translateY(-4px);
     box-shadow: var(--shadow-lg);
+    background-color: var(--surface-alt);
 }
 
 .platform-item i {
     font-size: 2rem;
     color: var(--primary-color);
+    transition: color var(--transition-normal);
+}
+
+.platform-item:hover i {
+    color: var(--primary-hover);
 }
 
 .platform-item span {
     font-weight: 500;
-    color: var(--text-primary);
 }
 
 .cta-section {
