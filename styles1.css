@@ -231,8 +231,6 @@ h1 {
 .hero-image img {
     width: 100%;
     height: auto;
-    border-radius: var(--radius-lg);
-    box-shadow: 0 20px 40px var(--shadow);
 }
 
 .hero-shape-1,
@@ -601,7 +599,7 @@ h1 {
 
 .feature-details {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: var(--spacing-xl);
     align-items: center;
     padding: var(--spacing-lg);
@@ -681,19 +679,12 @@ h1 {
     perspective: 1000px;
 }
 
-.feature-image::before {
-    content: '';
-    position: absolute;
-    top: 10%;
-    right: 10%;
-    width: 80%;
-    height: 80%;
-    background: var(--gradient-2);
-    opacity: 0.1;
-    border-radius: var(--radius-lg);
-    filter: blur(40px);
-    z-index: 0;
-    animation: pulse 4s ease-in-out infinite;
+
+.feature-image video {
+    display: block;
+    border: none;
+    max-width: 100%;
+    height: auto;
 }
 
 @keyframes pulse {
