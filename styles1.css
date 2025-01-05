@@ -1146,6 +1146,10 @@ footer {
     color: var(--primary-color);
 }
 
+.footer-section ul li a i {
+    margin-right: var(--spacing-xs);
+}
+
 .social-links {
     display: flex;
     gap: var(--spacing-md);
@@ -1738,11 +1742,21 @@ section h2 {
 }
 
 .features-list {
-    padding: var(--spacing-xxl) 0;
+    padding: var(--spacing-xl) 0;
+    position: relative;
+    background: 
+        radial-gradient(1000px circle at 0% 0%, rgba(124, 58, 237, 0.08), transparent),
+        radial-gradient(1000px circle at 100% 100%, rgba(2, 132, 199, 0.08), transparent);
+}
+
+.dark-mode .features-list {
+    background: 
+        radial-gradient(1000px circle at 0% 0%, rgba(124, 58, 237, 0.12), transparent),
+        radial-gradient(1000px circle at 100% 100%, rgba(2, 132, 199, 0.12), transparent);
 }
 
 .feature-group {
-    margin-bottom: var(--spacing-xxl);
+    margin-bottom: var(--spacing-lg);
 }
 
 .feature-group h2 {
