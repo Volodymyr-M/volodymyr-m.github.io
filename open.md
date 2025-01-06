@@ -1,3 +1,4 @@
+<!-- deprecated -->
 ---
 layout: open
 title: Open Ingantt
