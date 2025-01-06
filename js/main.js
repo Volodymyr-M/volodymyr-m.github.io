@@ -6,7 +6,7 @@ const icon = themeToggle.querySelector('i');
 themeToggle.addEventListener('click', () => {
     body.classList.toggle('dark-mode');
     icon.classList.toggle('fa-sun');
-    icon.classList.toggle('fa-moon');
+    icon.classList.toggle('fa-adjust');
 });
 
 // Position versions dropdown
