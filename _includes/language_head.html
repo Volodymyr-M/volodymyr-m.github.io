@@ -1,0 +1,57 @@
+<link rel="alternate" hreflang="{{ site.default_lang }}" href="{{ page.permalink | default: ' /' }}" />
+{% for lang in site.languages %}
+    {% if lang == site.default_lang %}{% continue %}{% endif %}
+    <link rel="alternate" hreflang="{{lang}}" href="/{{lang}}/{{page.permalink}}" />
+{% endfor %}
+{% if site.active_lang == site.default_lang %}
+    <base href="/">
+    {% else %}
+    <base href="../">
+{% endif %}
+<script type="text/javascript">
+    const cookieName = "userLang";
+
+    function setLanguageCookie(language, days = 180) {
+        const date = new Date();
+        date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+        document.cookie = `${cookieName}=${language}; expires=${date.toUTCString()}; path=/`;
+    }
+
+    function getLanguageCookieValue() {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${cookieName}=`);
+        if (parts.length === 2) return parts.pop().split(';').shift();
+    }
+
+    const languageFolders = {
+    'en': '/',
+    {% for lang in site.languages %}
+    {% if lang == site.default_lang %}{% continue %}{% endif %}
+        '{{lang}}': '/{{lang}}/',
+    {% endfor %}
+    };
+    
+    if (window.location.pathname == '/') {
+        const savedLang = getLanguageCookieValue();
+        if (savedLang) {
+            if (savedLang != '{{ site.default_lang }}') {
+                const redirectUrl = languageFolders[savedLang];
+                if (redirectUrl) {
+                    window.location.href = redirectUrl;
+                }
+            }
+        } else {
+            const userLang = navigator.language || navigator.userLanguage;
+            const langCode = userLang.split('-')[0];
+            const redirectUrl = languageFolders[langCode];
+            if (redirectUrl) {
+                setLanguageCookie(langCode);
+                window.location.href = redirectUrl;
+            }
+        }
+    }
+
+    function changeLanguage(languageCode) {
+        setLanguageCookie(languageCode);
+    }
+</script>

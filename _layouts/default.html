@@ -12,6 +12,7 @@ layout: compress
     <meta name="description" content="{{ site.data[site.active_lang].index-workspace.meta_description }}">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    {% include language_head.html %}
 </head>
 <body class="light-mode">
     <header>
@@ -86,12 +87,19 @@ layout: compress
                     <div class="language-select">
                         <div class="language-current">
                             <i class="{{ section_data.language.current.icon }}"></i>
-                            <span>{{ section_data.language.current.text }}</span>
+                            <span>{{site.data[site.active_lang].index-workspace.lang_name}}</span>
                             <i class="fas fa-chevron-up"></i>
                         </div>
                         <div class="language-dropdown">
-                            {% for lang in section_data.language.options %}
-                            <a href="#" {% if lang.active %}class="active"{% endif %}>{{ lang.text }}</a>
+                            {% for lang in site.languages %}
+                                {% assign lang_name = site.data[lang].index-workspace.lang_name %}
+
+                                {% if lang == site.default_lang %}
+                                    <a {% if lang == site.active_lang %}class="active"{% endif %} onclick="changeLanguage('{{ lang }}')" href=" {{ page.url }}">{{ lang_name }}</a>
+                                {% else %}
+                                    <a {% if lang == site.active_lang %}class="active"{% endif %} onclick="changeLanguage('{{ lang }}')" href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a>
+                                {% endif %}
+
                             {% endfor %}
                         </div>
                     </div>
