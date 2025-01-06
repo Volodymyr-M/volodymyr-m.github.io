@@ -1964,3 +1964,8 @@ section h2 {
 .support-content .cta-button i {
     margin-right: var(--spacing-xs);
 }
+
+.inline-marketplace-logo {
+    height: 22px;
+    vertical-align: middle;
+}
