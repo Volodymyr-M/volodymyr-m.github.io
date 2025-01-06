@@ -1,0 +1,407 @@
+lang_name: Українська
+title: "Ingantt – сучасне планування проєктів у Google Workspace"
+meta_keywords: "застосунок діаграми Ґанта для Android, mpp, Ґант для Windows, переглядач mpp, рідер mpp, застосунок для Ґанта, Ґант для Mac, Ґант для iOS, Ґант для Google Workspace"
+meta_description: "Ingantt – інструмент керування проєктами на базі ШІ для Google Workspace, Android, Windows, MacOS та iOS. Плануйте, розподіляйте та відстежуйте свої проєкти з легкістю."
+
+header:
+  logo_text: Ingantt
+  nav_version:
+    current:
+      icon: fa-brands fa-google
+      text: Ingantt для Google Workspace
+    versions:
+      - icon: fab fa-windows
+        text: Ingantt для Windows
+        url: windows_page
+      - icon: fab fa-apple
+        text: Ingantt для macOS
+        url: macos_page
+      - icon: fab fa-app-store-ios
+        text: Ingantt для iOS
+        url: ios_page
+      - icon: fab fa-android
+        text: Ingantt для Android
+        url: android_page
+
+footer:
+  sections:
+    products:
+      title: Продукти
+      items:
+        - icon: fa-brands fa-google
+          text: Ingantt для Google Workspace
+          url: /
+          active: true
+        - icon: fab fa-windows
+          text: Ingantt для Windows
+          url: windows_page
+        - icon: fab fa-apple
+          text: Ingantt для macOS
+          url: macos_page
+        - icon: fab fa-app-store-ios
+          text: Ingantt для iOS
+          url: ios_page
+        - icon: fab fa-android
+          text: Ingantt для Android
+          url: android_page
+    
+    legal:
+      title: Юридична інформація
+      items:
+        - text: Політика конфіденційності
+          url: privacy_policy.html
+        - text: Умови обслуговування
+          url: terms_of_service.html
+    
+    connect:
+      title: Зв’язок
+      items:
+        - icon: fa fa-envelope
+          text: Напишіть нам
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Твіттер)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-facebook
+          title: Facebook
+          url: facebook_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    
+    site_settings:
+      title: Налаштування сайту
+      language:
+        current:
+          icon: fas fa-globe
+          text: Українська
+        options:
+          - text: English
+          - text: Українська
+            active: true
+          - text: Deutsch
+          - text: Español
+          - text: Français
+          - text: हिन्दी
+          - text: Bahasa Indonesia
+          - text: Italiano
+          - text: 日本語
+          - text: 한국어
+          - text: Bahasa Melayu
+          - text: Polski
+          - text: Português
+          - text: ภาษาไทย
+          - text: Türkçe
+          - text: Tiếng Việt
+          - text: 简体中文
+      theme_toggle:
+        text: Увімкнути/вимкнути темний режим
+        icon: fas fa-adjust
+
+  copyright: "2025 Ingantt Development. Усі права захищено."
+
+hero:
+  title: "Діаграма Ґанта для планування проєктів у Google Workspace з ШІ"
+  subtitle: "Змінюйте підхід до планування проєктів за допомогою інтелектуальних діаграм Ґанта, спільної роботи та підтримки ШІ – усе це безпосередньо у вашому Google Диску."
+  cta:
+    primary:
+      text: Почати безкоштовну пробну версію
+      image: Google_Workspace_Logo.svg.png
+    other_versions:
+      title: Інші версії
+      platforms:
+        - icon: fab fa-windows
+          text: Ingantt для Windows
+          url: windows_page
+        - icon: fab fa-apple
+          text: Ingantt для macOS
+          url: macos_page
+        - icon: fab fa-app-store-ios
+          text: Ingantt для iOS
+          url: ios_page
+        - icon: fab fa-android
+          text: Ingantt для Android
+          url: android_page
+  rating:
+    stars: ★★★★★
+    text: 5 зірок на
+
+features_grid:
+  title: Чому команди обирають Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Планування на основі ШІ
+      description: "Створюйте повні плани проєктів зі звичайних описів за допомогою нашого ШІ-асистента."
+    - icon: fas fa-cloud
+      title: Рідна інтеграція з Google
+      description: "Безперешкодно працює з Google Диском, роблячи спільну роботу природною та зручною."
+    - icon: fas fa-file-import
+      title: Сумісність із MS Project
+      description: "Імпортуйте файли .MPP і зберігайте у форматі XML, сумісному з MS Project – жодних обмежень."
+    - icon: fas fa-mobile-alt
+      title: Працює всюди
+      description: "Повний функціонал на комп’ютері, планшеті та мобільному пристрої у вашому улюбленому браузері."
+
+demo:
+  title: Подивіться Ingantt у дії
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Нам довіряють менеджери проєктів по всьому світу
+  items:
+    - rating: ★★★★★
+      text: "Найкращий застосунок з діаграмами Ґанта, який при цьому не «прив’язує» вас до власного формату файлів чи власного хмарного сховища."
+      author:
+        name: Noah Wilson
+        title: Program Director
+    - rating: ★★★★★
+      text: "Генерація проєктного плану на основі ШІ – це справжній прорив для мене. Я використовую це як відправну точку та джерело натхнення для своїх планів. Це буквально рятує мене від того, щоб забути про деякі завдання чи недооцінити тривалість проєктів!"
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: "Я також використовую його як переглядач та редактор MPP-файлів для Microsoft Project."
+      author:
+        name: Amelia Clark
+        title: Project Coordinator
+  hidden_items:
+    - rating: ★★★★★
+      text: "Нарешті з’явилася альтернатива Microsoft Project, яка чудово працює, особливо на iPad!"
+      author:
+        name: Isabella Moore
+        title: Team Lead (Project Management)
+    - rating: ★★★★★
+      text: "Працює, як очікувалось, і я дійсно задоволений цим."
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+    - rating: ★★★★★
+      text: "Повна потужність MS Project у вашій кишені!"
+      author:
+        name: Mia Harris
+        title: Project Management Trainer
+    - rating: ★★★★★
+      text: "Інтуїтивно, структуровано можна створювати діаграми Ґанта із віхами та плануванням ресурсів, включно з ручним відстеженням прогресу."
+      author:
+        name: Emma Rodriguez
+        title: Product Manager
+    - rating: ★★★★★
+      text: "Працює швидше [за конкурентів], я відчуваю це, коли прокручую часову шкалу та відкриваю проєкт – усе робиться дуже швидко порівняно з іншими застосунками. Браво!"
+      author:
+        name: Ethan Walker
+        title: Program Manager
+    - rating: ★★★★★
+      text: "Відмінна програма!"
+      author:
+        name: Harper Thompson
+        title: PMO (Project Management Office) Director
+  show_more:
+    text: Показати більше
+    icon: fas fa-chevron-down
+
+features_detailed:
+  title: Усе необхідне для успішного планування проєктів
+  subtitle: Потужні функції, розроблені для сучасних менеджерів проєктів
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Планування
+      content:
+        title: Планування з підтримкою ШІ
+        features:
+          - icon: fas fa-check
+            title: Генератор проєктів на ШІ
+            description: "Створюйте повні плани проєктів із простих текстових описів за допомогою передових технологій ШІ"
+          - icon: fas fa-check
+            title: Легке планування
+            description: "Оновлюйте будь-яку частину проєкту та миттєво бачте загальну картину."
+          - icon: fas fa-check
+            title: Звичний функціонал
+            description: "Маєте досвід роботи в MS Project чи подібному ПЗ? Використовуйте його!"
+        video: "videos/ai.mp4"
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Відстеження
+      content:
+        title: Розширене відстеження
+        features:
+          - icon: fas fa-check
+            title: Моніторинг прогресу
+            description: "Відстежуйте відсоток виконання завдань та віхи"
+          - icon: fas fa-check
+            title: Використання ресурсів
+            description: "Контролюйте розподіл ресурсів та виявляйте потенційні «вузькі місця»"
+          - icon: fas fa-check
+            title: Аналіз часової шкали
+            description: "Аналізуйте критичний шлях і відстежуйте відхилення від графіка"
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: collaboration
+      icon: fas fa-users
+      title: Співпраця
+      content:
+        title: Легка співпраця
+        features:
+          - icon: fas fa-check
+            title: Інтеграція з Google Диском
+            description: "Обмінюйтеся та співпрацюйте, використовуючи знайомі налаштування доступу в Google Диску"
+          - icon: fas fa-check
+            title: Обмін через PDF, PNG чи XML
+            description: "Рідна підтримка XML-формату для MS Project."
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: Інтеграція
+      content:
+        title: Потужні інтеграції
+        features:
+          - icon: fas fa-check
+            title: Google Workspace
+            description: "Використовуйте Ingantt як звичайний застосунок Google Диска"
+          - icon: fas fa-check
+            title: Сумісність із MS Project
+            description: "Імпортуйте файли MPP з MS Project і завжди зберігайте у форматі XML, сумісному з MS Project."
+          - icon: fas fa-check
+            title: Варіанти експорту
+            description: "Експортуйте в PDF і PNG"
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+pricing:
+  title: Проста та прозора ціна
+  subtitle: Ingantt для Google Workspace
+  plans:
+    - title: Безкоштовна пробна версія
+      price: $0
+      duration: 14 днів
+      features:
+        - Повний доступ до всіх функцій
+        - Генерація проєктів на основі ШІ
+        - Імпорт/експорт MS Project
+        - Інтеграція з Google Диском
+      cta:
+        text: Почати безкоштовну пробну версію
+        url: workspace_url
+        class: secondary
+    - title: Професійний
+      price: $3.5
+      duration: за користувача/місяць
+      annual_price: або $35 за користувача на рік
+      featured: true
+      features:
+        - Усе, що є в безкоштовній пробній версії
+        - Пріоритетна підтримка
+      cta:
+        text: Почати безкоштовну пробну версію
+        url: workspace_url
+        class: primary
+    - title: Корпоративний
+      price: Індивідуальна
+      duration: для великих команд
+      features:
+        - Усе, що в Професійному тарифі
+        - Індивідуальна інтеграція
+        - Виділена підтримка
+        - Гарантія SLA
+      cta:
+        text: Зв’язатися з відділом продажу
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Що можна робити з Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Розширене планування
+      items:
+        - Створюйте плани проєктів зі звичайних текстових описів за допомогою ШІ
+        - Здійснюйте будь-які оновлення й миттєво спостерігайте за змінами
+        - Прогнозуйте дати завершення та завчасно виявляйте можливі перешкоди
+        - Плануйте витрати
+    - icon: fas fa-tasks
+      title: Управління завданнями
+      items:
+        - Розбивайте проєкти на завдання
+        - Встановлюйте залежності та крайні терміни
+        - Позначайте завдання як віхи
+        - Відстежуйте критичний шлях
+        - Перевіряйте статус виконання завдань
+    - icon: fas fa-users
+      title: Спільна робота
+      items:
+        - Google Диск для збереження та спільного доступу
+        - Інтеграція з Google Диском для обміну
+    - icon: fas fa-chart-line
+      title: Розширене відстеження
+      items:
+        - Моніторинг використання ресурсів
+        - Аналіз критичного шляху
+        - Відстеження використання ресурсів
+        - Аналіз часової шкали
+    - icon: fas fa-calendar-alt
+      title: Управління ресурсами
+      items:
+        - Керуйте трудовими, матеріальними та фінансовими ресурсами
+        - Встановлюйте календарі та робочий час для ресурсів
+        - Автоматично розподіляйте перевантажені ресурси
+        - Переглядайте використання ресурсів у часі
+    - icon: fas fa-plug
+      title: Інтеграції
+      items:
+        - Сумісність із файлами MS Project (.MPP)
+        - Експорт у PDF та PNG
+        - Інтеграція з Google Диском
+
+faq:
+  title: Поширені запитання
+  items:
+    - question: "Що таке Ingantt і як він працює з Google Workspace?"
+      answer: "Ingantt – це професійний інструмент керування проєктами, який безшовно інтегрується з Google Workspace. Він дозволяє створювати, керувати та ділитися планами проєктів безпосередньо з вашого Google Диска, спрощуючи співпрацю для команд, які вже працюють в екосистемі Google."
+    - question: "Чи можу я імпортувати наявні файли Microsoft Project?"
+      answer: "Так! Ingantt повністю підтримує імпорт файлів .MPP і .XML з Microsoft Project. Увесь ваш проєктний вміст, включно з завданнями, ресурсами та залежностями, зберігається під час імпорту."
+    - question: "Як працює генерація проєктів на основі ШІ?"
+      answer: "Наш ШІ-асистент може створювати повні плани проєктів зі звичайних текстових описів. Просто опишіть цілі та вимоги вашого проєкту, і ШІ сформує структурований план із завданнями, термінами та залежностями, спираючись на найкращі практики керування проєктами."
+    - question: "Що включено у безкоштовну пробну версію?"
+      answer: "14-денна безкоштовна пробна версія включає всі функції тарифу Professional: генерація проєктів на основі ШІ, імпорт/експорт MS Project, необмежена кількість проєктів і повна інтеграція з Google Workspace. Для початку не потрібна кредитна картка."
+    - question: "Чи можу я використовувати Ingantt на мобільних пристроях?"
+      answer: "Так! Ingantt працює на будь-якому пристрої з веббраузером. Наш адаптивний інтерфейс ідеально підлаштовується під мобільні телефони та планшети, забезпечуючи повний доступ до ваших проєктів у дорозі."
+    - question: "Що станеться з моїми даними, якщо я скасую підписку?"
+      answer: "Ваші файли проєктів залишаються у безпеці в Google Диску навіть після скасування. Ви можете будь-коли експортувати їх у різні формати, включно з форматом Microsoft Project, тож ніколи не втратите доступ до своїх даних."
+    - question: "Як придбати Ingantt для моїх колег?"
+      answer: "Увійдіть до Ingantt за допомогою облікового запису Google, натисніть на свій аватар у правому верхньому куті й оберіть «Purchase subscriptions». Відмітьте «I want to purchase subscriptions for others» і введіть адреси Google-акаунтів ваших колег. Оберіть розклад платежів (щомісячно або щорічно) і перейдіть до оформлення покупки."
+  support:
+    title: Почніть планувати з Ingantt уже зараз
+    docs:
+      text: Перейти до документації
+      url: docs_url
+    contact:
+      title: "Маєте додаткові запитання?<br>Зверніться до реальної людини за підтримкою!"
+      text: Напишіть нам
+      icon: fa fa-envelope
+      url: support_email
+
+cta:
+  title: Готові змінити підхід до планування проєктів у вашій команді?
+  subtitle: Почніть безкоштовну пробну версію та відчуйте всю силу планування проєктів на основі ШІ
+  button:
+    text: Почати безкоштовну пробну версію
+    image: Google_Workspace_Logo.svg.png
+    url: workspace_url
+
+platform_support:
+  title: Потрібна окрема версія для вашого пристрою?
+  platforms:
+    - icon: fab fa-windows
+      text: Windows
+      url: windows_page
+    - icon: fab fa-apple
+      text: macOS
+      url: macos_page
+    - icon: fab fa-android
+      text: Android
+      url: android_page
+    - icon: fab fa-app-store-ios
+      text: iOS
+      url: ios_page

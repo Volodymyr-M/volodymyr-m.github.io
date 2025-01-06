@@ -3,14 +3,14 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ site.active_lang }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ingantt - Modern Project Planning in Google Workspace</title>
-    <meta name="keywords" content="gantt chart app Android, mpp, gantt Windows, mpp reader, mpp viewer, gantt application, gantt for Mac, gantt iOS, gantt for Google Workspace">
-    <meta name="description" content="Ingantt - AI-powered project management tool for Google Workspace, Android, Windows, MacOS and iOS. Plan, schedule, and track your projects with ease.">
-    <link rel="stylesheet" href="styles/styles.css">
+    <title>{{ site.data[site.active_lang].index-workspace.title }}</title>
+    <meta name="keywords" content="{{ site.data[site.active_lang].index-workspace.meta_keywords }}">
+    <meta name="description" content="{{ site.data[site.active_lang].index-workspace.meta_description }}">
+    <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body class="light-mode">
@@ -18,22 +18,21 @@ layout: compress
         <nav class="container">
             <div class="logo">
                 <a href="/">
-                    <img src="images/icon_padded1.png" alt="Ingantt Logo" class="logo-img">
-                    <span class="logo-text">Ingantt</span>
+                    <img src="/images/icon_padded1.png" alt="Ingantt Logo" class="logo-img">
+                    <span class="logo-text">{{ site.data[site.active_lang].index-workspace.header.logo_text }}</span>
                 </a>
             </div>
             <div class="nav-right">
                 <div class="language-select nav-version">
                     <div class="language-current">
-                        <i class="fa-brands fa-google"></i>
-                        <span>Ingantt for Google Workspace</span>
+                        <i class="{{ site.data[site.active_lang].index-workspace.header.nav_version.current.icon }}"></i>
+                        <span>{{ site.data[site.active_lang].index-workspace.header.nav_version.current.text }}</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="language-dropdown">
-                        <a href="{{ site.windows_page }}"><i class="fab fa-windows"></i> Ingantt for Windows</a>
-                        <a href="{{ site.macos_page }}"><i class="fab fa-apple"></i> Ingantt for macOS</a>
-                        <a href="{{ site.ios_page }}"><i class="fab fa-app-store-ios"></i> Ingantt for iOS</a>
-                        <a href="{{ site.android_page }}"><i class="fab fa-android"></i> Ingantt for Android</a>
+                        {% for version in site.data[site.active_lang].index-workspace.header.nav_version.versions %}
+                        <a href="{{ site[version.url] }}"><i class="{{ version.icon }}"></i> {{ version.text }}</a>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
@@ -47,74 +46,68 @@ layout: compress
     <footer>
         <div class="container">
             <div class="footer-grid">
+                {% for section in site.data[site.active_lang].index-workspace.footer.sections %}
+                {% assign section_data = section[1] %}
                 <div class="footer-section">
-                    <h3>Products</h3>
+                    <h3>{{ section_data.title }}</h3>
+                    {% if section[0] == 'products' or section[0] == 'legal' %}
                     <ul>
-                        <li><a href="/" class="active"><i class="fa-brands fa-google"></i>Ingantt for Google Workspace</a></li>
-                        <li><a href="{{ site.windows_page }}"><i class="fab fa-windows"></i>Ingantt for Windows</a></li>
-                        <li><a href="{{ site.macos_page }}"><i class="fab fa-apple"></i>Ingantt for macOS</a></li>
-                        <li><a href="{{ site.ios_page }}"><i class="fab fa-app-store-ios"></i>Ingantt for iOS</a></li>
-                        <li><a href="{{ site.android_page }}"><i class="fab fa-android"></i>Ingantt for Android</a></li>
+                        {% for item in section_data.items %}
+                        <li>
+                            <a href="{{ item.url }}" {% if item.active %}class="active"{% endif %}>
+                                {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
+                                {{ item.text }}
+                            </a>
+                        </li>
+                        {% endfor %}
                     </ul>
-                </div>               
-                <div class="footer-section">
-                    <h3>Legal</h3>
+                    {% endif %}
+
+                    {% if section[0] == 'connect' %}
                     <ul>
-                        <li><a href="privacy_policy.html">Privacy Policy</a></li>
-                        <li><a href="terms_of_service.html">Terms of Service</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h3>Connect</h3>
-                    <ul>
-                        <li><a href="mailto:{{ site.support_email }}"><i class="fa fa-envelope"></i>Email us</a></li>
+                        {% for item in section_data.items %}
+                        <li>
+                            <a href="mailto:{{ site[item.url] }}">
+                                <i class="{{ item.icon }}"></i>{{ item.text }}
+                            </a>
+                        </li>
+                        {% endfor %}
                     </ul>
                     <div class="social-links">
-                        <a href="{{ site.twitter_url }}" aria-label="X (Twitter)" title="X (Twitter)"><i class="fab fa-x-twitter"></i></a>
-                        <a href="{{ site.bluesky_url }}" aria-label="Bluesky" title="Bluesky" target="_blank"><i class="fab fa-bluesky"></i></a>
-                        <a href="{{ site.facebook_url }}" aria-label="Facebook" title="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="{{ site.youtube_url }}" aria-label="YouTube" title="YouTube"><i class="fab fa-youtube"></i></a>
+                        {% for social in section_data.social_links %}
+                        <a href="{{ site[social.url] }}" aria-label="{{ social.title }}" title="{{ social.title }}">
+                            <i class="{{ social.icon }}"></i>
+                        </a>
+                        {% endfor %}
                     </div>
-                </div>
-                <div class="footer-section">
-                    <h3>Site Settings</h3>
+                    {% endif %}
+
+                    {% if section[0] == 'site_settings' %}
                     <div class="language-select">
                         <div class="language-current">
-                            <i class="fas fa-globe"></i>
-                            <span>English</span>
+                            <i class="{{ section_data.language.current.icon }}"></i>
+                            <span>{{ section_data.language.current.text }}</span>
                             <i class="fas fa-chevron-up"></i>
                         </div>
                         <div class="language-dropdown">
-                            <a href="#" class="active">English</a>
-                            <a href="#">Українська</a>
-                            <a href="#">Deutsch</a>
-                            <a href="#">Español</a>
-                            <a href="#">Français</a>
-                            <a href="#">हिन्दी</a>
-                            <a href="#">Bahasa Indonesia</a>
-                            <a href="#">Italiano</a>
-                            <a href="#">日本語</a>
-                            <a href="#">한국어</a>
-                            <a href="#">Bahasa Melayu</a>
-                            <a href="#">Polski</a>
-                            <a href="#">Português</a>
-                            <a href="#">ภาษาไทย</a>
-                            <a href="#">Türkçe</a>
-                            <a href="#">Tiếng Việt</a>
-                            <a href="#">简体中文</a>
+                            {% for lang in section_data.language.options %}
+                            <a href="#" {% if lang.active %}class="active"{% endif %}>{{ lang.text }}</a>
+                            {% endfor %}
                         </div>
                     </div>
-                    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
-                        <i class="fas fa-adjust"></i> Toggle dark mode
+                    <button id="theme-toggle" aria-label="{{ section_data.theme_toggle.text }}" title="{{ section_data.theme_toggle.text }}">
+                        <i class="{{ section_data.theme_toggle.icon }}"></i> {{ section_data.theme_toggle.text }}
                     </button>
+                    {% endif %}
                 </div>
+                {% endfor %}
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 Ingantt Development. All rights reserved.</p>
+                <p>&copy; {{ site.data[site.active_lang].index-workspace.footer.copyright }}</p>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 </html>
