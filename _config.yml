@@ -22,7 +22,7 @@ plugins:
 #I18n
 languages: ["en", "uk", "de", "es", "fr", "hi", "id", "it", "ja", "ko", "ms", "pl", "pt", "th", "tr", "vi", "zh"]
 default_lang: "en"
-exclude_from_localization: ["images", "styles", "videos", "js"]
+exclude_from_localization: ["images", "styles", "videos", "js", "assets", "CNAME", "auth.md", "open.md", "auth_close.html", "favicon.ico", "redirect.html", "signin.md", "desktop_callback.md"]
 parallel_localization: false
 lang_from_path: true
 
