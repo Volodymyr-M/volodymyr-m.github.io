@@ -163,7 +163,7 @@ layout: default
                         <div class="feature-image">
                             {% if tab.content.video %}
                             <video autoplay muted loop playsinline>
-                                <source src="{{ tab.content.video }}" type="video/mp4">
+                                <source src="/{{ tab.content.video }}" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video>
                             {% else %}
