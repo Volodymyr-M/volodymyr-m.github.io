@@ -84,9 +84,14 @@ if (showMoreBtn && hiddenTestimonials) {
     showMoreBtn.addEventListener('click', () => {
         const isHidden = hiddenTestimonials.style.display === 'none' || hiddenTestimonials.style.display === '';
         hiddenTestimonials.style.display = isHidden ? 'grid' : 'none';
+        
+        // Update text content
+        const textSpan = showMoreBtn.querySelector('.button-text');
+        textSpan.textContent = isHidden ? 
+            showMoreBtn.getAttribute('data-show-less') : 
+            showMoreBtn.getAttribute('data-show-more');
+        
+        // Toggle active state for animation
         showMoreBtn.classList.toggle('active');
-        showMoreBtn.innerHTML = isHidden ? 
-            'Show less <i class="fas fa-chevron-up"></i>' : 
-            'Show more <i class="fas fa-chevron-down"></i>';
     });
 }

@@ -152,6 +152,12 @@ demo:
 
 testimonials:
   title: Trusted by Project Managers Worldwide
+  show_more:
+    text: Show more
+    icon: fas fa-chevron-down
+  show_less:
+    text: Show less
+    icon: fas fa-chevron-up
   items:
     - rating: ★★★★★
       text: The best Gantt app that also doesn't lock you to its own file format or its own cloud storage.

@@ -954,6 +954,7 @@ h1 {
 
 .show-more-button i {
     transition: transform var(--transition-normal);
+    display: inline-block;
 }
 
 .show-more-button.active i {

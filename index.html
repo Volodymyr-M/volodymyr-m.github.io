@@ -116,9 +116,11 @@ layout: default
             {% endfor %}
         </div>
         <div class="show-more-container">
-            <button class="show-more-button">
-                {{ site.data[site.active_lang].index-workspace.testimonials.show_more.text }}
-                <i class="{{ site.data[site.active_lang].index-workspace.testimonials.show_more.icon }}"></i>
+            <button class="show-more-button"
+                data-show-more="{{ site.data[site.active_lang].index-workspace.testimonials.show_more.text }}"
+                data-show-less="{{ site.data[site.active_lang].index-workspace.testimonials.show_less.text }}">
+                <span class="button-text">{{ site.data[site.active_lang].index-workspace.testimonials.show_more.text }}</span>
+                <i class="fas fa-chevron-down"></i>
             </button>
         </div>
     </div>
