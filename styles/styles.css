@@ -1151,6 +1151,7 @@ h1 {
     color: rgba(255, 255, 255, 0.9);
     font-size: 1.25rem;
     margin-bottom: var(--spacing-lg);
+    text-align: center;
 }
 
 .cta .cta-button.primary {
