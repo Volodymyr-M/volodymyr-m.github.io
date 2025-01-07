@@ -49,9 +49,9 @@ footer:
       title: Legal
       items:
         - text: Privacy Policy
-          url: privacy_policy.html
+          url: privacy_policy_page
         - text: Terms of Service
-          url: terms_of_service.html
+          url: terms_of_service_page
     
     connect:
       title: Connect

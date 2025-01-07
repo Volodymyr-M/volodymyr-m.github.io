@@ -14,6 +14,8 @@ android_page: index-android.html
 ios_page: index-ios.html
 windows_page: index-windows.html
 macos_page: index-macos.html
+privacy_policy_page: privacy_policy.html
+terms_of_service_page: terms_of_service.html
 
 # Build settings
 plugins:

@@ -55,7 +55,7 @@ layout: compress
                     <ul>
                         {% for item in section_data.items %}
                         <li>
-                            <a href="{{ item.url }}" {% if item.active %}class="active"{% endif %}>
+                            <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}" {% if item.active %}class="active"{% endif %}>
                                 {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
                                 {{ item.text }}
                             </a>

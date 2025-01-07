@@ -48,10 +48,10 @@ footer:
     legal:
       title: Rechtliches
       items:
-        - text: Datenschutzrichtlinie
-          url: privacy_policy.html
+        - text: Datenschutzerklärung
+          url: privacy_policy_page
         - text: Nutzungsbedingungen
-          url: terms_of_service.html
+          url: terms_of_service_page
     
     connect:
       title: Kontakt

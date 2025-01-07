@@ -49,9 +49,9 @@ footer:
       title: Юридична інформація
       items:
         - text: Політика конфіденційності
-          url: privacy_policy.html
+          url: privacy_policy_page
         - text: Умови обслуговування
-          url: terms_of_service.html
+          url: terms_of_service_page
     
     connect:
       title: Зв’язок
