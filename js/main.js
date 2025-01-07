@@ -36,15 +36,13 @@ document.querySelectorAll('.faq-question').forEach(question => {
         
         // Toggle this answer
         answer.style.maxHeight = answer.style.maxHeight ? null : answer.scrollHeight + 'px';
-        icon.classList.toggle('fa-chevron-up');
-        icon.classList.toggle('fa-chevron-down');
+        question.classList.toggle('active');
         
         // Close other answers
         document.querySelectorAll('.faq-answer').forEach(otherAnswer => {
             if (otherAnswer !== answer && otherAnswer.style.maxHeight) {
                 otherAnswer.style.maxHeight = null;
-                otherAnswer.previousElementSibling.querySelector('i').classList.remove('fa-chevron-up');
-                otherAnswer.previousElementSibling.querySelector('i').classList.add('fa-chevron-down');
+                otherAnswer.previousElementSibling.classList.remove('active');
             }
         });
     });
