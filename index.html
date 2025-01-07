@@ -197,7 +197,7 @@ layout: default
                     <li><i class="fas fa-check"></i> {{ feature }}</li>
                     {% endfor %}
                 </ul>
-                <a href="{% if plan.cta.url contains '@' %}mailto:{% endif %}{{ site[plan.cta.url] }}" class="cta-button {{ plan.cta.class }}" {% unless plan.cta.url contains '@' %}target="_blank"{% endunless %}>{{ plan.cta.text }}</a>
+                <a href="{% if site[plan.cta.url] contains '@' %}mailto:{% endif %}{{ site[plan.cta.url] }}" class="cta-button {{ plan.cta.class }}" {% unless plan.cta.url contains '@' %}target="_blank"{% endunless %}>{{ plan.cta.text }}</a>
             </div>
             {% endfor %}
         </div>
@@ -249,10 +249,10 @@ layout: default
             <div class="faq-support">
                 <div class="support-content">
                     <h2>{{ site.data[site.active_lang].index-workspace.faq.support.title }}</h2>
-                    <a href="{{ site[site.data[site.active_lang].index-workspace.faq.support.docs.url] }}" class="cta-button secondary" target="_blank">{{ site.data[site.active_lang].index-workspace.faq.support.docs.text }}</a>
+                    <a href="{{ site.docs_url }}" class="cta-button secondary" target="_blank">{{ site.data[site.active_lang].index-workspace.faq.support.docs.text }}</a>
                     <div class="support-divider">
                         <h2>{{ site.data[site.active_lang].index-workspace.faq.support.contact.title }}</h2>
-                        <a href="mailto:{{ site[site.data[site.active_lang].index-workspace.faq.support.contact.url] }}" class="cta-button primary">
+                        <a href="mailto:{{ site.support_email }}" class="cta-button primary">
                             <i class="{{ site.data[site.active_lang].index-workspace.faq.support.contact.icon }}"></i>
                             {{ site.data[site.active_lang].index-workspace.faq.support.contact.text }}
                         </a>
@@ -269,7 +269,7 @@ layout: default
         <h2>{{ site.data[site.active_lang].index-workspace.cta.title }}</h2>
         <p>{{ site.data[site.active_lang].index-workspace.cta.subtitle }}</p>
         <div class="cta-buttons">
-            <a href="{{ site[site.data[site.active_lang].index-workspace.cta.button.url] }}" class="cta-button primary" target="_blank">
+            <a href="{{ site.workspace_url }}" class="cta-button primary" target="_blank">
                 <span class="button-content">
                     <span class="button-title">{{ site.data[site.active_lang].index-workspace.cta.button.text }}</span>
                     <img src="/images/{{ site.data[site.active_lang].index-workspace.cta.button.image }}" alt="Google Workspace" class="workspace-logo">

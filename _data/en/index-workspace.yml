@@ -375,12 +375,10 @@ faq:
     title: Get started planning with Ingantt
     docs:
       text: Go to Documentation
-      url: docs_url
     contact:
       title: Have more questions?<br>Contact a real person for support!
       text: Email us
       icon: fa fa-envelope
-      url: support_email
 
 cta:
   title: Ready to Transform Your Team's Project Planning?
@@ -388,7 +386,6 @@ cta:
   button:
     text: Start Free Trial
     image: Google_Workspace_Logo.svg.png
-    url: workspace_url
 
 platform_support:
   title: Need a device-specific version for personal use?
