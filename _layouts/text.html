@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign data_page = site.data[site.active_lang].text-pages.pages_list | where:"index", page.page_index  | first %}
+{% assign data_page = site.data[site.active_lang].text-pages[page.page_name] %}
 
 <section class="text-page">
     <div class="container">

@@ -1,6 +1,5 @@
-pages_list:
-  - title: Terms of Service
-    index: 1
+terms_of_service:
+    title: Terms of Service
     text: |
       Welcome to Ingantt! By using our app, you agree to the following terms and conditions:
 
@@ -44,8 +43,8 @@ pages_list:
 
       If you have any questions about these Terms of Service, please contact us.
 
-  - title: Privacy Policy
-    index: 2
+privacy_policy:
+    title: Privacy Policy
     text: |
       ## What is Personal Information?
 
@@ -82,3 +81,4 @@ pages_list:
       ## Privacy Policy Complaints and Inquiries
 
       If you have any queries or complaints about our Privacy Policy please contact us.
+  

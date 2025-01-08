@@ -1,5 +1,5 @@
 ---
 layout: text
-page_index: 2
+page_name: privacy_policy
 permalink: privacy_policy.html
 ---
