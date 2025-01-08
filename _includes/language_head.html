@@ -1,11 +1,11 @@
-<link rel="alternate" hreflang="{{ site.default_lang }}" href="{{ page.permalink | default: ' /' }}" />
 {% for lang in site.languages %}
-    {% if lang == site.default_lang %}{% continue %}{% endif %}
+    {% if lang == site.active_lang or lang == site.default_lang %}{% continue %}{% endif %}
     <link rel="alternate" hreflang="{{lang}}" href="/{{lang}}/{{page.permalink}}" />
 {% endfor %}
 {% if site.active_lang == site.default_lang %}
     <base href="/">
     {% else %}
+    <link rel="alternate" hreflang="{{ site.default_lang }}" href="{{ page.permalink | default: ' /' }}" />
     <base href="../">
 {% endif %}
 <script type="text/javascript">
