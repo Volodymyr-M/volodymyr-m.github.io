@@ -1,13 +1,51 @@
-// Theme toggler
+// Theme handling
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
 const icon = themeToggle.querySelector('i');
 
-themeToggle.addEventListener('click', () => {
-    body.classList.toggle('dark-mode');
-    icon.classList.toggle('fa-sun');
-    icon.classList.toggle('fa-adjust');
+// Function to set theme
+function setTheme(isDark) {
+    body.classList.toggle('dark-mode', isDark);
+    icon.classList.toggle('fa-sun', isDark);
+    icon.classList.toggle('fa-adjust', !isDark);
+    document.cookie = `theme=${isDark ? 'dark' : 'light'}; path=/; max-age=31536000`; // Cookie expires in 1 year
+}
+
+// Function to get theme from cookie
+function getThemeCookie() {
+    const cookies = document.cookie.split(';');
+    const themeCookie = cookies.find(cookie => cookie.trim().startsWith('theme='));
+    return themeCookie ? themeCookie.split('=')[1].trim() : null;
+}
+
+// Initialize theme
+function initializeTheme() {
+    const savedTheme = getThemeCookie();
+    if (savedTheme) {
+        // Use saved preference if it exists
+        setTheme(savedTheme === 'dark');
+    } else {
+        // Otherwise use system preference
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(prefersDark);
+    }
+}
+
+// Listen for system theme changes
+window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
+    if (!getThemeCookie()) { // Only react to system changes if no cookie is set
+        setTheme(e.matches);
+    }
 });
+
+// Theme toggle click handler
+themeToggle.addEventListener('click', () => {
+    const isDark = !body.classList.contains('dark-mode');
+    setTheme(isDark);
+});
+
+// Initialize theme on page load
+initializeTheme();
 
 // Position versions dropdown
 const otherVersionsBtn = document.querySelector('.cta-group .nav-version');
