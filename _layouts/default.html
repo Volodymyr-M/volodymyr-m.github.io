@@ -111,7 +111,7 @@ layout: compress
                 {% endfor %}
             </div>
             <div class="footer-bottom">
-                <p>&copy; {{ site.data[site.active_lang].index-workspace.footer.copyright }}</p>
+                <p>&copy; {{ site.time | date: '%Y' }} {{ site.data[site.active_lang].index-workspace.footer.copyright }}</p>
             </div>
         </div>
     </footer>

@@ -78,31 +78,11 @@ footer:
       language:
         current:
           icon: fas fa-globe
-          text: English
-        options:
-          - text: English
-            active: true
-          - text: Українська
-          - text: Deutsch
-          - text: Español
-          - text: Français
-          - text: हिन्दी
-          - text: Bahasa Indonesia
-          - text: Italiano
-          - text: 日本語
-          - text: 한국어
-          - text: Bahasa Melayu
-          - text: Polski
-          - text: Português
-          - text: ภาษาไทย
-          - text: Türkçe
-          - text: Tiếng Việt
-          - text: 简体中文
       theme_toggle:
         text: Toggle dark mode
         icon: fas fa-adjust
 
-  copyright: 2025 Ingantt Development. All rights reserved.
+  copyright: Ingantt Development. All rights reserved.
 
 hero:
   title: Gantt Chart Project Planning in Google Workspace with AI

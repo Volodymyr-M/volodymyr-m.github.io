@@ -78,31 +78,11 @@ footer:
       language:
         current:
           icon: fas fa-globe
-          text: Deutsch
-        options:
-          - text: English
-          - text: Українська
-          - text: Deutsch
-            active: true
-          - text: Español
-          - text: Français
-          - text: हिन्दी
-          - text: Bahasa Indonesia
-          - text: Italiano
-          - text: 日本語
-          - text: 한국어
-          - text: Bahasa Melayu
-          - text: Polski
-          - text: Português
-          - text: ภาษาไทย
-          - text: Türkçe
-          - text: Tiếng Việt
-          - text: 简体中文
       theme_toggle:
         text: Dunkelmodus umschalten
         icon: fas fa-adjust
 
-  copyright: "2025 Ingantt Development. Alle Rechte vorbehalten."
+  copyright: "Ingantt Development. Alle Rechte vorbehalten."
 
 hero:
   title: "Gantt-Diagramme für die Projektplanung in Google Workspace mit KI"
