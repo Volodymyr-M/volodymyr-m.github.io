@@ -12,11 +12,13 @@ layout: default
                 <div class="cta-group">
                     <a href="{{ site.workspace_url }}" class="cta-button primary" target="_blank">
                         <span class="button-content">
-                            <span class="button-title">{{ site.data[site.active_lang].index-workspace.hero.cta.primary.text }}</span>
+                            <span class="button-title-wrapper">
+                                <span class="button-title">{{ site.data[site.active_lang].index-workspace.hero.cta.primary.text }}</span>
+                            </span>
                             <img src="/images/{{ site.data[site.active_lang].index-workspace.hero.cta.primary.image }}" alt="Google Workspace" class="workspace-logo">
                         </span>
                     </a>
-                    <div class="language-select nav-version">
+                    <div class="language-select nav-version other-versions-btn">
                         <a href="#" class="cta-button secondary other-versions">
                             <span class="button-content">
                                 <span class="button-title">{{ site.data[site.active_lang].index-workspace.hero.cta.other_versions.title }} <i class="fas fa-chevron-down"></i></span>
@@ -273,7 +275,9 @@ layout: default
         <div class="cta-buttons">
             <a href="{{ site.workspace_url }}" class="cta-button primary" target="_blank">
                 <span class="button-content">
-                    <span class="button-title">{{ site.data[site.active_lang].index-workspace.cta.button.text }}</span>
+                    <span class="button-title-wrapper">
+                        <span class="button-title">{{ site.data[site.active_lang].index-workspace.cta.button.text }}</span>
+                    </span>
                     <img src="/images/{{ site.data[site.active_lang].index-workspace.cta.button.image }}" alt="Google Workspace" class="workspace-logo">
                 </span>
             </a>

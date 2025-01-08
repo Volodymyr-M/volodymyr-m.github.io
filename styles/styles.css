@@ -299,9 +299,9 @@ h1 {
 }
 
 .cta-button.primary .button-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+        display: flex;
+        flex-direction: column;
+align-items: center;
     gap: var(--spacing-xs);
 }
 
@@ -1972,4 +1972,53 @@ section h2 {
 .inline-marketplace-logo {
     height: 22px;
     vertical-align: middle;
+}
+
+/* Running text effect for hero CTA */
+.hero .cta-button.primary .button-content {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.hero .cta-button.primary .button-title {
+    display: block;
+    text-align: left;
+}
+
+.hero .cta-button.primary {
+    width: 180px;
+}
+
+.hero .cta-button.primary .button-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-xs);
+}
+
+.hero .cta-button.primary .button-title-wrapper {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-align: center;
+}
+
+.hero .cta-button.primary .button-title {
+    display: inline-block;
+    text-align: left;
+    transform: translateX(0);
+    transition: transform 3s linear;
+}
+
+.hero .cta-button.primary:hover .button-title {
+    transform: translateX(-60%);
+}
+
+.hero .other-versions-btn {
+    width: auto;
 }
