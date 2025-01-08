@@ -1,15 +1,14 @@
 ---
 layout: default
 ---
-
 {% assign data_page = site.data[site.active_lang].text-pages[page.page_name] %}
 
 <section class="text-page">
     <div class="container">
-        <h1>{{ data_page["title"] }}</h1>
+        <h1>{{ data_page.text_title }}</h1>
         
         <div class="text-content">
-            {{ data_page["text"] | markdownify }}
+            {{ data_page.text | markdownify }}
         </div>
     </div>
 </section>
