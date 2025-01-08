@@ -1,0 +1,202 @@
+/* Android-specific theme overrides */
+:root {
+    /* Light Mode Colors */
+    --primary-color: #0284c7;
+    --primary-hover: #0369a1;
+    --secondary-color: #6366f1;
+    --accent-color: #f97316;
+    --background: #ffffff;
+    --surface: #ffffff;
+    --surface-alt: #f8fafc;
+    --text-primary: #334155;
+    --text-secondary: #64748b;
+    --text-muted: #94a3b8;
+    --border: #e2e8f0;
+    --shadow: rgba(51, 65, 85, 0.08);
+    
+    /* Gradients */
+    --gradient-1: linear-gradient(135deg, #0284c7, #6366f1);
+    --gradient-2: linear-gradient(135deg, #f97316, #db2777);
+}
+
+.theme-dark {
+    --primary-color: #3b82f6;
+    --primary-hover: #60a5fa;
+    --secondary-color: #8b5cf6;
+    --accent-color: #f59e0b;
+    --background: #0f172a;
+    --surface: #1e293b;
+    --surface-alt: #0f172a;
+    --text-primary: #f3f4f6;
+    --text-secondary: #e5e7eb;
+    --text-muted: #9ca3af;
+    --border: #334155;
+    --shadow: rgba(0, 0, 0, 0.3);
+    
+    /* Gradients */
+    --gradient-1: linear-gradient(135deg, #3b82f6, #8b5cf6);
+    --gradient-2: linear-gradient(135deg, #f59e0b, #ec4899);
+}
+
+/* Apply theme based on system preference */
+:root {
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --theme-class: theme-light;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-class: theme-dark;
+    }
+}
+
+/* Common styles */
+body {
+    color: var(--text-primary);
+    background-color: var(--background);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero {
+    background: var(--surface-alt);
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.03;
+    pointer-events: none;
+    background-color: var(--primary-color);
+}
+
+.hero-content h1 {
+    color: var(--primary-color);
+    font-weight: 800;
+}
+
+.theme-dark .hero-content h1 {
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-subtitle {
+    color: var(--text-secondary);
+}
+
+.cta-button.primary {
+    background-color: var(--primary-color);
+    color: var(--surface);
+    border: none;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px var(--shadow);
+}
+
+.theme-dark .cta-button.primary {
+    background: var(--gradient-1);
+}
+
+.cta-button.primary:hover {
+    background-color: var(--primary-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px var(--shadow);
+}
+
+.cta-button.secondary {
+    background: var(--surface-alt);
+    color: var(--primary-color);
+    border: 1px solid var(--border);
+    transition: all 0.2s ease;
+}
+
+.cta-button.secondary:hover {
+    border-color: var(--primary-color);
+}
+
+.card, .feature-card, .pricing-card {
+    background-color: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 4px var(--shadow);
+    transition: all 0.2s ease;
+}
+
+.card:hover, .feature-card:hover, .pricing-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow);
+    border-color: var(--primary-color);
+}
+
+section {
+    background-color: var(--surface-alt);
+    border-bottom: 1px solid var(--border);
+}
+
+section:nth-child(even) {
+    background-color: var(--surface);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+.theme-dark h2 {
+    background: var(--gradient-2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.section-subtitle {
+    color: var(--text-secondary);
+}
+
+/* Additional UI enhancements */
+.language-dropdown {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 4px var(--shadow);
+}
+
+.language-dropdown a {
+    color: var(--text-primary);
+    transition: background-color 0.2s ease;
+}
+
+.language-dropdown a:hover {
+    background-color: var(--surface-alt);
+    color: var(--primary-color);
+}
+
+.testimonials-grid {
+    gap: 2rem;
+}
+
+.pricing-grid {
+    gap: 2rem;
+}
+
+/* Success/Error states */
+.success {
+    color: #10b981;
+}
+
+.error {
+    color: #ef4444;
+}
