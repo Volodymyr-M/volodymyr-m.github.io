@@ -90,6 +90,7 @@ hero:
   cta:
     primary:
       text: Почати безкоштовну пробну версію
+      text_fits: false
       image: Google_Workspace_Logo.svg.png
     other_versions:
       title: Інші версії

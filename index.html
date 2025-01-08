@@ -13,7 +13,7 @@ layout: default
                     <a href="{{ site.workspace_url }}" class="cta-button primary" target="_blank">
                         <span class="button-content">
                             <span class="button-title-wrapper">
-                                <span class="button-title">{{ site.data[site.active_lang].index-workspace.hero.cta.primary.text }}</span>
+                                <span {% unless site.data[site.active_lang].index-workspace.hero.cta.primary.text_fits %}class="button-title"{% endunless %}>{{ site.data[site.active_lang].index-workspace.hero.cta.primary.text }}</span>
                             </span>
                             <img src="/images/{{ site.data[site.active_lang].index-workspace.hero.cta.primary.image }}" alt="Google Workspace" class="workspace-logo">
                         </span>

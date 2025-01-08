@@ -89,7 +89,8 @@ hero:
   subtitle: Transform your project planning with intelligent Gantt charts, seamless collaboration, and AI assistance - all within your Google Drive.
   cta:
     primary:
-      text: Start Free Trial
+      text: Try Free
+      text_fits: true
       image: Google_Workspace_Logo.svg.png
     other_versions:
       title: Other versions

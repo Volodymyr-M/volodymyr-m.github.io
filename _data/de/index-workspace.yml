@@ -90,6 +90,7 @@ hero:
   cta:
     primary:
       text: Kostenlose Testversion starten
+      text_fits: false
       image: Google_Workspace_Logo.svg.png
     other_versions:
       title: Andere Versionen
@@ -367,6 +368,7 @@ cta:
   subtitle: Starten Sie jetzt Ihre kostenlose Testversion und erleben Sie die Kraft der KI-gestützten Projektplanung
   button:
     text: Kostenlose Testversion starten
+    text_fits: false
     image: Google_Workspace_Logo.svg.png
     url: workspace_url
 
