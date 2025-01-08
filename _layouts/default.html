@@ -8,12 +8,13 @@ layout: compress
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% assign page_data = site.data[site.active_lang].text-pages[page.page_name] %}
+    {% assign index_data = site.data[site.active_lang][page.index_name] | default: site.data[site.active_lang].index-workspace %}
     {% if page_data %}
         <title>{{ page_data.page_title }}</title>
         <meta name="keywords" content="{{ page_data.keywords }}">
         <meta name="description" content="{{ page_data.description }}">
     {% else %}
-        <title>{{ site.data[site.active_lang].index-workspace.title }}</title>
+        <title>{{ index_data.title }}</title>
         <meta name="keywords" content="{{ site.data[site.active_lang].index-workspace.meta_keywords }}">
         <meta name="description" content="{{ site.data[site.active_lang].index-workspace.meta_description }}">
     {% endif %}
@@ -27,19 +28,19 @@ layout: compress
             <div class="logo">
                 <a href="/">
                     <img src="/images/icon_padded1.png" alt="Ingantt Logo" class="logo-img">
-                    <span class="logo-text">{{ site.data[site.active_lang].index-workspace.header.logo_text }}</span>
+                    <span class="logo-text">{{ index_data.header.logo_text }}</span>
                 </a>
             </div>
             <div class="nav-right">
                 <div class="language-select nav-version">
                     <div class="language-current">
-                        <i class="{{ site.data[site.active_lang].index-workspace.header.nav_version.current.icon }}"></i>
-                        <span>{{ site.data[site.active_lang].index-workspace.header.nav_version.current.text }}</span>
+                        <i class="{{ index_data.header.nav_version.current.icon }}"></i>
+                        <span>{{ index_data.header.nav_version.current.text }}</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="language-dropdown">
-                        {% for version in site.data[site.active_lang].index-workspace.header.nav_version.versions %}
-                        <a href="{{ site[version.url] }}"><i class="{{ version.icon }}"></i> {{ version.text }}</a>
+                        {% for version in index_data.header.nav_version.versions %}
+                        <a href="/{{ site[version.url] }}"><i class="{{ version.icon }}"></i> {{ version.text }}</a>
                         {% endfor %}
                     </div>
                 </div>
@@ -54,7 +55,7 @@ layout: compress
     <footer>
         <div class="container">
             <div class="footer-grid">
-                {% for section in site.data[site.active_lang].index-workspace.footer.sections %}
+                {% for section in index_data.footer.sections %}
                 {% assign section_data = section[1] %}
                 <div class="footer-section">
                     <h3>{{ section_data.title }}</h3>
@@ -94,7 +95,7 @@ layout: compress
                     <div class="language-select">
                         <div class="language-current">
                             <i class="{{ section_data.language.current.icon }}"></i>
-                            <span>{{site.data[site.active_lang].index-workspace.lang_name}}</span>
+                            <span>{{index_data.lang_name}}</span>
                             <i class="fas fa-chevron-up"></i>
                         </div>
                         <div class="language-dropdown">
@@ -118,7 +119,7 @@ layout: compress
                 {% endfor %}
             </div>
             <div class="footer-bottom">
-                <p>&copy; {{ site.time | date: '%Y' }} {{ site.data[site.active_lang].index-workspace.footer.copyright }}</p>
+                <p>&copy; {{ site.time | date: '%Y' }} {{ index_data.footer.copyright }}</p>
             </div>
         </div>
     </footer>
