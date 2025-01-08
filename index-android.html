@@ -18,7 +18,7 @@ index_name: index-android
                             <span class="button-title-wrapper">
                                 <span {% unless index_data.hero.cta.primary.text_fits %}class="button-title"{% endunless %}>{{ index_data.hero.cta.primary.text }}</span>
                             </span>
-                            <img src="/images/{{ index_data.hero.cta.primary.image }}" alt="Google Workspace" class="workspace-logo">
+                            <span class="platform-info"><i class="{{ index_data.hero.cta.primary.icon }}"></i>{{ index_data.hero.cta.primary.icon_text }}</span>
                         </span>
                     </a>
                     <div class="language-select nav-version other-versions-btn">
@@ -42,13 +42,13 @@ index_name: index-android
                 <div class="hero-badges">
                     <div class="rating">
                         <div class="stars">{{ index_data.hero.rating.stars }}</div>
-                        <span>{{ index_data.hero.rating.text }} <img src="/images/google_workspace_marketplace.png" class="inline-marketplace-logo"></span>
+                        <span>{{ index_data.hero.rating.text }} <img src="/images/google_play_logo.png" class="inline-marketplace-logo"></span>
                     </div>
                 </div>
             </div>
             <div class="hero-image">
                 <div class="hero-image-wrapper">
-                    <img src="/images/work-10.png" alt="Illustration">
+                    <img src="/images/hero-android.png" alt="Illustration">
                     <div class="hero-shape-1"></div>
                     <div class="hero-shape-2"></div>
                     <div class="hero-shape-3"></div>

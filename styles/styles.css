@@ -2022,3 +2022,12 @@ section h2 {
 .hero .other-versions-btn {
     width: auto;
 }
+
+.platform-info {
+    display: inline;
+    font-size: 0.65em;
+}
+
+.platform-info i {
+    margin-right: var(--spacing-xs);
+}

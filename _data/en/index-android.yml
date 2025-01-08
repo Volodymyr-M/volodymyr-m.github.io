@@ -89,9 +89,10 @@ hero:
   subtitle: Transform your project planning with intelligent Gantt charts and AI assistance on your Android device.
   cta:
     primary:
-      text: Buy Now
+      text: Get it now
       text_fits: true
-      image: Google_Play_Store_Badge.png
+      icon: fab fa-android
+      icon_text: Android
     other_versions:
       title: Other versions
       platforms:
