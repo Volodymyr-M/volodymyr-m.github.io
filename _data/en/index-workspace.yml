@@ -110,8 +110,8 @@ hero:
     stars: ★★★★★
     text: 5 stars on
   image: hero-workspace.png
-  store_image: google_workspace_marketplace.png
 
+store_image: google_workspace_marketplace.png
 platform_image: google_workspace.png
 platform_url: workspace_url
 
@@ -376,7 +376,6 @@ cta:
   subtitle: Start your free trial today and experience the power of AI-driven project planning
   button:
     text: Start Free Trial
-    image: Google_Workspace_Logo.svg.png
 
 platform_support:
   title: Need a device-specific version for personal use?

@@ -110,13 +110,13 @@ hero:
     stars: ★★★★★
     text: 5 stars on
   image: hero-android.png
-  store_image: google_play.png
 
+store_image: google_play.png
 platform_image: android.png
 platform_url: android_url
 
 features_grid:
-  title: Why Teams Choose Ingantt
+  title: Why Project Managers Choose Ingantt
   items:
     - icon: fas fa-robot
       title: AI-Powered Planning
@@ -371,7 +371,6 @@ cta:
   subtitle: Enjoy AI-driven project planning right on your phone or tablet
   button:
     text: Get it now
-    image: Google_Play_Store_Badge.png
 
 platform_support:
   title: Need a device-specific version for other platforms?
