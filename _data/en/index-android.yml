@@ -261,12 +261,22 @@ features_detailed:
         video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
 
 pricing:
-  title: Simple, Transparent Pricing
+  title: Simple Purchase
   subtitle: Ingantt for Android
   plans:
+    - title: 
+      price: 
+      duration:
+      featured: false
+      features:
+      cta:
+        text: 
+        url: 
+        class: 
     - title: Single Purchase
-      price: $15
+      price: 
       duration: per copy
+      featured: true
       features:
         - Full Feature Access
         - AI Project Generation
@@ -275,26 +285,16 @@ pricing:
       cta:
         text: Buy Now
         url: android_purchase_url
-        class: secondary
-    - title: Professional
-      price: Not applicable
-      duration: (no subscription)
+        class: primary
+    - title: 
+      price: 
+      duration:
       featured: false
       features:
-        - This plan is not available on Android
       cta:
-        text: —
-        url: '#'
-        class: primary
-    - title: Enterprise
-      price: Not applicable
-      duration: (no subscription)
-      features:
-        - This plan is not available on Android
-      cta:
-        text: —
-        url: '#'
-        class: secondary
+        text: 
+        url: 
+        class:
 
 features_list:
   title: What You Can Do with Ingantt
