@@ -1,0 +1,315 @@
+/* iOS-specific theme overrides */
+.light-mode {
+    /* Enhanced Light Mode Colors */
+    --primary-color: #00aaff; /* Vibrant Sky Blue */
+    --primary-hover: #33bbff;
+    --secondary-color: #ff6f61; /* Coral */
+    --accent-color: #ff4081; /* Bright Pink */
+    --background: #fafafa; /* Soft White */
+    --surface: #ffffff;
+    --surface-alt: #f2f2f2;
+    --text-primary: #1a1a1a; /* Darker Black */
+    --text-secondary: #3a3a3a; /* Dark Gray */
+    --text-muted: #7a7a7a; /* Medium Gray */
+    --border: #e0e0e0;
+    --shadow: rgba(0, 0, 0, 0.08);
+    
+    /* Light Mode Gradients */
+    --gradient-1: linear-gradient(120deg, #00aaff, #ff6f61);
+    --gradient-2: linear-gradient(120deg, #ff4081, #ff6f61);
+    --gradient-surface: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(250,250,250,0.98));
+
+    /* iOS specific */
+    --card-radius: 14px;
+    --button-radius: 10px;
+    --blur-effect: saturate(200%) blur(15px);
+}
+
+.dark-mode {
+    /* Enhanced Dark Mode Colors */
+    --primary-color: #008080; /* Deep Teal */
+    --primary-hover: #00aaaa;
+    --secondary-color: #ff4081; /* Bright Magenta */
+    --accent-color: #ff80ab; /* Light Pink */
+    --background: #101010; /* True Black */
+    --surface: #1b1b1b;
+    --surface-alt: #2a2a2a;
+    --text-primary: #e0e0e0; /* Bright White */
+    --text-secondary: #c0c0c0; /* Light Gray */
+    --text-muted: #909090; /* Medium Gray */
+    --border: #484848;
+    --shadow: rgba(0, 0, 0, 0.5);
+    
+    /* Dark Mode Gradients */
+    --gradient-1: linear-gradient(120deg, #008080, #ff4081);
+    --gradient-2: linear-gradient(120deg, #ff80ab, #ff4081);
+    --gradient-surface: linear-gradient(180deg, rgba(27,27,27,0.95), rgba(16,16,16,0.98));
+}
+
+/* Apply theme based on system preference */
+:root {
+    color-scheme: light dark;
+}
+
+/* Enhanced styles with iOS Design Language */
+body {
+    color: var(--text-primary);
+    background-color: var(--background);
+    transition: all 0.3s ease;
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* iOS-style backdrop blur */
+.hero {
+    background: var(--surface);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: var(--blur-effect);
+    -webkit-backdrop-filter: var(--blur-effect);
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--gradient-surface);
+    opacity: 0.9;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 4rem 0;
+}
+
+.hero-content h1 {
+    color: var(--text-primary);
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 1.5rem;
+}
+
+.dark-mode .hero-content h1 {
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-subtitle {
+    color: var(--text-secondary);
+    font-size: 1.3rem;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* iOS-style buttons */
+.cta-button.primary {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.9rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: var(--button-radius);
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.dark-mode .cta-button.primary {
+    background: var(--gradient-1);
+}
+
+.cta-button.primary:hover {
+    background: var(--primary-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px var(--shadow);
+}
+
+.cta-button.secondary {
+    background: var(--surface);
+    color: var(--primary-color);
+    border: 1px solid var(--border);
+    padding: 0.9rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    border-radius: var(--button-radius);
+    transition: all 0.2s ease;
+}
+
+.cta-button.secondary:hover {
+    background: var(--surface-alt);
+    border-color: var(--primary-color);
+}
+
+/* iOS-style cards with subtle shadows */
+.card, .feature-card, .pricing-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    padding: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px var(--shadow);
+    backdrop-filter: var(--blur-effect);
+    -webkit-backdrop-filter: var(--blur-effect);
+}
+
+.card:hover, .feature-card:hover, .pricing-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px var(--shadow);
+}
+
+/* iOS-style testimonials */
+.testimonial-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    padding: 2.5rem;
+    position: relative;
+    backdrop-filter: var(--blur-effect);
+    -webkit-backdrop-filter: var(--blur-effect);
+}
+
+.testimonial-text {
+    color: var(--text-primary);
+    font-size: 1.2rem;
+    line-height: 1.7;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+.testimonial-text::before {
+    content: '"';
+    font-size: 4rem;
+    color: var(--primary-color);
+    opacity: 0.2;
+    position: absolute;
+    top: -1.5rem;
+    left: -1rem;
+}
+
+.testimonial-author {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.testimonial-position {
+    color: var(--text-secondary);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.testimonial-rating {
+    color: #ffb340;  /* iOS-style gold */
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+/* Section styling */
+section {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 5rem 0;
+    position: relative;
+}
+
+section:nth-child(even) {
+    background: var(--surface-alt);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-size: 2.8rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.dark-mode h2 {
+    background: var(--gradient-2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+p {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    line-height: 1.7;
+    font-size: 1.1rem;
+}
+
+/* iOS-style dropdown */
+.language-dropdown {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    box-shadow: 0 4px 16px var(--shadow);
+    padding: 0.5rem;
+    backdrop-filter: var(--blur-effect);
+    -webkit-backdrop-filter: var(--blur-effect);
+}
+
+.language-dropdown a {
+    color: var(--text-primary);
+    padding: 0.8rem 1.5rem;
+    transition: all 0.2s ease;
+    display: block;
+    border-radius: 6px;
+}
+
+.language-dropdown a:hover {
+    background: var(--surface-alt);
+    color: var(--primary-color);
+}
+
+/* Status indicators with iOS colors */
+.success {
+    color: #30d158;  /* iOS green */
+}
+
+.dark-mode .success {
+    color: #32d74b;
+}
+
+.error {
+    color: #ff453a;  /* iOS red */
+}
+
+.dark-mode .error {
+    color: #ff453a;
+}
+
+/* iOS-style animations */
+@keyframes slideUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card, .feature-card, .pricing-card, .testimonial-card {
+    animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

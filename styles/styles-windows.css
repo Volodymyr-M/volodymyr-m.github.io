@@ -1,0 +1,345 @@
+/* Windows-specific theme overrides */
+:root {
+    /* Light Mode Colors - Modern Fluent Design */
+    --primary-color: #0078d4;          /* Windows blue */
+    --primary-hover: #106ebe;
+    --secondary-color: #744da9;        /* Royal purple */
+    --accent-color: #d13438;           /* Windows red */
+    --background: #ffffff;
+    --surface: #fafafa;
+    --surface-alt: #f0f2f5;
+    --text-primary: #1f1f1f;           /* Near black */
+    --text-secondary: #424242;         /* Dark gray */
+    --text-muted: #616161;             /* Medium gray */
+    --border: #e0e0e0;
+    --shadow: rgba(0, 0, 0, 0.08);
+    
+    /* Fluent gradients */
+    --gradient-1: linear-gradient(135deg, #0078d4, #744da9);
+    --gradient-2: linear-gradient(135deg, #d13438, #744da9);
+    --gradient-surface: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(250,250,250,0.95));
+
+    /* Windows specific */
+    --card-radius: 8px;
+    --button-radius: 4px;
+    --mica-effect: rgba(255, 255, 255, 0.9);
+}
+
+.light-mode {
+    /* Light Mode Colors - Modern Fluent Design */
+    --primary-color: #0078d4 !important;          /* Windows blue */
+    --primary-hover: #106ebe !important;
+    --secondary-color: #744da9 !important;        /* Royal purple */
+    --accent-color: #d13438 !important;           /* Windows red */
+    --background: #ffffff !important;
+    --surface: #fafafa !important;
+    --surface-alt: #f0f2f5 !important;
+    --text-primary: #1f1f1f !important;           /* Near black */
+    --text-secondary: #424242 !important;         /* Dark gray */
+    --text-muted: #616161 !important;             /* Medium gray */
+    --border: #e0e0e0 !important;
+    --shadow: rgba(0, 0, 0, 0.08) !important;
+    
+    /* Fluent gradients */
+    --gradient-1: linear-gradient(135deg, #0078d4, #744da9) !important;
+    --gradient-2: linear-gradient(135deg, #d13438, #744da9) !important;
+    --gradient-surface: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(250,250,250,0.95)) !important;
+
+    /* Windows specific */
+    --card-radius: 8px !important;
+    --button-radius: 4px !important;
+    --mica-effect: rgba(255, 255, 255, 0.9) !important;
+}
+
+.dark-mode {
+    /* Dark Mode Colors - Modern Fluent Dark */
+    --primary-color: #4cc2ff !important;          /* Bright blue */
+    --primary-hover: #5dccff !important;
+    --secondary-color: #c4a5ff !important;        /* Soft purple */
+    --accent-color: #ff7275 !important;           /* Soft red */
+    --background: #202020 !important;
+    --surface: #2d2d2d !important;
+    --surface-alt: #333333 !important;
+    --text-primary: #ffffff !important;           /* Pure white */
+    --text-secondary: #e0e0e0 !important;         /* Light gray */
+    --text-muted: #bdbdbd !important;             /* Medium light gray */
+    --border: #404040 !important;
+    --shadow: rgba(0, 0, 0, 0.2) !important;
+    
+    /* Dark theme gradients */
+    --gradient-1: linear-gradient(135deg, #4cc2ff, #c4a5ff) !important;
+    --gradient-2: linear-gradient(135deg, #ff7275, #c4a5ff) !important;
+    --gradient-surface: linear-gradient(180deg, rgba(45,45,45,0.95), rgba(35,35,35,0.95)) !important;
+    
+    /* Windows specific dark */
+    --mica-effect: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Apply theme based on system preference */
+:root {
+    color-scheme: light dark;
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --theme-class: light-mode;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --theme-class: dark-mode;
+    }
+}
+
+/* Enhanced styles with Fluent Design */
+body {
+    color: var(--text-primary);
+    background-color: var(--background);
+    transition: all 0.3s ease;
+    font-family: "Segoe UI Variable", "Segoe UI", system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    background: var(--surface);
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--gradient-surface);
+    opacity: 0.8;
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    padding: 4rem 0;
+}
+
+.hero-content h1 {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 3.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+}
+
+.dark-mode .hero-content h1 {
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.hero-subtitle {
+    color: var(--text-secondary);
+    font-size: 1.25rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Enhanced buttons */
+.cta-button.primary {
+    background: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 0.875rem 1.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: var(--button-radius);
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px var(--shadow);
+}
+
+.dark-mode .cta-button.primary {
+    background: var(--gradient-1);
+}
+
+.cta-button.primary:hover {
+    background: var(--primary-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.cta-button.secondary {
+    background: var(--surface);
+    color: var(--primary-color);
+    border: 1px solid var(--border);
+    padding: 0.875rem 1.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: var(--button-radius);
+    transition: all 0.2s ease;
+}
+
+.cta-button.secondary:hover {
+    border-color: var(--primary-color);
+    background: var(--surface-alt);
+}
+
+/* Enhanced cards */
+.card, .feature-card, .pricing-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    padding: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px var(--shadow);
+}
+
+.card:hover, .feature-card:hover, .pricing-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px var(--shadow);
+    border-color: var(--primary-color);
+}
+
+/* Testimonials */
+.testimonial-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    padding: 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--gradient-1);
+}
+
+.testimonial-text {
+    color: var(--text-primary);
+    font-size: 1.125rem;
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+    color: var(--text-primary);
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+}
+
+.testimonial-position {
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.testimonial-rating {
+    color: #ffd700;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+}
+
+/* Section styling */
+section {
+    background: var(--surface);
+    border-bottom: 1px solid var(--border);
+    padding: 5rem 0;
+    position: relative;
+}
+
+section:nth-child(even) {
+    background: var(--surface-alt);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary);
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.dark-mode h2 {
+    background: var(--gradient-2);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+p {
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    line-height: 1.7;
+}
+
+/* Navigation and dropdown */
+.language-dropdown {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--card-radius);
+    box-shadow: 0 4px 12px var(--shadow);
+    padding: 0.5rem 0;
+}
+
+.language-dropdown a {
+    color: var(--text-primary);
+    padding: 0.75rem 1.5rem;
+    transition: all 0.2s ease;
+    display: block;
+}
+
+.language-dropdown a:hover {
+    background: var(--surface-alt);
+    color: var(--primary-color);
+}
+
+/* Status indicators */
+.success {
+    color: #00c853;
+}
+
+.dark-mode .success {
+    color: #69f0ae;
+}
+
+.error {
+    color: #d32f2f;
+}
+
+.dark-mode .error {
+    color: #ff5252;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card, .feature-card, .pricing-card, .testimonial-card {
+    animation: fadeIn 0.5s ease-out forwards;
+}

@@ -1,0 +1,139 @@
+/* macOS-specific theme overrides */
+.light-mode {
+    /* Light Mode Colors - Modern macOS Design */
+    --primary-color: #2ac3d1 !important;          /* Aqua teal */
+    --primary-hover: #34d7e6 !important;
+    --secondary-color: #b86ef7 !important;        /* Electric purple */
+    --accent-color: #ff6482 !important;           /* Coral pink */
+    --background: #f4f5f7 !important;             /* Light silver */
+    --surface: #ffffff !important;
+    --surface-alt: #eef0f2 !important;            /* Frosted glass */
+    --text-primary: #1c1c1e !important;           /* Graphite */
+    --text-secondary: #3a3a3c !important;         /* Dark graphite */
+    --text-muted: #6c6c70 !important;             /* Medium graphite */
+    --border: #e5e5e7 !important;
+    --shadow: rgba(0, 0, 0, 0.05) !important;
+    
+    /* macOS style gradients */
+    --gradient-1: linear-gradient(135deg, #2ac3d1, #b86ef7) !important;
+    --gradient-2: linear-gradient(135deg, #ff6482, #b86ef7) !important;
+    --gradient-surface: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(244,245,247,0.98)) !important;
+
+    /* macOS specific */
+    --card-radius: 10px !important;               /* Rounded corners */
+    --button-radius: 6px !important;
+    --blur-effect: saturate(180%) blur(25px) !important;
+}
+
+.dark-mode {
+    /* Dark Mode Colors - Modern macOS Dark */
+    --primary-color: #00e5ff !important;          /* Electric cyan */
+    --primary-hover: #33eaff !important;
+    --secondary-color: #bd93f9 !important;        /* Neon purple */
+    --accent-color: #ff79c6 !important;           /* Hot pink */
+    --background: #1a1b1e !important;             /* Space gray */
+    --surface: #2a2b30 !important;                /* Dark space gray */
+    --surface-alt: #34353a !important;            /* Lighter space gray */
+    --text-primary: #ffffff !important;           /* Pure white */
+    --text-secondary: #ebebf0 !important;         /* Light silver */
+    --text-muted: #a0a0a5 !important;            /* Medium silver */
+    --border: #404045 !important;
+    --shadow: rgba(0, 0, 0, 0.3) !important;
+    
+    /* Dark theme gradients */
+    --gradient-1: linear-gradient(135deg, #00e5ff, #bd93f9) !important;
+    --gradient-2: linear-gradient(135deg, #ff79c6, #bd93f9) !important;
+    --gradient-surface: linear-gradient(180deg, rgba(42,43,48,0.95), rgba(26,27,30,0.98)) !important;
+}
+
+/* Apply theme based on system preference */
+:root {
+    color-scheme: light dark;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif !important;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif !important;
+}
+
+/* macOS-style card with frosted glass effect */
+.card, .feature-card, .pricing-card {
+    backdrop-filter: var(--blur-effect) !important;
+    -webkit-backdrop-filter: var(--blur-effect) !important;
+    background: var(--surface) !important;
+    border: 1px solid var(--border) !important;
+    box-shadow: 0 4px 12px var(--shadow) !important;
+}
+
+.dark-mode .card,
+.dark-mode .feature-card,
+.dark-mode .pricing-card {
+    background: rgba(42, 43, 48, 0.8) !important;
+}
+
+/* macOS-style buttons */
+.cta-button.primary {
+    backdrop-filter: var(--blur-effect) !important;
+    -webkit-backdrop-filter: var(--blur-effect) !important;
+    background: var(--gradient-1) !important;
+    border: none !important;
+    box-shadow: 0 2px 8px var(--shadow) !important;
+}
+
+.cta-button.secondary {
+    backdrop-filter: var(--blur-effect) !important;
+    -webkit-backdrop-filter: var(--blur-effect) !important;
+    background: var(--surface) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--primary-color) !important;
+}
+
+.dark-mode .cta-button.secondary {
+    background: rgba(42, 43, 48, 0.8) !important;
+}
+
+/* Gradient text effects */
+.dark-mode .hero-content h1,
+.dark-mode h2 {
+    background: var(--gradient-1) !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+}
+
+/* Status indicators with macOS colors */
+.success {
+    color: #30d158 !important;  /* macOS green */
+}
+
+.dark-mode .success {
+    color: #32d74b !important;  /* macOS dark mode green */
+}
+
+.error {
+    color: #ff453a !important;  /* macOS red */
+}
+
+.dark-mode .error {
+    color: #ff6961 !important;  /* macOS dark mode red */
+}
+
+/* Smooth animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card, .feature-card, .pricing-card {
+    animation: fadeIn 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards !important;
+}

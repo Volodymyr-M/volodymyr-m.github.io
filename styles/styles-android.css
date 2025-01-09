@@ -1,41 +1,41 @@
 /* Android-specific theme overrides */
-:root {
+.light-mode {
     /* Light Mode Colors */
-    --primary-color: #0284c7;
-    --primary-hover: #0369a1;
-    --secondary-color: #6366f1;
-    --accent-color: #f97316;
-    --background: #ffffff;
-    --surface: #ffffff;
-    --surface-alt: #f8fafc;
-    --text-primary: #334155;
-    --text-secondary: #64748b;
-    --text-muted: #94a3b8;
-    --border: #e2e8f0;
-    --shadow: rgba(51, 65, 85, 0.08);
+    --primary-color: #0284c7 !important;
+    --primary-hover: #0369a1 !important;
+    --secondary-color: #6366f1 !important;
+    --accent-color: #f97316 !important;
+    --background: #ffffff !important;
+    --surface: #ffffff !important;
+    --surface-alt: #f8fafc !important;
+    --text-primary: #334155 !important;
+    --text-secondary: #64748b !important;
+    --text-muted: #94a3b8 !important;
+    --border: #e2e8f0 !important;
+    --shadow: rgba(51, 65, 85, 0.08) !important;
     
     /* Gradients */
-    --gradient-1: linear-gradient(135deg, #0284c7, #6366f1);
-    --gradient-2: linear-gradient(135deg, #f97316, #db2777);
+    --gradient-1: linear-gradient(135deg, #0284c7, #6366f1) !important;
+    --gradient-2: linear-gradient(135deg, #f97316, #db2777) !important;
 }
 
-.theme-dark {
-    --primary-color: #3b82f6;
-    --primary-hover: #60a5fa;
-    --secondary-color: #8b5cf6;
-    --accent-color: #f59e0b;
-    --background: #0f172a;
-    --surface: #1e293b;
-    --surface-alt: #0f172a;
-    --text-primary: #f3f4f6;
-    --text-secondary: #e5e7eb;
-    --text-muted: #9ca3af;
-    --border: #334155;
-    --shadow: rgba(0, 0, 0, 0.3);
+.dark-mode {
+    --primary-color: #3b82f6 !important;
+    --primary-hover: #60a5fa !important;
+    --secondary-color: #8b5cf6 !important;
+    --accent-color: #f59e0b !important;
+    --background: #0f172a !important;
+    --surface: #1e293b !important;
+    --surface-alt: #0f172a !important;
+    --text-primary: #f3f4f6 !important;
+    --text-secondary: #e5e7eb !important;
+    --text-muted: #9ca3af !important;
+    --border: #334155 !important;
+    --shadow: rgba(0, 0, 0, 0.3) !important;
     
     /* Gradients */
-    --gradient-1: linear-gradient(135deg, #3b82f6, #8b5cf6);
-    --gradient-2: linear-gradient(135deg, #f59e0b, #ec4899);
+    --gradient-1: linear-gradient(135deg, #3b82f6, #8b5cf6) !important;
+    --gradient-2: linear-gradient(135deg, #f59e0b, #ec4899) !important;
 }
 
 /* Apply theme based on system preference */
@@ -45,13 +45,13 @@
 
 @media (prefers-color-scheme: light) {
     :root {
-        --theme-class: theme-light;
+        --theme-class: light-mode;
     }
 }
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --theme-class: theme-dark;
+        --theme-class: dark-mode;
     }
 }
 
@@ -85,7 +85,7 @@ body {
     font-weight: 800;
 }
 
-.theme-dark .hero-content h1 {
+.dark-mode .hero-content h1 {
     background: var(--gradient-1);
     -webkit-background-clip: text;
     background-clip: text;
@@ -104,7 +104,7 @@ body {
     box-shadow: 0 2px 4px var(--shadow);
 }
 
-.theme-dark .cta-button.primary {
+.dark-mode .cta-button.primary {
     background: var(--gradient-1);
 }
 
@@ -156,7 +156,7 @@ h2 {
     color: var(--primary-color);
 }
 
-.theme-dark h2 {
+.dark-mode h2 {
     background: var(--gradient-2);
     -webkit-background-clip: text;
     background-clip: text;
