@@ -1,24 +1,24 @@
 lang_name: English
-title: Ingantt - Modern Project Planning for Android
-meta_keywords: gantt chart app Android, mpp, gantt Windows, mpp reader, mpp viewer, gantt application, gantt for Mac, gantt iOS
-meta_description: Ingantt - AI-powered project management tool for Android, Windows, macOS and iOS. Plan, schedule, and track your projects with ease.
+title: Ingantt - Modern Project Planning for Windows
+meta_keywords: gantt chart app Windows, mpp, gantt Mac, mpp reader, mpp viewer, gantt application, gantt for iOS, gantt Android
+meta_description: Ingantt - AI-powered project management tool for Windows, macOS, iOS, and Android. Plan, schedule, and track your projects with ease.
 
 header:
   logo_text: Ingantt
   nav_version:
     current:
-      icon: fab fa-android
-      text: Ingantt for Android
+      icon: fab fa-windows
+      text: Ingantt for Windows
     versions:
-      - icon: fab fa-windows
-        text: Ingantt for Windows
-        url: windows_page
       - icon: fab fa-apple
         text: Ingantt for macOS
         url: macos_page
       - icon: fab fa-app-store-ios
         text: Ingantt for iOS
         url: ios_page
+      - icon: fab fa-android
+        text: Ingantt for Android
+        url: android_page
       - icon: fa-brands fa-google
         text: Ingantt for Google Workspace
         url: workspace_page
@@ -31,10 +31,10 @@ footer:
         - icon: fab fa-android
           text: Ingantt for Android
           url: android_page
-          active: true
         - icon: fab fa-windows
           text: Ingantt for Windows
           url: windows_page
+          active: true
         - icon: fab fa-apple
           text: Ingantt for macOS
           url: macos_page
@@ -85,8 +85,8 @@ footer:
   copyright: Ingantt Development. All rights reserved.
 
 hero:
-  title: Gantt Chart Project Planning for Android with AI
-  subtitle: Transform your project planning with intelligent Gantt charts and AI assistance on your Android device.
+  title: Gantt Chart Project Planning for Windows with AI
+  subtitle: Transform your project planning with intelligent Gantt charts and AI assistance on your Windows PC.
   cta:
     primary:
       text: Get it now
@@ -94,26 +94,26 @@ hero:
     other_versions:
       title: Other versions
       platforms:
-        - icon: fab fa-windows
-          text: Ingantt for Windows
-          url: windows_page
         - icon: fab fa-apple
           text: Ingantt for macOS
           url: macos_page
         - icon: fab fa-app-store-ios
           text: Ingantt for iOS
           url: ios_page
+        - icon: fab fa-android
+          text: Ingantt for Android
+          url: android_page
         - icon: fa-brands fa-google
           text: Ingantt for Google Workspace
           url: workspace_page
   rating:
     stars: ★★★★★
     text: 5 stars on
-  image: hero-android.png
+  image: hero-windows.png
 
-store_image: google_play.png
-platform_image: android.png
-platform_url: android_url
+store_image: microsoft_store.png
+platform_image: windows.png
+platform_url: windows_url
 
 features_grid:
   title: Why Project Managers Choose Ingantt
@@ -121,15 +121,15 @@ features_grid:
     - icon: fas fa-robot
       title: AI-Powered Planning
       description: Generate complete project plans from simple descriptions using our AI assistant.
-    - icon: fas fa-mobile-alt
-      title: Mobile-Optimized Experience
-      description: Designed for Android devices—plan, review, and manage projects on the go.
+    - icon: fas fa-desktop
+      title: Optimized for Windows
+      description: Plan, review, and manage projects on Windows with a native and seamless experience.
     - icon: fas fa-file-import
       title: MS Project Compatible
       description: Import .MPP files and save to MS Project compatible XML—no compromises.
     - icon: fas fa-cloud
       title: Works Everywhere
-      description: Easily view and update your plans from phone, tablet, or desktop—wherever you are.
+      description: Easily view and update your plans from desktop, phone, or tablet—wherever you are.
 
 demo:
   title: See Ingantt in Action
@@ -238,7 +238,7 @@ features_detailed:
         features:
           - icon: fas fa-check
             title: Limited Sharing
-            description: This Android version does not include real-time multi-user edits, but you can share project files in .MPP or XML formats.
+            description: This Windows version does not include real-time multi-user edits, but you can share project files in .MPP or XML formats.
           - icon: fas fa-check
             title: Exchange using PDF, PNG or XML formats
             description: Easily export your projects to these formats for broader sharing.
@@ -257,12 +257,12 @@ features_detailed:
             description: Export to PDF and PNG anytime
           - icon: fas fa-check
             title: Cross-Platform Sync
-            description: Move your project files across devices (Android, Windows, macOS, iOS).
+            description: Move your project files across devices (Windows, macOS, iOS, Android).
         video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
 
 pricing:
   title: Simple Purchase
-  subtitle: Ingantt for Android
+  subtitle: Ingantt for Windows
   plans:
     - title: 
       price: 
@@ -284,7 +284,7 @@ pricing:
         - One-time payment, no subscription
       cta:
         text: Buy Now
-        url: android_url
+        url: windows_url
         class: primary
     - title: 
       price: 
@@ -317,7 +317,7 @@ features_list:
     - icon: fas fa-users
       title: Collaboration
       items:
-        - Share via standard Android file sharing
+        - Share via standard Windows file sharing
         - Exchange files in MPP, XML, PDF, or PNG
     - icon: fas fa-chart-line
       title: Advanced Tracking
@@ -338,25 +338,25 @@ features_list:
       items:
         - MS Project file compatibility (.MPP)
         - Export to PDF and PNG
-        - Works alongside other platforms (Windows, macOS, iOS)
+        - Works alongside other platforms (macOS, iOS, Android)
 
 faq:
   title: Frequently Asked Questions
   items:
-    - question: What is Ingantt for Android?
-      answer: Ingantt for Android is a professional project management tool that runs natively on your Android device. It allows you to create and manage project plans on the go, with AI-assisted planning and MS Project compatibility.
+    - question: What is Ingantt for Windows?
+      answer: Ingantt for Windows is a professional project management tool that runs natively on your PC. It allows you to create and manage project plans with AI-assisted planning and MS Project compatibility.
     - question: Can I import my existing Microsoft Project files?
       answer: Yes! Ingantt fully supports importing .MPP and .XML files from Microsoft Project. All your project data, including tasks, resources, and dependencies, will be preserved during the import process.
     - question: How does the AI project generation work?
       answer: Our AI assistant can generate complete project plans from simple text descriptions. Just describe your project goals and requirements, and the AI will create a structured plan with tasks, timelines, and dependencies based on best practices.
-    - question: Is there a free trial for the Android version?
-      answer: No. The Android version is a one-time purchase of $15 per copy, with no subscription or free trial.
+    - question: Is there a free trial for the Windows version?
+      answer: No. The Windows version is a one-time purchase of $15 per copy, with no subscription or free trial.
     - question: Can I collaborate with my team in real-time?
-      answer: The Android version does not offer real-time multi-user collaboration. However, you can exchange project files (MPP, XML, PDF, PNG) and share them with your team through email or other file-sharing methods.
-    - question: Do I need an internet connection to use Ingantt on Android?
-      answer: No, Ingantt works locally on your device. You only need internet access if you want to download updates, exchange files via cloud services, or access online documentation.
-    - question: How can I purchase Ingantt for Android?
-      answer: Simply visit the Google Play Store on your Android device, search for Ingantt, and purchase it there. You will own the app perpetually with no recurring charges.
+      answer: The Windows version does not offer real-time multi-user collaboration. However, you can exchange project files (MPP, XML, PDF, PNG) and share them with your team through email or other file-sharing methods.
+    - question: Do I need an internet connection to use Ingantt on Windows?
+      answer: No, Ingantt works locally on your PC. You only need internet access if you want to download updates, exchange files via cloud services, or access online documentation.
+    - question: How can I purchase Ingantt for Windows?
+      answer: Visit the Microsoft Store or our official website, search for Ingantt, and purchase it there. You will own the app perpetually with no recurring charges.
   support:
     title: Get started planning with Ingantt
     docs:
@@ -367,23 +367,23 @@ faq:
       icon: fa fa-envelope
 
 cta:
-  title: Ready to Transform Your Project Planning on Android?
-  subtitle: Enjoy AI-driven project planning right on your phone or tablet
+  title: Ready to Transform Your Project Planning on Windows?
+  subtitle: Enjoy AI-driven project planning with a native Windows experience
   button:
     text: Get it now
 
 platform_support:
   title: Need a device-specific version for other platforms?
   platforms:
-    - icon: fab fa-windows
-      text: Windows
-      url: windows_page
     - icon: fab fa-apple
       text: macOS
       url: macos_page
     - icon: fab fa-app-store-ios
       text: iOS
       url: ios_page
+    - icon: fab fa-android
+      text: Android
+      url: android_page
     - icon: fa-brands fa-google
       text: Google Workspace
       url: workspace_page
