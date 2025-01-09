@@ -109,7 +109,7 @@ hero:
   rating:
     stars: ★★★★★
     text: 5 stars on
-  image: hero-mac.png
+  image: hero-macos.png
 
 store_image: app_store.png
 platform_image: macos.png
