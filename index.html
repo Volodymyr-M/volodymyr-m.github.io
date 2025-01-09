@@ -13,12 +13,12 @@ index_name: index-workspace
                 <h1>{{ index_data.hero.title }}</h1>
                 <p class="hero-subtitle">{{ index_data.hero.subtitle }}</p>
                 <div class="cta-group">
-                    <a href="{{ site.workspace_url }}" class="cta-button primary" target="_blank">
+                    <a href="{{ site[index_data.platform_url] }}" class="cta-button primary" target="_blank">
                         <span class="button-content">
                             <span class="button-title-wrapper">
                                 <span {% unless index_data.hero.cta.primary.text_fits %}class="button-title"{% endunless %}>{{ index_data.hero.cta.primary.text }}</span>
                             </span>
-                            <img src="/images/platforms/{{ index_data.hero.cta.primary.image }}" alt="Platform Logo" class="workspace-logo">
+                            <img src="/images/platforms/{{ index_data.platform_image }}" alt="Platform Logo" class="workspace-logo">
                         </span>
                     </a>
                     <div class="language-select nav-version other-versions-btn">
@@ -276,12 +276,12 @@ index_name: index-workspace
         <h2>{{ index_data.cta.title }}</h2>
         <p>{{ index_data.cta.subtitle }}</p>
         <div class="cta-buttons">
-            <a href="{{ site.workspace_url }}" class="cta-button primary" target="_blank">
+            <a href="{{ site[index_data.platform_url] }}" class="cta-button primary" target="_blank">
                 <span class="button-content">
                     <span class="button-title-wrapper">
                         <span class="button-title">{{ index_data.cta.button.text }}</span>
                     </span>
-                    <img src="/images/{{ index_data.cta.button.image }}" alt="Google Workspace" class="workspace-logo">
+                    <img src="/images/platforms/{{ index_data.platform_image }}" alt="Platform Logo" class="workspace-logo">
                 </span>
             </a>
         </div>

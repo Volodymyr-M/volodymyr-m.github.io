@@ -91,7 +91,6 @@ hero:
     primary:
       text: Get it now
       text_fits: true
-      image: android.png
     other_versions:
       title: Other versions
       platforms:
@@ -112,6 +111,9 @@ hero:
     text: 5 stars on
   image: hero-android.png
   store_image: google_play.png
+
+platform_image: android.png
+platform_url: android_url
 
 features_grid:
   title: Why Teams Choose Ingantt
@@ -368,7 +370,7 @@ cta:
   title: Ready to Transform Your Project Planning on Android?
   subtitle: Enjoy AI-driven project planning right on your phone or tablet
   button:
-    text: Buy Now
+    text: Get it now
     image: Google_Play_Store_Badge.png
 
 platform_support:

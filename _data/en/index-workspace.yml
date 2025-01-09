@@ -91,7 +91,6 @@ hero:
     primary:
       text: Try Free
       text_fits: true
-      image: google_workspace.png
     other_versions:
       title: Other versions
       platforms:
@@ -112,6 +111,9 @@ hero:
     text: 5 stars on
   image: hero-workspace.png
   store_image: google_workspace_marketplace.png
+
+platform_image: google_workspace.png
+platform_url: workspace_url
 
 features_grid:
   title: Why Teams Choose Ingantt
