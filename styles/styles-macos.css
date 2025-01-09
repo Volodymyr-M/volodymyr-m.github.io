@@ -52,7 +52,12 @@
 }
 
 /* Typography */
-h1, h2, h3, h4, h5, h6 {
+.light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif !important;
+    color: var(--text-primary) !important;
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif !important;
 }
 
@@ -76,7 +81,24 @@ body {
 }
 
 /* macOS-style buttons */
-.cta-button.primary {
+.light-mode .cta-button.primary {
+    backdrop-filter: var(--blur-effect) !important;
+    -webkit-backdrop-filter: var(--blur-effect) !important;
+    background-color: var(--primary-color) !important;
+    border: none !important;
+    box-shadow: 0 2px 8px var(--shadow) !important;
+    color: var(--surface) !important;
+}
+
+.light-mode .cta-button.secondary {
+    backdrop-filter: var(--blur-effect) !important;
+    -webkit-backdrop-filter: var(--blur-effect) !important;
+    background-color: var(--surface-alt) !important;
+    border: 1px solid var(--border) !important;
+    color: var(--primary-color) !important;
+}
+
+.dark-mode .cta-button.primary {
     backdrop-filter: var(--blur-effect) !important;
     -webkit-backdrop-filter: var(--blur-effect) !important;
     background: var(--gradient-1) !important;
@@ -84,16 +106,12 @@ body {
     box-shadow: 0 2px 8px var(--shadow) !important;
 }
 
-.cta-button.secondary {
+.dark-mode .cta-button.secondary {
     backdrop-filter: var(--blur-effect) !important;
     -webkit-backdrop-filter: var(--blur-effect) !important;
     background: var(--surface) !important;
     border: 1px solid var(--border) !important;
     color: var(--primary-color) !important;
-}
-
-.dark-mode .cta-button.secondary {
-    background: rgba(42, 43, 48, 0.8) !important;
 }
 
 /* Gradient text effects */

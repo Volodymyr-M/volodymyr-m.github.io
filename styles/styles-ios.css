@@ -313,3 +313,36 @@ p {
 .card, .feature-card, .pricing-card, .testimonial-card {
     animation: slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
+
+.light-mode {
+    --primary-color: #00aaff !important;
+    --primary-hover: #33bbff !important;
+    --secondary-color: #ff6f61 !important;
+    --accent-color: #ff4081 !important;
+    --background: #fafafa !important;
+    --surface: #ffffff !important;
+    --surface-alt: #f2f2f2 !important;
+    --text-primary: #1a1a1a !important;
+    --text-secondary: #3a3a3a !important;
+    --text-muted: #7a7a7a !important;
+    --border: #e0e0e0 !important;
+    --shadow: rgba(0, 0, 0, 0.08) !important;
+    
+    /* Gradients */
+    --gradient-1: linear-gradient(120deg, #00aaff, #ff6f61) !important;
+    --gradient-2: linear-gradient(120deg, #ff4081, #ff6f61) !important;
+}
+
+.light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
+    color: var(--text-primary) !important;
+}
+
+.light-mode .cta-button.primary {
+    background-color: var(--primary-color) !important;
+    color: var(--surface) !important;
+}
+
+.light-mode .cta-button.secondary {
+    background-color: var(--surface-alt) !important;
+    color: var(--primary-color) !important;
+}
