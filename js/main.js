@@ -5,11 +5,16 @@ const icon = themeToggle.querySelector('i');
 
 // Function to set theme
 function setTheme(isDark) {
-    body.classList.toggle('dark-mode', isDark);
     icon.classList.toggle('fa-sun', isDark);
     icon.classList.toggle('fa-adjust', !isDark);
     document.cookie = `theme=${isDark ? 'dark' : 'light'}; path=/; max-age=31536000`; // Cookie expires in 1 year
-    body.className = isDark ? 'dark-mode' : 'light-mode';
+    if (isDark) {
+        body.classList.add('dark-mode');
+        body.classList.remove('light-mode');
+    } else {
+        body.classList.add('light-mode');
+        body.classList.remove('dark-mode');
+    }
 }
 
 // Function to get theme from cookie

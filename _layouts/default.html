@@ -19,6 +19,7 @@ layout: compress
         <meta name="description" content="{{ site.data[site.active_lang].index-workspace.meta_description }}">
     {% endif %}
     <link rel="stylesheet" href="/styles/styles.css">
+    {% if page.styles_file %}<link rel="stylesheet" href="/styles/{{ page.styles_file }}">{% endif %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     {% include language_head.html %}
 </head>
