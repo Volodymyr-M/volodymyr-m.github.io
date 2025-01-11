@@ -38,12 +38,14 @@ layout: default
                         </div>
                     </div>
                 </div>
+                {% if index_data.hero.rating.stars %}
                 <div class="hero-badges">
                     <div class="rating">
                         <div class="stars">{{ index_data.hero.rating.stars }}</div>
                         <span>{{ index_data.hero.rating.text }} <img src="/images/stores/{{ index_data.store_image }}" class="inline-marketplace-logo" alt="Store Logo"></span>
                     </div>
                 </div>
+                {% endif %}
             </div>
             <div class="hero-image">
                 <div class="hero-image-wrapper">
@@ -169,6 +171,7 @@ layout: default
 </section>
 
 <!-- Pricing -->
+{% if page.index_name == "index-workspace" %}
 <section class="pricing">
     <div class="container">
         <h2>{{ index_data.pricing.title }}</h2>
@@ -201,6 +204,7 @@ layout: default
         </div>
     </div>
 </section>
+{% endif %}
 
 <!-- Features List Section -->
 <section class="features-list">
