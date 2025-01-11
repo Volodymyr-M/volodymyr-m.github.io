@@ -10,6 +10,7 @@
     --surface-alt: #f2f2f2 !important;
     --text-primary: #1a1a1a !important; /* Darker Black */
     --text-secondary: #3a3a3a !important; /* Dark Gray */
+    --text-on-gradient: #000000 !important;
     --text-muted: #7a7a7a !important; /* Medium Gray */
     --border: #e0e0e0 !important;
     --shadow: rgba(0, 0, 0, 0.08) !important;
@@ -39,16 +40,15 @@
     --text-muted: #909090 !important; /* Medium Gray */
     --border: #484848 !important;
     --shadow: rgba(0, 0, 0, 0.5) !important;
+
+    --card-radius: 14px !important;
+    --button-radius: 10px !important;
+    --blur-effect: saturate(200%) blur(15px) !important;
     
     /* Dark Mode Gradients */
     --gradient-1: linear-gradient(120deg, #008080, #ff4081) !important;
     --gradient-2: linear-gradient(120deg, #ff80ab, #ff4081) !important;
     --gradient-surface: linear-gradient(180deg, rgba(27,27,27,0.95), rgba(16,16,16,0.98)) !important;
-}
-
-/* Apply theme based on system preference */
-:root {
-    color-scheme: light dark !important;
 }
 
 /* Enhanced styles with iOS Design Language */
@@ -59,57 +59,6 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", sans-serif !important;
     line-height: 1.5 !important;
     -webkit-font-smoothing: antialiased !important;
-}
-
-/* iOS-style backdrop blur */
-.hero {
-    background: var(--surface) !important;
-    position: relative !important;
-    overflow: hidden !important;
-    backdrop-filter: var(--blur-effect) !important;
-    -webkit-backdrop-filter: var(--blur-effect) !important;
-}
-
-.hero::before {
-    content: '' !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    background: var(--gradient-surface) !important;
-    opacity: 0.9 !important;
-    z-index: 1 !important;
-}
-
-.hero-content {
-    position: relative !important;
-    z-index: 2 !important;
-    padding: 4rem 0 !important;
-}
-
-.hero-content h1 {
-    color: var(--text-primary) !important;
-    font-weight: 700 !important;
-    font-size: 3.5rem !important;
-    line-height: 1.1 !important;
-    letter-spacing: -0.03em !important;
-    margin-bottom: 1.5rem !important;
-}
-
-.dark-mode .hero-content h1 {
-    background: var(--gradient-1) !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    color: transparent !important;
-}
-
-.hero-subtitle {
-    color: var(--text-secondary) !important;
-    font-size: 1.3rem !important;
-    font-weight: 400 !important;
-    max-width: 600px !important;
-    margin: 0 auto !important;
 }
 
 /* iOS-style buttons */
@@ -222,7 +171,6 @@ section {
     background: var(--surface) !important;
     border-bottom: 1px solid var(--border) !important;
     padding: 5rem 0 !important;
-    position: relative !important;
 }
 
 section:nth-child(even) {
@@ -238,7 +186,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2 {
-    font-size: 2.8rem !important;
     color: var(--primary-color) !important;
     margin-bottom: 2rem !important;
 }

@@ -66,23 +66,6 @@
     color: var(--primary-color) !important;
 }
 
-/* Apply theme based on system preference */
-:root {
-    color-scheme: light dark;
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --theme-class: light-mode;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --theme-class: dark-mode;
-    }
-}
-
 /* Common styles */
 body {
     color: var(--text-primary) !important;
@@ -114,7 +97,6 @@ body {
 }
 
 .dark-mode .hero-content h1 {
-    background: var(--gradient-1) !important;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -134,6 +116,7 @@ body {
 
 .dark-mode .cta-button.primary {
     background: var(--gradient-1) !important;
+    color: var(--text-on-gradient) !important;
 }
 
 .cta-button.primary:hover {
@@ -185,7 +168,6 @@ h2 {
 }
 
 .dark-mode h2 {
-    background: var(--gradient-2) !important;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -227,4 +209,8 @@ h2 {
 
 .error {
     color: #ef4444 !important;
+}
+
+.light-mode .cta h2 {
+    color: var(--text-on-gradient) !important;
 }
