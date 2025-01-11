@@ -25,14 +25,14 @@ layout: default
                             <span class="button-content">
                                 <span class="button-title">{{ index_data.hero.cta.other_versions.title }} <i class="fas fa-chevron-down"></i></span>
                                 <span class="platform-icons">
-                                    {% for platform in index_data.hero.cta.other_versions.platforms %}
+                                    {% for platform in index_data.products.versions %}
                                     <i class="{{ platform.icon }}"></i>
                                     {% endfor %}
                                 </span>
                             </span>
                         </a>
                         <div class="language-dropdown">
-                            {% for platform in index_data.hero.cta.other_versions.platforms %}
+                            {% for platform in index_data.products.versions %}
                             <a href="/{{ site[platform.url] }}"><i class="{{ platform.icon }}"></i> {{ platform.text }}</a>
                             {% endfor %}
                         </div>
@@ -289,10 +289,10 @@ layout: default
         <div class="feature-group">
             <h2>{{ index_data.platform_support.title }}</h2>
             <div class="platform-grid">
-                {% for platform in index_data.platform_support.platforms %}
+                {% for platform in index_data.products.versions %}
                 <a href="{{ site[platform.url] }}" class="platform-item">
                     <i class="{{ platform.icon }}"></i>
-                    <span>{{ platform.text }}</span>
+                    <span>{{ platform.platform }}</span>
                 </a>
                 {% endfor %}
             </div>

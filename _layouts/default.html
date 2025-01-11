@@ -36,12 +36,12 @@ layout: compress
             <div class="nav-right">
                 <div class="language-select nav-version">
                     <div class="language-current">
-                        <i class="{{ index_data.header.nav_version.current.icon }}"></i>
-                        <span>{{ index_data.header.nav_version.current.text }}</span>
+                        <i class="{{ index_data.products.current.icon }}"></i>
+                        <span>{{ index_data.products.current.text }}</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="language-dropdown">
-                        {% for version in index_data.header.nav_version.versions %}
+                        {% for version in index_data.products.versions %}
                         <a href="/{{ site[version.url] }}"><i class="{{ version.icon }}"></i> {{ version.text }}</a>
                         {% endfor %}
                     </div>
@@ -62,7 +62,27 @@ layout: compress
                 {% assign section_data = section[1] %}
                 <div class="footer-section">
                     <h3>{{ section_data.title }}</h3>
-                    {% if section[0] == 'products' or section[0] == 'legal' %}
+                    {% if section[0] == 'products' %}
+                    <ul>
+                        {% assign item = index_data.products.current %}
+                        <li>
+                            <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}" class="active">
+                                {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
+                                {{ item.text }}
+                            </a>
+                        </li>
+                        {% for item in index_data.products.versions %}
+                        <li>
+                            <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}">
+                                {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
+                                {{ item.text }}
+                            </a>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+
+                    {% if section[0] == 'legal' %}
                     <ul>
                         {% for item in section_data.items %}
                         <li>

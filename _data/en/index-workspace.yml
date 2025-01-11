@@ -3,47 +3,37 @@ title: Ingantt - Modern Project Planning in Google Workspace
 meta_keywords: gantt chart app Workspace, mpp, gantt Google Workspace, mpp reader, mpp viewer, gantt application, gantt for Web, gantt Web, gantt for Google Workspace
 meta_description: Ingantt - AI-powered project management tool for Google Workspace. Plan, schedule, and track your projects with ease.
 
+products:
+  current:
+    icon: fa-brands fa-google
+    text: Ingantt for Google Workspace
+    platform: Google Workspace
+    url: workspace_page
+  versions:
+    - icon: fab fa-android
+      text: Ingantt for Android
+      platform: Android
+      url: android_page
+    - icon: fab fa-app-store-ios
+      text: Ingantt for iOS
+      platform: iOS
+      url: ios_page
+    - icon: fab fa-windows
+      text: Ingantt for Windows
+      platform: Windows
+      url: windows_page
+    - icon: fab fa-apple
+      text: Ingantt for macOS
+      platform: macOS
+      url: macos_page
+
 header:
   logo_text: Ingantt
-  nav_version:
-    current:
-      icon: fa-brands fa-google
-      text: Ingantt for Google Workspace
-    versions:
-      - icon: fab fa-windows
-        text: Ingantt for Windows
-        url: windows_page
-      - icon: fab fa-apple
-        text: Ingantt for macOS
-        url: macos_page
-      - icon: fab fa-app-store-ios
-        text: Ingantt for iOS
-        url: ios_page
-      - icon: fab fa-android
-        text: Ingantt for Android
-        url: android_page
 
 footer:
   sections:
     products:
       title: Products
-      items:
-        - icon: fa-brands fa-google
-          text: Ingantt for Google Workspace
-          url: /
-          active: true
-        - icon: fab fa-windows
-          text: Ingantt for Windows
-          url: windows_page
-        - icon: fab fa-apple
-          text: Ingantt for macOS
-          url: macos_page
-        - icon: fab fa-app-store-ios
-          text: Ingantt for iOS
-          url: ios_page
-        - icon: fab fa-android
-          text: Ingantt for Android
-          url: android_page
     
     legal:
       title: Legal
@@ -93,19 +83,6 @@ hero:
       text_fits: true
     other_versions:
       title: Other versions
-      platforms:
-        - icon: fab fa-windows
-          text: Ingantt for Windows
-          url: windows_page
-        - icon: fab fa-apple
-          text: Ingantt for macOS
-          url: macos_page
-        - icon: fab fa-app-store-ios
-          text: Ingantt for iOS
-          url: ios_page
-        - icon: fab fa-android
-          text: Ingantt for Android
-          url: android_page
   rating:
     stars: ★★★★★
     text: 5 stars on
@@ -384,16 +361,3 @@ cta:
 
 platform_support:
   title: Need a device-specific version for personal use?
-  platforms:
-    - icon: fab fa-windows
-      text: Windows
-      url: windows_page
-    - icon: fab fa-apple
-      text: macOS
-      url: macos_page
-    - icon: fab fa-android
-      text: Android
-      url: android_page
-    - icon: fab fa-app-store-ios
-      text: iOS
-      url: ios_page
