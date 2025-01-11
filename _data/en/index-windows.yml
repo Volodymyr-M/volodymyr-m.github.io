@@ -1,7 +1,7 @@
 lang_name: English
 title: Ingantt - Modern Project Planning for Windows
-meta_keywords: gantt chart app Windows, mpp, gantt Mac, mpp reader, mpp viewer, gantt application, gantt for iOS, gantt Android
-meta_description: Ingantt - AI-powered project management tool for Windows, macOS, iOS, and Android. Plan, schedule, and track your projects with ease.
+meta_keywords: gantt chart app Windows, mpp, gantt PC, mpp reader, mpp viewer, gantt application, gantt for Windows, gantt app, project planning
+meta_description: Ingantt - AI-powered project management tool for Windows. Plan, schedule, and track your projects with ease.
 
 header:
   logo_text: Ingantt
@@ -372,13 +372,13 @@ faq:
       icon: fa fa-envelope
 
 cta:
-  title: Ready to Transform Your Project Planning on Windows?
+  title: Ready to Transform Your Project Planning?
   subtitle: Enjoy AI-driven project planning with a native Windows experience
   button:
     text: Get it now
 
 platform_support:
-  title: Need a device-specific version for other platforms?
+  title: Need a version for another platform?
   platforms:
     - icon: fab fa-apple
       text: macOS
