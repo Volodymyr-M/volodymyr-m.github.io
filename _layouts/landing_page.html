@@ -93,21 +93,7 @@ layout: default
         <h2>{{ index_data.testimonials.title }}</h2>
         <div class="testimonials-grid">
             {% for testimonial in index_data.testimonials.items %}
-            <div class="testimonial-card">
-                <div class="quote">{{ testimonial.rating }}</div>
-                <p>{{ testimonial.text }}</p>
-                <div class="author">
-                    <div>
-                        <strong>{{ testimonial.author.name }}</strong>
-                        <span>{{ testimonial.author.title }}</span>
-                    </div>
-                </div>
-            </div>
-            {% endfor %}
-        </div>
-        <div class="testimonials-grid hidden-testimonials">
-            {% for testimonial in index_data.testimonials.hidden_items %}
-            <div class="testimonial-card">
+            <div class="testimonial-card {% if testimonial.is_hidden %}hidden-testimonials{% endif %}">
                 <div class="quote">{{ testimonial.rating }}</div>
                 <p>{{ testimonial.text }}</p>
                 <div class="author">

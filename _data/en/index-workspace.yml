@@ -159,37 +159,42 @@ testimonials:
       author:
         name: Amelia Clark
         title: Project Coordinator
-  hidden_items:
     - rating: ★★★★★
       text: Finally some Microsoft Project alternative which works great, especially on iPad!
       author:
         name: Isabella Moore
         title: Team Lead (Project Management)
+      is_hidden: true
     - rating: ★★★★★
       text: It works as expected and I am really happy for this.
       author:
         name: Benjamin Lee
         title: Agile Coach
+      is_hidden: true
     - rating: ★★★★★
       text: Full power of MS Project in your pocket!
       author:
         name: Mia Harris
         title: Project Management Trainer
+      is_hidden: true
     - rating: ★★★★★
       text: Intuitive, structured Gantt charts can be created with milestones and resource planning, including manual progress tracking.
       author:
         name: Emma Rodriguez
         title: Product Manager
+      is_hidden: true
     - rating: ★★★★★
       text: Performs faster [than competitors], since I can feel that scrolling the timeline and opening the project feels really fast compared to the other apps. Thumbs up!
       author:
         name: Ethan Walker
         title: Program Manager
+      is_hidden: true
     - rating: ★★★★★
       text: Excellent program!
       author:
         name: Harper Thompson
         title: PMO (Project Management Office) Director
+      is_hidden: true
   show_more:
     text: Show more
     icon: fas fa-chevron-down

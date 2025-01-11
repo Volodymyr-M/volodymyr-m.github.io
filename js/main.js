@@ -120,12 +120,12 @@ featureTabs.forEach(tab => {
 
 // Show more testimonials functionality
 const showMoreBtn = document.querySelector('.show-more-button');
-const hiddenTestimonials = document.querySelector('.hidden-testimonials');
+const hiddenTestimonials = document.querySelectorAll('.hidden-testimonials');
 
 if (showMoreBtn && hiddenTestimonials) {
     showMoreBtn.addEventListener('click', () => {
-        const isHidden = hiddenTestimonials.style.display === 'none' || hiddenTestimonials.style.display === '';
-        hiddenTestimonials.style.display = isHidden ? 'grid' : 'none';
+        const isHidden = hiddenTestimonials[0].style.display === 'none' || hiddenTestimonials[0].style.display === '';
+        hiddenTestimonials.forEach(t => t.style.display = isHidden ? 'grid' : 'none');
         
         // Update text content
         const textSpan = showMoreBtn.querySelector('.button-text');
