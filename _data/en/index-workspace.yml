@@ -172,9 +172,6 @@ testimonials:
         name: Harper Thompson
         title: PMO (Project Management Office) Director
       is_hidden: true
-  show_more:
-    text: Show more
-    icon: fas fa-chevron-down
 
 features_detailed:
   title: Everything You Need for Successful Project Planning
