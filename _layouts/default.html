@@ -65,14 +65,14 @@ layout: compress
                     <h3>{{ section_data.title }}</h3>
                     {% if section[0] == 'products' %}
                     <ul>
-                        {% assign item = default_index_data.products.current %}
+                        {% assign item = index_data.products.current %}
                         <li>
                             <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}" class="active">
                                 {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
                                 {{ item.text }}
                             </a>
                         </li>
-                        {% for item in default_index_data.products.versions %}
+                        {% for item in index_data.products.versions %}
                         <li>
                             <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}">
                                 {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
