@@ -195,42 +195,6 @@ features_detailed:
             description: Move your project files across devices (iOS, Windows, macOS, Android).
         video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
 
-pricing:
-  title: Simple Purchase
-  subtitle: Ingantt for iOS
-  plans:
-    - title: 
-      price: 
-      duration:
-      featured: false
-      features:
-      cta:
-        text: 
-        url: 
-        class: 
-    - title: Single Purchase
-      price: 
-      duration: per copy
-      featured: true
-      features:
-        - Full Feature Access
-        - AI Project Generation
-        - MS Project Import/Export
-        - One-time payment, no subscription
-      cta:
-        text: Buy Now
-        url: ios_url
-        class: primary
-    - title: 
-      price: 
-      duration:
-      featured: false
-      features:
-      cta:
-        text: 
-        url: 
-        class:
-
 features_list:
   title: What You Can Do with Ingantt
   items:
