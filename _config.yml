@@ -10,10 +10,10 @@ web_url: https://web.ingantt.com
 docs_url: https://docs.ingantt.com
 workspace_url: https://workspace.google.com/marketplace/app/ingantt/286119906331
 support_email: support@ingantt.com
-android_page: index-android.html
-ios_page: index-ios.html
-windows_page: index-windows.html
-macos_page: index-macos.html
+android_page: ingantt-for-android.html
+ios_page: ingantt-for-ios.html
+windows_page: ingantt-for-windows.html
+macos_page: ingantt-for-macos.html
 privacy_policy_page: privacy_policy.html
 terms_of_service_page: terms_of_service.html
 
@@ -29,10 +29,4 @@ parallel_localization: false
 lang_from_path: true
 
 compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
+  comments: ["<!-- ", " -->"]
