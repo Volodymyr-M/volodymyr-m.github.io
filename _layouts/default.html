@@ -8,7 +8,8 @@ layout: compress
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% assign page_data = site.data[site.active_lang].text-pages[page.page_name] %}
-    {% assign index_data = site.data[site.active_lang][page.index_name] | default: site.data[site.active_lang].index-workspace %}
+    {% assign default_index_data = site.data[site.active_lang].index-workspace %}
+    {% assign index_data = site.data[site.active_lang][page.index_name] | default: default_index_data %}
     {% if page_data %}
         <title>{{ page_data.page_title }}</title>
         <meta name="keywords" content="{{ page_data.keywords }}">
@@ -29,7 +30,7 @@ layout: compress
             <div class="logo">
                 <a href="/">
                     <img src="/images/logo.png" alt="Ingantt Logo" class="logo-img">
-                    <span class="logo-text">{{ index_data.header.logo_text }}</span>
+                    <span class="logo-text">{{ default_index_data.header.logo_text }}</span>
                 </a>
             </div>
             {% if site.data[site.active_lang][page.index_name] %}
@@ -58,20 +59,20 @@ layout: compress
     <footer>
         <div class="container">
             <div class="footer-grid">
-                {% for section in index_data.footer.sections %}
+                {% for section in default_index_data.footer.sections %}
                 {% assign section_data = section[1] %}
                 <div class="footer-section">
                     <h3>{{ section_data.title }}</h3>
                     {% if section[0] == 'products' %}
                     <ul>
-                        {% assign item = index_data.products.current %}
+                        {% assign item = default_index_data.products.current %}
                         <li>
                             <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}" class="active">
                                 {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
                                 {{ item.text }}
                             </a>
                         </li>
-                        {% for item in index_data.products.versions %}
+                        {% for item in default_index_data.products.versions %}
                         <li>
                             <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}">
                                 {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
@@ -118,7 +119,7 @@ layout: compress
                     <div class="language-select">
                         <div class="language-current">
                             <i class="{{ section_data.language.current.icon }}"></i>
-                            <span>{{index_data.lang_name}}</span>
+                            <span>{{default_index_data.lang_name}}</span>
                             <i class="fas fa-chevron-up"></i>
                         </div>
                         <div class="language-dropdown">
@@ -142,7 +143,7 @@ layout: compress
                 {% endfor %}
             </div>
             <div class="footer-bottom">
-                <p>&copy; {{ site.time | date: '%Y' }} {{ index_data.footer.copyright }}</p>
+                <p>&copy; {{ site.time | date: '%Y' }} {{ default_index_data.footer.copyright }}</p>
             </div>
         </div>
     </footer>

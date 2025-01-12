@@ -27,53 +27,6 @@ products:
       platform: Android
       url: android_page
 
-header:
-  logo_text: Ingantt
-
-footer:
-  sections:
-    products:
-      title: Products
-    
-    legal:
-      title: Legal
-      items:
-        - text: Privacy Policy
-          url: privacy_policy_page
-        - text: Terms of Service
-          url: terms_of_service_page
-    
-    connect:
-      title: Connect
-      items:
-        - icon: fa fa-envelope
-          text: Email us
-          url: support_email
-      social_links:
-        - icon: fab fa-x-twitter
-          title: X (Twitter)
-          url: twitter_url
-        - icon: fab fa-bluesky
-          title: Bluesky
-          url: bluesky_url
-        - icon: fab fa-facebook
-          title: Facebook
-          url: facebook_url
-        - icon: fab fa-youtube
-          title: YouTube
-          url: youtube_url
-    
-    site_settings:
-      title: Site Settings
-      language:
-        current:
-          icon: fas fa-globe
-      theme_toggle:
-        text: Toggle dark mode
-        icon: fas fa-adjust
-
-  copyright: Ingantt Development. All rights reserved.
-
 hero:
   title: Gantt Chart Project Planning for your Apple device with AI
   subtitle: Transform your project planning with intelligent Gantt charts and AI assistance on your iPhone or iPad.
