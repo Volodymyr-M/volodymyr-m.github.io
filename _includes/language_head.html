@@ -30,12 +30,12 @@
         '{{lang}}': '/{{lang}}/',
     {% endfor %}
     };
-    
-    if (window.location.pathname == '/') {
+   
+    if (window.location.pathname.split('/').length == 2) {
         const savedLang = getLanguageCookieValue();
         if (savedLang) {
             if (savedLang != '{{ site.default_lang }}') {
-                const redirectUrl = languageFolders[savedLang];
+                const redirectUrl = languageFolders[savedLang] + window.location.pathname.split('/')[1];
                 if (redirectUrl) {
                     window.location.href = redirectUrl;
                 }
