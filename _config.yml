@@ -1,32 +1,40 @@
-youtube_url: https://www.youtube.com/@AstroArenaGame/videos
-twitter_url: https://x.com/AstroArenaSpace
+# Social
 bluesky_url: https://bsky.app/profile/ingantt.com
-facebook_url: https://www.facebook.com/AstroArenaGame
+twitter_url: https://x.com/ingantt_com
+facebook_url: https://www.facebook.com/Ingantt
+youtube_url: https://www.youtube.com/@Ingantt/videos
+
+# Stores
 android_url: https://play.google.com/store/apps/details?id=com.ingantt_development.ingantt
 windows_url: ms-windows-store://pdp/?productid=9NHQ26QV09F6
 macos_url: https://apps.apple.com/us/app/ingantt/id6450835363
 ios_url: https://apps.apple.com/us/app/ingantt-project-scheduling/id6466750274
-web_url: https://web.ingantt.com
-docs_url: https://docs.ingantt.com
 workspace_url: https://workspace.google.com/marketplace/app/ingantt/286119906331
-support_email: support@ingantt.com
+
+# Site Pages
 android_page: ingantt-for-android.html
 ios_page: ingantt-for-ios.html
 windows_page: ingantt-for-windows.html
 macos_page: ingantt-for-macos.html
+workspace_page: 
 privacy_policy_page: privacy_policy.html
 terms_of_service_page: terms_of_service.html
 
-# Build settings
+# External
+docs_url: https://docs.ingantt.com
+support_email: support@ingantt.com
+
+# Plugins
 plugins:
   - jekyll-polyglot
 
-#I18n
+# I18n
 languages: ["en", "de", "es", "fr", "hi", "id", "it", "ja", "ko", "ms", "pl", "pt", "th", "tr", "uk", "vi", "zh"]
 default_lang: "en"
 exclude_from_localization: ["images", "styles", "videos", "js", "CNAME", "auth_close.html", "favicon.ico"]
 parallel_localization: false
 lang_from_path: true
 
+# Compression
 compress_html:
   comments: ["<!-- ", " -->"]
