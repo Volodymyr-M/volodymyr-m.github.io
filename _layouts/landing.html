@@ -2,54 +2,54 @@
 layout: default
 ---
 
-{% assign index_data = site.data[site.active_lang][page.index_name] %}
+{% assign landing_data = site.data[site.active_lang][page.data_file_name] %}
 
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
         <div class="hero-wrapper">
             <div class="hero-content">
-                <h1>{{ index_data.hero.title }}</h1>
-                <p class="hero-subtitle">{{ index_data.hero.subtitle }}</p>
+                <h1>{{ landing_data.hero.title }}</h1>
+                <p class="hero-subtitle">{{ landing_data.hero.subtitle }}</p>
                 <div class="cta-group">
-                    <a href="{{ site[index_data.platform_url] }}" class="cta-button primary" target="_blank">
+                    <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary" target="_blank">
                         <span class="button-content">
                             <span class="button-title-wrapper">
-                                <span {% unless index_data.hero.cta.primary.text_fits %}class="button-title"{% endunless %}>{{ index_data.hero.cta.primary.text }}</span>
+                                <span {% unless landing_data.hero.cta.primary.text_fits %}class="button-title"{% endunless %}>{{ landing_data.hero.cta.primary.text }}</span>
                             </span>
-                            <img src="/images/platforms/{{ index_data.platform_image }}" alt="Platform Logo" class="workspace-logo">
+                            <img src="/images/platforms/{{ landing_data.platform_image }}" alt="Platform Logo" class="workspace-logo">
                         </span>
                     </a>
                     <div class="language-select nav-version other-versions-btn">
                         <a href="#" class="cta-button secondary other-versions">
                             <span class="button-content">
-                                <span class="button-title">{{ index_data.hero.cta.other_versions.title }} <i class="fas fa-chevron-down"></i></span>
+                                <span class="button-title">{{ landing_data.hero.cta.other_versions.title }} <i class="fas fa-chevron-down"></i></span>
                                 <span class="platform-icons">
-                                    {% for platform in index_data.products.versions %}
+                                    {% for platform in landing_data.products.versions %}
                                     <i class="{{ platform.icon }}"></i>
                                     {% endfor %}
                                 </span>
                             </span>
                         </a>
                         <div class="language-dropdown">
-                            {% for platform in index_data.products.versions %}
+                            {% for platform in landing_data.products.versions %}
                             <a href="/{{ site[platform.url] }}"><i class="{{ platform.icon }}"></i> {{ platform.text }}</a>
                             {% endfor %}
                         </div>
                     </div>
                 </div>
-                {% if index_data.hero.rating.stars %}
+                {% if landing_data.hero.rating.stars %}
                 <div class="hero-badges">
                     <div class="rating">
-                        <div class="stars">{{ index_data.hero.rating.stars }}</div>
-                        <span>{{ index_data.hero.rating.text }} <img src="/images/stores/{{ index_data.store_image }}" class="inline-marketplace-logo" alt="Store Logo"></span>
+                        <div class="stars">{{ landing_data.hero.rating.stars }}</div>
+                        <span>{{ landing_data.hero.rating.text }} <img src="/images/stores/{{ landing_data.store_image }}" class="inline-marketplace-logo" alt="Store Logo"></span>
                     </div>
                 </div>
                 {% endif %}
             </div>
             <div class="hero-image">
                 <div class="hero-image-wrapper">
-                    <img src="/images/heros/{{ index_data.hero.image }}" alt="Illustration">
+                    <img src="/images/heros/{{ landing_data.hero.image }}" alt="Illustration">
                     <div class="hero-shape-1"></div>
                     <div class="hero-shape-2"></div>
                     <div class="hero-shape-3"></div>
@@ -62,9 +62,9 @@ layout: default
 <!-- Features Grid -->
 <section class="features">
     <div class="container">
-        <h2>{{ index_data.features_grid.title }}</h2>
+        <h2>{{ landing_data.features_grid.title }}</h2>
         <div class="features-grid">
-            {% for item in index_data.features_grid.items %}
+            {% for item in landing_data.features_grid.items %}
             <div class="feature-card">
                 <i class="{{ item.icon }}"></i>
                 <h3>{{ item.title }}</h3>
@@ -78,9 +78,9 @@ layout: default
 <!-- Demo Section -->
 <section id="demo" class="demo">
     <div class="container">
-        <h2>{{ index_data.demo.title }}</h2>
+        <h2>{{ landing_data.demo.title }}</h2>
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/{{ index_data.demo.video_id }}" 
+            <iframe src="https://www.youtube.com/embed/{{ landing_data.demo.video_id }}" 
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen>
@@ -92,9 +92,9 @@ layout: default
 <!-- Social Proof -->
 <section class="testimonials">
     <div class="container">
-        <h2>{{ index_data.testimonials.title }}</h2>
+        <h2>{{ landing_data.testimonials.title }}</h2>
         <div class="testimonials-grid">
-            {% for testimonial in index_data.testimonials.items %}
+            {% for testimonial in landing_data.testimonials.items %}
             <div class="testimonial-card {% if testimonial.is_hidden %}hidden-testimonials{% endif %}">
                 <div class="quote">{{ testimonial.rating }}</div>
                 <p>{{ testimonial.text }}</p>
@@ -109,9 +109,9 @@ layout: default
         </div>
         <div class="show-more-container">
             <button class="show-more-button"
-                data-show-more="{{ index_data.testimonials.show_more.text }}"
-                data-show-less="{{ index_data.testimonials.show_less.text }}">
-                <span class="button-text">{{ index_data.testimonials.show_more.text }}</span>
+                data-show-more="{{ landing_data.testimonials.show_more.text }}"
+                data-show-less="{{ landing_data.testimonials.show_less.text }}">
+                <span class="button-text">{{ landing_data.testimonials.show_more.text }}</span>
                 <i class="fas fa-chevron-down"></i>
             </button>
         </div>
@@ -121,12 +121,12 @@ layout: default
 <!-- Features Section -->
 <section class="features-detailed">
     <div class="container">
-        <h2>{{ index_data.features_detailed.title }}</h2>
-        <p class="section-subtitle">{{ index_data.features_detailed.subtitle }}</p>
+        <h2>{{ landing_data.features_detailed.title }}</h2>
+        <p class="section-subtitle">{{ landing_data.features_detailed.subtitle }}</p>
         
         <div class="features-tabs">
             <div class="features-nav">
-                {% for tab in index_data.features_detailed.tabs %}
+                {% for tab in landing_data.features_detailed.tabs %}
                 <button class="feature-tab {% if forloop.first %}active{% endif %}" data-tab="{{ tab.id }}">
                     <i class="{{ tab.icon }}"></i>
                     {{ tab.title }}
@@ -135,7 +135,7 @@ layout: default
             </div>
 
             <div class="features-content">
-                {% for tab in index_data.features_detailed.tabs %}
+                {% for tab in landing_data.features_detailed.tabs %}
                 <div class="feature-panel {% if forloop.first %}active{% endif %}" id="{{ tab.id }}">
                     <div class="feature-details">
                         <div class="feature-text">
@@ -174,10 +174,10 @@ layout: default
 {% if page.index_name == "index-workspace" %}
 <section class="pricing">
     <div class="container">
-        <h2>{{ index_data.pricing.title }}</h2>
-        <p class="section-subtitle">{{ index_data.pricing.subtitle }}</p>
+        <h2>{{ landing_data.pricing.title }}</h2>
+        <p class="section-subtitle">{{ landing_data.pricing.subtitle }}</p>
         <div class="pricing-grid">
-            {% for plan in index_data.pricing.plans %}
+            {% for plan in landing_data.pricing.plans %}
             {% unless plan.title %}
                 <div class="pricing-card" style="visibility: hidden;"></div>
                 {% continue %}
@@ -210,9 +210,9 @@ layout: default
 <section class="features-list">
     <div class="container">
         <div class="feature-group">
-            <h2>{{ index_data.features_list.title }}</h2>
+            <h2>{{ landing_data.features_list.title }}</h2>
             <div class="feature-grid">
-                {% for feature in index_data.features_list.items %}
+                {% for feature in landing_data.features_list.items %}
                 <div class="feature-item">
                     <i class="{{ feature.icon }}"></i>
                     <h3>{{ feature.title }}</h3>
@@ -233,9 +233,9 @@ layout: default
     <div class="container">
         <div class="faq-wrapper">
             <div class="faq-content">
-                <h2>{{ index_data.faq.title }}</h2>
+                <h2>{{ landing_data.faq.title }}</h2>
                 <div class="faq-grid">
-                    {% for item in index_data.faq.items %}
+                    {% for item in landing_data.faq.items %}
                     <div class="faq-item">
                         <div class="faq-question">
                             <h3>{{ item.question }}</h3>
@@ -250,13 +250,13 @@ layout: default
             </div>
             <div class="faq-support">
                 <div class="support-content">
-                    <h2>{{ index_data.faq.support.title }}</h2>
-                    <a href="{{ site.docs_url }}" class="cta-button secondary" target="_blank">{{ index_data.faq.support.docs.text }}</a>
+                    <h2>{{ landing_data.faq.support.title }}</h2>
+                    <a href="{{ site.docs_url }}" class="cta-button secondary" target="_blank">{{ landing_data.faq.support.docs.text }}</a>
                     <div class="support-divider">
-                        <h2>{{ index_data.faq.support.contact.title }}</h2>
+                        <h2>{{ landing_data.faq.support.contact.title }}</h2>
                         <a href="mailto:{{ site.support_email }}" class="cta-button primary">
-                            <i class="{{ index_data.faq.support.contact.icon }}"></i>
-                            {{ index_data.faq.support.contact.text }}
+                            <i class="{{ landing_data.faq.support.contact.icon }}"></i>
+                            {{ landing_data.faq.support.contact.text }}
                         </a>
                     </div>
                 </div>
@@ -268,15 +268,15 @@ layout: default
 <!-- CTA -->
 <section class="cta">
     <div class="container">
-        <h2>{{ index_data.cta.title }}</h2>
-        <p>{{ index_data.cta.subtitle }}</p>
+        <h2>{{ landing_data.cta.title }}</h2>
+        <p>{{ landing_data.cta.subtitle }}</p>
         <div class="cta-buttons">
-            <a href="{{ site[index_data.platform_url] }}" class="cta-button primary" target="_blank">
+            <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary" target="_blank">
                 <span class="button-content">
                     <span class="button-title-wrapper">
-                        <span class="button-title">{{ index_data.cta.button.text }}</span>
+                        <span class="button-title">{{ landing_data.cta.button.text }}</span>
                     </span>
-                    <img src="/images/platforms/{{ index_data.platform_image }}" alt="Platform Logo" class="workspace-logo">
+                    <img src="/images/platforms/{{ landing_data.platform_image }}" alt="Platform Logo" class="workspace-logo">
                 </span>
             </a>
         </div>
@@ -287,9 +287,9 @@ layout: default
 <section class="platform-support features-list">
     <div class="container">
         <div class="feature-group">
-            <h2>{{ index_data.platform_support.title }}</h2>
+            <h2>{{ landing_data.platform_support.title }}</h2>
             <div class="platform-grid">
-                {% for platform in index_data.products.versions %}
+                {% for platform in landing_data.products.versions %}
                 <a href="{{ site[platform.url] }}" class="platform-item">
                     <i class="{{ platform.icon }}"></i>
                     <span>{{ platform.platform }}</span>
