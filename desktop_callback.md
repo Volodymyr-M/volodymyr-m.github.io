@@ -1,4 +1,5 @@
 ---
+layout: compress
 permalink: desktop_callback.html
 ---
 
