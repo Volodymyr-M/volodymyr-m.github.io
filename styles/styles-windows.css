@@ -202,7 +202,6 @@ body {
 section {
     background: var(--surface) !important;
     border-bottom: 1px solid var(--border) !important;
-    padding: 5rem 0 !important;
     position: relative !important;
 }
 
