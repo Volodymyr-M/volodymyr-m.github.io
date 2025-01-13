@@ -358,3 +358,10 @@ cta:
 
 platform_support:
   title: Need a device-specific version for personal use?
+
+desktop_callback:
+  title: Ingantt
+  cta: Click "Open" in the dialog above.
+  success: Clicked? You may close this page.
+  issue: Something went wrong?
+  click: Retry.

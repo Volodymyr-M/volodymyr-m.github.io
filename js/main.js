@@ -92,16 +92,6 @@ document.querySelectorAll('.faq-question').forEach(question => {
     });
 });
 
-// Smooth scroll
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
 // Features tabs
 const featureTabs = document.querySelectorAll('.feature-tab');
 const featurePanels = document.querySelectorAll('.feature-panel');
