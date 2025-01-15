@@ -27,7 +27,7 @@ products:
       url: android_page
 
 hero:
-  title: Gantt Chart Project Planning for your Apple device with AI
+  title: Gantt Chart Project Planning with AI for your iOS device
   subtitle: Transform your project planning with intelligent Gantt charts and AI assistance on your iPhone or iPad.
   cta:
     primary:
@@ -56,9 +56,9 @@ features_grid:
     - icon: fas fa-file-import
       title: MS Project Compatible
       description: Import .MPP files and save to MS Project compatible XML—no compromises.
-    - icon: fas fa-cloud
-      title: Works Everywhere
-      description: Easily view and update your plans from phone, tablet, or desktop—wherever you are.
+    - icon: fas fa-brain
+      title: Plan everything
+      description: Schedule, costs, tasks, dependencies, resources and more—all in one place.
 
 demo:
   title: See Ingantt in Action
@@ -89,7 +89,7 @@ testimonials:
         name: Amelia Clark
         title: Project Coordinator
     - rating: ★★★★★
-      text: Finally some Microsoft Project alternative which works great, especially on iPad!
+      text: Finally some Microsoft Project alternative which works great!
       author:
         name: Isabella Moore
         title: Team Lead (Project Management)
@@ -101,7 +101,7 @@ testimonials:
         title: Agile Coach
       is_hidden: true
     - rating: ★★★★★
-      text: Full power of MS Project in your pocket!
+      text: Full power of MS Project in a much smaller package!
       author:
         name: Mia Harris
         title: Project Management Trainer
@@ -161,19 +161,6 @@ features_detailed:
             title: Timeline Analysis
             description: Analyze critical path and track schedule variations
         video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
-    - id: collaboration
-      icon: fas fa-users
-      title: Collaboration
-      content:
-        title: Collaboration Notes
-        features:
-          - icon: fas fa-check
-            title: Limited Sharing
-            description: This iOS version does not include real-time multi-user edits, but you can share project files in .MPP or XML formats.
-          - icon: fas fa-check
-            title: Exchange using PDF, PNG or XML formats
-            description: Easily export your projects to these formats for broader sharing.
-        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
     - id: integration
       icon: fas fa-plug
       title: Integration
@@ -187,8 +174,8 @@ features_detailed:
             title: Export Options
             description: Export to PDF and PNG anytime
           - icon: fas fa-check
-            title: Cross-Platform Sync
-            description: Move your project files across devices (iOS, Windows, macOS, Android).
+            title: Google Drive saving and opening
+            description: Use your Google Drive to save and open project files.
         video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
 
 features_list:
@@ -213,7 +200,7 @@ features_list:
       title: Collaboration
       items:
         - Share via standard iOS file sharing
-        - Exchange files in MPP, XML, PDF, or PNG
+        - Exchange files in XML, PDF, or PNG
     - icon: fas fa-chart-line
       title: Advanced Tracking
       items:
@@ -231,9 +218,9 @@ features_list:
     - icon: fas fa-plug
       title: Integrations
       items:
-        - MS Project file compatibility (.MPP)
+        - MS Project file compatibility (MPP and XML)
         - Export to PDF and PNG
-        - Works alongside other platforms (Windows, macOS, Android)
+        - Works with Google Drive
 
 faq:
   title: Frequently Asked Questions
