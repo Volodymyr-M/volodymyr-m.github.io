@@ -43,7 +43,7 @@
         } else {
             const userLang = navigator.language || navigator.userLanguage;
             const langCode = userLang.split('-')[0];
-            const redirectUrl = languageFolders[langCode];
+            const redirectUrl = languageFolders[langCode] + window.location.pathname.split('/')[1];
             if (redirectUrl) {
                 setLanguageCookie(langCode);
                 window.location.href = redirectUrl;
