@@ -1,7 +1,7 @@
 /* Android-specific theme overrides */
 .light-mode {
     /* Light Mode Colors */
-    --primary-color: #4caf50 !important; /* Changed to green */
+    --primary-color: #44863b !important; /* Changed to green */
     --primary-hover: #388e3c !important; /* Darker green for hover */
     --secondary-color: #8e9e9e !important; /* Grayish color */
     --accent-color: #cddc39 !important; /* Lime color for accent */
@@ -10,7 +10,7 @@
     --surface-alt: #f8fafc !important;
     --text-primary: #37474f !important; /* Dark gray for text */
     --text-secondary: #607d8b !important; /* Grayish blue for secondary text */
-    --text-muted: #90a4ae !important; /* Light gray for muted text */
+    --text-muted: #90a4ae !important; /* Light gray for muted text */   
     --border: #cfd8dc !important; /* Light gray for borders */
     --shadow: rgba(55, 71, 79, 0.08) !important; /* Light shadow */
     
@@ -34,7 +34,7 @@
 }
 
 .dark-mode {
-    --primary-color: #4caf50 !important; /* Changed to green */
+    --primary-color: #70ff75 !important; /* Changed to green */
     --primary-hover: #66bb6a !important; /* Lighter green for hover */
     --secondary-color: #8e9e9e !important; /* Grayish color */
     --accent-color: #cddc39 !important; /* Lime color for accent */
