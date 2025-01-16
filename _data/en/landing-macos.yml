@@ -2,29 +2,10 @@ title: Ingantt - Modern Gantt Chart Project Planning for Mac with AI
 meta_keywords: gantt chart app macOS, mpp, gantt for Mac, mpp reader, mpp viewer, gantt application, MS Project alternative, gantt for Apple, project planning, project management
 meta_description: Ingantt - AI-powered project management tool for macOS. Plan, schedule, and track your projects on your Mac with ease.
 
-products:
-  current:
-    icon: fab fa-apple
-    text: Ingantt for macOS
-    platform: macOS
-    url: macos_page
-  versions:
-    - icon: fa-brands fa-google
-      text: Ingantt for Google Workspace
-      platform: Google Workspace
-      url: workspace_page
-    - icon: fab fa-android
-      text: Ingantt for Android
-      platform: Android
-      url: android_page
-    - icon: fab fa-app-store-ios
-      text: Ingantt for iOS
-      platform: iOS
-      url: ios_page
-    - icon: fab fa-windows
-      text: Ingantt for Windows
-      platform: Windows
-      url: windows_page
+page_url: macos_page
+platform_url: macos_url
+store_image: app_store.png
+platform_image: macos.png
 
 hero:
   title: Gantt Chart Project Planning with AI for your Mac
@@ -39,10 +20,6 @@ hero:
     stars:
     text: 5 stars on
   image: hero-macos.png
-
-store_image: app_store.png
-platform_image: macos.png
-platform_url: macos_url
 
 features_grid:
   title: Why Project Managers Choose Ingantt

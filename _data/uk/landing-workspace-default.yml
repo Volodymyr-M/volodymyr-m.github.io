@@ -3,29 +3,32 @@ title: Ingantt – сучасне планування проєктів у Googl
 meta_keywords: "додаток із діаграмою Ганта для Workspace, mpp, діаграма Ганта Google Workspace, mpp-читач, mpp-переглядач, додаток із діаграмою Ганта, діаграма Ганта для вебу, діаграма Ганта у Google Workspace"
 meta_description: "Ingantt – інструмент керування проєктами на базі штучного інтелекту для Google Workspace. Плануйте, складайте розклади та відстежуйте свої проєкти з легкістю."
 
+page_url: workspace_page
+platform_url: workspace_url
+store_image: google_workspace_marketplace.png
+platform_image: google_workspace.png
+
 products:
-  current:
-    icon: fa-brands fa-google
-    text: Ingantt для Google Workspace
+  - icon: fa-brands fa-google
+    text: Ingantt for Google Workspace
     platform: Google Workspace
     url: workspace_page
-  versions:
-    - icon: fab fa-android
-      text: Ingantt для Android
-      platform: Android
-      url: android_page
-    - icon: fab fa-app-store-ios
-      text: Ingantt для iOS
-      platform: iOS
-      url: ios_page
-    - icon: fab fa-windows
-      text: Ingantt для Windows
-      platform: Windows
-      url: windows_page
-    - icon: fab fa-apple
-      text: Ingantt для macOS
-      platform: macOS
-      url: macos_page
+  - icon: fab fa-android
+    text: Ingantt for Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt for iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt for Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt for macOS
+    platform: macOS
+    url: macos_page
 
 header:
   logo_text: Ingantt

@@ -37,12 +37,14 @@ layout: compress
             <div class="nav-right">
                 <div class="language-select nav-version">
                     <div class="language-current">
-                        <i class="{{ landing_data.products.current.icon }}"></i>
-                        <span>{{ landing_data.products.current.text }}</span>
+                        {% assign current_product = default_landing_data.products | where: 'url', landing_data.page_url | first %}
+                        <i class="{{ current_product.icon }}"></i>
+                        <span>{{ current_product.text }}</span>
                         <i class="fas fa-chevron-down"></i>
                     </div>
                     <div class="language-dropdown">
-                        {% for version in landing_data.products.versions %}
+                        {% for version in default_landing_data.products %}
+                        {% if version.url == landing_data.page_url %}{% continue %}{% endif %}
                         <a href="/{{ site[version.url] }}"><i class="{{ version.icon }}"></i> {{ version.text }}</a>
                         {% endfor %}
                     </div>
@@ -65,7 +67,7 @@ layout: compress
                     <h3>{{ section_data.title }}</h3>
                     {% if section[0] == 'products' %}
                     <ul>
-                        {% for item in landing_data.products.versions %}
+                        {% for item in default_landing_data.products %}
                         <li>
                             <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}">
                                 {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
@@ -73,13 +75,6 @@ layout: compress
                             </a>
                         </li>
                         {% endfor %}
-                        {% assign item = landing_data.products.current %}
-                        <li>
-                            <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}" class="active">
-                                {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
-                                {{ item.text }}
-                            </a>
-                        </li>
                     </ul>
                     {% endif %}
 

@@ -2,6 +2,7 @@
 layout: default
 ---
 
+{% assign default_landing_data = site.data[site.active_lang].landing-workspace-default %}
 {% assign landing_data = site.data[site.active_lang][page.data_file_name] %}
 
 <!-- Hero Section -->
@@ -25,14 +26,16 @@ layout: default
                             <span class="button-content">
                                 <span class="button-title">{{ landing_data.hero.cta.other_versions.title }} <i class="fas fa-chevron-down"></i></span>
                                 <span class="platform-icons">
-                                    {% for platform in landing_data.products.versions %}
+                                    {% for platform in default_landing_data.products %}
+                                    {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
                                     <i class="{{ platform.icon }}"></i>
                                     {% endfor %}
                                 </span>
                             </span>
                         </a>
                         <div class="language-dropdown">
-                            {% for platform in landing_data.products.versions %}
+                            {% for platform in default_landing_data.products %}
+                            {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
                             <a href="/{{ site[platform.url] }}"><i class="{{ platform.icon }}"></i> {{ platform.text }}</a>
                             {% endfor %}
                         </div>
@@ -289,7 +292,8 @@ layout: default
         <div class="feature-group">
             <h2>{{ landing_data.platform_support.title }}</h2>
             <div class="platform-grid">
-                {% for platform in landing_data.products.versions %}
+                {% for platform in default_landing_data.products %}
+                {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
                 <a href="{{ site[platform.url] }}" class="platform-item">
                     <i class="{{ platform.icon }}"></i>
                     <span>{{ platform.platform }}</span>

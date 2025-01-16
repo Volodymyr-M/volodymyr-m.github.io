@@ -2,29 +2,10 @@ title: Ingantt - Modern Gantt Chart Project Planning for Android with AI
 meta_keywords: gantt chart app Android, mpp, gantt Android, mpp reader, mpp viewer, gantt application, MS Project alternative, gantt for phone, gantt for tablet, project planning, project management
 meta_description: Ingantt - AI-powered project management tool for Android phones and tablets. Plan, schedule, and track your projects with ease.
 
-products:
-  current:
-    icon: fab fa-android
-    text: Ingantt for Android
-    platform: Android
-    url: android_page
-  versions:
-    - icon: fa-brands fa-google
-      text: Ingantt for Google Workspace
-      platform: Google Workspace
-      url: workspace_page
-    - icon: fab fa-windows
-      text: Ingantt for Windows
-      platform: Windows
-      url: windows_page
-    - icon: fab fa-apple
-      text: Ingantt for macOS
-      platform: macOS
-      url: macos_page
-    - icon: fab fa-app-store-ios
-      text: Ingantt for iOS
-      platform: iOS
-      url: ios_page
+page_url: android_page
+platform_url: android_url
+store_image: google_play.png
+platform_image: android.png
 
 hero:
   title: Gantt Chart Project Planning with AI for your Android device
@@ -39,10 +20,6 @@ hero:
     stars: 
     text: 5 stars on
   image: hero-android.png
-
-store_image: google_play.png
-platform_image: android.png
-platform_url: android_url
 
 features_grid:
   title: Why Project Managers Choose Ingantt

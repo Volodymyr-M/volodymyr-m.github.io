@@ -2,29 +2,10 @@ title: Ingantt - Modern Gantt Chart Project Planning for iPhone and iPad with AI
 meta_keywords: gantt chart app iOS, mpp, gantt iPhone, gantt iPad, mpp reader, mpp viewer, gantt application, MS Project alternative, gantt iOS, project planning, project management
 meta_description: Ingantt - AI-powered project management tool for iOS phones and tablets. Plan, schedule, and track your projects on iPhone and iPad with ease.
 
-products:
-  current:
-    icon: fab fa-app-store-ios
-    text: Ingantt for iOS
-    platform: iOS
-    url: ios_page
-  versions:
-    - icon: fa-brands fa-google
-      text: Ingantt for Google Workspace
-      platform: Google Workspace
-      url: workspace_page
-    - icon: fab fa-windows
-      text: Ingantt for Windows
-      platform: Windows
-      url: windows_page
-    - icon: fab fa-apple
-      text: Ingantt for macOS
-      platform: macOS
-      url: macos_page
-    - icon: fab fa-android
-      text: Ingantt for Android
-      platform: Android
-      url: android_page
+page_url: ios_page
+platform_url: ios_url
+store_image: app_store.png
+platform_image: ios.png
 
 hero:
   title: Gantt Chart Project Planning with AI for your iOS device
@@ -39,10 +20,6 @@ hero:
     stars: ★★★★⯨
     text: 4.5 stars on
   image: hero-ios.png
-
-store_image: app_store.png
-platform_image: ios.png
-platform_url: ios_url
 
 features_grid:
   title: Why Project Managers Choose Ingantt

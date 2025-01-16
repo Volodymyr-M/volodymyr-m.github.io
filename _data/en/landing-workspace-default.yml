@@ -3,29 +3,32 @@ title: Ingantt - Modern Gantt Chart Project Planning in Google Workspace with AI
 meta_keywords: gantt chart app Workspace, mpp, gantt Google Workspace, mpp reader, mpp viewer, MS Project alternative, gantt for Web, gantt Web, gantt for Google Workspace, project management
 meta_description: Ingantt - AI-powered project management tool for Google Workspace. Plan, schedule, and track your projects on the Web with ease.
 
+page_url: workspace_page
+platform_url: workspace_url
+store_image: google_workspace_marketplace.png
+platform_image: google_workspace.png
+
 products:
-  current:
-    icon: fa-brands fa-google
+  - icon: fa-brands fa-google
     text: Ingantt for Google Workspace
     platform: Google Workspace
     url: workspace_page
-  versions:
-    - icon: fab fa-android
-      text: Ingantt for Android
-      platform: Android
-      url: android_page
-    - icon: fab fa-app-store-ios
-      text: Ingantt for iOS
-      platform: iOS
-      url: ios_page
-    - icon: fab fa-windows
-      text: Ingantt for Windows
-      platform: Windows
-      url: windows_page
-    - icon: fab fa-apple
-      text: Ingantt for macOS
-      platform: macOS
-      url: macos_page
+  - icon: fab fa-android
+    text: Ingantt for Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt for iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt for Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt for macOS
+    platform: macOS
+    url: macos_page
 
 header:
   logo_text: Ingantt
@@ -87,10 +90,6 @@ hero:
     stars: ★★★★★
     text: 5 stars on
   image: hero-workspace.png
-
-store_image: google_workspace_marketplace.png
-platform_image: google_workspace.png
-platform_url: workspace_url
 
 features_grid:
   title: Why Teams Choose Ingantt
