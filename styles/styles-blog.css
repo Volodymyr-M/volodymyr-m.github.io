@@ -28,7 +28,7 @@ body {
 }
 
 .blog-content {
-    padding: var(--spacing-xl);
+    padding: var(--spacing-xxl);
     background-color: var(--surface);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-md);
@@ -73,4 +73,16 @@ body {
     color: var(--text-secondary);
     font-size: 0.8rem;
     text-align: right;
+}
+
+.text-page .container:first-child {
+    margin-top: 0 !important;
+}
+
+h1 {
+    color: inherit;
+}
+
+.centered {
+    text-align: center;
 }

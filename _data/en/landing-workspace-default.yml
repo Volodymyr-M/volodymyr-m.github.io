@@ -370,3 +370,7 @@ desktop_callback:
   success: Clicked? You may close this page.
   issue: Something went wrong?
   click: Retry.
+
+blog:
+  title: Ingantt Blog
+  subtitle: Stay up-to-date with the latest news and updates
