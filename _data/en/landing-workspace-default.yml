@@ -1,5 +1,5 @@
 lang_name: English
-title: Ingantt - Modern Gantt Chart Project Planning in Google Workspace with AI
+title_tag: Ingantt - Modern Gantt Chart Project Planning in Google Workspace with AI
 meta_keywords: gantt chart app Workspace, mpp, gantt Google Workspace, mpp reader, mpp viewer, MS Project alternative, gantt for Web, gantt Web, gantt for Google Workspace, project management
 meta_description: Ingantt - AI-powered project management tool for Google Workspace. Plan, schedule, and track your projects on the Web with ease.
 
@@ -372,3 +372,6 @@ desktop_callback:
 blog:
   title: Ingantt Blog
   subtitle: Stay up-to-date with the latest news and updates
+  title_tag: Ingantt Blog - latest news and updates from Ingantt team
+  meta_keywords: Ingantt, blog, news, Gantt for Google Workspace
+  meta_description: Stay up-to-date with the latest news and updates from Ingantt

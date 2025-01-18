@@ -1,7 +1,7 @@
 terms_of_service:
-    page_title: Ingantt - Terms of Service
-    keywords: Ingantt, terms of service
-    description: Ingantt's Terms of Service
+    title_tag: Ingantt - Terms of Service
+    meta_keywords: Ingantt, terms of service
+    meta_description: Ingantt's Terms of Service
     text_title: Terms of Service
     text: |
       Welcome to Ingantt! By using our app, you agree to the following terms and conditions:
@@ -47,9 +47,9 @@ terms_of_service:
       If you have any questions about these Terms of Service, please contact us.
 
 privacy_policy:
-    page_title: Ingantt - Privacy Policy
-    keywords: Ingantt, privacy policy
-    description: Ingantt's Privacy Policy
+    title_tag: Ingantt - Privacy Policy
+    meta_keywords: Ingantt, privacy policy
+    meta_description: Ingantt's Privacy Policy
     text_title: Privacy Policy
     text: |
       ## What is Personal Information?
