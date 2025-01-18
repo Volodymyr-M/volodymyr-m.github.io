@@ -2,6 +2,7 @@
   published_on: "September 12, 2024"
   order: 9
   content: |
+    ![Illustration](/images/blog/share.webp)
     From the beginning, Ingantt has been a powerful tool for project managers across industries. But only for personal use. That’s changing now!
 
     We’re excited to roll out a major update that lets users share their project plans with others through Google Drive.
@@ -23,6 +24,9 @@
     For some popular types of projects we've added handcrafted templates. One of the templates, "Tutorial Template" is worth mentioning, as it can be a quick way to get started with Ingantt, just read through it, or use it as a starting point.
 
     The update also opens some new opportunities to improve Ingantt in the future, so stay tuned for more!
+
+    ![Illustration](/images/blog/ai_macos_dark.png)
+    ![Illustration](/images/blog/ai2_macos_dark.png)
 
 - title: "Listening to our users!"
   published_on: "January 25, 2024"
@@ -46,7 +50,8 @@
   published_on: "September 23, 2023"
   order: 6
   content: |
-    To conclude our platform expansion, iOS version is now available! We're excited on the ability to say that now Ingantt is available everywhere, on all platforms! To use Ingantt on your iPhone or iPad, [download Ingantt on the App Store]({{ site.ios_url }}).
+    To conclude our platform expansion, iOS version is now available! We're excited on the ability to say that now Ingantt is available everywhere, on all platforms! To use Ingantt on your iPhone or iPad, [download Ingantt on the App Store](https://google.com).
+    ![Illustration](/images/blog/ios.png)
 
 - title: "New! macOS version"
   published_on: "August 28, 2023"
@@ -78,6 +83,8 @@
 
     Use the new feature to plan the work of your resources better. Meanwhile, more features are on the way!
 
+    ![Illustration](/images/blog/resource_usage.png)
+
 - title: "New version: MPP opening"
   published_on: "April 16, 2023"
   order: 2
@@ -102,7 +109,11 @@
 
     Excellent for big or small renovation projects, software development projects, small construction projects, weddings, events, anything requiring planning, Ingantt is valuable to answer the most important questions: when the project ends and each of its task end and how much they all cost? All while taking into account holidays, vacations and all other important data impacting your project's schedule and cost.
 
+    ![Illustration](/images/blog/screen.png)
+
     Unlike some of the planning tools, Ingantt makes you feel productive. We have reduced the amount of clicks the most common actions require. Besides the traditional split view with tasks on the left and the Gantt chart on the right (and editing through dialogs), we've also added a special Editing view to Ingantt for you to be able to set up your schedule in a Photoshop-like manner, where your changes are immediately reflected in the schedule, visible in the Gantt chart and there's no need to open dialogs at all.
+
+    ![Illustration](/images/blog/edit.png)
 
     If you are familiar with tools like Microsoft Project, you can use your existing skills and get started quickly. If you're not, we have created a comprehensive [documentation]({{ site.const.docs_url }}) and a [Getting Started guide]({{ site.data.const.docs_url }}/getting-started/).
 
@@ -111,3 +122,5 @@
     With Windows and Android support, Ingantt has been released to [Microsoft Store]({{ site.data.const.windows_url }}) and on [Google Play]({{ site.data.const.android_url }}). There's also a [Web version]({{ site.data.const.web_url }}) available.
 
     Please feel free to contact us with your feedback, questions or comments. The first version is out, but our work on Ingantt continues with more features on the way. So stay tuned!
+
+

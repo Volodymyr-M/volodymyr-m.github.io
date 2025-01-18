@@ -83,6 +83,8 @@ h1 {
     color: inherit;
 }
 
-.centered {
-    text-align: center;
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-md);
 }
