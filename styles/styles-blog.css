@@ -88,3 +88,13 @@ h1 {
     height: auto;
     border-radius: var(--radius-md);
 }
+
+.blog-content ul {
+    margin-left: var(--spacing-md);
+    padding-left: var(--spacing-md);
+}
+
+.blog-content ul li {
+    margin-bottom: var(--spacing-sm);
+    font-size: 1.25rem;
+}
