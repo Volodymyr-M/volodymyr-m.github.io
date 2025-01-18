@@ -8,6 +8,7 @@ permalink: desktop_callback.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Language" content="{{site.active_lang}}">
     <title>{{ default_landing_data.desktop_callback.title }}</title>
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/styles-windows.css">
