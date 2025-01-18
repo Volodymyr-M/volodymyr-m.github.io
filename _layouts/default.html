@@ -121,13 +121,7 @@ layout: compress
                         <div class="language-dropdown">
                             {% for lang in site.languages %}
                                 {% assign lang_name = site.data[lang].landing-workspace-default.lang_name %}
-
-                                {% if lang == site.default_lang %}
-                                    <a {% if lang == site.active_lang %}class="active"{% endif %} onclick="changeLanguage('{{ lang }}')" href=" {{ page.url }}">{{ lang_name }}</a>
-                                {% else %}
-                                    <a {% if lang == site.active_lang %}class="active"{% endif %} onclick="changeLanguage('{{ lang }}')" href="/{{ lang }}{{ page.url }}">{{ lang_name }}</a>
-                                {% endif %}
-
+                                <a {% if lang == site.active_lang %}class="active"{% endif %} onclick="changeLanguage('{{ lang }}')" href="{% if lang == site.default_lang %} {{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}" lang="{{ lang }}">{{ lang_name }}</a>
                             {% endfor %}
                         </div>
                     </div>
