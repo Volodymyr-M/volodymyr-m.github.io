@@ -31,6 +31,7 @@ support_email: support@ingantt.com
 # Plugins
 plugins:
   - jekyll-polyglot
+  - jekyll-email-protect
 
 # I18n
 languages: ["en", "de", "es", "fr", "hi", "id", "it", "ja", "ko", "ms", "pl", "pt", "th", "tr", "uk", "vi", "zh"]

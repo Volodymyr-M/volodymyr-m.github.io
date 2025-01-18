@@ -97,7 +97,7 @@ layout: compress
                     <ul>
                         {% for item in section_data.items %}
                         <li>
-                            <a href="{% if site[item.url] contains '@' %}mailto:{{ site[item.url] }}{% else %}{{ site[item.url] }}{% endif %}" {% if item.open_in_new_tab %}target="_blank"{% endif %}>
+                            <a href="{% if site[item.url] contains '@' %}mailto:{{ site[item.url] | encode_email }}{% else %}{{ site[item.url] }}{% endif %}" {% if item.open_in_new_tab %}target="_blank"{% endif %}>
                                 <i class="{{ item.icon }}"></i>{{ item.text }}
                             </a>
                         </li>
