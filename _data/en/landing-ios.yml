@@ -209,11 +209,7 @@ faq:
     - question: How does the AI project generation work?
       answer: Our AI assistant can generate complete project plans from simple text descriptions. Just describe your project goals and requirements, and the AI will create a structured plan with tasks, timelines, and dependencies based on best practices.
     - question: Is there a free trial for the iOS version?
-      answer: No. The iOS version is a one-time purchase of $15 per copy, with no subscription or free trial.
-    - question: Can I collaborate with my team in real-time?
-      answer: The iOS version does not offer real-time multi-user collaboration. However, you can exchange project files (MPP, XML, PDF, PNG) and share them with your team through email or other file-sharing methods.
-    - question: Do I need an internet connection to use Ingantt on iOS?
-      answer: No, Ingantt works locally on your device. You only need internet access if you want to download updates, exchange files via cloud services, or access online documentation.
+      answer: No. The iOS version is a one-time purchase, with no subscription or free trial.
     - question: How can I purchase Ingantt for iOS?
       answer: Simply visit the Apple App Store on your iOS device, search for Ingantt, and purchase it there. You will own the app perpetually with no recurring charges.
   support:
