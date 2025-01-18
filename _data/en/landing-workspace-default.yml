@@ -66,9 +66,6 @@ footer:
         - icon: fab fa-bluesky
           title: Bluesky
           url: bluesky_url
-        - icon: fab fa-facebook
-          title: Facebook
-          url: facebook_url
         - icon: fab fa-youtube
           title: YouTube
           url: youtube_url
