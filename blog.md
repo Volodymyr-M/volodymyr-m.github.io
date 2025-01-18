@@ -21,7 +21,14 @@ permalink: blog.html
             <div class="blog-date">{{ post.published_on }}</div>
             <h2 class="blog-card-title blog-header">{{ post.title }}</h2>
             <div class="blog-subtitle">{{ post.subtitle }}</div>
-            <div class="blog-content">{{ post.content | markdownify }}</div>
+            <div class="blog-content">{{ post.content | markdownify |
+             replace: "android_url", site.android_url |
+             replace: "windows_url", site.windows_url | 
+             replace: "ios_url", site.ios_url |
+             replace: "macos_url", site.macos_url |
+             replace: "workspace_url", site.workspace_url |
+             replace: "docs_url", site.docs_url |
+             safeHTML }}</div>
         </div>
     </div>
     {% endfor %}

@@ -50,7 +50,7 @@
   published_on: "September 23, 2023"
   order: 6
   content: |
-    To conclude our platform expansion, iOS version is now available! We're excited on the ability to say that now Ingantt is available everywhere, on all platforms! To use Ingantt on your iPhone or iPad, [download Ingantt on the App Store](https://google.com).
+    To conclude our platform expansion, iOS version is now available! We're excited on the ability to say that now Ingantt is available everywhere, on all platforms! To use Ingantt on your iPhone or iPad, [download Ingantt on the App Store](ios_url){:target="_blank"}.
     ![Illustration](/images/blog/ios.png)
 
 - title: "New! macOS version"
@@ -59,7 +59,7 @@
   content: |
     Right from the start, Ingantt has been a multi-platform app. Users on different platforms like Android, Windows and the Web have been enjoying planning with Ingantt for a while. Now it's time to add a new platform to the list!
 
-    Introducing Ingantt for macOS! All the planning functionality of Ingantt in an elegant style. Just like with other versions, we've applied a lot of effort for this version to look natively on the new platform. So, if you're a Mac user, [download Ingantt on the Mac App Store]({{ macos_url }}).
+    Introducing Ingantt for macOS! All the planning functionality of Ingantt in an elegant style. Just like with other versions, we've applied a lot of effort for this version to look natively on the new platform. So, if you're a Mac user, [download Ingantt on the Mac App Store](macos_url){:target="_blank"}.
 
 - title: "New version: PDF Printing"
   published_on: "May 27, 2023"
@@ -115,12 +115,10 @@
 
     ![Illustration](/images/blog/edit.png)
 
-    If you are familiar with tools like Microsoft Project, you can use your existing skills and get started quickly. If you're not, we have created a comprehensive [documentation]({{ site.const.docs_url }}) and a [Getting Started guide]({{ site.data.const.docs_url }}/getting-started/).
+    If you are familiar with tools like Microsoft Project, you can use your existing skills and get started quickly. If you're not, we have created a comprehensive [documentation](docs_url){:target="_blank"} and a [Getting Started guide](docs_url/getting-started/){:target="_blank"}.
 
     As a modern app, Ingantt supports Dark mode. To make it easier to have your files in the cloud, Google Drive support is fully available, you can store, save and open your Ingantt files on your Google Drive.
 
-    With Windows and Android support, Ingantt has been released to [Microsoft Store]({{ site.data.const.windows_url }}) and on [Google Play]({{ site.data.const.android_url }}). There's also a [Web version]({{ site.data.const.web_url }}) available.
+    With Windows and Android support, Ingantt has been released to [Microsoft Store](windows_url) and on [Google Play](android_url){:target="_blank"}. There's also a Web version available.
 
     Please feel free to contact us with your feedback, questions or comments. The first version is out, but our work on Ingantt continues with more features on the way. So stay tuned!
-
-
