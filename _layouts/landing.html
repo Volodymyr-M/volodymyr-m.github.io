@@ -13,7 +13,7 @@ layout: default
                 <h1>{{ landing_data.hero.title }}</h1>
                 <p class="hero-subtitle">{{ landing_data.hero.subtitle }}</p>
                 <div class="cta-group">
-                    <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary" target="_blank">
+                    <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary main-cta" data-label="topCTA" target="_blank">
                         <span class="button-content">
                             <span class="button-title-wrapper">
                                 <span {% unless landing_data.hero.cta.primary.text_fits %}class="button-title"{% endunless %}>{{ landing_data.hero.cta.primary.text }}</span>
@@ -201,7 +201,7 @@ layout: default
                     <li><i class="fas fa-check"></i> {{ feature }}</li>
                     {% endfor %}
                 </ul>
-                <a href="{% if site[plan.cta.url] contains '@' %}mailto:{% endif %}{{ site[plan.cta.url] }}" class="cta-button {{ plan.cta.class }}" {% unless plan.cta.url contains '@' %}target="_blank"{% endunless %}>{{ plan.cta.text }}</a>
+                <a href="{% if site[plan.cta.url] contains '@' %}mailto:{% endif %}{{ site[plan.cta.url] }}" class="cta-button {{ plan.cta.class }}{% unless site[plan.cta.url] contains '@' %} main-cta" data-label="pricingCTA" target="_blank{% endunless %}">{{ plan.cta.text }}</a>
             </div>
             {% endfor %}
         </div>
@@ -274,7 +274,7 @@ layout: default
         <h2>{{ landing_data.cta.title }}</h2>
         <p>{{ landing_data.cta.subtitle }}</p>
         <div class="cta-buttons">
-            <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary" target="_blank">
+            <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary main-cta" data-label="bottomCTA" target="_blank">
                 <span class="button-content">
                     <span class="button-title-wrapper">
                         <span class="button-title">{{ landing_data.cta.button.text }}</span>
@@ -303,3 +303,15 @@ layout: default
         </div>
     </div>
 </section>
+
+<script>
+    document.querySelectorAll('.main-cta').forEach(function(element) {
+        element.addEventListener('click', function() {
+            const label = element.getAttribute('data-label') || 'Unknown';
+            gtag('event', '{{ landing_data.page_url }}_cta_click', {
+                'event_category': 'click',
+                'event_label': label
+            });
+        });
+    });
+</script>
