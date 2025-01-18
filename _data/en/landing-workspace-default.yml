@@ -52,6 +52,7 @@ footer:
         - icon: fa fa-info-circle
           text: Documentation
           url: docs_url
+          open_in_new_tab: true
         - icon: fa fa-blog
           text: Blog
           url: blog_page
