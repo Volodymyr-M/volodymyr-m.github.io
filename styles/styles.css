@@ -1272,7 +1272,7 @@ footer {
     position: relative;
     margin-top: var(--spacing-xxl);
     text-align: left;
-    width: 180px;
+    width: 250px;
     z-index: 100;
 }
 
@@ -1451,7 +1451,7 @@ footer {
 /* Nav version of language select */
 .nav-version {
     margin-top: 0;
-    width: 330px;
+    width: 335px;
 }
 
 .nav-version .language-dropdown {
