@@ -11,13 +11,11 @@ layout: compress
     {% assign page_data = site.data[site.active_lang].text-pages[page.page_name] %}
     {% assign default_landing_data = site.data[site.active_lang].landing-workspace-default %}
     {% assign landing_data = site.data[site.active_lang][page.data_file_name] %}
-    {% assign title_tag = page_data.title_tag | default: landing_data.title_tag | default: default_landing_data.blog.title_tag %}
-    {% assign meta_keywords = page_data.meta_keywords | default: landing_data.meta_keywords | default: default_landing_data.blog.meta_keywords %}
-    {% assign meta_description = page_data.meta_description | default: landing_data.meta_description | default: default_landing_data.blog.meta_description %}
+    {% assign head_source = page_data | default: landing_data | default: default_landing_data.blog %}
+    <title>{{ head_source.title_tag }}</title>
+    <meta name="keywords" content="{{ head_source.meta_keywords }}">
+    <meta name="description" content="{{ head_source.meta_description }}">
     {% assign landing_data = landing_data  | default: default_landing_data %}
-    <title>{{ title_tag }}</title>
-    <meta name="keywords" content="{{ meta_keywords }}">
-    <meta name="description" content="{{ meta_description }}">
     <link rel="stylesheet" href="/styles/styles.css">
     {% if page.styles_file %}<link rel="stylesheet" href="/styles/{{ page.styles_file }}">{% endif %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
