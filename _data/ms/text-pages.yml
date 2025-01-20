@@ -1,0 +1,89 @@
+terms_of_service:
+    title_tag: Ingantt - Terma Perkhidmatan
+    meta_keywords: Ingantt, terma perkhidmatan
+    meta_description: Terma Perkhidmatan Ingantt
+    text_title: Terma Perkhidmatan
+    text: |
+      Selamat datang ke Ingantt! Dengan menggunakan aplikasi kami, anda bersetuju dengan terma dan syarat berikut:
+
+      ## 1. Penerimaan Terma
+
+      Dengan mengakses atau menggunakan Ingantt, anda bersetuju untuk terikat dengan Terma Perkhidmatan ini dan juga Dasar Privasi kami.
+
+      ## 2. Penggunaan Google Drive
+
+      Aplikasi kami disambungkan ke Google Drive anda untuk menyimpan dan mengambil data anda. Dengan menggunakan aplikasi kami, anda memberi kebenaran kepada kami untuk mengakses akaun Google Drive anda bagi tujuan ini.
+
+      ## 3. Data Pengguna
+
+      Anda mengekalkan hak milik ke atas semua data yang anda muat naik ke Google Drive anda melalui aplikasi kami. Kami tidak menuntut sebarang hak milik ke atas data anda.
+
+      ## 4. Privasi
+
+      Privasi anda adalah penting bagi kami. Kami hanya akan mengakses, menyimpan, dan menggunakan data anda setakat yang diperlukan untuk menyediakan perkhidmatan kami. Sila semak Dasar Privasi kami untuk maklumat lanjut tentang bagaimana kami mengendalikan data anda.
+
+      ## 5. Keselamatan
+
+      Kami mengambil langkah-langkah wajar untuk melindungi data anda. Walau bagaimanapun, kami tidak dapat menjamin keselamatan mutlak data anda dan tidak bertanggungjawab terhadap sebarang akses tanpa kebenaran atau pelanggaran keselamatan.
+
+      ## 6. Tanggungjawab Pengguna
+
+      Anda bertanggungjawab untuk mengekalkan keselamatan akaun Google Drive anda dan sebarang aktiviti yang berlaku di bawah akaun tersebut.
+
+      ## 7. Aktiviti Dilarang
+
+      Anda bersetuju untuk tidak menggunakan aplikasi kami untuk apa-apa aktiviti yang menyalahi undang-undang atau melanggar terma-terma ini.
+
+      ## 8. Penamatan
+
+      Kami berhak untuk menggantung atau menamatkan akses anda kepada aplikasi kami pada bila-bila masa, tanpa notis terlebih dahulu, atas apa-apa sebab, termasuk jika anda melanggar terma ini.
+
+      ## 9. Pengubahsuaian Terma
+
+      Kami mungkin mengemas kini terma ini dari semasa ke semasa. Kami akan memaklumkan anda mengenai sebarang perubahan dengan menyiarkan terma baharu dalam aplikasi kami. Penggunaan berterusan anda terhadap aplikasi selepas perubahan tersebut bermaksud anda menerima terma yang telah dipinda.
+
+      ## 10. Hubungi Kami
+
+      Jika anda mempunyai sebarang soalan mengenai Terma Perkhidmatan ini, sila hubungi kami.
+
+privacy_policy:
+    title_tag: Ingantt - Dasar Privasi
+    meta_keywords: Ingantt, dasar privasi
+    meta_description: Dasar Privasi Ingantt
+    text_title: Dasar Privasi
+    text: |
+      ## Apakah Maklumat Peribadi?
+
+      Maklumat Peribadi ialah maklumat atau pendapat yang boleh mengenal pasti seseorang individu. Contohnya termasuk nama, alamat, alamat e-mel, nombor telefon dan nombor faks.
+
+      ## Tiada data yang dikumpulkan
+
+      Semua data yang diterima daripada pengguna dan diproses oleh Ingantt disimpan sama ada dalam fail tempatan pada peranti pengguna atau dalam akaun Google Drive pengguna, jika pengguna telah memilih dengan jelas pilihan ini dan mengaktifkan fungsi tersebut dengan Google.
+
+      Di dalam storan Google Drive pengguna, Ingantt hanya menyimpan fail yang dicipta oleh pengguna semasa menggunakan Ingantt. Ingantt hanya akan mengakses, menggunakan atau berkongsi fail yang diciptanya dalam storan Google Drive tersebut.
+
+      Fail MPP yang dibuka daripada peranti pengguna akan dihantar ke perkhidmatan web penukaran Ingantt untuk ditukar dan kemudian dikembalikan dalam format XML. Fail-fail ini tidak disimpan di perkhidmatan tersebut.
+
+      Dengan demikian, tiada data dikumpulkan oleh pembangun Ingantt.
+
+      ## Data dikongsi dengan pihak ketiga
+
+      Untuk mengaktifkan fungsi berkaitan AI, prompt yang dimasukkan oleh pengguna untuk menghasilkan fail baharu menggunakan AI akan dikongsi dengan alat AI pihak ketiga: OpenAI dan/atau Gemini.
+
+      Tiada data lain yang dikongsi dengan pihak ketiga.
+
+      ## Penggunaan data
+
+      Tiada data pengguna yang digunakan untuk membangunkan, memperbaik atau melatih model AI atau ML umum. Ini termasuk data pengguna yang diperoleh melalui API Google Workspace.
+
+      ## Perlindungan data
+
+      Kami melaksanakan langkah-langkah teknikal dan organisasi yang sesuai bagi melindungi data anda daripada akses tanpa kebenaran, kehilangan, atau pendedahan.
+
+      ## Kemas Kini Dasar
+
+      Dasar ini mungkin berubah dari semasa ke semasa dan boleh didapati di laman web kami.
+
+      ## Aduan dan Pertanyaan tentang Dasar Privasi
+
+      Jika anda mempunyai sebarang pertanyaan atau aduan mengenai Dasar Privasi kami, sila hubungi kami.

@@ -1,0 +1,231 @@
+title_tag: Ingantt – Moderne Gantt-Diagramm-Projektplanung für iPhone und iPad mit KI
+meta_keywords: Gantt-Diagramm App iOS, MPP, Gantt iPhone, Gantt iPad, MPP-Reader, MPP-Viewer, Gantt-Anwendung, MS Project-Alternative, Gantt iOS, Projektplanung, Projektmanagement
+meta_description: Ingantt – KI-gestütztes Projektmanagement-Tool für iOS-Smartphones und -Tablets. Planen, terminieren und verfolgen Sie Ihre Projekte auf iPhone und iPad ganz unkompliziert.
+
+page_url: ios_page
+platform_url: ios_url
+store_image: app_store.png
+platform_image: ios.png
+
+hero:
+  title: Gantt-Diagramm-Projektplanung mit KI für Ihr iOS-Gerät
+  subtitle: Verwandeln Sie Ihre Projektplanung mit intelligenten Gantt-Diagrammen und KI-Unterstützung auf Ihrem iPhone oder iPad.
+  cta:
+    primary:
+      text: Jetzt herunterladen
+      text_fits: true
+    other_versions:
+      title: Andere Versionen
+  rating:
+    stars: ★★★★⯨
+    text: 4,5 Sterne auf
+  image: hero-ios.png
+
+features_grid:
+  title: Warum Projektmanager Ingantt wählen
+  items:
+    - icon: fas fa-robot
+      title: KI-gestützte Planung
+      description: Erstellen Sie vollständige Projektpläne aus einfachen Beschreibungen mithilfe unseres KI-Assistenten.
+    - icon: fas fa-mobile-alt
+      title: Optimierte mobile Nutzung
+      description: Speziell für iOS-Geräte entwickelt – planen, überprüfen und verwalten Sie Projekte unterwegs.
+    - icon: fas fa-file-import
+      title: Mit MS Project kompatibel
+      description: Importieren Sie .MPP-Dateien und speichern Sie im MS Project-kompatiblen XML-Format – ohne Kompromisse.
+    - icon: fas fa-brain
+      title: Planen Sie alles
+      description: Planen Sie Termine, Kosten, Aufgaben, Abhängigkeiten, Ressourcen und mehr – alles an einem Ort.
+
+demo:
+  title: Sehen Sie Ingantt in Aktion
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Weltweit von Projektmanagern vertraut
+  show_more:
+    text: Mehr anzeigen
+    icon: fas fa-chevron-down
+  show_less:
+    text: Weniger anzeigen
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Die beste Gantt-App, die mich nicht an ein eigenes Dateiformat oder einen eigenen Cloud-Speicher bindet.
+      author:
+        name: Noah Wilson
+        title: Programmdirektor
+    - rating: ★★★★★
+      text: Die KI-Projektplanerstellung ist für mich ein echter Durchbruch. Ich nutze sie als Ausgangspunkt und Inspiration für meine Projektpläne.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Ich nutze es außerdem als MPP-Viewer und -Editor für Microsoft-Projektdateien.
+      author:
+        name: Amelia Clark
+        title: Projektkoordinatorin
+    - rating: ★★★★★
+      text: Endlich eine echte Alternative zu Microsoft Project, die hervorragend funktioniert!
+      author:
+        name: Isabella Moore
+        title: Teamleiterin (Projektmanagement)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Es funktioniert wie erwartet und ich bin wirklich zufrieden damit.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: Die volle Power von MS Project in einem viel kleineren Paket!
+      author:
+        name: Mia Harris
+        title: Trainerin für Projektmanagement
+      is_hidden: true
+    - rating: ★★★★★
+      text: Intuitive, strukturierte Gantt-Diagramme mit Meilensteinen und Ressourcenplanung, inklusive manuellem Fortschritts-Tracking.
+      author:
+        name: Emma Rodriguez
+        title: Product Manager
+      is_hidden: true
+    - rating: ★★★★★
+      text: Läuft schneller als die Konkurrenz, da das Scrollen der Zeitleiste und das Öffnen der Projekte viel flüssiger wirken. Daumen hoch!
+      author:
+        name: Ethan Walker
+        title: Programmmanager
+      is_hidden: true
+    - rating: ★★★★★
+      text: Ein hervorragendes Programm!
+      author:
+        name: Harper Thompson
+        title: PMO (Project Management Office) Direktor
+      is_hidden: true
+
+features_detailed:
+  title: Alles, was Sie für eine erfolgreiche Projektplanung brauchen
+  subtitle: Leistungsstarke Funktionen für moderne Projektmanager
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planung
+      content:
+        title: KI-gestützte Planung
+        features:
+          - icon: fas fa-check
+            title: KI-Projektgenerator
+            description: Erstellen Sie vollständige Projektpläne aus einfachen Textbeschreibungen mithilfe fortschrittlicher KI
+          - icon: fas fa-check
+            title: Einfache Terminierung
+            description: Aktualisieren Sie Teile Ihres Projektplans und sehen Sie sofort die Gesamtauswirkungen.
+          - icon: fas fa-check
+            title: Vertraute Umgebung
+            description: Bereits Erfahrung mit MS Project oder ähnlicher Software? Nutzen Sie diese Kenntnisse!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Tracking
+      content:
+        title: Fortschritt auf einen Blick
+        features:
+          - icon: fas fa-check
+            title: Fortschrittsüberwachung
+            description: Verfolgen Sie den Fertigstellungsgrad und den Fortschritt von Meilensteinen
+          - icon: fas fa-check
+            title: Ressourcenverbrauch
+            description: Behalten Sie die Ressourcenzuteilung im Auge und erkennen Sie potenzielle Engpässe
+          - icon: fas fa-check
+            title: Zeitachsenanalyse
+            description: Analysieren Sie den kritischen Pfad und verfolgen Sie Abweichungen im Zeitplan
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Integration
+      content:
+        title: Leistungsstarke Integrationen
+        features:
+          - icon: fas fa-check
+            title: MS Project-Kompatibilität
+            description: Importieren Sie MS Project-MPP-Dateien und speichern Sie stets im MS Project-kompatiblen XML-Format.
+          - icon: fas fa-check
+            title: Exportoptionen
+            description: Exportieren Sie Ihre Projekte jederzeit als PDF oder PNG
+          - icon: fas fa-check
+            title: Google Drive speichern und öffnen
+            description: Nutzen Sie Ihr Google Drive, um Projektdateien zu speichern und zu öffnen.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Was Sie mit Ingantt tun können
+  items:
+    - icon: fas fa-brain
+      title: Fortschrittliche Planung
+      items:
+        - Erstellen Sie Projektpläne aus einfachen Textbeschreibungen mithilfe von KI
+        - Nehmen Sie beliebige Änderungen vor und sehen Sie sofort die Auswirkungen
+        - Prognostizieren Sie Fertigstellungstermine und erkennen Sie potenzielle Hürden frühzeitig
+        - Planen Sie Kosten
+    - icon: fas fa-tasks
+      title: Aufgabenmanagement
+      items:
+        - Unterteilen Sie Projekte in einzelne Aufgaben
+        - Legen Sie Abhängigkeiten und Fristen für Aufgaben fest
+        - Markieren Sie Aufgaben als Meilensteine
+        - Behalten Sie den kritischen Pfad im Blick
+        - Verfolgen Sie den Fortschrittsstatus der Aufgaben
+    - icon: fas fa-users
+      title: Zusammenarbeit
+      items:
+        - Teilen Sie Dateien über die standardmäßige iOS-Dateifreigabe
+        - Tauschen Sie Dateien in XML-, PDF- oder PNG-Formaten aus
+    - icon: fas fa-chart-line
+      title: Erweitertes Tracking
+      items:
+        - Überwachen Sie die Ressourcenzuteilung
+        - Analysieren Sie den kritischen Pfad
+        - Überwachen Sie die Ressourcennutzung
+        - Führen Sie eine Zeitachsenanalyse durch
+    - icon: fas fa-calendar-alt
+      title: Ressourcenmanagement
+      items:
+        - Verwalten Sie Arbeits-, Material- und Kostenressourcen
+        - Legen Sie Ressourcenkalender und Arbeitszeiten fest
+        - Automatische Glättung überlasteter Ressourcen
+        - Prüfen Sie die Ressourcennutzung im Zeitverlauf
+    - icon: fas fa-plug
+      title: Integrationen
+      items:
+        - MS Project-Dateikompatibilität (MPP und XML)
+        - Export in PDF und PNG
+        - Funktioniert mit Google Drive
+
+faq:
+  title: Häufig gestellte Fragen
+  items:
+    - question: Was ist Ingantt für iOS?
+      answer: Ingantt für iOS ist ein professionelles Projektmanagement-Tool, das nativ auf Ihrem iOS-Gerät läuft. Es ermöglicht Ihnen, Projektpläne unterwegs zu erstellen und zu verwalten – mit KI-gestützter Planung und MS Project-Kompatibilität.
+    - question: Kann ich meine vorhandenen Microsoft Project-Dateien importieren?
+      answer: Ja! Ingantt unterstützt vollständig das Importieren von .MPP- und .XML-Dateien aus Microsoft Project. Alle Projektdaten, einschließlich Aufgaben, Ressourcen und Abhängigkeiten, bleiben beim Import erhalten.
+    - question: Wie funktioniert die KI-Projekterstellung?
+      answer: Unser KI-Assistent kann komplette Projektpläne aus einfachen Textbeschreibungen erstellen. Beschreiben Sie einfach Ihre Projektziele und Anforderungen, und die KI generiert einen strukturierten Plan mit Aufgaben, Zeitplänen und Abhängigkeiten basierend auf Best Practices.
+    - question: Gibt es eine kostenlose Testversion für iOS?
+      answer: Nein. Die iOS-Version ist ein Einmalkauf, ohne Abonnement oder kostenlose Testphase.
+    - question: Wie kann ich Ingantt für iOS kaufen?
+      answer: Besuchen Sie einfach den Apple App Store auf Ihrem iOS-Gerät, suchen Sie nach Ingantt und kaufen Sie es dort. Sie besitzen die App dann dauerhaft ohne wiederkehrende Kosten.
+  support:
+    title: Legen Sie los mit Ihrer Projektplanung in Ingantt
+    docs:
+      text: Zur Dokumentation
+    contact:
+      title: Noch Fragen?<br>Kontaktieren Sie uns für persönlichen Support!
+      text: Schreiben Sie uns eine E-Mail
+      icon: fa fa-envelope
+
+cta:
+  title: Bereit, Ihre Projektplanung zu transformieren?
+  subtitle: Nutzen Sie KI-gestützte Projektplanung direkt auf Ihrem iPhone oder iPad
+  button:
+    text: Jetzt herunterladen
+
+platform_support:
+  title: Benötigen Sie eine Version für eine andere Plattform?

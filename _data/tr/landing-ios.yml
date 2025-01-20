@@ -1,0 +1,231 @@
+title_tag: Ingantt - iPhone ve iPad için AI destekli modern Gantt Chart Proje Planlaması
+meta_keywords: gantt chart uygulaması iOS, mpp, gantt iPhone, gantt iPad, mpp okuyucu, mpp görüntüleyici, gantt uygulaması, MS Project alternatifi, gantt iOS, proje planlaması, proje yönetimi
+meta_description: Ingantt - iOS telefon ve tabletler için AI destekli proje yönetim aracı. iPhone ve iPad üzerinden projelerinizi kolayca planlayın, zamanlayın ve takip edin.
+
+page_url: ios_page
+platform_url: ios_url
+store_image: app_store.png
+platform_image: ios.png
+
+hero:
+  title: iOS cihazınızda AI destekli Gantt Chart Proje Planlaması
+  subtitle: iPhone veya iPad’inizde akıllı Gantt grafikleri ve AI desteği ile proje planlamanızı dönüştürün.
+  cta:
+    primary:
+      text: Hemen Edinin
+      text_fits: true
+    other_versions:
+      title: Diğer Sürümler
+  rating:
+    stars: ★★★★⯨
+    text: 4,5 yıldız
+  image: hero-ios.png
+
+features_grid:
+  title: Proje Yöneticilerinin Ingantt’ı Tercih Etme Nedenleri
+  items:
+    - icon: fas fa-robot
+      title: Yapay Zeka Destekli Planlama
+      description: Basit tanımlardan komple proje planları oluşturun, AI asistanımızla.
+    - icon: fas fa-mobile-alt
+      title: Mobil Odaklı Deneyim
+      description: iOS cihazlar için tasarlandı – projeleri hareket halindeyken planlayın, gözden geçirin ve yönetin.
+    - icon: fas fa-file-import
+      title: MS Project Uyumlu
+      description: .MPP dosyalarını içe aktarın, MS Project uyumlu XML olarak kaydedin – hiçbir kısıtlama olmadan.
+    - icon: fas fa-brain
+      title: Her Şeyi Planlayın
+      description: Zamanlama, maliyetler, görevler, bağımlılıklar, kaynaklar ve daha fazlası – hepsi tek bir yerde.
+
+demo:
+  title: Ingantt’ı İş Başında Görün
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Dünyanın Her Yerindeki Proje Yöneticilerinin Güvendiği Araç
+  show_more:
+    text: Daha Fazla Göster
+    icon: fas fa-chevron-down
+  show_less:
+    text: Daha Az Göster
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Kendi dosya formatı veya bulut depolamasıyla sizi kısıtlamayan en iyi Gantt uygulaması.
+      author:
+        name: Noah Wilson
+        title: Program Direktörü
+    - rating: ★★★★★
+      text: AI destekli proje planı oluşturma benim için oyunun kurallarını değiştirdi. Proje planlarım için başlangıç ve ilham kaynağı olarak kullanıyorum.
+      author:
+        name: Alexander Hall
+        title: Agile Koçu
+    - rating: ★★★★★
+      text: Microsoft Project dosyaları için MPP görüntüleyici ve düzenleyici olarak da kullanıyorum.
+      author:
+        name: Amelia Clark
+        title: Proje Koordinatörü
+    - rating: ★★★★★
+      text: Sonunda Microsoft Project’e harika bir alternatif bulduk!
+      author:
+        name: Isabella Moore
+        title: Ekip Lideri (Proje Yönetimi)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Beklediğim gibi çalışıyor ve bundan çok memnunum.
+      author:
+        name: Benjamin Lee
+        title: Agile Koçu
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project’in tüm gücü, çok daha kompakt bir paket halinde!
+      author:
+        name: Mia Harris
+        title: Proje Yönetimi Eğitmeni
+      is_hidden: true
+    - rating: ★★★★★
+      text: Kilometre taşlarını ve kaynak planlamasını içeren sezgisel ve yapılandırılmış Gantt grafikleri oluşturabiliyor, ilerlemeyi manuel olarak takip edebiliyorum.
+      author:
+        name: Emma Rodriguez
+        title: Ürün Yöneticisi
+      is_hidden: true
+    - rating: ★★★★★
+      text: Rakiplerine göre daha hızlı çalışıyor, zaman çizelgesini kaydırma ve projeyi açma işlemleri diğer uygulamalara nazaran çok daha akıcı. Harika!
+      author:
+        name: Ethan Walker
+        title: Program Yöneticisi
+      is_hidden: true
+    - rating: ★★★★★
+      text: Mükemmel bir program!
+      author:
+        name: Harper Thompson
+        title: PMO (Proje Yönetimi Ofisi) Direktörü
+      is_hidden: true
+
+features_detailed:
+  title: Başarılı Proje Planlaması İçin İhtiyacınız Olan Her Şey
+  subtitle: Modern proje yöneticileri için tasarlanmış güçlü özellikler
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planlama
+      content:
+        title: AI Destekli Planlama
+        features:
+          - icon: fas fa-check
+            title: AI Proje Üreticisi
+            description: Gelişmiş yapay zeka kullanarak basit metin açıklamalarından komple proje planları oluşturun
+          - icon: fas fa-check
+            title: Kolay Zamanlama
+            description: Proje planınızın herhangi bir kısmını güncelleyin, anında genel etkisini görün.
+          - icon: fas fa-check
+            title: Aşinalık
+            description: MS Project veya benzeri yazılımlar konusunda deneyiminiz mi var? Değerlendirin!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Takip
+      content:
+        title: Gelişmiş Takip
+        features:
+          - icon: fas fa-check
+            title: İlerleme İzleme
+            description: Tamamlanma yüzdesini ve kilometre taşlarını takip edin
+          - icon: fas fa-check
+            title: Kaynak Kullanımı
+            description: Kaynak tahsisini izleyin ve olası tıkanıklıkları belirleyin
+          - icon: fas fa-check
+            title: Zaman Çizelgesi Analizi
+            description: Kritik yolu (critical path) analiz edin ve zaman çizelgesi sapmalarını takip edin
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Entegrasyon
+      content:
+        title: Güçlü Entegrasyonlar
+        features:
+          - icon: fas fa-check
+            title: MS Project Uyumluluğu
+            description: MS Project MPP dosyalarını içe aktarın ve daima MS Project uyumlu XML formatında kaydedin.
+          - icon: fas fa-check
+            title: Dışa Aktarma Seçenekleri
+            description: Her zaman PDF veya PNG formatına aktarın
+          - icon: fas fa-check
+            title: Google Drive’a kaydetme ve açma
+            description: Proje dosyalarını kaydetmek ve açmak için Google Drive’ı kullanın.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Ingantt ile Neler Yapabilirsiniz
+  items:
+    - icon: fas fa-brain
+      title: Gelişmiş Planlama
+      items:
+        - Basit metin açıklamalarından AI yardımıyla proje planları oluşturun
+        - Herhangi bir değişiklik yapın ve sonuçlarını anında görün
+        - Tamamlanma tarihlerini tahmin edin ve olası engelleri önceden belirleyin
+        - Maliyet planlaması yapın
+    - icon: fas fa-tasks
+      title: Görev Yönetimi
+      items:
+        - Projeleri görevlere ayırın
+        - Görev bağımlılıklarını ve son tarihleri belirleyin
+        - Görevleri kilometre taşı (milestone) olarak işaretleyin
+        - Kritik yolu takip edin
+        - Görev tamamlama durumunu izleyin
+    - icon: fas fa-users
+      title: İş Birliği
+      items:
+        - iOS’un standart dosya paylaşım özelliğiyle paylaşım yapın
+        - XML, PDF veya PNG formatlarında dosya alışverişi yapın
+    - icon: fas fa-chart-line
+      title: Gelişmiş Takip
+      items:
+        - Kaynak tahsisini izleyin
+        - Kritik yolu analiz edin
+        - Kaynak kullanımını takip edin
+        - Zaman çizelgesi analizi yapın
+    - icon: fas fa-calendar-alt
+      title: Kaynak Yönetimi
+      items:
+        - İş, malzeme ve maliyet kaynaklarını yönetin
+        - Kaynak takvimlerini ve çalışma saatlerini ayarlayın
+        - Aşırı tahsis edilmiş kaynakları otomatik olarak dengeleyin
+        - Zaman içindeki kaynak kullanımını inceleyin
+    - icon: fas fa-plug
+      title: Entegrasyonlar
+      items:
+        - MS Project dosya uyumluluğu (MPP ve XML)
+        - PDF ve PNG’ye aktarım
+        - Google Drive ile çalışma
+
+faq:
+  title: Sıkça Sorulan Sorular
+  items:
+    - question: Ingantt for iOS nedir?
+      answer: Ingantt for iOS, iOS cihazınızda yerel olarak çalışan profesyonel bir proje yönetim aracıdır. AI destekli planlama ve MS Project uyumluluğu sayesinde, projelerinizi her yerde oluşturup yönetebilirsiniz.
+    - question: Mevcut Microsoft Project dosyalarımı içe aktarabilir miyim?
+      answer: Evet! Ingantt, Microsoft Project’ten .MPP ve .XML dosyalarını tamamen destekler. Görevler, kaynaklar ve bağımlılıklar dahil tüm proje verileriniz içe aktarma sırasında korunur.
+    - question: AI proje oluşturma nasıl çalışıyor?
+      answer: AI asistanımız basit metin açıklamalarından tam kapsamlı proje planları oluşturabilir. Proje hedeflerinizi ve gereksinimlerinizi tarif edin, AI en iyi uygulamalara dayalı görevler, zaman çizelgesi ve bağımlılıklara sahip yapılandırılmış bir plan oluşturur.
+    - question: iOS sürümü için ücretsiz deneme var mı?
+      answer: Hayır. iOS sürümü tek seferlik satın alım gerektirir; abonelik veya ücretsiz deneme yoktur.
+    - question: Ingantt for iOS’u nasıl satın alabilirim?
+      answer: iOS cihazınızda Apple App Store’a gidin, “Ingantt” diye aratın ve satın alın. Bir kez satın aldıktan sonra, tekrar eden hiçbir ücret olmaksızın uygulamaya sahip olursunuz.
+  support:
+    title: Ingantt ile proje planlamaya başlayın
+    docs:
+      text: Belgeleri Görüntüle
+    contact:
+      title: Daha fazla sorunuz mu var?<br>Destek için gerçek bir kişiyle iletişime geçin!
+      text: Bize e-posta gönderin
+      icon: fa fa-envelope
+
+cta:
+  title: Proje planlamanızı dönüştürmeye hazır mısınız?
+  subtitle: iPhone veya iPad üzerinde AI destekli proje planlamanın keyfini çıkarın
+  button:
+    text: Hemen Edinin
+
+platform_support:
+  title: Başka bir platform sürümüne mi ihtiyacınız var?

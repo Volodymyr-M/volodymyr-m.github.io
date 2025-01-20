@@ -1,0 +1,232 @@
+title_tag: Ingantt – Nowoczesne planowanie projektów z wykresem Gantta na Androida z AI
+meta_keywords: aplikacja wykres Gantta Android, mpp, Gantt Android, czytnik mpp, przeglądarka mpp, aplikacja Gantt, alternatywa MS Project, Gantt na telefon, Gantt na tablet, planowanie projektów, zarządzanie projektami
+meta_description: Ingantt – narzędzie do zarządzania projektami wykorzystujące AI, przeznaczone na telefony i tablety z Androidem. Łatwo planuj, ustalaj harmonogram i śledź postępy swoich projektów.
+
+page_url: android_page
+platform_url: android_url
+store_image: google_play.png
+platform_image: android.png
+
+hero:
+  title: Planowanie projektów z wykresem Gantta i AI na Twoim urządzeniu z Androidem
+  subtitle: Zmień sposób planowania projektów dzięki inteligentnym wykresom Gantta i wsparciu AI na swoim telefonie i tablecie z Androidem.
+  cta:
+    primary:
+      text: Pobierz teraz
+      text_fits: true
+    other_versions:
+      title: Inne wersje
+  rating:
+    stars:
+    text: 5 gwiazdek w
+  image: hero-android.png
+
+features_grid:
+  title: Dlaczego menedżerowie projektów wybierają Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Planowanie wspierane przez AI
+      description: Generuj kompletne plany projektów na podstawie prostych opisów dzięki naszemu asystentowi AI.
+    - icon: fas fa-brain
+      title: Zaplanuj wszystko
+      description: Harmonogram, koszty, zadania, zależności, zasoby i wiele więcej — wszystko w jednym miejscu.
+    - icon: fas fa-mobile-alt
+      title: Doświadczenie zoptymalizowane pod urządzenia mobilne
+      description: Zaprojektowane dla urządzeń z Androidem — planuj, przeglądaj i zarządzaj projektami w podróży.
+    - icon: fas fa-file-import
+      title: Zgodność z MS Project
+      description: Importuj pliki .MPP i zapisuj je w formacie XML zgodnym z MS Project — bez kompromisów.
+
+demo:
+  title: Zobacz Ingantt w akcji
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Uznany przez menedżerów projektów na całym świecie
+  show_more:
+    text: Pokaż więcej
+    icon: fas fa-chevron-down
+  show_less:
+    text: Pokaż mniej
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Najlepsza aplikacja do Gantta, która nie zmusza do korzystania z własnego formatu plików ani chmury.
+      author:
+        name: Noah Wilson
+        title: Dyrektor Programowy
+    - rating: ★★★★★
+      text: Generowanie planu projektu z pomocą AI to dla mnie przełom. Używam tego jako punktu wyjścia i inspiracji przy tworzeniu planów.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Używam jej także jako przeglądarki i edytora plików MPP dla Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Koordynator Projektu
+    - rating: ★★★★★
+      text: W końcu mam alternatywę dla Microsoft Project, która naprawdę działa!
+      author:
+        name: Isabella Moore
+        title: Lider Zespołu (Zarządzanie Projektami)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Działa zgodnie z oczekiwaniami i jestem z tego bardzo zadowolony.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: Pełna moc MS Project w znacznie mniejszej paczce!
+      author:
+        name: Mia Harris
+        title: Trener Zarządzania Projektami
+      is_hidden: true
+    - rating: ★★★★★
+      text: Pozwala tworzyć intuicyjne i ustrukturyzowane wykresy Gantta z kamieniami milowymi i planowaniem zasobów, włącznie z ręcznym śledzeniem postępów.
+      author:
+        name: Emma Rodriguez
+        title: Menedżer Produktu
+      is_hidden: true
+    - rating: ★★★★★
+      text: Działa szybciej niż konkurencja — przewijanie osi czasu i otwieranie projektu jest wyraźnie płynniejsze w porównaniu z innymi aplikacjami. Brawo!
+      author:
+        name: Ethan Walker
+        title: Menedżer Programu
+      is_hidden: true
+    - rating: ★★★★★
+      text: Doskonały program!
+      author:
+        name: Harper Thompson
+        title: Dyrektor PMO (Project Management Office)
+      is_hidden: true
+
+features_detailed:
+  title: Wszystko, czego potrzebujesz do skutecznego planowania projektów
+  subtitle: Potężne funkcje zaprojektowane z myślą o nowoczesnych menedżerach projektów
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planowanie
+      content:
+        title: Planowanie wspierane przez AI
+        features:
+          - icon: fas fa-check
+            title: Generator Projektów AI
+            description: Twórz kompletne plany projektów z prostych opisów tekstowych, korzystając z zaawansowanej AI
+          - icon: fas fa-check
+            title: Łatwe ustalanie harmonogramu
+            description: Aktualizuj dowolną część planu projektu i natychmiast zobacz ogólny wynik.
+          - icon: fas fa-check
+            title: Znane środowisko
+            description: Masz doświadczenie w MS Project lub podobnym oprogramowaniu? Wykorzystaj je!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Śledzenie
+      content:
+        title: Zaawansowane śledzenie
+        features:
+          - icon: fas fa-check
+            title: Monitorowanie postępów
+            description: Śledź procent ukończenia i kamienie milowe
+          - icon: fas fa-check
+            title: Wykorzystanie zasobów
+            description: Monitoruj alokację zasobów i identyfikuj potencjalne wąskie gardła
+          - icon: fas fa-check
+            title: Analiza harmonogramu
+            description: Analizuj ścieżkę krytyczną i śledź odchylenia od planu
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Integracja
+      content:
+        title: Potężne integracje
+        features:
+          - icon: fas fa-check
+            title: Zgodność z MS Project
+            description: Importuj pliki MPP z MS Project i zawsze zapisuj w formacie XML zgodnym z MS Project.
+          - icon: fas fa-check
+            title: Opcje eksportu
+            description: Eksportuj do PDF i PNG w dowolnym momencie
+          - icon: fas fa-check
+            title: Zapisywanie i otwieranie w Google Drive
+            description: Użyj Dysku Google do przechowywania plików projektów.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Co możesz zrobić z Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Zaawansowane planowanie
+      items:
+        - Twórz plany projektów z prostych opisów tekstowych przy pomocy AI
+        - Dokonuj dowolnych zmian i natychmiast obserwuj efekty
+        - Przewiduj daty ukończenia i wczesne zidentyfikuj potencjalne przeszkody
+        - Planuj koszty
+    - icon: fas fa-tasks
+      title: Zarządzanie zadaniami
+      items:
+        - Dziel projekty na zadania
+        - Ustawiaj zależności i terminy
+        - Oznaczaj zadania jako kamienie milowe
+        - Monitoruj ścieżkę krytyczną
+        - Śledź status ukończenia zadań
+    - icon: fas fa-users
+      title: Współpraca
+      items:
+        - Udostępniaj za pomocą standardowej funkcji współdzielenia plików w Androidzie
+        - Współpracuj z Google Drive
+        - Wymieniaj pliki w formacie XML, PDF lub PNG
+    - icon: fas fa-chart-line
+      title: Zaawansowane śledzenie
+      items:
+        - Monitoruj przydział zasobów
+        - Analizuj ścieżkę krytyczną
+        - Śledź wykorzystanie zasobów
+        - Analizuj harmonogram (timeline)
+    - icon: fas fa-calendar-alt
+      title: Zarządzanie zasobami
+      items:
+        - Zarządzaj zasobami pracy, materiałów i kosztów
+        - Ustawiaj kalendarze zasobów i godziny pracy
+        - Automatycznie niweluj nadmiernie obciążone zasoby
+        - Przeglądaj wykorzystanie zasobów w czasie
+    - icon: fas fa-plug
+      title: Integracje
+      items:
+        - Zgodność z plikami MS Project (MPP i XML)
+        - Eksport do PDF i PNG
+        - Współpraca z Google Drive
+
+faq:
+  title: Często zadawane pytania
+  items:
+    - question: Czym jest Ingantt na Androida?
+      answer: Ingantt na Androida to profesjonalne narzędzie do zarządzania projektami, działające natywnie na urządzeniu z Androidem. Pozwala tworzyć i zarządzać planami projektów w podróży, z planowaniem wspomaganym AI i zgodnością z MS Project.
+    - question: Czy mogę zaimportować istniejące pliki Microsoft Project?
+      answer: Tak! Ingantt w pełni obsługuje import plików .MPP i .XML z Microsoft Project. Dane projektu, w tym zadania, zasoby i zależności, zostaną zachowane podczas importu.
+    - question: Jak działa generowanie projektu przy pomocy AI?
+      answer: Nasz asystent AI może tworzyć kompletne plany projektów na bazie prostych opisów tekstowych. Wystarczy opisać cele i wymagania projektu, a AI przygotuje uporządkowany plan z zadaniami, harmonogramem i zależnościami opartymi na najlepszych praktykach.
+    - question: Czy istnieje darmowa wersja próbna aplikacji na Androida?
+      answer: Nie. Wersja na Androida jest płatna jednorazowo, bez subskrypcji i darmowej wersji próbnej.
+    - question: Jak mogę kupić Ingantt na Androida?
+      answer: Wystarczy odwiedzić Sklep Google Play na urządzeniu z Androidem i kupić tam aplikację. Będziesz ją posiadać na zawsze, bez żadnych cyklicznych opłat.
+  support:
+    title: Zacznij planować z Ingantt
+    docs:
+      text: Przejdź do Dokumentacji
+    contact:
+      title: Masz więcej pytań?<br>Skontaktuj się z realną osobą, aby uzyskać wsparcie!
+      text: Napisz do nas
+      icon: fa fa-envelope
+
+cta:
+  title: Gotowy, aby zrewolucjonizować swoje planowanie projektów?
+  subtitle: Korzystaj z planowania wspomaganego przez AI bezpośrednio na swoim telefonie lub tablecie
+  button:
+    text: Pobierz teraz
+
+platform_support:
+  title: Potrzebujesz wersji na inną platformę?

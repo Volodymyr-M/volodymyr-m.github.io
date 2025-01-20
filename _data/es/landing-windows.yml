@@ -1,0 +1,231 @@
+title_tag: Ingantt - Planificación de proyectos con diagramas de Gantt para Windows con IA
+meta_keywords: aplicación de diagrama de Gantt Windows, mpp, gantt PC, lector mpp, visor mpp, alternativa a MS Project, gantt para Windows, app gantt, planificación de proyectos, gestión de proyectos
+meta_description: "Ingantt: herramienta de gestión de proyectos impulsada por IA para Windows. Planifica, programa y haz seguimiento de tus proyectos fácilmente en tu PC."
+
+page_url: windows_page
+platform_url: windows_url
+store_image: microsoft_store.png
+platform_image: windows.png
+
+hero:
+  title: Planificación de proyectos con diagramas de Gantt e IA para Windows
+  subtitle: Transforma tu planificación de proyectos con diagramas de Gantt inteligentes y asistencia de IA en tu PC con Windows.
+  cta:
+    primary:
+      text: Probar gratis
+      text_fits: true
+    other_versions:
+      title: Otras versiones
+  rating:
+    stars:
+    text: 5 estrellas en
+  image: hero-windows.png
+
+features_grid:
+  title: Por qué los jefes de proyecto eligen Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Planificación con IA
+      description: Genera planes de proyecto completos a partir de descripciones simples utilizando nuestro asistente de IA.
+    - icon: fas fa-brain
+      title: Planifícalo todo
+      description: Programa tareas, costos, dependencias, recursos y más, todo en un solo lugar.
+    - icon: fas fa-desktop
+      title: Optimizado para Windows
+      description: Planifica, revisa y gestiona proyectos en Windows con una experiencia nativa y fluida.
+    - icon: fas fa-file-import
+      title: Compatible con MS Project
+      description: Importa archivos .MPP y guarda en XML compatible con MS Project, sin concesiones.
+
+demo:
+  title: Ve Ingantt en acción
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Confiado por jefes de proyecto de todo el mundo
+  show_more:
+    text: Mostrar más
+    icon: fas fa-chevron-down
+  show_less:
+    text: Mostrar menos
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: La mejor aplicación de Gantt que tampoco te obliga a usar su propio formato de archivo ni su propio almacenamiento en la nube.
+      author:
+        name: Noah Wilson
+        title: Director de Programa
+    - rating: ★★★★★
+      text: La generación de planes de proyecto con IA es un cambio total para mí. Lo uso como punto de partida e inspiración para mis planes.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: También lo uso como visor y editor de MPP para archivos de Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Coordinadora de Proyectos
+    - rating: ★★★★★
+      text: ¡Finalmente una alternativa a Microsoft Project que funciona de maravilla!
+      author:
+        name: Isabella Moore
+        title: Líder de equipo (Gestión de proyectos)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Funciona como se espera y estoy realmente contento con esto.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: ¡Toda la potencia de MS Project en un paquete mucho más pequeño!
+      author:
+        name: Mia Harris
+        title: Formadora en Gestión de Proyectos
+      is_hidden: true
+    - rating: ★★★★★
+      text: Se pueden crear diagramas de Gantt intuitivos y estructurados con hitos y planificación de recursos, incluyendo seguimiento de progreso manual.
+      author:
+        name: Emma Rodriguez
+        title: Gerente de Producto
+      is_hidden: true
+    - rating: ★★★★★
+      text: Funciona más rápido [que la competencia], ya que noto que desplazarse por la línea de tiempo y abrir el proyecto es realmente más ágil que con otras apps. ¡Pulgares arriba!
+      author:
+        name: Ethan Walker
+        title: Gerente de Programa
+      is_hidden: true
+    - rating: ★★★★★
+      text: ¡Excelente programa!
+      author:
+        name: Harper Thompson
+        title: Director de PMO (Oficina de Gestión de Proyectos)
+      is_hidden: true
+
+features_detailed:
+  title: Todo lo que necesitas para una planificación de proyectos exitosa
+  subtitle: Funciones potentes diseñadas para jefes de proyecto modernos
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planificación
+      content:
+        title: Planificación con IA
+        features:
+          - icon: fas fa-check
+            title: Generador de proyectos con IA
+            description: Crea planes de proyecto completos a partir de descripciones de texto simples con IA avanzada
+          - icon: fas fa-check
+            title: Programación sencilla
+            description: Actualiza cualquier parte de tu plan y ve los resultados generales de inmediato.
+          - icon: fas fa-check
+            title: Familiaridad
+            description: ¿Tienes experiencia con MS Project u otro software similar? ¡Aprovéchala!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Seguimiento
+      content:
+        title: Seguimiento avanzado
+        features:
+          - icon: fas fa-check
+            title: Monitoreo de progreso
+            description: Haz seguimiento del porcentaje de finalización y el avance de hitos
+          - icon: fas fa-check
+            title: Uso de recursos
+            description: Supervisa la asignación de recursos y detecta posibles cuellos de botella
+          - icon: fas fa-check
+            title: Análisis de la línea de tiempo
+            description: Analiza la ruta crítica y haz seguimiento de variaciones en el cronograma
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Integración
+      content:
+        title: Integraciones potentes
+        features:
+          - icon: fas fa-check
+            title: Compatibilidad con MS Project
+            description: Importa archivos MPP de MS Project y guarda siempre en formato XML compatible con MS Project.
+          - icon: fas fa-check
+            title: Opciones de exportación
+            description: Exporta en cualquier momento a PDF y PNG
+          - icon: fas fa-check
+            title: Guardar y abrir desde Google Drive
+            description: Usa tu Google Drive para almacenar archivos de proyecto.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Lo que puedes hacer con Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Planificación avanzada
+      items:
+        - Crea planes de proyecto a partir de descripciones de texto simples usando IA
+        - Realiza cualquier actualización y visualiza los cambios al instante
+        - Anticipa fechas de finalización e identifica posibles obstáculos tempranamente
+        - Planifica costos
+    - icon: fas fa-tasks
+      title: Gestión de tareas
+      items:
+        - Desglosa los proyectos en tareas
+        - Define dependencias y fechas límite
+        - Marca tareas como hitos
+        - Monitorea la ruta crítica
+        - Haz seguimiento del estado de finalización de tareas
+    - icon: fas fa-users
+      title: Colaboración
+      items:
+        - Funciona con Google Drive
+        - Intercambia archivos en formato XML, PDF o PNG
+    - icon: fas fa-chart-line
+      title: Seguimiento avanzado
+      items:
+        - Monitorea la asignación de recursos
+        - Analiza la ruta crítica
+        - Supervisión del uso de recursos
+        - Análisis de la línea de tiempo
+    - icon: fas fa-calendar-alt
+      title: Gestión de recursos
+      items:
+        - Gestiona recursos de trabajo, materiales y costos
+        - Establece calendarios y horarios de trabajo para los recursos
+        - Nivela automáticamente los recursos sobreasignados
+        - Revisa el uso de recursos a lo largo del tiempo
+    - icon: fas fa-plug
+      title: Integraciones
+      items:
+        - Compatibilidad con archivos de MS Project (MPP y XML)
+        - Exporta a PDF y PNG
+        - Funciona con Google Drive
+
+faq:
+  title: Preguntas frecuentes
+  items:
+    - question: ¿Qué es Ingantt para Windows?
+      answer: Ingantt para Windows es una herramienta profesional de gestión de proyectos que se ejecuta de forma nativa en tu PC. Te permite crear y gestionar planes de proyecto con asistencia de IA y compatibilidad con MS Project.
+    - question: ¿Puedo importar mis archivos existentes de Microsoft Project?
+      answer: ¡Sí! Ingantt admite completamente la importación de archivos .MPP y .XML de Microsoft Project. Tus datos de proyecto, incluidas tareas, recursos y dependencias, se conservarán durante el proceso de importación.
+    - question: ¿Cómo funciona la generación de proyectos con IA?
+      answer: Nuestro asistente de IA puede generar planes de proyecto completos a partir de descripciones de texto simples. Solo describe tus objetivos y requisitos del proyecto, y la IA creará un plan estructurado con tareas, cronogramas y dependencias basadas en las mejores prácticas.
+    - question: ¿Hay una prueba gratuita para la versión de Windows?
+      answer: Sí. Una vez instalada la aplicación desde Microsoft Store, la prueba gratuita está disponible por 7 días.
+    - question: ¿Cómo puedo comprar Ingantt para Windows?
+      answer: Visita Microsoft Store y cómpralo allí. Tendrás la aplicación permanentemente sin cargos recurrentes.
+  support:
+    title: Empieza a planificar con Ingantt
+    docs:
+      text: Ir a la documentación
+    contact:
+      title: ¿Tienes más preguntas?<br>¡Contacta con una persona real para obtener soporte!
+      text: Envíanos un correo
+      icon: fa fa-envelope
+
+cta:
+  title: ¿Listo para transformar tu planificación de proyectos?
+  subtitle: Disfruta de la planificación impulsada por IA con una experiencia nativa en Windows
+  button:
+    text: Probar gratis
+
+platform_support:
+  title: ¿Necesitas una versión para otra plataforma?

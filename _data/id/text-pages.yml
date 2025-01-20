@@ -1,0 +1,89 @@
+terms_of_service:
+    title_tag: Ingantt - Syarat Layanan
+    meta_keywords: Ingantt, syarat layanan
+    meta_description: Syarat Layanan Ingantt
+    text_title: Syarat Layanan
+    text: |
+      Selamat datang di Ingantt! Dengan menggunakan aplikasi kami, Anda setuju dengan syarat dan ketentuan berikut:
+
+      ## 1. Penerimaan Syarat
+
+      Dengan mengakses atau menggunakan Ingantt, Anda setuju untuk terikat oleh Syarat Layanan ini dan Kebijakan Privasi kami.
+
+      ## 2. Penggunaan Google Drive
+
+      Aplikasi kami terhubung dengan Google Drive Anda untuk menyimpan dan mengambil data Anda. Dengan menggunakan aplikasi kami, Anda memberi wewenang kepada kami untuk mengakses akun Google Drive Anda untuk tujuan ini.
+
+      ## 3. Data Pengguna
+
+      Anda tetap memiliki hak kepemilikan atas semua data yang Anda unggah ke Google Drive Anda melalui aplikasi kami. Kami tidak mengklaim hak kepemilikan apa pun atas data Anda.
+
+      ## 4. Privasi
+
+      Privasi Anda penting bagi kami. Kami hanya akan mengakses, menyimpan, dan menggunakan data Anda sejauh diperlukan untuk menyediakan layanan kami. Harap tinjau Kebijakan Privasi kami untuk informasi lebih lanjut tentang cara kami menangani data Anda.
+
+      ## 5. Keamanan
+
+      Kami mengambil langkah-langkah yang wajar untuk melindungi data Anda. Namun, kami tidak dapat menjamin keamanan mutlak data Anda dan tidak bertanggung jawab atas akses tidak sah atau pelanggaran apa pun.
+
+      ## 6. Tanggung Jawab Pengguna
+
+      Anda bertanggung jawab untuk menjaga keamanan akun Google Drive Anda dan atas setiap aktivitas yang terjadi di bawah akun Anda.
+
+      ## 7. Aktivitas Terlarang
+
+      Anda setuju untuk tidak menggunakan aplikasi kami untuk kegiatan yang melanggar hukum atau dengan cara yang melanggar syarat-syarat ini.
+
+      ## 8. Pengakhiran
+
+      Kami berhak untuk menangguhkan atau menghentikan akses Anda ke aplikasi kami kapan saja, tanpa pemberitahuan, dengan alasan apa pun, termasuk jika Anda melanggar syarat-syarat ini.
+
+      ## 9. Perubahan Syarat
+
+      Kami dapat memperbarui syarat-syarat ini dari waktu ke waktu. Kami akan memberi tahu Anda tentang setiap perubahan dengan memposting syarat baru di aplikasi kami. Penggunaan Anda yang berkelanjutan atas aplikasi setelah perubahan tersebut menunjukkan penerimaan Anda terhadap syarat yang baru.
+
+      ## 10. Hubungi Kami
+
+      Jika Anda memiliki pertanyaan tentang Syarat Layanan ini, silakan hubungi kami.
+
+privacy_policy:
+    title_tag: Ingantt - Kebijakan Privasi
+    meta_keywords: Ingantt, kebijakan privasi
+    meta_description: Kebijakan Privasi Ingantt
+    text_title: Kebijakan Privasi
+    text: |
+      ## Apa itu Informasi Pribadi?
+
+      Informasi Pribadi adalah informasi atau pendapat yang mengidentifikasi individu. Contoh Informasi Pribadi termasuk nama, alamat, alamat email, nomor telepon, dan nomor faks.
+
+      ## Tidak ada data yang dikumpulkan
+
+      Semua data yang diterima dari pengguna dan diproses oleh Ingantt disimpan baik dalam file lokal di perangkat pengguna atau di akun Google Drive pengguna, jika pengguna telah secara eksplisit memilih opsi ini dan mengaktifkan fungsionalitas ini dengan Google.
+
+      Di penyimpanan Google Drive pengguna, Ingantt menyimpan file yang dibuat pengguna menggunakan Ingantt. Ingantt hanya mengakses, menggunakan, atau membagikan file yang dibuatnya di penyimpanan Google Drive pengguna.
+
+      File MPP yang dibuka dari perangkat pengguna dikirim ke layanan web konversi Ingantt untuk dikonversi dan dikirim kembali dalam format XML. File tidak disimpan di layanan tersebut.
+
+      Dengan demikian, tidak ada data yang dikumpulkan oleh pengembang Ingantt.
+
+      ## Data dibagikan dengan pihak ketiga
+
+      Untuk mengaktifkan fungsionalitas terkait AI, prompt yang dimasukkan oleh pengguna untuk membuat file baru menggunakan AI dibagikan dengan alat AI pihak ketiga: OpenAI dan/atau Gemini.
+
+      Tidak ada data lain yang dibagikan dengan pihak ketiga.
+
+      ## Penggunaan data
+
+      Tidak ada data pengguna yang digunakan untuk mengembangkan, meningkatkan, atau melatih model AI dan/atau ML yang digeneralisasi. Ini termasuk data pengguna yang diperoleh melalui Google Workspace API.
+
+      ## Perlindungan data
+
+      Kami menerapkan langkah-langkah teknis dan organisasi yang sesuai untuk melindungi data Anda dari akses tidak sah, kehilangan, atau pengungkapan.
+
+      ## Pembaruan Kebijakan
+
+      Kebijakan ini dapat berubah dari waktu ke waktu dan tersedia di situs web kami.
+
+      ## Pengaduan dan Pertanyaan tentang Kebijakan Privasi
+
+      Jika Anda memiliki pertanyaan atau keluhan tentang Kebijakan Privasi kami, silakan hubungi kami.

@@ -1,0 +1,232 @@
+title_tag: Ingantt - AIを活用したAndroid向けモダンなガントチャートプロジェクトプランニング
+meta_keywords: ガントチャートアプリ Android, mpp, ガント Android, mppリーダー, mppビューア, ガントアプリケーション, MS Projectの代替, スマホ用ガント, タブレット用ガント, プロジェクト計画, プロジェクト管理
+meta_description: Ingantt - AI搭載のプロジェクト管理ツール。Androidスマホやタブレットでプロジェクトの計画、スケジュール管理、進捗追跡を簡単に。
+
+page_url: android_page
+platform_url: android_url
+store_image: google_play.png
+platform_image: android.png
+
+hero:
+  title: Android端末でAIを活用したガントチャートによるプロジェクトプランニング
+  subtitle: スマホやタブレット上のインテリジェントなガントチャートとAIアシスタントでプロジェクト計画を変革しましょう。
+  cta:
+    primary:
+      text: 今すぐ入手
+      text_fits: true
+    other_versions:
+      title: 他のバージョン
+  rating:
+    stars:
+    text: 5つ星評価
+  image: hero-android.png
+
+features_grid:
+  title: プロジェクトマネージャーがInganttを選ぶ理由
+  items:
+    - icon: fas fa-robot
+      title: AIによるプランニング
+      description: シンプルな説明から完全なプロジェクト計画を生成。AIアシスタントがサポートします。
+    - icon: fas fa-brain
+      title: あらゆる項目を計画
+      description: スケジュール、コスト、タスク、依存関係、リソースなど、すべてを一元管理。
+    - icon: fas fa-mobile-alt
+      title: モバイル最適化された体験
+      description: Android端末向けに設計—外出先でもプロジェクトを計画、確認、管理できます。
+    - icon: fas fa-file-import
+      title: MS Projectとの互換性
+      description: .MPPファイルをインポートし、MS Project互換のXML形式で保存—妥協なし。
+
+demo:
+  title: Inganttの実際の動作をご覧ください
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: 世界中のプロジェクトマネージャーに信頼されています
+  show_more:
+    text: もっと見る
+    icon: fas fa-chevron-down
+  show_less:
+    text: 表示を減らす
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 独自のファイル形式やクラウドストレージに縛られない最高のガントチャートアプリです。
+      author:
+        name: Noah Wilson
+        title: プログラムディレクター
+    - rating: ★★★★★
+      text: AIによるプロジェクト計画の生成は私にとって画期的です。プロジェクト計画のスタートポイントやアイデアのヒントとして活用しています。
+      author:
+        name: Alexander Hall
+        title: アジャイルコーチ
+    - rating: ★★★★★
+      text: Microsoft ProjectファイルのMPPビューア兼エディタとしても活用しています。
+      author:
+        name: Amelia Clark
+        title: プロジェクトコーディネーター
+    - rating: ★★★★★
+      text: やっとMicrosoft Projectの素晴らしい代替ツールが見つかりました！
+      author:
+        name: Isabella Moore
+        title: チームリード（プロジェクト管理）
+      is_hidden: true
+    - rating: ★★★★★
+      text: 期待通りに動作しており、とても満足しています。
+      author:
+        name: Benjamin Lee
+        title: アジャイルコーチ
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Projectのフル機能を、ずっとコンパクトなパッケージで活用できます！
+      author:
+        name: Mia Harris
+        title: プロジェクト管理トレーナー
+      is_hidden: true
+    - rating: ★★★★★
+      text: マイルストーンやリソースプランニングを含む直感的で構造化されたガントチャートが作成でき、進捗を手動で追跡することも可能です。
+      author:
+        name: Emma Rodriguez
+        title: プロダクトマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 競合製品より動作が速いです。タイムラインをスクロールしたり、プロジェクトを開いたりする動作が他のアプリと比べてとても軽快。素晴らしいですね！
+      author:
+        name: Ethan Walker
+        title: プログラムマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 素晴らしいプログラムです！
+      author:
+        name: Harper Thompson
+        title: PMO (プロジェクト管理オフィス) ディレクター
+      is_hidden: true
+
+features_detailed:
+  title: 成功するプロジェクト計画に必要なすべての機能
+  subtitle: 現代のプロジェクトマネージャーのために設計された強力な機能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: プランニング
+      content:
+        title: AIによるプランニング
+        features:
+          - icon: fas fa-check
+            title: AIプロジェクトジェネレーター
+            description: 高度なAIを活用し、簡単なテキスト説明から包括的なプロジェクト計画を作成
+          - icon: fas fa-check
+            title: シンプルなスケジューリング
+            description: プロジェクト計画のどの部分を更新しても、すぐに全体の結果を確認できます。
+          - icon: fas fa-check
+            title: 使い慣れた操作
+            description: MS Projectなどのソフトウェアに慣れている場合、そのスキルを活かせます！
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: トラッキング
+      content:
+        title: 高度なトラッキング
+        features:
+          - icon: fas fa-check
+            title: 進捗モニタリング
+            description: 完了率やマイルストーンの進捗を追跡
+          - icon: fas fa-check
+            title: リソース使用状況
+            description: リソースの割り当てを監視し、ボトルネックになり得る箇所を特定
+          - icon: fas fa-check
+            title: タイムライン分析
+            description: クリティカルパスを分析し、スケジュールの変動を追跡
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: 連携
+      content:
+        title: 強力な連携機能
+        features:
+          - icon: fas fa-check
+            title: MS Projectとの互換性
+            description: MS ProjectのMPPファイルをインポートし、常にMS Project互換のXML形式に保存可能。
+          - icon: fas fa-check
+            title: エクスポートオプション
+            description: いつでもPDFやPNGにエクスポート可能
+          - icon: fas fa-check
+            title: Google Driveでの保存と開封
+            description: Google Driveを使用してプロジェクトファイルを保管できます。
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Inganttでできること
+  items:
+    - icon: fas fa-brain
+      title: 高度な計画
+      items:
+        - AIを使って簡単なテキスト説明からプロジェクト計画を作成
+        - どの部分でも更新すれば瞬時に変化を確認可能
+        - 完了予定日を予測し、早期に障害を把握
+        - コストの計画
+    - icon: fas fa-tasks
+      title: タスク管理
+      items:
+        - プロジェクトをタスクに分解
+        - タスクの依存関係や期限を設定
+        - タスクをマイルストーンとしてマーク
+        - クリティカルパスを監視
+        - タスクの完了状況を追跡
+    - icon: fas fa-users
+      title: コラボレーション
+      items:
+        - Androidの標準ファイル共有機能を使って共有
+        - Google Driveと連携
+        - XML、PDF、PNGでファイルを交換
+    - icon: fas fa-chart-line
+      title: 高度なトラッキング
+      items:
+        - リソース割り当てを監視
+        - クリティカルパスを分析
+        - リソース使用状況のモニタリング
+        - タイムラインの分析
+    - icon: fas fa-calendar-alt
+      title: リソース管理
+      items:
+        - 稼働リソース、物資リソース、コストリソースを管理
+        - リソースのカレンダーや稼働時間を設定
+        - 過剰割り当てされたリソースを自動調整
+        - 時間経過によるリソース使用状況を確認
+    - icon: fas fa-plug
+      title: 連携機能
+      items:
+        - MS Projectファイル(MPP・XML)との互換性
+        - PDFやPNG形式へのエクスポート
+        - Google Driveと連携
+
+faq:
+  title: よくある質問
+  items:
+    - question: Android版Inganttとは何ですか？
+      answer: Android版Inganttは、Android端末上でネイティブに動作するプロフェッショナルなプロジェクト管理ツールです。AIを活用した計画機能やMS Projectとの互換性を備え、外出先でもプロジェクト計画・管理が可能です。
+    - question: 既存のMicrosoft Projectファイルをインポートできますか？
+      answer: はい！InganttはMicrosoft Projectの.MPPおよび.XMLファイルのインポートに完全対応しています。タスクやリソース、依存関係などのプロジェクトデータはインポート時に保持されます。
+    - question: AIによるプロジェクト生成はどのように動作しますか？
+      answer: 当社のAIアシスタントは、簡単なテキストの説明から包括的なプロジェクト計画を生成できます。プロジェクトの目的や要件を説明するだけで、ベストプラクティスに基づいたタスク・タイムライン・依存関係などを構成した計画を作成します。
+    - question: Android版には無料体験版がありますか？
+      answer: いいえ。Android版は買い切りでの提供となり、サブスクリプションや無料体験版はありません。
+    - question: Android版Inganttはどのように購入できますか？
+      answer: ご利用のAndroid端末でGoogle Playストアにアクセスし、ご購入ください。一度購入すれば、追加費用なく永久に利用できます。
+  support:
+    title: Inganttでプロジェクト計画を始めましょう
+    docs:
+      text: ドキュメントへ
+    contact:
+      title: 他にもご不明な点がありますか？<br>サポートが必要な場合は実際の担当者にご連絡ください！
+      text: メールでお問い合わせ
+      icon: fa fa-envelope
+
+cta:
+  title: プロジェクト計画を変革する準備はできましたか？
+  subtitle: スマホやタブレットでAIを活用したプロジェクト計画を楽しみましょう
+  button:
+    text: 今すぐ入手
+
+platform_support:
+  title: 他のプラットフォーム向けバージョンが必要ですか？

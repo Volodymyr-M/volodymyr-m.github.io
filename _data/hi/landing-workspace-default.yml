@@ -1,0 +1,375 @@
+lang_name: हिन्दी
+title_tag: Ingantt - Google Workspace में AI द्वारा संचालित आधुनिक Gantt चार्ट प्रोजेक्ट प्लानिंग
+meta_keywords: Gantt चार्ट ऐप Workspace, mpp, Gantt Google Workspace, mpp रीडर, mpp व्यूअर, MS प्रोजेक्ट का विकल्प, वेब के लिए gantt, gantt वेब, Google Workspace के लिए gantt, प्रोजेक्ट प्रबंधन
+meta_description: Ingantt - Google Workspace के लिए AI-संचालित प्रोजेक्ट प्रबंधन टूल। वेब पर ही अपने प्रोजेक्ट को प्लान, शेड्यूल और ट्रैक करें, वह भी आसान तरीक़े से।
+
+page_url: workspace_page
+platform_url: workspace_url
+store_image: google_workspace_marketplace.png
+platform_image: google_workspace.png
+
+products:
+  - icon: fa-brands fa-google
+    text: Ingantt for Google Workspace
+    platform: Google Workspace
+    url: workspace_page
+  - icon: fab fa-android
+    text: Ingantt for Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt for iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt for Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt for macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: प्रोडक्ट्स
+    
+    legal:
+      title: कानूनी
+      items:
+        - text: प्राइवसी पॉलिसी
+          url: privacy_policy_page
+        - text: सेवा की शर्तें
+          url: terms_of_service_page
+    
+    connect:
+      title: और जानें
+      items:
+        - icon: fa fa-info-circle
+          text: डॉक्स
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: ब्लॉग
+          url: blog_page
+        - icon: fa fa-envelope
+          text: हमें ईमेल करें
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    
+    site_settings:
+      title: साइट सेटिंग
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: डार्क मोड टॉगल करें
+        icon: fas fa-adjust
+
+hero:
+  title: Google Workspace में AI-सक्षम Gantt चार्ट के साथ प्रोजेक्ट प्लानिंग
+  subtitle: AI असिस्टेंस, इंटेलिजेंट Gantt चार्ट और Google ड्राइव में सहज सहयोग के साथ अपनी प्रोजेक्ट प्लानिंग को नया रूप दें।
+  cta:
+    primary:
+      text: मुफ़्त में आज़माएं
+      text_fits: true
+    other_versions:
+      title: अन्य वर्ज़न
+  rating:
+    stars: ★★★★★
+    text: 5 स्टार रेटिंग
+  image: hero-workspace.png
+
+features_grid:
+  title: टीमें Ingantt को क्यों चुनती हैं
+  items:
+    - icon: fas fa-robot
+      title: AI-संचालित प्लानिंग
+      description: हमारे AI असिस्टेंट से साधारण विवरणों से संपूर्ण प्रोजेक्ट प्लान तैयार करें।
+    - icon: fas fa-cloud
+      title: Google के साथ सुगम एकीकरण
+      description: Google ड्राइव के साथ सहजता से काम करता है, जिससे सहयोग सरल और प्रभावी बनता है।
+    - icon: fas fa-file-import
+      title: MS प्रोजेक्ट संगत
+      description: .MPP फाइलें आयात करें और MS प्रोजेक्ट संगत XML प्रारूप में सेव करें – बिना किसी समझौते के।
+    - icon: fas fa-mobile-alt
+      title: हर जगह काम करता है
+      description: अपने पसंदीदा ब्राउज़र पर डेस्कटॉप, टैबलेट और मोबाइल सभी जगह पूर्ण कार्यक्षमता।
+
+demo:
+  title: देखें Ingantt कैसे काम करता है
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: दुनिया भर के प्रोजेक्ट मैनेजरों द्वारा विश्वसनीय
+  show_more:
+    text: और दिखाएं
+    icon: fas fa-chevron-down
+  show_less:
+    text: छिपाएं
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: बेहतरीन Gantt ऐप जो आपको अपने ही फ़ाइल फ़ॉर्मेट या क्लाउड स्टोरेज में क़ैद नहीं करता।
+      author:
+        name: Noah Wilson
+        title: प्रोग्राम डायरेक्टर
+    - rating: ★★★★★
+      text: AI आधारित प्रोजेक्ट प्लान जेनरेशन मेरे लिए गेमचेंजर साबित हुआ। इसे मैं शुरुआती पॉइंट और प्रेरणा के रूप में इस्तेमाल करता हूँ।
+      author:
+        name: Alexander Hall
+        title: Agile कोच
+    - rating: ★★★★★
+      text: मैं इसे Microsoft Project की MPP फ़ाइलों के व्यूअर और एडिटर के रूप में भी इस्तेमाल करता हूँ।
+      author:
+        name: Amelia Clark
+        title: प्रोजेक्ट कोऑर्डिनेटर
+    - rating: ★★★★★
+      text: आखिरकार एक सही मायनों में Microsoft Project का विकल्प जो बढ़िया काम करता है!
+      author:
+        name: Isabella Moore
+        title: टीम लीड (प्रोजेक्ट मैनेजमेंट)
+      is_hidden: true
+    - rating: ★★★★★
+      text: यह उम्मीद के मुताबिक चलता है और मैं इससे बहुत खुश हूँ।
+      author:
+        name: Benjamin Lee
+        title: Agile कोच
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project की पूरी क्षमताएँ एक बहुत छोटे पैकेज में!
+      author:
+        name: Mia Harris
+        title: प्रोजेक्ट मैनेजमेंट ट्रेनर
+      is_hidden: true
+    - rating: ★★★★★
+      text: सहज, संरचित Gantt चार्ट जिसमें माइलस्टोन और रिसोर्स प्लानिंग शामिल है, साथ ही मैन्युअल प्रोग्रेस ट्रैकिंग की सुविधा भी।
+      author:
+        name: Emma Rodriguez
+        title: प्रोडक्ट मैनेजर
+      is_hidden: true
+    - rating: ★★★★★
+      text: प्रतिस्पर्धियों की तुलना में तेज़ प्रदर्शन, क्योंकि टाइमलाइन स्क्रॉल करना और प्रोजेक्ट खोलना वाकई तेज़ लगता है। शानदार काम!
+      author:
+        name: Ethan Walker
+        title: प्रोग्राम मैनेजर
+      is_hidden: true
+    - rating: ★★★★★
+      text: शानदार प्रोग्राम!
+      author:
+        name: Harper Thompson
+        title: PMO (प्रोजेक्ट मैनेजमेंट ऑफिस) डायरेक्टर
+      is_hidden: true
+
+features_detailed:
+  title: सफल प्रोजेक्ट प्लानिंग के लिए हर ज़रूरी फ़ीचर
+  subtitle: आधुनिक प्रोजेक्ट मैनेजरों के लिए बनाए गए शक्तिशाली फीचर
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: योजना
+      content:
+        title: AI-सक्षम प्लानिंग
+        features:
+          - icon: fas fa-check
+            title: AI प्रोजेक्ट जेनरेटर
+            description: उन्नत AI की मदद से सरल टेक्स्ट विवरणों से संपूर्ण प्रोजेक्ट प्लान तैयार करें
+          - icon: fas fa-check
+            title: आसान शेड्यूलिंग
+            description: अपने प्रोजेक्ट प्लान के किसी भी हिस्से को अपडेट करें और तत्काल कुल परिणाम देखें।
+          - icon: fas fa-check
+            title: परिचित माहौल
+            description: MS Project या ऐसे ही किसी सॉफ्टवेयर की जानकारी है? यहाँ इस्तेमाल करें!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: ट्रैकिंग
+      content:
+        title: उन्नत ट्रैकिंग
+        features:
+          - icon: fas fa-check
+            title: प्रगति मॉनिटरिंग
+            description: पूर्णता प्रतिशत और माइलस्टोन की प्रगति पर नज़र रखें
+          - icon: fas fa-check
+            title: संसाधन उपयोग
+            description: रिसोर्स एलोकेशन को ट्रैक करें और संभावित रुकावटों का जल्दी पता लगाएँ
+          - icon: fas fa-check
+            title: टाइमलाइन विश्लेषण
+            description: क्रिटिकल पाथ का विश्लेषण करें और शेड्यूल में आए बदलावों पर नज़र रखें
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: collaboration
+      icon: fas fa-users
+      title: सहयोग
+      content:
+        title: सहज सहयोग
+        features:
+          - icon: fas fa-check
+            title: Google ड्राइव इंटीग्रेशन
+            description: Google ड्राइव की परिचित परमिशन का इस्तेमाल करते हुए फ़ाइलें साझा करें और मिलकर काम करें
+          - icon: fas fa-check
+            title: PDF, PNG या XML फ़ॉर्मेट में एक्सचेंज
+            description: MS Project के XML फ़ॉर्मेट को मूल रूप से सपोर्ट करता है।
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: इंटीग्रेशन
+      content:
+        title: शक्तिशाली इंटीग्रेशन
+        features:
+          - icon: fas fa-check
+            title: Google Workspace इंटीग्रेशन
+            description: Ingantt को एक सामान्य Google ड्राइव ऐप की तरह इस्तेमाल करें
+          - icon: fas fa-check
+            title: MS प्रोजेक्ट कंपैटिबिलिटी
+            description: MS Project की MPP फ़ाइलें इम्पोर्ट करें और हमेशा MS प्रोजेक्ट-संगत XML फ़ॉर्मेट में सेव करें
+          - icon: fas fa-check
+            title: एक्सपोर्ट के विकल्प
+            description: PDF और PNG में एक्सपोर्ट करें
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+pricing:
+  title: सरल, पारदर्शी मूल्य-निर्धारण
+  subtitle: Google Workspace के लिए Ingantt
+  plans:
+    - title: मुफ़्त ट्रायल
+      price: $0
+      duration: 30 दिन
+      features:
+        - सभी फ़ीचर्स तक पूरा एक्सेस
+        - AI द्वारा प्रोजेक्ट जेनरेशन
+        - MS प्रोजेक्ट इम्पोर्ट/एक्सपोर्ट
+        - Google ड्राइव इंटीग्रेशन
+      cta:
+        text: मुफ़्त ट्रायल शुरू करें
+        url: workspace_url
+        class: secondary
+    - title: प्रोफेशनल
+      price: $3.5
+      duration: प्रति यूज़र/महीना
+      annual_price: या $35/यूज़र वार्षिक
+      featured: true
+      features:
+        - मुफ़्त ट्रायल में मिलने वाले सभी फ़ीचर्स
+        - प्राथमिकता सपोर्ट
+      cta:
+        text: मुफ़्त ट्रायल शुरू करें
+        url: workspace_url
+        class: primary
+    - title: एंटरप्राइज़
+      price: कस्टम
+      duration: बड़े टीमों के लिए
+      features:
+        - प्रोफेशनल के सभी फ़ीचर्स
+        - कस्टम इंटीग्रेशन
+        - समर्पित सपोर्ट
+        - SLA गारंटी
+      cta:
+        text: सेल्स टीम से संपर्क करें
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Ingantt के साथ आप क्या कर सकते हैं
+  items:
+    - icon: fas fa-brain
+      title: उन्नत प्लानिंग
+      items:
+        - AI के जरिए सरल टेक्स्ट विवरणों से प्रोजेक्ट प्लान तैयार करें
+        - किसी भी अपडेट का रीयल-टाइम असर तुरंत देखें
+        - संभावित रुकावटों की पहचान करते हुए पूर्णता तारीखों का अनुमान लगाएँ
+        - लागतों की योजना बनाएं
+    - icon: fas fa-tasks
+      title: कार्य प्रबंधन
+      items:
+        - प्रोजेक्ट को अलग-अलग टास्क में बाँटें
+        - टास्क पर निर्भरता और डेडलाइन सेट करें
+        - टास्क को माइलस्टोन के रूप में मार्क करें
+        - क्रिटिकल पाथ ट्रैक करें
+        - टास्क की पूर्णता की स्थिति मॉनिटर करें
+    - icon: fas fa-users
+      title: सहयोग
+      items:
+        - सेव और शेयर के लिए Google ड्राइव का उपयोग
+        - XML, PDF या PNG फ़ॉर्मेट में फ़ाइल एक्सचेंज – MS Project का XML फ़ॉर्मेट मूल रूप से सपोर्टेड
+    - icon: fas fa-chart-line
+      title: उन्नत ट्रैकिंग
+      items:
+        - रिसोर्स एलोकेशन मॉनिटर करें
+        - क्रिटिकल पाथ का विश्लेषण करें
+        - संसाधन उपयोग पर नज़र रखें
+        - टाइमलाइन का विश्लेषण करें
+    - icon: fas fa-calendar-alt
+      title: संसाधन प्रबंधन
+      items:
+        - कार्य, सामग्री और लागत संसाधनों का प्रबंधन
+        - संसाधन कैलेंडर और कार्य समय निर्धारित करें
+        - ओवरएलोकेटेड संसाधनों को ऑटो-लेवल करें
+        - समय के साथ संसाधन उपयोग की समीक्षा करें
+    - icon: fas fa-plug
+      title: इंटीग्रेशन
+      items:
+        - MS Project फ़ाइल कंपैटिबिलिटी (MPP और XML)
+        - PDF और PNG में एक्सपोर्ट
+        - Google ड्राइव के साथ इंटीग्रेशन
+
+faq:
+  title: अक्सर पूछे जाने वाले प्रश्न
+  items:
+    - question: Ingantt क्या है और यह Google Workspace के साथ कैसे काम करता है?
+      answer: Ingantt एक पेशेवर प्रोजेक्ट मैनेजमेंट टूल है जो Google Workspace के साथ बेहतरीन रूप से इंटीग्रेट होता है। यह आपको Google ड्राइव से सीधे ही प्रोजेक्ट प्लान बनाने, मैनेज करने और शेयर करने की सुविधा देता है, जिससे पहले से Google ईकोसिस्टम का उपयोग कर रही टीमों के लिए सहयोग आसान हो जाता है।
+    - question: क्या मैं अपने मौजूदा Microsoft Project फ़ाइलों को इम्पोर्ट कर सकता हूँ?
+      answer: जी हाँ! Ingantt Microsoft Project की .MPP और .XML फ़ाइलों को पूरी तरह सपोर्ट करता है। आपके प्रोजेक्ट डेटा (टास्क, संसाधन और निर्भरता सहित) इम्पोर्ट प्रक्रिया के दौरान सुरक्षित रहते हैं।
+    - question: AI द्वारा प्रोजेक्ट जेनरेशन कैसे काम करता है?
+      answer: हमारा AI असिस्टेंट सरल टेक्स्ट विवरणों से एक पूर्ण प्रोजेक्ट प्लान जनरेट कर सकता है। बस अपने प्रोजेक्ट के लक्ष्य और आवश्यकताओं का वर्णन करें, और AI बेहतरीन प्रोजेक्ट मैनेजमेंट प्रैक्टिस के अनुरूप टास्क, टाइमलाइन और निर्भरताओं सहित एक संरचित प्लान तैयार करेगा।
+    - question: मुफ़्त ट्रायल में क्या शामिल होता है?
+      answer: 30-दिन का मुफ़्त ट्रायल Ingantt की सभी फ़ीचर्स और Google Workspace के साथ पूरी इंटीग्रेशन प्रदान करता है। शुरू करने के लिए किसी क्रेडिट कार्ड की आवश्यकता नहीं है।
+    - question: क्या मैं Google Workspace के लिए Ingantt को मोबाइल डिवाइस पर इस्तेमाल कर सकता हूँ?
+      answer: जी हाँ! Ingantt for Google Workspace किसी भी ब्राउज़र-सक्षम डिवाइस पर काम करता है। हमारा रेस्पॉन्सिव इंटरफ़ेस स्मार्टफ़ोन और टैबलेट पर बेहतरीन ढंग से फ़िट होता है, जिससे आप चलते-फिरते भी अपने प्रोजेक्ट तक पहुंच बना सकते हैं।
+    - question: यदि मैं अपनी सब्सक्रिप्शन रद्द कर दूँ तो मेरे डेटा का क्या होगा?
+      answer: आपके प्रोजेक्ट फ़ाइलें सब्सक्रिप्शन रद्द करने के बाद भी सुरक्षित रूप से Google ड्राइव में रहती हैं। आपकी फ़ाइलें MS Project फ़ॉर्मेट में सेव रहती हैं, जिससे आप कभी भी अपने डेटा तक पहुँच नहीं खोएँगे।
+    - question: मैं अपने टीम के सदस्यों के लिए Ingantt कैसे ख़रीद सकता हूँ?
+      answer: अपने Google अकाउंट से Ingantt में साइन इन करें, ऊपर दाईं ओर अपने अवतार पर क्लिक करें और “Purchase subscriptions” चुनें। “I want to purchase subscriptions for others” को चेक करें और अपने साथियों के Google अकाउंट ईमेल दर्ज करें। पेमेंट शेड्यूल (मासिक या वार्षिक) चुनें और ख़रीद को पूरा करें।
+  support:
+    title: Ingantt के साथ प्लानिंग शुरू करें
+    docs:
+      text: डॉक्स पर जाएं
+    contact:
+      title: और सवाल हैं?<br>समर्थन के लिए किसी वास्तविक व्यक्ति से संपर्क करें!
+      text: हमें ईमेल करें
+      icon: fa fa-envelope
+
+cta:
+  title: क्या आप अपनी टीम की प्रोजेक्ट प्लानिंग को बदलने के लिए तैयार हैं?
+  subtitle: आज ही मुफ़्त ट्रायल शुरू करें और AI-संचालित प्रोजेक्ट प्लानिंग की ताकत का अनुभव करें
+  button:
+    text: मुफ़्त ट्रायल शुरू करें
+
+platform_support:
+  title: व्यक्तिगत उपयोग के लिए किसी विशेष डिवाइस संस्करण की आवश्यकता है?
+
+desktop_callback:
+  title: Ingantt
+  cta: ऊपर दिए गए डायलॉग में "ओपन" पर क्लिक करें।
+  success: क्लिक कर दिया? आप इस पेज को बंद कर सकते हैं।
+  issue: कुछ गड़बड़ हो गई?
+  click: फिर से प्रयास करें
+
+blog:
+  title: Ingantt ब्लॉग
+  subtitle: नवीनतम समाचार और अपडेट के लिए बने रहें
+  title_tag: Ingantt ब्लॉग - Ingantt टीम की नवीनतम समाचार और अपडेट
+  meta_keywords: Ingantt, ब्लॉग, समाचार, Google Workspace के लिए Gantt
+  meta_description: Ingantt टीम से नवीनतम समाचार और अपडेट प्राप्त करें

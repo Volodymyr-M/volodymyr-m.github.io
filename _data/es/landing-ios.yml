@@ -1,0 +1,231 @@
+title_tag: Ingantt - Planificación de proyectos con diagramas de Gantt para iPhone y iPad con IA
+meta_keywords: aplicación de diagrama de Gantt iOS, mpp, gantt iPhone, gantt iPad, lector mpp, visor mpp, aplicación gantt, alternativa a MS Project, gantt iOS, planificación de proyectos, gestión de proyectos
+meta_description: "Ingantt: herramienta de gestión de proyectos impulsada por IA para teléfonos y tabletas iOS. Planifica, programa y haz el seguimiento de tus proyectos en iPhone y iPad fácilmente."
+
+page_url: ios_page
+platform_url: ios_url
+store_image: app_store.png
+platform_image: ios.png
+
+hero:
+  title: Planificación de proyectos con diagramas de Gantt e IA en tu dispositivo iOS
+  subtitle: Transforma la planificación de tus proyectos con diagramas de Gantt inteligentes y asistencia de IA en tu iPhone o iPad.
+  cta:
+    primary:
+      text: Consíguelo ahora
+      text_fits: true
+    other_versions:
+      title: Otras versiones
+  rating:
+    stars: ★★★★⯨
+    text: 4.5 estrellas en
+  image: hero-ios.png
+
+features_grid:
+  title: Por qué los gestores de proyectos eligen Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Planificación con IA
+      description: Genera planes de proyecto completos a partir de descripciones simples con nuestro asistente de IA.
+    - icon: fas fa-mobile-alt
+      title: Experiencia optimizada para móvil
+      description: "Diseñado para dispositivos iOS: planifica, revisa y gestiona proyectos en cualquier lugar."
+    - icon: fas fa-file-import
+      title: Compatible con MS Project
+      description: Importa archivos .MPP y guarda en XML compatible con MS Project, sin compromisos.
+    - icon: fas fa-brain
+      title: Planifícalo todo
+      description: Programa, costos, tareas, dependencias, recursos y más, todo en un solo lugar.
+
+demo:
+  title: Mira Ingantt en acción
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Con la confianza de gestores de proyectos en todo el mundo
+  show_more:
+    text: Mostrar más
+    icon: fas fa-chevron-down
+  show_less:
+    text: Mostrar menos
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: La mejor aplicación de Gantt que no te ata a un formato de archivo propio ni a un almacenamiento en la nube exclusivo.
+      author:
+        name: Noah Wilson
+        title: Director de Programa
+    - rating: ★★★★★
+      text: La generación de planes de proyecto con IA ha sido un cambio total para mí. Lo uso como punto de partida e inspiración para mis planes.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: También lo uso como visor y editor de archivos MPP de Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Coordinadora de Proyectos
+    - rating: ★★★★★
+      text: ¡Finalmente una alternativa a Microsoft Project que funciona de maravilla!
+      author:
+        name: Isabella Moore
+        title: Líder de Equipo (Gestión de Proyectos)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Funciona como se espera y estoy muy satisfecho con ello.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: ¡Toda la potencia de MS Project en un paquete mucho más pequeño!
+      author:
+        name: Mia Harris
+        title: Formadora en Gestión de Proyectos
+      is_hidden: true
+    - rating: ★★★★★
+      text: Permite crear diagramas de Gantt intuitivos y estructurados con hitos y planificación de recursos, incluyendo seguimiento de progreso manual.
+      author:
+        name: Emma Rodriguez
+        title: Product Manager
+      is_hidden: true
+    - rating: ★★★★★
+      text: Rinde más rápido [que otros], ya que desplazarse por la línea de tiempo y abrir el proyecto se siente mucho más fluido en comparación con otras apps. ¡Pulgares arriba!
+      author:
+        name: Ethan Walker
+        title: Gerente de Programa
+      is_hidden: true
+    - rating: ★★★★★
+      text: ¡Excelente programa!
+      author:
+        name: Harper Thompson
+        title: Director de PMO (Oficina de Gestión de Proyectos)
+      is_hidden: true
+
+features_detailed:
+  title: Todo lo que necesitas para una planificación de proyectos exitosa
+  subtitle: Funciones potentes diseñadas para gestores de proyectos modernos
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planificación
+      content:
+        title: Planificación con IA
+        features:
+          - icon: fas fa-check
+            title: Generador de proyectos con IA
+            description: Crea planes de proyecto completos a partir de descripciones de texto simples con IA avanzada
+          - icon: fas fa-check
+            title: Programación sencilla
+            description: Actualiza cualquier parte de tu plan de proyecto y ve los resultados de inmediato.
+          - icon: fas fa-check
+            title: Familiaridad
+            description: ¿Tienes experiencia en MS Project u otro software similar? ¡Aprovéchala!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Seguimiento
+      content:
+        title: Seguimiento avanzado
+        features:
+          - icon: fas fa-check
+            title: Monitoreo de progreso
+            description: Haz seguimiento del porcentaje de finalización y de los hitos
+          - icon: fas fa-check
+            title: Uso de recursos
+            description: Supervisa la asignación de recursos e identifica posibles cuellos de botella
+          - icon: fas fa-check
+            title: Análisis de la línea de tiempo
+            description: Analiza la ruta crítica y rastrea variaciones en el cronograma
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Integración
+      content:
+        title: Integraciones potentes
+        features:
+          - icon: fas fa-check
+            title: Compatibilidad con MS Project
+            description: Importa archivos MPP de MS Project y guarda siempre en formato XML compatible.
+          - icon: fas fa-check
+            title: Opciones de exportación
+            description: Exporta en PDF y PNG en cualquier momento
+          - icon: fas fa-check
+            title: Guardar y abrir con Google Drive
+            description: Utiliza Google Drive para guardar y abrir archivos de proyecto.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Qué puedes hacer con Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Planificación avanzada
+      items:
+        - Crear planes de proyecto a partir de descripciones de texto simples con IA
+        - Hacer cualquier cambio y ver los resultados al instante
+        - Anticipar fechas de finalización e identificar posibles obstáculos con anticipación
+        - Planificar costos
+    - icon: fas fa-tasks
+      title: Gestión de tareas
+      items:
+        - Desglosar proyectos en tareas
+        - Establecer dependencias y fechas límite
+        - Marcar tareas como hitos
+        - Supervisar la ruta crítica
+        - Hacer seguimiento del estado de finalización de las tareas
+    - icon: fas fa-users
+      title: Colaboración
+      items:
+        - Compartir mediante la función estándar de compartir archivos de iOS
+        - Intercambiar archivos en formato XML, PDF o PNG
+    - icon: fas fa-chart-line
+      title: Seguimiento avanzado
+      items:
+        - Supervisar la asignación de recursos
+        - Analizar la ruta crítica
+        - Monitorear el uso de recursos
+        - Analizar la línea de tiempo
+    - icon: fas fa-calendar-alt
+      title: Gestión de recursos
+      items:
+        - Gestionar recursos de trabajo, materiales y costos
+        - Configurar calendarios de recursos y horarios de trabajo
+        - Nivelar automáticamente recursos sobreasignados
+        - Revisar el uso de recursos a lo largo del tiempo
+    - icon: fas fa-plug
+      title: Integraciones
+      items:
+        - Compatibilidad con archivos de MS Project (MPP y XML)
+        - Exportación a PDF y PNG
+        - Funciona con Google Drive
+
+faq:
+  title: Preguntas frecuentes
+  items:
+    - question: ¿Qué es Ingantt para iOS?
+      answer: Ingantt para iOS es una herramienta profesional de gestión de proyectos que se ejecuta de forma nativa en tu dispositivo iOS. Te permite crear y administrar planes de proyecto donde sea, con planificación asistida por IA y compatibilidad con MS Project.
+    - question: ¿Puedo importar mis archivos existentes de Microsoft Project?
+      answer: ¡Sí! Ingantt admite por completo la importación de archivos .MPP y .XML de Microsoft Project. Todos tus datos de proyecto, incluidas tareas, recursos y dependencias, se conservarán al importarlos.
+    - question: ¿Cómo funciona la generación de proyectos con IA?
+      answer: Nuestro asistente de IA puede generar planes de proyecto completos a partir de descripciones de texto simples. Solo describe tus metas y requisitos, y la IA creará un plan estructurado con tareas, líneas de tiempo y dependencias basadas en mejores prácticas.
+    - question: ¿Hay una versión de prueba gratuita para iOS?
+      answer: No. La versión de iOS se compra una sola vez, sin suscripciones ni período de prueba gratuito.
+    - question: ¿Cómo puedo comprar Ingantt para iOS?
+      answer: Simplemente visita la App Store de Apple en tu dispositivo iOS, busca Ingantt y cómpralo allí. Podrás usar la app de forma permanente sin costos recurrentes.
+  support:
+    title: Empieza a planificar con Ingantt
+    docs:
+      text: Ir a la documentación
+    contact:
+      title: ¿Tienes más preguntas?<br>¡Contacta a una persona real para soporte!
+      text: Envíanos un correo
+      icon: fa fa-envelope
+
+cta:
+  title: ¿Listo para transformar tu planificación de proyectos?
+  subtitle: Disfruta de la planificación impulsada por IA directamente en tu iPhone o iPad
+  button:
+    text: Consíguelo ahora
+
+platform_support:
+  title: ¿Necesitas otra versión para otra plataforma?

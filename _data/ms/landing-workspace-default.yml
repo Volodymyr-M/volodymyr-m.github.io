@@ -1,0 +1,375 @@
+lang_name: Bahasa Melayu
+title_tag: Ingantt – Carta Gantt moden untuk Perancangan Projek di Google Workspace dengan AI
+meta_keywords: aplikasi carta Gantt Workspace, mpp, gantt Google Workspace, pembaca mpp, paparan mpp, alternatif MS Project, gantt untuk Web, gantt Web, gantt untuk Google Workspace, pengurusan projek
+meta_description: Ingantt – Alat pengurusan projek berkuasa AI untuk Google Workspace. Rancang, jadual, dan jejak projek anda dengan mudah di web.
+
+page_url: workspace_page
+platform_url: workspace_url
+store_image: google_workspace_marketplace.png
+platform_image: google_workspace.png
+
+products:
+  - icon: fa-brands fa-google
+    text: Ingantt untuk Google Workspace
+    platform: Google Workspace
+    url: workspace_page
+  - icon: fab fa-android
+    text: Ingantt untuk Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt untuk iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt untuk Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt untuk macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: Produk
+    
+    legal:
+      title: Legal
+      items:
+        - text: Polisi Privasi
+          url: privacy_policy_page
+        - text: Terma Perkhidmatan
+          url: terms_of_service_page
+    
+    connect:
+      title: Ketahui lebih lanjut
+      items:
+        - icon: fa fa-info-circle
+          text: Dokumentasi
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: Blog
+          url: blog_page
+        - icon: fa fa-envelope
+          text: E-mel kami
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    
+    site_settings:
+      title: Tetapan Laman
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: Tukar mod gelap
+        icon: fas fa-adjust
+
+hero:
+  title: Perancangan Projek dengan Carta Gantt dan AI di Google Workspace
+  subtitle: Tingkatkan cara anda merancang projek dengan carta Gantt pintar, kerjasama lancar dan bantuan AI – semuanya dalam Google Drive anda.
+  cta:
+    primary:
+      text: Cuba Percuma
+      text_fits: true
+    other_versions:
+      title: Versi lain
+  rating:
+    stars: ★★★★★
+    text: 5 bintang
+  image: hero-workspace.png
+
+features_grid:
+  title: Mengapa Pasukan Memilih Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Perancangan Dikuasakan oleh AI
+      description: Hasilkan pelan projek lengkap daripada deskripsi ringkas menggunakan pembantu AI kami.
+    - icon: fas fa-cloud
+      title: Integrasi Asli dengan Google
+      description: Berfungsi dengan lancar bersama Google Drive, menjadikan kerjasama semula jadi dan mudah.
+    - icon: fas fa-file-import
+      title: Serasi MS Project
+      description: Import fail .MPP dan simpan dalam format XML yang serasi dengan MS Project tanpa kompromi.
+    - icon: fas fa-mobile-alt
+      title: Berfungsi di Mana-mana
+      description: Fungsi penuh di desktop, tablet dan peranti mudah alih melalui pelayar kegemaran anda.
+
+demo:
+  title: Lihat Ingantt dalam Tindakan
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Dipercayai oleh Pengurus Projek di Seluruh Dunia
+  show_more:
+    text: Papar lebih banyak
+    icon: fas fa-chevron-down
+  show_less:
+    text: Papar kurang
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Aplikasi Gantt terbaik yang tidak memaksa anda terikat dengan format fail atau storan awan tersendiri.
+      author:
+        name: Noah Wilson
+        title: Pengarah Program
+    - rating: ★★★★★
+      text: Penjanaan pelan projek menggunakan AI benar-benar mengubah cara saya bekerja. Saya gunakannya sebagai titik mula dan inspirasi.
+      author:
+        name: Alexander Hall
+        title: Jurulatih Agile
+    - rating: ★★★★★
+      text: Saya turut menggunakannya sebagai penayang dan penyunting MPP untuk fail Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Koordinator Projek
+    - rating: ★★★★★
+      text: Akhirnya alternatif Microsoft Project yang berfungsi dengan sangat baik!
+      author:
+        name: Isabella Moore
+        title: Ketua Pasukan (Pengurusan Projek)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Ia berfungsi seperti yang dijangka dan saya amat berpuas hati.
+      author:
+        name: Benjamin Lee
+        title: Jurulatih Agile
+      is_hidden: true
+    - rating: ★★★★★
+      text: Kuasa penuh MS Project dalam pakej yang jauh lebih kecil!
+      author:
+        name: Mia Harris
+        title: Jurulatih Pengurusan Projek
+      is_hidden: true
+    - rating: ★★★★★
+      text: Sangat mudah untuk mencipta carta Gantt yang intuitif dan tersusun bersama perancangan sumber termasuk penjejakan kemajuan manual.
+      author:
+        name: Emma Rodriguez
+        title: Pengurus Produk
+      is_hidden: true
+    - rating: ★★★★★
+      text: Ia berfungsi lebih pantas [berbanding pesaing], kerana saya dapat rasakan tatalan garis masa dan pembukaan projek amat lancar. Terbaik!
+      author:
+        name: Ethan Walker
+        title: Pengurus Program
+      is_hidden: true
+    - rating: ★★★★★
+      text: Program yang cemerlang!
+      author:
+        name: Harper Thompson
+        title: Pengarah PMO (Pejabat Pengurusan Projek)
+      is_hidden: true
+
+features_detailed:
+  title: Segala Yang Anda Perlukan untuk Perancangan Projek Berjaya
+  subtitle: Ciri-ciri yang berkuasa direka untuk pengurus projek moden
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Perancangan
+      content:
+        title: Perancangan Dikuasakan AI
+        features:
+          - icon: fas fa-check
+            title: Penjana Projek AI
+            description: Cipta pelan projek lengkap daripada deskripsi teks ringkas menggunakan AI maju
+          - icon: fas fa-check
+            title: Penjadualan Mudah
+            description: Kemaskini mana-mana bahagian pelan projek anda dan lihat kesan keseluruhan dengan segera.
+          - icon: fas fa-check
+            title: Kebiasaan
+            description: Ada kemahiran MS Project atau perisian seumpamanya? Gunakannya di sini!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Penjejakan
+      content:
+        title: Penjejakan Lanjutan
+        features:
+          - icon: fas fa-check
+            title: Pemantauan Kemajuan
+            description: Jejak peratusan siap dan kemajuan penanda aras (milestone)
+          - icon: fas fa-check
+            title: Penggunaan Sumber
+            description: Pantau peruntukan sumber dan kenal pasti halangan berpotensi lebih awal
+          - icon: fas fa-check
+            title: Analisis Garis Masa
+            description: Analisis laluan kritikal dan pantau variasi jadual
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: collaboration
+      icon: fas fa-users
+      title: Kerjasama
+      content:
+        title: Kerjasama Lancar
+        features:
+          - icon: fas fa-check
+            title: Integrasi Google Drive
+            description: Kongsi dan bekerjasama menggunakan tetapan kebenaran Google Drive yang biasa
+          - icon: fas fa-check
+            title: Pertukaran dalam format PDF, PNG atau XML
+            description: Format XML daripada MS Project disokong secara natif.
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: Integrasi
+      content:
+        title: Integrasi Berkuasa
+        features:
+          - icon: fas fa-check
+            title: Integrasi Google Workspace
+            description: Gunakan Ingantt seperti aplikasi biasa di Google Drive
+          - icon: fas fa-check
+            title: Keserasian MS Project
+            description: Import fail MPP dan sentiasa simpan ke format XML yang serasi dengan MS Project
+          - icon: fas fa-check
+            title: Pilihan Eksport
+            description: Eksport ke PDF dan PNG
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+pricing:
+  title: Harga Ringkas dan Telus
+  subtitle: Ingantt untuk Google Workspace
+  plans:
+    - title: Percubaan Percuma
+      price: $0
+      duration: 30 hari
+      features:
+        - Akses Penuh Kepada Semua Ciri
+        - Penjanaan Projek dengan AI
+        - Import/Eksport MS Project
+        - Integrasi Google Drive
+      cta:
+        text: Mulakan Percubaan Percuma
+        url: workspace_url
+        class: secondary
+    - title: Profesional
+      price: $3.5
+      duration: setiap pengguna/bulan
+      annual_price: atau $35/pengguna setahun
+      featured: true
+      features:
+        - Segala yang ada dalam Percubaan Percuma
+        - Sokongan Keutamaan
+      cta:
+        text: Mulakan Percubaan Percuma
+        url: workspace_url
+        class: primary
+    - title: Enterprise
+      price: Tersuai
+      duration: untuk pasukan besar
+      features:
+        - Semua dalam Pelan Profesional
+        - Integrasi Tersuai
+        - Sokongan Dedikasi
+        - Jaminan SLA
+      cta:
+        text: Hubungi Jualan
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Apa Yang Anda Boleh Lakukan dengan Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Perancangan Lanjutan
+      items:
+        - Cipta pelan projek daripada deskripsi teks ringkas menggunakan AI
+        - Lihat kesan sebarang perubahan serta-merta
+        - Jangka tarikh siap dan kenal pasti kemungkinan rintangan awal
+        - Rancang kos
+    - icon: fas fa-tasks
+      title: Pengurusan Tugasan
+      items:
+        - Pecahkan projek kepada tugasan
+        - Tetapkan kebergantungan dan tarikh akhir
+        - Tandakan tugasan sebagai penanda aras (milestone)
+        - Jejak laluan kritikal
+        - Pantau status penyelesaian tugasan
+    - icon: fas fa-users
+      title: Kerjasama
+      items:
+        - Gunakan Google Drive untuk menyimpan dan berkongsi
+        - Bertukar fail dalam format XML, PDF, atau PNG – format XML MS Project disokong secara natif
+    - icon: fas fa-chart-line
+      title: Penjejakan Lanjutan
+      items:
+        - Pantau penggunaan sumber
+        - Analisis laluan kritikal
+        - Jejak penggunaan sumber
+        - Analisis garis masa
+    - icon: fas fa-calendar-alt
+      title: Pengurusan Sumber
+      items:
+        - Urus sumber kerja, bahan, dan kos
+        - Tetapkan kalendar sumber dan waktu kerja
+        - Laraskan secara automatik sumber yang terlebih peruntukan
+        - Semak penggunaan sumber sepanjang masa
+    - icon: fas fa-plug
+      title: Integrasi
+      items:
+        - Serasi dengan fail MS Project (MPP dan XML)
+        - Eksport ke PDF dan PNG
+        - Integrasi dengan Google Drive
+
+faq:
+  title: Soalan Lazim
+  items:
+    - question: Apakah Ingantt dan bagaimana ia berfungsi dengan Google Workspace?
+      answer: Ingantt ialah alat pengurusan projek profesional yang berintegrasi lancar dengan Google Workspace. Ia membolehkan anda mencipta, mengurus, dan berkongsi pelan projek terus dari Google Drive, menjadikannya mudah untuk pasukan yang sudah menggunakan ekosistem Google.
+    - question: Bolehkah saya mengimport fail Microsoft Project sedia ada?
+      answer: Ya! Ingantt menyokong sepenuhnya import fail .MPP dan .XML daripada Microsoft Project. Semua data projek anda, termasuk tugasan, sumber, dan kebergantungan, akan dikekalkan semasa proses import.
+    - question: Bagaimana penjanaan projek dengan AI berfungsi?
+      answer: Pembantu AI kami boleh menjana pelan projek lengkap daripada deskripsi teks ringkas. Huraikan matlamat dan keperluan projek anda, dan AI akan membina pelan berstruktur dengan tugasan, garis masa dan kebergantungan berdasarkan amalan terbaik pengurusan projek.
+    - question: Apakah yang termasuk dalam percubaan percuma?
+      answer: Percubaan percuma 30 hari termasuk semua ciri Ingantt dan integrasi penuh dengan Google Workspace. Tiada kad kredit diperlukan untuk bermula.
+    - question: Bolehkah saya menggunakan Ingantt untuk Google Workspace pada peranti mudah alih?
+      answer: Ya! Ingantt untuk Google Workspace berfungsi pada mana-mana peranti dengan pelayar web. Antara muka responsif kami menyesuaikan diri dengan sempurna untuk telefon pintar dan tablet, membolehkan anda mengakses projek sepenuhnya di mana sahaja.
+    - question: Apakah yang terjadi kepada data saya jika saya membatalkan langganan?
+      answer: Fail projek anda kekal tersimpan dengan selamat di Google Drive walaupun selepas dibatalkan. Fail projek anda disimpan dalam format MS Project, memastikan anda tidak akan kehilangan akses kepada data anda.
+    - question: Bagaimana saya boleh membeli Ingantt untuk rakan sepasukan saya?
+      answer: Log masuk ke Ingantt menggunakan akaun Google anda, klik avatar di penjuru kanan atas dan pilih “Purchase subscriptions”. Tandakan “I want to purchase subscriptions for others” dan masukkan emel akaun Google rakan sepasukan anda. Pilih jadual pembayaran (bulanan atau tahunan) dan selesaikan pembelian.
+  support:
+    title: Mulakan perancangan dengan Ingantt sekarang
+    docs:
+      text: Pergi ke Dokumentasi
+    contact:
+      title: Ada soalan lain?<br>Hubungi seseorang untuk sokongan!
+      text: E-mel kami
+      icon: fa fa-envelope
+
+cta:
+  title: Sedia untuk mengubah cara pasukan anda merancang projek?
+  subtitle: Mulakan percubaan percuma anda hari ini dan alami kuasa perancangan projek berasaskan AI
+  button:
+    text: Mulakan Percubaan Percuma
+
+platform_support:
+  title: Perlukah anda versi khusus peranti untuk kegunaan peribadi?
+
+desktop_callback:
+  title: Ingantt
+  cta: Klik "Open" pada dialog di atas.
+  success: Sudah klik? Anda boleh tutup halaman ini.
+  issue: Ada masalah?
+  click: Cuba lagi
+
+blog:
+  title: Blog Ingantt
+  subtitle: Teruskan mengikuti berita terkini dan kemas kini
+  title_tag: Blog Ingantt – berita dan kemas kini terkini daripada pasukan Ingantt
+  meta_keywords: Ingantt, blog, berita, Gantt untuk Google Workspace
+  meta_description: Ketahui berita dan kemas kini terkini daripada pasukan Ingantt

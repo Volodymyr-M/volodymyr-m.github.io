@@ -1,0 +1,231 @@
+title_tag: Ingantt - AI 기반 모던 간트 차트 프로젝트 계획 (Windows용)
+meta_keywords: 간트 차트 앱 Windows, mpp, gantt PC, mpp 리더, mpp 뷰어, MS Project 대안, Windows용 간트, 간트 앱, 프로젝트 계획, 프로젝트 관리
+meta_description: Ingantt - AI 지원 프로젝트 관리 툴 (Windows). PC에서 손쉽게 프로젝트를 계획, 일정관리, 추적할 수 있습니다.
+
+page_url: windows_page
+platform_url: windows_url
+store_image: microsoft_store.png
+platform_image: windows.png
+
+hero:
+  title: Windows용 AI 기반 간트 차트 프로젝트 계획
+  subtitle: 지능형 간트 차트와 AI 보조 기능으로 Windows PC에서 프로젝트 계획 방식을 혁신하세요.
+  cta:
+    primary:
+      text: 무료 체험
+      text_fits: true
+    other_versions:
+      title: 다른 버전
+  rating:
+    stars:
+    text: 별 5개 평가
+  image: hero-windows.png
+
+features_grid:
+  title: 프로젝트 매니저가 Ingantt를 선택하는 이유
+  items:
+    - icon: fas fa-robot
+      title: AI 기반 계획
+      description: 간단한 설명만으로도 AI 어시스턴트를 활용해 완전한 프로젝트 계획을 생성합니다.
+    - icon: fas fa-brain
+      title: 모든 요소 계획
+      description: 일정, 비용, 작업, 종속성, 리소스 등을 한 곳에서 관리하세요.
+    - icon: fas fa-desktop
+      title: Windows에 최적화
+      description: Windows 환경에서 네이티브로 원활하게 프로젝트를 계획, 검토 및 관리할 수 있습니다.
+    - icon: fas fa-file-import
+      title: MS Project 호환
+      description: .MPP 파일을 가져오고, MS Project 호환 XML 형식으로 저장—타협 없이 이용하세요.
+
+demo:
+  title: Ingantt가 실제로 어떻게 작동하는지 확인
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: 전 세계 프로젝트 매니저들이 신뢰합니다
+  show_more:
+    text: 더 보기
+    icon: fas fa-chevron-down
+  show_less:
+    text: 접기
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 자체 파일 형식이나 자체 클라우드 저장소에 의존하지 않는 최고의 간트 앱입니다.
+      author:
+        name: Noah Wilson
+        title: 프로그램 디렉터
+    - rating: ★★★★★
+      text: AI를 활용한 프로젝트 계획 생성은 제게 획기적이었습니다. 초기 아이디어나 출발점으로 활용하고 있습니다.
+      author:
+        name: Alexander Hall
+        title: 애자일 코치
+    - rating: ★★★★★
+      text: MS Project 파일 편집 및 뷰어로도 사용 중입니다.
+      author:
+        name: Amelia Clark
+        title: 프로젝트 코디네이터
+    - rating: ★★★★★
+      text: 마침내 훌륭하게 동작하는 MS Project 대안을 찾았네요!
+      author:
+        name: Isabella Moore
+        title: 팀 리드 (프로젝트 관리)
+      is_hidden: true
+    - rating: ★★★★★
+      text: 기대한 대로 작동하며, 매우 만족스럽습니다.
+      author:
+        name: Benjamin Lee
+        title: 애자일 코치
+      is_hidden: true
+    - rating: ★★★★★
+      text: 훨씬 가벼운 패키지로 MS Project의 모든 기능을 누릴 수 있어요!
+      author:
+        name: Mia Harris
+        title: 프로젝트 관리 트레이너
+      is_hidden: true
+    - rating: ★★★★★
+      text: 직관적이고 체계적인 간트 차트를 마일스톤과 리소스 계획과 함께 생성할 수 있으며, 수동 진행도 추적이 가능합니다.
+      author:
+        name: Emma Rodriguez
+        title: 프로덕트 매니저
+      is_hidden: true
+    - rating: ★★★★★
+      text: 경쟁사 제품보다 빠르게 동작한다는 느낌이 듭니다. 타임라인 스크롤이나 프로젝트 열기가 매우 빠릅니다. 엄지척!
+      author:
+        name: Ethan Walker
+        title: 프로그램 매니저
+      is_hidden: true
+    - rating: ★★★★★
+      text: 훌륭한 프로그램이에요!
+      author:
+        name: Harper Thompson
+        title: PMO (프로젝트 관리 오피스) 디렉터
+      is_hidden: true
+
+features_detailed:
+  title: 성공적인 프로젝트 계획을 위한 모든 기능
+  subtitle: 현대적 프로젝트 매니저를 위해 설계된 강력한 기능
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 계획
+      content:
+        title: AI 기반 계획
+        features:
+          - icon: fas fa-check
+            title: AI 프로젝트 생성기
+            description: 고급 AI를 이용해 간단한 텍스트 설명으로 완전한 프로젝트 계획을 작성
+          - icon: fas fa-check
+            title: 쉬운 일정관리
+            description: 프로젝트 계획의 어느 부분이든 업데이트하면 전체 결과가 즉시 반영됩니다.
+          - icon: fas fa-check
+            title: 친숙한 방식
+            description: MS Project나 유사한 소프트웨어 사용 경험이 있으신가요? 그대로 활용하세요!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: 추적
+      content:
+        title: 고급 추적
+        features:
+          - icon: fas fa-check
+            title: 진행 상황 모니터링
+            description: 완료율과 마일스톤 진행 상황을 추적
+          - icon: fas fa-check
+            title: 리소스 사용량
+            description: 리소스 할당을 모니터링하고 잠재적 병목 현상을 파악
+          - icon: fas fa-check
+            title: 타임라인 분석
+            description: 크리티컬 패스를 분석하고 일정 변동을 추적
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: 통합
+      content:
+        title: 강력한 통합
+        features:
+          - icon: fas fa-check
+            title: MS Project 호환성
+            description: MS Project의 MPP 파일을 가져오고, MS Project 호환 XML 형식으로 항상 저장
+          - icon: fas fa-check
+            title: 내보내기 옵션
+            description: 언제든 PDF와 PNG로 내보내기 가능
+          - icon: fas fa-check
+            title: Google Drive로 저장 및 열기
+            description: 프로젝트 파일을 보관하기 위해 Google Drive를 이용하세요.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Ingantt로 할 수 있는 일
+  items:
+    - icon: fas fa-brain
+      title: 고급 계획
+      items:
+        - AI를 사용해 간단한 텍스트 설명으로 프로젝트 계획 생성
+        - 어느 부분이든 수정하고 즉시 변경 사항 확인
+        - 완료 예정일을 예측하고 잠재적 장애물을 조기에 파악
+        - 비용 계획
+    - icon: fas fa-tasks
+      title: 작업 관리
+      items:
+        - 프로젝트를 작업 단위로 분할
+        - 작업 종속성과 마감일 설정
+        - 작업을 마일스톤으로 표시
+        - 크리티컬 패스를 모니터링
+        - 작업 완료 상태 추적
+    - icon: fas fa-users
+      title: 협업
+      items:
+        - Google Drive와 연동
+        - XML, PDF, PNG 형식의 파일을 주고받기
+    - icon: fas fa-chart-line
+      title: 고급 추적
+      items:
+        - 리소스 할당 모니터링
+        - 크리티컬 패스 분석
+        - 리소스 사용량 확인
+        - 타임라인 분석
+    - icon: fas fa-calendar-alt
+      title: 리소스 관리
+      items:
+        - 작업, 자재, 비용 리소스를 관리
+        - 리소스 캘린더와 근무 시간을 설정
+        - 과도하게 할당된 리소스를 자동 레벨링
+        - 시간 경과에 따른 리소스 사용량 검토
+    - icon: fas fa-plug
+      title: 통합 기능
+      items:
+        - MS Project 파일 호환 (MPP 및 XML)
+        - PDF와 PNG로 내보내기
+        - Google Drive와 연동
+
+faq:
+  title: 자주 묻는 질문
+  items:
+    - question: Ingantt for Windows란 무엇인가요?
+      answer: Ingantt for Windows는 PC에서 네이티브로 실행되는 전문 프로젝트 관리 도구입니다. AI 기반 계획 및 MS Project 호환 기능을 통해 프로젝트 계획과 관리를 손쉽게 수행할 수 있습니다.
+    - question: 기존 Microsoft Project 파일을 가져올 수 있나요?
+      answer: 네! Ingantt는 Microsoft Project의 .MPP와 .XML 파일 가져오기를 완벽히 지원합니다. 작업, 리소스, 종속성 등 모든 프로젝트 데이터가 가져오기 과정에서 그대로 유지됩니다.
+    - question: AI를 활용한 프로젝트 생성은 어떻게 작동하나요?
+      answer: 저희 AI 어시스턴트는 간단한 텍스트 설명만으로 완전한 프로젝트 계획을 생성할 수 있습니다. 프로젝트 목표와 요구 사항을 설명하면, AI가 모범 사례에 기반해 작업, 일정, 종속성을 포함하는 체계적인 계획을 만들어줍니다.
+    - question: Windows 버전에 대한 무료 체험 기간이 있나요?
+      answer: 네. Microsoft Store에서 앱을 설치한 후 7일 동안 무료 체험을 이용할 수 있습니다.
+    - question: Windows용 Ingantt는 어떻게 구매하나요?
+      answer: Microsoft Store에서 구매할 수 있습니다. 한 번 구매하면 반복 과금 없이 계속 소유하게 됩니다.
+  support:
+    title: Ingantt로 프로젝트 계획을 시작해보세요
+    docs:
+      text: 문서 보기
+    contact:
+      title: 더 궁금한 점이 있으신가요?<br>실제 담당자에게 문의해보세요!
+      text: 이메일 보내기
+      icon: fa fa-envelope
+
+cta:
+  title: 프로젝트 계획 방식을 혁신할 준비가 되셨나요?
+  subtitle: Windows 환경에서 제공되는 AI 기반 프로젝트 계획을 경험해보세요
+  button:
+    text: 무료 체험
+
+platform_support:
+  title: 다른 플랫폼용 버전이 필요하신가요?

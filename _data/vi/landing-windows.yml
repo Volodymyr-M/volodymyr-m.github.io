@@ -1,0 +1,231 @@
+title_tag: Ingantt - Biểu đồ Gantt hiện đại cho Windows có tích hợp AI
+meta_keywords: ứng dụng biểu đồ gantt Windows, mpp, gantt PC, trình đọc mpp, trình xem mpp, thay thế MS Project, gantt cho Windows, ứng dụng gantt, lập kế hoạch dự án, quản lý dự án
+meta_description: Ingantt - Công cụ quản lý dự án được hỗ trợ bởi AI dành cho Windows. Lập kế hoạch, lịch biểu và theo dõi dự án của bạn trên PC một cách dễ dàng.
+
+page_url: windows_page
+platform_url: windows_url
+store_image: microsoft_store.png
+platform_image: windows.png
+
+hero:
+  title: Lập kế hoạch dự án với biểu đồ Gantt và AI cho Windows
+  subtitle: Biến đổi cách bạn lập kế hoạch dự án với biểu đồ Gantt thông minh và trợ lý AI trên PC Windows của bạn.
+  cta:
+    primary:
+      text: Dùng thử miễn phí
+      text_fits: true
+    other_versions:
+      title: Phiên bản khác
+  rating:
+    stars:
+    text: 5 sao trên
+  image: hero-windows.png
+
+features_grid:
+  title: Tại sao các nhà quản lý dự án chọn Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Lập kế hoạch dựa trên AI
+      description: Tạo ra các kế hoạch dự án hoàn chỉnh từ mô tả ngắn gọn bằng cách sử dụng trợ lý AI của chúng tôi.
+    - icon: fas fa-brain
+      title: Lên kế hoạch mọi thứ
+      description: Lịch biểu, chi phí, nhiệm vụ, phụ thuộc, tài nguyên và nhiều hơn nữa — tất cả trong một nơi.
+    - icon: fas fa-desktop
+      title: Tối ưu hóa cho Windows
+      description: Lên kế hoạch, xem xét và quản lý dự án trên Windows với trải nghiệm gốc và mượt mà.
+    - icon: fas fa-file-import
+      title: Tương thích với MS Project
+      description: Nhập tệp .MPP và lưu ở định dạng XML tương thích với MS Project — không thỏa hiệp.
+
+demo:
+  title: Xem Ingantt hoạt động
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Được tin cậy bởi các nhà quản lý dự án trên toàn thế giới
+  show_more:
+    text: Xem thêm
+    icon: fas fa-chevron-down
+  show_less:
+    text: Thu gọn
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Ứng dụng Gantt tốt nhất, không buộc bạn vào định dạng tệp hay lưu trữ đám mây riêng của nó.
+      author:
+        name: Noah Wilson
+        title: Giám đốc Chương trình
+    - rating: ★★★★★
+      text: Việc tạo kế hoạch dự án bằng AI thực sự là một bước ngoặt đối với tôi. Tôi sử dụng nó như điểm khởi đầu và nguồn cảm hứng cho kế hoạch của mình.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Tôi cũng sử dụng nó như trình xem và chỉnh sửa MPP cho các tệp Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Điều phối viên Dự án
+    - rating: ★★★★★
+      text: Cuối cùng, một giải pháp thay thế cho Microsoft Project thực sự hoạt động tuyệt vời!
+      author:
+        name: Isabella Moore
+        title: Trưởng nhóm (Quản lý Dự án)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Hoạt động đúng như kỳ vọng và tôi rất hài lòng về điều này.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: Toàn bộ sức mạnh của MS Project gói gọn trong một gói nhỏ gọn hơn rất nhiều!
+      author:
+        name: Mia Harris
+        title: Chuyên gia đào tạo Quản lý Dự án
+      is_hidden: true
+    - rating: ★★★★★
+      text: Dễ dàng tạo biểu đồ Gantt trực quan và có cấu trúc kèm các cột mốc (milestone) và lập kế hoạch tài nguyên, bao gồm cả theo dõi tiến độ thủ công.
+      author:
+        name: Emma Rodriguez
+        title: Quản lý Sản phẩm
+      is_hidden: true
+    - rating: ★★★★★
+      text: Chạy nhanh hơn [so với đối thủ], tôi có thể thấy rõ khi cuộn timeline và mở dự án rất nhanh. Rất tuyệt!
+      author:
+        name: Ethan Walker
+        title: Quản lý Chương trình
+      is_hidden: true
+    - rating: ★★★★★
+      text: Chương trình xuất sắc!
+      author:
+        name: Harper Thompson
+        title: Giám đốc PMO (Văn phòng Quản lý Dự án)
+      is_hidden: true
+
+features_detailed:
+  title: Mọi thứ bạn cần để lập kế hoạch dự án thành công
+  subtitle: Các tính năng mạnh mẽ được thiết kế cho nhà quản lý dự án hiện đại
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Lập kế hoạch
+      content:
+        title: Lập kế hoạch với AI
+        features:
+          - icon: fas fa-check
+            title: Trình tạo dự án AI
+            description: Tạo kế hoạch dự án hoàn chỉnh từ mô tả văn bản ngắn gọn bằng AI tiên tiến
+          - icon: fas fa-check
+            title: Lên lịch dễ dàng
+            description: Cập nhật bất kỳ phần nào của kế hoạch dự án và xem ngay kết quả tổng thể.
+          - icon: fas fa-check
+            title: Sự quen thuộc
+            description: Đã có kinh nghiệm với MS Project hoặc phần mềm tương tự? Tận dụng chúng!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Theo dõi
+      content:
+        title: Theo dõi nâng cao
+        features:
+          - icon: fas fa-check
+            title: Giám sát tiến độ
+            description: Theo dõi phần trăm hoàn thành và tiến độ các cột mốc
+          - icon: fas fa-check
+            title: Sử dụng tài nguyên
+            description: Giám sát việc phân bổ tài nguyên và nhận diện các nút thắt tiềm ẩn
+          - icon: fas fa-check
+            title: Phân tích dòng thời gian
+            description: Phân tích đường găng (critical path) và theo dõi những biến động trong lịch biểu
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Tích hợp
+      content:
+        title: Tích hợp mạnh mẽ
+        features:
+          - icon: fas fa-check
+            title: Tương thích MS Project
+            description: Nhập tệp MPP từ MS Project và luôn lưu ở định dạng XML tương thích với MS Project.
+          - icon: fas fa-check
+            title: Tùy chọn xuất
+            description: Xuất sang PDF và PNG bất kỳ lúc nào
+          - icon: fas fa-check
+            title: Lưu và mở từ Google Drive
+            description: Sử dụng Google Drive để lưu trữ tệp dự án.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Bạn có thể làm gì với Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Lập kế hoạch nâng cao
+      items:
+        - Tạo kế hoạch dự án từ mô tả văn bản ngắn gọn bằng AI
+        - Thực hiện bất kỳ cập nhật nào và xem thay đổi tức thì
+        - Dự đoán ngày hoàn thành và xác định sớm trở ngại tiềm ẩn
+        - Lập kế hoạch chi phí
+    - icon: fas fa-tasks
+      title: Quản lý nhiệm vụ
+      items:
+        - Chia nhỏ dự án thành các nhiệm vụ
+        - Đặt phụ thuộc và thời hạn
+        - Đánh dấu nhiệm vụ là cột mốc (milestone)
+        - Giám sát đường găng (critical path)
+        - Theo dõi trạng thái hoàn thành nhiệm vụ
+    - icon: fas fa-users
+      title: Cộng tác
+      items:
+        - Hoạt động với Google Drive
+        - Trao đổi tệp ở định dạng XML, PDF hoặc PNG
+    - icon: fas fa-chart-line
+      title: Theo dõi nâng cao
+      items:
+        - Giám sát phân bổ tài nguyên
+        - Phân tích đường găng
+        - Theo dõi việc sử dụng tài nguyên
+        - Phân tích dòng thời gian
+    - icon: fas fa-calendar-alt
+      title: Quản lý tài nguyên
+      items:
+        - Quản lý tài nguyên công việc, vật liệu, và chi phí
+        - Đặt lịch cho tài nguyên và giờ làm việc
+        - Tự động cân bằng tài nguyên bị phân bổ quá mức
+        - Xem lại việc sử dụng tài nguyên theo thời gian
+    - icon: fas fa-plug
+      title: Tích hợp
+      items:
+        - Tương thích với tệp MS Project (MPP và XML)
+        - Xuất sang PDF và PNG
+        - Hoạt động với Google Drive
+
+faq:
+  title: Các câu hỏi thường gặp
+  items:
+    - question: Ingantt cho Windows là gì?
+      answer: Ingantt cho Windows là công cụ quản lý dự án chuyên nghiệp chạy nguyên bản trên PC của bạn. Nó cho phép bạn tạo và quản lý kế hoạch dự án với khả năng lập kế hoạch được hỗ trợ bởi AI và tương thích với MS Project.
+    - question: Tôi có thể nhập các tệp Microsoft Project sẵn có không?
+      answer: Có! Ingantt hỗ trợ đầy đủ việc nhập tệp .MPP và .XML từ Microsoft Project. Dữ liệu dự án của bạn, bao gồm nhiệm vụ, tài nguyên và phụ thuộc, sẽ được giữ nguyên khi nhập.
+    - question: Việc tạo dự án với AI hoạt động thế nào?
+      answer: Trợ lý AI của chúng tôi có thể tạo ra các kế hoạch dự án hoàn chỉnh từ các mô tả văn bản ngắn gọn. Chỉ cần mô tả mục tiêu và yêu cầu của dự án, AI sẽ xây dựng một kế hoạch có cấu trúc với nhiệm vụ, lịch biểu và các phụ thuộc dựa trên thông lệ tốt nhất.
+    - question: Có bản dùng thử miễn phí cho phiên bản Windows không?
+      answer: Có. Sau khi cài đặt ứng dụng từ Microsoft Store, bạn sẽ có 7 ngày dùng thử miễn phí.
+    - question: Làm thế nào để tôi mua Ingantt cho Windows?
+      answer: Hãy truy cập Microsoft Store và mua ở đó. Bạn sẽ sở hữu ứng dụng vĩnh viễn mà không có chi phí định kỳ.
+  support:
+    title: Bắt đầu lập kế hoạch dự án với Ingantt
+    docs:
+      text: Xem tài liệu
+    contact:
+      title: Còn thắc mắc?<br>Hãy liên hệ với một người hỗ trợ thực sự!
+      text: Gửi email cho chúng tôi
+      icon: fa fa-envelope
+
+cta:
+  title: Sẵn sàng để thay đổi cách bạn lập kế hoạch dự án?
+  subtitle: Tận hưởng khả năng lập kế hoạch được hỗ trợ bởi AI với trải nghiệm gốc trên Windows
+  button:
+    text: Dùng thử miễn phí
+
+platform_support:
+  title: Cần phiên bản cho nền tảng khác?

@@ -1,0 +1,89 @@
+terms_of_service:
+    title_tag: Ingantt – Nutzungsbedingungen
+    meta_keywords: Ingantt, Nutzungsbedingungen
+    meta_description: Ingantts Nutzungsbedingungen
+    text_title: Nutzungsbedingungen
+    text: |
+      Willkommen bei Ingantt! Durch die Nutzung unserer App stimmen Sie den folgenden Allgemeinen Geschäftsbedingungen zu:
+
+      ## 1. Annahme der Bedingungen
+
+      Indem Sie auf Ingantt zugreifen oder es nutzen, erklären Sie sich mit diesen Nutzungsbedingungen und unserer Datenschutzerklärung einverstanden.
+
+      ## 2. Nutzung von Google Drive
+
+      Unsere App verbindet sich mit Ihrem Google Drive, um Ihre Daten zu speichern und abzurufen. Durch die Nutzung unserer App ermächtigen Sie uns, zu diesem Zweck auf Ihr Google Drive-Konto zuzugreifen.
+
+      ## 3. Nutzerdaten
+
+      Sie behalten das Eigentum an allen Daten, die Sie über unsere App in Ihrem Google Drive hochladen. Wir erheben keinen Anspruch auf Eigentumsrechte an Ihren Daten.
+
+      ## 4. Datenschutz
+
+      Ihre Privatsphäre ist uns wichtig. Wir greifen nur auf Ihre Daten zu, speichern sie und verwenden sie nur, soweit dies zur Erbringung unserer Dienstleistungen erforderlich ist. Bitte lesen Sie unsere Datenschutzerklärung, um mehr darüber zu erfahren, wie wir mit Ihren Daten umgehen.
+
+      ## 5. Sicherheit
+
+      Wir ergreifen angemessene Maßnahmen, um Ihre Daten zu schützen. Wir können jedoch keine absolute Sicherheit Ihrer Daten garantieren und übernehmen keine Verantwortung für unbefugte Zugriffe oder Sicherheitsverletzungen.
+
+      ## 6. Verantwortlichkeiten der Nutzer
+
+      Sie sind für die Aufrechterhaltung der Sicherheit Ihres Google Drive-Kontos verantwortlich und für alle Aktivitäten, die unter Ihrem Konto stattfinden.
+
+      ## 7. Verbotene Aktivitäten
+
+      Sie verpflichten sich, unsere App nicht für rechtswidrige Zwecke oder in einer Weise zu verwenden, die gegen diese Nutzungsbedingungen verstößt.
+
+      ## 8. Kündigung
+
+      Wir behalten uns das Recht vor, Ihren Zugang zu unserer App jederzeit und ohne Vorankündigung aus beliebigen Gründen zu sperren oder zu kündigen, insbesondere wenn Sie gegen diese Bedingungen verstoßen.
+
+      ## 9. Änderungen der Bedingungen
+
+      Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Wir werden Sie über etwaige Änderungen informieren, indem wir die neuen Bedingungen in unserer App veröffentlichen. Ihre fortgesetzte Nutzung der App nach solchen Änderungen gilt als Annahme der neuen Bedingungen.
+
+      ## 10. Kontakt
+
+      Wenn Sie Fragen zu diesen Nutzungsbedingungen haben, kontaktieren Sie uns bitte.
+
+privacy_policy:
+    title_tag: Ingantt – Datenschutzrichtlinie
+    meta_keywords: Ingantt, Datenschutzrichtlinie
+    meta_description: Ingantts Datenschutzrichtlinie
+    text_title: Datenschutzrichtlinie
+    text: |
+      ## Was sind personenbezogene Daten?
+
+      Personenbezogene Daten sind Informationen oder Ansichten, die einen Menschen identifizieren. Beispiele hierfür sind Namen, Adressen, E-Mail-Adressen sowie Telefon- und Faxnummern.
+
+      ## Es werden keine Daten erhoben
+
+      Alle Daten, die vom Nutzer empfangen und von Ingantt verarbeitet werden, werden entweder in lokalen Dateien auf dem Gerät des Nutzers oder im Google Drive-Konto des Nutzers gespeichert, sofern der Nutzer diese Option ausdrücklich ausgewählt und bei Google aktiviert hat.
+
+      Im Google Drive-Speicher des Nutzers speichert Ingantt ausschließlich die Dateien, die der Nutzer mithilfe von Ingantt erstellt. Ingantt greift nur auf die selbst erstellten Dateien zu, nutzt oder teilt ausschließlich diese.
+
+      MPP-Dateien, die vom Gerät des Nutzers geöffnet werden, werden an den Ingantt-Konvertierungs-Webdienst gesendet, um konvertiert und im XML-Format zurückgesendet zu werden. Die Dateien werden nicht auf dem Dienst gespeichert.
+
+      Daher werden von den Entwicklern von Ingantt keine Daten erhoben.
+
+      ## Daten, die mit Dritten geteilt werden
+
+      Um die KI-bezogene Funktionalität zu ermöglichen, wird die vom Nutzer eingegebene Eingabeaufforderung zum Erstellen einer neuen Datei mithilfe von KI an Drittanbieter-KI-Tools (OpenAI und/oder Gemini) übermittelt.
+
+      Es werden keine anderen Daten an Dritte weitergegeben.
+
+      ## Datennutzung
+
+      Es werden keine Nutzerdaten verwendet, um verallgemeinerte KI- bzw. ML-Modelle zu entwickeln, zu verbessern oder zu trainieren. Dies schließt auch Nutzerdaten ein, die über die Google Workspace-APIs bezogen werden.
+
+      ## Datenschutz
+
+      Wir setzen geeignete technische und organisatorische Maßnahmen ein, um Ihre Daten vor unbefugtem Zugriff, Verlust oder Offenlegung zu schützen.
+
+      ## Aktualisierungen dieser Richtlinie
+
+      Diese Richtlinie kann sich von Zeit zu Zeit ändern und ist auf unserer Website verfügbar.
+
+      ## Beschwerden und Anfragen zur Datenschutzrichtlinie
+
+      Wenn Sie Fragen oder Beschwerden zu unserer Datenschutzrichtlinie haben, kontaktieren Sie uns bitte.

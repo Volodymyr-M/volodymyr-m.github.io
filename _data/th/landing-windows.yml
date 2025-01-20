@@ -1,0 +1,231 @@
+title_tag: Ingantt - เครื่องมือแผนภูมิ Gantt สมัยใหม่สำหรับ Windows พร้อม AI
+meta_keywords: แอปแผนภูมิ gantt Windows, mpp, gantt PC, โปรแกรมอ่าน mpp, โปรแกรมดู mpp, ทางเลือก MS Project, gantt สำหรับ Windows, แอป gantt, วางแผนโครงการ, การจัดการโครงการ
+meta_description: Ingantt - เครื่องมือจัดการโครงการที่ขับเคลื่อนด้วย AI สำหรับ Windows ช่วยวางแผน กำหนดตาราง และติดตามโครงการของคุณบน PC ได้อย่างง่ายดาย
+
+page_url: windows_page
+platform_url: windows_url
+store_image: microsoft_store.png
+platform_image: windows.png
+
+hero:
+  title: วางแผนโครงการด้วยแผนภูมิ Gantt และ AI สำหรับ Windows
+  subtitle: เปลี่ยนวิธีการวางแผนโครงการของคุณด้วยแผนภูมิ Gantt อัจฉริยะและ AI บน PC Windows
+  cta:
+    primary:
+      text: ทดลองใช้ฟรี
+      text_fits: true
+    other_versions:
+      title: เวอร์ชันอื่น
+  rating:
+    stars:
+    text: 5 ดาว
+  image: hero-windows.png
+
+features_grid:
+  title: เหตุใดผู้จัดการโครงการจึงเลือกใช้ Ingantt
+  items:
+    - icon: fas fa-robot
+      title: การวางแผนด้วย AI
+      description: สร้างแผนโครงการที่สมบูรณ์ได้จากคำอธิบายสั้น ๆ ด้วยผู้ช่วย AI ของเรา
+    - icon: fas fa-brain
+      title: วางแผนทุกด้าน
+      description: กำหนดตาราง ค่าใช้จ่าย งาน ความสัมพันธ์ระหว่างงาน ทรัพยากร และอื่น ๆ—all in one place
+    - icon: fas fa-desktop
+      title: ปรับแต่งสำหรับ Windows
+      description: วางแผน ทบทวน และจัดการโครงการบน Windows ด้วยประสบการณ์แบบเนทีฟที่ราบรื่น
+    - icon: fas fa-file-import
+      title: เข้ากันได้กับ MS Project
+      description: นำเข้าไฟล์ .MPP และบันทึกเป็นไฟล์ XML ที่เข้ากันได้กับ MS Project—โดยไม่มีข้อจำกัด
+
+demo:
+  title: ดู Ingantt ทำงานจริง
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: ได้รับความไว้วางใจจากผู้จัดการโครงการทั่วโลก
+  show_more:
+    text: แสดงเพิ่มเติม
+    icon: fas fa-chevron-down
+  show_less:
+    text: แสดงน้อยลง
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: เป็นแอป Gantt ที่ดีที่สุดและไม่ได้บังคับให้ใช้รูปแบบไฟล์หรือพื้นที่เก็บข้อมูลบนคลาวด์ของตัวเอง
+      author:
+        name: Noah Wilson
+        title: ผู้อำนวยการโปรแกรม
+    - rating: ★★★★★
+      text: การสร้างแผนโครงการด้วย AI เปลี่ยนเกมสำหรับผม ผมใช้เป็นจุดเริ่มต้นและแรงบันดาลใจในการทำแผนโครงการ
+      author:
+        name: Alexander Hall
+        title: โค้ช Agile
+    - rating: ★★★★★
+      text: ผมยังใช้มันเป็นตัวดูและแก้ไขไฟล์ MPP สำหรับ Microsoft Project
+      author:
+        name: Amelia Clark
+        title: ผู้ประสานงานโครงการ
+    - rating: ★★★★★
+      text: ในที่สุดก็มีทางเลือกแทน Microsoft Project ที่ใช้งานได้ดีเยี่ยม!
+      author:
+        name: Isabella Moore
+        title: หัวหน้าทีม (การจัดการโครงการ)
+      is_hidden: true
+    - rating: ★★★★★
+      text: มันทำงานตามที่คาดหวัง และผมพอใจมาก
+      author:
+        name: Benjamin Lee
+        title: โค้ช Agile
+      is_hidden: true
+    - rating: ★★★★★
+      text: คุณสมบัติเต็มรูปแบบของ MS Project ในแพ็กเกจที่เล็กกว่ามาก!
+      author:
+        name: Mia Harris
+        title: ผู้ฝึกสอนการจัดการโครงการ
+      is_hidden: true
+    - rating: ★★★★★
+      text: สามารถสร้างแผนภูมิ Gantt ที่เข้าใจง่ายและมีโครงสร้าง พร้อมด้วยการวางแผนทรัพยากรและการติดตามความคืบหน้าด้วยตัวเอง
+      author:
+        name: Emma Rodriguez
+        title: ผู้จัดการผลิตภัณฑ์
+      is_hidden: true
+    - rating: ★★★★★
+      text: ทำงานได้เร็วกว่า [คู่แข่ง] ผมรู้สึกว่าเลื่อนดูไทม์ไลน์และเปิดโครงการได้เร็วมาก ให้หัวแม่มือขึ้น!
+      author:
+        name: Ethan Walker
+        title: ผู้จัดการโปรแกรม
+      is_hidden: true
+    - rating: ★★★★★
+      text: เป็นโปรแกรมที่ยอดเยี่ยมมาก!
+      author:
+        name: Harper Thompson
+        title: ผู้อำนวยการ PMO (สำนักงานบริหารโครงการ)
+      is_hidden: true
+
+features_detailed:
+  title: ทุกอย่างที่คุณต้องการเพื่อวางแผนโครงการให้ประสบความสำเร็จ
+  subtitle: ฟีเจอร์ที่ทรงพลัง ออกแบบมาสำหรับผู้จัดการโครงการยุคใหม่
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: การวางแผน
+      content:
+        title: การวางแผนด้วย AI
+        features:
+          - icon: fas fa-check
+            title: ตัวสร้างโครงการด้วย AI
+            description: สร้างแผนโครงการที่สมบูรณ์จากข้อความสั้น ๆ โดยใช้ AI ขั้นสูง
+          - icon: fas fa-check
+            title: จัดตารางอย่างง่ายดาย
+            description: อัปเดตส่วนใดก็ได้ในแผนโครงการของคุณและดูผลลัพธ์โดยรวมทันที
+          - icon: fas fa-check
+            title: คุ้นเคย
+            description: เคยใช้ MS Project หรือซอฟต์แวร์ที่คล้ายกันหรือไม่? ใช้ประสบการณ์นั้นได้เลย!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: การติดตาม
+      content:
+        title: การติดตามขั้นสูง
+        features:
+          - icon: fas fa-check
+            title: การตรวจสอบความคืบหน้า
+            description: ติดตามเปอร์เซ็นต์ความสำเร็จและความคืบหน้าของจุดสังเกต (milestones)
+          - icon: fas fa-check
+            title: การใช้ทรัพยากร
+            description: ตรวจสอบการจัดสรรทรัพยากรและระบุคอขวดที่อาจเกิดขึ้น
+          - icon: fas fa-check
+            title: การวิเคราะห์ไทม์ไลน์
+            description: วิเคราะห์เส้นทางวิกฤตและติดตามความแปรผันของตาราง
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: การผสานรวม
+      content:
+        title: การผสานรวมอันทรงพลัง
+        features:
+          - icon: fas fa-check
+            title: ความเข้ากันได้กับ MS Project
+            description: นำเข้าไฟล์ MPP ของ MS Project และบันทึกเป็น XML ที่เข้ากันได้กับ MS Project ทุกครั้ง
+          - icon: fas fa-check
+            title: ตัวเลือกการส่งออก
+            description: ส่งออกเป็น PDF และ PNG ได้ตลอดเวลา
+          - icon: fas fa-check
+            title: การบันทึกและเปิดบน Google Drive
+            description: ใช้ Google Drive ของคุณในการจัดเก็บไฟล์โครงการ
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: สิ่งที่คุณทำได้ด้วย Ingantt
+  items:
+    - icon: fas fa-brain
+      title: การวางแผนขั้นสูง
+      items:
+        - สร้างแผนโครงการจากข้อความสั้น ๆ โดยใช้ AI
+        - แก้ไขสิ่งใด ๆ และเห็นการเปลี่ยนแปลงได้ทันที
+        - คาดการณ์วันเสร็จสิ้นและระบุปัญหาที่อาจเกิดขึ้นล่วงหน้า
+        - วางแผนค่าใช้จ่าย
+    - icon: fas fa-tasks
+      title: การจัดการงาน
+      items:
+        - แบ่งโปรเจ็กต์เป็นงานย่อย
+        - กำหนดเงื่อนไขการพึ่งพา (dependency) และกำหนดเส้นตาย
+        - ทำเครื่องหมายงานเป็นจุดสังเกต (milestone)
+        - ติดตามเส้นทางวิกฤต
+        - ติดตามสถานะความคืบหน้าของงาน
+    - icon: fas fa-users
+      title: การทำงานร่วมกัน
+      items:
+        - ทำงานร่วมกับ Google Drive
+        - แลกเปลี่ยนไฟล์ในรูปแบบ XML, PDF หรือ PNG
+    - icon: fas fa-chart-line
+      title: การติดตามขั้นสูง
+      items:
+        - ตรวจสอบการจัดสรรทรัพยากร
+        - วิเคราะห์เส้นทางวิกฤต
+        - ตรวจสอบการใช้ทรัพยากร
+        - วิเคราะห์ไทม์ไลน์
+    - icon: fas fa-calendar-alt
+      title: การจัดการทรัพยากร
+      items:
+        - จัดการทรัพยากรการทำงาน วัสดุ และต้นทุน
+        - กำหนดปฏิทินและเวลาทำงานสำหรับทรัพยากร
+        - ปรับสมดุลทรัพยากรที่ใช้เกินโดยอัตโนมัติ
+        - ตรวจสอบการใช้ทรัพยากรตามระยะเวลา
+    - icon: fas fa-plug
+      title: การผสานรวม
+      items:
+        - ความเข้ากันได้ของไฟล์ MS Project (MPP และ XML)
+        - ส่งออกเป็น PDF และ PNG
+        - ทำงานร่วมกับ Google Drive
+
+faq:
+  title: คำถามที่พบบ่อย
+  items:
+    - question: Ingantt for Windows คืออะไร
+      answer: Ingantt for Windows เป็นเครื่องมือจัดการโครงการระดับมืออาชีพที่ทำงานแบบเนทีฟบน PC ของคุณ ช่วยให้คุณสร้างและจัดการแผนโครงการด้วยการวางแผนที่มี AI ช่วยและรองรับ MS Project
+    - question: ฉันสามารถนำเข้าไฟล์ Microsoft Project ที่มีอยู่แล้วได้หรือไม่
+      answer: ได้! Ingantt รองรับการนำเข้าไฟล์ .MPP และ .XML จาก Microsoft Project อย่างสมบูรณ์ ข้อมูลโครงการของคุณ ทั้งงาน ทรัพยากร และความสัมพันธ์ระหว่างงาน จะถูกเก็บรักษาไว้ในกระบวนการนำเข้า
+    - question: การสร้างโครงการด้วย AI ทำงานอย่างไร
+      answer: ผู้ช่วย AI ของเราสามารถสร้างแผนโครงการที่สมบูรณ์ได้จากข้อความสั้น ๆ เพียงคุณระบุเป้าหมายและความต้องการของโครงการ AI ก็จะสร้างแผนงานที่มีการแบ่งงาน กำหนดเวลา และความสัมพันธ์ตามหลักปฏิบัติที่ดีที่สุด
+    - question: มีรุ่นทดลองใช้ฟรีสำหรับเวอร์ชัน Windows หรือไม่
+      answer: มี หลังจากติดตั้งแอปจาก Microsoft Store แล้ว คุณสามารถทดลองใช้ฟรีได้ 7 วัน
+    - question: ฉันจะซื้อ Ingantt สำหรับ Windows ได้อย่างไร
+      answer: ไปที่ Microsoft Store และซื้อได้ที่นั่น คุณจะเป็นเจ้าของแอปโดยไม่มีค่าธรรมเนียมรายเดือนใด ๆ
+  support:
+    title: เริ่มต้นวางแผนด้วย Ingantt
+    docs:
+      text: ไปยังเอกสาร
+    contact:
+      title: มีคำถามเพิ่มเติมไหม<br>ติดต่อทีมสนับสนุนของเราได้เลย!
+      text: ส่งอีเมล
+      icon: fa fa-envelope
+
+cta:
+  title: พร้อมที่จะเปลี่ยนการวางแผนโครงการของคุณหรือยัง
+  subtitle: สัมผัสการวางแผนโครงการที่ขับเคลื่อนด้วย AI และประสบการณ์แบบเนทีฟบน Windows
+  button:
+    text: ทดลองใช้ฟรี
+
+platform_support:
+  title: ต้องการเวอร์ชันสำหรับแพลตฟอร์มอื่นหรือไม่

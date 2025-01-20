@@ -1,0 +1,232 @@
+title_tag: Ingantt - Planification de projets moderne avec diagramme de Gantt pour Android avec IA
+meta_keywords: application diagramme de Gantt Android, mpp, Gantt Android, lecteur mpp, visualiseur mpp, application Gantt, alternative MS Project, Gantt pour téléphone, Gantt pour tablette, planification de projets, gestion de projets
+meta_description: Ingantt - Outil de gestion de projets alimenté par l’IA pour téléphones et tablettes Android. Planifiez, programmez et suivez vos projets en toute simplicité.
+
+page_url: android_page
+platform_url: android_url
+store_image: google_play.png
+platform_image: android.png
+
+hero:
+  title: Planification de projets avec diagramme de Gantt et IA sur votre appareil Android
+  subtitle: Transformez votre planification de projets grâce à des diagrammes de Gantt intelligents et une assistance IA sur votre téléphone et tablette Android.
+  cta:
+    primary:
+      text: Obtenez-le maintenant
+      text_fits: true
+    other_versions:
+      title: Autres versions
+  rating:
+    stars:
+    text: 5 étoiles sur
+  image: hero-android.png
+
+features_grid:
+  title: Pourquoi les chefs de projet choisissent Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Planification alimentée par l’IA
+      description: Générez des plans de projet complets à partir de descriptions simples grâce à notre assistant IA.
+    - icon: fas fa-brain
+      title: Planifiez tout
+      description: Programmation, coûts, tâches, dépendances, ressources, et plus encore—tout au même endroit.
+    - icon: fas fa-mobile-alt
+      title: Expérience optimisée pour mobile
+      description: Conçu pour les appareils Android—planifiez, révisez et gérez vos projets en déplacement.
+    - icon: fas fa-file-import
+      title: Compatible MS Project
+      description: Importez des fichiers .MPP et enregistrez au format XML compatible MS Project—sans compromis.
+
+demo:
+  title: Découvrez Ingantt en action
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Plébiscité par les chefs de projet dans le monde entier
+  show_more:
+    text: Voir plus
+    icon: fas fa-chevron-down
+  show_less:
+    text: Voir moins
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: La meilleure application de Gantt qui ne vous enferme pas dans son propre format de fichier ou son propre stockage cloud.
+      author:
+        name: Noah Wilson
+        title: Directeur de programme
+    - rating: ★★★★★
+      text: La génération de plan de projet par IA change la donne pour moi. Je l’utilise comme point de départ et source d’inspiration pour mes plans.
+      author:
+        name: Alexander Hall
+        title: Coach Agile
+    - rating: ★★★★★
+      text: Je l’utilise également comme visionneuse et éditeur MPP pour les fichiers Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Coordinatrice de projets
+    - rating: ★★★★★
+      text: Enfin une alternative à Microsoft Project qui fonctionne parfaitement !
+      author:
+        name: Isabella Moore
+        title: Cheffe d’équipe (Gestion de projets)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Cela fonctionne comme prévu et j’en suis vraiment satisfait.
+      author:
+        name: Benjamin Lee
+        title: Coach Agile
+      is_hidden: true
+    - rating: ★★★★★
+      text: Toute la puissance de MS Project dans un package bien plus léger !
+      author:
+        name: Mia Harris
+        title: Formatrice en gestion de projets
+      is_hidden: true
+    - rating: ★★★★★
+      text: Des diagrammes de Gantt intuitifs et structurés peuvent être créés avec des jalons et une planification des ressources, y compris un suivi manuel de l’avancement.
+      author:
+        name: Emma Rodriguez
+        title: Cheffe de produit
+      is_hidden: true
+    - rating: ★★★★★
+      text: S’exécute plus rapidement [que les concurrents], je le ressens en faisant défiler la chronologie et en ouvrant le projet, bien plus rapide que dans d’autres applications. Pouce levé !
+      author:
+        name: Ethan Walker
+        title: Directeur de programme
+      is_hidden: true
+    - rating: ★★★★★
+      text: Excellent programme !
+      author:
+        name: Harper Thompson
+        title: Directeur PMO (Project Management Office)
+      is_hidden: true
+
+features_detailed:
+  title: Tout ce dont vous avez besoin pour une planification de projets réussie
+  subtitle: Des fonctionnalités puissantes conçues pour les chefs de projet modernes
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planification
+      content:
+        title: Planification alimentée par l’IA
+        features:
+          - icon: fas fa-check
+            title: Générateur de projets IA
+            description: Créez des plans de projet complets à partir de simples descriptions textuelles grâce à une IA avancée
+          - icon: fas fa-check
+            title: Programmation facile
+            description: Mettez à jour n’importe quelle partie de votre plan et voyez immédiatement les résultats globaux.
+          - icon: fas fa-check
+            title: Familiarité
+            description: Vous avez déjà utilisé MS Project ou un logiciel similaire ? Mettez ces compétences à profit !
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Suivi
+      content:
+        title: Suivi avancé
+        features:
+          - icon: fas fa-check
+            title: Suivi de progression
+            description: Suivez le pourcentage d’achèvement et les jalons
+          - icon: fas fa-check
+            title: Utilisation des ressources
+            description: Surveillez l’allocation des ressources et identifiez les goulots d’étranglement potentiels
+          - icon: fas fa-check
+            title: Analyse de la chronologie
+            description: Analysez le chemin critique et suivez les écarts de planning
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Intégration
+      content:
+        title: Intégrations puissantes
+        features:
+          - icon: fas fa-check
+            title: Compatibilité MS Project
+            description: Importez des fichiers MPP de MS Project et enregistrez toujours au format XML compatible MS Project.
+          - icon: fas fa-check
+            title: Options d’export
+            description: Exports en PDF et PNG à tout moment
+          - icon: fas fa-check
+            title: Enregistrement et ouverture via Google Drive
+            description: Utilisez Google Drive pour stocker vos fichiers de projet.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Ce que vous pouvez faire avec Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Planification avancée
+      items:
+        - Créez des plans de projet à partir de simples descriptions textuelles grâce à l’IA
+        - Modifiez n’importe quel élément et voyez les changements instantanément
+        - Anticipez les dates d’achèvement et repérez les blocages potentiels au plus tôt
+        - Gérez les coûts
+    - icon: fas fa-tasks
+      title: Gestion des tâches
+      items:
+        - Décomposez vos projets en tâches
+        - Définissez des dépendances et des échéances
+        - Marquez certaines tâches comme jalons
+        - Surveillez le chemin critique
+        - Suivez l’état d’avancement des tâches
+    - icon: fas fa-users
+      title: Collaboration
+      items:
+        - Partagez via la fonction de partage de fichiers Android standard
+        - Fonctionne avec Google Drive
+        - Échangez des fichiers aux formats XML, PDF ou PNG
+    - icon: fas fa-chart-line
+      title: Suivi avancé
+      items:
+        - Surveillez l’allocation des ressources
+        - Analysez le chemin critique
+        - Surveillez l’utilisation des ressources
+        - Analyse de la chronologie
+    - icon: fas fa-calendar-alt
+      title: Gestion des ressources
+      items:
+        - Gérez les ressources de travail, matérielles et de coûts
+        - Définissez les calendriers de ressources et les horaires de travail
+        - Mettez à niveau automatiquement les ressources surchargées
+        - Consultez l’utilisation des ressources dans le temps
+    - icon: fas fa-plug
+      title: Intégrations
+      items:
+        - Compatibilité avec les fichiers MS Project (MPP et XML)
+        - Export en PDF et PNG
+        - Fonctionne avec Google Drive
+
+faq:
+  title: Foire aux questions
+  items:
+    - question: Qu’est-ce qu’Ingantt pour Android ?
+      answer: Ingantt pour Android est un outil professionnel de gestion de projets qui s’exécute nativement sur votre appareil Android. Il vous permet de créer et de gérer vos plans de projet en déplacement, avec une planification assistée par IA et une compatibilité MS Project.
+    - question: Puis-je importer mes fichiers existants Microsoft Project ?
+      answer: Oui ! Ingantt prend totalement en charge l’importation de fichiers .MPP et .XML depuis Microsoft Project. Vos données de projet, y compris les tâches, ressources et dépendances, sont préservées pendant le processus d’importation.
+    - question: Comment fonctionne la génération de projets par IA ?
+      answer: Notre assistant IA peut générer des plans de projet complets à partir de simples descriptions textuelles. Décrivez simplement vos objectifs et besoins, et l’IA créera un plan structuré avec tâches, chronologie et dépendances, basé sur les bonnes pratiques.
+    - question: Existe-t-il une version d’essai gratuite pour Android ?
+      answer: Non. La version Android fait l’objet d’un achat unique, sans abonnement ni période d’essai gratuite.
+    - question: Comment puis-je acheter Ingantt pour Android ?
+      answer: Rendez-vous simplement sur le Google Play Store depuis votre appareil Android et achetez-le. Vous posséderez l’application à vie, sans frais récurrents.
+  support:
+    title: Commencez à planifier avec Ingantt
+    docs:
+      text: Accéder à la documentation
+    contact:
+      title: Vous avez d’autres questions ?<br>Contactez une personne réelle pour obtenir de l’aide !
+      text: Écrivez-nous
+      icon: fa fa-envelope
+
+cta:
+  title: Prêt à transformer votre planification de projets ?
+  subtitle: Profitez d’une planification pilotée par IA directement sur votre téléphone ou tablette
+  button:
+    text: Obtenez-le maintenant
+
+platform_support:
+  title: Besoin d’une version pour une autre plateforme ?

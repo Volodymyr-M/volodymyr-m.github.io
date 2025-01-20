@@ -1,0 +1,231 @@
+title_tag: Ingantt – Cучасна діаграма Ґанта для планування проєктів на Mac з AI
+meta_keywords: додаток діаграми Ґанта для macOS, mpp, Ґант для Mac, mpp-рідер, mpp-просмотрувач, додаток Ґанта, альтернатива MS Project, Ґант для Apple, планування проєктів, управління проєктами
+meta_description: Ingantt – інструмент управління проєктами з підтримкою ШІ для macOS. Плануйте, встановлюйте графіки та відстежуйте свої проєкти на Mac із легкістю.
+
+page_url: macos_page
+platform_url: macos_url
+store_image: app_store.png
+platform_image: macos.png
+
+hero:
+  title: Планування проєктів на Mac із діаграмою Ґанта та штучним інтелектом
+  subtitle: Трансформуйте процес планування проєктів завдяки інтелектуальним діаграмам Ґанта та підтримці ШІ на вашому Mac.
+  cta:
+    primary:
+      text: Завантажити зараз
+      text_fits: true
+    other_versions:
+      title: Інші версії
+  rating:
+    stars:
+    text: 5 зірок на
+  image: hero-macos.png
+
+features_grid:
+  title: Чому менеджери проєктів обирають Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Планування з підтримкою ШІ
+      description: Генеруйте повні плани проєктів із простих описів за допомогою нашого AI-асистента.
+    - icon: fas fa-brain
+      title: Плануйте все
+      description: Графіки, витрати, завдання, залежності, ресурси та багато іншого — все в одному місці.
+    - icon: fas fa-laptop
+      title: Оптимізовано для macOS
+      description: Плануйте, переглядайте й керуйте проєктами на macOS з нативним та зручним інтерфейсом.
+    - icon: fas fa-file-import
+      title: Сумісність із MS Project
+      description: Імпортуйте файли .MPP та зберігайте у форматі XML, сумісному з MS Project — без жодних обмежень.
+
+demo:
+  title: Перегляньте Ingantt у дії
+  video_id: r__sXaW1ciM
+
+testimonials:
+  title: Довіряють менеджери проєктів в усьому світі
+  show_more:
+    text: Показати більше
+    icon: fas fa-chevron-down
+  show_less:
+    text: Показати менше
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Найкращий додаток для діаграм Ґанта, який не змушує вас використовувати власний формат файлу чи хмарне сховище.
+      author:
+        name: Noah Wilson
+        title: Директор програм
+    - rating: ★★★★★
+      text: Генерація планів проєктів зі штучним інтелектом докорінно змінила мою роботу. Використовую як стартовий майданчик та натхнення.
+      author:
+        name: Alexander Hall
+        title: Agile-коуч
+    - rating: ★★★★★
+      text: Я також використовую його як переглядач та редактор MPP-файлів Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Координатор проєктів
+    - rating: ★★★★★
+      text: Нарешті альтернатива Microsoft Project, яка справді працює!
+      author:
+        name: Isabella Moore
+        title: Керівник команди (управління проєктами)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Працює, як і очікувалося, і я дуже задоволений цим.
+      author:
+        name: Benjamin Lee
+        title: Agile-коуч
+      is_hidden: true
+    - rating: ★★★★★
+      text: Уся потужність MS Project у значно меншому пакеті!
+      author:
+        name: Mia Harris
+        title: Тренер з управління проєктами
+      is_hidden: true
+    - rating: ★★★★★
+      text: За допомогою Ingantt можна створювати зручні та структуровані діаграми Ґанта з контрольними точками (milestones) і плануванням ресурсів, включно з ручним відстеженням прогресу.
+      author:
+        name: Emma Rodriguez
+        title: Менеджер продукту
+      is_hidden: true
+    - rating: ★★★★★
+      text: Працює швидше [ніж конкуренти], бо прокручування часової шкали й відкриття проєкту дійсно швидше, ніж у інших застосунках. Молодці!
+      author:
+        name: Ethan Walker
+        title: Менеджер програм
+      is_hidden: true
+    - rating: ★★★★★
+      text: Чудова програма!
+      author:
+        name: Harper Thompson
+        title: Директор PMO (Офіс управління проєктами)
+      is_hidden: true
+
+features_detailed:
+  title: Усе, що вам потрібно для успішного планування проєктів
+  subtitle: Потужні функції, розроблені для сучасних менеджерів проєктів
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Планування
+      content:
+        title: Планування з підтримкою ШІ
+        features:
+          - icon: fas fa-check
+            title: Генератор проєктів з ШІ
+            description: Створюйте повні плани проєктів із простих текстових описів, використовуючи розвинений ШІ
+          - icon: fas fa-check
+            title: Легке планування графіка
+            description: Оновлюйте будь-яку частину плану проєкту та миттєво бачте загальні результати.
+          - icon: fas fa-check
+            title: Знайоме середовище
+            description: Маєте навички в MS Project чи подібному ПЗ? Використовуйте їх!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Відстеження
+      content:
+        title: Розширене відстеження
+        features:
+          - icon: fas fa-check
+            title: Моніторинг прогресу
+            description: Відстежуйте відсоток виконання та досягнення контрольних точок
+          - icon: fas fa-check
+            title: Використання ресурсів
+            description: Контролюйте розподіл ресурсів і виявляйте потенційні “вузькі місця”
+          - icon: fas fa-check
+            title: Аналіз часової шкали
+            description: Аналізуйте критичний шлях і відстежуйте відхилення від розкладу
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Інтеграція
+      content:
+        title: Потужні інтеграції
+        features:
+          - icon: fas fa-check
+            title: Сумісність із MS Project
+            description: Імпортуйте файли MPP з MS Project і завжди зберігайте у форматі XML, сумісному з MS Project.
+          - icon: fas fa-check
+            title: Варіанти експорту
+            description: Експортуйте до PDF та PNG у будь-який час
+          - icon: fas fa-check
+            title: Збереження і відкриття на Google Drive
+            description: Використовуйте Google Drive для зберігання файлів проєктів.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Що ви можете робити з Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Розширене планування
+      items:
+        - Створюйте плани проєктів зі стислих текстових описів за допомогою ШІ
+        - Уносьте будь-які зміни та миттєво спостерігайте за результатами
+        - Прогнозуйте дати завершення й заздалегідь виявляйте можливі перешкоди
+        - Плануйте витрати
+    - icon: fas fa-tasks
+      title: Управління завданнями
+      items:
+        - Розділяйте проєкти на завдання
+        - Встановлюйте залежності та кінцеві терміни
+        - Позначайте завдання як контрольні точки
+        - Стежте за критичним шляхом
+        - Відстежуйте статус виконання завдань
+    - icon: fas fa-users
+      title: Співпраця
+      items:
+        - Працює з Google Drive
+        - Обмін файлами у форматах XML, PDF або PNG
+    - icon: fas fa-chart-line
+      title: Розширене відстеження
+      items:
+        - Контролюйте розподіл ресурсів
+        - Аналізуйте критичний шлях
+        - Моніторинг використання ресурсів
+        - Аналіз часової шкали
+    - icon: fas fa-calendar-alt
+      title: Управління ресурсами
+      items:
+        - Керуйте робочими, матеріальними й фінансовими ресурсами
+        - Налаштовуйте календарі й робочий час для ресурсів
+        - Автоматично вирівнюйте перевантажені ресурси
+        - Переглядайте використання ресурсів упродовж часу
+    - icon: fas fa-plug
+      title: Інтеграції
+      items:
+        - Сумісність із файлами MS Project (MPP та XML)
+        - Експорт у PDF та PNG
+        - Працює з Google Drive
+
+faq:
+  title: Часті запитання
+  items:
+    - question: Що таке Ingantt для macOS?
+      answer: Ingantt для macOS — це професійний інструмент керування проєктами, який працює нативно на вашому Mac. Він дає змогу створювати й керувати планами проєктів із підтримкою штучного інтелекту та сумісністю з MS Project.
+    - question: Чи можу я імпортувати свої наявні файли Microsoft Project?
+      answer: Так! Ingantt повністю підтримує імпорт файлів .MPP та .XML із Microsoft Project. Дані проєкту, включно із завданнями, ресурсами й залежностями, збережуться під час імпорту.
+    - question: Як працює генерація проєктів з ШІ?
+      answer: Наш AI-асистент може генерувати повні плани проєктів із коротких текстових описів. Просто опишіть цілі й вимоги вашого проєкту, і ШІ створить структурований план із завданнями, графіками та залежностями, базуючись на найкращих практиках.
+    - question: Чи існує безкоштовна пробна версія для macOS?
+      answer: Ні. Версія для macOS — це одноразова покупка без підписки чи безкоштовного пробного періоду.
+    - question: Як придбати Ingantt для macOS?
+      answer: Відвідайте Mac App Store і придбайте там. Ви володітимете додатком довічно без будь-яких повторних платежів.
+  support:
+    title: Почніть планувати з Ingantt
+    docs:
+      text: Перейти до документації
+    contact:
+      title: Є ще запитання?<br>Зверніться до реальної людини за підтримкою!
+      text: Напишіть нам
+      icon: fa fa-envelope
+
+cta:
+  title: Готові трансформувати своє планування проєктів?
+  subtitle: Користуйтеся плануванням проєктів з підтримкою ШІ у нативному середовищі Mac
+  button:
+    text: Завантажити зараз
+
+platform_support:
+  title: Потрібна версія для іншої платформи?

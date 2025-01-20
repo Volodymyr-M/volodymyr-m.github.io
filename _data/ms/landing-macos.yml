@@ -1,0 +1,231 @@
+title_tag: Ingantt - Carta Gantt Moden untuk Perancangan Projek Mac dengan AI
+meta_keywords: aplikasi carta gantt untuk macOS, mpp, gantt untuk Mac, pembaca mpp, penampil mpp, aplikasi gantt, alternatif MS Project, gantt untuk Apple, perancangan projek, pengurusan projek
+meta_description: Ingantt - Alat pengurusan projek bertenaga AI untuk macOS. Rancang, jadualkan, dan jejak projek anda dengan mudah di Mac.
+
+page_url: macos_page
+platform_url: macos_url
+store_image: app_store.png
+platform_image: macos.png
+
+hero:
+  title: Perancangan Projek dengan Carta Gantt dan AI di Mac Anda
+  subtitle: Transformasikan perancangan projek anda dengan carta Gantt pintar dan bantuan AI di Mac.
+  cta:
+    primary:
+      text: Dapatkan Sekarang
+      text_fits: true
+    other_versions:
+      title: Versi Lain
+  rating:
+    stars:
+    text: 5 bintang di
+  image: hero-macos.png
+
+features_grid:
+  title: Mengapa Pengurus Projek Memilih Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Perancangan Dipacu AI
+      description: Hasilkan pelan projek lengkap daripada deskripsi ringkas menggunakan pembantu AI kami.
+    - icon: fas fa-brain
+      title: Rancang Segalanya
+      description: Jadual, kos, tugasan, kebergantungan, sumber dan banyak lagi—semua di satu tempat.
+    - icon: fas fa-laptop
+      title: Dioptimumkan untuk macOS
+      description: Rancang, semak, dan urus projek anda di macOS dengan pengalaman asli dan lancar.
+    - icon: fas fa-file-import
+      title: Serasi dengan MS Project
+      description: Import fail .MPP dan simpan dalam format XML yang serasi dengan MS Project—tanpa kompromi.
+
+demo:
+  title: Lihat Ingantt Beraksi
+  video_id: r__sXaW1ciM
+
+testimonials:
+  title: Dipercayai oleh Pengurus Projek di Seluruh Dunia
+  show_more:
+    text: Lihat Lebih Banyak
+    icon: fas fa-chevron-down
+  show_less:
+    text: Lihat Sedikit
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Aplikasi carta Gantt terbaik yang tidak memaksa anda terikat dengan format fail atau storan awannya sendiri.
+      author:
+        name: Noah Wilson
+        title: Pengarah Program
+    - rating: ★★★★★
+      text: Penjanaan pelan projek berasaskan AI benar-benar mengubah cara saya bekerja. Saya gunakan sebagai titik mula dan inspirasi bagi pelan projek saya.
+      author:
+        name: Alexander Hall
+        title: Jurulatih Agile
+    - rating: ★★★★★
+      text: Saya juga gunakannya sebagai penampil dan penyunting MPP untuk fail Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Penyelaras Projek
+    - rating: ★★★★★
+      text: Akhirnya, alternatif Microsoft Project yang benar-benar berfungsi dengan baik!
+      author:
+        name: Isabella Moore
+        title: Ketua Pasukan (Pengurusan Projek)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Ia berfungsi seperti yang diharapkan dan saya sangat berpuas hati.
+      author:
+        name: Benjamin Lee
+        title: Jurulatih Agile
+      is_hidden: true
+    - rating: ★★★★★
+      text: Kuasa penuh MS Project dalam pakej yang jauh lebih ringan!
+      author:
+        name: Mia Harris
+        title: Jurulatih Pengurusan Projek
+      is_hidden: true
+    - rating: ★★★★★
+      text: Dengan Ingantt, anda boleh membuat carta Gantt yang intuitif dan terstruktur bersama batu tanda dan perancangan sumber, termasuk penjejakan kemajuan secara manual.
+      author:
+        name: Emma Rodriguez
+        title: Pengurus Produk
+      is_hidden: true
+    - rating: ★★★★★
+      text: Lebih pantas [berbanding pesaing], saya boleh rasa tatal garis masa dan membuka projek lebih cepat daripada aplikasi lain. Terbaik!
+      author:
+        name: Ethan Walker
+        title: Pengurus Program
+      is_hidden: true
+    - rating: ★★★★★
+      text: Program yang cemerlang!
+      author:
+        name: Harper Thompson
+        title: Pengarah PMO (Pejabat Pengurusan Projek)
+      is_hidden: true
+
+features_detailed:
+  title: Semua yang Anda Perlukan untuk Perancangan Projek Berjaya
+  subtitle: Ciri-ciri hebat direka untuk pengurus projek moden
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Perancangan
+      content:
+        title: Perancangan Dipacu AI
+        features:
+          - icon: fas fa-check
+            title: Penjana Projek AI
+            description: Buat pelan projek lengkap daripada deskripsi teks ringkas menggunakan AI canggih
+          - icon: fas fa-check
+            title: Penjadualan Mudah
+            description: Kemas kini mana-mana bahagian pelan anda dan lihat hasil keseluruhannya serta-merta.
+          - icon: fas fa-check
+            title: Biasa Digunakan
+            description: Sudah biasa dengan MS Project atau perisian seumpamanya? Gunakan kemahiran anda!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Penjejakan
+      content:
+        title: Penjejakan Lanjutan
+        features:
+          - icon: fas fa-check
+            title: Pemantauan Kemajuan
+            description: Jejak peratusan penyiapan dan kemajuan batu tanda
+          - icon: fas fa-check
+            title: Penggunaan Sumber
+            description: Pantau peruntukan sumber dan kenal pasti potensi halangan
+          - icon: fas fa-check
+            title: Analisis Garis Masa
+            description: Analisis laluan kritikal dan kesan variasi jadual
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Integrasi
+      content:
+        title: Integrasi Berkuasa
+        features:
+          - icon: fas fa-check
+            title: Keserasian MS Project
+            description: Import fail MPP Microsoft Project dan sentiasa simpan dalam format XML serasi MS Project.
+          - icon: fas fa-check
+            title: Pilihan Eksport
+            description: Eksport ke PDF dan PNG pada bila-bila masa
+          - icon: fas fa-check
+            title: Simpan dan buka di Google Drive
+            description: Gunakan Google Drive anda untuk menyimpan fail projek.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Apa yang Boleh Anda Lakukan dengan Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Perancangan Lanjutan
+      items:
+        - Cipta pelan projek daripada deskripsi teks ringkas menggunakan AI
+        - Lakukan sebarang kemas kini dan lihat perubahan secara serta-merta
+        - Jangka tarikh siap dan kesan rintangan lebih awal
+        - Rancang kos
+    - icon: fas fa-tasks
+      title: Pengurusan Tugasan
+      items:
+        - Pecahkan projek kepada tugasan
+        - Tetapkan kebergantungan dan tarikh akhir
+        - Tandakan tugasan sebagai batu tanda
+        - Jejak laluan kritikal
+        - Pantau status penyiapan tugasan
+    - icon: fas fa-users
+      title: Kolaborasi
+      items:
+        - Berfungsi dengan Google Drive
+        - Tukar fail dalam format XML, PDF, atau PNG
+    - icon: fas fa-chart-line
+      title: Penjejakan Lanjutan
+      items:
+        - Pantau peruntukan sumber
+        - Analisis laluan kritikal
+        - Pemantauan penggunaan sumber
+        - Analisis garis masa
+    - icon: fas fa-calendar-alt
+      title: Pengurusan Sumber
+      items:
+        - Urus sumber kerja, bahan, dan kos
+        - Tetapkan kalendar dan waktu kerja bagi setiap sumber
+        - Imbangkan secara automatik sumber yang terlebih peruntukan
+        - Semak penggunaan sumber sepanjang masa
+    - icon: fas fa-plug
+      title: Integrasi
+      items:
+        - Keserasian fail MS Project (MPP dan XML)
+        - Eksport ke PDF dan PNG
+        - Berfungsi dengan Google Drive
+
+faq:
+  title: Soalan Lazim
+  items:
+    - question: Apakah Ingantt untuk macOS?
+      answer: Ingantt untuk macOS ialah alat pengurusan projek profesional yang berjalan secara asli di Mac anda. Ia membolehkan anda membuat dan mengurus pelan projek dengan bantuan AI serta keserasian MS Project.
+    - question: Bolehkah saya mengimport fail Microsoft Project sedia ada?
+      answer: Ya! Ingantt menyokong pengimportan fail .MPP dan .XML daripada Microsoft Project sepenuhnya. Data projek anda, termasuk tugasan, sumber, dan kebergantungan akan dikekalkan semasa proses import.
+    - question: Bagaimana AI menjana projek?
+      answer: Pembantu AI kami boleh menjana pelan projek penuh daripada deskripsi teks ringkas. Cukup nyatakan matlamat dan keperluan projek anda, dan AI akan menghasilkan pelan berstruktur dengan tugasan, garis masa, dan kebergantungan berdasarkan amalan terbaik.
+    - question: Adakah terdapat percubaan percuma untuk versi macOS?
+      answer: Tiada. Versi macOS adalah pembelian sekali sahaja tanpa langganan atau percubaan percuma.
+    - question: Bagaimana saya boleh membeli Ingantt untuk macOS?
+      answer: Lawati Mac App Store dan beli di sana. Anda akan memiliki aplikasi ini selama-lamanya tanpa caj berulang.
+  support:
+    title: Mula Merancang dengan Ingantt
+    docs:
+      text: Buka Dokumentasi
+    contact:
+      title: Ada soalan lain?<br>Hubungi orang sebenar untuk sokongan!
+      text: E-mel kami
+      icon: fa fa-envelope
+
+cta:
+  title: Bersedia untuk Mengubah Perancangan Projek Anda?
+  subtitle: Nikmati perancangan projek bertenaga AI dengan pengalaman asli di Mac
+  button:
+    text: Dapatkan Sekarang
+
+platform_support:
+  title: Perlukah versi untuk platform lain?

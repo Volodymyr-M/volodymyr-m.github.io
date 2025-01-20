@@ -1,0 +1,232 @@
+title_tag: Ingantt - Perencanaan Proyek dengan Diagram Gantt Modern untuk Android dengan AI
+meta_keywords: aplikasi diagram gantt Android, mpp, gantt Android, pembaca mpp, penampil mpp, aplikasi gantt, alternatif MS Project, gantt untuk ponsel, gantt untuk tablet, perencanaan proyek, manajemen proyek
+meta_description: Ingantt - Alat manajemen proyek bertenaga AI untuk ponsel dan tablet Android. Rencanakan, jadwalkan, dan pantau proyek Anda dengan mudah.
+
+page_url: android_page
+platform_url: android_url
+store_image: google_play.png
+platform_image: android.png
+
+hero:
+  title: Perencanaan Proyek dengan Diagram Gantt dan AI di Perangkat Android Anda
+  subtitle: Ubah perencanaan proyek Anda dengan diagram Gantt cerdas dan asisten AI di ponsel dan tablet Android Anda.
+  cta:
+    primary:
+      text: Dapatkan sekarang
+      text_fits: true
+    other_versions:
+      title: Versi lain
+  rating:
+    stars:
+    text: 5 bintang di
+  image: hero-android.png
+
+features_grid:
+  title: Mengapa Manajer Proyek Memilih Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Perencanaan Bertenaga AI
+      description: Hasilkan rencana proyek lengkap dari deskripsi sederhana dengan asisten AI kami.
+    - icon: fas fa-brain
+      title: Rencanakan Semua Hal
+      description: Jadwal, biaya, tugas, dependensi, sumber daya, dan banyak lagi—semua di satu tempat.
+    - icon: fas fa-mobile-alt
+      title: Pengalaman yang Dioptimalkan untuk Mobile
+      description: Dirancang untuk perangkat Android—rencanakan, tinjau, dan kelola proyek di mana saja.
+    - icon: fas fa-file-import
+      title: Kompatibel dengan MS Project
+      description: Impor file .MPP dan simpan ke XML yang kompatibel dengan MS Project—tanpa kompromi.
+
+demo:
+  title: Lihat Ingantt dalam Aksi
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Dipercaya oleh Manajer Proyek di Seluruh Dunia
+  show_more:
+    text: Tampilkan lebih banyak
+    icon: fas fa-chevron-down
+  show_less:
+    text: Tampilkan lebih sedikit
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Aplikasi Gantt terbaik yang juga tidak mengunci Anda ke format file atau penyimpanan cloud miliknya sendiri.
+      author:
+        name: Noah Wilson
+        title: Direktur Program
+    - rating: ★★★★★
+      text: Generasi rencana proyek dengan AI benar-benar mengubah permainan saya. Saya menggunakannya sebagai titik awal dan inspirasi untuk rencana proyek saya.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Saya juga menggunakannya sebagai penampil dan editor MPP untuk file Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Koordinator Proyek
+    - rating: ★★★★★
+      text: Akhirnya ada alternatif Microsoft Project yang benar-benar bagus!
+      author:
+        name: Isabella Moore
+        title: Pemimpin Tim (Manajemen Proyek)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Berfungsi sesuai harapan dan saya sangat senang dengan hal ini.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: Kekuatan penuh MS Project dalam paket yang jauh lebih kecil!
+      author:
+        name: Mia Harris
+        title: Pelatih Manajemen Proyek
+      is_hidden: true
+    - rating: ★★★★★
+      text: Diagram Gantt yang intuitif dan terstruktur dapat dibuat dengan tonggak (milestone) dan perencanaan sumber daya, termasuk pelacakan kemajuan manual.
+      author:
+        name: Emma Rodriguez
+        title: Manajer Produk
+      is_hidden: true
+    - rating: ★★★★★
+      text: Lebih cepat daripada pesaing, saya dapat merasakan saat menggulir garis waktu dan membuka proyek terasa sangat cepat dibandingkan aplikasi lain. Mantap!
+      author:
+        name: Ethan Walker
+        title: Manajer Program
+      is_hidden: true
+    - rating: ★★★★★
+      text: Program yang luar biasa!
+      author:
+        name: Harper Thompson
+        title: Direktur PMO (Project Management Office)
+      is_hidden: true
+
+features_detailed:
+  title: Semua yang Anda Butuhkan untuk Perencanaan Proyek yang Sukses
+  subtitle: Fitur-fitur canggih yang dirancang untuk manajer proyek modern
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Perencanaan
+      content:
+        title: Perencanaan Bertenaga AI
+        features:
+          - icon: fas fa-check
+            title: AI Project Generator
+            description: Buat rencana proyek lengkap dari deskripsi teks sederhana menggunakan AI canggih
+          - icon: fas fa-check
+            title: Penjadwalan Mudah
+            description: Perbarui bagian mana pun dari rencana proyek Anda dan lihat hasil keseluruhan secara instan.
+          - icon: fas fa-check
+            title: Kemiripan
+            description: Punya pengalaman dengan MS Project atau software serupa? Gunakan!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Pelacakan
+      content:
+        title: Pelacakan Lanjutan
+        features:
+          - icon: fas fa-check
+            title: Pemantauan Progres
+            description: Lacak persentase penyelesaian dan progres milestone
+          - icon: fas fa-check
+            title: Penggunaan Sumber Daya
+            description: Pantau alokasi sumber daya dan identifikasi potensi hambatan
+          - icon: fas fa-check
+            title: Analisis Garis Waktu
+            description: Analisis jalur kritis dan lacak variasi jadwal
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Integrasi
+      content:
+        title: Integrasi yang Kuat
+        features:
+          - icon: fas fa-check
+            title: Kompatibilitas MS Project
+            description: Impor file MPP MS Project dan selalu simpan dalam format XML yang kompatibel dengan MS Project.
+          - icon: fas fa-check
+            title: Opsi Ekspor
+            description: Ekspor ke PDF dan PNG kapan saja
+          - icon: fas fa-check
+            title: Simpan dan Buka di Google Drive
+            description: Gunakan Google Drive untuk menyimpan file proyek Anda.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Apa yang Dapat Anda Lakukan dengan Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Perencanaan Lanjutan
+      items:
+        - Buat rencana proyek dari deskripsi teks sederhana dengan AI
+        - Lakukan pembaruan apa pun dan lihat perubahan secara instan
+        - Prediksi tanggal penyelesaian dan kenali potensi hambatan sejak dini
+        - Rencanakan biaya
+    - icon: fas fa-tasks
+      title: Manajemen Tugas
+      items:
+        - Pecah proyek menjadi tugas-tugas
+        - Tetapkan dependensi dan tenggat waktu
+        - Tandai tugas sebagai milestone
+        - Pantau jalur kritis
+        - Lacak status penyelesaian tugas
+    - icon: fas fa-users
+      title: Kolaborasi
+      items:
+        - Bagikan via fitur berbagi file standar di Android
+        - Bekerja dengan Google Drive
+        - Tukar file dalam format XML, PDF, atau PNG
+    - icon: fas fa-chart-line
+      title: Pelacakan Lanjutan
+      items:
+        - Pantau alokasi sumber daya
+        - Analisis jalur kritis
+        - Pemantauan penggunaan sumber daya
+        - Analisis garis waktu
+    - icon: fas fa-calendar-alt
+      title: Manajemen Sumber Daya
+      items:
+        - Kelola sumber daya kerja, material, dan biaya
+        - Tetapkan kalender sumber daya dan waktu kerja
+        - Leveling otomatis untuk sumber daya yang over-allocated
+        - Tinjau penggunaan sumber daya seiring waktu
+    - icon: fas fa-plug
+      title: Integrasi
+      items:
+        - Kompatibilitas file MS Project (MPP dan XML)
+        - Ekspor ke PDF dan PNG
+        - Bekerja dengan Google Drive
+
+faq:
+  title: Pertanyaan yang Sering Diajukan
+  items:
+    - question: Apa itu Ingantt untuk Android?
+      answer: Ingantt untuk Android adalah alat manajemen proyek profesional yang berjalan secara native di perangkat Android Anda. Anda dapat membuat dan mengelola rencana proyek saat bepergian, dengan perencanaan bertenaga AI dan kompatibilitas MS Project.
+    - question: Dapatkah saya mengimpor file Microsoft Project saya yang sudah ada?
+      answer: Bisa! Ingantt sepenuhnya mendukung impor file .MPP dan .XML dari Microsoft Project. Data proyek Anda, termasuk tugas, sumber daya, dan dependensi, akan dipertahankan selama proses impor.
+    - question: Bagaimana cara kerja pembuatan proyek AI?
+      answer: Asisten AI kami dapat menghasilkan rencana proyek lengkap dari deskripsi teks sederhana. Cukup jelaskan tujuan dan kebutuhan proyek Anda, dan AI akan membuat rencana terstruktur dengan tugas, garis waktu, dan dependensi berdasarkan praktik terbaik.
+    - question: Apakah ada uji coba gratis untuk versi Android?
+      answer: Tidak. Versi Android adalah pembelian satu kali, tanpa langganan atau uji coba gratis.
+    - question: Bagaimana saya bisa membeli Ingantt untuk Android?
+      answer: Cukup kunjungi Google Play Store di perangkat Android Anda dan beli di sana. Anda memiliki aplikasinya selamanya tanpa biaya berulang.
+  support:
+    title: Mulai rencanakan dengan Ingantt
+    docs:
+      text: Buka Dokumentasi
+    contact:
+      title: Punya pertanyaan lain?<br>Hubungi orang sungguhan untuk dukungan!
+      text: Email kami
+      icon: fa fa-envelope
+
+cta:
+  title: Siap Mengubah Perencanaan Proyek Anda?
+  subtitle: Nikmati perencanaan proyek bertenaga AI langsung di ponsel atau tablet Anda
+  button:
+    text: Dapatkan sekarang
+
+platform_support:
+  title: Membutuhkan versi untuk platform lain?

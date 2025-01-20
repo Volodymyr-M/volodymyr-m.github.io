@@ -1,0 +1,89 @@
+terms_of_service:
+    title_tag: Ingantt - Điều khoản Dịch vụ
+    meta_keywords: Ingantt, điều khoản dịch vụ
+    meta_description: Điều khoản Dịch vụ của Ingantt
+    text_title: Điều khoản Dịch vụ
+    text: |
+      Chào mừng bạn đến với Ingantt! Bằng việc sử dụng ứng dụng của chúng tôi, bạn đồng ý với các điều khoản và điều kiện sau đây:
+
+      ## 1. Chấp nhận Điều khoản
+
+      Khi truy cập hoặc sử dụng Ingantt, bạn đồng ý bị ràng buộc bởi những Điều khoản Dịch vụ này cùng với Chính sách Quyền riêng tư của chúng tôi.
+
+      ## 2. Sử dụng Google Drive
+
+      Ứng dụng của chúng tôi kết nối với Google Drive của bạn để lưu trữ và lấy dữ liệu. Bằng việc sử dụng ứng dụng, bạn cho phép chúng tôi truy cập tài khoản Google Drive của bạn cho mục đích này.
+
+      ## 3. Dữ liệu Người dùng
+
+      Bạn giữ quyền sở hữu mọi dữ liệu mà bạn tải lên Google Drive thông qua ứng dụng của chúng tôi. Chúng tôi không yêu cầu bất kỳ quyền sở hữu nào đối với dữ liệu của bạn.
+
+      ## 4. Quyền riêng tư
+
+      Quyền riêng tư của bạn rất quan trọng đối với chúng tôi. Chúng tôi chỉ truy cập, lưu trữ và sử dụng dữ liệu của bạn trong phạm vi cần thiết để cung cấp dịch vụ. Vui lòng xem Chính sách Quyền riêng tư của chúng tôi để biết thêm chi tiết về cách chúng tôi xử lý dữ liệu của bạn.
+
+      ## 5. Bảo mật
+
+      Chúng tôi áp dụng các biện pháp hợp lý để bảo vệ dữ liệu của bạn. Tuy nhiên, chúng tôi không thể đảm bảo sự an toàn tuyệt đối cho dữ liệu của bạn và không chịu trách nhiệm cho bất kỳ truy cập trái phép hoặc vi phạm nào.
+
+      ## 6. Trách nhiệm của Người dùng
+
+      Bạn chịu trách nhiệm duy trì tính bảo mật cho tài khoản Google Drive của mình và chịu trách nhiệm cho bất kỳ hoạt động nào diễn ra dưới tài khoản đó.
+
+      ## 7. Hoạt động Bị cấm
+
+      Bạn đồng ý không sử dụng ứng dụng của chúng tôi cho bất kỳ hoạt động bất hợp pháp nào hoặc dưới hình thức vi phạm các điều khoản này.
+
+      ## 8. Chấm dứt
+
+      Chúng tôi có quyền tạm ngừng hoặc chấm dứt quyền truy cập ứng dụng của bạn bất cứ lúc nào, không cần thông báo trước, vì bất kỳ lý do nào, bao gồm cả việc bạn vi phạm các điều khoản này.
+
+      ## 9. Thay đổi Điều khoản
+
+      Chúng tôi có thể cập nhật các điều khoản này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng điều khoản mới trên ứng dụng của chúng tôi. Việc bạn tiếp tục sử dụng ứng dụng sau những thay đổi đó đồng nghĩa với việc bạn chấp nhận các điều khoản đã sửa đổi.
+
+      ## 10. Liên hệ với chúng tôi
+
+      Nếu bạn có bất kỳ câu hỏi nào về Điều khoản Dịch vụ này, vui lòng liên hệ với chúng tôi.
+
+privacy_policy:
+    title_tag: Ingantt - Chính sách Quyền riêng tư
+    meta_keywords: Ingantt, chính sách quyền riêng tư
+    meta_description: Chính sách Quyền riêng tư của Ingantt
+    text_title: Chính sách Quyền riêng tư
+    text: |
+      ## Thông tin Cá nhân là gì?
+
+      Thông tin Cá nhân là bất kỳ thông tin hoặc ý kiến nào có thể xác định một cá nhân. Ví dụ bao gồm tên, địa chỉ, địa chỉ email, số điện thoại và số fax.
+
+      ## Không có dữ liệu nào được thu thập
+
+      Tất cả dữ liệu mà Ingantt nhận và xử lý từ người dùng đều được lưu trữ trong các tệp cục bộ trên chính thiết bị của người dùng hoặc trong tài khoản Google Drive của người dùng, nếu người dùng đã chọn tùy chọn này một cách rõ ràng và kích hoạt chức năng đó với Google.
+
+      Trong không gian lưu trữ Google Drive của người dùng, Ingantt chỉ lưu những tệp mà người dùng tạo bằng Ingantt. Ingantt chỉ truy cập, sử dụng hoặc chia sẻ những tệp mà chính nó tạo trong Google Drive của người dùng.
+
+      Các tệp MPP được mở từ thiết bị của người dùng sẽ được gửi đến dịch vụ web chuyển đổi của Ingantt để chuyển đổi sang định dạng XML và trả về cho người dùng. Những tệp này không được lưu trữ trên máy chủ.
+
+      Do đó, nhà phát triển của Ingantt không thu thập bất kỳ dữ liệu nào.
+
+      ## Dữ liệu được chia sẻ với bên thứ ba
+
+      Để kích hoạt chức năng liên quan đến AI, lời nhắc (prompt) do người dùng nhập nhằm tạo tệp mới bằng AI sẽ được chia sẻ với các công cụ AI của bên thứ ba: OpenAI và/hoặc Gemini.
+
+      Không có dữ liệu nào khác được chia sẻ với bên thứ ba.
+
+      ## Sử dụng dữ liệu
+
+      Không có dữ liệu người dùng nào được sử dụng để phát triển, cải thiện hoặc huấn luyện các mô hình AI và/hoặc ML tổng quát. Điều này cũng áp dụng cho dữ liệu người dùng lấy từ Google Workspace API.
+
+      ## Bảo vệ dữ liệu
+
+      Chúng tôi triển khai các biện pháp kỹ thuật và tổ chức phù hợp để bảo vệ dữ liệu của bạn khỏi truy cập trái phép, mất mát hoặc tiết lộ.
+
+      ## Cập nhật Chính sách
+
+      Chính sách này có thể thay đổi theo thời gian và có sẵn trên trang web của chúng tôi.
+
+      ## Khiếu nại và Thắc mắc về Chính sách Quyền riêng tư
+
+      Nếu bạn có bất kỳ thắc mắc hoặc khiếu nại nào liên quan đến Chính sách Quyền riêng tư của chúng tôi, vui lòng liên hệ với chúng tôi.

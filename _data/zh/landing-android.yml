@@ -1,0 +1,232 @@
+title_tag: Ingantt - 适用于 Android 的现代甘特图项目规划，配合 AI
+meta_keywords: 甘特图应用 Android, mpp, 甘特图 Android, mpp 阅读器, mpp 查看器, 甘特应用, MS Project 替代方案, 手机甘特, 平板甘特, 项目规划, 项目管理
+meta_description: Ingantt - 一款由 AI 提供支持的项目管理工具，适用于 Android 手机和平板。轻松规划、安排和追踪您的项目。
+
+page_url: android_page
+platform_url: android_url
+store_image: google_play.png
+platform_image: android.png
+
+hero:
+  title: 在 Android 设备上使用 AI 驱动的甘特图项目规划
+  subtitle: 利用智能甘特图和 AI 助手，轻松在手机和平板上进行项目规划
+  cta:
+    primary:
+      text: 立即获取
+      text_fits: true
+    other_versions:
+      title: 其他版本
+  rating:
+    stars:
+    text: 5星好评
+  image: hero-android.png
+
+features_grid:
+  title: 为什么项目经理选择 Ingantt
+  items:
+    - icon: fas fa-robot
+      title: AI 驱动的规划
+      description: 通过 AI 助手，只需简单描述即可生成完整的项目计划
+    - icon: fas fa-brain
+      title: 一站式规划
+      description: 进度安排、成本、任务、依赖关系、资源等——全部整合在一个地方
+    - icon: fas fa-mobile-alt
+      title: 移动端优化体验
+      description: 专为 Android 设备设计——随时随地规划、审阅和管理项目
+    - icon: fas fa-file-import
+      title: 兼容 MS Project
+      description: 导入 .MPP 文件，并保存为与 MS Project 兼容的 XML 格式——无须妥协
+
+demo:
+  title: 观看 Ingantt 的实际演示
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: 全球项目经理的信赖之选
+  show_more:
+    text: 显示更多
+    icon: fas fa-chevron-down
+  show_less:
+    text: 显示更少
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 最好的甘特图应用，不会强制使用它自己的文件格式或云存储。
+      author:
+        name: Noah Wilson
+        title: 项目总监
+    - rating: ★★★★★
+      text: 利用 AI 生成项目计划对我来说是一次突破，我把它当作起点和灵感来源。
+      author:
+        name: Alexander Hall
+        title: 敏捷教练
+    - rating: ★★★★★
+      text: 我还将它用作 Microsoft Project 文件的 MPP 查看器和编辑器。
+      author:
+        name: Amelia Clark
+        title: 项目协调员
+    - rating: ★★★★★
+      text: 终于出现了一个非常好用的 Microsoft Project 替代品！
+      author:
+        name: Isabella Moore
+        title: 团队负责人（项目管理）
+      is_hidden: true
+    - rating: ★★★★★
+      text: 完全符合预期，真的让我很满意。
+      author:
+        name: Benjamin Lee
+        title: 敏捷教练
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project 的全部功能，现在在更小巧的包里就能实现！
+      author:
+        name: Mia Harris
+        title: 项目管理培训师
+      is_hidden: true
+    - rating: ★★★★★
+      text: 可以创建直观且结构化的甘特图，包括里程碑和资源规划，还能手动跟踪进度。
+      author:
+        name: Emma Rodriguez
+        title: 产品经理
+      is_hidden: true
+    - rating: ★★★★★
+      text: 相比竞争对手性能更快，能明显感觉到在滚动时间轴和打开项目时更加流畅。点赞！
+      author:
+        name: Ethan Walker
+        title: 项目经理
+      is_hidden: true
+    - rating: ★★★★★
+      text: 非常出色的软件！
+      author:
+        name: Harper Thompson
+        title: PMO（项目管理办公室）总监
+      is_hidden: true
+
+features_detailed:
+  title: 成功项目规划所需的一切功能
+  subtitle: 专为现代项目经理设计的强大功能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 规划
+      content:
+        title: AI 驱动的规划
+        features:
+          - icon: fas fa-check
+            title: AI 项目生成器
+            description: 利用先进的 AI 技术，从简要文字描述生成完整的项目计划
+          - icon: fas fa-check
+            title: 轻松安排日程
+            description: 更新项目计划的任何部分，即可立即查看整体效果
+          - icon: fas fa-check
+            title: 操作熟悉
+            description: 有使用过 MS Project 或类似软件的经验？派上用场吧！
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: 跟踪
+      content:
+        title: 高级跟踪
+        features:
+          - icon: fas fa-check
+            title: 进度监控
+            description: 跟踪完成百分比和里程碑进展
+          - icon: fas fa-check
+            title: 资源使用情况
+            description: 监控资源分配并识别潜在瓶颈
+          - icon: fas fa-check
+            title: 时间轴分析
+            description: 分析关键路径并跟踪进度偏差
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: 集成
+      content:
+        title: 强大的集成功能
+        features:
+          - icon: fas fa-check
+            title: MS Project 兼容性
+            description: 导入 MS Project 的 MPP 文件，并始终保存为 MS Project 兼容的 XML 格式
+          - icon: fas fa-check
+            title: 导出选项
+            description: 可随时导出为 PDF 和 PNG
+          - icon: fas fa-check
+            title: Google 云端硬盘存储与打开
+            description: 使用 Google Drive 存储项目文件
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: 使用 Ingantt 可完成的事项
+  items:
+    - icon: fas fa-brain
+      title: 高级规划
+      items:
+        - 利用 AI，根据简单的文字描述创建项目计划
+        - 可随时进行更新并立即查看变更效果
+        - 预测完成日期并提前识别潜在阻碍
+        - 规划成本
+    - icon: fas fa-tasks
+      title: 任务管理
+      items:
+        - 将项目分解为多个任务
+        - 设置任务依赖和截止日期
+        - 标记任务为里程碑
+        - 监控关键路径
+        - 跟踪任务完成状态
+    - icon: fas fa-users
+      title: 协作
+      items:
+        - 使用 Android 标准文件共享功能进行分享
+        - 与 Google Drive 配合使用
+        - 以 XML、PDF 或 PNG 格式交换文件
+    - icon: fas fa-chart-line
+      title: 高级跟踪
+      items:
+        - 监控资源分配
+        - 分析关键路径
+        - 资源使用监控
+        - 时间轴分析
+    - icon: fas fa-calendar-alt
+      title: 资源管理
+      items:
+        - 管理人力、物料和成本资源
+        - 设置资源日历和工作时间
+        - 自动平衡过度分配的资源
+        - 查看随时间变化的资源使用情况
+    - icon: fas fa-plug
+      title: 集成
+      items:
+        - 与 MS Project 文件（MPP 和 XML）兼容
+        - 导出为 PDF 和 PNG
+        - 兼容 Google Drive
+
+faq:
+  title: 常见问题
+  items:
+    - question: 什么是适用于 Android 的 Ingantt？
+      answer: Ingantt for Android 是一款专业的项目管理工具，能够在您的 Android 设备上原生运行。它具备 AI 驱动的规划和对 MS Project 的兼容性，让您可以随时随地创建并管理项目计划。
+    - question: 我可以导入已有的 Microsoft Project 文件吗？
+      answer: 可以！Ingantt 完全支持从 Microsoft Project 导入 .MPP 和 .XML 文件。您的项目数据（包括任务、资源和依赖关系）都会在导入过程中被保留。
+    - question: AI 生成项目计划的原理是什么？
+      answer: 我们的 AI 助手能够根据简单的文字描述生成完整的项目计划。只需描述项目目标和需求，AI 就会基于最佳实践构建包含任务、时间线和依赖关系的结构化计划。
+    - question: Android 版本有免费试用吗？
+      answer: 没有。Android 版本是一次性付费的形式，没有订阅或免费试用。
+    - question: 我该如何购买适用于 Android 的 Ingantt？
+      answer: 您只需在 Android 设备上打开 Google Play 商店并进行购买。购买后便可永久使用，无需支付任何后续费用。
+  support:
+    title: 开始使用 Ingantt 进行项目规划
+    docs:
+      text: 前往文档
+    contact:
+      title: 还有问题吗？<br>联系真人支持！
+      text: 给我们发邮件
+      icon: fa fa-envelope
+
+cta:
+  title: 准备好让您的项目规划更进一步了吗？
+  subtitle: 在手机或平板上体验 AI 驱动的项目规划
+  button:
+    text: 立即获取
+
+platform_support:
+  title: 需要其他平台版本吗？

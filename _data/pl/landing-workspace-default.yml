@@ -1,0 +1,377 @@
+lang_name: Polski
+title_tag: Ingantt – Nowoczesny wykres Gantta do planowania projektów w Google Workspace z wykorzystaniem SI
+meta_keywords: aplikacja do wykresów Gantta w Workspace, mpp, Gantt Google Workspace, czytnik mpp, przeglądarka mpp, alternatywa dla MS Project, gantt w sieci Web, Gantt Web, Gantt dla Google Workspace, zarządzanie projektami
+meta_description: Ingantt – narzędzie do zarządzania projektami oparte na sztucznej inteligencji (SI) dla Google Workspace. Planuj, harmonogramuj i śledź projekty w sieci Web z łatwością.
+
+page_url: workspace_page
+platform_url: workspace_url
+store_image: google_workspace_marketplace.png
+platform_image: google_workspace.png
+
+products:
+  - icon: fa-brands fa-google
+    text: Ingantt dla Google Workspace
+    platform: Google Workspace
+    url: workspace_page
+  - icon: fab fa-android
+    text: Ingantt dla Androida
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt dla iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt dla Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt dla macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: Produkty
+    
+    legal:
+      title: Informacje prawne
+      items:
+        - text: Polityka prywatności
+          url: privacy_policy_page
+        - text: Warunki korzystania
+          url: terms_of_service_page
+    
+    connect:
+      title: Dowiedz się więcej
+      items:
+        - icon: fa fa-info-circle
+          text: Dokumentacja
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: Blog
+          url: blog_page
+        - icon: fa fa-envelope
+          text: Napisz do nas
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    
+    site_settings:
+      title: Ustawienia witryny
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: Przełącz tryb ciemny
+        icon: fas fa-adjust
+
+copyright: Ingantt Development. Wszelkie prawa zastrzeżone.
+
+hero:
+  title: Planowanie projektów z wykresami Gantta i SI w Google Workspace
+  subtitle: Zrewolucjonizuj planowanie projektów dzięki inteligentnym wykresom Gantta, płynnej współpracy i wsparciu sztucznej inteligencji – wszystko w Twoim Dysku Google.
+  cta:
+    primary:
+      text: Wypróbuj za darmo
+      text_fits: true
+    other_versions:
+      title: Inne wersje
+  rating:
+    stars: ★★★★★
+    text: 5 gwiazdek
+  image: hero-workspace.png
+
+features_grid:
+  title: Dlaczego zespoły wybierają Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Planowanie wspierane przez SI
+      description: Generuj kompletne plany projektów z prostych opisów dzięki naszemu asystentowi SI.
+    - icon: fas fa-cloud
+      title: Natychmiastowa integracja z Google
+      description: Działa bezproblemowo z Dyskiem Google, zapewniając naturalną i bezwysiłkową współpracę.
+    - icon: fas fa-file-import
+      title: Zgodny z MS Project
+      description: Importuj pliki .MPP i zapisuj w formacie XML zgodnym z MS Project bez kompromisów.
+    - icon: fas fa-mobile-alt
+      title: Działa wszędzie
+      description: Pełna funkcjonalność na komputerze, tablecie i telefonie w przeglądarce.
+
+demo:
+  title: Zobacz Ingantt w akcji
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Zaufany przez kierowników projektów na całym świecie
+  show_more:
+    text: Pokaż więcej
+    icon: fas fa-chevron-down
+  show_less:
+    text: Pokaż mniej
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Najlepsza aplikacja do Gantta, która nie zamyka Cię w swoim własnym formacie ani chmurze.
+      author:
+        name: Noah Wilson
+        title: Dyrektor programowy
+    - rating: ★★★★★
+      text: Generowanie planu projektu przez SI jest dla mnie przełomowe. Używam go jako punktu wyjścia i inspiracji.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Używam go również jako przeglądarki i edytora plików MPP dla Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Koordynator projektów
+    - rating: ★★★★★
+      text: W końcu świetna alternatywa dla Microsoft Project!
+      author:
+        name: Isabella Moore
+        title: Lider zespołu (Zarządzanie projektami)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Działa zgodnie z oczekiwaniami i jestem bardzo zadowolony.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: Cała moc MS Project w znacznie mniejszym pakiecie!
+      author:
+        name: Mia Harris
+        title: Trener zarządzania projektami
+      is_hidden: true
+    - rating: ★★★★★
+      text: Można tworzyć intuicyjne, uporządkowane wykresy Gantta z kamieniami milowymi i planowaniem zasobów, w tym ręcznym śledzeniem postępów.
+      author:
+        name: Emma Rodriguez
+        title: Menedżer produktu
+      is_hidden: true
+    - rating: ★★★★★
+      text: Działa szybciej [niż konkurencja], bo przewijanie osi czasu i otwieranie projektu wydaje się naprawdę błyskawiczne. Brawo!
+      author:
+        name: Ethan Walker
+        title: Menedżer programów
+      is_hidden: true
+    - rating: ★★★★★
+      text: Doskonały program!
+      author:
+        name: Harper Thompson
+        title: Dyrektor PMO (Biuro Zarządzania Projektami)
+      is_hidden: true
+
+features_detailed:
+  title: Wszystko, czego potrzebujesz do skutecznego planowania projektów
+  subtitle: Potężne funkcje stworzone dla nowoczesnych menedżerów projektów
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planowanie
+      content:
+        title: Planowanie wspierane przez SI
+        features:
+          - icon: fas fa-check
+            title: Generator projektów z SI
+            description: Twórz kompletne plany projektów na podstawie prostych opisów tekstowych dzięki zaawansowanej SI
+          - icon: fas fa-check
+            title: Proste harmonogramowanie
+            description: Aktualizuj dowolną część swojego planu projektu i natychmiast zobacz ogólne wyniki.
+          - icon: fas fa-check
+            title: Znajome środowisko
+            description: Masz doświadczenie z MS Project lub podobnym oprogramowaniem? Wykorzystaj je tutaj!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Śledzenie
+      content:
+        title: Zaawansowane śledzenie
+        features:
+          - icon: fas fa-check
+            title: Monitorowanie postępów
+            description: Śledź procent ukończenia i postęp kamieni milowych
+          - icon: fas fa-check
+            title: Wykorzystanie zasobów
+            description: Obserwuj przydział zasobów i wcześnie wykrywaj wąskie gardła
+          - icon: fas fa-check
+            title: Analiza osi czasu
+            description: Analizuj ścieżkę krytyczną i monitoruj odchylenia w harmonogramie
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: collaboration
+      icon: fas fa-users
+      title: Współpraca
+      content:
+        title: Bezproblemowa współpraca
+        features:
+          - icon: fas fa-check
+            title: Integracja z Dyskiem Google
+            description: Udostępniaj i współpracuj, korzystając z dobrze znanych uprawnień Dysku Google
+          - icon: fas fa-check
+            title: Wymiana w formatach PDF, PNG lub XML
+            description: Format XML z MS Project jest obsługiwany natywnie.
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: Integracja
+      content:
+        title: Potężne integracje
+        features:
+          - icon: fas fa-check
+            title: Integracja z Google Workspace
+            description: Używaj Ingantt jako zwykłej aplikacji Dysku Google
+          - icon: fas fa-check
+            title: Zgodność z MS Project
+            description: Importuj pliki MPP z MS Project i zawsze zapisuj w formacie XML zgodnym z MS Project
+          - icon: fas fa-check
+            title: Opcje eksportu
+            description: Eksportuj do plików PDF i PNG
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+pricing:
+  title: Prosty i przejrzysty cennik
+  subtitle: Ingantt dla Google Workspace
+  plans:
+    - title: Bezpłatny Okres Próbny
+      price: $0
+      duration: 30 dni
+      features:
+        - Pełny dostęp do wszystkich funkcji
+        - Generowanie projektów z SI
+        - Import/Export MS Project
+        - Integracja z Dyskiem Google
+      cta:
+        text: Rozpocznij bezpłatny okres próbny
+        url: workspace_url
+        class: secondary
+    - title: Professional
+      price: $3.5
+      duration: za użytkownika/mies.
+      annual_price: lub $35/użytkownik rocznie
+      featured: true
+      features:
+        - Wszystko z Bezpłatnego Okresu Próbnego
+        - Priorytetowe wsparcie
+      cta:
+        text: Rozpocznij bezpłatny okres próbny
+        url: workspace_url
+        class: primary
+    - title: Enterprise
+      price: Indywidualna wycena
+      duration: dla dużych zespołów
+      features:
+        - Wszystko w planie Professional
+        - Integracja dostosowana do potrzeb
+        - Dedykowane wsparcie
+        - Gwarancja SLA
+      cta:
+        text: Skontaktuj się z działem sprzedaży
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Co możesz zrobić za pomocą Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Zaawansowane planowanie
+      items:
+        - Twórz plany projektów z prostych opisów tekstowych za pomocą SI
+        - Wprowadzaj dowolne zmiany i natychmiast zobacz efekty
+        - Przewiduj terminy ukończenia i wcześnie wykrywaj potencjalne blokady
+        - Planuj koszty
+    - icon: fas fa-tasks
+      title: Zarządzanie zadaniami
+      items:
+        - Rozbijaj projekty na zadania
+        - Ustalaj zależności i terminy
+        - Oznaczaj zadania jako kamienie milowe
+        - Śledź ścieżkę krytyczną
+        - Monitoruj status ukończenia zadań
+    - icon: fas fa-users
+      title: Współpraca
+      items:
+        - Używaj Dysku Google do zapisywania i udostępniania
+        - Wymieniaj się plikami w formatach XML, PDF lub PNG – XML z MS Project jest obsługiwany natywnie
+    - icon: fas fa-chart-line
+      title: Zaawansowane śledzenie
+      items:
+        - Monitoruj przydział zasobów
+        - Analizuj ścieżkę krytyczną
+        - Śledź wykorzystanie zasobów
+        - Analizuj oś czasu
+    - icon: fas fa-calendar-alt
+      title: Zarządzanie zasobami
+      items:
+        - Zarządzaj zasobami roboczymi, materiałowymi i kosztowymi
+        - Definiuj kalendarze i godziny pracy dla zasobów
+        - Automatycznie rozładowuj przeciążone zasoby
+        - Przeglądaj wykorzystanie zasobów w czasie
+    - icon: fas fa-plug
+      title: Integracje
+      items:
+        - Zgodność z plikami MS Project (MPP i XML)
+        - Eksport do PDF i PNG
+        - Integracja z Dyskiem Google
+
+faq:
+  title: Najczęściej zadawane pytania
+  items:
+    - question: Czym jest Ingantt i jak działa z Google Workspace?
+      answer: Ingantt to profesjonalne narzędzie do zarządzania projektami, które bezproblemowo integruje się z Google Workspace. Pozwala tworzyć, zarządzać i udostępniać plany projektów bezpośrednio z Dysku Google, ułatwiając współpracę zespołom już korzystającym z ekosystemu Google.
+    - question: Czy mogę zaimportować istniejące pliki z Microsoft Project?
+      answer: Tak! Ingantt w pełni obsługuje import plików .MPP i .XML z Microsoft Project. Wszystkie dane projektu, w tym zadania, zasoby i zależności, zostaną zachowane podczas importu.
+    - question: Jak działa generowanie projektów za pomocą SI?
+      answer: Nasz asystent SI potrafi stworzyć kompletny plan projektu z prostego opisu tekstowego. Wystarczy przedstawić cele i wymagania projektu, a SI wygeneruje uporządkowany plan z zadaniami, harmonogramem i zależnościami opartymi na najlepszych praktykach zarządzania projektami.
+    - question: Co obejmuje bezpłatny okres próbny?
+      answer: 30-dniowy darmowy okres próbny obejmuje wszystkie funkcje Ingantt oraz pełną integrację z Google Workspace. Nie jest wymagana karta kredytowa, aby rozpocząć.
+    - question: Czy mogę używać Ingantt dla Google Workspace na urządzeniach mobilnych?
+      answer: Tak! Ingantt dla Google Workspace działa na dowolnym urządzeniu z przeglądarką internetową. Nasz responsywny interfejs doskonale dopasowuje się do smartfonów i tabletów, zapewniając pełny dostęp do projektów w dowolnym miejscu.
+    - question: Co dzieje się z moimi danymi po anulowaniu subskrypcji?
+      answer: Pliki projektów pozostaną bezpiecznie przechowywane na Twoim Dysku Google nawet po anulowaniu. Pliki projektów są zapisywane w formacie MS Project, więc nigdy nie stracisz dostępu do swoich danych.
+    - question: Jak mogę kupić Ingantt dla moich współpracowników?
+      answer: Zaloguj się do Ingantt za pomocą konta Google, kliknij awatar w prawym górnym rogu i wybierz „Purchase subscriptions”. Zaznacz „I want to purchase subscriptions for others” i wprowadź adresy e-mail kont Google swoich współpracowników. Wybierz harmonogram płatności (miesięczny lub roczny) i dokończ zakup.
+  support:
+    title: Zacznij planować z Ingantt już teraz
+    docs:
+      text: Przejdź do Dokumentacji
+    contact:
+      title: Masz więcej pytań?<br>Skontaktuj się z prawdziwą osobą w celu uzyskania pomocy!
+      text: Napisz do nas
+      icon: fa fa-envelope
+
+cta:
+  title: Gotowy, aby zmienić podejście Twojego zespołu do planowania projektów?
+  subtitle: Rozpocznij bezpłatny okres próbny już dziś i odkryj moc planowania projektów wspomaganego przez SI
+  button:
+    text: Rozpocznij bezpłatny okres próbny
+
+platform_support:
+  title: Potrzebujesz wersji dostosowanej do konkretnego urządzenia na użytek prywatny?
+
+desktop_callback:
+  title: Ingantt
+  cta: Kliknij „Otwórz” w okienku dialogowym powyżej.
+  success: Kliknięto? Możesz zamknąć tę stronę.
+  issue: Coś poszło nie tak?
+  click: Spróbuj ponownie
+
+blog:
+  title: Blog Ingantt
+  subtitle: Bądź na bieżąco z najnowszymi wiadomościami i aktualizacjami
+  title_tag: Blog Ingantt – najnowsze wiadomości i aktualizacje od zespołu Ingantt
+  meta_keywords: Ingantt, blog, wiadomości, Gantt dla Google Workspace
+  meta_description: Bądź na bieżąco z najnowszymi wiadomościami i aktualizacjami od zespołu Ingantt

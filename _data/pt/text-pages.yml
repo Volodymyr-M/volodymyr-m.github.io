@@ -1,0 +1,89 @@
+terms_of_service:
+    title_tag: Ingantt - Termos de Serviço
+    meta_keywords: Ingantt, termos de serviço
+    meta_description: Termos de Serviço da Ingantt
+    text_title: Termos de Serviço
+    text: |
+      Bem-vindo(a) ao Ingantt! Ao utilizar nosso aplicativo, você concorda com os seguintes termos e condições:
+
+      ## 1. Aceitação dos Termos
+
+      Ao acessar ou utilizar o Ingantt, você concorda em estar vinculado(a) a estes Termos de Serviço e à nossa Política de Privacidade.
+
+      ## 2. Uso do Google Drive
+
+      Nosso aplicativo se conecta à sua conta do Google Drive para armazenar e recuperar seus dados. Ao usar nosso aplicativo, você nos autoriza a acessar sua conta do Google Drive para esse propósito.
+
+      ## 3. Dados do Usuário
+
+      Você mantém a propriedade de todos os dados que enviar para seu Google Drive por meio do nosso aplicativo. Não reivindicamos qualquer direito de propriedade sobre seus dados.
+
+      ## 4. Privacidade
+
+      Sua privacidade é importante para nós. Acessamos, armazenamos e utilizamos seus dados somente na medida necessária para fornecer nossos serviços. Consulte nossa Política de Privacidade para obter mais informações sobre como tratamos seus dados.
+
+      ## 5. Segurança
+
+      Adotamos medidas razoáveis para proteger seus dados. No entanto, não podemos garantir a segurança absoluta de suas informações e não nos responsabilizamos por qualquer acesso não autorizado ou violações de segurança.
+
+      ## 6. Responsabilidades do Usuário
+
+      Você é responsável por manter a segurança de sua conta do Google Drive e por quaisquer atividades que ocorram em sua conta.
+
+      ## 7. Atividades Proibidas
+
+      Você concorda em não usar nosso aplicativo para qualquer atividade ilícita ou de forma que viole estes termos.
+
+      ## 8. Rescisão
+
+      Reservamo-nos o direito de suspender ou encerrar seu acesso ao nosso aplicativo a qualquer momento, sem aviso prévio, por qualquer motivo, incluindo se você violar estes termos.
+
+      ## 9. Modificações dos Termos
+
+      Podemos atualizar estes termos periodicamente. Notificaremos você sobre quaisquer alterações publicando os novos termos em nosso aplicativo. Seu uso contínuo do aplicativo após essas alterações constituirá sua aceitação dos termos revisados.
+
+      ## 10. Contato
+
+      Se você tiver alguma dúvida sobre estes Termos de Serviço, entre em contato conosco.
+
+privacy_policy:
+    title_tag: Ingantt - Política de Privacidade
+    meta_keywords: Ingantt, política de privacidade
+    meta_description: Política de Privacidade da Ingantt
+    text_title: Política de Privacidade
+    text: |
+      ## O que são Informações Pessoais?
+
+      Informações Pessoais são informações ou opiniões que identificam um indivíduo. Exemplos incluem nomes, endereços, endereços de e-mail, números de telefone e de fax.
+
+      ## Nenhum dado é coletado
+
+      Todos os dados recebidos do usuário e processados pelo Ingantt são armazenados em arquivos locais no próprio dispositivo do usuário ou na conta do Google Drive do usuário, caso este tenha optado explicitamente por essa opção e habilitado a funcionalidade junto ao Google.
+
+      No armazenamento do Google Drive do usuário, o Ingantt armazena apenas os arquivos criados pelo próprio usuário por meio do Ingantt. O Ingantt acessa, utiliza ou compartilha somente os arquivos que ele próprio cria no Google Drive do usuário.
+
+      Arquivos MPP abertos a partir do dispositivo do usuário são enviados ao serviço de conversão do Ingantt para serem convertidos em formato XML e depois retornados ao usuário. Esses arquivos não são armazenados no serviço.
+
+      Portanto, nenhum dado é coletado pelos desenvolvedores do Ingantt.
+
+      ## Dados compartilhados com terceiros
+
+      Para habilitar recursos relacionados à IA, o prompt inserido pelo usuário para criar um arquivo novo usando IA é compartilhado com ferramentas de IA de terceiros: OpenAI e/ou Gemini.
+
+      Nenhum outro dado é compartilhado com terceiros.
+
+      ## Uso dos dados
+
+      Nenhum dado do usuário é utilizado para desenvolver, aprimorar ou treinar modelos de IA e/ou ML de forma geral. Isso inclui os dados obtidos por meio das APIs do Google Workspace.
+
+      ## Proteção de dados
+
+      Adotamos as medidas técnicas e organizacionais adequadas para proteger seus dados contra acesso não autorizado, perda ou divulgação indevida.
+
+      ## Atualizações desta Política
+
+      Esta Política pode ser alterada periodicamente e está disponível em nosso site.
+
+      ## Reclamações e Dúvidas sobre a Política de Privacidade
+
+      Se você tiver qualquer dúvida ou reclamação sobre nossa Política de Privacidade, entre em contato conosco.

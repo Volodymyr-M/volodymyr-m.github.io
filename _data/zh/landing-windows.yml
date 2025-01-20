@@ -1,0 +1,231 @@
+title_tag: Ingantt - 适用于 Windows 的现代 Gantt 图表项目规划，支持 AI
+meta_keywords: Gantt 图表应用 Windows, mpp, gantt PC, mpp 阅读器, mpp 查看器, MS Project 替代方案, Windows Gantt, Gantt 应用, 项目规划, 项目管理
+meta_description: Ingantt - AI 驱动的项目管理工具，适用于 Windows。让您在 PC 上轻松规划、安排和跟踪项目。
+
+page_url: windows_page
+platform_url: windows_url
+store_image: microsoft_store.png
+platform_image: windows.png
+
+hero:
+  title: 适用于 Windows 的 Gantt 图表项目规划（支持 AI）
+  subtitle: 借助智能 Gantt 图表和 AI 助手，在 Windows PC 上变革您的项目规划方式。
+  cta:
+    primary:
+      text: 免费试用
+      text_fits: true
+    other_versions:
+      title: 其他版本
+  rating:
+    stars:
+    text: 5 星好评
+  image: hero-windows.png
+
+features_grid:
+  title: 项目经理为何选择 Ingantt
+  items:
+    - icon: fas fa-robot
+      title: AI 驱动的规划
+      description: 使用我们的 AI 助手，从简短描述生成完整的项目规划。
+    - icon: fas fa-brain
+      title: 全面规划
+      description: 时间安排、成本、任务、依赖关系、资源等——一站式搞定。
+    - icon: fas fa-desktop
+      title: 为 Windows 优化
+      description: 在 Windows 上以原生流畅的体验来规划、审阅和管理项目。
+    - icon: fas fa-file-import
+      title: 兼容 MS Project
+      description: 导入 .MPP 文件，并以 MS Project 兼容的 XML 格式保存，无需妥协。
+
+demo:
+  title: 观看 Ingantt 的实际操作
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: 深受全球项目经理信赖
+  show_more:
+    text: 显示更多
+    icon: fas fa-chevron-down
+  show_less:
+    text: 收起
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 这是最好的 Gantt 应用，不会把你锁定在自己的文件格式或云存储中。
+      author:
+        name: Noah Wilson
+        title: 项目主管
+    - rating: ★★★★★
+      text: AI 生成项目计划对我来说简直是一个重大突破。我将其用作项目计划的起点和灵感来源。
+      author:
+        name: Alexander Hall
+        title: 敏捷教练
+    - rating: ★★★★★
+      text: 我也将它用作 Microsoft Project 文件的 MPP 查看器和编辑器。
+      author:
+        name: Amelia Clark
+        title: 项目协调员
+    - rating: ★★★★★
+      text: 终于找到一个运行效果极佳的 Microsoft Project 替代方案！
+      author:
+        name: Isabella Moore
+        title: 团队负责人（项目管理）
+      is_hidden: true
+    - rating: ★★★★★
+      text: 它按预期工作，我对此非常满意。
+      author:
+        name: Benjamin Lee
+        title: 敏捷教练
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project 的全部功能浓缩在一个更轻量的工具中！
+      author:
+        name: Mia Harris
+        title: 项目管理培训师
+      is_hidden: true
+    - rating: ★★★★★
+      text: 可以创建直观且结构化的 Gantt 图，支持里程碑和资源规划，并可手动追踪进度。
+      author:
+        name: Emma Rodriguez
+        title: 产品经理
+      is_hidden: true
+    - rating: ★★★★★
+      text: 相比同类产品，运行更快，能够明显感受到在滚动时间轴和打开项目时速度很快，赞！
+      author:
+        name: Ethan Walker
+        title: 项目总监
+      is_hidden: true
+    - rating: ★★★★★
+      text: 真是一个出色的程序！
+      author:
+        name: Harper Thompson
+        title: PMO（项目管理办公室）主管
+      is_hidden: true
+
+features_detailed:
+  title: 成功项目规划所需的一切
+  subtitle: 专为现代项目经理打造的强大功能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 规划
+      content:
+        title: AI 驱动的规划
+        features:
+          - icon: fas fa-check
+            title: AI 项目生成器
+            description: 借助先进的 AI，从简短文本描述创建完整项目规划
+          - icon: fas fa-check
+            title: 轻松安排
+            description: 更新项目计划的任意部分，立即查看整体影响。
+          - icon: fas fa-check
+            title: 熟悉度
+            description: 是否曾使用过 MS Project 或类似软件？充分利用那些经验！
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: 追踪
+      content:
+        title: 高级追踪
+        features:
+          - icon: fas fa-check
+            title: 进度监控
+            description: 追踪完成百分比及里程碑进度
+          - icon: fas fa-check
+            title: 资源使用
+            description: 监控资源分配并识别潜在瓶颈
+          - icon: fas fa-check
+            title: 时间轴分析
+            description: 分析关键路径并跟踪进度偏差
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: 集成
+      content:
+        title: 强大的集成功能
+        features:
+          - icon: fas fa-check
+            title: 兼容 MS Project
+            description: 导入 MS Project 的 MPP 文件，并始终以 MS Project 兼容的 XML 格式保存。
+          - icon: fas fa-check
+            title: 导出选项
+            description: 随时导出为 PDF 和 PNG
+          - icon: fas fa-check
+            title: 使用 Google Drive 保存和打开
+            description: 使用你的 Google Drive 存储项目文件。
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: 使用 Ingantt 可以做什么
+  items:
+    - icon: fas fa-brain
+      title: 高级规划
+      items:
+        - 使用 AI，从简短文本描述创建项目计划
+        - 进行任意更新并立即查看变更效果
+        - 预测完成日期并及早发现潜在阻碍
+        - 规划成本
+    - icon: fas fa-tasks
+      title: 任务管理
+      items:
+        - 将项目分解为多个任务
+        - 设置任务依赖和截止日期
+        - 将任务标记为里程碑
+        - 监控关键路径
+        - 跟踪任务完成进度
+    - icon: fas fa-users
+      title: 协作
+      items:
+        - 支持与 Google Drive 集成
+        - 以 XML、PDF 或 PNG 格式交换文件
+    - icon: fas fa-chart-line
+      title: 高级追踪
+      items:
+        - 监控资源分配
+        - 分析关键路径
+        - 追踪资源使用情况
+        - 时间轴分析
+    - icon: fas fa-calendar-alt
+      title: 资源管理
+      items:
+        - 管理工作、物料和成本资源
+        - 设置资源日程和工作时间
+        - 自动平衡超额分配的资源
+        - 查看资源随时间的使用情况
+    - icon: fas fa-plug
+      title: 集成
+      items:
+        - MS Project 文件兼容性（MPP 和 XML）
+        - 导出为 PDF 和 PNG
+        - 与 Google Drive 兼容
+
+faq:
+  title: 常见问题
+  items:
+    - question: 什么是适用于 Windows 的 Ingantt？
+      answer: Ingantt for Windows 是一款在 PC 上本地运行的专业项目管理工具。它结合了 AI 辅助的规划功能和对 MS Project 的兼容性，让您轻松创建并管理项目计划。
+    - question: 我能导入已有的 Microsoft Project 文件吗？
+      answer: 可以！Ingantt 完全支持从 Microsoft Project 导入 .MPP 和 .XML 文件。您的项目数据（包括任务、资源和依赖关系）都会在导入过程中得到保留。
+    - question: AI 项目生成是如何工作的？
+      answer: 我们的 AI 助手能够根据简短的文本描述生成完整的项目计划。只需描述您的项目目标和需求，AI 将基于最佳实践创建包含任务、进度和依赖关系的结构化计划。
+    - question: Windows 版本有免费试用吗？
+      answer: 有的。从 Microsoft Store 安装应用后，可享受 7 天免费试用。
+    - question: 我如何购买适用于 Windows 的 Ingantt？
+      answer: 前往 Microsoft Store 并在那里购买。购买后您可永久使用该应用，无需重复付费。
+  support:
+    title: 开始使用 Ingantt 规划项目
+    docs:
+      text: 前往文档
+    contact:
+      title: 还有其他问题吗？<br>欢迎联系人工客服！
+      text: 给我们发邮件
+      icon: fa fa-envelope
+
+cta:
+  title: 准备好改变您的项目规划方式了吗？
+  subtitle: 在 Windows 上体验 AI 驱动的项目规划
+  button:
+    text: 免费试用
+
+platform_support:
+  title: 需要适用于其他平台的版本吗？

@@ -1,0 +1,89 @@
+terms_of_service:
+    title_tag: Ingantt - Conditions d’utilisation
+    meta_keywords: Ingantt, conditions d’utilisation
+    meta_description: Conditions d’utilisation d’Ingantt
+    text_title: Conditions d’utilisation
+    text: |
+      Bienvenue sur Ingantt ! En utilisant notre application, vous acceptez les conditions générales suivantes :
+
+      ## 1. Acceptation des conditions
+
+      En accédant ou en utilisant Ingantt, vous acceptez d’être lié par les présentes Conditions d’utilisation ainsi que par notre Politique de confidentialité.
+
+      ## 2. Utilisation de Google Drive
+
+      Notre application se connecte à votre Google Drive afin de stocker et de récupérer vos données. En utilisant notre application, vous nous autorisez à accéder à votre compte Google Drive à cette fin.
+
+      ## 3. Données de l’utilisateur
+
+      Vous conservez la propriété de toutes les données que vous téléchargez sur votre Google Drive via notre application. Nous ne revendiquons aucun droit de propriété sur vos données.
+
+      ## 4. Confidentialité
+
+      Votre confidentialité est importante pour nous. Nous n’accédons à vos données, ne les stockons et ne les utilisons que dans la mesure nécessaire à la fourniture de nos services. Veuillez consulter notre Politique de confidentialité pour plus d’informations sur la façon dont nous traitons vos données.
+
+      ## 5. Sécurité
+
+      Nous prenons des mesures raisonnables pour protéger vos données. Toutefois, nous ne pouvons pas garantir la sécurité absolue de vos données et ne sommes pas responsables de tout accès non autorisé ou de toute violation de sécurité.
+
+      ## 6. Responsabilités de l’utilisateur
+
+      Vous êtes responsable de la sécurité de votre compte Google Drive et de toute activité effectuée sous votre compte.
+
+      ## 7. Activités interdites
+
+      Vous vous engagez à ne pas utiliser notre application à des fins illégales ou d’une manière qui enfreint les présentes conditions.
+
+      ## 8. Résiliation
+
+      Nous nous réservons le droit de suspendre ou de résilier votre accès à notre application à tout moment, sans préavis, pour quelque raison que ce soit, y compris en cas de violation de ces conditions.
+
+      ## 9. Modifications des conditions
+
+      Nous pouvons mettre à jour ces conditions de temps à autre. Nous vous informerons de tout changement en publiant les nouvelles conditions sur notre application. Votre utilisation continue de l’application après de tels changements constitue votre acceptation des conditions modifiées.
+
+      ## 10. Contactez-nous
+
+      Si vous avez des questions concernant ces Conditions d’utilisation, veuillez nous contacter.
+
+privacy_policy:
+    title_tag: Ingantt - Politique de confidentialité
+    meta_keywords: Ingantt, politique de confidentialité
+    meta_description: Politique de confidentialité d’Ingantt
+    text_title: Politique de confidentialité
+    text: |
+      ## Qu’est-ce que les informations personnelles ?
+
+      Les informations personnelles sont des informations ou des opinions permettant d’identifier un individu. Par exemple : noms, adresses, adresses e-mail, numéros de téléphone et de télécopie.
+
+      ## Aucune donnée n’est collectée
+
+      Toutes les données reçues de l’utilisateur et traitées par Ingantt sont stockées soit dans des fichiers locaux sur l’appareil de l’utilisateur, soit dans le compte Google Drive de l’utilisateur si celui-ci a explicitement choisi cette option et activé cette fonctionnalité auprès de Google.
+
+      Dans le stockage Google Drive de l’utilisateur, Ingantt enregistre uniquement les fichiers que l’utilisateur crée via Ingantt. Ingantt n’accède, n’utilise ou ne partage que les fichiers qu’il crée dans le Google Drive de l’utilisateur.
+
+      Les fichiers MPP ouverts depuis l’appareil de l’utilisateur sont envoyés au service Web de conversion d’Ingantt pour être convertis et renvoyés au format XML. Les fichiers ne sont pas stockés sur le service.
+
+      Ainsi, aucune donnée n’est collectée par les développeurs d’Ingantt.
+
+      ## Données partagées avec des tiers
+
+      Pour activer la fonctionnalité liée à l’IA, la demande (prompt) saisie par l’utilisateur pour créer un nouveau fichier à l’aide de l’IA est partagée avec des outils d’IA tiers : OpenAI et/ou Gemini.
+
+      Aucune autre donnée n’est partagée avec des tiers.
+
+      ## Utilisation des données
+
+      Aucune donnée utilisateur n’est utilisée pour développer, améliorer ou former des modèles d’IA et/ou d’apprentissage automatique généralisés. Cela inclut également les données utilisateur obtenues via les API de Google Workspace.
+
+      ## Protection des données
+
+      Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre tout accès non autorisé, perte ou divulgation.
+
+      ## Mises à jour de la politique
+
+      Cette politique peut être modifiée de temps à autre et est disponible sur notre site Web.
+
+      ## Réclamations et questions concernant la Politique de confidentialité
+
+      Si vous avez des questions ou des réclamations concernant notre Politique de confidentialité, veuillez nous contacter.

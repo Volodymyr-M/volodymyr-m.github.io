@@ -1,0 +1,232 @@
+title_tag: Ingantt - แผนภูมิแกนต์สมัยใหม่สำหรับ Android พร้อม AI
+meta_keywords: แอปแผนภูมิแกนต์ Android, mpp, แกนต์ Android, ตัวอ่าน mpp, ตัวแสดง mpp, แอปแกนต์, ทางเลือก MS Project, แกนต์สำหรับโทรศัพท์, แกนต์สำหรับแท็บเล็ต, การวางแผนโครงการ, การจัดการโครงการ
+meta_description: Ingantt - เครื่องมือบริหารโครงการที่ขับเคลื่อนด้วย AI สำหรับสมาร์ทโฟนและแท็บเล็ต Android วางแผน กำหนดตาราง และติดตามโครงการของคุณได้อย่างง่ายดาย
+
+page_url: android_page
+platform_url: android_url
+store_image: google_play.png
+platform_image: android.png
+
+hero:
+  title: การวางแผนโครงการด้วยแผนภูมิแกนต์และ AI บน Android
+  subtitle: ยกระดับการวางแผนโครงการด้วยแผนภูมิแกนต์อัจฉริยะและความช่วยเหลือจาก AI บนโทรศัพท์และแท็บเล็ต Android ของคุณ
+  cta:
+    primary:
+      text: ดาวน์โหลดทันที
+      text_fits: true
+    other_versions:
+      title: เวอร์ชันอื่น
+  rating:
+    stars:
+    text: 5 ดาวบน
+  image: hero-android.png
+
+features_grid:
+  title: ทำไมผู้จัดการโครงการถึงเลือกใช้ Ingantt
+  items:
+    - icon: fas fa-robot
+      title: การวางแผนด้วย AI
+      description: สร้างแผนโครงการสมบูรณ์จากคำอธิบายง่าย ๆ ด้วยผู้ช่วย AI ของเรา
+    - icon: fas fa-brain
+      title: วางแผนครอบคลุมทุกอย่าง
+      description: ตารางเวลา ค่าใช้จ่าย งาน ความสัมพันธ์ระหว่างงาน ทรัพยากร และอื่น ๆ ทั้งหมดในที่เดียว
+    - icon: fas fa-mobile-alt
+      title: ประสบการณ์ที่ปรับให้เหมาะกับมือถือ
+      description: ออกแบบมาสำหรับอุปกรณ์ Android — วางแผน ตรวจสอบ และจัดการโครงการได้ทุกที่
+    - icon: fas fa-file-import
+      title: รองรับ MS Project
+      description: นำเข้าไฟล์ .MPP และบันทึกเป็น XML ที่เข้ากันได้กับ MS Project — ไม่มีข้อจำกัด
+
+demo:
+  title: ดูการทำงานของ Ingantt
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: ผู้จัดการโครงการทั่วโลกไว้วางใจ
+  show_more:
+    text: ดูเพิ่มเติม
+    icon: fas fa-chevron-down
+  show_less:
+    text: ดูน้อยลง
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: แอปแกนต์ที่ดีที่สุด ไม่บังคับให้ใช้รูปแบบไฟล์หรือพื้นที่เก็บข้อมูลบนคลาวด์เฉพาะ
+      author:
+        name: Noah Wilson
+        title: ผู้อำนวยการโปรแกรม
+    - rating: ★★★★★
+      text: การสร้างแผนโครงการด้วย AI เปลี่ยนวิธีทำงานของฉัน ฉันใช้มันเป็นจุดเริ่มต้นและหาแรงบันดาลใจสำหรับแผนโครงการ
+      author:
+        name: Alexander Hall
+        title: โค้ช Agile
+    - rating: ★★★★★
+      text: ฉันยังใช้มันเป็นตัวแสดงและแก้ไขไฟล์ MPP สำหรับ Microsoft Project
+      author:
+        name: Amelia Clark
+        title: ผู้ประสานงานโครงการ
+    - rating: ★★★★★
+      text: ในที่สุดก็มีตัวเลือกแทน Microsoft Project ที่ทำงานได้ยอดเยี่ยม!
+      author:
+        name: Isabella Moore
+        title: หัวหน้าทีม (การจัดการโครงการ)
+      is_hidden: true
+    - rating: ★★★★★
+      text: ทำงานได้ตามคาดและฉันพอใจมาก
+      author:
+        name: Benjamin Lee
+        title: โค้ช Agile
+      is_hidden: true
+    - rating: ★★★★★
+      text: พลังเต็มรูปแบบของ MS Project ในแพ็กเกจที่เล็กลงมาก!
+      author:
+        name: Mia Harris
+        title: ผู้ฝึกสอนการจัดการโครงการ
+      is_hidden: true
+    - rating: ★★★★★
+      text: สามารถสร้างแผนภูมิแกนต์ที่เป็นโครงสร้างและเข้าใจง่าย พร้อมมาร์กงานสำคัญและวางแผนทรัพยากร รวมถึงติดตามความคืบหน้าได้ด้วยตนเอง
+      author:
+        name: Emma Rodriguez
+        title: ผู้จัดการผลิตภัณฑ์
+      is_hidden: true
+    - rating: ★★★★★
+      text: ทำงานได้เร็วกว่าคู่แข่ง รู้สึกว่าการเลื่อนเวลาและเปิดโครงการเร็วกว่าแอปอื่น ๆ เยี่ยมมาก!
+      author:
+        name: Ethan Walker
+        title: ผู้จัดการโปรแกรม
+      is_hidden: true
+    - rating: ★★★★★
+      text: โปรแกรมยอดเยี่ยม!
+      author:
+        name: Harper Thompson
+        title: ผู้อำนวยการ PMO (Project Management Office)
+      is_hidden: true
+
+features_detailed:
+  title: ครบทุกสิ่งที่คุณต้องการเพื่อการวางแผนโครงการที่ประสบความสำเร็จ
+  subtitle: คุณสมบัติทรงพลังที่ออกแบบมาสำหรับผู้จัดการโครงการยุคใหม่
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: การวางแผน
+      content:
+        title: การวางแผนด้วย AI
+        features:
+          - icon: fas fa-check
+            title: AI Project Generator
+            description: สร้างแผนโครงการครบถ้วนจากคำอธิบายข้อความสั้น ๆ โดยใช้ AI ขั้นสูง
+          - icon: fas fa-check
+            title: การกำหนดตารางอย่างง่าย
+            description: อัปเดตส่วนใดส่วนหนึ่งของแผนโครงการ แล้วดูผลรวมได้ทันที
+          - icon: fas fa-check
+            title: ความคุ้นเคย
+            description: หากเคยใช้ MS Project หรือซอฟต์แวร์คล้ายกัน ใช้ทักษะเหล่านั้นได้เลย!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: การติดตาม
+      content:
+        title: การติดตามขั้นสูง
+        features:
+          - icon: fas fa-check
+            title: การติดตามความคืบหน้า
+            description: ติดตามเปอร์เซ็นต์ความสำเร็จและงานสำคัญ
+          - icon: fas fa-check
+            title: การใช้ทรัพยากร
+            description: ตรวจสอบการจัดสรรทรัพยากรและระบุคอขวดที่อาจเกิดขึ้น
+          - icon: fas fa-check
+            title: การวิเคราะห์ไทม์ไลน์
+            description: วิเคราะห์เส้นทางวิกฤต (Critical Path) และติดตามความแตกต่างของตารางเวลา
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: การผสานรวม
+      content:
+        title: การผสานรวมที่ทรงพลัง
+        features:
+          - icon: fas fa-check
+            title: รองรับ MS Project
+            description: นำเข้าไฟล์ MPP จาก MS Project และบันทึกในรูปแบบ XML ที่เข้ากันได้กับ MS Project เสมอ
+          - icon: fas fa-check
+            title: ตัวเลือกการส่งออก
+            description: ส่งออกเป็น PDF และ PNG ได้ทุกเมื่อ
+          - icon: fas fa-check
+            title: การบันทึกและเปิดไฟล์บน Google Drive
+            description: ใช้ Google Drive เพื่อจัดเก็บไฟล์โครงการของคุณ
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: คุณสามารถทำอะไรได้บ้างกับ Ingantt
+  items:
+    - icon: fas fa-brain
+      title: การวางแผนขั้นสูง
+      items:
+        - สร้างแผนโครงการจากคำอธิบายข้อความง่าย ๆ ด้วย AI
+        - อัปเดตส่วนใดส่วนหนึ่ง แล้วเห็นผลลัพธ์เปลี่ยนแปลงทันที
+        - คาดการณ์วันที่เสร็จสิ้นและระบุอุปสรรคที่อาจเกิดขึ้นล่วงหน้า
+        - วางแผนค่าใช้จ่าย
+    - icon: fas fa-tasks
+      title: การจัดการงาน
+      items:
+        - แบ่งโครงการออกเป็นงานย่อย
+        - กำหนดความสัมพันธ์ของงานและกำหนดเส้นตาย
+        - ทำเครื่องหมายงานเป็นขั้นตอนสำคัญ (Milestone)
+        - ตรวจสอบเส้นทางวิกฤต
+        - ติดตามสถานะการเสร็จสิ้นของงาน
+    - icon: fas fa-users
+      title: การทำงานร่วมกัน
+      items:
+        - แชร์ไฟล์ด้วยฟังก์ชันแชร์ไฟล์มาตรฐานของ Android
+        - ทำงานร่วมกับ Google Drive
+        - แลกเปลี่ยนไฟล์ในรูปแบบ XML, PDF หรือ PNG
+    - icon: fas fa-chart-line
+      title: การติดตามขั้นสูง
+      items:
+        - ตรวจสอบการจัดสรรทรัพยากร
+        - วิเคราะห์เส้นทางวิกฤต
+        - ติดตามการใช้งานทรัพยากร
+        - วิเคราะห์ไทม์ไลน์
+    - icon: fas fa-calendar-alt
+      title: การจัดการทรัพยากร
+      items:
+        - จัดการทรัพยากรด้านงาน วัสดุ และค่าใช้จ่าย
+        - กำหนดปฏิทินทรัพยากรและเวลาทำงาน
+        - ปรับสมดุลทรัพยากรที่เกินพิกัดโดยอัตโนมัติ
+        - ตรวจสอบการใช้ทรัพยากรตามช่วงเวลา
+    - icon: fas fa-plug
+      title: การผสานรวม
+      items:
+        - รองรับไฟล์ MS Project (MPP และ XML)
+        - ส่งออกเป็น PDF และ PNG
+        - ทำงานร่วมกับ Google Drive
+
+faq:
+  title: คำถามที่พบบ่อย
+  items:
+    - question: Ingantt สำหรับ Android คืออะไร
+      answer: Ingantt สำหรับ Android เป็นเครื่องมือบริหารโครงการมืออาชีพที่ทำงานได้อย่างเต็มรูปแบบบนอุปกรณ์ Android ของคุณ ช่วยให้คุณสร้างและจัดการแผนโครงการได้ทุกที่ พร้อมการวางแผนที่ขับเคลื่อนด้วย AI และการรองรับ MS Project
+    - question: ฉันสามารถนำเข้าไฟล์ Microsoft Project ที่มีอยู่แล้วได้หรือไม่
+      answer: ได้! Ingantt รองรับการนำเข้าไฟล์ .MPP และ .XML จาก Microsoft Project อย่างสมบูรณ์ ข้อมูลโครงการของคุณ รวมถึงงาน ทรัพยากร และความสัมพันธ์จะถูกเก็บรักษาไว้ระหว่างการนำเข้า
+    - question: การสร้างโครงการด้วย AI ทำงานอย่างไร
+      answer: ผู้ช่วย AI ของเราสามารถสร้างแผนโครงการสมบูรณ์จากคำอธิบายแบบข้อความสั้น ๆ เพียงอธิบายเป้าหมายและความต้องการของโครงการ แล้ว AI จะสร้างแผนที่มีโครงสร้างพร้อมงาน เส้นเวลา และความสัมพันธ์โดยยึดตามแนวปฏิบัติที่ดีที่สุด
+    - question: มีเวอร์ชันทดลองใช้ฟรีสำหรับ Android หรือไม่
+      answer: ไม่มี เวอร์ชัน Android เป็นการซื้อครั้งเดียว โดยไม่มีการสมัครสมาชิกหรือทดลองใช้ฟรี
+    - question: ฉันจะซื้อ Ingantt สำหรับ Android ได้อย่างไร
+      answer: เพียงเปิด Google Play Store บน Android ของคุณและซื้อที่นั่น คุณจะเป็นเจ้าของแอปตลอดไปโดยไม่มีค่าธรรมเนียมรายเดือน
+  support:
+    title: เริ่มวางแผนด้วย Ingantt
+    docs:
+      text: ไปที่เอกสาร
+    contact:
+      title: ยังมีคำถามอีกไหม<br>ติดต่อเราเพื่อรับการสนับสนุน!
+      text: ส่งอีเมลหาเรา
+      icon: fa fa-envelope
+
+cta:
+  title: พร้อมที่จะเปลี่ยนแปลงการวางแผนโครงการของคุณหรือยัง
+  subtitle: สัมผัสการวางแผนด้วย AI บนโทรศัพท์หรือแท็บเล็ตของคุณ
+  button:
+    text: ดาวน์โหลดทันที
+
+platform_support:
+  title: ต้องการเวอร์ชันสำหรับแพลตฟอร์มอื่นหรือไม่

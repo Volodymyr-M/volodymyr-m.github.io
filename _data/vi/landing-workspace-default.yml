@@ -1,0 +1,375 @@
+lang_name: Tiếng Việt
+title_tag: Ingantt - Biểu đồ Gantt hiện đại cho lập kế hoạch dự án trên Google Workspace với AI
+meta_keywords: ứng dụng biểu đồ Gantt trên Workspace, mpp, Gantt Google Workspace, trình đọc mpp, trình xem mpp, thay thế MS Project, gantt cho Web, gantt Web, gantt cho Google Workspace, quản lý dự án
+meta_description: Ingantt - Công cụ quản lý dự án tích hợp AI cho Google Workspace. Lập kế hoạch, lên lịch và theo dõi dự án trên web một cách dễ dàng.
+
+page_url: workspace_page
+platform_url: workspace_url
+store_image: google_workspace_marketplace.png
+platform_image: google_workspace.png
+
+products:
+  - icon: fa-brands fa-google
+    text: Ingantt cho Google Workspace
+    platform: Google Workspace
+    url: workspace_page
+  - icon: fab fa-android
+    text: Ingantt cho Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt cho iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt cho Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt cho macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: Sản phẩm
+    
+    legal:
+      title: Pháp lý
+      items:
+        - text: Chính sách quyền riêng tư
+          url: privacy_policy_page
+        - text: Điều khoản dịch vụ
+          url: terms_of_service_page
+    
+    connect:
+      title: Tìm hiểu thêm
+      items:
+        - icon: fa fa-info-circle
+          text: Tài liệu
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: Blog
+          url: blog_page
+        - icon: fa fa-envelope
+          text: Liên hệ qua email
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    
+    site_settings:
+      title: Cài đặt trang
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: Chuyển đổi chế độ tối
+        icon: fas fa-adjust
+
+hero:
+  title: Lập kế hoạch dự án với Biểu đồ Gantt và AI trên Google Workspace
+  subtitle: Nâng tầm quy trình lập kế hoạch dự án bằng biểu đồ Gantt thông minh, cộng tác mượt mà và trợ giúp AI — tất cả ngay trong Google Drive.
+  cta:
+    primary:
+      text: Dùng thử miễn phí
+      text_fits: true
+    other_versions:
+      title: Phiên bản khác
+  rating:
+    stars: ★★★★★
+    text: Đánh giá 5 sao
+  image: hero-workspace.png
+
+features_grid:
+  title: Tại sao các nhóm chọn Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Lập kế hoạch bằng AI
+      description: Tạo lập kế hoạch dự án hoàn chỉnh từ mô tả đơn giản cùng trợ lý AI.
+    - icon: fas fa-cloud
+      title: Tích hợp Google gốc
+      description: Hoạt động liền mạch với Google Drive, giúp cộng tác trở nên tự nhiên và dễ dàng.
+    - icon: fas fa-file-import
+      title: Tương thích MS Project
+      description: Nhập tệp .MPP và lưu dưới định dạng XML tương thích với MS Project, không phải hy sinh bất cứ điều gì.
+    - icon: fas fa-mobile-alt
+      title: Hoạt động ở mọi nơi
+      description: Tận hưởng đầy đủ chức năng trên máy tính, máy tính bảng hoặc điện thoại trong trình duyệt yêu thích của bạn.
+
+demo:
+  title: Xem Ingantt hoạt động
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Được các nhà quản lý dự án trên toàn thế giới tin tưởng
+  show_more:
+    text: Xem thêm
+    icon: fas fa-chevron-down
+  show_less:
+    text: Thu gọn
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Ứng dụng Gantt tuyệt vời nhất, không ràng buộc bạn với định dạng tệp hoặc dịch vụ đám mây riêng.
+      author:
+        name: Noah Wilson
+        title: Giám đốc Chương trình
+    - rating: ★★★★★
+      text: Tính năng tạo kế hoạch dự án bằng AI thật sự thay đổi cuộc chơi. Tôi dùng nó như điểm bắt đầu và nguồn cảm hứng.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Tôi cũng sử dụng nó như trình xem và chỉnh sửa tệp MPP cho Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Điều phối viên Dự án
+    - rating: ★★★★★
+      text: Cuối cùng cũng có một giải pháp thay thế Microsoft Project hoạt động cực kỳ tốt!
+      author:
+        name: Isabella Moore
+        title: Trưởng nhóm (Quản lý Dự án)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Hoạt động đúng như mong đợi và tôi rất hài lòng.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: Tất cả sức mạnh của MS Project gói gọn trong một sản phẩm nhỏ hơn rất nhiều!
+      author:
+        name: Mia Harris
+        title: Huấn luyện viên Quản lý Dự án
+      is_hidden: true
+    - rating: ★★★★★
+      text: Có thể tạo biểu đồ Gantt trực quan và có cấu trúc với cột mốc và lập kế hoạch tài nguyên, bao gồm cả việc theo dõi thủ công tiến độ.
+      author:
+        name: Emma Rodriguez
+        title: Quản lý Sản phẩm
+      is_hidden: true
+    - rating: ★★★★★
+      text: Chạy nhanh hơn [so với đối thủ], tôi cảm nhận rất rõ tốc độ khi cuộn timeline và mở dự án. Rất tuyệt!
+      author:
+        name: Ethan Walker
+        title: Quản lý Chương trình
+      is_hidden: true
+    - rating: ★★★★★
+      text: Chương trình tuyệt vời!
+      author:
+        name: Harper Thompson
+        title: Giám đốc PMO (Phòng Quản lý Dự án)
+      is_hidden: true
+
+features_detailed:
+  title: Tất cả những gì bạn cần cho lập kế hoạch dự án thành công
+  subtitle: Các tính năng mạnh mẽ được thiết kế cho nhà quản lý dự án hiện đại
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Lập kế hoạch
+      content:
+        title: Lập kế hoạch bằng AI
+        features:
+          - icon: fas fa-check
+            title: Trình tạo dự án AI
+            description: Tạo toàn bộ kế hoạch dự án từ mô tả văn bản đơn giản với AI tiên tiến
+          - icon: fas fa-check
+            title: Lên lịch dễ dàng
+            description: Chỉnh sửa bất cứ phần nào của kế hoạch dự án và xem ngay kết quả tổng thể.
+          - icon: fas fa-check
+            title: Thân thuộc
+            description: Đã quen với MS Project hoặc phần mềm tương tự? Áp dụng kỹ năng ấy ở đây!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Theo dõi
+      content:
+        title: Theo dõi nâng cao
+        features:
+          - icon: fas fa-check
+            title: Giám sát tiến độ
+            description: Theo dõi phần trăm hoàn thành và tiến độ mốc (milestone)
+          - icon: fas fa-check
+            title: Sử dụng tài nguyên
+            description: Giám sát phân bổ tài nguyên và phát hiện sớm những điểm tắc nghẽn
+          - icon: fas fa-check
+            title: Phân tích tiến trình
+            description: Phân tích đường găng (critical path) và theo dõi biến đổi lịch trình
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: collaboration
+      icon: fas fa-users
+      title: Cộng tác
+      content:
+        title: Hợp tác liền mạch
+        features:
+          - icon: fas fa-check
+            title: Tích hợp với Google Drive
+            description: Chia sẻ và làm việc chung dựa trên quyền quen thuộc của Google Drive
+          - icon: fas fa-check
+            title: Trao đổi qua định dạng PDF, PNG hoặc XML
+            description: Tương thích nguyên bản với định dạng XML của MS Project.
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: Tích hợp
+      content:
+        title: Tích hợp mạnh mẽ
+        features:
+          - icon: fas fa-check
+            title: Tích hợp Google Workspace
+            description: Dùng Ingantt như một ứng dụng Google Drive thông thường
+          - icon: fas fa-check
+            title: Tương thích MS Project
+            description: Nhập tệp MPP và luôn lưu lại dưới định dạng XML tương thích với MS Project
+          - icon: fas fa-check
+            title: Tùy chọn xuất
+            description: Xuất sang PDF và PNG
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+pricing:
+  title: Chi phí đơn giản, minh bạch
+  subtitle: Ingantt cho Google Workspace
+  plans:
+    - title: Dùng thử miễn phí
+      price: $0
+      duration: 30 ngày
+      features:
+        - Truy cập đầy đủ tất cả tính năng
+        - Tạo dự án với AI
+        - Nhập/Xuất MS Project
+        - Tích hợp Google Drive
+      cta:
+        text: Bắt đầu dùng thử miễn phí
+        url: workspace_url
+        class: secondary
+    - title: Professional
+      price: $3.5
+      duration: mỗi người dùng/tháng
+      annual_price: hoặc $35/người dùng/năm
+      featured: true
+      features:
+        - Mọi thứ có trong Dùng thử miễn phí
+        - Hỗ trợ ưu tiên
+      cta:
+        text: Bắt đầu dùng thử miễn phí
+        url: workspace_url
+        class: primary
+    - title: Enterprise
+      price: Tùy chỉnh
+      duration: cho đội nhóm lớn
+      features:
+        - Tất cả trong gói Professional
+        - Tích hợp tùy chỉnh
+        - Hỗ trợ chuyên biệt
+        - SLA đảm bảo
+      cta:
+        text: Liên hệ bộ phận Bán hàng
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Bạn có thể làm gì với Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Lập kế hoạch nâng cao
+      items:
+        - Tạo kế hoạch dự án từ mô tả văn bản đơn giản bằng AI
+        - Bất kỳ chỉnh sửa nào cũng hiển thị tức thời
+        - Dự đoán ngày hoàn thành và nhận biết sớm các trở ngại
+        - Lên kế hoạch chi phí
+    - icon: fas fa-tasks
+      title: Quản lý công việc
+      items:
+        - Chia nhỏ dự án thành các công việc
+        - Thiết lập mối quan hệ phụ thuộc và thời hạn
+        - Đánh dấu công việc là mốc (milestone)
+        - Theo dõi đường găng (critical path)
+        - Giám sát trạng thái hoàn thành công việc
+    - icon: fas fa-users
+      title: Cộng tác
+      items:
+        - Dùng Google Drive để lưu trữ và chia sẻ
+        - Trao đổi tệp định dạng XML, PDF hoặc PNG — định dạng XML của MS Project được hỗ trợ nguyên bản
+    - icon: fas fa-chart-line
+      title: Theo dõi nâng cao
+      items:
+        - Giám sát phân bổ tài nguyên
+        - Phân tích đường găng
+        - Theo dõi việc sử dụng tài nguyên
+        - Phân tích tiến trình
+    - icon: fas fa-calendar-alt
+      title: Quản lý tài nguyên
+      items:
+        - Quản lý tài nguyên công việc, vật liệu, và chi phí
+        - Cài đặt lịch và giờ làm việc cho tài nguyên
+        - Tự động điều chỉnh khi tài nguyên bị quá tải
+        - Xem xét mức sử dụng tài nguyên theo thời gian
+    - icon: fas fa-plug
+      title: Tích hợp
+      items:
+        - Tương thích tệp MS Project (MPP và XML)
+        - Xuất thành PDF và PNG
+        - Tích hợp Google Drive
+
+faq:
+  title: Câu hỏi thường gặp
+  items:
+    - question: Ingantt là gì và nó hoạt động thế nào với Google Workspace?
+      answer: Ingantt là công cụ quản lý dự án chuyên nghiệp tích hợp mượt mà với Google Workspace. Bạn có thể tạo, quản lý và chia sẻ kế hoạch dự án trực tiếp từ Google Drive, giúp các nhóm đã sử dụng hệ sinh thái Google dễ dàng cộng tác.
+    - question: Tôi có thể nhập các tệp Microsoft Project hiện có không?
+      answer: Có! Ingantt hoàn toàn hỗ trợ nhập tệp .MPP và .XML từ Microsoft Project. Mọi dữ liệu dự án, bao gồm công việc, tài nguyên và mối quan hệ phụ thuộc, sẽ được giữ nguyên.
+    - question: AI tạo dự án hoạt động thế nào?
+      answer: Trợ lý AI của chúng tôi có thể tạo kế hoạch dự án hoàn chỉnh từ mô tả văn bản đơn giản. Bạn chỉ cần mô tả mục tiêu và yêu cầu dự án, AI sẽ xây dựng kế hoạch có cấu trúc với công việc, lịch trình và các quan hệ phụ thuộc dựa trên các phương pháp quản lý dự án tốt nhất.
+    - question: Dùng thử miễn phí bao gồm những gì?
+      answer: Thời gian dùng thử miễn phí 30 ngày bao gồm tất cả tính năng của Ingantt và tích hợp đầy đủ với Google Workspace. Không cần thẻ tín dụng để bắt đầu.
+    - question: Tôi có thể dùng Ingantt cho Google Workspace trên thiết bị di động không?
+      answer: Được! Ingantt cho Google Workspace hoạt động trên bất kỳ thiết bị nào có trình duyệt web. Giao diện phản hồi (responsive) của chúng tôi phù hợp hoàn hảo với điện thoại thông minh và máy tính bảng, giúp bạn truy cập đầy đủ dự án mọi lúc mọi nơi.
+    - question: Điều gì xảy ra với dữ liệu của tôi nếu tôi hủy gói đăng ký?
+      answer: Tệp dự án của bạn vẫn được lưu trữ an toàn trong Google Drive ngay cả sau khi hủy. Các tệp dự án được lưu ở định dạng MS Project, đảm bảo bạn không bao giờ mất quyền truy cập vào dữ liệu.
+    - question: Làm thế nào để tôi mua Ingantt cho đồng đội của mình?
+      answer: Đăng nhập Ingantt bằng tài khoản Google, nhấp vào ảnh đại diện ở góc phải trên và chọn “Purchase subscriptions”. Đánh dấu “I want to purchase subscriptions for others” và nhập email tài khoản Google của các đồng đội. Chọn chu kỳ thanh toán (hàng tháng hoặc hàng năm) và hoàn tất giao dịch.
+  support:
+    title: Bắt đầu lập kế hoạch với Ingantt ngay
+    docs:
+      text: Xem Tài liệu
+    contact:
+      title: Còn câu hỏi nào khác?<br>Liên hệ hỗ trợ trực tiếp!
+      text: Email cho chúng tôi
+      icon: fa fa-envelope
+
+cta:
+  title: Sẵn sàng thay đổi cách nhóm bạn lập kế hoạch dự án?
+  subtitle: Hãy bắt đầu dùng thử miễn phí hôm nay và trải nghiệm sức mạnh của lập kế hoạch dự án dựa trên AI
+  button:
+    text: Bắt đầu dùng thử miễn phí
+
+platform_support:
+  title: Cần một phiên bản riêng cho thiết bị cá nhân?
+
+desktop_callback:
+  title: Ingantt
+  cta: Nhấp "Open" trong hộp thoại ở trên.
+  success: Đã nhấp? Bạn có thể đóng trang này.
+  issue: Gặp sự cố?
+  click: Thử lại
+
+blog:
+  title: Blog Ingantt
+  subtitle: Cập nhật tin tức và thông báo mới nhất
+  title_tag: Blog Ingantt - tin tức và cập nhật từ đội ngũ Ingantt
+  meta_keywords: Ingantt, blog, tin tức, Gantt cho Google Workspace
+  meta_description: Theo dõi tin tức và cập nhật mới nhất từ đội ngũ Ingantt

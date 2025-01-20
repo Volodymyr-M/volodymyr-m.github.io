@@ -1,63 +1,63 @@
 lang_name: Deutsch
-title: "Ingantt – modernes Projektmanagement in Google Workspace"
-meta_keywords: "Gantt-Diagramm-App für Android, MPP, Gantt für Windows, MPP-Reader, MPP-Viewer, Gantt-Anwendung, Gantt für Mac, Gantt für iOS, Gantt für Google Workspace"
-meta_description: "Ingantt – das KI-gestützte Projektmanagement-Tool für Google Workspace, Android, Windows, macOS und iOS. Planen, terminieren und verfolgen Sie Ihre Projekte mühelos."
+title_tag: Ingantt – Moderne Gantt-Diagramm-Projektplanung in Google Workspace mit KI
+meta_keywords: Gantt-Diagramm-App Workspace, mpp, Gantt Google Workspace, mpp-Reader, mpp-Viewer, MS-Project-Alternative, Gantt für das Web, Gantt Web, Gantt für Google Workspace, Projektmanagement
+meta_description: Ingantt – KI-gestütztes Projektmanagement-Tool für Google Workspace. Planen, terminieren und verfolgen Sie Ihre Projekte einfach im Web.
+
+page_url: workspace_page
+platform_url: workspace_url
+store_image: google_workspace_marketplace.png
+platform_image: google_workspace.png
+
+products:
+  - icon: fa-brands fa-google
+    text: Ingantt für Google Workspace
+    platform: Google Workspace
+    url: workspace_page
+  - icon: fab fa-android
+    text: Ingantt für Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt für iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt für Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt für macOS
+    platform: macOS
+    url: macos_page
 
 header:
   logo_text: Ingantt
-  nav_version:
-    current:
-      icon: fa-brands fa-google
-      text: Ingantt für Google Workspace
-    versions:
-      - icon: fab fa-windows
-        text: Ingantt für Windows
-        url: windows_page
-      - icon: fab fa-apple
-        text: Ingantt für macOS
-        url: macos_page
-      - icon: fab fa-app-store-ios
-        text: Ingantt für iOS
-        url: ios_page
-      - icon: fab fa-android
-        text: Ingantt für Android
-        url: android_page
 
 footer:
   sections:
     products:
       title: Produkte
-      items:
-        - icon: fa-brands fa-google
-          text: Ingantt für Google Workspace
-          url: /
-          active: true
-        - icon: fab fa-windows
-          text: Ingantt für Windows
-          url: windows_page
-        - icon: fab fa-apple
-          text: Ingantt für macOS
-          url: macos_page
-        - icon: fab fa-app-store-ios
-          text: Ingantt für iOS
-          url: ios_page
-        - icon: fab fa-android
-          text: Ingantt für Android
-          url: android_page
     
     legal:
       title: Rechtliches
       items:
-        - text: Datenschutzerklärung
+        - text: Datenschutzrichtlinie
           url: privacy_policy_page
         - text: Nutzungsbedingungen
           url: terms_of_service_page
     
     connect:
-      title: Kontakt
+      title: Mehr erfahren
       items:
+        - icon: fa fa-info-circle
+          text: Dokumentation
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: Blog
+          url: blog_page
         - icon: fa fa-envelope
-          text: Schreiben Sie uns
+          text: E-Mail senden
           url: support_email
       social_links:
         - icon: fab fa-x-twitter
@@ -66,9 +66,6 @@ footer:
         - icon: fab fa-bluesky
           title: Bluesky
           url: bluesky_url
-        - icon: fab fa-facebook
-          title: Facebook
-          url: facebook_url
         - icon: fab fa-youtube
           title: YouTube
           url: youtube_url
@@ -79,113 +76,108 @@ footer:
         current:
           icon: fas fa-globe
       theme_toggle:
-        text: Dunkelmodus umschalten
+        text: Dunklen Modus umschalten
         icon: fas fa-adjust
 
-  copyright: "Ingantt Development. Alle Rechte vorbehalten."
+  copyright: Ingantt Development. Alle Rechte vorbehalten.
 
 hero:
-  title: "Gantt-Diagramme für die Projektplanung in Google Workspace mit KI"
-  subtitle: "Revolutionieren Sie Ihre Projektplanung mithilfe intelligenter Gantt-Diagramme, nahtloser Zusammenarbeit und KI-Unterstützung – alles direkt in Ihrem Google Drive."
+  title: Projektplanung mit Gantt-Diagrammen und KI in Google Workspace
+  subtitle: Revolutionieren Sie Ihre Projektplanung mit intelligenten Gantt-Diagrammen, nahtloser Zusammenarbeit und KI-Unterstützung – direkt in Ihrem Google Drive.
   cta:
     primary:
-      text: Kostenlose Testversion starten
-      text_fits: false
-      image: Google_Workspace_Logo.svg.png
+      text: Kostenlos testen
+      text_fits: true
     other_versions:
       title: Andere Versionen
-      platforms:
-        - icon: fab fa-windows
-          text: Ingantt für Windows
-          url: windows_page
-        - icon: fab fa-apple
-          text: Ingantt für macOS
-          url: macos_page
-        - icon: fab fa-app-store-ios
-          text: Ingantt für iOS
-          url: ios_page
-        - icon: fab fa-android
-          text: Ingantt für Android
-          url: android_page
   rating:
     stars: ★★★★★
     text: 5 Sterne bei
+  image: hero-workspace.png
 
 features_grid:
-  title: Warum Teams Ingantt wählen
+  title: Warum Teams sich für Ingantt entscheiden
   items:
     - icon: fas fa-robot
       title: KI-gestützte Planung
-      description: "Erstellen Sie vollständige Projektpläne aus einfachen Beschreibungen mit unserem KI-Assistenten."
+      description: Erstellen Sie vollständige Projektpläne aus einfachen Beschreibungen mithilfe unseres KI-Assistenten.
     - icon: fas fa-cloud
       title: Nahtlose Google-Integration
-      description: "Funktioniert nahtlos mit Google Drive und ermöglicht so natürliche und mühelose Zusammenarbeit."
+      description: Funktioniert reibungslos mit Google Drive für eine natürliche und mühelose Zusammenarbeit.
     - icon: fas fa-file-import
-      title: MS Project-kompatibel
-      description: "Importieren Sie .MPP-Dateien und speichern Sie im MS Project-kompatiblen XML-Format – ohne Kompromisse."
+      title: MS-Project-kompatibel
+      description: Importieren Sie .MPP-Dateien und speichern Sie im MS-Project-kompatiblen XML-Format – ohne Kompromisse.
     - icon: fas fa-mobile-alt
-      title: Überall einsetzbar
-      description: "Voller Funktionsumfang auf Desktop, Tablet und Smartphone in Ihrem bevorzugten Browser."
+      title: Funktioniert überall
+      description: Volle Funktionalität auf Desktop, Tablet und Mobilgeräten in Ihrem bevorzugten Browser.
 
 demo:
   title: Sehen Sie Ingantt in Aktion
   video_id: 66MmRFr16Lk
 
 testimonials:
-  title: Weltweit vertrauen Projektmanager auf Ingantt
+  title: Weltweit von Projektmanagern vertraut
+  show_more:
+    text: Mehr anzeigen
+    icon: fas fa-chevron-down
+  show_less:
+    text: Weniger anzeigen
+    icon: fas fa-chevron-up
   items:
     - rating: ★★★★★
-      text: "Die beste Gantt-App, die einen nicht an ihr eigenes Dateiformat oder Cloud-Speicher bindet."
+      text: Die beste Gantt-App, die einen nicht an ein eigenes Dateiformat oder einen eigenen Cloudspeicher bindet.
       author:
         name: Noah Wilson
-        title: Program Director
+        title: Programmdirektor
     - rating: ★★★★★
-      text: "Die KI-basierte Projektplanung ist für mich ein echter Wendepunkt. Ich nutze sie als Ausgangspunkt und Inspirationsquelle für meine Projektpläne. Sie bewahrt mich buchstäblich davor, Aufgaben zu vergessen oder Projekte zeitlich zu unterschätzen!"
+      text: Die KI-Generierung von Projektplänen ist für mich ein echter Gamechanger. Ich nutze sie als Ausgangspunkt und Inspiration.
       author:
         name: Alexander Hall
         title: Agile Coach
     - rating: ★★★★★
-      text: "Ich nutze es auch als MPP-Viewer und -Editor für Microsoft Project-Dateien."
+      text: Ich nutze sie auch als MPP-Viewer und -Editor für Microsoft Project-Dateien.
       author:
         name: Amelia Clark
-        title: Project Coordinator
-  hidden_items:
+        title: Projektkoordinatorin
     - rating: ★★★★★
-      text: "Endlich eine Microsoft Project-Alternative, die großartig funktioniert, besonders auf dem iPad!"
+      text: Endlich eine echte Alternative zu Microsoft Project, die super funktioniert!
       author:
         name: Isabella Moore
-        title: Team Lead (Project Management)
+        title: Teamleiterin (Projektmanagement)
+      is_hidden: true
     - rating: ★★★★★
-      text: "Funktioniert wie erwartet und ich bin wirklich zufrieden damit."
+      text: Es funktioniert wie erwartet und ich bin sehr zufrieden damit.
       author:
         name: Benjamin Lee
         title: Agile Coach
+      is_hidden: true
     - rating: ★★★★★
-      text: "Die volle Power von MS Project in Ihrer Tasche!"
+      text: Die volle Leistungsfähigkeit von MS Project in einem viel kleineren Paket!
       author:
         name: Mia Harris
-        title: Project Management Trainer
+        title: Trainerin im Projektmanagement
+      is_hidden: true
     - rating: ★★★★★
-      text: "Man kann intuitive und strukturierte Gantt-Diagramme mit Meilensteinen und Ressourcenplanung erstellen, inklusive manuellem Fortschritts-Tracking."
+      text: Intuitive, strukturierte Gantt-Diagramme können mit Meilensteinen und Ressourcenplanung erstellt werden, einschließlich manuellem Fortschritts-Tracking.
       author:
         name: Emma Rodriguez
-        title: Product Manager
+        title: Produktmanagerin
+      is_hidden: true
     - rating: ★★★★★
-      text: "Läuft schneller [als die Konkurrenz], ich merke das beim Scrollen durch die Zeitleiste und Öffnen des Projekts. Im Vergleich zu anderen Apps wirklich flott. Daumen hoch!"
+      text: Läuft schneller [als Konkurrenzprodukte], da man merkt, dass das Scrollen der Zeitleiste und das Öffnen des Projekts wirklich flott gehen. Daumen hoch!
       author:
         name: Ethan Walker
-        title: Program Manager
+        title: Programmmanager
+      is_hidden: true
     - rating: ★★★★★
-      text: "Ausgezeichnetes Programm!"
+      text: Ausgezeichnetes Programm!
       author:
         name: Harper Thompson
-        title: PMO (Project Management Office) Director
-  show_more:
-    text: Mehr anzeigen
-    icon: fas fa-chevron-down
+        title: PMO-Direktor (Project Management Office)
+      is_hidden: true
 
 features_detailed:
-  title: Alles, was Sie für eine erfolgreiche Projektplanung brauchen
+  title: Alles, was Sie für eine erfolgreiche Projektplanung benötigen
   subtitle: Leistungsstarke Funktionen für moderne Projektmanager
   tabs:
     - id: planning
@@ -196,29 +188,29 @@ features_detailed:
         features:
           - icon: fas fa-check
             title: KI-Projektgenerator
-            description: "Erstellen Sie vollständige Projektpläne aus einfachen Textbeschreibungen mithilfe modernster KI."
+            description: Erstellen Sie vollständige Projektpläne aus einfachen Textbeschreibungen mit fortschrittlicher KI
           - icon: fas fa-check
             title: Einfache Terminierung
-            description: "Ändern Sie beliebige Teile Ihres Projektplans und sehen Sie sofort die Auswirkungen."
+            description: Aktualisieren Sie beliebige Teile Ihres Projektplans und sehen Sie sofortige Gesamtergebnisse.
           - icon: fas fa-check
-            title: Vertraute Umgebung
-            description: "Sie haben Erfahrung mit MS Project oder ähnlichen Programmen? Nutzen Sie sie!"
-        video: "videos/ai.mp4"
+            title: Vertraute Oberfläche
+            description: Kenntnisse in MS Project oder ähnlicher Software? Bringen Sie sie ein!
+        video: videos/ai.mp4
     - id: tracking
       icon: fas fa-chart-line
       title: Nachverfolgung
       content:
-        title: Erweiterte Nachverfolgung
+        title: Fortschrittliches Tracking
         features:
           - icon: fas fa-check
             title: Fortschrittsüberwachung
-            description: "Verfolgen Sie den Fertigstellungsgrad und den Fortschritt bei Meilensteinen."
+            description: Verfolgen Sie den Fertigstellungsgrad und den Fortschritt von Meilensteinen
           - icon: fas fa-check
-            title: Ressourcennutzung
-            description: "Überwachen Sie die Ressourcenzuteilung und erkennen Sie potenzielle Engpässe."
+            title: Ressourcenverbrauch
+            description: Behalten Sie den Ressourceneinsatz im Blick und erkennen Sie Engpässe frühzeitig
           - icon: fas fa-check
-            title: Zeitplananalyse
-            description: "Analysieren Sie den kritischen Pfad und verfolgen Sie Abweichungen vom Zeitplan."
+            title: Zeitachsenanalyse
+            description: Analysieren Sie den kritischen Pfad und verfolgen Sie Abweichungen im Zeitplan
         video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
     - id: collaboration
       icon: fas fa-users
@@ -227,11 +219,11 @@ features_detailed:
         title: Nahtlose Zusammenarbeit
         features:
           - icon: fas fa-check
-            title: Google-Drive-Integration
-            description: "Teilen und bearbeiten Sie Projekte über die vertrauten Freigabeeinstellungen in Google Drive."
+            title: Google Drive-Integration
+            description: Teilen und arbeiten Sie gemeinsam mit den vertrauten Berechtigungen von Google Drive
           - icon: fas fa-check
-            title: Austausch als PDF, PNG oder XML
-            description: "MS Projects XML-Format wird nativ unterstützt."
+            title: Austausch via PDF, PNG oder XML
+            description: Das XML-Format von MS Project wird nativ unterstützt.
         video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
     - id: integration
       icon: fas fa-plug
@@ -241,13 +233,13 @@ features_detailed:
         features:
           - icon: fas fa-check
             title: Google Workspace-Integration
-            description: "Nutzen Sie Ingantt wie eine reguläre Google-Drive-App."
+            description: Nutzen Sie Ingantt wie eine reguläre Google-Drive-App
           - icon: fas fa-check
-            title: MS Project-Kompatibilität
-            description: "Importieren Sie MPP-Dateien aus MS Project und speichern Sie sie stets in einem MS Project-kompatiblen XML-Format."
+            title: MS-Project-Kompatibilität
+            description: Importieren Sie MS-Project-MPP-Dateien und speichern Sie immer im MS-Project-kompatiblen XML-Format.
           - icon: fas fa-check
             title: Exportoptionen
-            description: "Exportieren Sie in PDF und PNG."
+            description: Exportieren Sie als PDF und PNG
         video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
 
 pricing:
@@ -256,12 +248,12 @@ pricing:
   plans:
     - title: Kostenlose Testversion
       price: $0
-      duration: 14 Tage
+      duration: 30 Tage
       features:
         - Voller Funktionsumfang
         - KI-Projektgenerierung
-        - MS Project-Import/Export
-        - Google-Drive-Integration
+        - MS Project Import/Export
+        - Google Drive-Integration
       cta:
         text: Kostenlose Testversion starten
         url: workspace_url
@@ -269,7 +261,7 @@ pricing:
     - title: Professional
       price: $3.5
       duration: pro Nutzer/Monat
-      annual_price: oder $35 pro Nutzer jährlich
+      annual_price: oder $35/Nutzer jährlich
       featured: true
       features:
         - Alles aus der kostenlosen Testversion
@@ -282,108 +274,104 @@ pricing:
       price: Individuell
       duration: für große Teams
       features:
-        - Alles aus dem Professional-Paket
+        - Alles aus Professional
         - Individuelle Integration
         - Dedizierter Support
         - SLA-Garantie
       cta:
-        text: Kontakt zum Vertrieb
+        text: Vertrieb kontaktieren
         url: support_email
         class: secondary
 
 features_list:
-  title: Was Sie mit Ingantt alles erreichen können
+  title: Was Sie mit Ingantt machen können
   items:
     - icon: fas fa-brain
-      title: Erweiterte Planung
+      title: Fortgeschrittene Planung
       items:
         - Erstellen Sie Projektpläne aus einfachen Textbeschreibungen mithilfe von KI
-        - Nehmen Sie beliebige Änderungen vor und sehen Sie sofort die Auswirkungen
-        - Schätzen Sie Abschlussdaten ab und erkennen Sie potenzielle Hindernisse frühzeitig
+        - Nehmen Sie Änderungen vor und sehen Sie sofort die Auswirkungen
+        - Prognostizieren Sie Fertigstellungstermine und erkennen Sie potenzielle Hindernisse frühzeitig
         - Planen Sie Kosten
     - icon: fas fa-tasks
       title: Aufgabenmanagement
       items:
-        - Unterteilen Sie Projekte in Aufgaben
-        - Legen Sie Abhängigkeiten und Deadlines fest
-        - Definieren Sie Aufgaben als Meilensteine
-        - Verfolgen Sie den kritischen Pfad
-        - Behalten Sie den Fortschrittsstatus Ihrer Aufgaben im Blick
+        - Zerlegen Sie Projekte in Aufgaben
+        - Definieren Sie Abhängigkeiten und Deadlines
+        - Markieren Sie Aufgaben als Meilensteine
+        - Behalten Sie den kritischen Pfad im Blick
+        - Verfolgen Sie den Fortschritt von Aufgaben
     - icon: fas fa-users
       title: Zusammenarbeit
       items:
-        - Speichern und teilen Sie Projekte in Google Drive
-        - Google-Drive-Integration für das Teilen
+        - Speichern und teilen Sie in Google Drive
+        - Tauschen Sie Dateien in XML, PDF oder PNG aus – das MS-Project-XML-Format wird nativ unterstützt
     - icon: fas fa-chart-line
-      title: Erweiterte Nachverfolgung
+      title: Fortgeschrittenes Tracking
       items:
-        - Überwachen Sie die Ressourcennutzung
+        - Behalten Sie die Ressourcenzuweisung im Blick
         - Analysieren Sie den kritischen Pfad
-        - Kontrollieren Sie die Ressourcenauslastung
-        - Führen Sie eine Zeitplananalyse durch
+        - Überwachen Sie die Ressourcennutzung
+        - Analysieren Sie die Zeitachse
     - icon: fas fa-calendar-alt
       title: Ressourcenmanagement
       items:
         - Verwalten Sie Arbeits-, Material- und Kostenressourcen
-        - Legen Sie Kalender und Arbeitszeiten für Ressourcen fest
-        - Führen Sie eine automatische Levelung bei Überlastung durch
-        - Betrachten Sie die Ressourcennutzung im Zeitverlauf
+        - Definieren Sie Ressourcenkalender und Arbeitszeiten
+        - Beheben Sie Überlastungen automatisch
+        - Überprüfen Sie die Ressourcennutzung im Zeitverlauf
     - icon: fas fa-plug
       title: Integrationen
       items:
-        - Kompatibel mit MS Project-Dateien (.MPP)
-        - Export in PDF und PNG
-        - Google-Drive-Integration
+        - MS-Project-Dateikompatibilität (MPP und XML)
+        - Export als PDF und PNG
+        - Google Drive-Integration
 
 faq:
   title: Häufig gestellte Fragen
   items:
-    - question: "Was ist Ingantt und wie funktioniert es mit Google Workspace?"
-      answer: "Ingantt ist ein professionelles Projektmanagement-Tool, das sich nahtlos in Google Workspace integriert. Sie können Projektpläne direkt in Ihrem Google Drive erstellen, verwalten und teilen, sodass Teams, die bereits in der Google-Umgebung arbeiten, mühelos zusammenarbeiten können."
-    - question: "Kann ich bestehende Microsoft Project-Dateien importieren?"
-      answer: "Ja! Ingantt unterstützt den Import von .MPP- und .XML-Dateien aus Microsoft Project vollständig. Alle Projektdaten, einschließlich Aufgaben, Ressourcen und Abhängigkeiten, bleiben beim Import erhalten."
-    - question: "Wie funktioniert die KI-basierte Projektgenerierung?"
-      answer: "Unser KI-Assistent kann vollständige Projektpläne aus einfachen Textbeschreibungen generieren. Beschreiben Sie einfach Ihre Projektziele und Anforderungen, und die KI erstellt basierend auf Best Practices im Projektmanagement einen strukturierten Plan mit Aufgaben, Zeitrahmen und Abhängigkeiten."
-    - question: "Was ist in der kostenlosen Testversion enthalten?"
-      answer: "Die 14-tägige kostenlose Testversion enthält alle Funktionen des Professional-Pakets: KI-Projektgenerierung, Import/Export von MS Project, unbegrenzte Projekte und volle Integration in Google Workspace. Für den Start wird keine Kreditkarte benötigt."
-    - question: "Kann ich Ingantt auf mobilen Geräten nutzen?"
-      answer: "Ja! Ingantt funktioniert auf jedem Gerät mit Webbrowser. Unser responsives Design passt sich optimal an Smartphones und Tablets an, sodass Sie unterwegs vollen Zugriff auf Ihre Projekte haben."
-    - question: "Was passiert mit meinen Daten, wenn ich mein Abonnement kündige?"
-      answer: "Ihre Projektdateien bleiben auch nach der Kündigung sicher in Ihrem Google Drive gespeichert. Sie können sie jederzeit in verschiedenen Formaten exportieren, einschließlich MS Project-Format, sodass Sie niemals den Zugriff auf Ihre Daten verlieren."
-    - question: "Wie kann ich Ingantt für meine Teamkollegen kaufen?"
-      answer: "Melden Sie sich bei Ingantt mit Ihrem Google-Konto an, klicken Sie oben rechts auf Ihr Profilbild und wählen Sie 'Purchase subscriptions'. Aktivieren Sie 'I want to purchase subscriptions for others' und geben Sie die Google-Konten Ihrer Kollegen ein. Wählen Sie den Zahlungsplan (monatlich oder jährlich) und schließen Sie den Kauf ab."
+    - question: Was ist Ingantt und wie funktioniert es mit Google Workspace?
+      answer: Ingantt ist ein professionelles Projektmanagement-Tool, das sich nahtlos in Google Workspace integriert. Damit können Sie Projektpläne direkt in Ihrem Google Drive erstellen, verwalten und freigeben, was die Zusammenarbeit für Teams im Google-Ökosystem erheblich vereinfacht.
+    - question: Kann ich meine vorhandenen Microsoft-Project-Dateien importieren?
+      answer: Ja! Ingantt unterstützt den Import von .MPP- und .XML-Dateien aus Microsoft Project. Alle Projektdaten wie Aufgaben, Ressourcen und Abhängigkeiten bleiben beim Import erhalten.
+    - question: Wie funktioniert die KI-basierte Projektgenerierung?
+      answer: Unser KI-Assistent kann vollständige Projektpläne aus einfachen Textbeschreibungen generieren. Beschreiben Sie Ihre Projektziele und -anforderungen, und die KI erstellt einen strukturierten Plan mit Aufgaben, Zeitrahmen und Abhängigkeiten auf Basis bewährter Methoden des Projektmanagements.
+    - question: Was ist in der kostenlosen Testversion enthalten?
+      answer: Die 30-tägige kostenlose Testversion enthält alle Funktionen von Ingantt sowie die vollständige Google-Workspace-Integration. Es ist keine Kreditkarte erforderlich, um zu starten.
+    - question: Kann ich Ingantt für Google Workspace auch auf mobilen Geräten nutzen?
+      answer: Ja! Ingantt für Google Workspace funktioniert auf jedem Gerät mit einem Webbrowser. Die responsive Benutzeroberfläche passt sich perfekt an Smartphones und Tablets an, damit Sie Ihre Projekte auch unterwegs jederzeit im Blick haben.
+    - question: Was passiert mit meinen Daten, wenn ich mein Abonnement kündige?
+      answer: Ihre Projektdateien bleiben sicher in Ihrem Google Drive gespeichert – auch nach der Kündigung. Sie werden im MS-Project-Format gespeichert, sodass Sie nie den Zugriff auf Ihre Daten verlieren.
+    - question: Wie kann ich Ingantt für meine Teammitglieder kaufen?
+      answer: Melden Sie sich mit Ihrem Google-Konto bei Ingantt an, klicken Sie oben rechts auf Ihr Avatar und wählen Sie „Abonnements kaufen“. Aktivieren Sie „Ich möchte Abonnements für andere kaufen“ und geben Sie die Google-Konten Ihrer Teammitglieder ein. Wählen Sie den Zahlungsplan (monatlich oder jährlich) und schließen Sie den Kauf ab.
   support:
-    title: Legen Sie jetzt mit Ingantt los
+    title: Beginnen Sie jetzt mit Ingantt zu planen
     docs:
       text: Zur Dokumentation
-      url: docs_url
     contact:
-      title: "Haben Sie weitere Fragen?<br>Kontaktieren Sie eine echte Person für Support!"
-      text: Schreiben Sie uns
+      title: Haben Sie weitere Fragen?<br>Kontaktieren Sie uns direkt für Support!
+      text: E-Mail senden
       icon: fa fa-envelope
-      url: support_email
 
 cta:
-  title: Bereit, das Projektmanagement in Ihrem Team zu revolutionieren?
-  subtitle: Starten Sie jetzt Ihre kostenlose Testversion und erleben Sie die Kraft der KI-gestützten Projektplanung
+  title: Bereit, die Projektplanung Ihres Teams zu revolutionieren?
+  subtitle: Starten Sie noch heute Ihre kostenlose Testversion und erleben Sie die Leistungsfähigkeit KI-gestützter Projektplanung
   button:
     text: Kostenlose Testversion starten
-    text_fits: false
-    image: Google_Workspace_Logo.svg.png
-    url: workspace_url
 
 platform_support:
-  title: Sie benötigen eine gerätespezifische Version für den persönlichen Gebrauch?
-  platforms:
-    - icon: fab fa-windows
-      text: Windows
-      url: windows_page
-    - icon: fab fa-apple
-      text: macOS
-      url: macos_page
-    - icon: fab fa-android
-      text: Android
-      url: android_page
-    - icon: fab fa-app-store-ios
-      text: iOS
-      url: ios_page
+  title: Benötigen Sie eine gerätespezifische Version für Ihren persönlichen Gebrauch?
+
+desktop_callback:
+  title: Ingantt
+  cta: Klicken Sie oben im Dialog auf „Öffnen“.
+  success: Geklickt? Sie können diese Seite schließen.
+  issue: Etwas ist schiefgelaufen?
+  click: Erneut versuchen
+
+blog:
+  title: Ingantt-Blog
+  subtitle: Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten und Updates
+  title_tag: Ingantt-Blog – Neuigkeiten und Updates vom Ingantt-Team
+  meta_keywords: Ingantt, Blog, Neuigkeiten, Gantt für Google Workspace
+  meta_description: Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten und Updates vom Ingantt-Team

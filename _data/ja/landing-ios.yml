@@ -1,0 +1,231 @@
+title_tag: Ingantt - AIを搭載したiPhone・iPad向け最新ガントチャートプロジェクトプランニング
+meta_keywords: gantt chart app iOS, mpp, gantt iPhone, gantt iPad, mpp reader, mpp viewer, gantt application, MS Project alternative, gantt iOS, project planning, project management
+meta_description: Ingantt - iOSスマホ・タブレット向けのAI搭載プロジェクト管理ツール。iPhoneやiPadでプロジェクトを簡単に計画・スケジュール・追跡できます。
+
+page_url: ios_page
+platform_url: ios_url
+store_image: app_store.png
+platform_image: ios.png
+
+hero:
+  title: iOSデバイスでAI対応のガントチャートプロジェクトプランニング
+  subtitle: iPhoneやiPadで、AIアシスト付きのインテリジェントなガントチャートを使い、プロジェクト計画を変革しましょう。
+  cta:
+    primary:
+      text: 今すぐ入手
+      text_fits: true
+    other_versions:
+      title: 他のバージョン
+  rating:
+    stars: ★★★★⯨
+    text: 星4.5
+  image: hero-ios.png
+
+features_grid:
+  title: プロジェクトマネージャーがInganttを選ぶ理由
+  items:
+    - icon: fas fa-robot
+      title: AIによるプランニング
+      description: 簡単な説明から完全なプロジェクト計画を生成できるAIアシスタントを搭載。
+    - icon: fas fa-mobile-alt
+      title: モバイルに最適化
+      description: iOS端末向けに設計 – 外出先でもプロジェクトを計画、レビュー、管理できます。
+    - icon: fas fa-file-import
+      title: MS Project互換
+      description: .MPPファイルをインポートし、MS Project互換のXMLとして保存 – 妥協なし。
+    - icon: fas fa-brain
+      title: すべてを計画
+      description: スケジュール、コスト、タスク、依存関係、リソースなど、すべてを一括管理。
+
+demo:
+  title: Inganttの実際の動作をチェック
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: 世界中のプロジェクトマネージャーから信頼されています
+  show_more:
+    text: もっと見る
+    icon: fas fa-chevron-down
+  show_less:
+    text: 閉じる
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 独自のファイル形式やクラウドストレージに縛られない、最高のガントアプリです。
+      author:
+        name: Noah Wilson
+        title: プログラムディレクター
+    - rating: ★★★★★
+      text: AIによるプロジェクト計画生成は、私にとって画期的でした。プロジェクト計画のスタート地点やアイデアソースとして活用しています。
+      author:
+        name: Alexander Hall
+        title: アジャイルコーチ
+    - rating: ★★★★★
+      text: Microsoft ProjectファイルのMPPビューア＆エディタとしても使っています。
+      author:
+        name: Amelia Clark
+        title: プロジェクトコーディネーター
+    - rating: ★★★★★
+      text: ついにMicrosoft Projectの素晴らしい代替が登場しました！
+      author:
+        name: Isabella Moore
+        title: チームリード（プロジェクト管理）
+      is_hidden: true
+    - rating: ★★★★★
+      text: 期待通りに動作してくれて、とても満足しています。
+      author:
+        name: Benjamin Lee
+        title: アジャイルコーチ
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Projectのパワーを、はるかにコンパクトな形で利用できる！
+      author:
+        name: Mia Harris
+        title: プロジェクトマネジメントトレーナー
+      is_hidden: true
+    - rating: ★★★★★
+      text: マイルストーンやリソース計画を含む直感的で構造的なガントチャートが作成でき、進捗状況を手動で追跡することもできます。
+      author:
+        name: Emma Rodriguez
+        title: プロダクトマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 他社アプリより高速に動作します。タイムラインのスクロールやプロジェクトの読み込みが非常にスムーズで驚きました。最高です！
+      author:
+        name: Ethan Walker
+        title: プログラムマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 素晴らしいプログラムです！
+      author:
+        name: Harper Thompson
+        title: PMO (プロジェクト管理オフィス)ディレクター
+      is_hidden: true
+
+features_detailed:
+  title: 成功するプロジェクト計画に必要なすべての機能
+  subtitle: 現代のプロジェクトマネージャーのために設計された強力な機能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 計画
+      content:
+        title: AIを活用したプランニング
+        features:
+          - icon: fas fa-check
+            title: AIプロジェクトジェネレーター
+            description: 高度なAIを用いて、簡単なテキスト記述から完全なプロジェクト計画を作成
+          - icon: fas fa-check
+            title: 簡単なスケジューリング
+            description: プロジェクト計画のどの部分でも更新すれば、すぐに全体への影響を確認可能。
+          - icon: fas fa-check
+            title: なじみやすさ
+            description: MS Projectや類似ソフトの経験がありますか？ そのスキルを活かしましょう！
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: トラッキング
+      content:
+        title: 高度なトラッキング
+        features:
+          - icon: fas fa-check
+            title: 進捗モニタリング
+            description: 完了率やマイルストーンの達成度を追跡
+          - icon: fas fa-check
+            title: リソース使用状況
+            description: リソースの割り当てを把握し、ボトルネックを特定
+          - icon: fas fa-check
+            title: タイムライン分析
+            description: クリティカルパスを分析し、スケジュールの変化を追跡
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: 連携機能
+      content:
+        title: 強力な連携
+        features:
+          - icon: fas fa-check
+            title: MS Project互換性
+            description: MS ProjectのMPPファイルをインポートし、常にMS Project互換のXML形式で保存できます。
+          - icon: fas fa-check
+            title: エクスポートオプション
+            description: いつでもPDFやPNGにエクスポート可能
+          - icon: fas fa-check
+            title: Google Driveへの保存と読み込み
+            description: Google Driveを使ってプロジェクトファイルを保存・開封できます。
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Inganttでできること
+  items:
+    - icon: fas fa-brain
+      title: 高度なプランニング
+      items:
+        - 簡単なテキスト記述をAIで解析してプロジェクト計画を作成
+        - どんな更新も即座に結果を反映
+        - 完了予定日を予測し、早期に潜在的な障害を把握
+        - コストの計画
+    - icon: fas fa-tasks
+      title: タスク管理
+      items:
+        - プロジェクトをタスクに分解
+        - タスクの依存関係と締め切りを設定
+        - タスクをマイルストーンとして設定
+        - クリティカルパスを把握
+        - タスク完了状況を追跡
+    - icon: fas fa-users
+      title: コラボレーション
+      items:
+        - iOS標準のファイル共有機能で共有
+        - XML、PDF、PNG形式でファイルをやり取り
+    - icon: fas fa-chart-line
+      title: 高度なトラッキング
+      items:
+        - リソース割り当てをモニタリング
+        - クリティカルパスを分析
+        - リソース使用状況を監視
+        - タイムラインを分析
+    - icon: fas fa-calendar-alt
+      title: リソース管理
+      items:
+        - 稼働リソース、物品リソース、コストリソースを管理
+        - リソースカレンダーと稼働時間を設定
+        - 過剰割り当てのリソースを自動的に平準化
+        - 時間経過に伴うリソース使用状況を確認
+    - icon: fas fa-plug
+      title: 連携
+      items:
+        - MS Projectファイル（MPPおよびXML）との互換性
+        - PDFとPNGへのエクスポート
+        - Google Driveと連携
+
+faq:
+  title: よくある質問
+  items:
+    - question: Ingantt for iOSとは何ですか？
+      answer: Ingantt for iOSは、iOSデバイスでネイティブに動作するプロフェッショナルなプロジェクト管理ツールです。AIを活用したプランニングやMS Project互換性を備え、外出先でもプロジェクト計画・管理が可能です。
+    - question: 既存のMicrosoft Projectファイルをインポートできますか？
+      answer: もちろん可能です！ InganttはMicrosoft Projectの.MPPおよび.XMLファイルのインポートに完全対応しています。タスクやリソース、依存関係など、すべてのプロジェクトデータがインポート時に保持されます。
+    - question: AIによるプロジェクト生成はどのように機能しますか？
+      answer: AIアシスタントが、簡単なテキスト記述から完全なプロジェクト計画を生成します。プロジェクトの目標や要件を入力するだけで、タスク、スケジュール、依存関係などをベストプラクティスに基づき構築します。
+    - question: iOS版に無料トライアルはありますか？
+      answer: いいえ。iOS版は買い切りの製品で、サブスクリプションや無料トライアルはありません。
+    - question: Ingantt for iOSはどのように購入しますか？
+      answer: iOSデバイスのApple App Storeで「Ingantt」と検索し、購入するだけです。一度購入すれば、継続料金なしでずっと利用できます。
+  support:
+    title: 今すぐInganttで計画を始めましょう
+    docs:
+      text: ドキュメントを見る
+    contact:
+      title: 他に質問がありますか？<br>担当者にメールでお問い合わせください！
+      text: メールを送る
+      icon: fa fa-envelope
+
+cta:
+  title: プロジェクト計画を革新する準備はできましたか？
+  subtitle: iPhoneやiPad上で、AIドリブンのプロジェクト計画を体験しましょう
+  button:
+    text: 今すぐ入手
+
+platform_support:
+  title: 他のプラットフォーム用のバージョンが必要ですか？

@@ -1,0 +1,231 @@
+title_tag: Ingantt – Moderne Gantt-Diagramm-Projektplanung für Windows mit KI
+meta_keywords: Gantt-Diagramm-App Windows, mpp, Gantt PC, mpp-Reader, mpp-Viewer, MS Project-Alternative, Gantt für Windows, Gantt-App, Projektplanung, Projektmanagement
+meta_description: Ingantt – KI-gestütztes Projektmanagement-Tool für Windows. Planen, terminieren und verfolgen Sie Ihre Projekte mühelos auf Ihrem PC.
+
+page_url: windows_page
+platform_url: windows_url
+store_image: microsoft_store.png
+platform_image: windows.png
+
+hero:
+  title: Gantt-Diagramm-Projektplanung mit KI für Windows
+  subtitle: Revolutionieren Sie Ihre Projektplanung mit intelligenten Gantt-Diagrammen und KI-Unterstützung auf Ihrem Windows-PC.
+  cta:
+    primary:
+      text: Kostenlos ausprobieren
+      text_fits: true
+    other_versions:
+      title: Andere Versionen
+  rating:
+    stars:
+    text: 5 Sterne auf
+  image: hero-windows.png
+
+features_grid:
+  title: Warum Projektmanager sich für Ingantt entscheiden
+  items:
+    - icon: fas fa-robot
+      title: KI-gestützte Planung
+      description: Erstellen Sie vollständige Projektpläne aus einfachen Beschreibungen mit unserem KI-Assistenten.
+    - icon: fas fa-brain
+      title: Alles planen
+      description: Planen Sie Termine, Kosten, Aufgaben, Abhängigkeiten, Ressourcen und mehr – alles an einem Ort.
+    - icon: fas fa-desktop
+      title: Optimiert für Windows
+      description: Planen, überprüfen und verwalten Sie Projekte unter Windows mit einem nativen und nahtlosen Erlebnis.
+    - icon: fas fa-file-import
+      title: MS Project-kompatibel
+      description: Importieren Sie .MPP-Dateien und speichern Sie sie als MS Project-kompatible XML – ohne Kompromisse.
+
+demo:
+  title: Sehen Sie Ingantt in Aktion
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Vertraut von Projektmanagern weltweit
+  show_more:
+    text: Mehr anzeigen
+    icon: fas fa-chevron-down
+  show_less:
+    text: Weniger anzeigen
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Die beste Gantt-App, die auch nicht auf ein eigenes Dateiformat oder einen eigenen Cloud-Speicher festgelegt ist.
+      author:
+        name: Noah Wilson
+        title: Programmdirektor
+    - rating: ★★★★★
+      text: KI-Projektplanerstellung ist für mich ein echter Wendepunkt. Ich nutze sie als Ausgangspunkt und Inspiration für meine Projektpläne.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Ich nutze es auch als MPP-Viewer und -Editor für Microsoft Project-Dateien.
+      author:
+        name: Amelia Clark
+        title: Projektkoordinatorin
+    - rating: ★★★★★
+      text: Endlich eine Microsoft Project-Alternative, die großartig funktioniert!
+      author:
+        name: Isabella Moore
+        title: Teamleiterin (Projektmanagement)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Es funktioniert wie erwartet und ich bin wirklich glücklich darüber.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: Die volle Leistung von MS Project in einem viel kleineren Paket!
+      author:
+        name: Mia Harris
+        title: Trainerin für Projektmanagement
+      is_hidden: true
+    - rating: ★★★★★
+      text: Intuitive, strukturierte Gantt-Diagramme können mit Meilensteinen und Ressourcenplanung erstellt werden, einschließlich manueller Fortschrittsverfolgung.
+      author:
+        name: Emma Rodriguez
+        title: Produktmanagerin
+      is_hidden: true
+    - rating: ★★★★★
+      text: Läuft schneller [als Wettbewerber], weil man merkt, dass das Scrollen durch die Timeline und das Öffnen des Projekts wirklich zügiger ist. Daumen hoch!
+      author:
+        name: Ethan Walker
+        title: Programmmanager
+      is_hidden: true
+    - rating: ★★★★★
+      text: Ausgezeichnetes Programm!
+      author:
+        name: Harper Thompson
+        title: PMO (Project Management Office) Direktor
+      is_hidden: true
+
+features_detailed:
+  title: Alles, was Sie für eine erfolgreiche Projektplanung brauchen
+  subtitle: Leistungsstarke Funktionen für moderne Projektmanager
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planung
+      content:
+        title: KI-gestützte Planung
+        features:
+          - icon: fas fa-check
+            title: KI-Projektgenerator
+            description: Erstellen Sie vollständige Projektpläne aus einfachen Textbeschreibungen mit fortschrittlicher KI
+          - icon: fas fa-check
+            title: Einfache Terminplanung
+            description: Aktualisieren Sie jeden Teil Ihres Projektplans und sehen Sie sofort die Gesamtergebnisse.
+          - icon: fas fa-check
+            title: Vertrautheit
+            description: Haben Sie bereits Erfahrung mit MS Project oder ähnlicher Software? Nutzen Sie sie!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Verfolgung
+      content:
+        title: Erweiterte Verfolgung
+        features:
+          - icon: fas fa-check
+            title: Fortschrittsüberwachung
+            description: Verfolgen Sie den Fertigstellungsgrad und den Fortschritt von Meilensteinen
+          - icon: fas fa-check
+            title: Ressourcennutzung
+            description: Überwachen Sie die Ressourcenzuweisung und erkennen Sie potenzielle Engpässe
+          - icon: fas fa-check
+            title: Zeitachsenanalyse
+            description: Analysieren Sie den kritischen Pfad und verfolgen Sie Terminabweichungen
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Integration
+      content:
+        title: Leistungsstarke Integrationen
+        features:
+          - icon: fas fa-check
+            title: MS Project-Kompatibilität
+            description: Importieren Sie MS Project MPP-Dateien und speichern Sie immer im MS Project-kompatiblen XML-Format.
+          - icon: fas fa-check
+            title: Exportoptionen
+            description: Exportieren Sie jederzeit nach PDF und PNG
+          - icon: fas fa-check
+            title: Speichern und Öffnen über Google Drive
+            description: Verwenden Sie Ihr Google Drive, um Projektdateien zu speichern.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Was Sie mit Ingantt tun können
+  items:
+    - icon: fas fa-brain
+      title: Erweiterte Planung
+      items:
+        - Erstellen Sie Projektpläne aus einfachen Textbeschreibungen mithilfe von KI
+        - Nehmen Sie beliebige Änderungen vor und sehen Sie die Auswirkungen sofort
+        - Prognostizieren Sie Fertigstellungstermine und erkennen Sie mögliche Hindernisse frühzeitig
+        - Planen Sie Kosten
+    - icon: fas fa-tasks
+      title: Aufgabenmanagement
+      items:
+        - Teilen Sie Projekte in Aufgaben auf
+        - Legen Sie Abhängigkeiten und Fälligkeitsdaten fest
+        - Markieren Sie Aufgaben als Meilensteine
+        - Überwachen Sie den kritischen Pfad
+        - Verfolgen Sie den Aufgabenfortschritt
+    - icon: fas fa-users
+      title: Zusammenarbeit
+      items:
+        - Funktioniert mit Google Drive
+        - Tauschen Sie Dateien im XML-, PDF- oder PNG-Format aus
+    - icon: fas fa-chart-line
+      title: Erweitertes Tracking
+      items:
+        - Überwachen Sie die Ressourcenzuteilung
+        - Analysieren Sie den kritischen Pfad
+        - Ressourcennutzungs-Überwachung
+        - Zeitachsenanalyse
+    - icon: fas fa-calendar-alt
+      title: Ressourcenmanagement
+      items:
+        - Verwalten Sie Arbeits-, Material- und Kostenressourcen
+        - Legen Sie Ressourcenkalender und Arbeitszeiten fest
+        - Automatische Levelung überbeanspruchter Ressourcen
+        - Überprüfen Sie die Ressourcennutzung über die Zeit
+    - icon: fas fa-plug
+      title: Integrationen
+      items:
+        - MS Project-Dateikompatibilität (MPP und XML)
+        - Export nach PDF und PNG
+        - Funktioniert mit Google Drive
+
+faq:
+  title: Häufig gestellte Fragen
+  items:
+    - question: Was ist Ingantt für Windows?
+      answer: Ingantt für Windows ist ein professionelles Projektmanagement-Tool, das nativ auf Ihrem PC läuft. Es ermöglicht Ihnen, Projektpläne mit KI-unterstützter Planung und MS Project-Kompatibilität zu erstellen und zu verwalten.
+    - question: Kann ich meine bestehenden Microsoft Project-Dateien importieren?
+      answer: Ja! Ingantt unterstützt vollständig den Import von .MPP- und .XML-Dateien aus Microsoft Project. Ihre Projektdaten, einschließlich Aufgaben, Ressourcen und Abhängigkeiten, bleiben beim Importvorgang erhalten.
+    - question: Wie funktioniert die KI-Projekterstellung?
+      answer: Unser KI-Assistent kann vollständige Projektpläne aus einfachen Textbeschreibungen generieren. Beschreiben Sie einfach Ihre Projektziele und Anforderungen, und die KI erstellt basierend auf Best Practices einen strukturierten Plan mit Aufgaben, Zeitplänen und Abhängigkeiten.
+    - question: Gibt es eine kostenlose Testversion für die Windows-Version?
+      answer: Ja. Nach der Installation aus dem Microsoft Store ist eine kostenlose Testversion für 7 Tage verfügbar.
+    - question: Wie kann ich Ingantt für Windows kaufen?
+      answer: Besuchen Sie den Microsoft Store und kaufen Sie es dort. Sie erhalten die App dauerhaft ohne wiederkehrende Gebühren.
+  support:
+    title: Beginnen Sie jetzt mit der Projektplanung in Ingantt
+    docs:
+      text: Zur Dokumentation
+    contact:
+      title: Haben Sie weitere Fragen?<br>Kontaktieren Sie uns für persönlichen Support!
+      text: E-Mail schreiben
+      icon: fa fa-envelope
+
+cta:
+  title: Bereit, Ihre Projektplanung zu revolutionieren?
+  subtitle: Profitieren Sie von KI-gestützter Projektplanung mit einem nativen Windows-Erlebnis
+  button:
+    text: Kostenlos ausprobieren
+
+platform_support:
+  title: Benötigen Sie eine Version für eine andere Plattform?

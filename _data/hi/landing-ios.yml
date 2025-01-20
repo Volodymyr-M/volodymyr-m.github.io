@@ -1,0 +1,231 @@
+title_tag: Ingantt - iPhone और iPad के लिए आधुनिक Gantt चार्ट प्रोजेक्ट प्लानिंग, AI के साथ
+meta_keywords: gantt chart app iOS, mpp, gantt iPhone, gantt iPad, mpp reader, mpp viewer, gantt application, MS Project alternative, gantt iOS, project planning, project management
+meta_description: Ingantt - iOS फोन और टैबलेट के लिए AI-सक्षम प्रोजेक्ट मैनेजमेंट टूल। iPhone और iPad पर अपने प्रोजेक्ट को सरलता से प्लान, शेड्यूल और ट्रैक करें।
+
+page_url: ios_page
+platform_url: ios_url
+store_image: app_store.png
+platform_image: ios.png
+
+hero:
+  title: अपने iOS डिवाइस पर AI के साथ Gantt चार्ट प्रोजेक्ट प्लानिंग
+  subtitle: अपने iPhone या iPad पर बुद्धिमान Gantt चार्ट और AI सहायता के साथ अपनी प्रोजेक्ट प्लानिंग को बदलें।
+  cta:
+    primary:
+      text: अभी प्राप्त करें
+      text_fits: true
+    other_versions:
+      title: अन्य संस्करण
+  rating:
+    stars: ★★★★⯨
+    text: 4.5 स्टार
+  image: hero-ios.png
+
+features_grid:
+  title: प्रोजेक्ट मैनेजर क्यों चुनते हैं Ingantt
+  items:
+    - icon: fas fa-robot
+      title: AI-पावर्ड प्लानिंग
+      description: हमारे AI सहायक की मदद से साधारण विवरणों से पूरा प्रोजेक्ट प्लान जनरेट करें।
+    - icon: fas fa-mobile-alt
+      title: मोबाइल-अनुकूलित अनुभव
+      description: iOS डिवाइसेज़ के लिए डिज़ाइन किया गया—चलते-फिरते प्रोजेक्ट प्लान करें, रिव्यू करें और मैनेज करें।
+    - icon: fas fa-file-import
+      title: MS Project संगत
+      description: .MPP फाइलें इम्पोर्ट करें और MS Project संगत XML में सेव करें—बिना किसी समझौते के।
+    - icon: fas fa-brain
+      title: सब कुछ प्लान करें
+      description: शेड्यूल, लागत, कार्य, निर्भरताएं, संसाधन और बहुत कुछ—सब कुछ एक ही जगह।
+
+demo:
+  title: देखें Ingantt कैसे काम करता है
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: दुनिया भर के प्रोजेक्ट मैनेजरों द्वारा विश्वसनीय
+  show_more:
+    text: और दिखाएँ
+    icon: fas fa-chevron-down
+  show_less:
+    text: कम दिखाएँ
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: सबसे अच्छी Gantt ऐप जो आपको अपने खास फ़ाइल फ़ॉर्मेट या क्लाउड स्टोरेज से縺縺 नहीं रखती।
+      author:
+        name: Noah Wilson
+        title: प्रोग्राम डायरेक्टर
+    - rating: ★★★★★
+      text: AI से प्रोजेक्ट प्लान बनाना मेरे लिए गेम चेंजर है। मैं इसे अपने प्रोजेक्ट प्लान का शुरुआती बिंदु और प्रेरणा के रूप में इस्तेमाल करता हूँ।
+      author:
+        name: Alexander Hall
+        title: Agile कोच
+    - rating: ★★★★★
+      text: मैं इसे Microsoft Project फाइलों के लिए MPP व्यूअर और एडिटर के रूप में भी इस्तेमाल करता हूँ।
+      author:
+        name: Amelia Clark
+        title: प्रोजेक्ट कोऑर्डिनेटर
+    - rating: ★★★★★
+      text: आखिरकार Microsoft Project का एक शानदार विकल्प!
+      author:
+        name: Isabella Moore
+        title: टीम लीड (प्रोजेक्ट मैनेजमेंट)
+      is_hidden: true
+    - rating: ★★★★★
+      text: यह वैसा ही काम करता है जैसे उम्मीद थी और मैं इससे बहुत खुश हूँ।
+      author:
+        name: Benjamin Lee
+        title: Agile कोच
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project की पूरी क्षमता एक छोटे से पैकेज में!
+      author:
+        name: Mia Harris
+        title: प्रोजेक्ट मैनेजमेंट ट्रेनर
+      is_hidden: true
+    - rating: ★★★★★
+      text: सहज, संरचित Gantt चार्ट बन सकते हैं जिनमें माइलस्टोन और संसाधन योजना शामिल हैं, साथ ही प्रगति को मैन्युअल रूप से ट्रैक करने की सुविधा।
+      author:
+        name: Emma Rodriguez
+        title: प्रोडक्ट मैनेजर
+      is_hidden: true
+    - rating: ★★★★★
+      text: मुकाबले में तेज़ प्रदर्शन, क्योंकि टाइमलाइन स्क्रोल करना और प्रोजेक्ट खोलना दूसरी ऐप्स की तुलना में वाकई तेज़ लगता है। बढ़िया काम!
+      author:
+        name: Ethan Walker
+        title: प्रोग्राम मैनेजर
+      is_hidden: true
+    - rating: ★★★★★
+      text: बेहतरीन प्रोग्राम!
+      author:
+        name: Harper Thompson
+        title: PMO (प्रोजेक्ट मैनेजमेंट ऑफिस) डायरेक्टर
+      is_hidden: true
+
+features_detailed:
+  title: सफल प्रोजेक्ट प्लानिंग के लिए आपके पास सभी ज़रूरी सुविधाएँ
+  subtitle: आधुनिक प्रोजेक्ट मैनेजरों के लिए विशेष रूप से बनाई गई शक्तिशाली विशेषताएँ
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: प्लानिंग
+      content:
+        title: AI-पावर्ड प्लानिंग
+        features:
+          - icon: fas fa-check
+            title: AI प्रोजेक्ट जेनरेटर
+            description: उन्नत AI का उपयोग कर साधारण टेक्स्ट विवरण से पूरा प्रोजेक्ट प्लान बनाएं
+          - icon: fas fa-check
+            title: आसान शेड्यूलिंग
+            description: अपने प्रोजेक्ट प्लान के किसी भी हिस्से को अपडेट करें और तुरंत समग्र असर देखें।
+          - icon: fas fa-check
+            title: परिचितता
+            description: MS Project या इसी तरह के सॉफ़्टवेयर में कुशल हैं? उनका लाभ उठाएँ!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: ट्रैकिंग
+      content:
+        title: उन्नत ट्रैकिंग
+        features:
+          - icon: fas fa-check
+            title: प्रगति मॉनीटरिंग
+            description: कार्य पूर्णता प्रतिशत और माइलस्टोन प्रगति पर नज़र रखें
+          - icon: fas fa-check
+            title: संसाधन उपयोग
+            description: संसाधन आवंटन की निगरानी करें और संभावित बाधाओं की पहचान करें
+          - icon: fas fa-check
+            title: टाइमलाइन विश्लेषण
+            description: महत्वपूर्ण पथ (क्रिटिकल पाथ) का विश्लेषण करें और शेड्यूल में बदलावों को ट्रैक करें
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: एकीकरण
+      content:
+        title: शक्तिशाली एकीकरण
+        features:
+          - icon: fas fa-check
+            title: MS Project अनुकूलता
+            description: MS Project की MPP फाइलें इम्पोर्ट करें और हमेशा MS Project संगत XML फ़ॉर्मेट में सेव करें।
+          - icon: fas fa-check
+            title: एक्सपोर्ट विकल्प
+            description: कभी भी PDF और PNG में एक्सपोर्ट करें
+          - icon: fas fa-check
+            title: Google Drive में सेव व ओपन करें
+            description: प्रोजेक्ट फाइलों को सेव और ओपन करने के लिए Google Drive का उपयोग करें।
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Ingantt से आप क्या कर सकते हैं
+  items:
+    - icon: fas fa-brain
+      title: उन्नत प्लानिंग
+      items:
+        - साधारण टेक्स्ट विवरण से AI की मदद से प्रोजेक्ट प्लान बनाएं
+        - कोई भी बदलाव करें और तुरंत प्रभाव देखें
+        - संभावित समस्याओं का पता पहले से लगाएँ और समय पर पूरा होने की तारीखों का अनुमान लगाएं
+        - लागत की योजना बनाएं
+    - icon: fas fa-tasks
+      title: टास्क मैनेजमेंट
+      items:
+        - प्रोजेक्ट को कार्यों में विभाजित करें
+        - कार्यों में निर्भरता और समय-सीमा निर्धारित करें
+        - कार्यों को माइलस्टोन के रूप में चिह्नित करें
+        - क्रिटिकल पाथ पर नज़र रखें
+        - टास्क पूर्णता की स्थिति ट्रैक करें
+    - icon: fas fa-users
+      title: सहयोग
+      items:
+        - iOS की मानक फ़ाइल शेयरिंग सुविधा के माध्यम से साझा करें
+        - XML, PDF, या PNG फॉर्मेट में फाइलें आदान-प्रदान करें
+    - icon: fas fa-chart-line
+      title: उन्नत ट्रैकिंग
+      items:
+        - संसाधन आवंटन की निगरानी करें
+        - क्रिटिकल पाथ का विश्लेषण करें
+        - संसाधन उपयोग पर नज़र रखें
+        - टाइमलाइन का विश्लेषण करें
+    - icon: fas fa-calendar-alt
+      title: संसाधन प्रबंधन
+      items:
+        - कार्य, सामग्री और लागत संसाधनों को प्रबंधित करें
+        - संसाधन कैलेंडर और वर्किंग टाइम सेट करें
+        - ओवरएलोकेटेड संसाधनों को स्वचालित रूप से लेवल करें
+        - समय के साथ संसाधन उपयोग की समीक्षा करें
+    - icon: fas fa-plug
+      title: एकीकरण
+      items:
+        - MS Project फाइल संगतता (MPP और XML)
+        - PDF और PNG में एक्सपोर्ट
+        - Google Drive के साथ काम करता है
+
+faq:
+  title: अक्सर पूछे जाने वाले सवाल
+  items:
+    - question: Ingantt for iOS क्या है?
+      answer: Ingantt for iOS एक प्रोफेशनल प्रोजेक्ट मैनेजमेंट टूल है, जो आपके iOS डिवाइस पर मूल रूप से चलता है। यह आपको चलते-फिरते प्रोजेक्ट प्लान बनाने और प्रबंधित करने की सुविधा देता है, जिसमें AI-असिस्टेड प्लानिंग और MS Project संगतता शामिल है।
+    - question: क्या मैं अपनी मौजूद Microsoft Project फाइलें इम्पोर्ट कर सकता/सकती हूँ?
+      answer: जी हाँ! Ingantt Microsoft Project की .MPP और .XML फाइलों को पूरी तरह सपोर्ट करता है। आपकी सभी प्रोजेक्ट जानकारियाँ, जिनमें टास्क, संसाधन और निर्भरताएँ शामिल हैं, इम्पोर्ट के दौरान सुरक्षित रहेंगी।
+    - question: AI प्रोजेक्ट जनरेशन कैसे काम करता है?
+      answer: हमारा AI सहायक साधारण टेक्स्ट विवरणों से पूरा प्रोजेक्ट प्लान बना सकता है। बस अपने प्रोजेक्ट के उद्देश्य और ज़रूरतें बताएं, और AI सर्वश्रेष्ठ प्रैक्टिस के आधार पर टास्क, टाइमलाइन और निर्भरताओं वाला एक स्ट्रक्चर्ड प्लान बना देता है।
+    - question: क्या iOS संस्करण के लिए कोई मुफ्त ट्रायल है?
+      answer: नहीं। iOS संस्करण एक बार खरीदने वाला उत्पाद है, इसमें कोई सब्सक्रिप्शन या मुफ्त ट्रायल नहीं है।
+    - question: मैं Ingantt for iOS कैसे खरीदूँ?
+      answer: बस अपने iOS डिवाइस पर Apple App Store पर जाएँ, Ingantt खोजें और इसे खरीद लें। इस तरह आप बिना किसी आवर्ती शुल्क के हमेशा के लिए ऐप के मालिक रहेंगे।
+  support:
+    title: Ingantt के साथ प्रोजेक्ट प्लानिंग शुरू करें
+    docs:
+      text: डक्यूमेंटेशन पर जाएँ
+    contact:
+      title: और सवाल हैं?<br>समर्थन के लिए किसी वास्तविक व्यक्ति से संपर्क करें!
+      text: हमें ईमेल करें
+      icon: fa fa-envelope
+
+cta:
+  title: क्या आप अपनी प्रोजेक्ट प्लानिंग को बदलने के लिए तैयार हैं?
+  subtitle: अपने iPhone या iPad पर AI-संचालित प्रोजेक्ट प्लानिंग का आनंद लें
+  button:
+    text: अभी प्राप्त करें
+
+platform_support:
+  title: किसी अन्य प्लेटफ़ॉर्म के लिए संस्करण चाहिए?

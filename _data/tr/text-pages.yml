@@ -1,0 +1,89 @@
+terms_of_service:
+    title_tag: Ingantt - Hizmet Şartları
+    meta_keywords: Ingantt, hizmet şartları
+    meta_description: Ingantt'ın Hizmet Şartları
+    text_title: Hizmet Şartları
+    text: |
+      Ingantt’a hoş geldiniz! Uygulamamızı kullanarak aşağıdaki şartları kabul etmiş sayılırsınız:
+
+      ## 1. Şartların Kabulü
+
+      Ingantt’a erişerek veya kullanarak, bu Hizmet Şartları ve Gizlilik Politikamızla bağlı olmayı kabul etmiş olursunuz.
+
+      ## 2. Google Drive Kullanımı
+
+      Uygulamamız, verilerinizi depolamak ve geri almak için Google Drive hesabınıza bağlanır. Uygulamamızı kullanarak, bu amaçla Google Drive hesabınıza erişmemize izin vermiş olursunuz.
+
+      ## 3. Kullanıcı Verileri
+
+      Uygulamamız aracılığıyla Google Drive’a yüklediğiniz tüm verilerin mülkiyeti size aittir. Verileriniz üzerinde herhangi bir mülkiyet hakkı talep etmiyoruz.
+
+      ## 4. Gizlilik
+
+      Gizliliğiniz bizim için önemlidir. Hizmetlerimizi sunmak için gerekli olduğu ölçüde verilerinize erişir, bunları saklar ve kullanırız. Verilerinizi nasıl işlediğimiz hakkında daha fazla bilgi edinmek için lütfen Gizlilik Politikamızı inceleyin.
+
+      ## 5. Güvenlik
+
+      Verilerinizi korumak için makul önlemler alıyoruz. Ancak, verilerinizin mutlak güvenliğini garanti edemeyiz ve yetkisiz erişim veya güvenlik ihlallerinden sorumlu değiliz.
+
+      ## 6. Kullanıcı Sorumlulukları
+
+      Google Drive hesabınızın güvenliğini sağlamak ve hesabınız altında gerçekleşen tüm etkinliklerden sorumlu olmak sizin sorumluluğunuzdadır.
+
+      ## 7. Yasaklı Etkinlikler
+
+      Uygulamamızı yasa dışı faaliyetlerde veya bu şartları ihlal edecek şekilde kullanmayacağınızı kabul edersiniz.
+
+      ## 8. Fesih
+
+      Bu şartları ihlal etmeniz de dahil olmak üzere herhangi bir nedenle, önceden bildirimde bulunmaksızın uygulamamıza erişiminizi askıya alma veya sonlandırma hakkımız saklıdır.
+
+      ## 9. Şartlarda Değişiklik
+
+      Bu şartları zaman zaman güncelleyebiliriz. Yeni şartları uygulamamızda yayınlayarak sizi bilgilendireceğiz. Bu değişikliklerden sonra uygulamayı kullanmaya devam etmeniz, güncellenen şartları kabul ettiğiniz anlamına gelir.
+
+      ## 10. İletişim
+
+      Bu Hizmet Şartları hakkında herhangi bir sorunuz varsa lütfen bizimle iletişime geçin.
+
+privacy_policy:
+    title_tag: Ingantt - Gizlilik Politikası
+    meta_keywords: Ingantt, gizlilik politikası
+    meta_description: Ingantt'ın Gizlilik Politikası
+    text_title: Gizlilik Politikası
+    text: |
+      ## Kişisel Bilgi Nedir?
+
+      Kişisel Bilgi, bir bireyi tanımlayan bilgi veya görüşleri ifade eder. Örneğin isimler, adresler, e-posta adresleri, telefon ve faks numaraları gibi bilgileri içerir.
+
+      ## Herhangi Bir Veri Toplanmıyor
+
+      Ingantt’ın kullanıcıdan aldığı ve işlediği tüm veriler, kullanıcının kendi cihazındaki yerel dosyalarda veya kullanıcının bu seçeneği açıkça tercih edip Google ile bu özelliği etkinleştirmesi hâlinde kullanıcının Google Drive hesabında saklanır.
+
+      Kullanıcının Google Drive alanında, Ingantt sadece kullanıcının Ingantt’ı kullanarak oluşturduğu dosyaları saklar. Ingantt, kullanıcının Google Drive’ına eklediği kendi oluşturduğu dosyalara erişir, bunları kullanır veya paylaşır.
+
+      Kullanıcının cihazından açılan MPP dosyaları, XML formatına dönüştürülüp geri gönderilmek üzere Ingantt’ın dönüştürme web servisine gönderilir. Bu dosyalar sunucuda saklanmaz.
+
+      Dolayısıyla, Ingantt geliştiricileri tarafından herhangi bir veri toplanmamaktadır.
+
+      ## Üçüncü Taraflarla Paylaşılan Veriler
+
+      Yapay zeka (AI) ile ilgili işlevlerin etkinleştirilmesi amacıyla, kullanıcı tarafından yeni bir dosya oluşturmak için girilen yapay zeka istemi (prompt), OpenAI ve/veya Gemini gibi üçüncü taraf yapay zeka araçlarıyla paylaşılır.
+
+      Başka hiçbir veri üçüncü taraflarla paylaşılmaz.
+
+      ## Verilerin Kullanımı
+
+      Kullanıcı verileri genel yapay zeka veya makine öğrenimi (ML) modellerini geliştirmek, iyileştirmek veya eğitmek için kullanılmaz. Bu durum, Google Workspace API’lerinden elde edilen kullanıcı verileri için de geçerlidir.
+
+      ## Veri Koruması
+
+      Verilerinizi yetkisiz erişim, kayıp veya ifşaya karşı korumak için uygun teknik ve organizasyonel önlemler uyguluyoruz.
+
+      ## Politika Güncellemeleri
+
+      Bu Politika zaman zaman güncellenebilir ve web sitemizde mevcuttur.
+
+      ## Gizlilik Politikası ile İlgili Şikayetler ve Sorular
+
+      Gizlilik Politikamız hakkında herhangi bir soru veya şikayetiniz varsa lütfen bizimle iletişime geçin.

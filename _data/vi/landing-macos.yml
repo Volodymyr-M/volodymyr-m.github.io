@@ -1,0 +1,231 @@
+title_tag: Ingantt - Biểu đồ Gantt hiện đại với AI cho Mac
+meta_keywords: ứng dụng biểu đồ Gantt cho macOS, mpp, gantt cho Mac, trình đọc mpp, trình xem mpp, ứng dụng gantt, giải pháp thay thế MS Project, gantt cho Apple, lập kế hoạch dự án, quản lý dự án
+meta_description: Ingantt - Công cụ quản lý dự án tích hợp AI dành cho macOS. Lập kế hoạch, lên lịch và theo dõi dự án của bạn trên Mac một cách dễ dàng.
+
+page_url: macos_page
+platform_url: macos_url
+store_image: app_store.png
+platform_image: macos.png
+
+hero:
+  title: Lập kế hoạch dự án trên Mac với biểu đồ Gantt và AI
+  subtitle: Biến đổi cách lập kế hoạch dự án với biểu đồ Gantt thông minh và trợ lý AI trên máy Mac của bạn.
+  cta:
+    primary:
+      text: Tải ngay
+      text_fits: true
+    other_versions:
+      title: Phiên bản khác
+  rating:
+    stars:
+    text: 5 sao trên
+  image: hero-macos.png
+
+features_grid:
+  title: Tại sao các nhà quản lý dự án lựa chọn Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Lập kế hoạch được hỗ trợ bởi AI
+      description: Tạo bản kế hoạch dự án hoàn chỉnh từ mô tả đơn giản với trợ lý AI của chúng tôi.
+    - icon: fas fa-brain
+      title: Lên kế hoạch cho mọi thứ
+      description: Lịch biểu, chi phí, công việc, quan hệ phụ thuộc, tài nguyên và hơn thế nữa — tất cả trong một nơi.
+    - icon: fas fa-laptop
+      title: Tối ưu cho macOS
+      description: Lập kế hoạch, xem xét và quản lý dự án trên macOS với trải nghiệm gốc mượt mà.
+    - icon: fas fa-file-import
+      title: Tương thích với MS Project
+      description: Nhập tệp .MPP và lưu ở định dạng XML tương thích với MS Project — không thỏa hiệp.
+
+demo:
+  title: Xem Ingantt hoạt động
+  video_id: r__sXaW1ciM
+
+testimonials:
+  title: Được tin dùng bởi các nhà quản lý dự án trên toàn thế giới
+  show_more:
+    text: Xem thêm
+    icon: fas fa-chevron-down
+  show_less:
+    text: Thu gọn
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Ứng dụng Gantt tốt nhất, cũng không ép bạn phải sử dụng định dạng tệp riêng hay lưu trữ đám mây của nó.
+      author:
+        name: Noah Wilson
+        title: Giám đốc chương trình
+    - rating: ★★★★★
+      text: Tạo kế hoạch dự án bằng AI đã thay đổi hoàn toàn cách tôi làm việc. Tôi dùng nó như điểm khởi đầu và nguồn cảm hứng cho các kế hoạch của mình.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Tôi cũng dùng nó như một trình xem và chỉnh sửa tệp MPP cho Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Điều phối viên dự án
+    - rating: ★★★★★
+      text: Cuối cùng đã có một giải pháp thay thế Microsoft Project hoạt động rất tốt!
+      author:
+        name: Isabella Moore
+        title: Trưởng nhóm (Quản lý dự án)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Hoạt động như mong đợi và tôi rất hài lòng.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: Toàn bộ sức mạnh của MS Project trong một gói gọn nhẹ hơn rất nhiều!
+      author:
+        name: Mia Harris
+        title: Chuyên gia đào tạo quản lý dự án
+      is_hidden: true
+    - rating: ★★★★★
+      text: Với Ingantt, bạn có thể tạo biểu đồ Gantt trực quan và có cấu trúc với các mốc (milestone) và lập kế hoạch tài nguyên, bao gồm cả theo dõi thủ công tiến độ.
+      author:
+        name: Emma Rodriguez
+        title: Quản lý sản phẩm
+      is_hidden: true
+    - rating: ★★★★★
+      text: Chạy nhanh hơn [các đối thủ], vì tôi cảm nhận rằng việc cuộn timeline và mở dự án mượt mà hơn nhiều so với các ứng dụng khác. Tuyệt vời!
+      author:
+        name: Ethan Walker
+        title: Quản lý chương trình
+      is_hidden: true
+    - rating: ★★★★★
+      text: Chương trình xuất sắc!
+      author:
+        name: Harper Thompson
+        title: Giám đốc PMO (Văn phòng Quản lý Dự án)
+      is_hidden: true
+
+features_detailed:
+  title: Mọi thứ bạn cần cho việc lập kế hoạch dự án thành công
+  subtitle: Các tính năng mạnh mẽ được thiết kế cho nhà quản lý dự án hiện đại
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Lập kế hoạch
+      content:
+        title: Lập kế hoạch với AI
+        features:
+          - icon: fas fa-check
+            title: Trình tạo dự án AI
+            description: Tạo các kế hoạch dự án hoàn chỉnh từ các mô tả văn bản đơn giản bằng AI tiên tiến
+          - icon: fas fa-check
+            title: Lên lịch dễ dàng
+            description: Cập nhật bất kỳ phần nào của kế hoạch dự án và xem kết quả tổng thể ngay lập tức.
+          - icon: fas fa-check
+            title: Sự quen thuộc
+            description: Bạn đã quen với MS Project hay phần mềm tương tự? Tận dụng ngay!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Theo dõi
+      content:
+        title: Theo dõi nâng cao
+        features:
+          - icon: fas fa-check
+            title: Giám sát tiến độ
+            description: Theo dõi phần trăm hoàn thành và tiến độ của các mốc quan trọng
+          - icon: fas fa-check
+            title: Sử dụng tài nguyên
+            description: Giám sát phân bổ tài nguyên và xác định các nút thắt tiềm ẩn
+          - icon: fas fa-check
+            title: Phân tích dòng thời gian
+            description: Phân tích đường găng (critical path) và theo dõi những sai lệch trong lịch trình
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Tích hợp
+      content:
+        title: Tích hợp mạnh mẽ
+        features:
+          - icon: fas fa-check
+            title: Tương thích với MS Project
+            description: Nhập tệp MPP của MS Project và luôn lưu dưới định dạng XML tương thích MS Project.
+          - icon: fas fa-check
+            title: Tùy chọn xuất
+            description: Xuất sang PDF và PNG bất kỳ lúc nào
+          - icon: fas fa-check
+            title: Lưu và mở trên Google Drive
+            description: Sử dụng Google Drive để lưu trữ tệp dự án của bạn.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Bạn có thể làm gì với Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Lập kế hoạch nâng cao
+      items:
+        - Tạo kế hoạch dự án từ mô tả văn bản đơn giản bằng AI
+        - Thực hiện mọi cập nhật và xem thay đổi ngay lập tức
+        - Dự đoán ngày hoàn thành và phát hiện sớm các trở ngại tiềm ẩn
+        - Lập kế hoạch chi phí
+    - icon: fas fa-tasks
+      title: Quản lý công việc
+      items:
+        - Chia nhỏ dự án thành các công việc
+        - Thiết lập phụ thuộc và thời hạn
+        - Đánh dấu công việc là mốc (milestone)
+        - Theo dõi đường găng
+        - Theo dõi trạng thái hoàn thành công việc
+    - icon: fas fa-users
+      title: Cộng tác
+      items:
+        - Hoạt động với Google Drive
+        - Trao đổi tệp ở định dạng XML, PDF hoặc PNG
+    - icon: fas fa-chart-line
+      title: Theo dõi nâng cao
+      items:
+        - Theo dõi phân bổ tài nguyên
+        - Phân tích đường găng
+        - Giám sát sử dụng tài nguyên
+        - Phân tích dòng thời gian
+    - icon: fas fa-calendar-alt
+      title: Quản lý tài nguyên
+      items:
+        - Quản lý tài nguyên lao động, vật tư và chi phí
+        - Thiết lập lịch và giờ làm việc cho tài nguyên
+        - Tự động điều chỉnh tài nguyên nếu bị quá tải
+        - Xem xét mức sử dụng tài nguyên theo thời gian
+    - icon: fas fa-plug
+      title: Tích hợp
+      items:
+        - Tương thích với tệp MS Project (MPP và XML)
+        - Xuất sang PDF và PNG
+        - Hoạt động với Google Drive
+
+faq:
+  title: Câu hỏi thường gặp
+  items:
+    - question: Ingantt cho macOS là gì?
+      answer: Ingantt cho macOS là công cụ quản lý dự án chuyên nghiệp chạy nguyên gốc trên máy Mac của bạn. Nó cho phép bạn tạo và quản lý kế hoạch dự án với tính năng lập kế hoạch tích hợp AI và tương thích MS Project.
+    - question: Tôi có thể nhập các tệp Microsoft Project hiện có không?
+      answer: Được chứ! Ingantt hoàn toàn hỗ trợ nhập các tệp .MPP và .XML từ Microsoft Project. Dữ liệu dự án của bạn, bao gồm công việc, tài nguyên và quan hệ phụ thuộc, sẽ được giữ nguyên khi nhập.
+    - question: Việc tạo dự án với AI hoạt động ra sao?
+      answer: Trợ lý AI của chúng tôi có thể tạo kế hoạch dự án hoàn chỉnh từ mô tả văn bản đơn giản. Chỉ cần mô tả mục tiêu và yêu cầu dự án, AI sẽ xây dựng một kế hoạch có cấu trúc với công việc, lịch trình và quan hệ phụ thuộc dựa trên các phương pháp tốt nhất.
+    - question: Có phiên bản dùng thử miễn phí cho macOS không?
+      answer: Không. Phiên bản macOS được mua một lần, không có hình thức thuê bao hoặc bản dùng thử miễn phí.
+    - question: Làm sao để mua Ingantt cho macOS?
+      answer: Hãy truy cập Mac App Store và mua nó ở đó. Bạn sẽ sở hữu ứng dụng vĩnh viễn mà không phải trả thêm bất kỳ khoản phí định kỳ nào.
+  support:
+    title: Bắt đầu lập kế hoạch với Ingantt
+    docs:
+      text: Xem Tài liệu
+    contact:
+      title: Còn thắc mắc?<br>Liên hệ với người thật để được hỗ trợ!
+      text: Gửi email cho chúng tôi
+      icon: fa fa-envelope
+
+cta:
+  title: Sẵn sàng biến đổi cách lập kế hoạch dự án của bạn?
+  subtitle: Tận hưởng việc lập kế hoạch dự án bằng AI trên máy Mac
+  button:
+    text: Tải ngay
+
+platform_support:
+  title: Cần phiên bản cho nền tảng khác?

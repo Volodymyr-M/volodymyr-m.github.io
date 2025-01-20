@@ -1,0 +1,113 @@
+- title: "Google Workspace: paylaşım ve iş birliği"
+  published_on: "12 Eylül 2024"
+  content: |
+    ![İllüstrasyon](/images/blog/share.webp)
+    Ingantt, ilk günden bu yana çeşitli sektörlerdeki proje yöneticileri için güçlü bir araç oldu. Ancak şimdiye kadar yalnızca kişisel kullanım içindi. Bu durum artık değişiyor!
+
+    [Google Workspace](workspace_url){:target="_blank"} sürümü için büyük bir güncelleme yayınladığımızı duyurmaktan mutluluk duyuyoruz. Bu güncelleme, kullanıcıların Google Drive üzerinden proje planlarını diğer Ingantt kullanıcılarıyla paylaşmalarına imkân tanıyor.
+
+    Kullanımı Google Docs veya Sheets gibi çalışır. Tanıdık bir “Paylaş” iletişim kutusu göreceksiniz; burada e-posta adreslerini girip roller atayabilirsiniz. Alıcılar, Google Drive’dan bir bildirim alır, bağlantıya tıklar ve hemen proje planınıza erişir. Oldukça basit!
+
+- title: "Yapay zeka ve çok daha fazlası!"
+  published_on: "2 Mayıs 2024"
+  content: |
+    Bugün, Ingantt için şimdiye kadarki en büyük güncellemeyi yayınlamaya başlıyoruz.
+
+    Öncelikle yapay zekadan (AI) bahsedelim. Ingantt, bu kullanışlı işlevi yerleşik olarak sunan ilk proje yönetimi araçlarından biridir. Nasıl çalışır? Projenizin açıklamasını yazmanız, bir düğmeye tıklamanız yeterli ve tam bir proje planı elde edersiniz! Deneyin—sadece iyi bir başlangıç noktası ya da ilham vermekle kalmaz, aynı zamanda eğlenceli de.
+
+    Ancak bu güncellemede sadece yapay zeka yok! Proje listesini tamamen yeniden tasarladık; küçük önizlemelerle (thumbnail) daha görsel hâle getirdik ve Google Drive entegrasyonunu daha da güçlendirdik. Artık sıralama yapabilir ve “PNG’ye Aktar” gibi bazı işlemleri proje listenizden doğrudan gerçekleştirebilirsiniz.
+
+    Popüler proje türleri için el yapımı şablonlar ekledik. Bunlardan biri olan “Öğretici Şablonu (Tutorial Template)”, Ingantt’a hızlıca başlamak için harika bir yol olabilir. Sadece göz atın ya da projeye temel olsun diye kullanın.
+
+    Bu güncelleme ayrıca gelecekte Ingantt’ı daha da geliştirmek için yeni fırsatlar sunuyor, bizi izlemeye devam edin!
+
+    ![İllüstrasyon](/images/blog/ai_macos_dark.png)
+    ![İllüstrasyon](/images/blog/ai2_macos_dark.png)
+
+- title: "Kullanıcılarımızı dinliyoruz!"
+  published_on: "25 Ocak 2024"
+  content: |
+    Artık Ingantt her platformda kullanılabiliyor ve kullanıcıların yüksek işlevli bir proje planlama yazılımından beklediği tüm özelliklere sahip. Ancak burada durmuyoruz. Kullanıcılarımızın görüşlerini dinliyoruz.
+    Sizlerden çok değerli geri bildirimler aldık ve bunun için çok minnettarız! Bu geri bildirimlerden öğrendiğimiz iyileştirmeleri sürekli olarak Ingantt’a ekliyoruz.
+
+    Son sürümlerde Ingantt şu yenilikleri kazandı:
+
+    * Görev sütunlarını yeniden sıralama yeteneği
+    * Daha akıcı bir klavye kısayolu deneyimi
+    * Bazı tablolar için varsayılan olarak görünen kaydırma çubukları
+    * Gantt grafiğindeki görevlerin içindeki tamamlanma yüzdesi (%) gösteriminin iyileştirilmesi
+
+    ve ayrıca bazı dahili iyileştirmeler ve optimizasyonlar.
+
+    Lütfen bize geri bildirimlerinizi, sorularınızı veya yorumlarınızı iletmekten çekinmeyin. Ingantt’ı birlikte daha da iyi hale getirelim!
+
+- title: "iOS sürümü!"
+  published_on: "23 Eylül 2023"
+  content: |
+    Platform genişletmemizin son halkası olarak, iOS sürümü artık kullanıma hazır! Artık Ingantt’ın her yerde ve her platformda kullanılabildiğini söylemekten mutluluk duyuyoruz. iPhone veya iPad’de Ingantt kullanmak için, [App Store’dan Ingantt’ı indirin](ios_url){:target="_blank"}.
+    ![İllüstrasyon](/images/blog/ios.png)
+
+- title: "Yeni! macOS sürümü"
+  published_on: "28 Ağustos 2023"
+  content: |
+    En başından beri, Ingantt çoklu platformlu bir uygulamaydı. Android, Windows ve Web gibi çeşitli platformlardaki kullanıcılar, uzunca bir süredir Ingantt ile proje planlamanın keyfini çıkarıyor. Şimdi listeye yeni bir platform ekleme zamanı!
+
+    Karşınızda macOS için Ingantt! Ingantt’ın tüm planlama işlevselliğini şık bir Mac tarzıyla buluşturduk. Diğer sürümlerde olduğu gibi, bu sürümün yeni platformda doğal (native) görünmesi için çok uğraştık. Mac kullanıcısıysanız, [Mac App Store’dan Ingantt’ı indirin](macos_url){:target="_blank"}.
+
+- title: "Yeni sürüm: PDF yazdırma"
+  published_on: "27 Mayıs 2023"
+  content: |
+    Ingantt, iyi bilinen Gantt grafiği kullanılarak yapılan zamanlamaya odaklanan profesyonel bir araçtır. Proje planınızı oluşturduktan sonra bazen bunu başkalarına göstermek isteyebilirsiniz.
+
+    Artık gösterebilirsiniz! Yeni **Yazdırılabilir PDF** menü öğesi sayesinde, yazdırabileceğiniz veya paylaşabileceğiniz bir PDF dosyası oluşturabilirsiniz. Oluşturulan PDF, gördüğünüz Gantt grafiğini tam olarak yansıtır ve aynı seçenekleri kullanır. Örneğin, **Seçenekler** iletişim kutusunda kök özet görevi gösterme ayarını yaptıysanız, PDF de aynı şekilde gösterecektir.
+
+    Oluşturulan PDF, pek çok uygulamayla açılıp yazdırılabilir; bu nedenle yalnızca yazdırma değil, e-posta, mesajlaşma ya da bulut hizmetleri üzerinden paylaşmak için de harika bir biçimdir.
+
+- title: "Yeni sürüm: Kaynak Kullanımı"
+  published_on: "5 Mayıs 2023"
+  content: |
+    Ingantt, tüm desteklenen platformlarda dağıtılan yeni bir özellikle birlikte daha da kullanışlı bir planlama aracına dönüşüyor.
+
+    Başlangıçtan beri Ingantt, aşırı tahsis edilmiş (overallocated) kaynakları tespit edip otomatik olarak düzeltebiliyordu. Şimdi ise kaynaklarınızın hangi dönemlerde aşırı tahsis edildiğini, her bir göreve ne kadar zaman harcadıklarını ve toplam iş yüklerinin ne olduğunu tam olarak görebilirsiniz. Bunların hepsi Ingantt’taki **Kaynak Kullanımı (Resource Usage)** adlı yeni görünüm sayesinde mümkün.
+
+    İlk bakışta, bu görünüm standart bölünmüş Gantt görünümüne benziyor. Ancak birkaç fark bulunuyor. Solda görevler, atandıkları kaynağa göre gruplanmış hâlde gösterilir. Sağdaki grafikte ise her kaynağın her göreve ne kadar iş harcadığını ve toplam iş yükünü görürsünüz. Belirli bir dönemde kaynak aşırı tahsis edilirse, ilgili veri kırmızıyla vurgulanır.
+
+    Bu yeni özelliği kullanarak kaynaklarınızın iş yükünü daha iyi planlayın. Bu arada, gelecekte daha fazla özelliği hayata geçirmeyi planlıyoruz!
+
+    ![İllüstrasyon](/images/blog/resource_usage.png)
+
+- title: "Yeni sürüm: MPP dosyası açma"
+  published_on: "16 Nisan 2023"
+  content: |
+    Önemli bir özelliği ekleyen yeni bir Ingantt güncellemesini duyurmaktan mutluluk duyuyoruz!
+
+    Bildiğiniz gibi, Ingantt Microsoft Project tarafından oluşturulan XML dosyalarını açabiliyor. Ancak bu format, bu popüler uygulamanın yerel formatı değildir. Normalde Microsoft Project, dosyalarını “.mpp” uzantılı MPP adlı bir ikili formatta saklar.
+
+    Yeni güncelleme, MPP dosyalarını XML dosyalarını açar gibi açma imkânı sunuyor. Dosya seçicisinde bir MPP dosyası seçin ve açılacaktır.
+
+    Bu özellikle ilgili bir noktayı hatırlatmak isteriz. Ingantt’ın çoğu işlevi internet bağlantısı gerektirmese de, MPP dosyalarını açmak için aktif bir internet bağlantısı gerekir; çünkü bu dosyalar XML’e dönüştürülmek üzere sunucumuza gönderilir. Veri güvenli bir bağlantı üzerinden aktarılır ve dosyalar sunucuda depolanmaz; dolayısıyla gizlilik ve güvenlik konusunda endişelenmenize gerek yoktur.
+
+    Bu yeni Ingantt özelliğini bizim kadar seveceğinizi umuyoruz. Yakında daha fazla yenilik gelecek!
+
+- title: "Sürüm 1.0 yayında!"
+  published_on: "12 Nisan 2023"
+  content: |
+    Uzun süren yoğun çalışmaların ardından Ingantt nihayet hazır!
+
+    Ingantt, Microsoft Project’e kullanımı kolay bir alternatif sunma vizyonumuzun sonucudur—herkesin, hangi cihazı kullanırsa kullansın, erişebileceği ve uygun maliyetli bir proje yönetimi aracı sunmayı hedefliyoruz. Çeşitli projeleri planlamaya uygun olan Ingantt, geleneksel bir görev listesiyle yönetilemeyecek kadar çok görevi olan herkes için yararlı bir araçtır.
+
+    Büyük veya küçük tadilat projeleri, yazılım geliştirme projeleri, küçük inşaat projeleri, düğünler, etkinlikler, kısacası planlama gerektiren her şey için Ingantt en önemli soruları cevaplamanıza yardımcı olur: Proje ne zaman biter? Her bir görev ne zaman tamamlanır? Tüm bunların maliyeti ne kadar? Üstelik resmi tatiller, izin günleri ve projenizin takvimini ve maliyetini etkileyebilecek diğer önemli faktörleri de hesaba katar.
+
+    ![İllüstrasyon](/images/blog/screen.png)
+
+    Bazı planlama araçlarının aksine, Ingantt size verimli çalıştığınız hissini verir. En sık yapılan işlemlerde tıklama sayısını en aza indirdik. Sol tarafta görevler, sağ tarafta Gantt grafiği olan geleneksel bölünmüş görünümün (iletişim kutularıyla düzenleme) yanı sıra, Ingantt’a özel bir Düzenleme görünümü ekledik. Bu sayede Photoshop’a benzer bir şekilde takviminizi anında düzenleyebilir, değişiklikleri Gantt grafiğinde anında görebilir ve iletişim kutularını açmanıza gerek kalmaz.
+
+    ![İllüstrasyon](/images/blog/edit.png)
+
+    Microsoft Project gibi araçlara aşinaysanız, mevcut bilginizi kullanarak hemen başlayabilirsiniz. Eğer değilseniz, kapsamlı bir [dokümantasyon](docs_url){:target="_blank"} ve bir [Başlangıç Kılavuzu](docs_url/getting-started/){:target="_blank"} hazırladık.
+
+    Modern bir uygulama olarak Ingantt karanlık modu (Dark Mode) destekliyor. Dosyalarınızı buluta daha kolay kaydedebilmeniz için Google Drive desteği de tam olarak entegre edildi, böylece dosyalarınızı Google Drive’da saklayabilir ve açabilirsiniz.
+
+    Windows ve Android sürümleriyle birlikte Ingantt, [Microsoft Store](windows_url) ve [Google Play](android_url){:target="_blank"} üzerinden yayınlandı. Ayrıca bir web sürümü de mevcut.
+
+    Lütfen bize geri bildirim, soru veya yorumlarınızı iletmekten çekinmeyin. Bu ilk sürüm olsa da, Ingantt üzerindeki çalışmalarımız devam ediyor ve yeni özellikler yakında gelecek. Takipte kalın!

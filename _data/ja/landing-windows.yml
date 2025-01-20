@@ -1,0 +1,231 @@
+title_tag: Ingantt - AI搭載のモダンなGanttチャートプロジェクト計画ツール（Windows向け）
+meta_keywords: gantt chart app Windows, mpp, gantt PC, mpp reader, mpp viewer, MS Project alternative, gantt for Windows, gantt app, project planning, project management
+meta_description: Ingantt - AIを活用したプロジェクト管理ツール（Windows対応）。PC上で簡単にプロジェクトを計画・スケジュール・追跡。
+
+page_url: windows_page
+platform_url: windows_url
+store_image: microsoft_store.png
+platform_image: windows.png
+
+hero:
+  title: Windows対応のGanttチャートプロジェクト計画（AI搭載）
+  subtitle: インテリジェントなGanttチャートとAIアシスタントで、Windows PC上のプロジェクト計画を変革しましょう。
+  cta:
+    primary:
+      text: 無料で試す
+      text_fits: true
+    other_versions:
+      title: 他のバージョン
+  rating:
+    stars:
+    text: 星5評価
+  image: hero-windows.png
+
+features_grid:
+  title: プロジェクトマネージャーがInganttを選ぶ理由
+  items:
+    - icon: fas fa-robot
+      title: AIによる計画
+      description: シンプルな説明から完全なプロジェクト計画を生成するAIアシスタントを搭載。
+    - icon: fas fa-brain
+      title: あらゆる要素を計画
+      description: スケジュール、コスト、タスク、依存関係、リソースなどをすべて一箇所で管理。
+    - icon: fas fa-desktop
+      title: Windows向けに最適化
+      description: ネイティブでスムーズなWindows体験を通して、プロジェクトを計画・確認・管理できます。
+    - icon: fas fa-file-import
+      title: MS Projectとの互換性
+      description: .MPPファイルをインポートし、MS Project互換のXML形式で保存。妥協は不要です。
+
+demo:
+  title: Inganttの実際の動作をチェック
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: 世界中のプロジェクトマネージャーから信頼されています
+  show_more:
+    text: もっと見る
+    icon: fas fa-chevron-down
+  show_less:
+    text: 閉じる
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 独自のファイル形式やクラウドストレージにロックされない、最高のGanttアプリです。
+      author:
+        name: Noah Wilson
+        title: プログラムディレクター
+    - rating: ★★★★★
+      text: AIによるプロジェクトプランの自動生成は、私にとって画期的でした。プランの出発点やアイデアとして活用しています。
+      author:
+        name: Alexander Hall
+        title: アジャイルコーチ
+    - rating: ★★★★★
+      text: Microsoft ProjectファイルのMPPビューアやエディタとしても使っています。
+      author:
+        name: Amelia Clark
+        title: プロジェクトコーディネーター
+    - rating: ★★★★★
+      text: ついに素晴らしく動作するMicrosoft Projectの代替が見つかりました！
+      author:
+        name: Isabella Moore
+        title: チームリード（プロジェクト管理）
+      is_hidden: true
+    - rating: ★★★★★
+      text: 期待通りに動作しており、とても満足しています。
+      author:
+        name: Benjamin Lee
+        title: アジャイルコーチ
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Projectのフル機能が、はるかにコンパクトな形で手に入ります！
+      author:
+        name: Mia Harris
+        title: プロジェクト管理トレーナー
+      is_hidden: true
+    - rating: ★★★★★
+      text: マイルストーンとリソース計画を含む直感的で体系的なGanttチャートを作成でき、手動で進捗を追跡できます。
+      author:
+        name: Emma Rodriguez
+        title: プロダクトマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 他社製品よりも処理が速いと感じます。タイムラインのスクロールやプロジェクトのオープンが非常に速い。素晴らしい！
+      author:
+        name: Ethan Walker
+        title: プログラムマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 素晴らしいプログラムです！
+      author:
+        name: Harper Thompson
+        title: PMO（プロジェクトマネジメントオフィス）ディレクター
+      is_hidden: true
+
+features_detailed:
+  title: 成功するプロジェクト計画に必要なすべての機能
+  subtitle: 現代のプロジェクトマネージャーのための強力な機能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 計画
+      content:
+        title: AIによる計画
+        features:
+          - icon: fas fa-check
+            title: AIプロジェクト生成
+            description: 先進的なAIを使って、シンプルなテキスト説明から完全なプロジェクト計画を作成
+          - icon: fas fa-check
+            title: 簡単なスケジューリング
+            description: プロジェクト計画のどの部分でも更新すれば、全体への影響を即座に確認できます。
+          - icon: fas fa-check
+            title: 親しみやすさ
+            description: MS Projectや類似ソフトの経験がありますか？ そのスキルを活かせます！
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: トラッキング
+      content:
+        title: 高度なトラッキング
+        features:
+          - icon: fas fa-check
+            title: 進捗モニタリング
+            description: 完了率やマイルストーンの進行状況を追跡
+          - icon: fas fa-check
+            title: リソース使用状況
+            description: リソースの割り当てを監視し、ボトルネックを特定
+          - icon: fas fa-check
+            title: タイムライン分析
+            description: クリティカルパスを分析し、スケジュールの変動を追跡
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: 連携
+      content:
+        title: 強力な連携機能
+        features:
+          - icon: fas fa-check
+            title: MS Projectとの互換性
+            description: MS ProjectのMPPファイルをインポートし、常にMS Project互換のXML形式で保存できます。
+          - icon: fas fa-check
+            title: エクスポートオプション
+            description: いつでもPDFやPNGにエクスポート可能
+          - icon: fas fa-check
+            title: Google Driveでの保存とオープン
+            description: Google Driveを使ってプロジェクトファイルを保存・管理。
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Inganttでできること
+  items:
+    - icon: fas fa-brain
+      title: 高度な計画
+      items:
+        - AIを利用して、シンプルなテキスト説明からプロジェクト計画を作成
+        - どんな変更をしても即時に結果を反映
+        - 完了予定日を予測し、潜在的な障害を早期に特定
+        - コストを計画
+    - icon: fas fa-tasks
+      title: タスク管理
+      items:
+        - プロジェクトをタスクに分解
+        - タスクの依存関係や締め切りを設定
+        - タスクをマイルストーンとしてマーク
+        - クリティカルパスをモニター
+        - タスクの完了状況を追跡
+    - icon: fas fa-users
+      title: コラボレーション
+      items:
+        - Google Driveと連携
+        - XML、PDF、PNG形式でファイルをやり取り
+    - icon: fas fa-chart-line
+      title: 高度なトラッキング
+      items:
+        - リソース割り当てをモニター
+        - クリティカルパスを分析
+        - リソース使用状況を監視
+        - タイムラインを分析
+    - icon: fas fa-calendar-alt
+      title: リソース管理
+      items:
+        - 稼働リソース、物品リソース、コストリソースを管理
+        - リソースのカレンダーと稼働時間を設定
+        - 過剰割り当てされたリソースを自動レベリング
+        - 時間経過に伴うリソース使用状況を確認
+    - icon: fas fa-plug
+      title: 連携機能
+      items:
+        - MS Projectファイルとの互換性（MPPおよびXML）
+        - PDFやPNGにエクスポート
+        - Google Driveと連携
+
+faq:
+  title: よくある質問
+  items:
+    - question: Ingantt for Windowsとは何ですか？
+      answer: Ingantt for Windowsは、PC上でネイティブに動作するプロ向けのプロジェクト管理ツールです。AIアシスタントによる計画機能やMS Projectとの互換性を備え、プロジェクト計画・管理を支援します。
+    - question: 既存のMicrosoft Projectファイルをインポートできますか？
+      answer: はい！ InganttはMicrosoft Projectの.MPPおよび.XMLファイルのインポートを完全にサポートしています。タスクやリソース、依存関係などのプロジェクトデータはインポート時に保持されます。
+    - question: AIによるプロジェクト生成はどのように機能しますか？
+      answer: 当社のAIアシスタントは、シンプルなテキスト説明から完全なプロジェクト計画を生成できます。プロジェクトの目標や要件を記述すると、AIがベストプラクティスに基づいたタスク、スケジュール、依存関係を含む計画を作成します。
+    - question: Windows版の無料トライアルはありますか？
+      answer: はい。Microsoft Storeからアプリをインストールした後、7日間の無料トライアルが利用できます。
+    - question: Windows版のInganttはどのように購入できますか？
+      answer: Microsoft Storeで購入できます。一度購入すれば、継続的な料金なしでアプリを使用できます。
+  support:
+    title: Inganttでプロジェクト計画を始めましょう
+    docs:
+      text: ドキュメントを見る
+    contact:
+      title: 他に質問がありますか？<br>サポート担当者にお気軽にお問い合わせください！
+      text: メールする
+      icon: fa fa-envelope
+
+cta:
+  title: プロジェクト計画を変革する準備はできていますか？
+  subtitle: Windowsネイティブの体験とAI活用によるプロジェクト計画をお楽しみください
+  button:
+    text: 無料で試す
+
+platform_support:
+  title: 他のプラットフォーム向けのバージョンが必要ですか？

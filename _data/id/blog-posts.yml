@@ -1,0 +1,113 @@
+- title: "Google Workspace: berbagi dan kolaborasi"
+  published_on: "12 September 2024"
+  content: |
+    ![Ilustrasi](/images/blog/share.webp)
+    Sejak awal, Ingantt telah menjadi alat yang kuat bagi manajer proyek di berbagai industri. Namun, sebelumnya hanya untuk penggunaan pribadi. Sekarang, itu berubah!
+
+    Kami dengan senang hati meluncurkan pembaruan besar untuk versi [Google Workspace](workspace_url){:target="_blank"}. Pembaruan ini memungkinkan pengguna untuk berbagi rencana proyek mereka dengan pengguna Ingantt lain melalui Google Drive.
+
+    Caranya persis seperti Google Docs atau Sheets—Anda akan melihat dialog “Bagikan” yang sudah familier, di mana Anda dapat memasukkan email dan menetapkan peran. Penerima akan mendapat notifikasi dari Google Drive, mengklik tautannya, dan segera memperoleh akses ke rencana proyek Anda. Mudah sekali!
+
+- title: "AI dan banyak lagi!"
+  published_on: "2 Mei 2024"
+  content: |
+    Hari ini kami mulai merilis pembaruan terbesar kami untuk Ingantt.
+
+    Pertama, AI. Ingantt adalah salah satu alat manajemen proyek pertama yang memiliki fungsi praktis ini secara bawaan. Bagaimana cara kerjanya? Cukup berikan deskripsi proyek Anda, klik tombol, dan Anda akan mendapatkan rencana proyek lengkap! Cobalah—bukan hanya memberikan titik awal atau inspirasi yang baik, tetapi juga menyenangkan untuk digunakan!
+
+    Namun bukan hanya itu yang ada dalam pembaruan ini! Kami sepenuhnya mendesain ulang daftar proyek, membuatnya lebih visual dengan thumbnail, serta memperkuat integrasi dengan Google Drive. Sekarang tersedia fitur penyortiran dan beberapa operasi seperti “Ekspor ke PNG” langsung dari daftar proyek Anda.
+
+    Untuk beberapa jenis proyek populer, kami telah menambahkan template buatan tangan. Salah satunya, “Template Tutorial,” patut disebutkan, karena ini dapat menjadi cara cepat untuk mulai menggunakan Ingantt—cukup baca atau gunakan sebagai titik awal.
+
+    Pembaruan ini juga membuka peluang baru untuk meningkatkan Ingantt di masa depan, jadi tetap ikuti perkembangannya!
+
+    ![Ilustrasi](/images/blog/ai_macos_dark.png)
+    ![Ilustrasi](/images/blog/ai2_macos_dark.png)
+
+- title: "Mendengarkan pengguna kami!"
+  published_on: "25 Januari 2024"
+  content: |
+    Sekarang Ingantt tersedia di platform apa pun dan memiliki semua fitur yang diharapkan oleh sebagian besar pengguna dari perangkat lunak perencanaan proyek yang canggih. Namun, kami tidak berhenti sampai di sini. Kami mendengarkan pengguna kami.
+    Kami telah menerima banyak masukan yang luar biasa dari Anda, dan kami sangat menghargainya! Kami terus memperbarui Ingantt dengan peningkatan yang kami pelajari dari Anda.
+
+    Dalam beberapa versi terbaru, Ingantt menerima:
+
+    * kemampuan untuk mengatur ulang kolom Tugas
+    * pengalaman pintasan keyboard yang lebih lancar
+    * scrollbar yang terlihat secara default di beberapa grid
+    * indikator persentase penyelesaian yang lebih baik di dalam tugas pada diagram Gantt
+
+    serta beberapa perbaikan dan optimasi internal.
+
+    Jangan ragu untuk menghubungi kami dengan masukan, pertanyaan, atau komentar Anda. Mari kita buat Ingantt lebih baik bersama-sama!
+
+- title: "Versi iOS!"
+  published_on: "23 September 2023"
+  content: |
+    Untuk melengkapi ekspansi platform kami, sekarang tersedia versi iOS! Kami sangat antusias mengumumkan bahwa Ingantt kini tersedia di mana saja, di semua platform! Untuk menggunakan Ingantt di iPhone atau iPad Anda, [unduh Ingantt di App Store](ios_url){:target="_blank"}.
+    ![Ilustrasi](/images/blog/ios.png)
+
+- title: "Baru! Versi macOS"
+  published_on: "28 Agustus 2023"
+  content: |
+    Sejak awal, Ingantt telah menjadi aplikasi lintas platform. Pengguna di berbagai platform seperti Android, Windows, dan Web telah lama menikmati perencanaan proyek menggunakan Ingantt. Kini saatnya menambahkan platform baru ke daftar!
+
+    Memperkenalkan Ingantt untuk macOS! Semua fungsionalitas perencanaan Ingantt dalam gaya yang elegan. Sama seperti versi lain, kami telah berupaya keras agar versi ini tampak dan terasa native di platform barunya. Jadi, jika Anda pengguna Mac, [unduh Ingantt di Mac App Store](macos_url){:target="_blank"}.
+
+- title: "Versi baru: Cetak PDF"
+  published_on: "27 Mei 2023"
+  content: |
+    Ingantt adalah alat profesional yang dibangun berdasarkan gagasan penjadwalan menggunakan diagram Gantt yang terkenal. Terkadang, setelah Anda menggunakan semua fungsionalitasnya yang lengkap untuk menyusun rencana, Anda perlu menampilkannya kepada seseorang.
+
+    Sekarang Anda bisa! Dengan menu utama baru **Cetak PDF**, Anda dapat membuat file PDF yang dapat dicetak atau dibagikan kepada siapa pun. PDF tersebut sepenuhnya mencerminkan diagram Gantt yang Anda lihat dan menggunakan pengaturan yang sama. Sebagai contoh, jika Anda memilih untuk menampilkan tugas ringkasan utama di dialog **Opsi**, file PDF yang dicetak juga akan menampilkannya.
+
+    File PDF yang dihasilkan dapat dibuka dan dicetak menggunakan banyak aplikasi yang tersedia, sehingga format ini sangat ideal, tidak hanya untuk dicetak tetapi juga untuk dibagikan melalui email, pesan, atau layanan cloud.
+
+- title: "Versi baru: Penggunaan Sumber Daya"
+  published_on: "5 Mei 2023"
+  content: |
+    Ingantt menjadi alat penjadwalan yang lebih bermanfaat dengan fitur baru yang diluncurkan di semua platform yang didukung.
+
+    Sejak awal, Ingantt memiliki kemampuan untuk mendeteksi dan secara otomatis memperbaiki sumber daya yang berlebihan. Dan sekarang Anda dapat melihat secara tepat kapan sumber daya Anda mengalami beban berlebihan, bagaimana mereka membagi waktu untuk setiap tugas, dan berapa total beban kerja yang mereka miliki. Semua berkat tampilan baru di Ingantt yang disebut **Resource Usage**.
+
+    Sekilas, tampilan ini mirip dengan tampilan terbagi standar dengan diagram Gantt. Namun, ada beberapa perbedaan. Di sebelah kiri, tugas ditampilkan dikelompokkan menurut sumber daya yang ditugaskan. Di sebelah kanan, dalam diagram, Anda melihat beban kerja yang dilakukan setiap sumber daya pada setiap tugas serta total kerja dari sumber daya tersebut. Jika suatu sumber daya mengalami beban berlebihan dalam periode tertentu, data kerjanya akan disorot dengan warna merah.
+
+    Gunakan fitur baru ini untuk merencanakan beban kerja sumber daya Anda dengan lebih baik. Sementara itu, lebih banyak fitur sedang dipersiapkan!
+
+    ![Ilustrasi](/images/blog/resource_usage.png)
+
+- title: "Versi baru: Membuka file MPP"
+  published_on: "16 April 2023"
+  content: |
+    Kami dengan senang hati mengumumkan pembaruan Ingantt yang menambahkan fitur penting!
+
+    Seperti yang mungkin sudah Anda ketahui, Ingantt mendukung pembukaan file XML yang dibuat oleh Microsoft Project. Namun, format ini bukan format asli aplikasi populer tersebut, yang biasanya menyimpan file dalam format biner bernama MPP (file dengan ekstensi “.mpp”).
+
+    Pembaruan baru ini menambahkan kemampuan untuk membuka file MPP sama seperti membuka file XML. Cukup pilih file MPP di pemilih file, dan file tersebut akan terbuka.
+
+    Ada satu hal yang perlu diingat tentang fitur ini. Berbeda dengan sebagian besar fungsionalitas Ingantt yang tidak memerlukan koneksi internet, membuka file MPP memerlukan koneksi internet yang aktif karena file tersebut dikirim ke layanan kami untuk dikonversi menjadi XML. Pertukaran data dilakukan melalui koneksi aman, dan file tidak disimpan di layanan kami, jadi Anda tidak perlu khawatir soal privasi dan keamanan.
+
+    Kami harap Anda menikmati fitur baru Ingantt ini seperti kami. Masih banyak fitur baru yang akan datang!
+
+- title: "Versi 1.0 telah hadir!"
+  published_on: "12 April 2023"
+  content: |
+    Setelah berbulan-bulan bekerja keras, Ingantt akhirnya siap!
+
+    Ingantt adalah perwujudan dari visi kami akan alternatif yang mudah digunakan untuk Microsoft Project—dengan biaya terjangkau dan tersedia bagi siapa saja, apa pun perangkat yang digunakan. Cocok untuk merencanakan hampir semua proyek, Ingantt adalah alat yang bermanfaat bagi siapa pun yang memiliki banyak tugas yang perlu direncanakan melampaui daftar tugas biasa.
+
+    Sangat baik untuk proyek renovasi besar maupun kecil, proyek pengembangan perangkat lunak, proyek konstruksi berskala kecil, pernikahan, acara, apa pun yang memerlukan perencanaan. Ingantt membantu Anda menjawab pertanyaan terpenting: Kapan proyek akan selesai, kapan setiap tugas akan selesai, dan berapa total biayanya? Semuanya dengan memperhitungkan hari libur, cuti, dan data penting lainnya yang memengaruhi jadwal dan biaya proyek Anda.
+
+    ![Ilustrasi](/images/blog/screen.png)
+
+    Tidak seperti beberapa alat perencanaan lainnya, Ingantt membuat Anda merasa produktif. Kami telah mengurangi jumlah klik untuk tindakan yang paling umum. Selain tampilan terbagi tradisional dengan tugas di sebelah kiri dan diagram Gantt di sebelah kanan (serta pengeditan melalui dialog), kami juga menambahkan tampilan Edit khusus di Ingantt. Tampilan ini memungkinkan Anda menyiapkan jadwal dengan cara mirip Photoshop, di mana perubahan Anda langsung tercermin dalam diagram Gantt, tanpa perlu membuka dialog apa pun.
+
+    ![Ilustrasi](/images/blog/edit.png)
+
+    Jika Anda sudah terbiasa dengan alat seperti Microsoft Project, Anda dapat menggunakan pengetahuan tersebut untuk memulai dengan cepat. Jika belum, kami menyediakan [dokumentasi](docs_url){:target="_blank"} lengkap dan [panduan Memulai](docs_url/getting-started/){:target="_blank"}.
+
+    Sebagai aplikasi modern, Ingantt mendukung mode Gelap. Untuk memudahkan penyimpanan file di cloud, dukungan Google Drive sepenuhnya tersedia, sehingga Anda dapat menyimpan, menaruh, dan membuka file Ingantt Anda di Google Drive.
+
+    Dengan dukungan Windows dan Android, Ingantt telah dirilis di [Microsoft Store](windows_url) dan di [Google Play](android_url){:target="_blank"}. Ada juga versi web yang tersedia.
+
+    Jangan ragu untuk menghubungi kami dengan masukan, pertanyaan, atau komentar Anda. Ini baru versi pertama, dan kami akan terus bekerja menghadirkan lebih banyak fitur. Jadi, nantikanlah!

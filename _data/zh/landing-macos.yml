@@ -1,0 +1,231 @@
+title_tag: Ingantt - 适用于 Mac 的现代 Gantt 图项目规划，搭载 AI
+meta_keywords: Gantt 图应用 macOS, mpp, Mac Gantt, mpp 阅读器, mpp 查看器, Gantt 应用, MS Project 替代方案, Apple Gantt, 项目规划, 项目管理
+meta_description: Ingantt - 基于 AI 的 macOS 项目管理工具。让您在 Mac 上轻松地规划、安排和跟踪项目进度。
+
+page_url: macos_page
+platform_url: macos_url
+store_image: app_store.png
+platform_image: macos.png
+
+hero:
+  title: 在 Mac 上使用 Gantt 图与 AI 进行项目规划
+  subtitle: 借助智能 Gantt 图和 AI 助手，让您的项目规划在 Mac 上更加出色。
+  cta:
+    primary:
+      text: 立即获取
+      text_fits: true
+    other_versions:
+      title: 其他版本
+  rating:
+    stars:
+    text: 获得 5 星好评
+  image: hero-macos.png
+
+features_grid:
+  title: 项目经理为什么选择 Ingantt
+  items:
+    - icon: fas fa-robot
+      title: AI 驱动的规划
+      description: 使用我们的 AI 助手，从简单描述中生成完整的项目计划。
+    - icon: fas fa-brain
+      title: 全面规划
+      description: 日程、成本、任务、依赖关系、资源等，一站式管理。
+    - icon: fas fa-laptop
+      title: 专为 macOS 优化
+      description: 在 macOS 上以原生、流畅的体验来规划、审阅和管理项目。
+    - icon: fas fa-file-import
+      title: 兼容 MS Project
+      description: 支持导入 .MPP 文件，并可保存为与 MS Project 兼容的 XML——毫无妥协。
+
+demo:
+  title: 观看 Ingantt 的实际演示
+  video_id: r__sXaW1ciM
+
+testimonials:
+  title: 全球项目经理的信赖之选
+  show_more:
+    text: 显示更多
+    icon: fas fa-chevron-down
+  show_less:
+    text: 显示更少
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 这是最好的 Gantt 图应用，不会把你锁定在它自己的文件格式或云存储中。
+      author:
+        name: Noah Wilson
+        title: 项目总监
+    - rating: ★★★★★
+      text: AI 项目计划生成对我来说堪称革命性，我将其用作项目计划的起点和灵感。
+      author:
+        name: Alexander Hall
+        title: Agile 教练
+    - rating: ★★★★★
+      text: 我也将它用作 Microsoft Project 文件的 MPP 查看器和编辑器。
+      author:
+        name: Amelia Clark
+        title: 项目协调员
+    - rating: ★★★★★
+      text: 终于有一个替代 Microsoft Project 的方案，并且非常好用！
+      author:
+        name: Isabella Moore
+        title: 团队主管（项目管理）
+      is_hidden: true
+    - rating: ★★★★★
+      text: 程序的表现符合预期，我很满意。
+      author:
+        name: Benjamin Lee
+        title: Agile 教练
+      is_hidden: true
+    - rating: ★★★★★
+      text: 在一个体积更小的软件中就能体验 MS Project 的全部功能！
+      author:
+        name: Mia Harris
+        title: 项目管理培训师
+      is_hidden: true
+    - rating: ★★★★★
+      text: 借助 Ingantt，可以创建直观且结构化的 Gantt 图，包括里程碑与资源规划，并可进行手动进度跟踪。
+      author:
+        name: Emma Rodriguez
+        title: 产品经理
+      is_hidden: true
+    - rating: ★★★★★
+      text: 相比竞争对手，性能更快：我能感觉到时间轴的滚动和项目打开速度都更流畅。好评！
+      author:
+        name: Ethan Walker
+        title: 项目总管
+      is_hidden: true
+    - rating: ★★★★★
+      text: 极佳的软件！
+      author:
+        name: Harper Thompson
+        title: PMO（项目管理办公室）主管
+      is_hidden: true
+
+features_detailed:
+  title: 项目规划成功所需的一切
+  subtitle: 为现代项目经理打造的强大功能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 规划
+      content:
+        title: AI 驱动的规划
+        features:
+          - icon: fas fa-check
+            title: AI 项目生成器
+            description: 利用先进 AI，从简短文字描述中创建完整的项目计划
+          - icon: fas fa-check
+            title: 轻松排期
+            description: 只要更新项目计划的任意部分，即可立即看到整体结果。
+          - icon: fas fa-check
+            title: 熟悉的工作方式
+            description: 熟悉 MS Project 或类似软件？立刻上手！
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: 跟踪
+      content:
+        title: 高级跟踪
+        features:
+          - icon: fas fa-check
+            title: 进度监控
+            description: 跟踪完成百分比与里程碑进度
+          - icon: fas fa-check
+            title: 资源使用情况
+            description: 监控资源分配并识别潜在瓶颈
+          - icon: fas fa-check
+            title: 时间线分析
+            description: 分析关键路径并跟踪进度偏差
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: 集成
+      content:
+        title: 强大的集成功能
+        features:
+          - icon: fas fa-check
+            title: MS Project 兼容性
+            description: 可导入 Microsoft Project 的 MPP 文件，始终以 MS Project 兼容的 XML 格式进行保存。
+          - icon: fas fa-check
+            title: 导出选项
+            description: 随时导出为 PDF 和 PNG
+          - icon: fas fa-check
+            title: 使用 Google Drive 保存和打开
+            description: 利用 Google Drive 存储您的项目文件。
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: 使用 Ingantt 可以做什么
+  items:
+    - icon: fas fa-brain
+      title: 高级规划
+      items:
+        - 使用 AI 从简短文字描述中创建项目计划
+        - 进行任何更新后可立即查看变更
+        - 预测完成日期并及早发现潜在障碍
+        - 规划成本
+    - icon: fas fa-tasks
+      title: 任务管理
+      items:
+        - 将项目分解为任务
+        - 设置任务依赖和截止时间
+        - 将任务标记为里程碑
+        - 监控关键路径
+        - 跟踪任务完成状态
+    - icon: fas fa-users
+      title: 协作
+      items:
+        - 支持与 Google Drive 协同
+        - 在 XML、PDF 或 PNG 格式之间交换文件
+    - icon: fas fa-chart-line
+      title: 高级跟踪
+      items:
+        - 监控资源分配
+        - 分析关键路径
+        - 资源使用监控
+        - 时间线分析
+    - icon: fas fa-calendar-alt
+      title: 资源管理
+      items:
+        - 管理人力、材料和成本等资源
+        - 设置资源日历和工作时间
+        - 自动平衡过度分配的资源
+        - 审查长时间的资源使用情况
+    - icon: fas fa-plug
+      title: 集成
+      items:
+        - 兼容 MS Project 文件（MPP 和 XML）
+        - 导出为 PDF 和 PNG
+        - 与 Google Drive 协同工作
+
+faq:
+  title: 常见问题
+  items:
+    - question: 什么是 Ingantt for macOS？
+      answer: Ingantt for macOS 是一个专业的项目管理工具，可以在您的 Mac 上原生运行。它具备 AI 辅助规划和 MS Project 兼容性，帮助您轻松创建并管理项目计划。
+    - question: 我可以导入已有的 Microsoft Project 文件吗？
+      answer: 可以！Ingantt 完全支持导入来自 Microsoft Project 的 .MPP 和 .XML 文件。项目数据（包括任务、资源和依赖关系）在导入过程中都会被保留。
+    - question: AI 项目生成是如何工作的？
+      answer: 我们的 AI 助手可以根据简短的文字描述生成完整的项目计划。只需描述项目目标和需求，AI 就会根据最佳实践创建带有任务、时间线和依赖关系的结构化计划。
+    - question: macOS 版本有免费试用吗？
+      answer: 没有。macOS 版本是一次性购买，没有订阅或免费试用。
+    - question: 我该如何购买 Ingantt for macOS？
+      answer: 请访问 Mac App Store 购买。购买后您可以永久使用，无需支付任何后续费用。
+  support:
+    title: 开始使用 Ingantt 进行项目规划
+    docs:
+      text: 前往文档
+    contact:
+      title: 还有疑问吗？<br>联系我们的真人客服获取支持！
+      text: 给我们发邮件
+      icon: fa fa-envelope
+
+cta:
+  title: 准备好让您的项目规划焕然一新了吗？
+  subtitle: 在原生 Mac 环境下享受 AI 驱动的项目规划
+  button:
+    text: 立即获取
+
+platform_support:
+  title: 需要适用于其他平台的版本？

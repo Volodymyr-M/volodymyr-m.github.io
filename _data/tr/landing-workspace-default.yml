@@ -1,0 +1,377 @@
+lang_name: Türkçe
+title_tag: Ingantt - Google Workspace’te Yapay Zeka Destekli Modern Gantt Çizelgesi Proje Planlaması
+meta_keywords: Gantt çizelgesi uygulaması Workspace, mpp, Gantt Google Workspace, mpp okuyucu, mpp görüntüleyici, MS Project alternatifi, Web için gantt, gantt Web, Google Workspace için gantt, proje yönetimi
+meta_description: Ingantt - Google Workspace için yapay zeka destekli proje yönetim aracı. Projelerinizi Web’de kolayca planlayın, programlayın ve takip edin.
+
+page_url: workspace_page
+platform_url: workspace_url
+store_image: google_workspace_marketplace.png
+platform_image: google_workspace.png
+
+products:
+  - icon: fa-brands fa-google
+    text: Ingantt for Google Workspace
+    platform: Google Workspace
+    url: workspace_page
+  - icon: fab fa-android
+    text: Ingantt for Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt for iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt for Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt for macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: Ürünler
+    
+    legal:
+      title: Yasal
+      items:
+        - text: Gizlilik Politikası
+          url: privacy_policy_page
+        - text: Hizmet Şartları
+          url: terms_of_service_page
+    
+    connect:
+      title: Daha fazla bilgi
+      items:
+        - icon: fa fa-info-circle
+          text: Dokümantasyon
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: Blog
+          url: blog_page
+        - icon: fa fa-envelope
+          text: E-posta gönderin
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    
+    site_settings:
+      title: Site Ayarları
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: Koyu modu değiştir
+        icon: fas fa-adjust
+
+  copyright: Ingantt Development. Tüm hakları saklıdır.
+
+hero:
+  title: Google Workspace’te Gantt Çizelgesi ve Yapay Zeka ile Proje Planlaması
+  subtitle: Google Drive içinde yapay zeka desteği, akıllı Gantt çizelgeleri ve sorunsuz işbirliği ile proje planlamanızı dönüştürün.
+  cta:
+    primary:
+      text: Ücretsiz Dene
+      text_fits: true
+    other_versions:
+      title: Diğer sürümler
+  rating:
+    stars: ★★★★★
+    text: 5 yıldız
+  image: hero-workspace.png
+
+features_grid:
+  title: Ekipler Neden Ingantt’ı Seçiyor
+  items:
+    - icon: fas fa-robot
+      title: Yapay Zeka Destekli Planlama
+      description: Basit açıklamalardan yapay zeka asistanımızla kapsamlı proje planları oluşturun.
+    - icon: fas fa-cloud
+      title: Google ile Yerel Entegrasyon
+      description: Google Drive ile sorunsuz çalışır, işbirliğini doğal ve zahmetsiz hale getirir.
+    - icon: fas fa-file-import
+      title: MS Project Uyumluluğu
+      description: .MPP dosyalarını içe aktarın ve MS Project uyumlu XML formatında kaydedin – tavizsiz.
+    - icon: fas fa-mobile-alt
+      title: Her Yerde Çalışır
+      description: Masaüstü, tablet ve mobilde, favori tarayıcınız üzerinden tam işlevsellik.
+
+demo:
+  title: Ingantt’ın Nasıl Çalıştığını Görün
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Dünyanın dört bir yanındaki proje yöneticilerinin güvendiği
+  show_more:
+    text: Daha fazla göster
+    icon: fas fa-chevron-down
+  show_less:
+    text: Daha az göster
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Kendi dosya formatına ya da bulutuna bağımlı kılmayan en iyi Gantt uygulaması.
+      author:
+        name: Noah Wilson
+        title: Program Direktörü
+    - rating: ★★★★★
+      text: Yapay zeka ile proje planı oluşturma benim için oyunun kurallarını değiştirdi. Başlangıç noktası ve ilham kaynağı olarak kullanıyorum.
+      author:
+        name: Alexander Hall
+        title: Agile Koçu
+    - rating: ★★★★★
+      text: Microsoft Project dosyaları için MPP görüntüleyici ve düzenleyici olarak da kullanıyorum.
+      author:
+        name: Amelia Clark
+        title: Proje Koordinatörü
+    - rating: ★★★★★
+      text: Microsoft Project’e harika bir alternatif!
+      author:
+        name: Isabella Moore
+        title: Ekip Lideri (Proje Yönetimi)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Beklendiği gibi çalışıyor ve gerçekten memnunum.
+      author:
+        name: Benjamin Lee
+        title: Agile Koçu
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project’in tüm gücünü çok daha küçük bir paket içinde sunuyor!
+      author:
+        name: Mia Harris
+        title: Proje Yönetimi Eğitmeni
+      is_hidden: true
+    - rating: ★★★★★
+      text: Kilometre taşları ve kaynak planlaması dahil olmak üzere sezgisel, yapılandırılmış Gantt çizelgeleri oluşturabilir, manuel ilerleme takibi yapabilirsiniz.
+      author:
+        name: Emma Rodriguez
+        title: Ürün Yöneticisi
+      is_hidden: true
+    - rating: ★★★★★
+      text: Rakiplerinden daha hızlı çalışıyor, zaman çizelgesinde gezinme ve projeyi açma gerçekten hızlı geliyor. Tebrikler!
+      author:
+        name: Ethan Walker
+        title: Program Yöneticisi
+      is_hidden: true
+    - rating: ★★★★★
+      text: Harika bir program!
+      author:
+        name: Harper Thompson
+        title: PMO (Proje Yönetim Ofisi) Direktörü
+      is_hidden: true
+
+features_detailed:
+  title: Başarılı Proje Planlaması İçin İhtiyacınız Olan Her Şey
+  subtitle: Modern proje yöneticileri için tasarlanmış güçlü özellikler
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planlama
+      content:
+        title: Yapay Zeka Destekli Planlama
+        features:
+          - icon: fas fa-check
+            title: Yapay Zeka Proje Üreticisi
+            description: Gelişmiş yapay zekayla basit metin açıklamalarından kapsamlı proje planları oluşturun
+          - icon: fas fa-check
+            title: Kolay Zamanlama
+            description: Proje planınızın herhangi bir bölümünü güncelleyin ve anında sonuçları görün.
+          - icon: fas fa-check
+            title: Aşinalık
+            description: MS Project veya benzer yazılımlar hakkında bilginiz mi var? Burada kullanın!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Takip
+      content:
+        title: Gelişmiş Takip
+        features:
+          - icon: fas fa-check
+            title: İlerleme İzleme
+            description: Tamamlama yüzdesini ve kilometre taşlarının ilerlemesini takip edin
+          - icon: fas fa-check
+            title: Kaynak Kullanımı
+            description: Kaynak tahsisini izleyin ve olası darboğazları erken tespit edin
+          - icon: fas fa-check
+            title: Zaman Çizelgesi Analizi
+            description: Kritik yolu analiz edin ve programdaki sapmaları izleyin
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: collaboration
+      icon: fas fa-users
+      title: İşbirliği
+      content:
+        title: Sorunsuz İşbirliği
+        features:
+          - icon: fas fa-check
+            title: Google Drive Entegrasyonu
+            description: Google Drive’ın tanıdık izin yapısıyla paylaşın ve işbirliği yapın
+          - icon: fas fa-check
+            title: PDF, PNG veya XML formatlarında dosya alışverişi
+            description: MS Project’in XML formatı yerel olarak desteklenir.
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: Entegrasyon
+      content:
+        title: Güçlü Entegrasyonlar
+        features:
+          - icon: fas fa-check
+            title: Google Workspace Entegrasyonu
+            description: Ingantt’ı normal bir Google Drive uygulaması gibi kullanın
+          - icon: fas fa-check
+            title: MS Project Uyumluluğu
+            description: MS Project MPP dosyalarını içe aktarın ve her zaman MS Project uyumlu XML formatında kaydedin.
+          - icon: fas fa-check
+            title: Dışa Aktarma Seçenekleri
+            description: PDF ve PNG olarak dışa aktarın
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+pricing:
+  title: Basit ve Şeffaf Fiyatlandırma
+  subtitle: Google Workspace için Ingantt
+  plans:
+    - title: Ücretsiz Deneme
+      price: $0
+      duration: 30 gün
+      features:
+        - Tüm Özelliklere Erişim
+        - Yapay Zeka ile Proje Oluşturma
+        - MS Project İçeri/Dışarı Aktarma
+        - Google Drive Entegrasyonu
+      cta:
+        text: Ücretsiz Denemeye Başla
+        url: workspace_url
+        class: secondary
+    - title: Profesyonel
+      price: $3.5
+      duration: kullanıcı/ay
+      annual_price: veya yıllık kullanıcı başına $35
+      featured: true
+      features:
+        - Ücretsiz Deneme’deki her şey
+        - Öncelikli Destek
+      cta:
+        text: Ücretsiz Denemeye Başla
+        url: workspace_url
+        class: primary
+    - title: Kurumsal
+      price: Özel
+      duration: büyük ekipler için
+      features:
+        - Profesyonel’in tüm özellikleri
+        - Özel Entegrasyon
+        - Ayrılmış Destek
+        - SLA Garantisi
+      cta:
+        text: Satış Ekibiyle İletişime Geçin
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Ingantt ile Neler Yapabilirsiniz
+  items:
+    - icon: fas fa-brain
+      title: Gelişmiş Planlama
+      items:
+        - Basit metin açıklamalarından yapay zeka ile proje planları oluşturun
+        - Herhangi bir güncellemeyi anında görün
+        - Tamamlanma tarihlerinin tahminini yapın ve olası engelleri erken teşhis edin
+        - Maliyetleri planlayın
+    - icon: fas fa-tasks
+      title: Görev Yönetimi
+      items:
+        - Projeleri görevlere bölün
+        - Görev bağımlılıklarını ve son tarihleri belirleyin
+        - Görevleri kilometre taşı olarak işaretleyin
+        - Kritik yolu izleyin
+        - Görev tamamlama durumunu takip edin
+    - icon: fas fa-users
+      title: İşbirliği
+      items:
+        - Kaydetme ve paylaşma için Google Drive kullanın
+        - XML, PDF veya PNG formatlarında dosya alışverişinde bulunun – MS Project’in XML formatı yerel olarak desteklenir
+    - icon: fas fa-chart-line
+      title: Gelişmiş Takip
+      items:
+        - Kaynak tahsisini izleyin
+        - Kritik yolu analiz edin
+        - Kaynak kullanımını takip edin
+        - Zaman çizelgesini analiz edin
+    - icon: fas fa-calendar-alt
+      title: Kaynak Yönetimi
+      items:
+        - İş gücü, malzeme ve maliyet kaynaklarını yönetin
+        - Kaynak takvimlerini ve çalışma saatlerini ayarlayın
+        - Aşırı tahsis edilmiş kaynakları otomatik olarak dengeleyin
+        - Zaman içinde kaynak kullanımını gözden geçirin
+    - icon: fas fa-plug
+      title: Entegrasyonlar
+      items:
+        - MS Project dosya uyumluluğu (MPP ve XML)
+        - PDF ve PNG olarak dışa aktarın
+        - Google Drive ile entegrasyon
+
+faq:
+  title: Sıkça Sorulan Sorular
+  items:
+    - question: Ingantt nedir ve Google Workspace ile nasıl çalışır?
+      answer: Ingantt, Google Workspace’e sorunsuz şekilde entegre olan profesyonel bir proje yönetim aracıdır. Google Drive üzerinden doğrudan proje planı oluşturmanıza, yönetmenize ve paylaşmanıza olanak tanır. Böylece halihazırda Google ekosistemini kullanan ekipler için işbirliği kolaylaşır.
+    - question: Mevcut Microsoft Project dosyalarımı içe aktarabilir miyim?
+      answer: Evet! Ingantt, Microsoft Project’ten .MPP ve .XML dosyalarını tam olarak destekler. Görevler, kaynaklar ve bağımlılıklar dahil tüm proje verileriniz içe aktarma sırasında korunur.
+    - question: Yapay zeka ile proje oluşturma nasıl çalışıyor?
+      answer: Yapay zeka asistanımız, basit metin açıklamalarından kapsamlı proje planları oluşturabilir. Proje hedeflerinizi ve gereksinimlerinizi tanımlamanız yeterli; yapay zeka, en iyi proje yönetimi uygulamalarına dayanarak görevler, zaman çizelgesi ve bağımlılıklar içeren yapıyı oluşturur.
+    - question: Ücretsiz deneme neleri içeriyor?
+      answer: 30 günlük ücretsiz deneme, Ingantt’ın tüm özelliklerini ve tam Google Workspace entegrasyonunu içerir. Başlamak için kredi kartı gerekmez.
+    - question: Ingantt’ı Google Workspace için mobil cihazlarda kullanabilir miyim?
+      answer: Evet! Ingantt for Google Workspace, web tarayıcısı olan herhangi bir cihazda çalışır. Duyarlı arayüzümüz akıllı telefon ve tabletlere mükemmel uyum sağlar, böylece projelerinize her yerden erişebilirsiniz.
+    - question: Aboneliğimi iptal edersem verilerime ne olur?
+      answer: Proje dosyalarınız, iptalden sonra bile Google Drive’da güvende kalır. Projeleriniz MS Project formatında saklandığı için verilerinize erişimi asla kaybetmezsiniz.
+    - question: Ingantt’ı ekip arkadaşlarım için nasıl satın alabilirim?
+      answer: Google hesabınızla Ingantt’a giriş yapın, sağ üst köşedeki avatarınıza tıklayın ve “Purchase subscriptions” seçeneğini seçin. “I want to purchase subscriptions for others” işaretleyip ekip arkadaşlarınızın Google hesap e-postalarını girin. Ödeme planını (aylık veya yıllık) seçin ve satın alma işlemini tamamlayın.
+  support:
+    title: Ingantt ile planlamaya hemen başlayın
+    docs:
+      text: Dokümantasyona Git
+    contact:
+      title: Başka sorularınız mı var?<br>Gerçek bir kişiyle iletişime geçin!
+      text: E-posta gönderin
+      icon: fa fa-envelope
+
+cta:
+  title: Ekibinizin Proje Planlamasını Dönüştürmeye Hazır mısınız?
+  subtitle: Ücretsiz denemenize bugün başlayın ve yapay zeka destekli proje planlamanın gücünü keşfedin
+  button:
+    text: Ücretsiz Denemeye Başla
+
+platform_support:
+  title: Kişisel kullanım için cihazınıza özel bir sürüme mi ihtiyacınız var?
+
+desktop_callback:
+  title: Ingantt
+  cta: Yukarıdaki iletişim kutusunda "Aç"a tıklayın.
+  success: Tıkladınız mı? Bu sayfayı kapatabilirsiniz.
+  issue: Bir sorun mu oluştu?
+  click: Tekrar deneyin
+
+blog:
+  title: Ingantt Blog
+  subtitle: En son haberler ve güncellemeler için bizi takip edin
+  title_tag: Ingantt Blog - Ingantt ekibinden en son haberler ve güncellemeler
+  meta_keywords: Ingantt, blog, haberler, Google Workspace için Gantt
+  meta_description: Ingantt ekibinden en son haberler ve güncellemeler için bizi takip edin

@@ -1,0 +1,232 @@
+title_tag: Ingantt - Android için Yapay Zekalı Modern Gantt Şeması Proje Planlaması
+meta_keywords: gantt şeması uygulaması Android, mpp, gantt Android, mpp okuyucu, mpp görüntüleyici, gantt uygulaması, MS Project alternatifi, telefon için gantt, tablet için gantt, proje planlaması, proje yönetimi
+meta_description: Ingantt - AI destekli proje yönetim aracı, Android telefon ve tabletlerde projelerinizi kolayca planlayın, zamanlayın ve takip edin.
+
+page_url: android_page
+platform_url: android_url
+store_image: google_play.png
+platform_image: android.png
+
+hero:
+  title: Android cihazınızda Yapay Zeka destekli Gantt Şeması Proje Planlaması
+  subtitle: Akıllı Gantt şemaları ve yapay zeka yardımıyla proje planlamanızı Android telefon ve tabletinizde dönüştürün.
+  cta:
+    primary:
+      text: Şimdi indir
+      text_fits: true
+    other_versions:
+      title: Diğer sürümler
+  rating:
+    stars:
+    text: 5 yıldız
+  image: hero-android.png
+
+features_grid:
+  title: Proje Yöneticilerinin Ingantt'ı Tercih Etme Sebepleri
+  items:
+    - icon: fas fa-robot
+      title: Yapay Zeka Destekli Planlama
+      description: Basit açıklamalardan kapsamlı proje planları oluşturun; yapay zeka asistanımız size yardımcı olur.
+    - icon: fas fa-brain
+      title: Her Şeyi Planlayın
+      description: Zamanlama, maliyetler, görevler, bağımlılıklar, kaynaklar ve daha fazlası — hepsi tek bir yerde.
+    - icon: fas fa-mobile-alt
+      title: Mobil Odaklı Deneyim
+      description: Android cihazlar için tasarlandı — hareket halindeyken projeleri planlayın, gözden geçirin ve yönetin.
+    - icon: fas fa-file-import
+      title: MS Project ile Uyumlu
+      description: .MPP dosyalarını içe aktarın ve MS Project uyumlu XML formatında kaydedin — taviz vermeden.
+
+demo:
+  title: Ingantt'ı İş Başında Görün
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: Dünya Çapında Proje Yöneticileri Tarafından Güvenilen
+  show_more:
+    text: Daha fazla göster
+    icon: fas fa-chevron-down
+  show_less:
+    text: Daha az göster
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Kendi dosya formatı veya bulut depolamasına bağımlı kılmayan en iyi Gantt uygulaması.
+      author:
+        name: Noah Wilson
+        title: Program Direktörü
+    - rating: ★★★★★
+      text: Yapay zeka ile proje planı oluşturma benim için devrim niteliğinde. Onu proje planlarım için başlangıç noktası ve ilham kaynağı olarak kullanıyorum.
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: Microsoft Project dosyaları için MPP görüntüleyici ve düzenleyici olarak da kullanıyorum.
+      author:
+        name: Amelia Clark
+        title: Proje Koordinatörü
+    - rating: ★★★★★
+      text: Sonunda Microsoft Project'e gerçekten iyi bir alternatif buldum!
+      author:
+        name: Isabella Moore
+        title: Ekip Lideri (Proje Yönetimi)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Beklendiği gibi çalışıyor ve ben gerçekten memnunum.
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project'in tüm gücü, çok daha küçük bir pakette!
+      author:
+        name: Mia Harris
+        title: Proje Yönetimi Eğitmeni
+      is_hidden: true
+    - rating: ★★★★★
+      text: Kilometre taşları ve kaynak planlaması dahil olmak üzere sezgisel ve yapılandırılmış Gantt şemaları oluşturulabilir, manuel ilerleme takibi de mevcut.
+      author:
+        name: Emma Rodriguez
+        title: Ürün Yöneticisi
+      is_hidden: true
+    - rating: ★★★★★
+      text: Rakiplerinden daha hızlı çalışıyor, zaman çizelgesinde kaydırma yapmak ve projeyi açmak diğer uygulamalara göre gerçekten hızlı. Harika!
+      author:
+        name: Ethan Walker
+        title: Program Yöneticisi
+      is_hidden: true
+    - rating: ★★★★★
+      text: Mükemmel bir program!
+      author:
+        name: Harper Thompson
+        title: PMO (Proje Yönetimi Ofisi) Direktörü
+      is_hidden: true
+
+features_detailed:
+  title: Başarılı Proje Planlaması İçin İhtiyacınız Olan Her Şey
+  subtitle: Modern proje yöneticileri için tasarlanmış güçlü özellikler
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planlama
+      content:
+        title: Yapay Zeka Destekli Planlama
+        features:
+          - icon: fas fa-check
+            title: Yapay Zeka Proje Oluşturucu
+            description: Gelişmiş yapay zeka kullanarak basit metin açıklamalarından tam kapsamlı proje planları oluşturun
+          - icon: fas fa-check
+            title: Kolay Zamanlama
+            description: Proje planınızın herhangi bir bölümünü güncelleyin ve anında genel sonuçları görün.
+          - icon: fas fa-check
+            title: Aşinalık
+            description: MS Project veya benzeri yazılımlarda deneyiminiz mi var? Burada kullanın!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Takip
+      content:
+        title: Gelişmiş Takip
+        features:
+          - icon: fas fa-check
+            title: İlerleme İzleme
+            description: Tamamlanma yüzdesini ve kilometre taşlarını takip edin
+          - icon: fas fa-check
+            title: Kaynak Kullanımı
+            description: Kaynak tahsisini izleyin ve potansiyel darboğazları belirleyin
+          - icon: fas fa-check
+            title: Zaman Çizelgesi Analizi
+            description: Kritik yolu analiz edin ve programdaki sapmaları takip edin
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: Entegrasyon
+      content:
+        title: Güçlü Entegrasyonlar
+        features:
+          - icon: fas fa-check
+            title: MS Project Uyumluluğu
+            description: MS Project MPP dosyalarını içe aktarın ve her zaman MS Project uyumlu XML formatında kaydedin.
+          - icon: fas fa-check
+            title: Dışa Aktarma Seçenekleri
+            description: İstediğiniz zaman PDF ve PNG'ye dışa aktarın
+          - icon: fas fa-check
+            title: Google Drive'a Kaydetme ve Açma
+            description: Proje dosyalarınızı depolamak için Google Drive kullanın.
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Ingantt ile Neler Yapabilirsiniz
+  items:
+    - icon: fas fa-brain
+      title: Gelişmiş Planlama
+      items:
+        - Yapay zeka kullanarak basit metin açıklamalarından proje planları oluşturun
+        - İstediğiniz değişiklikleri yapın ve anında sonuçları görün
+        - Tamamlanma tarihlerini öngörün ve potansiyel engelleri erken tespit edin
+        - Maliyetleri planlayın
+    - icon: fas fa-tasks
+      title: Görev Yönetimi
+      items:
+        - Projeleri görevlere bölün
+        - Görev bağımlılıkları ve son tarihleri belirleyin
+        - Görevleri kilometre taşı olarak işaretleyin
+        - Kritik yolu izleyin
+        - Görev tamamlama durumunu takip edin
+    - icon: fas fa-users
+      title: İş Birliği
+      items:
+        - Android'in standart dosya paylaşımı özelliğiyle paylaşın
+        - Google Drive ile çalışır
+        - Dosyaları XML, PDF veya PNG formatında değiş tokuş edin
+    - icon: fas fa-chart-line
+      title: Gelişmiş Takip
+      items:
+        - Kaynak tahsisini izleyin
+        - Kritik yolu analiz edin
+        - Kaynak kullanımını izleme
+        - Zaman çizelgesi analizi
+    - icon: fas fa-calendar-alt
+      title: Kaynak Yönetimi
+      items:
+        - İş gücü, malzeme ve maliyet kaynaklarını yönetin
+        - Kaynak takvimlerini ve çalışma saatlerini ayarlayın
+        - Aşırı tahsisli kaynakları otomatik olarak dengeleyin
+        - Zaman içindeki kaynak kullanımını gözden geçirin
+    - icon: fas fa-plug
+      title: Entegrasyonlar
+      items:
+        - MS Project dosya uyumluluğu (MPP ve XML)
+        - PDF ve PNG'ye dışa aktarma
+        - Google Drive ile uyumlu
+
+faq:
+  title: Sık Sorulan Sorular
+  items:
+    - question: Android için Ingantt nedir?
+      answer: Android için Ingantt, Android cihazınızda yerel olarak çalışan profesyonel bir proje yönetimi aracıdır. Yapay zeka destekli planlama ve MS Project uyumluluğuyla, hareket halindeyken proje planları oluşturmanızı ve yönetmenizi sağlar.
+    - question: Mevcut Microsoft Project dosyalarımı içe aktarabilir miyim?
+      answer: Evet! Ingantt, Microsoft Project'ten .MPP ve .XML dosyalarının içe aktarılmasını tamamen destekler. Görevler, kaynaklar ve bağımlılıklar dahil proje verileriniz içe aktarma sırasında korunur.
+    - question: Yapay zekayla proje oluşturma nasıl çalışır?
+      answer: Yapay zeka asistanımız basit metin açıklamalarından kapsamlı proje planları oluşturabilir. Proje hedeflerinizi ve gereksinimlerinizi kısaca tanımlamanız yeterli; yapay zeka en iyi uygulamalara dayalı görevler, zaman çizelgesi ve bağımlılıklarla yapılandırılmış bir plan oluşturur.
+    - question: Android sürümü için ücretsiz deneme var mı?
+      answer: Hayır. Android sürümü, abonelik veya ücretsiz deneme süresi olmaksızın tek seferlik bir satın almadır.
+    - question: Android için Ingantt'ı nasıl satın alabilirim?
+      answer: Android cihazınızda Google Play Store'u ziyaret edin ve oradan satın alın. Tek bir kez satın aldıktan sonra uygulamayı süresiz ve ek ücret ödemeden kullanabilirsiniz.
+  support:
+    title: Ingantt ile proje planlamaya başlayın
+    docs:
+      text: Belgeleri Aç
+    contact:
+      title: Başka sorularınız mı var?<br>Destek için gerçek bir kişiyle iletişime geçin!
+      text: Bize e-posta gönderin
+      icon: fa fa-envelope
+
+cta:
+  title: Proje Planlamanızı Dönüştürmeye Hazır mısınız?
+  subtitle: Yapay zeka destekli proje planlamasını telefonunuzda veya tabletinizde deneyimleyin
+  button:
+    text: Şimdi indir
+
+platform_support:
+  title: Başka bir platform için sürüm mü gerekiyor?

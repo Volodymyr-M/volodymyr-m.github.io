@@ -1,0 +1,231 @@
+title_tag: Ingantt - แพลนโครงการด้วย Gantt Chart สมัยใหม่สำหรับ iPhone และ iPad พร้อม AI
+meta_keywords: แอป gantt chart iOS, mpp, gantt iPhone, gantt iPad, โปรแกรมอ่าน mpp, โปรแกรมดู mpp, แอป gantt, ทางเลือก MS Project, gantt iOS, การวางแผนโครงการ, การจัดการโครงการ
+meta_description: Ingantt - เครื่องมือจัดการโครงการที่ใช้ AI สำหรับสมาร์ทโฟนและแท็บเล็ต iOS วางแผน จัดตาราง และติดตามโครงการบน iPhone และ iPad ได้อย่างง่ายดาย
+
+page_url: ios_page
+platform_url: ios_url
+store_image: app_store.png
+platform_image: ios.png
+
+hero:
+  title: วางแผนโครงการด้วย Gantt Chart และ AI บน iOS
+  subtitle: ยกระดับการวางแผนโครงการของคุณด้วย Gantt Chart อัจฉริยะและ AI บน iPhone หรือ iPad
+  cta:
+    primary:
+      text: ดาวน์โหลดเลย
+      text_fits: true
+    other_versions:
+      title: เวอร์ชันอื่น ๆ
+  rating:
+    stars: ★★★★⯨
+    text: 4.5 ดาวบน
+  image: hero-ios.png
+
+features_grid:
+  title: เหตุผลที่ผู้จัดการโครงการเลือกใช้ Ingantt
+  items:
+    - icon: fas fa-robot
+      title: การวางแผนด้วย AI
+      description: สร้างแผนโครงการแบบสมบูรณ์จากคำอธิบายง่าย ๆ ด้วยผู้ช่วย AI ของเรา
+    - icon: fas fa-mobile-alt
+      title: ประสบการณ์บนมือถือที่ได้รับการปรับแต่ง
+      description: ออกแบบมาสำหรับอุปกรณ์ iOS — วางแผน ทบทวน และจัดการโครงการได้ทุกที่
+    - icon: fas fa-file-import
+      title: รองรับ MS Project
+      description: นำเข้าไฟล์ .MPP และบันทึกเป็น XML ที่รองรับ MS Project โดยไม่มีข้อจำกัด
+    - icon: fas fa-brain
+      title: วางแผนได้ทุกอย่าง
+      description: กำหนดตารางเวลา ค่าใช้จ่าย งาน ความเชื่อมโยง ทรัพยากร และอื่น ๆ ได้ในที่เดียว
+
+demo:
+  title: ชมการใช้งาน Ingantt
+  video_id: 66MmRFr16Lk
+
+testimonials:
+  title: ได้รับความไว้วางใจจากผู้จัดการโครงการทั่วโลก
+  show_more:
+    text: แสดงเพิ่มเติม
+    icon: fas fa-chevron-down
+  show_less:
+    text: แสดงน้อยลง
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: แอป Gantt ที่ดีที่สุดที่ไม่บังคับให้คุณใช้รูปแบบไฟล์เฉพาะหรือพื้นที่เก็บข้อมูล Cloud ของตนเอง
+      author:
+        name: Noah Wilson
+        title: ผู้อำนวยการโปรแกรม
+    - rating: ★★★★★
+      text: ฟีเจอร์ AI สำหรับสร้างแผนโครงการเปลี่ยนวิธีทำงานของผมไปเลย ผมใช้เป็นจุดเริ่มต้นและแรงบันดาลใจสำหรับแผนงานต่าง ๆ
+      author:
+        name: Alexander Hall
+        title: Agile Coach
+    - rating: ★★★★★
+      text: ผมยังใช้เป็นตัวดูและแก้ไขไฟล์ MPP สำหรับ Microsoft Project อีกด้วย
+      author:
+        name: Amelia Clark
+        title: ผู้ประสานงานโครงการ
+    - rating: ★★★★★
+      text: ในที่สุดก็เจอทางเลือก Microsoft Project ที่ใช้งานได้ยอดเยี่ยม!
+      author:
+        name: Isabella Moore
+        title: หัวหน้าทีม (การจัดการโครงการ)
+      is_hidden: true
+    - rating: ★★★★★
+      text: ใช้งานได้ตามที่คาดหวังและผมพอใจมาก
+      author:
+        name: Benjamin Lee
+        title: Agile Coach
+      is_hidden: true
+    - rating: ★★★★★
+      text: พลังของ MS Project ในแพ็กเกจที่เล็กกว่ามาก!
+      author:
+        name: Mia Harris
+        title: เทรนเนอร์การจัดการโครงการ
+      is_hidden: true
+    - rating: ★★★★★
+      text: สามารถสร้าง Gantt Chart ที่เข้าใจง่ายและมีโครงสร้างชัดเจน พร้อม milestone และการจัดการทรัพยากร รวมถึงการติดตามความคืบหน้าแบบแมนวล
+      author:
+        name: Emma Rodriguez
+        title: ผู้จัดการผลิตภัณฑ์
+      is_hidden: true
+    - rating: ★★★★★
+      text: ประสิทธิภาพเร็วกว่า [แอปคู่แข่ง] อย่างเห็นได้ชัด การเลื่อนเส้นเวลาและเปิดโครงการรู้สึกได้ว่าลื่นไหลกว่า แนะนำเลย!
+      author:
+        name: Ethan Walker
+        title: ผู้จัดการโปรแกรม
+      is_hidden: true
+    - rating: ★★★★★
+      text: เป็นโปรแกรมที่ยอดเยี่ยม!
+      author:
+        name: Harper Thompson
+        title: ผู้อำนวยการ PMO (Project Management Office)
+      is_hidden: true
+
+features_detailed:
+  title: ทุกสิ่งที่คุณต้องการเพื่อวางแผนโครงการให้สำเร็จ
+  subtitle: ฟีเจอร์ที่ทรงพลัง ออกแบบมาสำหรับผู้จัดการโครงการยุคใหม่
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: การวางแผน
+      content:
+        title: การวางแผนที่ขับเคลื่อนด้วย AI
+        features:
+          - icon: fas fa-check
+            title: AI Project Generator
+            description: สร้างแผนโครงการครบถ้วนจากข้อความสั้น ๆ ด้วย AI ขั้นสูง
+          - icon: fas fa-check
+            title: การกำหนดตารางที่ง่าย
+            description: อัปเดตส่วนใดส่วนหนึ่งของแผน และดูผลกระทบโดยรวมได้ทันที
+          - icon: fas fa-check
+            title: คุ้นเคย
+            description: ถนัด MS Project หรือซอฟต์แวร์คล้ายกันใช่ไหม ใช้ประโยชน์จากทักษะนั้นได้เลย!
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: การติดตาม
+      content:
+        title: การติดตามขั้นสูง
+        features:
+          - icon: fas fa-check
+            title: การมอนิเตอร์ความคืบหน้า
+            description: ติดตามเปอร์เซ็นต์งานเสร็จและ milestone
+          - icon: fas fa-check
+            title: การใช้ทรัพยากร
+            description: จับตาการจัดสรรทรัพยากรและระบุจุดอุดตันที่อาจเกิดขึ้น
+          - icon: fas fa-check
+            title: การวิเคราะห์เส้นเวลา
+            description: วิเคราะห์ Critical Path และติดตามความเปลี่ยนแปลงในตาราง
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: การเชื่อมต่อ
+      content:
+        title: การผสานการทำงานที่แข็งแกร่ง
+        features:
+          - icon: fas fa-check
+            title: ความเข้ากันได้กับ MS Project
+            description: นำเข้าไฟล์ MPP ของ MS Project และบันทึกในรูปแบบ XML ที่เข้ากันได้เสมอ
+          - icon: fas fa-check
+            title: ตัวเลือกการส่งออก
+            description: ส่งออกเป็น PDF และ PNG ได้ทุกเมื่อ
+          - icon: fas fa-check
+            title: บันทึกและเปิดไฟล์ใน Google Drive
+            description: ใช้ Google Drive ในการบันทึกและเปิดไฟล์โครงการ
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: คุณสามารถทำอะไรกับ Ingantt ได้บ้าง
+  items:
+    - icon: fas fa-brain
+      title: การวางแผนขั้นสูง
+      items:
+        - สร้างแผนโครงการจากข้อความสั้น ๆ ด้วย AI
+        - ปรับเปลี่ยนอะไรก็ได้แล้วเห็นผลลัพธ์ทันที
+        - คาดการณ์วันสิ้นสุดโครงการและระบุอุปสรรคที่อาจเกิดขึ้นได้ล่วงหน้า
+        - วางแผนค่าใช้จ่าย
+    - icon: fas fa-tasks
+      title: การจัดการงาน (Tasks)
+      items:
+        - แบ่งโครงการออกเป็นงานย่อย
+        - กำหนดความเชื่อมโยง (Dependencies) และกำหนดเส้นตาย
+        - ตั้งค่างานเป็น Milestone
+        - ติดตาม Critical Path
+        - ตรวจสอบสถานะความสำเร็จของงาน
+    - icon: fas fa-users
+      title: การทำงานร่วมกัน
+      items:
+        - แชร์ผ่านฟีเจอร์มาตรฐานของ iOS
+        - แลกเปลี่ยนไฟล์ในรูปแบบ XML, PDF หรือ PNG
+    - icon: fas fa-chart-line
+      title: การติดตามขั้นสูง
+      items:
+        - มอนิเตอร์การจัดสรรทรัพยากร
+        - วิเคราะห์ Critical Path
+        - ติดตามการใช้ทรัพยากร
+        - วิเคราะห์เส้นเวลา
+    - icon: fas fa-calendar-alt
+      title: การจัดการทรัพยากร
+      items:
+        - จัดการทรัพยากรด้านงาน วัสดุ และค่าใช้จ่าย
+        - กำหนดปฏิทินทรัพยากรและเวลาทำงาน
+        - ปรับทรัพยากรที่จัดสรรเกินโดยอัตโนมัติ
+        - ตรวจสอบการใช้ทรัพยากรในช่วงเวลาต่าง ๆ
+    - icon: fas fa-plug
+      title: การเชื่อมต่อ
+      items:
+        - รองรับไฟล์ MS Project (MPP และ XML)
+        - ส่งออกเป็น PDF และ PNG
+        - ทำงานร่วมกับ Google Drive
+
+faq:
+  title: คำถามที่พบบ่อย
+  items:
+    - question: Ingantt for iOS คืออะไร
+      answer: Ingantt for iOS คือเครื่องมือบริหารจัดการโครงการแบบมืออาชีพที่ทำงานบน iOS โดยตรง ช่วยให้คุณสร้างและบริหารแผนโครงการได้ทุกที่ มาพร้อมการวางแผนด้วย AI และรองรับ MS Project
+    - question: ฉันสามารถนำเข้าไฟล์ Microsoft Project ที่มีอยู่ได้ไหม
+      answer: ได้แน่นอน! Ingantt รองรับการนำเข้าไฟล์ .MPP และ .XML จาก Microsoft Project อย่างเต็มรูปแบบ ข้อมูลโครงการทั้งหมด เช่น งาน ทรัพยากร และความเชื่อมโยงจะคงอยู่ครบ
+    - question: การสร้างโครงการด้วย AI ทำงานอย่างไร
+      answer: ผู้ช่วย AI ของเราสามารถสร้างแผนโครงการแบบสมบูรณ์จากข้อความสั้น ๆ แค่คุณระบุเป้าหมายและความต้องการของโครงการ AI จะสร้างแผนที่มีโครงสร้างพร้อมงานและกำหนดการตามแนวทางที่ดีที่สุด
+    - question: มีรุ่นทดลองฟรีบน iOS หรือไม่
+      answer: ไม่มี Ingantt เวอร์ชัน iOS ซื้อครั้งเดียว ไม่มีค่าสมาชิกหรือช่วงทดลองฟรี
+    - question: ฉันจะซื้อ Ingantt for iOS ได้อย่างไร
+      answer: เพียงไปที่ Apple App Store ในอุปกรณ์ iOS ของคุณ ค้นหา “Ingantt” แล้วซื้อ คุณจะได้ใช้แอปนี้ตลอดไปโดยไม่มีค่าใช้จ่ายรายเดือน
+  support:
+    title: เริ่มวางแผนด้วย Ingantt เลย
+    docs:
+      text: ไปที่เอกสาร
+    contact:
+      title: ยังมีคำถามอีกไหม<br>ติดต่อคนจริงได้เลย!
+      text: ส่งอีเมลหาเรา
+      icon: fa fa-envelope
+
+cta:
+  title: พร้อมที่จะเปลี่ยนวิธีวางแผนโครงการของคุณหรือยัง
+  subtitle: สัมผัสการวางแผนด้วย AI บน iPhone หรือ iPad ของคุณ
+  button:
+    text: ดาวน์โหลดเลย
+
+platform_support:
+  title: ต้องการเวอร์ชันบนแพลตฟอร์มอื่นไหม

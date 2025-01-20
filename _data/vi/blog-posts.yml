@@ -1,0 +1,113 @@
+- title: "Google Workspace: chia sẻ và cộng tác"
+  published_on: "12 Tháng Chín, 2024"
+  content: |
+    ![Minh họa](/images/blog/share.webp)
+    Ngay từ đầu, Ingantt đã là một công cụ mạnh mẽ dành cho các nhà quản lý dự án trong nhiều lĩnh vực khác nhau. Tuy nhiên, trước đây công cụ này chỉ dành cho việc sử dụng cá nhân. Điều đó bây giờ sẽ thay đổi!
+
+    Chúng tôi rất vui mừng giới thiệu một bản cập nhật lớn cho phiên bản [Google Workspace](workspace_url){:target="_blank"}. Bản cập nhật này cho phép người dùng chia sẻ các kế hoạch dự án của họ với những người dùng Ingantt khác thông qua Google Drive.
+
+    Cách sử dụng hoạt động giống hệt Google Docs hoặc Sheets—bạn sẽ thấy một hộp thoại “Chia sẻ” quen thuộc, nơi bạn có thể nhập địa chỉ email và gán vai trò. Người nhận sẽ nhận được thông báo từ Google Drive, nhấp vào liên kết và ngay lập tức truy cập vào kế hoạch dự án của bạn. Rất đơn giản!
+
+- title: "AI và nhiều điều nữa!"
+  published_on: "2 Tháng Năm, 2024"
+  content: |
+    Hôm nay chúng tôi bắt đầu phát hành bản cập nhật lớn nhất từ trước đến nay của Ingantt.
+
+    Trước tiên, AI. Ingantt là một trong những công cụ quản lý dự án đầu tiên tích hợp tính năng AI tiện lợi ngay trong công cụ. Nó hoạt động như thế nào? Đơn giản là bạn chỉ cần cung cấp mô tả về dự án, nhấp vào một nút, và bạn sẽ nhận được một kế hoạch dự án hoàn chỉnh! Hãy thử—không chỉ mang lại cho bạn một điểm khởi đầu hoặc nguồn cảm hứng tốt, mà còn rất thú vị để sử dụng.
+
+    Nhưng đó chưa phải tất cả trong bản cập nhật này! Chúng tôi đã thiết kế lại hoàn toàn danh sách dự án, làm cho nó trở nên trực quan hơn với các hình thu nhỏ (thumbnail), đồng thời tăng cường tích hợp với Google Drive. Bây giờ bạn có thể sắp xếp danh sách dự án và thậm chí có thể thực hiện một số thao tác như “Xuất sang PNG” ngay từ danh sách dự án.
+
+    Đối với một số loại dự án phổ biến, chúng tôi đã thêm các mẫu (template) được làm thủ công. Trong đó, mẫu “Tutorial Template” rất đáng chú ý, vì nó có thể là một cách nhanh chóng để bạn bắt đầu với Ingantt: chỉ cần đọc và tham khảo, hoặc dùng nó làm điểm khởi đầu.
+
+    Bản cập nhật này cũng mở ra các cơ hội mới để cải thiện Ingantt trong tương lai, vì vậy hãy theo dõi!
+
+    ![Minh họa](/images/blog/ai_macos_dark.png)
+    ![Minh họa](/images/blog/ai2_macos_dark.png)
+
+- title: "Lắng nghe người dùng của chúng tôi!"
+  published_on: "25 Tháng Một, 2024"
+  content: |
+    Bây giờ Ingantt đã có sẵn trên mọi nền tảng và có tất cả các tính năng mà phần lớn người dùng mong đợi từ một phần mềm lập kế hoạch dự án mạnh mẽ. Nhưng chúng tôi vẫn tiếp tục tiến lên. Chúng tôi luôn lắng nghe người dùng.
+    Chúng tôi đã nhận được rất nhiều phản hồi tuyệt vời từ các bạn và chúng tôi vô cùng trân trọng điều đó! Chúng tôi liên tục cập nhật Ingantt với những cải tiến được học hỏi từ phản hồi của các bạn.
+
+    Trong các phiên bản gần đây, Ingantt đã nhận được:
+
+    * khả năng sắp xếp lại các cột công việc (Task)
+    * trải nghiệm phím tắt (keyboard shortcut) mượt mà hơn
+    * thanh cuộn (scrollbar) hiển thị mặc định trong một số bảng
+    * hiển thị rõ ràng hơn tỷ lệ hoàn thành (%) bên trong các công việc trên biểu đồ Gantt
+
+    cũng như một số cải tiến và tối ưu hóa bên trong khác.
+
+    Vui lòng liên hệ với chúng tôi nếu bạn có phản hồi, câu hỏi hoặc ý kiến đóng góp. Hãy cùng nhau làm Ingantt tốt hơn nữa!
+
+- title: "Phiên bản iOS!"
+  published_on: "23 Tháng Chín, 2023"
+  content: |
+    Khép lại quá trình mở rộng sang các nền tảng khác nhau, giờ đây đã có phiên bản iOS! Chúng tôi rất vui mừng thông báo rằng Ingantt hiện có sẵn trên mọi nền tảng ở khắp mọi nơi! Để sử dụng Ingantt trên iPhone hoặc iPad của bạn, [tải xuống Ingantt trên App Store](ios_url){:target="_blank"}.
+    ![Minh họa](/images/blog/ios.png)
+
+- title: "Mới! Phiên bản macOS"
+  published_on: "28 Tháng Tám, 2023"
+  content: |
+    Ngay từ đầu, Ingantt đã là một ứng dụng đa nền tảng. Người dùng trên các nền tảng khác nhau như Android, Windows và Web đã sử dụng Ingantt để lập kế hoạch dự án từ lâu. Giờ đây, đến lúc thêm một nền tảng mới vào danh sách!
+
+    Giới thiệu Ingantt cho macOS! Tất cả chức năng lập kế hoạch của Ingantt dưới một diện mạo thanh lịch. Giống như các phiên bản khác, chúng tôi đã nỗ lực rất nhiều để phiên bản này trông “thuần macOS”. Vì vậy, nếu bạn là người dùng Mac, [tải Ingantt trên Mac App Store](macos_url){:target="_blank"} nhé.
+
+- title: "Phiên bản mới: In PDF"
+  published_on: "27 Tháng Năm, 2023"
+  content: |
+    Ingantt là một công cụ chuyên nghiệp được xây dựng dựa trên ý tưởng lập lịch bằng biểu đồ Gantt nổi tiếng. Đôi khi, sau khi bạn đã tận dụng hết các tính năng để xây dựng kế hoạch, bạn sẽ muốn trình bày nó cho ai đó.
+
+    Bây giờ bạn có thể! Thông qua mục **PDF có thể in** trong menu chính, bạn có thể tạo một tệp PDF để in hoặc chia sẻ cho bất kỳ ai. Tệp PDF này phản ánh đầy đủ biểu đồ Gantt mà bạn thấy, và sử dụng cùng các cài đặt. Ví dụ, nếu bạn đã chọn hiển thị công việc tóm tắt gốc (root summary task) trong hộp thoại **Tùy chọn**, tệp PDF cũng sẽ hiển thị nó.
+
+    Tệp PDF được tạo có thể được mở và in bằng nhiều ứng dụng khác nhau, do đó, nó là định dạng hoàn hảo không chỉ để in, mà còn để chia sẻ qua email, nhắn tin hoặc dịch vụ đám mây.
+
+- title: "Phiên bản mới: Sử dụng Tài nguyên (Resource Usage)"
+  published_on: "5 Tháng Năm, 2023"
+  content: |
+    Ingantt đang trở thành một công cụ lập kế hoạch hữu ích hơn nữa với tính năng mới được triển khai trên tất cả các nền tảng được hỗ trợ.
+
+    Kể từ khi ra mắt, Ingantt đã có khả năng phát hiện và tự động sửa lỗi phân bổ tài nguyên quá mức (overallocated). Và bây giờ bạn có thể xem chính xác trong những khoảng thời gian nào tài nguyên của bạn đang bị phân bổ quá mức, cách họ phân bổ thời gian cho từng công việc, và tổng khối lượng công việc của họ. Tất cả đều nhờ vào chế độ xem mới trong Ingantt được gọi là **Resource Usage**.
+
+    Thoạt nhìn, chế độ xem này có vẻ giống chế độ xem chia đôi chuẩn với biểu đồ Gantt. Tuy nhiên, có một số điểm khác biệt. Ở phía bên trái, các công việc được nhóm lại theo tài nguyên được chỉ định. Ở phía bên phải, trong biểu đồ, bạn sẽ thấy lượng công việc mỗi tài nguyên thực hiện cho từng công việc cũng như tổng lượng công việc của mỗi tài nguyên. Nếu một tài nguyên bị phân bổ quá mức trong một khoảng thời gian, dữ liệu tương ứng sẽ được tô đỏ để nổi bật.
+
+    Hãy sử dụng tính năng mới này để lập kế hoạch công việc của tài nguyên hiệu quả hơn. Trong lúc đó, chúng tôi đã sẵn sàng thêm nhiều tính năng mới nữa trong tương lai!
+
+    ![Minh họa](/images/blog/resource_usage.png)
+
+- title: "Phiên bản mới: Mở tệp MPP"
+  published_on: "16 Tháng Tư, 2023"
+  content: |
+    Chúng tôi vui mừng thông báo về một bản cập nhật của Ingantt bổ sung một tính năng quan trọng!
+
+    Như có thể bạn đã biết, Ingantt hỗ trợ mở tệp XML được tạo bởi Microsoft Project. Tuy nhiên, định dạng này không phải định dạng gốc của ứng dụng phổ biến này, ứng dụng thường lưu tệp dưới dạng MPP (phần mở rộng “.mpp”).
+
+    Bản cập nhật mới này thêm khả năng mở tệp MPP giống như cách bạn mở tệp XML. Bạn chỉ cần chọn một tệp MPP trong trình chọn tệp, và nó sẽ được mở.
+
+    Có một điều cần lưu ý về tính năng này. Không giống hầu hết chức năng của Ingantt, không yêu cầu kết nối Internet, việc mở tệp MPP đòi hỏi kết nối Internet đang hoạt động, vì những tệp này được gửi đến dịch vụ của chúng tôi để chuyển đổi sang XML. Việc trao đổi dữ liệu diễn ra thông qua kết nối an toàn, và các tệp không được lưu trữ trên dịch vụ, do đó bạn không cần lo lắng về tính riêng tư và bảo mật.
+
+    Chúng tôi hy vọng bạn sẽ thích tính năng mới này của Ingantt nhiều như chúng tôi. Sẽ còn nhiều tính năng mới trong thời gian tới!
+
+- title: "Phiên bản 1.0 ra mắt!"
+  published_on: "12 Tháng Tư, 2023"
+  content: |
+    Sau nhiều tháng làm việc chăm chỉ, cuối cùng Ingantt cũng sẵn sàng!
+
+    Ingantt là kết quả từ tầm nhìn của chúng tôi về một giải pháp thay thế dễ dùng cho Microsoft Project, với chi phí phù hợp và sẵn có cho mọi người bất kể họ dùng thiết bị nào. Phù hợp để lập kế hoạch cho hầu hết các loại dự án, Ingantt là một công cụ hữu ích cho bất kỳ ai có nhiều nhiệm vụ hơn những gì một danh sách việc cần làm bình thường có thể quản lý.
+
+    Tuyệt vời cho các dự án cải tạo lớn hoặc nhỏ, dự án phát triển phần mềm, các dự án xây dựng nhỏ, đám cưới, sự kiện hay bất cứ hoạt động nào cần được lập kế hoạch. Ingantt giúp bạn trả lời những câu hỏi quan trọng nhất: dự án sẽ kết thúc khi nào, mỗi nhiệm vụ sẽ hoàn thành khi nào và chi phí tổng cộng là bao nhiêu? Tất cả trong khi tính đến những ngày nghỉ lễ, kỳ nghỉ và mọi dữ liệu quan trọng khác ảnh hưởng đến lịch trình và chi phí của dự án.
+
+    ![Minh họa](/images/blog/screen.png)
+
+    Không giống một số công cụ lập kế hoạch khác, Ingantt khiến bạn cảm thấy như mình đang làm việc rất hiệu quả. Chúng tôi đã giảm số lần nhấp chuột cần cho các tác vụ thường gặp. Ngoài chế độ xem chia đôi truyền thống với công việc ở bên trái và biểu đồ Gantt ở bên phải (và chỉnh sửa qua hộp thoại), chúng tôi còn bổ sung một chế độ Xem chỉnh sửa (Editing view) đặc biệt trong Ingantt. Chế độ này cho phép bạn thiết lập lịch trình của mình theo kiểu trực quan như trong Photoshop—mọi thay đổi được phản ánh ngay lập tức trên biểu đồ Gantt mà không cần mở hộp thoại.
+
+    ![Minh họa](/images/blog/edit.png)
+
+    Nếu bạn đã quen thuộc với các công cụ như Microsoft Project, bạn có thể áp dụng ngay kiến thức sẵn có để bắt đầu. Nếu chưa, chúng tôi có tài liệu [Documentation](docs_url){:target="_blank"} đầy đủ và [Hướng dẫn Bắt đầu](docs_url/getting-started/){:target="_blank"} để hỗ trợ bạn.
+
+    Là một ứng dụng hiện đại, Ingantt hỗ trợ chế độ Dark Mode. Để giúp bạn lưu trữ tệp trên đám mây dễ dàng hơn, nó cũng hoàn toàn tích hợp với Google Drive, nhờ đó bạn có thể lưu, mở và làm việc với các tệp Ingantt trên Google Drive.
+
+    Với sự hỗ trợ cho Windows và Android, Ingantt đã được phát hành trên [Microsoft Store](windows_url) và [Google Play](android_url){:target="_blank"}. Ngoài ra, còn có một phiên bản Web.
+
+    Xin vui lòng liên hệ với chúng tôi nếu bạn có phản hồi, câu hỏi hoặc ý kiến. Đây mới là phiên bản đầu tiên, nhưng chúng tôi sẽ tiếp tục làm việc với nhiều tính năng hơn trong tương lai. Hãy theo dõi nhé!

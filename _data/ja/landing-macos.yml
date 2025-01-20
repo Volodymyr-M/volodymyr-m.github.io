@@ -1,0 +1,231 @@
+title_tag: Ingantt - AI搭載のモダンなガントチャートプロジェクト計画ツール for Mac
+meta_keywords: ガントチャートアプリ macOS, mpp, Mac向けガント, mppリーダー, mppビューアー, ガントアプリケーション, MS Projectの代替, Apple用ガント, プロジェクト計画, プロジェクト管理
+meta_description: Ingantt - macOS向けAI対応プロジェクト管理ツール。Macでプロジェクトを簡単に計画、スケジュール、追跡しましょう。
+
+page_url: macos_page
+platform_url: macos_url
+store_image: app_store.png
+platform_image: macos.png
+
+hero:
+  title: MacでAI搭載ガントチャートによるプロジェクト計画
+  subtitle: AIアシストとインテリジェントなガントチャートでプロジェクト計画を変革しましょう。
+  cta:
+    primary:
+      text: 今すぐ入手
+      text_fits: true
+    other_versions:
+      title: 他のバージョン
+  rating:
+    stars:
+    text: 5つ星評価
+  image: hero-macos.png
+
+features_grid:
+  title: プロジェクトマネージャーがInganttを選ぶ理由
+  items:
+    - icon: fas fa-robot
+      title: AI活用の計画
+      description: シンプルな説明からAIアシスタントが包括的なプロジェクト計画を生成します。
+    - icon: fas fa-brain
+      title: 全てを一括管理
+      description: スケジュール、コスト、タスク、依存関係、リソースなど、あらゆる要素を一か所で管理。
+    - icon: fas fa-laptop
+      title: macOSに最適化
+      description: macOSのネイティブでスムーズな操作性でプロジェクトを計画・レビュー・管理。
+    - icon: fas fa-file-import
+      title: MS Project互換
+      description: .MPPファイルをインポートし、MS Project互換のXMLで保存—妥協なし。
+
+demo:
+  title: Inganttの実演をご覧ください
+  video_id: r__sXaW1ciM
+
+testimonials:
+  title: 世界中のプロジェクトマネージャーから信頼されています
+  show_more:
+    text: もっと見る
+    icon: fas fa-chevron-down
+  show_less:
+    text: 閉じる
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 専用のファイル形式やクラウドストレージに縛られない最高のガントアプリです。
+      author:
+        name: Noah Wilson
+        title: プログラムディレクター
+    - rating: ★★★★★
+      text: AIによるプロジェクト計画生成は私にとって画期的でした。計画のスタートとアイデア出しに活用しています。
+      author:
+        name: Alexander Hall
+        title: アジャイルコーチ
+    - rating: ★★★★★
+      text: Microsoft ProjectのMPPファイルビューア兼エディタとしても使っています。
+      author:
+        name: Amelia Clark
+        title: プロジェクトコーディネーター
+    - rating: ★★★★★
+      text: ようやく見つけた使えるMicrosoft Projectの代替ツール！
+      author:
+        name: Isabella Moore
+        title: チームリーダー（プロジェクト管理）
+      is_hidden: true
+    - rating: ★★★★★
+      text: 期待通りに動作していて、とても満足しています。
+      author:
+        name: Benjamin Lee
+        title: アジャイルコーチ
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Projectのフル機能を、はるかに軽量なパッケージで利用できます！
+      author:
+        name: Mia Harris
+        title: プロジェクト管理トレーナー
+      is_hidden: true
+    - rating: ★★★★★
+      text: Inganttなら、マイルストーンやリソース計画を含む直感的で構造化されたガントチャートが作れます。進捗も手動で追跡可能です。
+      author:
+        name: Emma Rodriguez
+        title: プロダクトマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 他社製品より操作が軽快で、タイムラインのスクロールやプロジェクトを開く動作がとてもスムーズです。素晴らしい！
+      author:
+        name: Ethan Walker
+        title: プログラムマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 素晴らしいプログラムです！
+      author:
+        name: Harper Thompson
+        title: PMO（プロジェクト管理オフィス）ディレクター
+      is_hidden: true
+
+features_detailed:
+  title: 成功するプロジェクト計画に必要なすべて
+  subtitle: モダンなプロジェクトマネージャーのための強力な機能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 計画
+      content:
+        title: AI活用の計画
+        features:
+          - icon: fas fa-check
+            title: AIプロジェクト生成
+            description: 先進的なAIを使って、シンプルなテキスト説明から包括的なプロジェクト計画を作成
+          - icon: fas fa-check
+            title: 簡単スケジューリング
+            description: プランの任意の部分を更新すると、全体の結果が即時に反映されます。
+          - icon: fas fa-check
+            title: 親しみやすさ
+            description: MS Projectや類似ソフトの経験があれば、すぐに活かせます！
+        video: videos/ai.mp4
+    - id: tracking
+      icon: fas fa-chart-line
+      title: トラッキング
+      content:
+        title: 高度なトラッキング
+        features:
+          - icon: fas fa-check
+            title: 進捗モニタリング
+            description: 完了率やマイルストーンの進捗を追跡
+          - icon: fas fa-check
+            title: リソース使用状況
+            description: リソース配分を監視し、ボトルネックを特定
+          - icon: fas fa-check
+            title: タイムライン分析
+            description: クリティカルパスを分析し、スケジュールの変動を追跡
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+    - id: integration
+      icon: fas fa-plug
+      title: 連携
+      content:
+        title: 強力な連携機能
+        features:
+          - icon: fas fa-check
+            title: MS Project互換性
+            description: Microsoft ProjectのMPPファイルをインポートし、常にMS Project互換のXML形式で保存。
+          - icon: fas fa-check
+            title: エクスポートオプション
+            description: いつでもPDFやPNGにエクスポート可能
+          - icon: fas fa-check
+            title: Googleドライブでの保存・オープン
+            description: Googleドライブを使ってプロジェクトファイルを保存可能。
+        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+
+features_list:
+  title: Inganttでできること
+  items:
+    - icon: fas fa-brain
+      title: 高度な計画
+      items:
+        - シンプルなテキスト説明からAIでプロジェクト計画を作成
+        - どんな変更もすぐに全体へ反映
+        - 完了予定日を予測し、潜在的な課題を早期に発見
+        - コスト計画
+    - icon: fas fa-tasks
+      title: タスク管理
+      items:
+        - プロジェクトをタスクに分解
+        - タスク間の依存関係や締め切りを設定
+        - タスクをマイルストーンとしてマーク
+        - クリティカルパスを監視
+        - タスク完了状況を追跡
+    - icon: fas fa-users
+      title: コラボレーション
+      items:
+        - Googleドライブと連携
+        - XML、PDF、PNG形式でファイルを交換
+    - icon: fas fa-chart-line
+      title: 高度なトラッキング
+      items:
+        - リソース割り当てを監視
+        - クリティカルパスを分析
+        - リソース使用状況を追跡
+        - タイムラインの分析
+    - icon: fas fa-calendar-alt
+      title: リソース管理
+      items:
+        - 稼働、物資、コストなどのリソースを管理
+        - リソース用のカレンダーと稼働時間を設定
+        - 過剰割り当てされたリソースを自動調整
+        - 時間経過に伴うリソース使用状況を確認
+    - icon: fas fa-plug
+      title: 連携
+      items:
+        - MS Projectファイル互換（MPPとXML）
+        - PDFやPNGへのエクスポート
+        - Googleドライブと連携
+
+faq:
+  title: よくある質問
+  items:
+    - question: Ingantt for macOSとは何ですか？
+      answer: Ingantt for macOSは、Mac上でネイティブに動作するプロフェッショナルなプロジェクト管理ツールです。AIを活用した計画機能とMS Project互換性により、プロジェクト計画の作成・管理を簡単に行えます。
+    - question: 既存のMicrosoft Projectファイルをインポートできますか？
+      answer: はい。InganttはMicrosoft Projectの.MPPおよび.XMLファイルのインポートに対応しており、タスクやリソース、依存関係などのデータを保持したまま取り込むことができます。
+    - question: AIでのプロジェクト生成はどのように機能しますか？
+      answer: シンプルなテキストでプロジェクトの目的や要件を説明するだけで、AIアシスタントがベストプラクティスに基づいたタスクやタイムライン、依存関係を含む包括的な計画を自動的に作成します。
+    - question: macOS版の無料トライアルはありますか？
+      answer: いいえ。macOS版は買い切り型で、サブスクリプションや無料トライアルはありません。
+    - question: Ingantt for macOSはどのように購入できますか？
+      answer: Mac App Storeでご購入ください。購入後は追加料金なしでずっと利用できます。
+  support:
+    title: Inganttを使ってプロジェクト計画を始めましょう
+    docs:
+      text: ドキュメントはこちら
+    contact:
+      title: 他にご質問がありますか？<br>サポートが必要な場合はお気軽にご連絡ください！
+      text: メールでお問い合わせ
+      icon: fa fa-envelope
+
+cta:
+  title: プロジェクト計画を変革する準備はできていますか？
+  subtitle: Macネイティブの環境でAI活用のプロジェクト計画を体験
+  button:
+    text: 今すぐ入手
+
+platform_support:
+  title: 他のプラットフォーム向けバージョンが必要ですか？

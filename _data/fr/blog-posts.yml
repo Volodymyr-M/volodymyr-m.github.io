@@ -1,0 +1,113 @@
+- title: "Google Workspace : partage et collaboration"
+  published_on: "12 septembre 2024"
+  content: |
+    ![Illustration](/images/blog/share.webp)
+    Depuis le début, Ingantt est un outil puissant pour les chefs de projet dans divers secteurs. Mais jusque-là, il n’était disponible qu’à des fins personnelles. Cela change maintenant !
+
+    Nous sommes ravis de déployer une mise à jour majeure de la version [Google Workspace](workspace_url){:target="_blank"}. Grâce à cette mise à jour, les utilisateurs peuvent partager leurs plans de projet avec d’autres utilisateurs Ingantt via Google Drive.
+
+    Cela fonctionne comme Google Docs ou Sheets : vous verrez une boîte de dialogue « Partager » familière, où vous pourrez saisir des adresses e-mail et attribuer des rôles. Les destinataires recevront une notification de Google Drive, cliqueront sur le lien et auront immédiatement accès à votre plan de projet. Simple !
+
+- title: "De l’IA et bien plus encore !"
+  published_on: "2 mai 2024"
+  content: |
+    Aujourd’hui, nous commençons à déployer notre plus grande mise à jour à ce jour pour Ingantt.
+
+    Tout d’abord, l’IA. Ingantt est l’un des premiers outils de gestion de projet à intégrer cette fonctionnalité pratique. Comment ça marche ? Il vous suffit de fournir une description de votre projet, de cliquer sur un bouton, et vous obtenez un plan de projet complet ! Essayez-le, non seulement cela vous donne un bon point de départ ou une inspiration, mais en plus c’est amusant à utiliser !
+
+    Mais ce n’est pas tout dans cette mise à jour ! Nous avons complètement repensé la liste des projets, en la rendant plus visuelle avec des vignettes, et en renforçant encore l’intégration avec Google Drive. Maintenant, vous pouvez trier la liste et effectuer certaines opérations comme « Exporter au format PNG » directement depuis la liste de vos projets.
+
+    Nous avons également ajouté des modèles conçus à la main pour certains types de projets populaires. L’un d’eux, appelé « Modèle de tutoriel », mérite une mention spéciale, car il peut constituer un moyen rapide de commencer avec Ingantt : il suffit de le lire ou de s’en servir comme point de départ.
+
+    Cette mise à jour ouvre également de nouvelles opportunités pour améliorer Ingantt à l’avenir, alors restez à l’écoute !
+
+    ![Illustration](/images/blog/ai_macos_dark.png)
+    ![Illustration](/images/blog/ai2_macos_dark.png)
+
+- title: "À l’écoute de nos utilisateurs !"
+  published_on: "25 janvier 2024"
+  content: |
+    Désormais, Ingantt est disponible sur toutes les plateformes et dispose de toutes les fonctionnalités que la majorité des utilisateurs attend d’un logiciel de planification de projet hautement performant. Mais nous ne nous arrêtons pas là. Nous écoutons nos utilisateurs.
+    Nous avons reçu de nombreux retours positifs de votre part et nous vous en sommes reconnaissants ! Nous continuons à mettre à jour Ingantt avec des améliorations que nous avons apprises grâce à vous.
+
+    Dans les dernières versions, Ingantt a reçu :
+
+    * la possibilité de réorganiser les colonnes des tâches
+    * une expérience plus fluide avec les raccourcis clavier
+    * des barres de défilement visibles par défaut dans certaines grilles
+    * une meilleure indication du pourcentage d’avancement dans les tâches du diagramme de Gantt
+
+    ainsi que quelques améliorations et optimisations internes.
+
+    N’hésitez pas à nous contacter pour partager vos retours, vos questions ou vos commentaires. Améliorons Ingantt ensemble !
+
+- title: "Version iOS !"
+  published_on: "23 septembre 2023"
+  content: |
+    Pour conclure notre expansion de plateforme, la version iOS est maintenant disponible ! Nous sommes ravis d’annoncer qu’Ingantt est désormais disponible partout, sur toutes les plateformes ! Pour l’utiliser sur votre iPhone ou iPad, [téléchargez Ingantt sur l’App Store](ios_url){:target="_blank"}.
+    ![Illustration](/images/blog/ios.png)
+
+- title: "Nouveau ! Version macOS"
+  published_on: "28 août 2023"
+  content: |
+    Dès le départ, Ingantt a été une application multiplateforme. Les utilisateurs sur différentes plateformes comme Android, Windows et le Web bénéficient depuis un certain temps des fonctionnalités de planification d’Ingantt. Il est maintenant temps d’ajouter une nouvelle plateforme à la liste !
+
+    Présentation d’Ingantt pour macOS ! Toute la puissance de planification d’Ingantt dans un style élégant. Comme pour les autres versions, nous avons fait beaucoup d’efforts pour que cette version ait un aspect natif sur la nouvelle plateforme. Ainsi, si vous êtes utilisateur Mac, [téléchargez Ingantt sur le Mac App Store](macos_url){:target="_blank"}.
+
+- title: "Nouvelle version : impression PDF"
+  published_on: "27 mai 2023"
+  content: |
+    Ingantt est un outil professionnel construit autour de l’idée de la planification à l’aide du célèbre diagramme de Gantt. Parfois, une fois que vous avez utilisé toutes ces fonctionnalités complètes pour élaborer votre plan, vous souhaitez le montrer à d’autres personnes.
+
+    À présent, vous le pouvez ! Grâce au nouvel élément de menu principal **PDF imprimable**, vous pouvez générer un fichier PDF qui pourra être imprimé ou partagé avec n’importe qui. Le PDF reflète pleinement le diagramme de Gantt que vous voyez et utilise les mêmes options. Par exemple, si vous avez choisi d’afficher la tâche récapitulative racine dans la boîte de dialogue **Options**, le fichier PDF l’affichera aussi.
+
+    Le PDF généré peut être ouvert et imprimé à l’aide de nombreuses applications disponibles, ce qui en fait le format idéal non seulement pour l’impression, mais aussi pour le partage par e-mail, messagerie ou services cloud.
+
+- title: "Nouvelle version : utilisation des ressources"
+  published_on: "5 mai 2023"
+  content: |
+    Ingantt devient un outil de planification encore plus utile grâce à une nouvelle fonctionnalité en cours de déploiement sur toutes les plateformes prises en charge.
+
+    Depuis le début, Ingantt permet de détecter et de corriger automatiquement les ressources surchargées. Désormais, vous pouvez aussi voir précisément sur quelles périodes vos ressources sont surchargées, comment elles passent leur temps sur chaque tâche et quelle est la charge de travail totale. Tout cela grâce à la nouvelle vue d’Ingantt appelée **Utilisation des ressources**.
+
+    À première vue, cette vue ressemble à la vue fractionnée standard avec le diagramme de Gantt. Cependant, il y a plusieurs différences. Sur la gauche, les tâches sont regroupées par ressources qui leur sont affectées. Sur la droite, dans le diagramme, vous voyez le travail que chaque ressource effectue sur chaque tâche, ainsi que le total de travail de la ressource. Si une ressource est surchargée sur une période donnée, la zone de données correspondante est mise en évidence en rouge.
+
+    Servez-vous de cette nouvelle fonctionnalité pour mieux planifier le travail de vos ressources. En attendant, d’autres nouveautés sont en préparation !
+
+    ![Illustration](/images/blog/resource_usage.png)
+
+- title: "Nouvelle version : ouverture de fichiers MPP"
+  published_on: "16 avril 2023"
+  content: |
+    Nous sommes ravis d’annoncer une mise à jour d’Ingantt qui ajoute une fonctionnalité importante !
+
+    Comme vous le savez peut-être déjà, Ingantt prend en charge l’ouverture de fichiers XML créés par Microsoft Project. Toutefois, ce format n’est pas le format natif de cette application populaire, qui enregistre ses fichiers dans son propre format binaire nommé MPP (fichiers portant l’extension « .mpp »).
+
+    La nouvelle mise à jour vous permet d’ouvrir les fichiers MPP exactement comme vous ouvririez des fichiers XML. Il vous suffit de sélectionner un fichier MPP dans le sélecteur de fichiers, et il s’ouvrira.
+
+    Il y a un point à garder à l’esprit concernant cette fonctionnalité. Contrairement à la plupart des fonctionnalités d’Ingantt, qui ne nécessitent pas de connexion Internet, l’ouverture de fichiers MPP nécessite une connexion Internet, car ces fichiers sont envoyés à notre service pour être convertis en XML. L’échange de données s’effectue via une connexion sécurisée, et les fichiers ne sont pas stockés sur le service. Vous n’avez donc pas à vous inquiéter pour la confidentialité et la sécurité.
+
+    Nous espérons que vous apprécierez cette nouvelle fonctionnalité d’Ingantt autant que nous. D’autres nouveautés arrivent bientôt !
+
+- title: "Version 1.0 disponible !"
+  published_on: "12 avril 2023"
+  content: |
+    Après de nombreux mois de travail acharné, Ingantt est enfin prêt !
+
+    Ingantt est le fruit de notre vision d’une alternative conviviale à Microsoft Project, abordable et accessible à tous, quel que soit l’appareil utilisé. Adapté à la planification d’une grande variété de projets, Ingantt est un outil précieux pour tous ceux qui ont un nombre de tâches à planifier allant au-delà d’une simple liste.
+
+    Excellent pour les projets de rénovation de toutes tailles, les projets de développement logiciel, les petits projets de construction, les mariages, les événements ou toute autre chose nécessitant une planification, Ingantt vous aide à répondre aux questions essentielles : quand le projet se terminera-t-il, quand chaque tâche se terminera-t-elle et combien tout cela coûtera-t-il ? Le tout en tenant compte des jours fériés, des vacances et de toutes les données importantes qui influent sur votre calendrier et votre budget.
+
+    ![Illustration](/images/blog/screen.png)
+
+    Contrairement à certains autres outils de planification, Ingantt vous donne un sentiment de productivité. Nous avons réduit le nombre de clics pour les actions les plus courantes. En plus de la vue traditionnelle partagée avec les tâches à gauche et le diagramme de Gantt à droite (et l’édition via des boîtes de dialogue), nous avons ajouté dans Ingantt une vue d’édition spéciale, afin que vous puissiez configurer votre planning comme dans Photoshop : vos modifications sont immédiatement visibles dans le diagramme de Gantt, sans avoir besoin d’ouvrir de boîtes de dialogue.
+
+    ![Illustration](/images/blog/edit.png)
+
+    Si vous connaissez déjà des outils comme Microsoft Project, vous pouvez utiliser vos connaissances existantes pour démarrer rapidement. Sinon, nous avons créé une [documentation](docs_url){:target="_blank"} complète et un [guide de démarrage](docs_url/getting-started/){:target="_blank"}.
+
+    En tant qu’application moderne, Ingantt prend en charge le mode sombre. Pour faciliter l’enregistrement de vos fichiers dans le cloud, la prise en charge de Google Drive est entièrement disponible : vous pouvez stocker, sauvegarder et ouvrir vos fichiers Ingantt dans Google Drive.
+
+    Avec la prise en charge de Windows et d’Android, Ingantt est publié sur le [Microsoft Store](windows_url) et sur [Google Play](android_url){:target="_blank"}. Une version Web est également disponible.
+
+    N’hésitez pas à nous faire part de vos retours, questions ou commentaires. Il s’agit de la première version, mais notre travail sur Ingantt se poursuit avec davantage de fonctionnalités à venir. Restez à l’écoute !
