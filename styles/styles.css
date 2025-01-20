@@ -149,7 +149,6 @@ nav {
     cursor: pointer;
     padding: var(--spacing-xs);
     transition: all var(--transition-fast);
-    margin-top: var(--spacing-sm);
 }
 
 #theme-toggle:hover {
@@ -1271,7 +1270,7 @@ footer {
 /* Language Dropdown */
 .language-select {
     position: relative;
-    margin-top: var(--spacing-md);
+    margin-top: var(--spacing-xxl);
     text-align: left;
     width: 180px;
     z-index: 100;

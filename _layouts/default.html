@@ -111,6 +111,9 @@ layout: compress
                     {% endif %}
 
                     {% if section[0] == 'site_settings' %}
+                    <button id="theme-toggle" aria-label="{{ section_data.theme_toggle.text }}" title="{{ section_data.theme_toggle.text }}">
+                        <i class="{{ section_data.theme_toggle.icon }}"></i> {{ section_data.theme_toggle.text }}
+                    </button>
                     <div class="language-select">
                         <div class="language-current">
                             <i class="{{ section_data.language.current.icon }}"></i>
@@ -124,9 +127,6 @@ layout: compress
                             {% endfor %}
                         </div>
                     </div>
-                    <button id="theme-toggle" aria-label="{{ section_data.theme_toggle.text }}" title="{{ section_data.theme_toggle.text }}">
-                        <i class="{{ section_data.theme_toggle.icon }}"></i> {{ section_data.theme_toggle.text }}
-                    </button>
                     {% endif %}
                 </div>
                 {% endfor %}
