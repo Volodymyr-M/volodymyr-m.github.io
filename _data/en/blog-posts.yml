@@ -1,6 +1,5 @@
 - title: "Google Workspace: sharing and collaboration"
   published_on: "September 12, 2024"
-  order: 9
   content: |
     ![Illustration](/images/blog/share.webp)
     From the beginning, Ingantt has been a powerful tool for project managers across industries. But only for personal use. That’s changing now!
@@ -11,7 +10,6 @@
 
 - title: "AI and much more!"
   published_on: "May 2, 2024"
-  order: 8
   content: |
     Today we're starting to release our biggest update to Ingantt yet.
 
@@ -28,7 +26,6 @@
 
 - title: "Listening to our users!"
   published_on: "January 25, 2024"
-  order: 7
   content: |
     Now Ingantt is available on any platform and has all the features the majority of users expect from a highly functional project planning software. But we are not stopping our work on it. We listen to our users.
     There's been quite a lot of great feedback from you and we appreciate it! We keep updating Ingantt with the improvements we've learned from you.
@@ -46,14 +43,12 @@
 
 - title: "iOS version!"
   published_on: "September 23, 2023"
-  order: 6
   content: |
     To conclude our platform expansion, iOS version is now available! We're excited on the ability to say that now Ingantt is available everywhere, on all platforms! To use Ingantt on your iPhone or iPad, [download Ingantt on the App Store](ios_url){:target="_blank"}.
     ![Illustration](/images/blog/ios.png)
 
 - title: "New! macOS version"
   published_on: "August 28, 2023"
-  order: 5
   content: |
     Right from the start, Ingantt has been a multi-platform app. Users on different platforms like Android, Windows and the Web have been enjoying planning with Ingantt for a while. Now it's time to add a new platform to the list!
 
@@ -61,7 +56,6 @@
 
 - title: "New version: PDF Printing"
   published_on: "May 27, 2023"
-  order: 4
   content: |
     Ingantt is a professional tool built around the idea of scheduling with the use of the well known Gantt chart. Sometimes, once you've used all the comprehensive functionality to build it, you need to show it to someone.
 
@@ -71,7 +65,6 @@
 
 - title: "New version: Resource Usage"
   published_on: "May 5, 2023"
-  order: 3
   content: |
     Ingantt is becoming an even more useful scheduling tool with a new feature that is being rolled out across all of the supported platforms.
 
@@ -85,7 +78,6 @@
 
 - title: "New version: MPP opening"
   published_on: "April 16, 2023"
-  order: 2
   content: |
     We're excited to announce an update to Ingantt that adds an important feature!
 
@@ -99,7 +91,6 @@
 
 - title: "Version 1.0 is out!"
   published_on: "April 12, 2023"
-  order: 1
   content: |
     After many months of hard work Ingantt is finally ready!
 
