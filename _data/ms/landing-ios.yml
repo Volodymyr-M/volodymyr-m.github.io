@@ -13,7 +13,7 @@ hero:
   cta:
     primary:
       text: Dapatkannya sekarang
-      text_fits: true
+      text_fits: false
     other_versions:
       title: Versi lain
   rating:

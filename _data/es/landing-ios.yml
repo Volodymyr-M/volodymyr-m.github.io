@@ -13,7 +13,7 @@ hero:
   cta:
     primary:
       text: Consíguelo ahora
-      text_fits: true
+      text_fits: false
     other_versions:
       title: Otras versiones
   rating:

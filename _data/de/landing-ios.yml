@@ -13,7 +13,7 @@ hero:
   cta:
     primary:
       text: Jetzt herunterladen
-      text_fits: true
+      text_fits: false
     other_versions:
       title: Andere Versionen
   rating:

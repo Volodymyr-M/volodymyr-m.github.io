@@ -87,7 +87,7 @@ hero:
   cta:
     primary:
       text: Спробувати безкоштовно
-      text_fits: true
+      text_fits: false
     other_versions:
       title: Інші версії
   rating:
