@@ -34,9 +34,9 @@
 }
 
 .dark-mode {
-    --primary-color: #388e3c !important; /* Rich green */
-    --primary-hover: #2e7d32 !important; /* Darker green for hover */
-    --secondary-color: #43a047 !important; /* Medium green */
+    --primary-color: #66bb6a !important; /* Soft green */
+    --primary-hover: #4caf50 !important; /* Slightly darker green for hover */
+    --secondary-color: #81c784 !important; /* Light green */
     --accent-color: #f5a623 !important; /* Bright orange for accent */
     --background: #1c1c1c !important; /* Very dark gray for background */
     --surface: #2c2c2c !important; /* Dark gray for surfaces */
@@ -48,8 +48,8 @@
     --shadow: rgba(0, 0, 0, 0.5) !important; /* Darker shadow */
     
     /* Gradients */
-    --gradient-1: linear-gradient(135deg, #388e3c, #43a047) !important; /* Green to medium green gradient */
-    --gradient-2: linear-gradient(135deg, #f5a623, #43a047) !important; /* Orange to medium green gradient */
+    --gradient-1: linear-gradient(135deg, #66bb6a, #81c784) !important; /* Green to light green gradient */
+    --gradient-2: linear-gradient(135deg, #f5a623, #81c784) !important; /* Orange to light green gradient */
 }
 
 .dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
