@@ -83,7 +83,7 @@ layout: default
     <div class="container">
         <h2>{{ landing_data.demo.title }}</h2>
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/{{ landing_data.demo.video_id }}" 
+            <iframe src="https://www.youtube.com/embed/{{ landing_data.demo.video_id }}" lang="{{ site.default_lang }}"
                     frameborder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen>
@@ -162,7 +162,7 @@ layout: default
                                 Your browser does not support the video tag.
                             </video>
                             {% else %}
-                            <iframe src="https://drive.google.com/file/d/{{ tab.content.video_id }}/preview" width="640" height="360" allow="autoplay" allowfullscreen></iframe>
+                            <iframe lang="{{ site.default_lang }}" src="https://drive.google.com/file/d/{{ tab.content.video_id }}/preview" width="640" height="360" allow="autoplay" allowfullscreen></iframe>
                             {% endif %}
                         </div>
                     </div>
