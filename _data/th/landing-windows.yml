@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: ดู Ingantt ทำงานจริง
-  video_id: 66MmRFr16Lk
+  video_id: uuX-8S4fS6I
 
 testimonials:
   title: ได้รับความไว้วางใจจากผู้จัดการโครงการทั่วโลก
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: คุ้นเคย
             description: เคยใช้ MS Project หรือซอฟต์แวร์ที่คล้ายกันหรือไม่? ใช้ประสบการณ์นั้นได้เลย!
-        video: videos/ai.mp4
+        video_id: 1Nwjlq9kT6Xhf8aMUoaCEsDK2pJOr0tnc
     - id: tracking
       icon: fas fa-chart-line
       title: การติดตาม
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: การวิเคราะห์ไทม์ไลน์
             description: วิเคราะห์เส้นทางวิกฤตและติดตามความแปรผันของตาราง
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1np8N5180uT2UE_GptKnOsE1_gxfVtRnz
     - id: integration
       icon: fas fa-plug
       title: การผสานรวม
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: การบันทึกและเปิดบน Google Drive
             description: ใช้ Google Drive ของคุณในการจัดเก็บไฟล์โครงการ
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1ZedKX7ZpXLeeE3r1IfPHdOvIuA1NgjgB
 
 features_list:
   title: สิ่งที่คุณทำได้ด้วย Ingantt

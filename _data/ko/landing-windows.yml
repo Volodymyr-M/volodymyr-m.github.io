@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: Ingantt가 실제로 어떻게 작동하는지 확인
-  video_id: 66MmRFr16Lk
+  video_id: uuX-8S4fS6I
 
 testimonials:
   title: 전 세계 프로젝트 매니저들이 신뢰합니다
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: 친숙한 방식
             description: MS Project나 유사한 소프트웨어 사용 경험이 있으신가요? 그대로 활용하세요!
-        video: videos/ai.mp4
+        video_id: 1Nwjlq9kT6Xhf8aMUoaCEsDK2pJOr0tnc
     - id: tracking
       icon: fas fa-chart-line
       title: 추적
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: 타임라인 분석
             description: 크리티컬 패스를 분석하고 일정 변동을 추적
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1np8N5180uT2UE_GptKnOsE1_gxfVtRnz
     - id: integration
       icon: fas fa-plug
       title: 통합
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Google Drive로 저장 및 열기
             description: 프로젝트 파일을 보관하기 위해 Google Drive를 이용하세요.
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1ZedKX7ZpXLeeE3r1IfPHdOvIuA1NgjgB
 
 features_list:
   title: Ingantt로 할 수 있는 일
