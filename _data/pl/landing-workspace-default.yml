@@ -113,7 +113,7 @@ features_grid:
 
 demo:
   title: Zobacz Ingantt w akcji
-  video_id: 66MmRFr16Lk
+  video_id: txar28soTs8
 
 testimonials:
   title: Zaufany przez kierowników projektów na całym świecie
@@ -195,7 +195,7 @@ features_detailed:
           - icon: fas fa-check
             title: Znajome środowisko
             description: Masz doświadczenie z MS Project lub podobnym oprogramowaniem? Wykorzystaj je tutaj!
-        video: videos/ai.mp4
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
     - id: tracking
       icon: fas fa-chart-line
       title: Śledzenie
@@ -211,7 +211,7 @@ features_detailed:
           - icon: fas fa-check
             title: Analiza osi czasu
             description: Analizuj ścieżkę krytyczną i monitoruj odchylenia w harmonogramie
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
     - id: collaboration
       icon: fas fa-users
       title: Współpraca
@@ -240,7 +240,7 @@ features_detailed:
           - icon: fas fa-check
             title: Opcje eksportu
             description: Eksportuj do plików PDF i PNG
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1x_YRYTmqTQLGJDYpZbeLIpffXrhQBw_W
 
 pricing:
   title: Prosty i przejrzysty cennik

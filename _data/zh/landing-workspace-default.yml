@@ -111,7 +111,7 @@ features_grid:
 
 demo:
   title: Ingantt演示
-  video_id: 66MmRFr16Lk
+  video_id: txar28soTs8
 
 testimonials:
   title: 获得全球项目经理的信赖
@@ -193,7 +193,7 @@ features_detailed:
           - icon: fas fa-check
             title: 方便上手
             description: 有MS Project或类似软件经验吗？完全可用！
-        video: videos/ai.mp4
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
     - id: tracking
       icon: fas fa-chart-line
       title: 跟踪
@@ -209,7 +209,7 @@ features_detailed:
           - icon: fas fa-check
             title: 时间轴分析
             description: 分析关键路径，跟踪进度表变动
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
     - id: collaboration
       icon: fas fa-users
       title: 协作
@@ -238,7 +238,7 @@ features_detailed:
           - icon: fas fa-check
             title: 导出选项
             description: 可导出为PDF和PNG
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1x_YRYTmqTQLGJDYpZbeLIpffXrhQBw_W
 
 pricing:
   title: 简洁透明的定价

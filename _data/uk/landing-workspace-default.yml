@@ -113,7 +113,7 @@ features_grid:
 
 demo:
   title: Подивіться Ingantt у дії
-  video_id: 66MmRFr16Lk
+  video_id: txar28soTs8
 
 testimonials:
   title: Керівники проєктів у всьому світі довіряють нам
@@ -195,7 +195,7 @@ features_detailed:
           - icon: fas fa-check
             title: Знайоме середовище
             description: Маєте досвід із MS Project чи подібним ПЗ? Використовуйте ці навички!
-        video: videos/ai.mp4
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
     - id: tracking
       icon: fas fa-chart-line
       title: Відстеження
@@ -211,7 +211,7 @@ features_detailed:
           - icon: fas fa-check
             title: Аналіз часової шкали
             description: Аналізуйте критичний шлях і відстежуйте відхилення у розкладі
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
     - id: collaboration
       icon: fas fa-users
       title: Співпраця
@@ -240,7 +240,7 @@ features_detailed:
           - icon: fas fa-check
             title: Параметри експорту
             description: Експортуйте у PDF та PNG
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1x_YRYTmqTQLGJDYpZbeLIpffXrhQBw_W
 
 pricing:
   title: Прості й прозорі тарифи

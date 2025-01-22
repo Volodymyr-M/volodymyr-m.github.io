@@ -113,7 +113,7 @@ features_grid:
 
 demo:
   title: Sehen Sie Ingantt in Aktion
-  video_id: 66MmRFr16Lk
+  video_id: txar28soTs8
 
 testimonials:
   title: Weltweit von Projektmanagern vertraut
@@ -195,7 +195,7 @@ features_detailed:
           - icon: fas fa-check
             title: Vertraute Oberfläche
             description: Kenntnisse in MS Project oder ähnlicher Software? Bringen Sie sie ein!
-        video: videos/ai.mp4
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
     - id: tracking
       icon: fas fa-chart-line
       title: Nachverfolgung
@@ -211,7 +211,7 @@ features_detailed:
           - icon: fas fa-check
             title: Zeitachsenanalyse
             description: Analysieren Sie den kritischen Pfad und verfolgen Sie Abweichungen im Zeitplan
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
     - id: collaboration
       icon: fas fa-users
       title: Zusammenarbeit
@@ -240,7 +240,7 @@ features_detailed:
           - icon: fas fa-check
             title: Exportoptionen
             description: Exportieren Sie als PDF und PNG
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1x_YRYTmqTQLGJDYpZbeLIpffXrhQBw_W
 
 pricing:
   title: Einfache, transparente Preise

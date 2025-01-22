@@ -111,7 +111,7 @@ features_grid:
 
 demo:
   title: Ingantt 실제 사용 영상
-  video_id: 66MmRFr16Lk
+  video_id: txar28soTs8
 
 testimonials:
   title: 전 세계의 프로젝트 매니저들이 신뢰합니다
@@ -193,7 +193,7 @@ features_detailed:
           - icon: fas fa-check
             title: 친숙함
             description: MS Project 등 유사 소프트웨어 경험이 있으신가요? 활용해 보세요!
-        video: videos/ai.mp4
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
     - id: tracking
       icon: fas fa-chart-line
       title: 추적
@@ -209,7 +209,7 @@ features_detailed:
           - icon: fas fa-check
             title: 타임라인 분석
             description: 중요 경로를 분석하고 일정 변동을 추적하세요
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
     - id: collaboration
       icon: fas fa-users
       title: 협업
@@ -238,7 +238,7 @@ features_detailed:
           - icon: fas fa-check
             title: 내보내기 옵션
             description: PDF와 PNG로 내보낼 수 있습니다
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1x_YRYTmqTQLGJDYpZbeLIpffXrhQBw_W
 
 pricing:
   title: 단순하고 투명한 가격

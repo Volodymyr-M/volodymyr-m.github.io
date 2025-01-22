@@ -111,7 +111,7 @@ features_grid:
 
 demo:
   title: Xem Ingantt hoạt động
-  video_id: 66MmRFr16Lk
+  video_id: txar28soTs8
 
 testimonials:
   title: Được các nhà quản lý dự án trên toàn thế giới tin tưởng
@@ -193,7 +193,7 @@ features_detailed:
           - icon: fas fa-check
             title: Thân thuộc
             description: Đã quen với MS Project hoặc phần mềm tương tự? Áp dụng kỹ năng ấy ở đây!
-        video: videos/ai.mp4
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
     - id: tracking
       icon: fas fa-chart-line
       title: Theo dõi
@@ -209,7 +209,7 @@ features_detailed:
           - icon: fas fa-check
             title: Phân tích tiến trình
             description: Phân tích đường găng (critical path) và theo dõi biến đổi lịch trình
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
     - id: collaboration
       icon: fas fa-users
       title: Cộng tác
@@ -238,7 +238,7 @@ features_detailed:
           - icon: fas fa-check
             title: Tùy chọn xuất
             description: Xuất sang PDF và PNG
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1x_YRYTmqTQLGJDYpZbeLIpffXrhQBw_W
 
 pricing:
   title: Chi phí đơn giản, minh bạch
