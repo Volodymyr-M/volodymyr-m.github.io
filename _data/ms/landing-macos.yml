@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: Lihat Ingantt Beraksi
-  video_id: r__sXaW1ciM
+  video_id: 1_AeaMmtbzY
 
 testimonials:
   title: Dipercayai oleh Pengurus Projek di Seluruh Dunia
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: Biasa Digunakan
             description: Sudah biasa dengan MS Project atau perisian seumpamanya? Gunakan kemahiran anda!
-        video: videos/ai.mp4
+        video_id: 146hiTq4_gV1B7HhrX7GDYpz9Oai3AL-E
     - id: tracking
       icon: fas fa-chart-line
       title: Penjejakan
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: Analisis Garis Masa
             description: Analisis laluan kritikal dan kesan variasi jadual
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1PCvKDRwThzAm7oGegtzZYjmckx4J5G9h
     - id: integration
       icon: fas fa-plug
       title: Integrasi
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Simpan dan buka di Google Drive
             description: Gunakan Google Drive anda untuk menyimpan fail projek.
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1jwVl8jbtvdkuTjFx4cMOMvU0ovbWp4_J
 
 features_list:
   title: Apa yang Boleh Anda Lakukan dengan Ingantt
