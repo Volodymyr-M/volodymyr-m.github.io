@@ -94,9 +94,10 @@ hero:
     stars: ★★★★★
     text: 5 stars on
   image: hero-workspace.png
+  also: Also works with Google Drive for @gmail.com users!
 
 features_grid:
-  title: Why Teams Choose Ingantt
+  title: Why Project Managers Choose Ingantt
   items:
     - icon: fas fa-robot
       title: AI-Powered Planning
@@ -332,6 +333,8 @@ faq:
   items:
     - question: What is Ingantt and how does it work with Google Workspace?
       answer: Ingantt is a professional project management tool that integrates seamlessly with Google Workspace. It allows you to create, manage, and share project plans directly from your Google Drive, making collaboration effortless for teams already using Google's ecosystem.
+    - question: Does Ingantt for Google Workspace work with regular Google accounts?
+      answer: Yes! If you don't use Google Workspace but have a regular Google (@gmail.com) account, you can still use Ingantt for Google Workspace. The app integrates seamlessly with your account's Google Drive.
     - question: Can I import my existing Microsoft Project files?
       answer: Yes! Ingantt fully supports importing .MPP and .XML files from Microsoft Project. All your project data, including tasks, resources, and dependencies, will be preserved during the import process.
     - question: How does the AI project generation work?
