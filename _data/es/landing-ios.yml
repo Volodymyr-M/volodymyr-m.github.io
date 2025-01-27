@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: Mira Ingantt en acción
-  video_id: 66MmRFr16Lk
+  video_id: HPsobQE4jd0
 
 testimonials:
   title: Con la confianza de gestores de proyectos en todo el mundo
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: Familiaridad
             description: ¿Tienes experiencia en MS Project u otro software similar? ¡Aprovéchala!
-        video: videos/ai.mp4
+        video_id: 1KzYA3pZiTxR4y5SzKr3URtec4yQ2AfJM
     - id: tracking
       icon: fas fa-chart-line
       title: Seguimiento
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: Análisis de la línea de tiempo
             description: Analiza la ruta crítica y rastrea variaciones en el cronograma
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1VDDDyfZJG0Rdas6JKBnr9AabC5D87FUZ
     - id: integration
       icon: fas fa-plug
       title: Integración
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Guardar y abrir con Google Drive
             description: Utiliza Google Drive para guardar y abrir archivos de proyecto.
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1tNhFUBBa4ThnPAIlqHygFkp4i3ulHS8o
 
 features_list:
   title: Qué puedes hacer con Ingantt

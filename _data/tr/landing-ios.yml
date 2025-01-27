@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: Ingantt’ı İş Başında Görün
-  video_id: 66MmRFr16Lk
+  video_id: HPsobQE4jd0
 
 testimonials:
   title: Dünyanın Her Yerindeki Proje Yöneticilerinin Güvendiği Araç
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: Aşinalık
             description: MS Project veya benzeri yazılımlar konusunda deneyiminiz mi var? Değerlendirin!
-        video: videos/ai.mp4
+        video_id: 1KzYA3pZiTxR4y5SzKr3URtec4yQ2AfJM
     - id: tracking
       icon: fas fa-chart-line
       title: Takip
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: Zaman Çizelgesi Analizi
             description: Kritik yolu (critical path) analiz edin ve zaman çizelgesi sapmalarını takip edin
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1VDDDyfZJG0Rdas6JKBnr9AabC5D87FUZ
     - id: integration
       icon: fas fa-plug
       title: Entegrasyon
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Google Drive’a kaydetme ve açma
             description: Proje dosyalarını kaydetmek ve açmak için Google Drive’ı kullanın.
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1tNhFUBBa4ThnPAIlqHygFkp4i3ulHS8o
 
 features_list:
   title: Ingantt ile Neler Yapabilirsiniz

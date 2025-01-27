@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: Перегляньте Ingantt у дії
-  video_id: 66MmRFr16Lk
+  video_id: HPsobQE4jd0
 
 testimonials:
   title: Довірені менеджерами проєктів у всьому світі
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: Звичний інтерфейс
             description: Маєте досвід роботи з MS Project чи схожим софтом? Використайте його!
-        video: videos/ai.mp4
+        video_id: 1KzYA3pZiTxR4y5SzKr3URtec4yQ2AfJM
     - id: tracking
       icon: fas fa-chart-line
       title: Відстеження
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: Аналіз часових рамок
             description: Аналізуйте критичний шлях і відстежуйте відхилення від графіка
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1VDDDyfZJG0Rdas6JKBnr9AabC5D87FUZ
     - id: integration
       icon: fas fa-plug
       title: Інтеграція
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Збереження й відкриття в Google Drive
             description: Використовуйте Google Drive для збереження й відкриття файлів проєктів.
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1tNhFUBBa4ThnPAIlqHygFkp4i3ulHS8o
 
 features_list:
   title: Що ви можете робити з Ingantt

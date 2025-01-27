@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: Xem Ingantt hoạt động
-  video_id: 66MmRFr16Lk
+  video_id: HPsobQE4jd0
 
 testimonials:
   title: Được tin tưởng bởi các nhà quản lý dự án trên toàn cầu
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: Thân thuộc
             description: Đã quen với MS Project hoặc phần mềm tương tự? Áp dụng kiến thức của bạn!
-        video: videos/ai.mp4
+        video_id: 1KzYA3pZiTxR4y5SzKr3URtec4yQ2AfJM
     - id: tracking
       icon: fas fa-chart-line
       title: Theo dõi
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: Phân tích dòng thời gian
             description: Phân tích đường găng (critical path) và theo dõi thay đổi lịch trình
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1VDDDyfZJG0Rdas6JKBnr9AabC5D87FUZ
     - id: integration
       icon: fas fa-plug
       title: Tích hợp
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Lưu và mở trên Google Drive
             description: Sử dụng Google Drive để lưu và mở tệp dự án.
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1tNhFUBBa4ThnPAIlqHygFkp4i3ulHS8o
 
 features_list:
   title: Bạn có thể làm gì với Ingantt

@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: Sehen Sie Ingantt in Aktion
-  video_id: 66MmRFr16Lk
+  video_id: HPsobQE4jd0
 
 testimonials:
   title: Weltweit von Projektmanagern vertraut
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: Vertraute Umgebung
             description: Bereits Erfahrung mit MS Project oder ähnlicher Software? Nutzen Sie diese Kenntnisse!
-        video: videos/ai.mp4
+        video_id: 1KzYA3pZiTxR4y5SzKr3URtec4yQ2AfJM
     - id: tracking
       icon: fas fa-chart-line
       title: Tracking
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: Zeitachsenanalyse
             description: Analysieren Sie den kritischen Pfad und verfolgen Sie Abweichungen im Zeitplan
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1VDDDyfZJG0Rdas6JKBnr9AabC5D87FUZ
     - id: integration
       icon: fas fa-plug
       title: Integration
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Google Drive speichern und öffnen
             description: Nutzen Sie Ihr Google Drive, um Projektdateien zu speichern und zu öffnen.
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1tNhFUBBa4ThnPAIlqHygFkp4i3ulHS8o
 
 features_list:
   title: Was Sie mit Ingantt tun können

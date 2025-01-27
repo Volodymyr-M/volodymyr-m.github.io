@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: देखें Ingantt कैसे काम करता है
-  video_id: 66MmRFr16Lk
+  video_id: HPsobQE4jd0
 
 testimonials:
   title: दुनिया भर के प्रोजेक्ट मैनेजरों द्वारा विश्वसनीय
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: परिचितता
             description: MS Project या इसी तरह के सॉफ़्टवेयर में कुशल हैं? उनका लाभ उठाएँ!
-        video: videos/ai.mp4
+        video_id: 1KzYA3pZiTxR4y5SzKr3URtec4yQ2AfJM
     - id: tracking
       icon: fas fa-chart-line
       title: ट्रैकिंग
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: टाइमलाइन विश्लेषण
             description: महत्वपूर्ण पथ (क्रिटिकल पाथ) का विश्लेषण करें और शेड्यूल में बदलावों को ट्रैक करें
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1VDDDyfZJG0Rdas6JKBnr9AabC5D87FUZ
     - id: integration
       icon: fas fa-plug
       title: एकीकरण
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Google Drive में सेव व ओपन करें
             description: प्रोजेक्ट फाइलों को सेव और ओपन करने के लिए Google Drive का उपयोग करें।
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1tNhFUBBa4ThnPAIlqHygFkp4i3ulHS8o
 
 features_list:
   title: Ingantt से आप क्या कर सकते हैं

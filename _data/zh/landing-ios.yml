@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: 观看 Ingantt 的实际操作
-  video_id: 66MmRFr16Lk
+  video_id: HPsobQE4jd0
 
 testimonials:
   title: 全球项目经理的信赖之选
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: 熟悉度
             description: 曾经用过 MS Project 或类似软件？尽管发挥你的经验！
-        video: videos/ai.mp4
+        video_id: 1KzYA3pZiTxR4y5SzKr3URtec4yQ2AfJM
     - id: tracking
       icon: fas fa-chart-line
       title: 跟踪
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: 时间轴分析
             description: 分析关键路径（critical path），追踪进度偏差
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1VDDDyfZJG0Rdas6JKBnr9AabC5D87FUZ
     - id: integration
       icon: fas fa-plug
       title: 集成
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: 使用 Google Drive 保存和打开
             description: 利用 Google Drive 保存和打开项目文件。
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1tNhFUBBa4ThnPAIlqHygFkp4i3ulHS8o
 
 features_list:
   title: 使用 Ingantt 您可以做什么
