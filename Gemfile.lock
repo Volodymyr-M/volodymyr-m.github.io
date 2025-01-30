@@ -67,7 +67,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
-  jekyll
+  jekyll (~> 4.3.2)
   jekyll-email-protect
   jekyll-polyglot
 
