@@ -297,7 +297,7 @@ layout: default
             <div class="platform-grid">
                 {% for platform in default_landing_data.products %}
                 {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
-                <a href="{{ site[platform.url] }}" class="platform-item">
+                <a href="/{{ site[platform.url] }}" class="platform-item">
                     <i class="{{ platform.icon }}"></i>
                     <span>{{ platform.platform }}</span>
                 </a>
