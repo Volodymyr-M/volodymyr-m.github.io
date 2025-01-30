@@ -7,7 +7,7 @@ layout: compress
 
     {% for node in site.pages %}
         {% comment %}<!-- very lazy check to see if page is in the exclude list - this means excluded pages are not gonna be in the sitemap at all, write exceptions as necessary -->{% endcomment %}
-        {% unless site.exclude_from_localization contains node.path %}
+        {% unless site.exclude_from_localization contains node.path or node.path contains 'desktop_callback' %}
             {% comment %}<!-- assuming if there's not layout assigned, then not include the page in the sitemap, you may want to change this -->{% endcomment %}
             {% if node.layout %}
                 <url>
