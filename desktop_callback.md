@@ -95,8 +95,7 @@ permalink: desktop_callback.html
         }
         
         window.onload = redirectToDesktop;
-        </script>
-    <script>
+
         document.addEventListener('DOMContentLoaded', function() {
             setTimeout(function() {
                 var issueElement = document.querySelectorAll('.issue');
