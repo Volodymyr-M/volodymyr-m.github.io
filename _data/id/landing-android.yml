@@ -39,7 +39,7 @@ features_grid:
 
 demo:
   title: Lihat Ingantt dalam Aksi
-  video_id: 66MmRFr16Lk
+  video_id: XlK-_Mhxqy4
 
 testimonials:
   title: Dipercaya oleh Manajer Proyek di Seluruh Dunia
@@ -121,7 +121,7 @@ features_detailed:
           - icon: fas fa-check
             title: Kemiripan
             description: Punya pengalaman dengan MS Project atau software serupa? Gunakan!
-        video: videos/ai.mp4
+        video_id: 1_bDltmdxfmX3k0vRxGlCCTLhCiGkb4SE
     - id: tracking
       icon: fas fa-chart-line
       title: Pelacakan
@@ -137,7 +137,7 @@ features_detailed:
           - icon: fas fa-check
             title: Analisis Garis Waktu
             description: Analisis jalur kritis dan lacak variasi jadwal
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 17OJqDAYZCwlmfUUW2yCLq0gUp-dVkyLr
     - id: integration
       icon: fas fa-plug
       title: Integrasi
@@ -153,7 +153,7 @@ features_detailed:
           - icon: fas fa-check
             title: Simpan dan Buka di Google Drive
             description: Gunakan Google Drive untuk menyimpan file proyek Anda.
-        video_id: 1ev1tfzD0MeJxMKIqHO5jBtgcO-dSfqn8
+        video_id: 1o7ma-AlFAAY2Z-Z6DmmRhWNjz6XdFwHu
 
 features_list:
   title: Apa yang Dapat Anda Lakukan dengan Ingantt
