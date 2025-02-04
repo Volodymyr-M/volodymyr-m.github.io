@@ -22,7 +22,7 @@ layout: default
                         </span>
                     </a>
                     <div class="language-select nav-version other-versions-btn">
-                        <a href="#" class="cta-button secondary other-versions">
+                        <button class="cta-button secondary other-versions">
                             <span class="button-content">
                                 <span class="button-title">{{ landing_data.hero.cta.other_versions.title }} <i class="fas fa-chevron-down"></i></span>
                                 <span class="platform-icons">
@@ -32,7 +32,7 @@ layout: default
                                     {% endfor %}
                                 </span>
                             </span>
-                        </a>
+                        </button>
                         <div class="language-dropdown">
                             {% for platform in default_landing_data.products %}
                             {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
