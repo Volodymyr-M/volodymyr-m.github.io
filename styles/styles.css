@@ -2038,3 +2038,49 @@ section h2 {
 .platform-info i {
     margin-right: var(--spacing-xs);
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 0 10px;
+    }
+
+    nav.container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-right {
+        margin-top: 10px;
+    }
+
+    .feature-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .feature-text {
+        width: 100%;
+        order: 1;
+    }
+
+    .feature-image {
+        width: 100%;
+        order: 2;
+        margin-top: 20px;
+    }
+
+    .feature-image video,
+    .feature-image iframe {
+        width: 100%;
+        height: 300px;
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .feature-image video,
+    .feature-image iframe {
+        height: 240px;
+    }
+}
