@@ -1,6 +1,7 @@
 {% for lang in site.languages %}
     {% if lang == site.active_lang or lang == site.default_lang %}{% continue %}{% endif %}
-    <link rel="alternate" hreflang="{{lang}}" href="/{{lang}}/{{page.permalink}}" />
+
+    <link rel="alternate" hreflang="{{lang}}" href="{% if page.permalink == '/' %}/{{lang}}/{% else %}/{{lang}}/{{page.permalink}}{% endif %}" />
 {% endfor %}
 {% if site.active_lang == site.default_lang %}
     <base href="/">
