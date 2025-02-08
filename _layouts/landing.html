@@ -308,6 +308,20 @@ layout: default
 </section>
 
 <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-16857347186/4Pa5CIL-o5saEPLomuY-',
+          'value': 1.0,
+          'currency': 'UAH',
+          'event_callback': callback
+      });
+      return false;
+    }
     document.querySelectorAll('.main-cta').forEach(function(element) {
         element.addEventListener('click', function() {
             const label = element.getAttribute('data-label') || 'Unknown';
@@ -315,6 +329,7 @@ layout: default
                 'event_category': 'click',
                 'event_label': label
             });
+            gtag_report_conversion('{{ site.url }}');
         });
     });
 </script>
