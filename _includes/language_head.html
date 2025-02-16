@@ -1,14 +1,13 @@
 {% for lang in site.languages %}
-    {% if lang == site.active_lang or lang == site.default_lang %}{% continue %}{% endif %}
-
-    <link rel="alternate" hreflang="{{lang}}" href="{% if page.permalink == '/' %}/{{lang}}/{% else %}/{{lang}}/{{page.permalink}}{% endif %}" />
-{% endfor %}
-{% if site.active_lang == site.default_lang %}
-    <base href="/">
+    {% if lang == site.default_lang %}
+        <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="{% if page.permalink == '/' %}/{% else %}/{{page.permalink}}{% endif %}"{% endstatic_href %} />
     {% else %}
-    <link rel="alternate" hreflang="{{ site.default_lang }}" href="{{ page.permalink | default: ' /' }}" />
-    <base href="../">
-{% endif %}
+        <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="{% if page.permalink == '/' %}/{{lang}}/{% else %}/{{lang}}/{{page.permalink}}{% endif %}"{% endstatic_href %} />
+    {% endif %}
+{% endfor %}
+
+<base href="{% if site.active_lang == site.default_lang %}/{% else %}../{% endif %}">
+
 <script type="text/javascript">
     const cookieName = "userLang";
 
