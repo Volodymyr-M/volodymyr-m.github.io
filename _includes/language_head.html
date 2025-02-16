@@ -1,8 +1,8 @@
 {% for lang in site.languages %}
     {% if lang == site.default_lang %}
-        <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="{% if page.permalink == '/' %}/{% else %}/{{page.permalink}}{% endif %}"{% endstatic_href %} />
+        <link rel="alternate" hreflang="{{lang}}" href="{{ site.url }}{% if page.permalink == '/' %}/{% else %}/{{page.permalink}}{% endif %}" />
     {% else %}
-        <link rel="alternate" hreflang="{{lang}}" {% static_href %}href="{% if page.permalink == '/' %}/{{lang}}/{% else %}/{{lang}}/{{page.permalink}}{% endif %}"{% endstatic_href %} />
+        <link rel="alternate" hreflang="{{lang}}" href="{{ site.url }}{% if page.permalink == '/' %}/{{lang}}/{% else %}/{{lang}}/{{page.permalink}}{% endif %}" />
     {% endif %}
 {% endfor %}
 
