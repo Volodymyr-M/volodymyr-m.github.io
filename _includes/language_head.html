@@ -1,9 +1,5 @@
 {% for lang in site.languages %}
-    {% if lang == site.default_lang %}
-        <link rel="alternate" hreflang="{{lang}}" href="{{ site.url }}{% if page.permalink == '/' %}/{% else %}/{{page.permalink}}{% endif %}" />
-    {% else %}
-        <link rel="alternate" hreflang="{{lang}}" href="{{ site.url }}{% if page.permalink == '/' %}/{{lang}}/{% else %}/{{lang}}/{{page.permalink}}{% endif %}" />
-    {% endif %}
+    <link rel="alternate" hreflang="{{lang}}" href="{{ site.url }}{% if lang == site.default_lang %}/{% else %}/{{lang}}/{% endif %}{% if page.permalink != '/' %}{{page.permalink}}{% endif %}" />
 {% endfor %}
 
 <base href="{% if site.active_lang == site.default_lang %}/{% else %}../{% endif %}">
