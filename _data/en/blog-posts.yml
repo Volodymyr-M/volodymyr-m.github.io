@@ -1,3 +1,14 @@
+- title: "Productivity improvements"
+  published_on: "February 21, 2025"
+  content: |
+    We’re excited to introduce a major update to Ingantt, designed to boost your day-to-day productivity.
+
+    Every grid in the app is now directly editable. You can update text values, quickly set start and finish date constraints, and easily assign resources—all with fewer clicks, making your most common tasks more efficient.
+
+    We’ve also added one of the most frequently requested features: exporting to PNG now includes the task list, not just the Gantt chart.
+
+    This update will be gradually rolled out across all supported platforms. Enjoy!
+
 - title: "Google Workspace: sharing and collaboration"
   published_on: "September 12, 2024"
   content: |
