@@ -89,7 +89,7 @@ hero:
     other_versions:
       title: เวอร์ชันอื่น
   rating:
-    stars: ★★★★★
+    stars: 5
     text: คะแนน 5 ดาว
   image: hero-workspace.png
 

@@ -89,7 +89,7 @@ hero:
     other_versions:
       title: 다른 버전
   rating:
-    stars: ★★★★★
+    stars: 5
     text: 5점 만점
   image: hero-workspace.png
 

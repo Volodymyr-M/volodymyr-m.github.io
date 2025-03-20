@@ -89,7 +89,7 @@ hero:
     other_versions:
       title: अन्य वर्ज़न
   rating:
-    stars: ★★★★★
+    stars: 5
     text: 5 स्टार रेटिंग
   image: hero-workspace.png
 

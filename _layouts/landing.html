@@ -13,18 +13,22 @@ layout: default
                 <h1>{{ landing_data.hero.title }}</h1>
                 <p class="hero-subtitle">{{ landing_data.hero.subtitle }}</p>
                 <div class="cta-group">
-                    <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary main-cta" data-label="topCTA" target="_blank">
+                    <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary main-cta"
+                        data-label="topCTA" target="_blank">
                         <span class="button-content">
                             <span class="button-title-wrapper">
-                                <span {% unless landing_data.hero.cta.primary.text_fits %}class="button-title"{% endunless %}>{{ landing_data.hero.cta.primary.text }}</span>
+                                <span {% unless landing_data.hero.cta.primary.text_fits %}class="button-title" {%
+                                    endunless %}>{{ landing_data.hero.cta.primary.text }}</span>
                             </span>
-                            <img src="/images/platforms/{{ landing_data.platform_image }}" alt="Platform Logo" class="workspace-logo">
+                            <img src="/images/platforms/{{ landing_data.platform_image }}" alt="Platform Logo"
+                                class="workspace-logo">
                         </span>
                     </a>
                     <div class="language-select nav-version other-versions-btn">
                         <button class="cta-button secondary other-versions">
                             <span class="button-content">
-                                <span class="button-title">{{ landing_data.hero.cta.other_versions.title }} <i class="fas fa-chevron-down"></i></span>
+                                <span class="button-title">{{ landing_data.hero.cta.other_versions.title }} <i
+                                        class="fas fa-chevron-down"></i></span>
                                 <span class="platform-icons">
                                     {% for platform in default_landing_data.products %}
                                     {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
@@ -36,7 +40,8 @@ layout: default
                         <div class="language-dropdown">
                             {% for platform in default_landing_data.products %}
                             {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
-                            <a href="/{{ site[platform.url] }}"><i class="{{ platform.icon }}"></i> {{ platform.text }}</a>
+                            <a href="/{{ site[platform.url] }}"><i class="{{ platform.icon }}"></i> {{ platform.text
+                                }}</a>
                             {% endfor %}
                         </div>
                     </div>
@@ -44,8 +49,10 @@ layout: default
                 {% if landing_data.hero.rating.stars %}
                 <div class="hero-badges">
                     <div class="rating">
-                        <div class="stars">{{ landing_data.hero.rating.stars }}</div>
-                        <span>{{ landing_data.hero.rating.text }} <img src="/images/stores/{{ landing_data.store_image }}" class="inline-marketplace-logo" alt="Store Logo"></span>
+                        <div class="stars" style="--stars: {{ landing_data.hero.rating.stars }};"></div>
+                        <span>{{ landing_data.hero.rating.text }} <img
+                                src="/images/stores/{{ landing_data.store_image }}" class="inline-marketplace-logo"
+                                alt="Store Logo"></span>
                     </div>
                     <div class="hero-also">
                         <span>{{ landing_data.hero.also }}</span>
@@ -87,9 +94,9 @@ layout: default
         <h2>{{ landing_data.demo.title }}</h2>
         <div class="video-container">
             <iframe src="https://www.youtube.com/embed/{{ landing_data.demo.video_id }}" lang="{{ site.default_lang }}"
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowfullscreen>
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
             </iframe>
         </div>
     </div>
@@ -114,8 +121,7 @@ layout: default
             {% endfor %}
         </div>
         <div class="show-more-container">
-            <button class="show-more-button"
-                data-show-more="{{ landing_data.testimonials.show_more.text }}"
+            <button class="show-more-button" data-show-more="{{ landing_data.testimonials.show_more.text }}"
                 data-show-less="{{ landing_data.testimonials.show_less.text }}">
                 <span class="button-text">{{ landing_data.testimonials.show_more.text }}</span>
                 <i class="fas fa-chevron-down"></i>
@@ -129,7 +135,7 @@ layout: default
     <div class="container">
         <h2>{{ landing_data.features_detailed.title }}</h2>
         <p class="section-subtitle">{{ landing_data.features_detailed.subtitle }}</p>
-        
+
         <div class="features-tabs">
             <div class="features-nav">
                 {% for tab in landing_data.features_detailed.tabs %}
@@ -165,7 +171,9 @@ layout: default
                                 Your browser does not support the video tag.
                             </video>
                             {% else %}
-                            <iframe lang="{{ site.default_lang }}" src="https://drive.google.com/file/d/{{ tab.content.video_id }}/preview" width="640" height="360" allow="autoplay" allowfullscreen></iframe>
+                            <iframe lang="{{ site.default_lang }}"
+                                src="https://drive.google.com/file/d/{{ tab.content.video_id }}/preview" width="640"
+                                height="360" allow="autoplay" allowfullscreen></iframe>
                             {% endif %}
                         </div>
                     </div>
@@ -185,8 +193,8 @@ layout: default
         <div class="pricing-grid">
             {% for plan in landing_data.pricing.plans %}
             {% unless plan.title %}
-                <div class="pricing-card" style="visibility: hidden;"></div>
-                {% continue %}
+            <div class="pricing-card" style="visibility: hidden;"></div>
+            {% continue %}
             {% endunless %}
             <div class="pricing-card {% if plan.featured %}featured{% endif %}">
                 {% if plan.price %}
@@ -195,7 +203,7 @@ layout: default
                     <div class="price">{{ plan.price }}</div>
                     <span>{{ plan.duration }}</span>
                     {% if plan.annual_price %}
-                        <div class="annual-price">{{ plan.annual_price }}</div>
+                    <div class="annual-price">{{ plan.annual_price }}</div>
                     {% endif %}
                 </div>
                 {% endif %}
@@ -204,7 +212,9 @@ layout: default
                     <li><i class="fas fa-check"></i> {{ feature }}</li>
                     {% endfor %}
                 </ul>
-                <a href="{% if site[plan.cta.url] contains '@' %}mailto:{{ site[plan.cta.url] | encode_email }}{% else %}{{ site[plan.cta.url] }}{% endif %}" class="cta-button {{ plan.cta.class }}{% unless site[plan.cta.url] contains '@' %} main-cta" data-label="pricingCTA" target="_blank{% endunless %}">{{ plan.cta.text }}</a>
+                <a href="{% if site[plan.cta.url] contains '@' %}mailto:{{ site[plan.cta.url] | encode_email }}{% else %}{{ site[plan.cta.url] }}{% endif %}"
+                    class="cta-button {{ plan.cta.class }}{% unless site[plan.cta.url] contains '@' %} main-cta"
+                    data-label="pricingCTA" target="_blank{% endunless %}">{{ plan.cta.text }}</a>
             </div>
             {% endfor %}
         </div>
@@ -257,7 +267,8 @@ layout: default
             <div class="faq-support">
                 <div class="support-content">
                     <h2>{{ landing_data.faq.support.title }}</h2>
-                    <a href="{{ site.docs_url }}" class="cta-button secondary" target="_blank">{{ landing_data.faq.support.docs.text }}</a>
+                    <a href="{{ site.docs_url }}" class="cta-button secondary" target="_blank">{{
+                        landing_data.faq.support.docs.text }}</a>
                     <div class="support-divider">
                         <h2>{{ landing_data.faq.support.contact.title }}</h2>
                         <a href="mailto:{{ site.support_email | encode_email }}" class="cta-button primary">
@@ -277,12 +288,14 @@ layout: default
         <h2>{{ landing_data.cta.title }}</h2>
         <p>{{ landing_data.cta.subtitle }}</p>
         <div class="cta-buttons">
-            <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary main-cta" data-label="bottomCTA" target="_blank">
+            <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary main-cta" data-label="bottomCTA"
+                target="_blank">
                 <span class="button-content">
                     <span class="button-title-wrapper">
                         <span class="button-title">{{ landing_data.cta.button.text }}</span>
                     </span>
-                    <img src="/images/platforms/{{ landing_data.platform_image }}" alt="Platform Logo" class="workspace-logo">
+                    <img src="/images/platforms/{{ landing_data.platform_image }}" alt="Platform Logo"
+                        class="workspace-logo">
                 </span>
             </a>
         </div>
@@ -309,18 +322,18 @@ layout: default
 
 <script>
     function gtag_report_conversion(url) {
-      var callback = function () {
-      };
-      gtag('event', 'conversion', {
-          'send_to': 'AW-16857347186/4Pa5CIL-o5saEPLomuY-',
-          'value': 1.0,
-          'currency': 'UAH',
-          'event_callback': callback
-      });
-      return false;
+        var callback = function () {
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-16857347186/4Pa5CIL-o5saEPLomuY-',
+            'value': 1.0,
+            'currency': 'UAH',
+            'event_callback': callback
+        });
+        return false;
     }
-    document.querySelectorAll('.main-cta').forEach(function(element) {
-        element.addEventListener('click', function() {
+    document.querySelectorAll('.main-cta').forEach(function (element) {
+        element.addEventListener('click', function () {
             const label = element.getAttribute('data-label') || 'Unknown';
             gtag('event', '{{ landing_data.page_url }}_cta_click', {
                 'event_category': 'click',

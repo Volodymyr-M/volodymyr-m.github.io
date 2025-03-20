@@ -91,7 +91,7 @@ hero:
     other_versions:
       title: Diğer sürümler
   rating:
-    stars: ★★★★★
+    stars: 5
     text: 5 yıldız
   image: hero-workspace.png
 

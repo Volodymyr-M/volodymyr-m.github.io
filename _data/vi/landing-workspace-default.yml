@@ -89,7 +89,7 @@ hero:
     other_versions:
       title: Phiên bản khác
   rating:
-    stars: ★★★★★
+    stars: 5
     text: Đánh giá 5 sao
   image: hero-workspace.png
 

@@ -91,7 +91,7 @@ hero:
     other_versions:
       title: Other versions
   rating:
-    stars: ★★★★★
+    stars: 5
     text: 5 stars on
   image: hero-workspace.png
   also: Also works with Google Drive for @gmail.com users!

@@ -89,7 +89,7 @@ hero:
     other_versions:
       title: Versi lain
   rating:
-    stars: ★★★★★
+    stars: 5
     text: 5 bintang
   image: hero-workspace.png
 

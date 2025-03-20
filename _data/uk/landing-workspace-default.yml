@@ -91,7 +91,7 @@ hero:
     other_versions:
       title: Інші версії
   rating:
-    stars: ★★★★★
+    stars: 5
     text: Оцінка 5 зірок
   image: hero-workspace.png
 

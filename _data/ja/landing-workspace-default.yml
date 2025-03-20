@@ -91,7 +91,7 @@ hero:
     other_versions:
       title: その他のバージョン
   rating:
-    stars: ★★★★★
+    stars: 5
     text: 5つ星を獲得
   image: hero-workspace.png
 

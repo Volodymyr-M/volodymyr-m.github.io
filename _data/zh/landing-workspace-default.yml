@@ -89,7 +89,7 @@ hero:
     other_versions:
       title: 其他版本
   rating:
-    stars: ★★★★★
+    stars: 5
     text: 5星好评
   image: hero-workspace.png
 
