@@ -1,93 +1,15 @@
-lang_name: English
-title_tag: Ingantt - Modern Gantt Chart Project Planning in Google Workspace with AI
-meta_keywords: gantt chart, timeline maker, ai timeline generator, gantt chart maker, gantt chart template, ai timeline creator, gantt ai generator, gantt chart free, ms project alternative, gantt diagram app, gantt planning, project management gantt chart, best gantt chart software
-meta_description: Ingantt - AI-powered project management tool for Google Workspace. Plan, schedule, and track your projects on the Web with Gantt charts and AI. Alternative to MS Project.
+title_tag: Ingantt - Modern Gantt Chart Project Planning for Web with AI
+meta_keywords: gantt chart web app, online gantt chart, web gantt chart, gantt chart maker, gantt chart template, ai timeline creator, gantt ai generator, gantt chart free, ms project alternative, gantt diagram app, gantt planning, project management gantt chart, best gantt chart software
+meta_description: Ingantt for Web - AI-powered project management tool accessible from any browser. Plan, schedule, and track your projects with Gantt charts and AI. No installation required.
 
-page_url: workspace_page
-platform_url: workspace_url
-store_image: google_workspace_marketplace.png
-platform_image: google_workspace.png
-
-products:
-  - icon: fa-solid fa-globe
-    text: Ingantt for Web
-    platform: Web
-    url: web_page
-  - icon: fa-brands fa-google
-    text: Ingantt for Google Workspace
-    platform: Google Workspace
-    url: workspace_page
-  - icon: fab fa-android
-    text: Ingantt for Android
-    platform: Android
-    url: android_page
-  - icon: fab fa-app-store-ios
-    text: Ingantt for iOS
-    platform: iOS
-    url: ios_page
-  - icon: fab fa-windows
-    text: Ingantt for Windows
-    platform: Windows
-    url: windows_page
-  - icon: fab fa-apple
-    text: Ingantt for macOS
-    platform: macOS
-    url: macos_page
-
-header:
-  logo_text: Ingantt
-
-footer:
-  sections:
-    products:
-      title: Products
-    
-    legal:
-      title: Legal
-      items:
-        - text: Privacy Policy
-          url: privacy_policy_page
-        - text: Terms of Service
-          url: terms_of_service_page
-    
-    connect:
-      title: Learn more
-      items:
-        - icon: fa fa-info-circle
-          text: Documentation
-          url: docs_url
-          open_in_new_tab: true
-        - icon: fa fa-blog
-          text: Blog
-          url: blog_page
-        - icon: fa fa-envelope
-          text: Email us
-          url: support_email
-      social_links:
-        - icon: fab fa-x-twitter
-          title: X (Twitter)
-          url: twitter_url
-        - icon: fab fa-bluesky
-          title: Bluesky
-          url: bluesky_url
-        - icon: fab fa-youtube
-          title: YouTube
-          url: youtube_url
-    
-    site_settings:
-      title: Site Settings
-      language:
-        current:
-          icon: fas fa-globe
-      theme_toggle:
-        text: Toggle dark mode
-        icon: fas fa-adjust
-
-  copyright: Ingantt Development. All rights reserved.
+page_url: web_page
+platform_url: web_url
+store_image: web_badge.png
+platform_image: web.png
 
 hero:
-  title: Gantt Chart Project Planning with AI in Google Workspace
-  subtitle: Transform your project planning with intelligent Gantt charts, seamless collaboration, and AI assistance - all within your Google Drive.
+  title: Gantt Chart Project Planning with AI in Your Browser
+  subtitle: Transform your project planning with intelligent Gantt charts and AI assistance - accessible from any device with a web browser.
   cta:
     primary:
       text: Try Free
@@ -95,29 +17,29 @@ hero:
     other_versions:
       title: Other versions
   rating:
-    stars: 5
-    text: 5 stars on
-  image: hero-workspace.png
-  also: Also works with Google Drive for @gmail.com users!
+    stars: 
+    text: 
+  image: hero-web.png
+  also: Works on any device with a modern browser!
 
 features_grid:
-  title: Why Project Managers Choose Ingantt
+  title: Why Project Managers Choose Ingantt for Web
   items:
+    - icon: fas fa-globe
+      title: Access Anywhere
+      description: Use from any device with a web browser - no installation or downloads required.
     - icon: fas fa-robot
       title: AI-Powered Planning
       description: Generate complete project plans from simple descriptions using our AI assistant.
-    - icon: fas fa-cloud
-      title: Native Google Integration
-      description: Works seamlessly with Google Drive, making collaboration natural and effortless.
     - icon: fas fa-file-import
       title: MS Project Compatible
       description: Import .MPP files and save to MS Project compatible XML - no compromises.
-    - icon: fas fa-mobile-alt
-      title: Works Everywhere
-      description: Full functionality on desktop, tablet, and mobile in your favorite browser.
+    - icon: fas fa-sync
+      title: Real-Time Updates
+      description: Always access the latest version with automatic updates and improvements.
 
 demo:
-  title: See Ingantt in Action
+  title: See Ingantt for Web in Action
   video_id: RhQNQVSOkfU
 
 testimonials:
@@ -217,18 +139,21 @@ features_detailed:
             title: Timeline Analysis
             description: Analyze critical path and track schedule variations
         video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
-    - id: collaboration
-      icon: fas fa-users
-      title: Collaboration
+    - id: accessibility
+      icon: fas fa-universal-access
+      title: Accessibility
       content:
-        title: Seamless Collaboration
+        title: Access Anywhere
         features:
           - icon: fas fa-check
-            title: Google Drive Integration
-            description: Share and collaborate using familiar Google Drive permissions
+            title: Cross-Platform Compatibility
+            description: Works on Windows, macOS, Linux, iOS, and Android - any device with a modern browser
           - icon: fas fa-check
-            title: Exchange using PDF, PNG or XML formats
-            description: MS Project's XML format is natively supported.
+            title: No Installation Required
+            description: Access directly from your browser without downloading or installing software
+          - icon: fas fa-check
+            title: Always Updated
+            description: Automatically receive the latest features and improvements
         video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
     - id: integration
       icon: fas fa-plug
@@ -237,19 +162,19 @@ features_detailed:
         title: Powerful Integrations
         features:
           - icon: fas fa-check
-            title: Google Workspace Integration
-            description: Use Ingantt as a regular Google Drive app
+            title: Cloud Storage Support
+            description: Save and open files from popular cloud storage services
           - icon: fas fa-check
             title: MS Project Compatibility
-            description: Import MS Project MPP files and always save to MS Project-compatible XML format.
+            description: Import MS Project MPP files and always save to MS Project-compatible XML format
           - icon: fas fa-check
             title: Export Options
-            description: Export to PDF and PNG
+            description: Export to PDF and PNG for easy sharing
         video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
 
 pricing:
   title: Simple, Transparent Pricing
-  subtitle: Ingantt for Google Workspace
+  subtitle: Ingantt for Web
   plans:
     - title: Free Trial
       price: $0
@@ -258,10 +183,10 @@ pricing:
         - Full Feature Access
         - AI Project Generation
         - MS Project Import/Export
-        - Google Drive Integration
+        - Cloud Storage Integration
       cta:
         text: Start Free Trial
-        url: workspace_url
+        url: web_url
         class: secondary
     - title: Professional
       price: $3.5
@@ -273,7 +198,7 @@ pricing:
         - Priority Support
       cta:
         text: Start Free Trial
-        url: workspace_url
+        url: web_url
         class: primary
     - title: Enterprise
       price: Custom
@@ -289,7 +214,7 @@ pricing:
         class: secondary
 
 features_list:
-  title: What You Can Do with Ingantt
+  title: What You Can Do with Ingantt for Web
   items:
     - icon: fas fa-brain
       title: Advanced Planning
@@ -309,8 +234,9 @@ features_list:
     - icon: fas fa-users
       title: Collaboration
       items:
-        - Google Drive for saving and sharing
-        - Exchange files in XML, PDF, or PNG - MS Project's XML format is natively supported.
+        - Cloud storage integration for saving and sharing
+        - Exchange files in XML, PDF, or PNG
+        - MS Project's XML format is natively supported
     - icon: fas fa-chart-line
       title: Advanced Tracking
       items:
@@ -330,27 +256,27 @@ features_list:
       items:
         - MS Project file compatibility (MPP and XML)
         - Export to PDF and PNG
-        - Google Drive integration
+        - Cloud storage integration
 
 faq:
   title: Frequently Asked Questions
   items:
-    - question: What is Ingantt and how does it work with Google Workspace?
-      answer: Ingantt is a professional Gantt chart project management tool that integrates seamlessly with Google Workspace. It allows you to create, manage, and share project plans directly from your Google Drive, making collaboration effortless for teams already using Google's ecosystem.
-    - question: Does Ingantt for Google Workspace work with regular Google accounts?
-      answer: Yes! If you don't use Google Workspace but have a regular Google (@gmail.com) account, you can still use Ingantt for Google Workspace. The app integrates seamlessly with your account's Google Drive.
+    - question: What is Ingantt for Web?
+      answer: Ingantt for Web is a professional Gantt chart project management tool that runs in your web browser. It allows you to create, manage, and share project plans from any device with a modern browser, without requiring any installation.
+    - question: Which browsers are supported?
+      answer: Ingantt for Web works with all modern browsers including Chrome, Firefox, Safari, Edge, and Opera. We recommend using the latest version of your preferred browser for the best experience.
     - question: Can I import my existing Microsoft Project files?
       answer: Yes! Ingantt fully supports importing .MPP and .XML files from Microsoft Project. All your project data, including tasks, resources, and dependencies, will be preserved during the import process.
     - question: How does the AI project generation work?
       answer: Our AI assistant can generate complete project plans from simple text descriptions. Just describe your project goals and requirements, and the AI will create a structured plan with tasks, timelines, and dependencies based on best project management practices.
     - question: What's included in the free trial?
-      answer: The 30-day free trial includes all Ingantt features and full Google Workspace integration. No credit card required to start.
-    - question: Can I use Ingantt for Google Workspace on mobile devices?
-      answer: Yes! Ingantt for Google Workspace works on any device with a web browser. Our responsive interface adapts perfectly to mobile phones and tablets, giving you full access to your projects on the go.
+      answer: The 30-day free trial includes all Ingantt features and full cloud storage integration. No credit card required to start.
+    - question: Does Ingantt for Web work offline?
+      answer: Ingantt for Web requires an internet connection to access initially, but once loaded, many features can work offline. Your work is automatically saved when you reconnect.
     - question: What happens to my data if I cancel my subscription?
-      answer: Your project files remain safely stored in your Google Drive even after cancellation. Your project files are stored in MS Project format, ensuring you never lose access to your data.
-    - question: How can I buy Ingantt for my teammates?
-      answer: Sign in to Ingantt with your Google account, click on your avatar in the top right corner and choose "Purchase subsciptions". Check "I want to purchase subscriptions for others" and enter Google-account emails of your coworkers. Choose the payment schedule (monthly or yearly) and proceed to checkout.
+      answer: Your project files remain safely stored in your chosen cloud storage even after cancellation. Your project files are stored in MS Project format, ensuring you never lose access to your data.
+    - question: How can I buy Ingantt for my team?
+      answer: Sign in to Ingantt with your account, click on your avatar in the top right corner and choose "Purchase subscriptions". Check "I want to purchase subscriptions for others" and enter the emails of your team members. Choose the payment schedule (monthly or yearly) and proceed to checkout.
   support:
     title: Get started planning with Ingantt
     docs:
@@ -361,24 +287,10 @@ faq:
       icon: fa fa-envelope
 
 cta:
-  title: Ready to Transform Your Team's Project Planning?
-  subtitle: Start your free trial today and experience the power of AI-driven project planning
+  title: Ready to Transform Your Project Planning?
+  subtitle: Start your free trial today and experience the power of AI-driven project planning in your browser
   button:
     text: Start Free Trial
 
 platform_support:
   title: Need a device-specific version for personal use?
-
-desktop_callback:
-  title: Ingantt
-  cta: Click "Open" in the dialog above.
-  success: Clicked? You may close this page.
-  issue: Something went wrong?
-  click: Retry.
-
-blog:
-  title: Ingantt Blog
-  subtitle: Stay up-to-date with the latest news and updates
-  title_tag: Ingantt Blog - latest news and updates from Ingantt team
-  meta_keywords: Ingantt, blog, news, Gantt for Google Workspace
-  meta_description: Stay up-to-date with the latest news and updates from Ingantt

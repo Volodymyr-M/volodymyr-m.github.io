@@ -1,0 +1,402 @@
+/* Web-specific theme overrides */
+.light-mode {
+    /* Modern Web Light Mode Colors */
+    --primary-color: #4285f4 !important; /* Google Blue */
+    --primary-hover: #5a95f5 !important;
+    --secondary-color: #34a853 !important; /* Google Green */
+    --accent-color: #ea4335 !important; /* Google Red */
+    --background: #f8f9fa !important; /* Light Gray */
+    --surface: #ffffff !important;
+    --surface-alt: #f1f3f4 !important;
+    --text-primary: #202124 !important; /* Dark Gray */
+    --text-secondary: #5f6368 !important; /* Medium Gray */
+    --text-on-gradient: #ffffff !important;
+    --text-muted: #80868b !important; /* Light Gray */
+    --border: #dadce0 !important;
+    --shadow: rgba(60, 64, 67, 0.1) !important;
+    
+    /* Light Mode Gradients */
+    --gradient-1: linear-gradient(135deg, #4285f4, #34a853) !important;
+    --gradient-2: linear-gradient(135deg, #ea4335, #fbbc05) !important;
+    --gradient-surface: linear-gradient(180deg, rgba(255,255,255,0.95), rgba(248,249,250,0.98)) !important;
+
+    /* Web specific */
+    --card-radius: 8px !important;
+    --button-radius: 4px !important;
+    --blur-effect: saturate(180%) blur(10px) !important;
+}
+
+.dark-mode {
+    /* Modern Web Dark Mode Colors */
+    --primary-color: #8ab4f8 !important; /* Light Blue */
+    --primary-hover: #aecbfa !important;
+    --secondary-color: #81c995 !important; /* Light Green */
+    --accent-color: #f28b82 !important; /* Light Red */
+    --background: #202124 !important; /* Dark Gray */
+    --surface: #292a2d !important;
+    --surface-alt: #35363a !important;
+    --text-primary: #e8eaed !important; /* White */
+    --text-secondary: #bdc1c6 !important; /* Light Gray */
+    --text-muted: #9aa0a6 !important; /* Medium Gray */
+    --border: #5f6368 !important;
+    --shadow: rgba(0, 0, 0, 0.3) !important;
+
+    --card-radius: 8px !important;
+    --button-radius: 4px !important;
+    --blur-effect: saturate(180%) blur(10px) !important;
+    
+    /* Dark Mode Gradients */
+    --gradient-1: linear-gradient(135deg, #8ab4f8, #81c995) !important;
+    --gradient-2: linear-gradient(135deg, #f28b82, #fdd663) !important;
+    --gradient-surface: linear-gradient(180deg, rgba(41,42,45,0.95), rgba(32,33,36,0.98)) !important;
+}
+
+/* Enhanced styles with Modern Web Design Language */
+body {
+    color: var(--text-primary) !important;
+    background-color: var(--background) !important;
+    transition: all 0.2s ease !important;
+    font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif !important;
+    line-height: 1.5 !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+/* Web-style buttons */
+.cta-button.primary {
+    background: var(--primary-color) !important;
+    color: white !important;
+    border: none !important;
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    border-radius: var(--button-radius) !important;
+    transition: all 0.2s ease !important;
+    box-shadow: 0 1px 3px var(--shadow) !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+.dark-mode .cta-button.primary {
+    background: var(--primary-color) !important;
+}
+
+.cta-button.primary:hover {
+    background: var(--primary-hover) !important;
+    box-shadow: 0 2px 6px var(--shadow) !important;
+}
+
+.cta-button.secondary {
+    background: transparent !important;
+    color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color) !important;
+    padding: 0.75rem 1.5rem !important;
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    border-radius: var(--button-radius) !important;
+    transition: all 0.2s ease !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
+}
+
+.cta-button.secondary:hover {
+    background: rgba(66, 133, 244, 0.08) !important;
+}
+
+/* Web-style cards with material design shadows */
+.card, .feature-card, .pricing-card {
+    background: var(--surface) !important;
+    border: none !important;
+    border-radius: var(--card-radius) !important;
+    padding: 1.5rem !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15) !important;
+}
+
+.card:hover, .feature-card:hover, .pricing-card:hover {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15) !important;
+}
+
+/* Web-style testimonials */
+.testimonial-card {
+    background: var(--surface) !important;
+    border: none !important;
+    border-radius: var(--card-radius) !important;
+    padding: 1.5rem !important;
+    position: relative !important;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15) !important;
+}
+
+.testimonial-card:hover {
+    box-shadow: 0 1px 3px 0 rgba(60, 64, 67, 0.3), 0 4px 8px 3px rgba(60, 64, 67, 0.15) !important;
+}
+
+.testimonial-text {
+    color: var(--text-primary) !important;
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+    font-weight: 400 !important;
+    margin-bottom: 1.5rem !important;
+    position: relative !important;
+}
+
+.testimonial-author {
+    color: var(--text-primary) !important;
+    font-weight: 500 !important;
+    font-size: 1rem !important;
+    margin-bottom: 0.25rem !important;
+}
+
+.testimonial-position {
+    color: var(--text-secondary) !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+}
+
+.testimonial-rating {
+    color: #fbbc05 !important;  /* Google Yellow */
+    margin-bottom: 1rem !important;
+    font-size: 1.1rem !important;
+}
+
+/* Section styling */
+section {
+    background: var(--surface) !important;
+    border-bottom: 1px solid var(--border) !important;
+    padding: 4rem 0 !important;
+}
+
+section:nth-child(even) {
+    background: var(--surface-alt) !important;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--text-primary) !important;
+    font-weight: 400 !important;
+    line-height: 1.3 !important;
+}
+
+h1 {
+    font-size: 2.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+h2 {
+    font-size: 2rem !important;
+    color: var(--primary-color) !important;
+    margin-bottom: 1.5rem !important;
+}
+
+h3 {
+    font-size: 1.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+p {
+    color: var(--text-secondary) !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.6 !important;
+    font-size: 1rem !important;
+}
+
+/* Web-style dropdown */
+.language-dropdown {
+    background: var(--surface) !important;
+    border: none !important;
+    border-radius: var(--card-radius) !important;
+    box-shadow: 0 2px 10px var(--shadow) !important;
+    padding: 0.5rem !important;
+}
+
+.language-dropdown a {
+    color: var(--text-primary) !important;
+    padding: 0.5rem 1rem !important;
+    transition: all 0.2s ease !important;
+    display: block !important;
+    border-radius: 4px !important;
+    font-size: 0.9rem !important;
+}
+
+.language-dropdown a:hover {
+    background: var(--surface-alt) !important;
+    color: var(--primary-color) !important;
+}
+
+/* Feature tabs styling */
+.feature-tab {
+    border: none !important;
+    background: transparent !important;
+    color: var(--text-secondary) !important;
+    padding: 0.75rem 1.25rem !important;
+    border-radius: 4px !important;
+    transition: all 0.2s ease !important;
+    font-weight: 500 !important;
+}
+
+.feature-tab:hover {
+    background: rgba(66, 133, 244, 0.08) !important;
+    color: var(--primary-color) !important;
+}
+
+.feature-tab.active {
+    background: var(--primary-color) !important;
+    color: white !important;
+}
+
+/* Feature list styling */
+.feature-list li {
+    margin-bottom: 1.5rem !important;
+    display: flex !important;
+    align-items: flex-start !important;
+}
+
+.feature-list li i {
+    color: var(--secondary-color) !important;
+    margin-right: 1rem !important;
+    font-size: 1.25rem !important;
+    margin-top: 0.25rem !important;
+}
+
+/* Hero section enhancements */
+.hero {
+    position: relative !important;
+    overflow: hidden !important;
+}
+
+.hero::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: linear-gradient(135deg, rgba(66, 133, 244, 0.1), rgba(52, 168, 83, 0.1)) !important;
+    z-index: -1 !important;
+}
+
+.dark-mode .hero::before {
+    background: linear-gradient(135deg, rgba(138, 180, 248, 0.1), rgba(129, 201, 149, 0.1)) !important;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem !important;
+    font-weight: 300 !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem !important;
+    color: var(--text-secondary) !important;
+    margin-bottom: 2rem !important;
+    max-width: 600px !important;
+}
+
+/* Pricing card enhancements */
+.pricing-card.featured {
+    border: 2px solid var(--primary-color) !important;
+    transform: scale(1.05) !important;
+}
+
+.pricing-card .price {
+    font-size: 2.5rem !important;
+    font-weight: 300 !important;
+    color: var(--primary-color) !important;
+}
+
+.pricing-features li {
+    margin-bottom: 0.75rem !important;
+    color: var(--text-secondary) !important;
+}
+
+.pricing-features li i {
+    color: var(--secondary-color) !important;
+    margin-right: 0.5rem !important;
+}
+
+/* Web-style animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0 !important;
+    }
+    to {
+        opacity: 1 !important;
+    }
+}
+
+.card, .feature-card, .pricing-card, .testimonial-card {
+    animation: fadeIn 0.5s ease-out forwards !important;
+}
+
+/* FAQ styling */
+.faq-question {
+    cursor: pointer !important;
+    padding: 1rem !important;
+    border-radius: 4px !important;
+    background: var(--surface) !important;
+    margin-bottom: 0.5rem !important;
+    transition: all 0.2s ease !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.faq-question:hover {
+    background: var(--surface-alt) !important;
+}
+
+.faq-question h3 {
+    margin: 0 !important;
+    font-size: 1.1rem !important;
+    font-weight: 500 !important;
+}
+
+.faq-answer {
+    padding: 0 1rem 1rem !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem !important;
+    }
+    
+    h2 {
+        font-size: 1.75rem !important;
+    }
+    
+    .hero-content h1 {
+        font-size: 2rem !important;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem !important;
+    }
+    
+    .pricing-card.featured {
+        transform: scale(1) !important;
+    }
+}
+
+/* Add web-specific icon for the platform */
+.fa-globe-americas:before {
+    content: "\f57d";
+}
+
+/* Custom scrollbar for web theme */
+::-webkit-scrollbar {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--surface-alt) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color) !important;
+    border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--primary-hover) !important;
+}
