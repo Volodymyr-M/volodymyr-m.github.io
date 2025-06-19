@@ -246,7 +246,7 @@ pricing:
   plans:
     - title: Dùng thử miễn phí
       price: $0
-      duration: 30 ngày
+      duration: 14 ngày
       features:
         - Truy cập đầy đủ tất cả tính năng
         - Tạo dự án với AI
@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Professional
-      price: $3.5
+      price: $5
       duration: mỗi người dùng/tháng
-      annual_price: hoặc $35/người dùng/năm
+      annual_price: hoặc $50/người dùng/năm
       featured: true
       features:
         - Mọi thứ có trong Dùng thử miễn phí
@@ -335,7 +335,7 @@ faq:
     - question: AI tạo dự án hoạt động thế nào?
       answer: Trợ lý AI của chúng tôi có thể tạo kế hoạch dự án hoàn chỉnh từ mô tả văn bản đơn giản. Bạn chỉ cần mô tả mục tiêu và yêu cầu dự án, AI sẽ xây dựng kế hoạch có cấu trúc với công việc, lịch trình và các quan hệ phụ thuộc dựa trên các phương pháp quản lý dự án tốt nhất.
     - question: Dùng thử miễn phí bao gồm những gì?
-      answer: Thời gian dùng thử miễn phí 30 ngày bao gồm tất cả tính năng của Ingantt và tích hợp đầy đủ với Google Workspace. Không cần thẻ tín dụng để bắt đầu.
+      answer: Thời gian dùng thử miễn phí 14 ngày bao gồm tất cả tính năng của Ingantt và tích hợp đầy đủ với Google Workspace. Không cần thẻ tín dụng để bắt đầu.
     - question: Tôi có thể dùng Ingantt cho Google Workspace trên thiết bị di động không?
       answer: Được! Ingantt cho Google Workspace hoạt động trên bất kỳ thiết bị nào có trình duyệt web. Giao diện phản hồi (responsive) của chúng tôi phù hợp hoàn hảo với điện thoại thông minh và máy tính bảng, giúp bạn truy cập đầy đủ dự án mọi lúc mọi nơi.
     - question: Điều gì xảy ra với dữ liệu của tôi nếu tôi hủy gói đăng ký?

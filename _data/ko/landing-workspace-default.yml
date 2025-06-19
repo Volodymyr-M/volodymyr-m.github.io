@@ -246,7 +246,7 @@ pricing:
   plans:
     - title: 무료 체험
       price: $0
-      duration: 30일
+      duration: 14일
       features:
         - 모든 기능 완전 접근
         - AI 기반 프로젝트 생성
@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: 프로페셔널
-      price: $3.5
+      price: $5
       duration: 사용자/월
-      annual_price: 또는 연간 사용자당 $35
+      annual_price: 또는 연간 사용자당 $50
       featured: true
       features:
         - 무료 체험의 모든 기능
@@ -335,7 +335,7 @@ faq:
     - question: AI 기반 프로젝트 생성은 어떻게 작동하나요?
       answer: AI 어시스턴트가 간단한 텍스트 설명에서 전체 프로젝트 계획을 생성할 수 있습니다. 프로젝트 목표와 요구사항을 설명하기만 하면 AI가 최적의 프로젝트 관리 방법론에 기반해 작업, 일정, 종속성을 갖춘 계획을 만들어 줍니다.
     - question: 무료 체험에는 무엇이 포함되나요?
-      answer: 30일 무료 체험에는 Ingantt의 모든 기능과 Google Workspace와의 완벽한 통합이 포함됩니다. 시작하기 위해 신용카드는 필요 없습니다.
+      answer: 14일 무료 체험에는 Ingantt의 모든 기능과 Google Workspace와의 완벽한 통합이 포함됩니다. 시작하기 위해 신용카드는 필요 없습니다.
     - question: Google Workspace용 Ingantt를 모바일 기기에서도 사용할 수 있나요?
       answer: 네! Ingantt for Google Workspace는 웹 브라우저가 있는 어떤 기기에서도 동작합니다. 반응형 UI는 스마트폰과 태블릿에 최적화되어 있어 이동 중에도 프로젝트를 완전히 관리할 수 있습니다.
     - question: 구독을 취소하면 내 데이터는 어떻게 되나요?

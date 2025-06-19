@@ -248,7 +248,7 @@ pricing:
   plans:
     - title: Kostenlose Testversion
       price: $0
-      duration: 30 Tage
+      duration: 14 Tage
       features:
         - Voller Funktionsumfang
         - KI-Projektgenerierung
@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Professional
-      price: $3.5
+      price: $5
       duration: pro Nutzer/Monat
-      annual_price: oder $35/Nutzer jährlich
+      annual_price: oder $50/Nutzer jährlich
       featured: true
       features:
         - Alles aus der kostenlosen Testversion
@@ -337,7 +337,7 @@ faq:
     - question: Wie funktioniert die KI-basierte Projektgenerierung?
       answer: Unser KI-Assistent kann vollständige Projektpläne aus einfachen Textbeschreibungen generieren. Beschreiben Sie Ihre Projektziele und -anforderungen, und die KI erstellt einen strukturierten Plan mit Aufgaben, Zeitrahmen und Abhängigkeiten auf Basis bewährter Methoden des Projektmanagements.
     - question: Was ist in der kostenlosen Testversion enthalten?
-      answer: Die 30-tägige kostenlose Testversion enthält alle Funktionen von Ingantt sowie die vollständige Google-Workspace-Integration. Es ist keine Kreditkarte erforderlich, um zu starten.
+      answer: Die 14-tägige kostenlose Testversion enthält alle Funktionen von Ingantt sowie die vollständige Google-Workspace-Integration. Es ist keine Kreditkarte erforderlich, um zu starten.
     - question: Kann ich Ingantt für Google Workspace auch auf mobilen Geräten nutzen?
       answer: Ja! Ingantt für Google Workspace funktioniert auf jedem Gerät mit einem Webbrowser. Die responsive Benutzeroberfläche passt sich perfekt an Smartphones und Tablets an, damit Sie Ihre Projekte auch unterwegs jederzeit im Blick haben.
     - question: Was passiert mit meinen Daten, wenn ich mein Abonnement kündige?

@@ -248,7 +248,7 @@ pricing:
   plans:
     - title: Ücretsiz Deneme
       price: $0
-      duration: 30 gün
+      duration: 14 gün
       features:
         - Tüm Özelliklere Erişim
         - Yapay Zeka ile Proje Oluşturma
@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Profesyonel
-      price: $3.5
+      price: $5
       duration: kullanıcı/ay
-      annual_price: veya yıllık kullanıcı başına $35
+      annual_price: veya yıllık kullanıcı başına $50
       featured: true
       features:
         - Ücretsiz Deneme’deki her şey
@@ -337,7 +337,7 @@ faq:
     - question: Yapay zeka ile proje oluşturma nasıl çalışıyor?
       answer: Yapay zeka asistanımız, basit metin açıklamalarından kapsamlı proje planları oluşturabilir. Proje hedeflerinizi ve gereksinimlerinizi tanımlamanız yeterli; yapay zeka, en iyi proje yönetimi uygulamalarına dayanarak görevler, zaman çizelgesi ve bağımlılıklar içeren yapıyı oluşturur.
     - question: Ücretsiz deneme neleri içeriyor?
-      answer: 30 günlük ücretsiz deneme, Ingantt’ın tüm özelliklerini ve tam Google Workspace entegrasyonunu içerir. Başlamak için kredi kartı gerekmez.
+      answer: 14 günlük ücretsiz deneme, Ingantt’ın tüm özelliklerini ve tam Google Workspace entegrasyonunu içerir. Başlamak için kredi kartı gerekmez.
     - question: Ingantt’ı Google Workspace için mobil cihazlarda kullanabilir miyim?
       answer: Evet! Ingantt for Google Workspace, web tarayıcısı olan herhangi bir cihazda çalışır. Duyarlı arayüzümüz akıllı telefon ve tabletlere mükemmel uyum sağlar, böylece projelerinize her yerden erişebilirsiniz.
     - question: Aboneliğimi iptal edersem verilerime ne olur?

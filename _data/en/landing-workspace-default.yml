@@ -249,7 +249,7 @@ pricing:
   plans:
     - title: Free Trial
       price: $0
-      duration: 30 days
+      duration: 14 days
       features:
         - Full Feature Access
         - AI Project Generation
@@ -260,9 +260,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Professional
-      price: $3.5
+      price: $5
       duration: per user/month
-      annual_price: or $35/user annually
+      annual_price: or $50/user annually
       featured: true
       features:
         - Everything in Free Trial
@@ -340,7 +340,7 @@ faq:
     - question: How does the AI project generation work?
       answer: Our AI assistant can generate complete project plans from simple text descriptions. Just describe your project goals and requirements, and the AI will create a structured plan with tasks, timelines, and dependencies based on best project management practices.
     - question: What's included in the free trial?
-      answer: The 30-day free trial includes all Ingantt features and full Google Workspace integration. No credit card required to start.
+      answer: The 14-day free trial includes all Ingantt features and full Google Workspace integration. No credit card required to start.
     - question: Can I use Ingantt for Google Workspace on mobile devices?
       answer: Yes! Ingantt for Google Workspace works on any device with a web browser. Our responsive interface adapts perfectly to mobile phones and tablets, giving you full access to your projects on the go.
     - question: What happens to my data if I cancel my subscription?

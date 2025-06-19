@@ -248,7 +248,7 @@ pricing:
   plans:
     - title: Bezpłatny Okres Próbny
       price: $0
-      duration: 30 dni
+      duration: 14 dni
       features:
         - Pełny dostęp do wszystkich funkcji
         - Generowanie projektów z SI
@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Professional
-      price: $3.5
+      price: $5
       duration: za użytkownika/mies.
-      annual_price: lub $35/użytkownik rocznie
+      annual_price: lub $50/użytkownik rocznie
       featured: true
       features:
         - Wszystko z Bezpłatnego Okresu Próbnego
@@ -337,7 +337,7 @@ faq:
     - question: Jak działa generowanie projektów za pomocą SI?
       answer: Nasz asystent SI potrafi stworzyć kompletny plan projektu z prostego opisu tekstowego. Wystarczy przedstawić cele i wymagania projektu, a SI wygeneruje uporządkowany plan z zadaniami, harmonogramem i zależnościami opartymi na najlepszych praktykach zarządzania projektami.
     - question: Co obejmuje bezpłatny okres próbny?
-      answer: 30-dniowy darmowy okres próbny obejmuje wszystkie funkcje Ingantt oraz pełną integrację z Google Workspace. Nie jest wymagana karta kredytowa, aby rozpocząć.
+      answer: 14-dniowy darmowy okres próbny obejmuje wszystkie funkcje Ingantt oraz pełną integrację z Google Workspace. Nie jest wymagana karta kredytowa, aby rozpocząć.
     - question: Czy mogę używać Ingantt dla Google Workspace na urządzeniach mobilnych?
       answer: Tak! Ingantt dla Google Workspace działa na dowolnym urządzeniu z przeglądarką internetową. Nasz responsywny interfejs doskonale dopasowuje się do smartfonów i tabletów, zapewniając pełny dostęp do projektów w dowolnym miejscu.
     - question: Co dzieje się z moimi danymi po anulowaniu subskrypcji?

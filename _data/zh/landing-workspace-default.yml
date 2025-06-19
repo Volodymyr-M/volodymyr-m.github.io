@@ -246,7 +246,7 @@ pricing:
   plans:
     - title: 免费试用
       price: $0
-      duration: 30天
+      duration: 14天
       features:
         - 访问全部功能
         - AI生成项目计划
@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: 专业版
-      price: $3.5
+      price: $5
       duration: 每用户/每月
-      annual_price: 或每用户每年$35
+      annual_price: 或每用户每年$50
       featured: true
       features:
         - 免费试用中的全部功能
@@ -335,7 +335,7 @@ faq:
     - question: 如何利用AI进行项目生成？
       answer: 我们的AI助手能从简短文字描述生成完整的项目计划。只需描述您的项目目标和需求，AI便可基于最佳项目管理实践提供包含任务、时间线、依赖关系的结构化计划。
     - question: 免费试用包含什么？
-      answer: 30天免费试用包括Ingantt的所有功能和与Google Workspace的完整集成。无需信用卡即可开始。
+      answer: 14天免费试用包括Ingantt的所有功能和与Google Workspace的完整集成。无需信用卡即可开始。
     - question: 我能在移动设备上使用Ingantt for Google Workspace吗？
       answer: 当然可以！Ingantt for Google Workspace可在任何带浏览器的设备上运行。我们自适应的界面能完美适配智能手机和平板电脑，让您随时随地访问项目。
     - question: 如果我取消订阅，我的数据怎么办？

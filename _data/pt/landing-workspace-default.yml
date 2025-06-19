@@ -248,7 +248,7 @@ pricing:
   plans:
     - title: Versão gratuita de teste
       price: $0
-      duration: 30 dias
+      duration: 14 dias
       features:
         - Acesso total a recursos
         - Geração de projetos com IA
@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Profissional
-      price: $3.5
+      price: $5
       duration: por usuário/mês
-      annual_price: ou $35/usuário por ano
+      annual_price: ou $50/usuário por ano
       featured: true
       features:
         - Tudo que há na Versão de teste gratuita
@@ -337,7 +337,7 @@ faq:
     - question: Como funciona a geração de projetos com IA?
       answer: Nosso assistente de IA pode gerar planos de projeto completos a partir de descrições de texto simples. Basta descrever seus objetivos e requisitos, e a IA criará um plano estruturado com tarefas, cronogramas e dependências com base nas melhores práticas de gerenciamento de projetos.
     - question: O que está incluído na versão gratuita de teste?
-      answer: A versão de teste de 30 dias inclui todos os recursos do Ingantt e a integração completa com Google Workspace. Não é necessário cartão de crédito para começar.
+      answer: A versão de teste de 14 dias inclui todos os recursos do Ingantt e a integração completa com Google Workspace. Não é necessário cartão de crédito para começar.
     - question: Posso usar o Ingantt para Google Workspace em dispositivos móveis?
       answer: Sim! O Ingantt para Google Workspace funciona em qualquer dispositivo com navegador. Nossa interface responsiva adapta-se perfeitamente a smartphones e tablets, oferecendo acesso total aos seus projetos em qualquer lugar.
     - question: O que acontece com meus dados se eu cancelar minha assinatura?

@@ -246,7 +246,7 @@ pricing:
   plans:
     - title: Uji Coba Gratis
       price: $0
-      duration: 30 hari
+      duration: 14 hari
       features:
         - Akses Penuh ke Semua Fitur
         - Pembuatan Proyek dengan AI
@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Profesional
-      price: $3.5
+      price: $5
       duration: per pengguna/bulan
-      annual_price: atau $35/pengguna per tahun
+      annual_price: atau $50/pengguna per tahun
       featured: true
       features:
         - Semua Fitur di Uji Coba Gratis
@@ -335,7 +335,7 @@ faq:
     - question: Bagaimana cara kerja pembuatan proyek dengan AI?
       answer: Asisten AI kami dapat menghasilkan rencana proyek lengkap dari deskripsi teks sederhana. Cukup jelaskan tujuan dan persyaratan proyek Anda, dan AI akan menyusun rencana terstruktur dengan tugas, garis waktu, dan ketergantungan berdasarkan praktik manajemen proyek terbaik.
     - question: Apa yang termasuk dalam uji coba gratis?
-      answer: Uji coba gratis 30 hari mencakup semua fitur Ingantt dan integrasi penuh dengan Google Workspace. Tidak perlu kartu kredit untuk memulai.
+      answer: Uji coba gratis 14 hari mencakup semua fitur Ingantt dan integrasi penuh dengan Google Workspace. Tidak perlu kartu kredit untuk memulai.
     - question: Bisakah saya menggunakan Ingantt untuk Google Workspace di perangkat seluler?
       answer: Tentu saja! Ingantt untuk Google Workspace berfungsi di perangkat apa pun yang memiliki browser web. Antarmuka responsif kami menyesuaikan dengan sempurna pada smartphone dan tablet, memberikan Anda akses penuh ke proyek di mana pun Anda berada.
     - question: Apa yang terjadi pada data saya jika saya membatalkan langganan?

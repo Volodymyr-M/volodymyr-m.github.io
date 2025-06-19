@@ -246,7 +246,7 @@ pricing:
   plans:
     - title: Percubaan Percuma
       price: $0
-      duration: 30 hari
+      duration: 14 hari
       features:
         - Akses Penuh Kepada Semua Ciri
         - Penjanaan Projek dengan AI
@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Profesional
-      price: $3.5
+      price: $5
       duration: setiap pengguna/bulan
-      annual_price: atau $35/pengguna setahun
+      annual_price: atau $50/pengguna setahun
       featured: true
       features:
         - Segala yang ada dalam Percubaan Percuma
@@ -335,7 +335,7 @@ faq:
     - question: Bagaimana penjanaan projek dengan AI berfungsi?
       answer: Pembantu AI kami boleh menjana pelan projek lengkap daripada deskripsi teks ringkas. Huraikan matlamat dan keperluan projek anda, dan AI akan membina pelan berstruktur dengan tugasan, garis masa dan kebergantungan berdasarkan amalan terbaik pengurusan projek.
     - question: Apakah yang termasuk dalam percubaan percuma?
-      answer: Percubaan percuma 30 hari termasuk semua ciri Ingantt dan integrasi penuh dengan Google Workspace. Tiada kad kredit diperlukan untuk bermula.
+      answer: Percubaan percuma 14 hari termasuk semua ciri Ingantt dan integrasi penuh dengan Google Workspace. Tiada kad kredit diperlukan untuk bermula.
     - question: Bolehkah saya menggunakan Ingantt untuk Google Workspace pada peranti mudah alih?
       answer: Ya! Ingantt untuk Google Workspace berfungsi pada mana-mana peranti dengan pelayar web. Antara muka responsif kami menyesuaikan diri dengan sempurna untuk telefon pintar dan tablet, membolehkan anda mengakses projek sepenuhnya di mana sahaja.
     - question: Apakah yang terjadi kepada data saya jika saya membatalkan langganan?
