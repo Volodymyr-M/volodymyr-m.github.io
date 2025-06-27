@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Profesional
-      price: $5
+      price: $5.99
       duration: per pengguna/bulan
-      annual_price: atau $50/pengguna per tahun
+      annual_price: atau $59.99/pengguna per tahun
       featured: true
       features:
         - Semua Fitur di Uji Coba Gratis

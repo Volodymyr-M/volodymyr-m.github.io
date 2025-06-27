@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Professional
-      price: $5
+      price: $5.99
       duration: za użytkownika/mies.
-      annual_price: lub $50/użytkownik rocznie
+      annual_price: lub $59.99/użytkownik rocznie
       featured: true
       features:
         - Wszystko z Bezpłatnego Okresu Próbnego

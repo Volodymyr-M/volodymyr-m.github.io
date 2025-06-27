@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Professional
-      price: $5
+      price: $5.99
       duration: ต่อผู้ใช้/เดือน
-      annual_price: หรือ $50/ผู้ใช้ต่อปี
+      annual_price: หรือ $59.99/ผู้ใช้ต่อปี
       featured: true
       features:
         - ทุกอย่างในช่วงทดลองฟรี

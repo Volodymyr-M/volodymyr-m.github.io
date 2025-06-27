@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: प्रोफेशनल
-      price: $5
+      price: $5.99
       duration: प्रति यूज़र/महीना
-      annual_price: या $50/यूज़र वार्षिक
+      annual_price: या $59.99/यूज़र वार्षिक
       featured: true
       features:
         - मुफ़्त ट्रायल में मिलने वाले सभी फ़ीचर्स

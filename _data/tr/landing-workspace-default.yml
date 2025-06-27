@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Profesyonel
-      price: $5
+      price: $5.99
       duration: kullanıcı/ay
-      annual_price: veya yıllık kullanıcı başına $50
+      annual_price: veya yıllık kullanıcı başına $59.99
       featured: true
       features:
         - Ücretsiz Deneme’deki her şey

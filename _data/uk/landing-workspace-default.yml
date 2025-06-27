@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Професійний
-      price: $5
+      price: $5.99
       duration: за користувача/місяць
-      annual_price: або $50/користувач на рік
+      annual_price: або $59.99/користувач на рік
       featured: true
       features:
         - Усе з безкоштовної пробної версії

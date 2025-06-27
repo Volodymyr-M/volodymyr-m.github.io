@@ -247,7 +247,7 @@ pricing:
   subtitle: Ingantt für Google Workspace
   plans:
     - title: Kostenlose Testversion
-      price: $0
+      price: €0
       duration: 14 Tage
       features:
         - Voller Funktionsumfang
@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Professional
-      price: $5
+      price: €5.1
       duration: pro Nutzer/Monat
-      annual_price: oder $50/Nutzer jährlich
+      annual_price: oder €51.1/Nutzer jährlich
       featured: true
       features:
         - Alles aus der kostenlosen Testversion

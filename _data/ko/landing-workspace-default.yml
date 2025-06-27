@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: 프로페셔널
-      price: $5
+      price: $5.99
       duration: 사용자/월
-      annual_price: 또는 연간 사용자당 $50
+      annual_price: 또는 연간 사용자당 $59.99
       featured: true
       features:
         - 무료 체험의 모든 기능

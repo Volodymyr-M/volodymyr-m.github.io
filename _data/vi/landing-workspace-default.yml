@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: Professional
-      price: $5
+      price: $5.99
       duration: mỗi người dùng/tháng
-      annual_price: hoặc $50/người dùng/năm
+      annual_price: hoặc $59.99/người dùng/năm
       featured: true
       features:
         - Mọi thứ có trong Dùng thử miễn phí

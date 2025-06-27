@@ -259,9 +259,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: プロフェッショナル
-      price: $5
+      price: $5.99
       duration: 1ユーザー/月
-      annual_price: または年額$50/ユーザー
+      annual_price: または年額$59.99/ユーザー
       featured: true
       features:
         - 無料トライアルのすべての機能

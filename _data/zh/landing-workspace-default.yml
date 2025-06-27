@@ -257,9 +257,9 @@ pricing:
         url: workspace_url
         class: secondary
     - title: 专业版
-      price: $5
+      price: $5.99
       duration: 每用户/每月
-      annual_price: 或每用户每年$50
+      annual_price: 或每用户每年$59.99
       featured: true
       features:
         - 免费试用中的全部功能
