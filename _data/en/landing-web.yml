@@ -94,7 +94,7 @@ hero:
     stars: 5
     text: 5 stars on
   image: hero-workspace.png
-  also: Any device, any browser, any time!
+  also: 
 
 features_grid:
   title: Why Project Managers Choose Ingantt
