@@ -1,0 +1,374 @@
+lang_name: हिन्दी
+title_tag: Ingantt - AI के साथ Gantt चार्ट प्रोजेक्ट प्लानिंग किसी भी ब्राउज़र में
+meta_keywords: गैंट चार्ट, टाइमलाइन मेकर, एआई टाइमलाइन जनरेटर, गैंट चार्ट मेकर, गैंट चार्ट टेम्पलेट, एआई टाइमलाइन क्रिएटर, गैंट एआई जनरेटर, गैंट चार्ट फ्री, एमएस प्रोजेक्ट विकल्प, गैंट डायग्राम ऐप, गैंट प्लानिंग, प्रोजेक्ट मैनेजमेंट गैंट चार्ट, बेस्ट गैंट चार्ट सॉफ्टवेयर
+meta_description: Ingantt - वेब के लिए AI-संचालित प्रोजेक्ट प्रबंधन टूल। Gantt चार्ट्स और AI के साथ अपने प्रोजेक्ट्स की योजना बनाएं, अनुसूची बनाएं और ट्रैक करें। MS Project का विकल्प।
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+products:
+  - icon: fa-solid fa-globe
+    text: Ingantt वेब के लिए
+    platform: Web
+    url: web_page
+  - icon: fab fa-android
+    text: Ingantt एंड्रॉइड के लिए
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt iOS के लिए
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt विंडोज़ के लिए
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt macOS के लिए
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: उत्पाद
+    legal:
+      title: कानूनी
+      items:
+        - text: गोपनीयता नीति
+          url: privacy_policy_page
+        - text: सेवा की शर्तें
+          url: terms_of_service_page
+    connect:
+      title: और जानें
+      items:
+        - icon: fa fa-info-circle
+          text: प्रलेखन
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: ब्लॉग
+          url: blog_page
+        - icon: fa fa-envelope
+          text: हमें ईमेल करें
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    site_settings:
+      title: साइट सेटिंग्स
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: डार्क मोड टॉगल करें
+        icon: fas fa-adjust
+  copyright: Ingantt Development. सर्वाधिकार सुरक्षित।
+
+hero:
+  title: AI के साथ Gantt चार्ट प्रोजेक्ट प्लानिंग
+  subtitle: अपने प्रोजेक्ट प्लानिंग को बुद्धिमान Gantt चार्ट्स, सहज सहयोग और AI सहायता के साथ बदलें - वह भी आपके वेब ब्राउज़र में।
+  cta:
+    primary:
+      text: फ्री में आज़माएं
+      text_fits: true
+    other_versions:
+      title: अन्य संस्करण
+  rating:
+    stars: 5
+    text: 5 स्टार्स ऑन
+  image: hero-workspace.png
+  also: 
+
+features_grid:
+  title: प्रोजेक्ट मैनेजर्स Ingantt क्यों चुनते हैं
+  items:
+    - icon: fas fa-robot
+      title: AI-संचालित योजना
+      description: हमारे AI सहायक के साथ सरल विवरणों से संपूर्ण प्रोजेक्ट योजनाएँ बनाएं।
+    - icon: fas fa-cloud
+      title: नेटिव Google इंटीग्रेशन
+      description: Google Drive के साथ सहजता से काम करता है, जिससे सहयोग स्वाभाविक और आसान होता है।
+    - icon: fas fa-file-import
+      title: MS Project संगत
+      description: .MPP फाइलें इम्पोर्ट करें और MS Project संगत XML में सेव करें - बिना समझौता किए।
+    - icon: fas fa-mobile-alt
+      title: हर जगह काम करता है
+      description: आपके पसंदीदा ब्राउज़र में डेस्कटॉप, टैबलेट और मोबाइल पर पूरी कार्यक्षमता।
+
+demo:
+  title: Ingantt को एक्शन में देखें
+  video_id: RhQNQVSOkfU
+
+testimonials:
+  title: विश्वभर के प्रोजेक्ट मैनेजर्स द्वारा भरोसेमंद
+  show_more:
+    text: और दिखाएं
+    icon: fas fa-chevron-down
+  show_less:
+    text: कम दिखाएं
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: सबसे बेहतरीन Gantt ऐप जो आपको केवल अपने फॉर्मेट या क्लाउड में सीमित नहीं करती।
+      author:
+        name: Noah Wilson
+        title: प्रोग्राम डायरेक्टर
+    - rating: ★★★★★
+      text: AI प्रोजेक्ट प्लान जनरेशन मेरे लिए गेम चेंजर है। मैं इसे अपने प्रोजेक्ट प्लान्स के लिए शुरुआती बिंदु और प्रेरणा के रूप में उपयोग करता हूँ।
+      author:
+        name: Alexander Hall
+        title: एजाइल कोच
+    - rating: ★★★★★
+      text: मैं इसे Microsoft Project फाइल्स के लिए MPP व्यूअर और एडिटर के रूप में भी उपयोग करता हूँ।
+      author:
+        name: Amelia Clark
+        title: प्रोजेक्ट कोऑर्डिनेटर
+    - rating: ★★★★★
+      text: आखिरकार कोई Microsoft Project विकल्प जो बढ़िया काम करता है!
+      author:
+        name: Isabella Moore
+        title: टीम लीड (प्रोजेक्ट मैनेजमेंट)
+      is_hidden: true
+    - rating: ★★★★★
+      text: यह उम्मीद के मुताबिक काम करता है और मैं इससे बहुत खुश हूँ।
+      author:
+        name: Benjamin Lee
+        title: एजाइल कोच
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project की पूरी ताकत बहुत छोटे पैकेज में!
+      author:
+        name: Mia Harris
+        title: प्रोजेक्ट मैनेजमेंट ट्रेनर
+      is_hidden: true
+    - rating: ★★★★★
+      text: सहज, संरचित Gantt चार्ट्स बनाए जा सकते हैं जिनमें माइलस्टोन्स और संसाधन योजना, मैन्युअल प्रगति ट्रैकिंग सहित।
+      author:
+        name: Emma Rodriguez
+        title: प्रोडक्ट मैनेजर
+      is_hidden: true
+    - rating: ★★★★★
+      text: प्रतिस्पर्धियों से तेज़ चलता है, क्योंकि मैं महसूस कर सकता हूँ कि टाइमलाइन स्क्रॉल करना और प्रोजेक्ट खोलना अन्य ऐप्स की तुलना में सच में तेज़ है। थम्स अप!
+      author:
+        name: Ethan Walker
+        title: प्रोग्राम मैनेजर
+      is_hidden: true
+    - rating: ★★★★★
+      text: उत्कृष्ट प्रोग्राम!
+      author:
+        name: Harper Thompson
+        title: PMO डायरेक्टर (प्रोजेक्ट मैनेजमेंट ऑफिस)
+      is_hidden: true
+
+features_detailed:
+  title: सफल प्रोजेक्ट प्लानिंग के लिए सब कुछ
+  subtitle: आधुनिक प्रोजेक्ट मैनेजर्स के लिए शक्तिशाली फीचर्स
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: योजना
+      content:
+        title: AI-संचालित योजना
+        features:
+          - icon: fas fa-check
+            title: AI प्रोजेक्ट जनरेटर
+            description: उन्नत AI के साथ सरल टेक्स्ट विवरणों से संपूर्ण प्रोजेक्ट योजनाएँ बनाएं
+          - icon: fas fa-check
+            title: आसान शेड्यूलिंग
+            description: अपने प्रोजेक्ट प्लान के किसी भी हिस्से को अपडेट करें और तुरंत समग्र परिणाम देखें।
+          - icon: fas fa-check
+            title: परिचितता
+            description: क्या आपके पास MS Project या समान सॉफ़्टवेयर का अनुभव है? उनका उपयोग करें!
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
+    - id: tracking
+      icon: fas fa-chart-line
+      title: ट्रैकिंग
+      content:
+        title: उन्नत ट्रैकिंग
+        features:
+          - icon: fas fa-check
+            title: प्रगति निगरानी
+            description: पूर्णता प्रतिशत और माइलस्टोन प्रगति को ट्रैक करें
+          - icon: fas fa-check
+            title: संसाधन उपयोग
+            description: संसाधन आवंटन की निगरानी करें और संभावित बाधाओं की पहचान करें
+          - icon: fas fa-check
+            title: टाइमलाइन विश्लेषण
+            description: क्रिटिकल पाथ का विश्लेषण करें और शेड्यूल विविधताओं को ट्रैक करें
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
+    - id: collaboration
+      icon: fas fa-users
+      title: सहयोग
+      content:
+        title: सहज सहयोग
+        features:
+          - icon: fas fa-check
+            title: Google Drive इंटीग्रेशन
+            description: परिचित Google Drive अनुमतियों का उपयोग करके साझा करें और सहयोग करें
+          - icon: fas fa-check
+            title: PDF, PNG या XML का उपयोग करके एक्सचेंज
+            description: MS Project का XML फॉर्मेट मूल रूप से समर्थित है।
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: एकीकरण
+      content:
+        title: शक्तिशाली एकीकरण
+        features:
+          - icon: fas fa-check
+            title: Google Workspace इंटीग्रेशन
+            description: Ingantt को एक सामान्य Google Drive ऐप की तरह उपयोग करें
+          - icon: fas fa-check
+            title: MS Project संगतता
+            description: MS Project MPP फाइलें इम्पोर्ट करें और हमेशा MS Project-संगत XML फॉर्मेट में सेव करें।
+          - icon: fas fa-check
+            title: एक्सपोर्ट विकल्प
+            description: PDF और PNG में एक्सपोर्ट करें
+        video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
+
+pricing:
+  title: सरल, पारदर्शी मूल्य निर्धारण
+  subtitle: Ingantt वेब के लिए
+  plans:
+    - title: फ्री ट्रायल
+      price: "$0"
+      duration: 14 दिन
+      features:
+        - सभी फीचर्स तक पूर्ण पहुँच
+        - AI प्रोजेक्ट जनरेशन
+        - MS Project इम्पोर्ट/एक्सपोर्ट
+        - Google Drive इंटीग्रेशन
+      cta:
+        text: फ्री ट्रायल शुरू करें
+        url: web_url
+        class: secondary
+    - title: प्रोफेशनल
+      price: "$5.99"
+      duration: प्रति उपयोगकर्ता/माह
+      annual_price: या $59.99/उपयोगकर्ता वार्षिक
+      featured: true
+      features:
+        - फ्री ट्रायल में सब कुछ
+        - प्राथमिकता समर्थन
+      cta:
+        text: फ्री ट्रायल शुरू करें
+        url: web_url
+        class: primary
+    - title: एंटरप्राइज
+      price: कस्टम
+      duration: बड़े टीमों के लिए
+      features:
+        - प्रोफेशनल में सब कुछ
+        - कस्टम इंटीग्रेशन
+        - समर्पित समर्थन
+        - SLA गारंटी
+      cta:
+        text: सेल्स से संपर्क करें
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Ingantt के साथ आप क्या कर सकते हैं
+  items:
+    - icon: fas fa-brain
+      title: उन्नत योजना
+      items:
+        - AI के साथ सरल टेक्स्ट विवरणों से प्रोजेक्ट योजनाएँ बनाएं
+        - कोई भी अपडेट करें और तुरंत बदलाव देखें
+        - पूर्णता तिथि का अनुमान लगाएं और संभावित बाधाओं की पहले से पहचान करें
+        - लागत की योजना बनाएं
+    - icon: fas fa-tasks
+      title: कार्य प्रबंधन
+      items:
+        - प्रोजेक्ट्स को कार्यों में विभाजित करें
+        - कार्य निर्भरता और समयसीमा सेट करें
+        - कार्यों को माइलस्टोन के रूप में चिह्नित करें
+        - क्रिटिकल पाथ ट्रैक करें
+        - कार्य पूर्णता स्थिति ट्रैक करें
+    - icon: fas fa-users
+      title: सहयोग
+      items:
+        - सहेजने और साझा करने के लिए Google Drive
+        - XML, PDF, या PNG में फाइलें एक्सचेंज करें - MS Project का XML फॉर्मेट मूल रूप से समर्थित है।
+    - icon: fas fa-chart-line
+      title: उन्नत ट्रैकिंग
+      items:
+        - संसाधन आवंटन की निगरानी करें
+        - क्रिटिकल पाथ का विश्लेषण करें
+        - संसाधन उपयोग की निगरानी करें
+        - टाइमलाइन विश्लेषण
+    - icon: fas fa-calendar-alt
+      title: संसाधन प्रबंधन
+      items:
+        - कार्य, सामग्री और लागत संसाधनों का प्रबंधन करें
+        - संसाधन कैलेंडर और कार्य समय सेट करें
+        - अधिक आवंटित संसाधनों को स्वतः स्तरित करें
+        - समय के साथ संसाधन उपयोग की समीक्षा करें
+    - icon: fas fa-plug
+      title: एकीकरण
+      items:
+        - MS Project फाइल संगतता (MPP और XML)
+        - PDF और PNG में एक्सपोर्ट करें
+        - Google Drive इंटीग्रेशन
+
+faq:
+  title: अक्सर पूछे जाने वाले प्रश्न
+  items:
+    - question: Ingantt क्या है और यह कैसे काम करता है?
+      answer: Ingantt एक पेशेवर Gantt चार्ट प्रोजेक्ट प्रबंधन टूल है जो आपको अपने Google Drive से सीधे प्रोजेक्ट योजनाएँ बनाने, प्रबंधित करने और साझा करने की सुविधा देता है, जिससे उन टीमों के लिए सहयोग आसान हो जाता है जो पहले से ही Google पारिस्थितिकी तंत्र का उपयोग करती हैं।
+    - question: क्या मैं अपनी मौजूदा Microsoft Project फाइलें इम्पोर्ट कर सकता हूँ?
+      answer: हाँ! Ingantt Microsoft Project की .MPP और .XML फाइलों को पूरी तरह से इम्पोर्ट करने का समर्थन करता है। आपकी सभी प्रोजेक्ट डेटा, जिसमें कार्य, संसाधन और निर्भरता शामिल हैं, इम्पोर्ट प्रक्रिया के दौरान संरक्षित रहेंगे।
+    - question: AI प्रोजेक्ट जनरेशन कैसे काम करता है?
+      answer: हमारा AI सहायक सरल टेक्स्ट विवरणों से संपूर्ण प्रोजेक्ट योजनाएँ बना सकता है। बस अपने प्रोजेक्ट के लक्ष्य और आवश्यकताओं का वर्णन करें, और AI सर्वोत्तम प्रोजेक्ट प्रबंधन प्रथाओं के आधार पर कार्य, समयसीमा और निर्भरता के साथ एक संरचित योजना बनाएगा।
+    - question: फ्री ट्रायल में क्या शामिल है?
+      answer: 14-दिन की फ्री ट्रायल में Ingantt की सभी सुविधाएँ शामिल हैं। शुरू करने के लिए क्रेडिट कार्ड की आवश्यकता नहीं है।
+    - question: क्या मैं Ingantt वेब को मोबाइल डिवाइस पर उपयोग कर सकता हूँ?
+      answer: हाँ! Ingantt वेब किसी भी डिवाइस पर वेब ब्राउज़र के साथ काम करता है। हमारा उत्तरदायी इंटरफ़ेस मोबाइल फोन और टैबलेट के लिए पूरी तरह से अनुकूलित है, जिससे आप चलते-फिरते अपने प्रोजेक्ट्स तक पूरी पहुँच प्राप्त कर सकते हैं।
+    - question: यदि मैं अपनी सदस्यता रद्द करता हूँ तो मेरे डेटा का क्या होगा?
+      answer: आपकी प्रोजेक्ट फाइल्स आपकी सदस्यता रद्द करने के बाद भी आपके Google Drive में सुरक्षित रूप से संग्रहीत रहेंगी। आपकी प्रोजेक्ट फाइल्स MS Project फॉर्मेट में संग्रहीत होती हैं, जिससे आप कभी भी अपने डेटा तक पहुँच नहीं खोते।
+    - question: मैं अपने टीममेट्स के लिए Ingantt कैसे खरीद सकता हूँ?
+      answer: अपने Google खाते से Ingantt में साइन इन करें, ऊपर दाईं ओर अपने अवतार पर क्लिक करें और "सदस्यता खरीदें" चुनें। एक प्लान चुनें (वार्षिक या मासिक), फिर "मैं दूसरों के लिए सदस्यता खरीदना चाहता हूँ" चेक करें और अपने सहकर्मियों के Google खाते दर्ज करें।
+  support:
+    title: Ingantt के साथ योजना बनाना शुरू करें
+    docs:
+      text: प्रलेखन देखें
+    contact:
+      title: और सवाल हैं?<br>सहायता के लिए किसी असली व्यक्ति से संपर्क करें!
+      text: हमें ईमेल करें
+      icon: fa fa-envelope
+
+cta:
+  title: क्या आप अपनी टीम की प्रोजेक्ट प्लानिंग को बदलने के लिए तैयार हैं?
+  subtitle: आज ही अपनी फ्री ट्रायल शुरू करें और AI-संचालित प्रोजेक्ट प्लानिंग की शक्ति का अनुभव करें
+  button:
+    text: फ्री ट्रायल शुरू करें
+
+platform_support:
+  title: व्यक्तिगत उपयोग के लिए डिवाइस-विशिष्ट संस्करण चाहिए?
+
+desktop_callback:
+  title: Ingantt
+  cta: ऊपर दिए गए डायलॉग में "Open" पर क्लिक करें।
+  success: क्लिक किया? आप इस पेज को बंद कर सकते हैं।
+  issue: कुछ गड़बड़ हुई?
+  click: पुनः प्रयास करें।
+
+blog:
+  title: Ingantt ब्लॉग
+  subtitle: नवीनतम समाचार और अपडेट्स से अपडेट रहें
+  title_tag: Ingantt ब्लॉग - Ingantt टीम की नवीनतम खबरें और अपडेट्स
+  meta_keywords: Ingantt, ब्लॉग, समाचार, Google Workspace के लिए Gantt
+  meta_description: Ingantt की नवीनतम खबरों और अपडेट्स से अपडेट रहें

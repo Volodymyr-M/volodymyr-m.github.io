@@ -1,0 +1,374 @@
+lang_name: ไทย
+title_tag: Ingantt - วางแผนโครงการ Gantt Chart ด้วย AI ในทุกเบราว์เซอร์
+meta_keywords: แกนต์ชาร์ต, ผู้สร้างไทม์ไลน์, ตัวสร้างไทม์ไลน์ ai, ผู้สร้างแกนต์ชาร์ต, เทมเพลตแกนต์ชาร์ต, ผู้สร้างไทม์ไลน์ ai, ตัวสร้าง gantt ai, แกนต์ชาร์ตฟรี, ทางเลือก ms project, แอปแกนต์ไดอะแกรม, การวางแผน gantt, การจัดการโครงการแกนต์ชาร์ต, ซอฟต์แวร์แกนต์ชาร์ตที่ดีที่สุด
+meta_description: Ingantt - เครื่องมือจัดการโครงการที่ขับเคลื่อนด้วย AI สำหรับเว็บ วางแผน กำหนดเวลา และติดตามโครงการของคุณบนเว็บด้วยแกนต์ชาร์ตและ AI ทางเลือกของ MS Project
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+products:
+  - icon: fa-solid fa-globe
+    text: Ingantt สำหรับเว็บ
+    platform: Web
+    url: web_page
+  - icon: fab fa-android
+    text: Ingantt สำหรับ Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt สำหรับ iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt สำหรับ Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt สำหรับ macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: ผลิตภัณฑ์
+    legal:
+      title: กฎหมาย
+      items:
+        - text: นโยบายความเป็นส่วนตัว
+          url: privacy_policy_page
+        - text: ข้อกำหนดการให้บริการ
+          url: terms_of_service_page
+    connect:
+      title: เรียนรู้เพิ่มเติม
+      items:
+        - icon: fa fa-info-circle
+          text: เอกสารประกอบ
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: บล็อก
+          url: blog_page
+        - icon: fa fa-envelope
+          text: ติดต่อเรา
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    site_settings:
+      title: การตั้งค่าเว็บไซต์
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: สลับโหมดมืด
+        icon: fas fa-adjust
+  copyright: Ingantt Development. สงวนลิขสิทธิ์
+
+hero:
+  title: วางแผนโครงการ Gantt Chart ด้วย AI
+  subtitle: เปลี่ยนวิธีการวางแผนโครงการของคุณด้วยแกนต์ชาร์ตอัจฉริยะ การทำงานร่วมกันที่ใช้งานง่าย และผู้ช่วย AI—ทั้งหมดในเบราว์เซอร์ของคุณ
+  cta:
+    primary:
+      text: ทดลองใช้ฟรี
+      text_fits: true
+    other_versions:
+      title: เวอร์ชันอื่น ๆ
+  rating:
+    stars: 5
+    text: 5 ดาวจาก
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: ทำไมผู้จัดการโครงการถึงเลือก Ingantt
+  items:
+    - icon: fas fa-robot
+      title: วางแผนด้วย AI
+      description: สร้างแผนโครงการที่สมบูรณ์จากคำอธิบายสั้น ๆ ด้วยผู้ช่วย AI ของเรา
+    - icon: fas fa-cloud
+      title: การผสานรวมกับ Google โดยตรง
+      description: ทำงานร่วมกับ Google Drive ได้อย่างราบรื่น ทำให้การทำงานร่วมกันเป็นเรื่องง่ายและเป็นธรรมชาติ
+    - icon: fas fa-file-import
+      title: รองรับ MS Project
+      description: นำเข้าไฟล์ .MPP และบันทึกเป็น XML ที่รองรับ MS Project—โดยไม่ลดทอน
+    - icon: fas fa-mobile-alt
+      title: ใช้งานได้ทุกที่
+      description: ฟังก์ชันครบถ้วนทั้งเดสก์ท็อป แท็บเล็ต และมือถือในเบราว์เซอร์ที่คุณเลือก
+
+demo:
+  title: ดู Ingantt ในการใช้งานจริง
+  video_id: RhQNQVSOkfU
+
+testimonials:
+  title: ได้รับความไว้วางใจจากผู้จัดการโครงการทั่วโลก
+  show_more:
+    text: แสดงเพิ่มเติม
+    icon: fas fa-chevron-down
+  show_less:
+    text: แสดงน้อยลง
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: แอป Gantt ที่ดีที่สุดที่ไม่จำกัดคุณในรูปแบบหรือคลาวด์ของพวกเขา
+      author:
+        name: Noah Wilson
+        title: ผู้อำนวยการโปรแกรม
+    - rating: ★★★★★
+      text: การสร้างแผนโครงการด้วย AI เป็นเรื่องปฏิวัติสำหรับฉัน ฉันใช้เป็นจุดเริ่มต้นและแรงบันดาลใจสำหรับแผนของฉันเอง
+      author:
+        name: Alexander Hall
+        title: โค้ช Agile
+    - rating: ★★★★★
+      text: ฉันยังใช้เป็นโปรแกรมดูและแก้ไข MPP สำหรับไฟล์ Microsoft Project
+      author:
+        name: Amelia Clark
+        title: ผู้ประสานงานโครงการ
+    - rating: ★★★★★
+      text: ในที่สุดก็มีทางเลือกแทน Microsoft Project ที่ใช้งานได้จริง!
+      author:
+        name: Isabella Moore
+        title: หัวหน้าทีม (การจัดการโครงการ)
+      is_hidden: true
+    - rating: ★★★★★
+      text: ใช้งานได้ตามที่คาดหวังและฉันพอใจมาก
+      author:
+        name: Benjamin Lee
+        title: โค้ช Agile
+      is_hidden: true
+    - rating: ★★★★★
+      text: พลังของ MS Project ทั้งหมดในแพ็คเกจขนาดเล็ก!
+      author:
+        name: Mia Harris
+        title: โค้ชการจัดการโครงการ
+      is_hidden: true
+    - rating: ★★★★★
+      text: คุณสามารถสร้างแกนต์ชาร์ตที่ใช้งานง่ายและมีโครงสร้างดี รวมถึง milestone และการวางแผนทรัพยากร พร้อมการติดตามความคืบหน้าแบบแมนนวล
+      author:
+        name: Emma Rodriguez
+        title: ผู้จัดการผลิตภัณฑ์
+      is_hidden: true
+    - rating: ★★★★★
+      text: เร็วกว่าคู่แข่ง เพราะฉันรู้สึกจริง ๆ ว่าการเลื่อน timeline และเปิดโปรเจกต์เร็วกว่าแอปอื่น ๆ มาก ดีที่สุด!
+      author:
+        name: Ethan Walker
+        title: ผู้อำนวยการโปรแกรม
+      is_hidden: true
+    - rating: ★★★★★
+      text: โปรแกรมยอดเยี่ยม!
+      author:
+        name: Harper Thompson
+        title: ผู้อำนวยการ PMO (สำนักงานบริหารโครงการ)
+      is_hidden: true
+
+features_detailed:
+  title: ทุกสิ่งที่คุณต้องการสำหรับการวางแผนที่ประสบความสำเร็จ
+  subtitle: ฟีเจอร์ทรงพลังสำหรับผู้จัดการโครงการยุคใหม่
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: การวางแผน
+      content:
+        title: วางแผนด้วย AI
+        features:
+          - icon: fas fa-check
+            title: ตัวสร้างโครงการ AI
+            description: สร้างแผนโครงการที่สมบูรณ์จากคำอธิบายข้อความสั้น ๆ ด้วย AI ขั้นสูง
+          - icon: fas fa-check
+            title: วางแผนง่าย
+            description: อัปเดตส่วนใดก็ได้ของแผนและดูผลกระทบโดยรวมทันที
+          - icon: fas fa-check
+            title: ความคุ้นเคย
+            description: มีประสบการณ์กับ MS Project หรือซอฟต์แวร์คล้ายกันหรือไม่? ใช้ประโยชน์ที่นี่!
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
+    - id: tracking
+      icon: fas fa-chart-line
+      title: การติดตาม
+      content:
+        title: การติดตามขั้นสูง
+        features:
+          - icon: fas fa-check
+            title: การติดตามความคืบหน้า
+            description: ติดตามเปอร์เซ็นต์เสร็จสิ้นและ milestone
+          - icon: fas fa-check
+            title: การใช้ทรัพยากร
+            description: ตรวจสอบการจัดสรรทรัพยากรและระบุอุปสรรค
+          - icon: fas fa-check
+            title: การวิเคราะห์ไทม์ไลน์
+            description: วิเคราะห์ critical path และติดตามการเปลี่ยนแปลงกำหนดการ
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
+    - id: collaboration
+      icon: fas fa-users
+      title: การทำงานร่วมกัน
+      content:
+        title: การทำงานร่วมกันที่ใช้งานง่าย
+        features:
+          - icon: fas fa-check
+            title: การผสานรวมกับ Google Drive
+            description: แชร์และทำงานร่วมกันโดยใช้สิทธิ์ของ Google Drive ที่คุณคุ้นเคย
+          - icon: fas fa-check
+            title: ส่งออก PDF, PNG หรือ XML
+            description: รองรับรูปแบบ XML ของ MS Project โดยตรง
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: การผสานรวม
+      content:
+        title: การผสานรวมที่ทรงพลัง
+        features:
+          - icon: fas fa-check
+            title: การผสานรวมกับ Google Workspace
+            description: ใช้ Ingantt เหมือนเป็นแอป Google Drive ปกติ
+          - icon: fas fa-check
+            title: รองรับ MS Project
+            description: นำเข้าไฟล์ MPP จาก MS Project และบันทึกเป็น XML ที่รองรับ MS Project เสมอ
+          - icon: fas fa-check
+            title: ตัวเลือกการส่งออก
+            description: ส่งออกเป็น PDF และ PNG
+        video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
+
+pricing:
+  title: ราคาง่าย & โปร่งใส
+  subtitle: สำหรับ Ingantt Web
+  plans:
+    - title: ทดลองใช้งานฟรี
+      price: "$0"
+      duration: 14 วัน
+      features:
+        - เข้าถึงฟีเจอร์ทั้งหมดได้เต็มที่
+        - ตัวสร้างโครงการ AI
+        - นำเข้า/ส่งออก MS Project
+        - การผสานรวมกับ Google Drive
+      cta:
+        text: เริ่มทดลองใช้งานฟรี
+        url: web_url
+        class: secondary
+    - title: มืออาชีพ
+      price: "$5.99"
+      duration: ต่อผู้ใช้/เดือน
+      annual_price: หรือ $59.99/ผู้ใช้/ปี
+      featured: true
+      features:
+        - ทุกอย่างในทดลองใช้งานฟรี
+        - การสนับสนุนแบบพิเศษ
+      cta:
+        text: เริ่มทดลองใช้งานฟรี
+        url: web_url
+        class: primary
+    - title: องค์กร
+      price: กำหนดเอง
+      duration: สำหรับทีมขนาดใหญ่
+      features:
+        - ทุกอย่างในมืออาชีพ
+        - การผสานรวมแบบกำหนดเอง
+        - การสนับสนุนเฉพาะทาง
+        - รับประกัน SLA
+      cta:
+        text: ติดต่อฝ่ายขาย
+        url: support_email
+        class: secondary
+
+features_list:
+  title: คุณสามารถทำอะไรกับ Ingantt ได้บ้าง
+  items:
+    - icon: fas fa-brain
+      title: การวางแผนขั้นสูง
+      items:
+        - สร้างแผนโครงการจากคำอธิบายข้อความสั้น ๆ ด้วย AI
+        - อัปเดตอะไรก็ได้และดูการเปลี่ยนแปลงทันที
+        - คาดการณ์วันเสร็จสิ้นและระบุอุปสรรคแต่เนิ่น ๆ
+        - วางแผนค่าใช้จ่าย
+    - icon: fas fa-tasks
+      title: การจัดการงาน
+      items:
+        - แบ่งโครงการออกเป็นงาน
+        - กำหนดความสัมพันธ์และกำหนดส่งของงาน
+        - ทำเครื่องหมายงานเป็น milestone
+        - ติดตาม critical path
+        - ตรวจสอบสถานะความคืบหน้าของงาน
+    - icon: fas fa-users
+      title: การทำงานร่วมกัน
+      items:
+        - บันทึกและแชร์กับ Google Drive
+        - แปลงไฟล์เป็น XML, PDF หรือ PNG—รองรับ XML ของ MS Project โดยตรง
+    - icon: fas fa-chart-line
+      title: การติดตามขั้นสูง
+      items:
+        - ตรวจสอบการจัดสรรทรัพยากร
+        - วิเคราะห์ critical path
+        - ตรวจสอบการใช้ทรัพยากร
+        - วิเคราะห์ไทม์ไลน์
+    - icon: fas fa-calendar-alt
+      title: การจัดการทรัพยากร
+      items:
+        - จัดการทรัพยากรงาน วัสดุ และค่าใช้จ่าย
+        - กำหนดปฏิทินทรัพยากรและเวลาทำงาน
+        - ปรับสมดุลทรัพยากรส่วนเกินโดยอัตโนมัติ
+        - ตรวจสอบการใช้ทรัพยากรตลอดเวลา
+    - icon: fas fa-plug
+      title: การผสานรวม
+      items:
+        - รองรับไฟล์ MS Project (MPP และ XML)
+        - ส่งออกเป็น PDF และ PNG
+        - การผสานรวมกับ Google Drive
+
+faq:
+  title: คำถามที่พบบ่อย
+  items:
+    - question: Ingantt คืออะไรและทำงานอย่างไร?
+      answer: Ingantt คือเครื่องมือจัดการโครงการระดับมืออาชีพที่มีแกนต์ชาร์ต ช่วยให้คุณสร้าง จัดการ และแชร์แผนโครงการได้โดยตรงจาก Google Drive ของคุณ ทำให้ทีมที่ใช้ระบบนิเวศของ Google ทำงานร่วมกันได้ง่าย
+    - question: ฉันสามารถนำเข้าไฟล์ Microsoft Project ที่มีอยู่ได้ไหม?
+      answer: ได้! Ingantt รองรับการนำเข้าไฟล์ .MPP และ .XML ของ Microsoft Project อย่างเต็มที่ ข้อมูลโครงการทั้งหมดของคุณ—รวมถึงงาน ทรัพยากร และความสัมพันธ์—จะถูกเก็บไว้ระหว่างการนำเข้า
+    - question: การสร้างโครงการด้วย AI ทำงานอย่างไร?
+      answer: ผู้ช่วย AI ของเราสามารถสร้างแผนโครงการที่สมบูรณ์จากคำอธิบายข้อความสั้น ๆ เพียงอธิบายเป้าหมายและความต้องการของโครงการของคุณ AI จะสร้างแผนที่มีโครงสร้างพร้อมงาน กำหนดส่ง และความสัมพันธ์ตามแนวทางปฏิบัติที่ดีที่สุดในการจัดการโครงการ
+    - question: ทดลองใช้งานฟรีมีอะไรบ้าง?
+      answer: ทดลองใช้งานฟรี 14 วันรวมฟีเจอร์ทั้งหมดของ Ingantt ไม่ต้องใช้บัตรเครดิตในการเริ่มต้น
+    - question: ฉันสามารถใช้ Ingantt Web บนอุปกรณ์มือถือได้ไหม?
+      answer: ได้! Ingantt Web ใช้งานได้บนทุกอุปกรณ์ที่มีเบราว์เซอร์ เว็บอินเทอร์เฟซของเราได้รับการปรับให้เหมาะสมสำหรับสมาร์ทโฟนและแท็บเล็ตอย่างเต็มที่ คุณจึงเข้าถึงโครงการของคุณได้ทุกที่
+    - question: ข้อมูลของฉันจะเกิดอะไรขึ้นหากยกเลิกการสมัครสมาชิก?
+      answer: ไฟล์โครงการของคุณจะยังคงปลอดภัยใน Google Drive ของคุณแม้หลังจากยกเลิกการสมัครสมาชิก ไฟล์ของคุณจะถูกเก็บในรูปแบบ MS Project คุณจะไม่สูญเสียการเข้าถึงข้อมูล
+    - question: ฉันจะซื้อ Ingantt ให้เพื่อนร่วมงานได้อย่างไร?
+      answer: ลงชื่อเข้าใช้ Ingantt ด้วยบัญชี Google ของคุณ คลิกอวาตาร์ที่มุมขวาบนแล้วเลือก "ซื้อการสมัครสมาชิก" เลือกแผน (รายปีหรือรายเดือน) จากนั้นเลือก "ฉันต้องการซื้อการสมัครสมาชิกให้ผู้อื่น" และป้อนบัญชี Google ของเพื่อนร่วมงาน
+  support:
+    title: เริ่มวางแผนกับ Ingantt
+    docs:
+      text: ดูเอกสารประกอบ
+    contact:
+      title: มีคำถามอื่นหรือไม่?<br>ติดต่อฝ่ายสนับสนุนของเรา!
+      text: ติดต่อเรา
+      icon: fa fa-envelope
+
+cta:
+  title: พร้อมที่จะเปลี่ยนวิธีที่ทีมของคุณวางแผนโครงการหรือยัง?
+  subtitle: เริ่มทดลองใช้งานฟรีวันนี้และสัมผัสพลังของการวางแผนโครงการด้วย AI
+  button:
+    text: เริ่มทดลองใช้งานฟรี
+
+platform_support:
+  title: ต้องการเวอร์ชันเฉพาะสำหรับอุปกรณ์ของคุณหรือไม่?
+
+desktop_callback:
+  title: Ingantt
+  cta: คลิก "Open" ในกล่องโต้ตอบด้านบน
+  success: คลิกแล้วใช่ไหม? คุณสามารถปิดหน้านี้ได้เลย
+  issue: มีปัญหาหรือไม่?
+  click: ลองอีกครั้ง
+
+blog:
+  title: บล็อก Ingantt
+  subtitle: อัปเดตข่าวสารและข้อมูลล่าสุด
+  title_tag: บล็อก Ingantt - ข่าวสารและอัปเดตจากทีมงาน Ingantt
+  meta_keywords: Ingantt, บล็อก, ข่าว, Gantt สำหรับ Google Workspace
+  meta_description: อัปเดตข่าวสารและข้อมูลล่าสุดจากทีมงาน Ingantt

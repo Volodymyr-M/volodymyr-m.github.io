@@ -1,0 +1,374 @@
+lang_name: Português
+title_tag: Ingantt - Planejamento de Projetos com Gráfico de Gantt e IA em qualquer navegador
+meta_keywords: gráfico de gantt, criador de cronogramas, gerador de cronogramas ia, criador de gráfico de gantt, modelo de gráfico de gantt, criador de cronogramas ia, gerador gantt ia, gráfico de gantt grátis, alternativa ao ms project, aplicativo de gráfico de gantt, planejamento de gantt, gerenciamento de projetos gráfico de gantt, melhor software de gráfico de gantt
+meta_description: Ingantt - Ferramenta de gerenciamento de projetos com IA para a Web. Planeje, agende e acompanhe seus projetos na Web com gráficos de Gantt e IA. Alternativa ao MS Project.
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+products:
+  - icon: fa-solid fa-globe
+    text: Ingantt para Web
+    platform: Web
+    url: web_page
+  - icon: fab fa-android
+    text: Ingantt para Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt para iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt para Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt para macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: Produtos
+    legal:
+      title: Legal
+      items:
+        - text: Política de Privacidade
+          url: privacy_policy_page
+        - text: Termos de Serviço
+          url: terms_of_service_page
+    connect:
+      title: Saiba Mais
+      items:
+        - icon: fa fa-info-circle
+          text: Documentação
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: Blog
+          url: blog_page
+        - icon: fa fa-envelope
+          text: Contato
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    site_settings:
+      title: Configurações do Site
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: Alternar Modo Escuro
+        icon: fas fa-adjust
+  copyright: Ingantt Development. Todos os direitos reservados.
+
+hero:
+  title: Planejamento de Projetos com Gráfico de Gantt e IA
+  subtitle: Transforme a forma como você planeja projetos com gráficos de Gantt inteligentes, colaboração intuitiva e assistência de IA—direto no seu navegador.
+  cta:
+    primary:
+      text: Experimente Grátis
+      text_fits: true
+    other_versions:
+      title: Outras Versões
+  rating:
+    stars: 5
+    text: 5 estrelas de
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Por que Gerentes de Projeto Escolhem o Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Planejamento com IA
+      description: Gere um plano de projeto completo a partir de uma breve descrição com nosso assistente de IA.
+    - icon: fas fa-cloud
+      title: Integração Nativa com Google
+      description: Funciona perfeitamente com o Google Drive, tornando a colaboração fácil e natural.
+    - icon: fas fa-file-import
+      title: Compatível com MS Project
+      description: Importe arquivos .MPP e salve em XML compatível com MS Project—sem compromissos.
+    - icon: fas fa-mobile-alt
+      title: Funciona em Qualquer Lugar
+      description: Funcionalidade completa em desktop, tablet e celular no navegador de sua escolha.
+
+demo:
+  title: Veja o Ingantt em Ação
+  video_id: RhQNQVSOkfU
+
+testimonials:
+  title: Confiado por Gerentes de Projeto no Mundo Todo
+  show_more:
+    text: Mostrar Mais
+    icon: fas fa-chevron-down
+  show_less:
+    text: Mostrar Menos
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: O melhor app de Gantt que não te limita ao formato ou nuvem deles.
+      author:
+        name: Noah Wilson
+        title: Diretor de Programas
+    - rating: ★★★★★
+      text: A geração de planos de projeto com IA é revolucionária para mim. Uso como ponto de partida e inspiração para meus próprios planos.
+      author:
+        name: Alexander Hall
+        title: Coach Ágil
+    - rating: ★★★★★
+      text: Também uso como visualizador e editor de MPP para arquivos do Microsoft Project.
+      author:
+        name: Amelia Clark
+        title: Coordenadora de Projetos
+    - rating: ★★★★★
+      text: Finalmente uma alternativa ao Microsoft Project que realmente funciona!
+      author:
+        name: Isabella Moore
+        title: Líder de Equipe (Gerenciamento de Projetos)
+      is_hidden: true
+    - rating: ★★★★★
+      text: Funciona como esperado e estou muito satisfeito.
+      author:
+        name: Benjamin Lee
+        title: Coach Ágil
+      is_hidden: true
+    - rating: ★★★★★
+      text: Todo o poder do MS Project em um pacote muito pequeno!
+      author:
+        name: Mia Harris
+        title: Coach em Gerenciamento de Projetos
+      is_hidden: true
+    - rating: ★★★★★
+      text: Você pode criar gráficos de Gantt intuitivos e bem estruturados, incluindo marcos e planejamento de recursos, com acompanhamento manual do progresso.
+      author:
+        name: Emma Rodriguez
+        title: Gerente de Produto
+      is_hidden: true
+    - rating: ★★★★★
+      text: Mais rápido que os concorrentes, porque realmente sinto que rolar a linha do tempo e abrir projetos é muito mais rápido do que em outros apps. O melhor!
+      author:
+        name: Ethan Walker
+        title: Diretor de Programas
+      is_hidden: true
+    - rating: ★★★★★
+      text: Programa excelente!
+      author:
+        name: Harper Thompson
+        title: Diretor de PMO (Escritório de Gerenciamento de Projetos)
+      is_hidden: true
+
+features_detailed:
+  title: Tudo o que Você Precisa para um Planejamento de Sucesso
+  subtitle: Recursos Poderosos para Gerentes de Projeto Modernos
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planejamento
+      content:
+        title: Planejamento com IA
+        features:
+          - icon: fas fa-check
+            title: Gerador de Projetos com IA
+            description: Gere um plano de projeto completo a partir de uma breve descrição de texto com IA avançada
+          - icon: fas fa-check
+            title: Planejamento Fácil
+            description: Atualize qualquer parte do plano e veja o impacto geral imediatamente.
+          - icon: fas fa-check
+            title: Familiaridade
+            description: Já tem experiência com MS Project ou software semelhante? Aproveite aqui!
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Acompanhamento
+      content:
+        title: Acompanhamento Avançado
+        features:
+          - icon: fas fa-check
+            title: Acompanhamento de Progresso
+            description: Acompanhe a porcentagem concluída e o progresso dos marcos
+          - icon: fas fa-check
+            title: Uso de Recursos
+            description: Monitore a alocação de recursos e identifique quaisquer obstáculos
+          - icon: fas fa-check
+            title: Análise de Cronograma
+            description: Analise o caminho crítico e monitore mudanças no cronograma
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
+    - id: collaboration
+      icon: fas fa-users
+      title: Colaboração
+      content:
+        title: Colaboração Intuitiva
+        features:
+          - icon: fas fa-check
+            title: Integração com Google Drive
+            description: Compartilhe e colabore usando permissões do Google Drive que você já conhece
+          - icon: fas fa-check
+            title: Exportação para PDF, PNG ou XML
+            description: Formato XML do MS Project suportado nativamente.
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: Integrações
+      content:
+        title: Integrações Poderosas
+        features:
+          - icon: fas fa-check
+            title: Integração com Google Workspace
+            description: Use o Ingantt como um app do Google Drive
+          - icon: fas fa-check
+            title: Compatibilidade com MS Project
+            description: Importe arquivos MPP do MS Project e sempre salve em formato XML compatível.
+          - icon: fas fa-check
+            title: Opções de Exportação
+            description: Exporte para PDF e PNG
+        video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
+
+pricing:
+  title: Preços Simples & Transparentes
+  subtitle: Para Ingantt Web
+  plans:
+    - title: Teste Grátis
+      price: "$0"
+      duration: 14 dias
+      features:
+        - Acesso completo a todos os recursos
+        - Gerador de Projetos com IA
+        - Importação/Exportação MS Project
+        - Integração com Google Drive
+      cta:
+        text: Iniciar Teste Grátis
+        url: web_url
+        class: secondary
+    - title: Profissional
+      price: "$5.99"
+      duration: por usuário/mês
+      annual_price: ou $59.99/usuário/ano
+      featured: true
+      features:
+        - Tudo do Teste Grátis
+        - Suporte prioritário
+      cta:
+        text: Iniciar Teste Grátis
+        url: web_url
+        class: primary
+    - title: Empresarial
+      price: Sob Consulta
+      duration: Para grandes equipes
+      features:
+        - Tudo do Profissional
+        - Integrações personalizadas
+        - Suporte dedicado
+        - SLA garantido
+      cta:
+        text: Fale com Vendas
+        url: support_email
+        class: secondary
+
+features_list:
+  title: O que Você Pode Fazer com o Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Planejamento Avançado
+      items:
+        - Gere planos de projeto a partir de uma breve descrição de texto com IA
+        - Atualize qualquer coisa e veja mudanças instantaneamente
+        - Preveja datas de conclusão e identifique obstáculos antecipadamente
+        - Planeje custos
+    - icon: fas fa-tasks
+      title: Gerenciamento de Tarefas
+      items:
+        - Divida o projeto em tarefas
+        - Defina dependências e prazos das tarefas
+        - Marque tarefas como marcos
+        - Acompanhe o caminho crítico
+        - Monitore o status de conclusão das tarefas
+    - icon: fas fa-users
+      title: Colaboração
+      items:
+        - Salve e compartilhe com Google Drive
+        - Converta arquivos em XML, PDF ou PNG—formato XML do MS Project suportado nativamente.
+    - icon: fas fa-chart-line
+      title: Acompanhamento Avançado
+      items:
+        - Monitore a alocação de recursos
+        - Analise o caminho crítico
+        - Monitore o uso de recursos
+        - Analise o cronograma
+    - icon: fas fa-calendar-alt
+      title: Gerenciamento de Recursos
+      items:
+        - Gerencie recursos de tarefas, materiais e custos
+        - Defina calendários de recursos e horários de trabalho
+        - Balanceamento automático de recursos excedentes
+        - Revise o uso de recursos ao longo do tempo
+    - icon: fas fa-plug
+      title: Integrações
+      items:
+        - Compatibilidade com arquivos MS Project (MPP e XML)
+        - Exportação para PDF e PNG
+        - Integração com Google Drive
+
+faq:
+  title: Perguntas Frequentes
+  items:
+    - question: O que é o Ingantt e como ele funciona?
+      answer: Ingantt é uma ferramenta profissional de gerenciamento de projetos com gráficos de Gantt que permite criar, gerenciar e compartilhar planos de projeto diretamente do seu Google Drive, facilitando a colaboração para equipes que já usam o ecossistema Google.
+    - question: Posso importar arquivos existentes do Microsoft Project?
+      answer: Sim! O Ingantt suporta totalmente a importação de arquivos .MPP e .XML do Microsoft Project. Todos os dados do projeto—including tarefas, recursos e dependências—serão mantidos durante a importação.
+    - question: Como funciona a geração de projetos com IA?
+      answer: Nosso assistente de IA pode gerar um plano de projeto completo a partir de uma breve descrição de texto. Basta descrever os objetivos e requisitos do seu projeto e a IA irá gerar um plano estruturado com tarefas, prazos e dependências, com base nas melhores práticas de gerenciamento de projetos.
+    - question: O que está incluído no teste grátis?
+      answer: O teste grátis de 14 dias inclui todos os recursos do Ingantt. Não é necessário cartão de crédito para começar.
+    - question: Posso usar o Ingantt Web em dispositivos móveis?
+      answer: Sim! O Ingantt Web funciona em qualquer dispositivo com navegador. Nossa interface responsiva é totalmente otimizada para smartphones e tablets, para que você possa acessar seus projetos de qualquer lugar.
+    - question: O que acontece com meus dados se eu cancelar a assinatura?
+      answer: Seus arquivos de projeto permanecerão seguros no seu Google Drive mesmo após o cancelamento da assinatura. Eles são salvos no formato MS Project, então você não perderá acesso aos seus dados.
+    - question: Como posso comprar o Ingantt para um colega?
+      answer: Faça login no Ingantt com sua conta Google, clique no avatar no canto superior direito e selecione "Comprar assinatura". Escolha o plano (anual ou mensal), depois "Quero comprar uma assinatura para outra pessoa" e insira a conta Google do seu colega.
+  support:
+    title: Comece a Planejar com o Ingantt
+    docs:
+      text: Ver Documentação
+    contact:
+      title: Tem outras dúvidas?<br>Fale com nosso suporte!
+      text: Fale Conosco
+      icon: fa fa-envelope
+
+cta:
+  title: Pronto para transformar a forma como sua equipe planeja projetos?
+  subtitle: Inicie o teste grátis hoje e experimente o poder do planejamento de projetos com IA
+  button:
+    text: Iniciar Teste Grátis
+
+platform_support:
+  title: Precisa de uma versão específica para seu dispositivo?
+
+desktop_callback:
+  title: Ingantt
+  cta: Clique em "Abrir" na caixa de diálogo acima.
+  success: Já clicou? Você pode fechar esta página agora.
+  issue: Está com problemas?
+  click: Tente novamente.
+
+blog:
+  title: Blog Ingantt
+  subtitle: Fique por dentro das novidades e atualizações
+  title_tag: Blog Ingantt - Notícias e atualizações da equipe Ingantt
+  meta_keywords: Ingantt, blog, notícias, Gantt para Google Workspace
+  meta_description: Fique por dentro das novidades e atualizações da equipe Ingantt

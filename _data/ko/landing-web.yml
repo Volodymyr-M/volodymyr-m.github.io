@@ -1,0 +1,374 @@
+lang_name: 한국어
+title_tag: Ingantt - 모든 브라우저에서 AI로 간트 차트 프로젝트 계획
+meta_keywords: 간트 차트, 타임라인 메이커, ai 타임라인 생성기, 간트 차트 메이커, 간트 차트 템플릿, ai 타임라인 크리에이터, 간트 ai 생성기, 무료 간트 차트, ms 프로젝트 대안, 간트 다이어그램 앱, 간트 플래닝, 프로젝트 관리 간트 차트, 최고의 간트 차트 소프트웨어
+meta_description: Ingantt - 웹을 위한 AI 기반 프로젝트 관리 도구. 웹에서 간트 차트와 AI로 프로젝트를 계획, 일정 관리 및 추적하세요. MS Project 대안.
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+products:
+  - icon: fa-solid fa-globe
+    text: Ingantt 웹 버전
+    platform: Web
+    url: web_page
+  - icon: fab fa-android
+    text: Ingantt 안드로이드
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt 윈도우
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: 제품
+    legal:
+      title: 법률 정보
+      items:
+        - text: 개인정보처리방침
+          url: privacy_policy_page
+        - text: 서비스 이용약관
+          url: terms_of_service_page
+    connect:
+      title: 더 알아보기
+      items:
+        - icon: fa fa-info-circle
+          text: 문서
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: 블로그
+          url: blog_page
+        - icon: fa fa-envelope
+          text: 문의하기
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    site_settings:
+      title: 사이트 설정
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: 다크 모드 전환
+        icon: fas fa-adjust
+  copyright: Ingantt Development. All rights reserved.
+
+hero:
+  title: AI로 간트 차트 프로젝트 계획
+  subtitle: 스마트한 간트 차트, 직관적인 협업, AI 지원으로 프로젝트 계획을 혁신하세요—브라우저에서 바로.
+  cta:
+    primary:
+      text: 무료로 시작하기
+      text_fits: true
+    other_versions:
+      title: 다른 버전 보기
+  rating:
+    stars: 5
+    text: 5점 만점
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: 프로젝트 매니저가 Ingantt를 선택하는 이유
+  items:
+    - icon: fas fa-robot
+      title: AI 기반 계획
+      description: 간단한 설명만으로 AI 어시스턴트가 완벽한 프로젝트 계획을 생성합니다.
+    - icon: fas fa-cloud
+      title: 네이티브 Google 연동
+      description: Google Drive와 완벽하게 연동되어 협업이 자연스럽고 쉽습니다.
+    - icon: fas fa-file-import
+      title: MS Project 호환
+      description: .MPP 파일을 가져오고, MS Project 호환 XML로 저장—제한 없이.
+    - icon: fas fa-mobile-alt
+      title: 어디서나 사용 가능
+      description: 데스크톱, 태블릿, 모바일 등 모든 브라우저에서 완전한 기능을 제공합니다.
+
+demo:
+  title: Ingantt 실제 사용 영상
+  video_id: RhQNQVSOkfU
+
+testimonials:
+  title: 전 세계 프로젝트 매니저들이 선택한 Ingantt
+  show_more:
+    text: 더 보기
+    icon: fas fa-chevron-down
+  show_less:
+    text: 간단히 보기
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 특정 포맷이나 클라우드에 얽매이지 않는 최고의 간트 앱입니다.
+      author:
+        name: Noah Wilson
+        title: 프로그램 디렉터
+    - rating: ★★★★★
+      text: AI로 프로젝트 계획을 생성하는 기능이 혁신적입니다. 계획의 출발점과 영감으로 사용하고 있습니다.
+      author:
+        name: Alexander Hall
+        title: 애자일 코치
+    - rating: ★★★★★
+      text: Microsoft Project의 MPP 파일 뷰어 및 편집기로도 사용합니다.
+      author:
+        name: Amelia Clark
+        title: 프로젝트 코디네이터
+    - rating: ★★★★★
+      text: 드디어 정말 쓸만한 MS Project 대체제가 나왔습니다!
+      author:
+        name: Isabella Moore
+        title: 팀 리더 (프로젝트 관리)
+      is_hidden: true
+    - rating: ★★★★★
+      text: 기대한 대로 동작해서 매우 만족스럽습니다.
+      author:
+        name: Benjamin Lee
+        title: 애자일 코치
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project의 모든 기능을 아주 작은 패키지에 담았습니다!
+      author:
+        name: Mia Harris
+        title: 프로젝트 관리 트레이너
+      is_hidden: true
+    - rating: ★★★★★
+      text: 직관적이고 구조적인 간트 차트를 만들 수 있고, 마일스톤, 리소스 계획, 수동 진행 추적도 가능합니다.
+      author:
+        name: Emma Rodriguez
+        title: 프로덕트 매니저
+      is_hidden: true
+    - rating: ★★★★★
+      text: 경쟁사보다 훨씬 빠릅니다. 타임라인 스크롤과 프로젝트 오픈이 정말 빠릅니다. 최고예요!
+      author:
+        name: Ethan Walker
+        title: 프로그램 매니저
+      is_hidden: true
+    - rating: ★★★★★
+      text: 훌륭한 프로그램입니다!
+      author:
+        name: Harper Thompson
+        title: PMO 디렉터 (프로젝트 관리 오피스)
+      is_hidden: true
+
+features_detailed:
+  title: 성공적인 프로젝트 계획을 위한 모든 기능
+  subtitle: 현대 프로젝트 매니저를 위한 강력한 기능
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 계획
+      content:
+        title: AI 기반 계획
+        features:
+          - icon: fas fa-check
+            title: AI 프로젝트 생성기
+            description: 고급 AI로 간단한 텍스트 설명만으로 완벽한 프로젝트 계획을 생성
+          - icon: fas fa-check
+            title: 손쉬운 일정 관리
+            description: 계획의 어느 부분이든 업데이트하고 전체 결과를 즉시 확인하세요.
+          - icon: fas fa-check
+            title: 익숙함
+            description: MS Project 또는 유사 소프트웨어 경험이 있으신가요? 그 경험을 Ingantt에서 활용하세요!
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
+    - id: tracking
+      icon: fas fa-chart-line
+      title: 추적
+      content:
+        title: 고급 추적 기능
+        features:
+          - icon: fas fa-check
+            title: 진행 상황 추적
+            description: 완료율과 마일스톤 진행 상황을 추적하세요
+          - icon: fas fa-check
+            title: 리소스 사용
+            description: 리소스 할당을 모니터링하고 병목 현상을 파악하세요
+          - icon: fas fa-check
+            title: 타임라인 분석
+            description: 크리티컬 패스를 분석하고 일정 변동을 추적하세요
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
+    - id: collaboration
+      icon: fas fa-users
+      title: 협업
+      content:
+        title: 직관적인 협업
+        features:
+          - icon: fas fa-check
+            title: Google Drive 연동
+            description: 익숙한 Google Drive 권한으로 공유 및 협업
+          - icon: fas fa-check
+            title: PDF, PNG, XML 내보내기
+            description: MS Project의 XML 포맷을 네이티브로 지원합니다.
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: 통합
+      content:
+        title: 강력한 통합
+        features:
+          - icon: fas fa-check
+            title: Google Workspace 통합
+            description: Ingantt를 Google Drive 앱처럼 사용하세요
+          - icon: fas fa-check
+            title: MS Project 호환성
+            description: MS Project의 MPP 파일을 가져오고, 항상 MS Project 호환 XML로 저장하세요.
+          - icon: fas fa-check
+            title: 내보내기 옵션
+            description: PDF 및 PNG로 내보내기 가능
+        video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
+
+pricing:
+  title: 간단하고 투명한 가격
+  subtitle: Ingantt 웹 버전
+  plans:
+    - title: 무료 체험
+      price: "$0"
+      duration: 14일
+      features:
+        - 모든 기능 완전 이용
+        - AI 프로젝트 생성
+        - MS Project 가져오기/내보내기
+        - Google Drive 연동
+      cta:
+        text: 무료 체험 시작
+        url: web_url
+        class: secondary
+    - title: 프로페셔널
+      price: "$5.99"
+      duration: 사용자당/월
+      annual_price: 또는 $59.99/사용자/년
+      featured: true
+      features:
+        - 무료 체험의 모든 기능
+        - 우선 지원
+      cta:
+        text: 무료 체험 시작
+        url: web_url
+        class: primary
+    - title: 엔터프라이즈
+      price: 맞춤형
+      duration: 대규모 팀용
+      features:
+        - 프로페셔널의 모든 기능
+        - 맞춤형 통합
+        - 전담 지원
+        - SLA 보장
+      cta:
+        text: 영업팀 문의
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Ingantt로 할 수 있는 것들
+  items:
+    - icon: fas fa-brain
+      title: 고급 계획
+      items:
+        - AI로 간단한 텍스트 설명만으로 프로젝트 계획 생성
+        - 모든 부분을 업데이트하고 즉시 변화 확인
+        - 완료 예상일 예측 및 병목 현상 사전 파악
+        - 비용 계획
+    - icon: fas fa-tasks
+      title: 작업 관리
+      items:
+        - 프로젝트를 작업 단위로 분할
+        - 작업 종속성 및 마감일 설정
+        - 작업을 마일스톤으로 표시
+        - 크리티컬 패스 추적
+        - 작업 완료 상태 추적
+    - icon: fas fa-users
+      title: 협업
+      items:
+        - Google Drive로 저장 및 공유
+        - XML, PDF, PNG 파일 교환—MS Project XML 포맷 네이티브 지원
+    - icon: fas fa-chart-line
+      title: 고급 추적
+      items:
+        - 리소스 할당 모니터링
+        - 크리티컬 패스 분석
+        - 리소스 사용 모니터링
+        - 타임라인 분석
+    - icon: fas fa-calendar-alt
+      title: 리소스 관리
+      items:
+        - 작업, 자재, 비용 리소스 관리
+        - 리소스 캘린더 및 근무 시간 설정
+        - 과다 할당 리소스 자동 조정
+        - 시간별 리소스 사용 확인
+    - icon: fas fa-plug
+      title: 통합
+      items:
+        - MS Project 파일 호환(MPP 및 XML)
+        - PDF 및 PNG로 내보내기
+        - Google Drive 연동
+
+faq:
+  title: 자주 묻는 질문
+  items:
+    - question: Ingantt란 무엇이며 어떻게 동작하나요?
+      answer: Ingantt는 Google Drive에서 직접 프로젝트 계획을 생성, 관리, 공유할 수 있는 전문 간트 차트 프로젝트 관리 도구입니다. 이미 Google 생태계를 사용하는 팀의 협업도 쉽게 지원합니다.
+    - question: 기존 Microsoft Project 파일을 가져올 수 있나요?
+      answer: 네! Ingantt는 Microsoft Project의 .MPP 및 .XML 파일 가져오기를 완벽히 지원합니다. 작업, 리소스, 종속성 등 모든 프로젝트 데이터가 가져오기 과정에서 그대로 유지됩니다.
+    - question: AI 프로젝트 생성은 어떻게 동작하나요?
+      answer: AI 어시스턴트가 간단한 텍스트 설명만으로 완벽한 프로젝트 계획을 생성합니다. 프로젝트 목표와 요구사항을 설명하면 AI가 프로젝트 관리 모범 사례에 따라 작업, 마감일, 종속성을 포함한 구조화된 계획을 만들어줍니다.
+    - question: 무료 체험에는 어떤 기능이 포함되어 있나요?
+      answer: 14일 무료 체험에는 Ingantt의 모든 기능이 포함되어 있습니다. 시작에 신용카드는 필요하지 않습니다.
+    - question: Ingantt 웹은 모바일 기기에서 사용할 수 있나요?
+      answer: 네! Ingantt 웹은 모든 브라우저에서 동작하며, 반응형 인터페이스로 스마트폰과 태블릿에서도 최적화되어 어디서나 프로젝트에 접근할 수 있습니다.
+    - question: 구독을 취소하면 내 데이터는 어떻게 되나요?
+      answer: 구독 취소 후에도 프로젝트 파일은 Google Drive에 안전하게 보관됩니다. 파일은 MS Project 포맷으로 저장되므로 데이터 접근 권한을 잃지 않습니다.
+    - question: 동료를 위해 Ingantt를 구매하려면 어떻게 해야 하나요?
+      answer: Google 계정으로 Ingantt에 로그인한 후 우측 상단 아바타를 클릭하고 "구독 구매"를 선택하세요. 플랜(연간 또는 월간)을 선택하고 "다른 사람을 위해 구독 구매"를 체크한 뒤 동료의 Google 계정을 입력하면 됩니다.
+  support:
+    title: Ingantt로 계획을 시작하세요
+    docs:
+      text: 문서 보기
+    contact:
+      title: 추가 문의사항이 있으신가요?<br>지원팀에 문의하세요!
+      text: 문의하기
+      icon: fa fa-envelope
+
+cta:
+  title: 팀의 프로젝트 계획을 혁신해보세요!
+  subtitle: 지금 무료 체험을 시작하고 AI 기반 프로젝트 계획의 힘을 경험하세요
+  button:
+    text: 무료 체험 시작
+
+platform_support:
+  title: 내 기기에 맞는 버전이 필요하신가요?
+
+desktop_callback:
+  title: Ingantt
+  cta: 위 대화 상자에서 "Open"을 클릭하세요.
+  success: 클릭하셨나요? 이제 이 페이지를 닫으셔도 됩니다.
+  issue: 문제가 발생하셨나요?
+  click: 다시 시도하세요.
+
+blog:
+  title: Ingantt 블로그
+  subtitle: 최신 소식과 업데이트를 확인하세요
+  title_tag: Ingantt 블로그 - Ingantt 팀의 최신 소식과 업데이트
+  meta_keywords: Ingantt, 블로그, 뉴스, Google Workspace용 간트
+  meta_description: Ingantt 팀의 최신 소식과 업데이트를 확인하세요

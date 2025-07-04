@@ -1,0 +1,374 @@
+lang_name: Türkçe
+title_tag: Ingantt - Herhangi bir tarayıcıda Yapay Zekâ ile Gantt Çizelgesi Proje Planlaması
+meta_keywords: gantt çizelgesi, zaman çizelgesi oluşturucu, yapay zekâ zaman çizelgesi oluşturucu, gantt çizelgesi oluşturucu, gantt çizelgesi şablonu, yapay zekâ zaman çizelgesi oluşturucu, gantt ai oluşturucu, ücretsiz gantt çizelgesi, ms project alternatifi, gantt diyagramı uygulaması, gantt planlama, proje yönetimi gantt çizelgesi, en iyi gantt çizelgesi yazılımı
+meta_description: Ingantt - Web için yapay zekâ destekli proje yönetim aracı. Web'de Gantt çizelgeleri ve yapay zekâ ile projelerinizi planlayın, zamanlayın ve takip edin. MS Project alternatifi.
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+products:
+  - icon: fa-solid fa-globe
+    text: Ingantt Web için
+    platform: Web
+    url: web_page
+  - icon: fab fa-android
+    text: Ingantt Android için
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt iOS için
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt Windows için
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt macOS için
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: Ürünler
+    legal:
+      title: Yasal
+      items:
+        - text: Gizlilik Politikası
+          url: privacy_policy_page
+        - text: Hizmet Şartları
+          url: terms_of_service_page
+    connect:
+      title: Daha Fazla Bilgi Edinin
+      items:
+        - icon: fa fa-info-circle
+          text: Belgeler
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: Blog
+          url: blog_page
+        - icon: fa fa-envelope
+          text: Bize Ulaşın
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    site_settings:
+      title: Site Ayarları
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: Koyu Modu Değiştir
+        icon: fas fa-adjust
+  copyright: Ingantt Development. Tüm hakları saklıdır.
+
+hero:
+  title: Yapay Zekâ ile Gantt Çizelgesi Proje Planlaması
+  subtitle: Akıllı Gantt çizelgeleri, sezgisel işbirliği ve AI asistanı ile proje planlamanızı dönüştürün—hepsi tarayıcınızda
+  cta:
+    primary:
+      text: Ücretsiz Deneyin
+      text_fits: true
+    other_versions:
+      title: Diğer Sürümler
+  rating:
+    stars: 5
+    text: 5 üzerinden
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Proje Yöneticileri Neden Ingantt'ı Seçiyor?
+  items:
+    - icon: fas fa-robot
+      title: AI ile Planlama
+      description: Kısa bir açıklamadan tam proje planları oluşturun; AI asistanımızla
+    - icon: fas fa-cloud
+      title: Doğrudan Google Entegrasyonu
+      description: Google Drive ile sorunsuz çalışın, işbirliğini kolay ve doğal hale getirin
+    - icon: fas fa-file-import
+      title: MS Project Desteği
+      description: .MPP dosyalarını içe aktarın ve MS Project uyumlu XML olarak kaydedin—hiçbir şey kaybetmeden
+    - icon: fas fa-mobile-alt
+      title: Her Yerden Erişim
+      description: Masaüstü, tablet ve mobilde, tercih ettiğiniz tarayıcıda tam işlevsellik
+
+demo:
+  title: Ingantt'ı Gerçekten Görün
+  video_id: RhQNQVSOkfU
+
+testimonials:
+  title: Dünya Çapında Proje Yöneticilerinin Güvendiği
+  show_more:
+    text: Daha Fazla Göster
+    icon: fas fa-chevron-down
+  show_less:
+    text: Daha Az Göster
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Kendi formatlarına veya bulutlarına sizi kilitlemeyen en iyi Gantt uygulaması
+      author:
+        name: Noah Wilson
+        title: Program Direktörü
+    - rating: ★★★★★
+      text: AI ile proje planı oluşturmak benim için devrim niteliğinde. Kendi planlarım için başlangıç ve ilham noktası olarak kullanıyorum
+      author:
+        name: Alexander Hall
+        title: Agile Koçu
+    - rating: ★★★★★
+      text: Ayrıca mevcut Microsoft Project dosyalarını görüntülemek ve düzenlemek için de kullanıyorum
+      author:
+        name: Amelia Clark
+        title: Proje Koordinatörü
+    - rating: ★★★★★
+      text: Nihayet gerçekten kullanılabilir bir Microsoft Project alternatifi var!
+      author:
+        name: Isabella Moore
+        title: Proje Yönetimi Takım Lideri
+      is_hidden: true
+    - rating: ★★★★★
+      text: Beklediğim gibi çalışıyor ve çok memnunum
+      author:
+        name: Benjamin Lee
+        title: Agile Koçu
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project'in tüm gücü kompakt bir pakette!
+      author:
+        name: Mia Harris
+        title: Proje Yönetimi Koçu
+      is_hidden: true
+    - rating: ★★★★★
+      text: Kolayca yapılandırılmış, kullanışlı Gantt çizelgeleri oluşturabilirsiniz—milestone ve kaynak planlaması dahil, manuel ilerleme takibiyle
+      author:
+        name: Emma Rodriguez
+        title: Ürün Yöneticisi
+      is_hidden: true
+    - rating: ★★★★★
+      text: Rakiplerinden daha hızlı, zaman çizelgelerini kaydırmak ve projeleri açmak gerçekten çok daha hızlı. En iyisi!
+      author:
+        name: Ethan Walker
+        title: Program Direktörü
+      is_hidden: true
+    - rating: ★★★★★
+      text: Mükemmel bir uygulama!
+      author:
+        name: Harper Thompson
+        title: PMO Direktörü
+      is_hidden: true
+
+features_detailed:
+  title: Başarılı Planlama İçin İhtiyacınız Olan Her Şey
+  subtitle: Modern proje yöneticileri için güçlü özellikler
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Planlama
+      content:
+        title: AI ile Planlama
+        features:
+          - icon: fas fa-check
+            title: AI Proje Oluşturucu
+            description: Kısa bir metin açıklamasından tam proje planları oluşturun; gelişmiş AI ile
+          - icon: fas fa-check
+            title: Kolay Planlama
+            description: Planın herhangi bir bölümünü güncelleyin ve tüm etkileri anında görün
+          - icon: fas fa-check
+            title: Aşinalık
+            description: MS Project veya benzeri yazılımları kullandınız mı? Burada da avantajını yaşayın!
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Takip
+      content:
+        title: Gelişmiş Takip
+        features:
+          - icon: fas fa-check
+            title: İlerleme Takibi
+            description: Tamamlanma yüzdesi ve kilometre taşlarını takip edin
+          - icon: fas fa-check
+            title: Kaynak Kullanımı
+            description: Kaynak tahsisini izleyin ve darboğazları belirleyin
+          - icon: fas fa-check
+            title: Zaman Çizelgesi Analizi
+            description: Kritik yol analizi yapın ve zaman çizelgesi değişikliklerini takip edin
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
+    - id: collaboration
+      icon: fas fa-users
+      title: İşbirliği
+      content:
+        title: Sezgisel İşbirliği
+        features:
+          - icon: fas fa-check
+            title: Google Drive ile Entegrasyon
+            description: Tanıdık Google Drive izinleriyle paylaşın ve birlikte çalışın
+          - icon: fas fa-check
+            title: PDF, PNG veya XML Dışa Aktarımı
+            description: Doğrudan MS Project uyumlu XML desteği
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: Entegrasyon
+      content:
+        title: Güçlü Entegrasyonlar
+        features:
+          - icon: fas fa-check
+            title: Google Workspace ile Entegrasyon
+            description: Ingantt'ı normal bir Google Drive uygulaması gibi kullanın
+          - icon: fas fa-check
+            title: MS Project Desteği
+            description: MS Project'ten MPP dosyalarını içe aktarın ve her zaman MS Project uyumlu XML olarak kaydedin
+          - icon: fas fa-check
+            title: Dışa Aktarım Seçenekleri
+            description: PDF ve PNG olarak dışa aktarın
+        video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
+
+pricing:
+  title: Basit & Şeffaf Fiyatlandırma
+  subtitle: Ingantt Web için
+  plans:
+    - title: Ücretsiz Deneme
+      price: "$0"
+      duration: 14 gün
+      features:
+        - Tüm özelliklere tam erişim
+        - AI Proje Oluşturucu
+        - MS Project içe/dışa aktarma
+        - Google Drive entegrasyonu
+      cta:
+        text: Ücretsiz Denemeye Başla
+        url: web_url
+        class: secondary
+    - title: Profesyonel
+      price: "$5.99"
+      duration: kullanıcı/ay
+      annual_price: veya $59.99/kullanıcı/yıl
+      featured: true
+      features:
+        - Ücretsiz denemedeki her şey
+        - Öncelikli destek
+      cta:
+        text: Ücretsiz Denemeye Başla
+        url: web_url
+        class: primary
+    - title: Kurumsal
+      price: Özel
+      duration: Büyük ekipler için
+      features:
+        - Profesyoneldeki her şey
+        - Özel entegrasyonlar
+        - Özel destek
+        - SLA garantisi
+      cta:
+        text: Satış ile İletişime Geçin
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Ingantt ile Neler Yapabilirsiniz?
+  items:
+    - icon: fas fa-brain
+      title: Gelişmiş Planlama
+      items:
+        - Kısa bir metin açıklamasıyla AI ile proje planları oluşturun
+        - Herhangi bir şeyi güncelleyin ve anında değişiklikleri görün
+        - Bitiş tarihlerini tahmin edin ve darboğazları erken belirleyin
+        - Maliyetleri planlayın
+    - icon: fas fa-tasks
+      title: Görev Yönetimi
+      items:
+        - Projeyi görevlere bölün
+        - Görev ilişkilerini ve teslim tarihlerini belirleyin
+        - Görevleri kilometre taşı olarak işaretleyin
+        - Kritik yolu takip edin
+        - Görev ilerlemesini izleyin
+    - icon: fas fa-users
+      title: İşbirliği
+      items:
+        - Google Drive ile kaydedin ve paylaşın
+        - XML, PDF veya PNG'ye dönüştürün—doğrudan MS Project uyumlu XML desteği
+    - icon: fas fa-chart-line
+      title: Gelişmiş Takip
+      items:
+        - Kaynak tahsisini izleyin
+        - Kritik yol analizi yapın
+        - Kaynak kullanımını izleyin
+        - Zaman çizelgesini analiz edin
+    - icon: fas fa-calendar-alt
+      title: Kaynak Yönetimi
+      items:
+        - Görev, malzeme ve maliyet kaynaklarını yönetin
+        - Kaynak takvimlerini ve çalışma saatlerini belirleyin
+        - Fazla kaynakları otomatik olarak dengeleyin
+        - Kaynak kullanımını sürekli izleyin
+    - icon: fas fa-plug
+      title: Entegrasyon
+      items:
+        - MS Project dosyalarını (MPP ve XML) destekler
+        - PDF ve PNG olarak dışa aktarın
+        - Google Drive entegrasyonu
+
+faq:
+  title: Sıkça Sorulan Sorular
+  items:
+    - question: Ingantt nedir ve nasıl çalışır?
+      answer: Ingantt, profesyonel bir Gantt çizelgesi proje yönetim aracıdır. Google Drive üzerinden doğrudan proje planları oluşturmanıza, yönetmenize ve paylaşmanıza olanak tanır. Google ekosistemini kullanan ekipler için işbirliğini kolaylaştırır.
+    - question: Mevcut Microsoft Project dosyalarımı içe aktarabilir miyim?
+      answer: Evet! Ingantt, Microsoft Project'in .MPP ve .XML dosyalarını tamamen destekler. Tüm proje verileriniz—görevler, kaynaklar ve ilişkiler dahil—içe aktarma sırasında korunur.
+    - question: AI ile proje oluşturma nasıl çalışır?
+      answer: AI asistanımız, kısa bir metin açıklamasından tam bir proje planı oluşturabilir. Proje hedeflerinizi ve gereksinimlerinizi açıklayın; AI, en iyi proje yönetimi uygulamalarına göre yapılandırılmış görevler, teslim tarihleri ve ilişkilerle bir plan oluşturur.
+    - question: Ücretsiz deneme neleri içerir?
+      answer: 14 günlük ücretsiz deneme, Ingantt'ın tüm özelliklerini içerir. Başlamak için kredi kartı gerekmez.
+    - question: Ingantt Web'i mobil cihazlarda kullanabilir miyim?
+      answer: Evet! Ingantt Web, tarayıcısı olan tüm cihazlarda çalışır. Web arayüzümüz akıllı telefonlar ve tabletler için tamamen optimize edilmiştir, böylece projelerinize her yerden erişebilirsiniz.
+    - question: Aboneliğimi iptal edersem verilerim ne olur?
+      answer: Aboneliğinizi iptal ettikten sonra bile proje dosyalarınız Google Drive'da güvende kalır. Dosyalarınız MS Project formatında saklanır ve erişiminizi kaybetmezsiniz.
+    - question: Ingantt'ı bir çalışma arkadaşıma nasıl satın alabilirim?
+      answer: Google hesabınızla Ingantt'a giriş yapın, sağ üst köşedeki avatarınıza tıklayın ve "Abonelik Satın Al"ı seçin. (Yıllık veya aylık planı seçin.) Ardından "Başkasına abonelik almak istiyorum" seçeneğini işaretleyin ve çalışma arkadaşınızın Google hesabını girin.
+  support:
+    title: Ingantt ile Planlamaya Başlayın
+    docs:
+      text: Belgeleri Görüntüle
+    contact:
+      title: Başka sorunuz mu var?<br>Destek ekibimizle iletişime geçin!
+      text: Bize Ulaşın
+      icon: fa fa-envelope
+
+cta:
+  title: Ekibinizin proje planlama şeklini değiştirmeye hazır mısınız?
+  subtitle: Bugün ücretsiz denemeye başlayın ve AI destekli proje planlamanın gücünü keşfedin
+  button:
+    text: Ücretsiz Denemeye Başla
+
+platform_support:
+  title: Cihazınız için özel bir sürüm ister misiniz?
+
+desktop_callback:
+  title: Ingantt
+  cta: Yukarıdaki kutudan "Open"a tıklayın
+  success: Tıkladınız mı? Bu sayfayı kapatabilirsiniz
+  issue: Sorun mu yaşıyorsunuz?
+  click: Tekrar Dene
+
+blog:
+  title: Ingantt Blog
+  subtitle: Son haberler ve güncellemeler
+  title_tag: Ingantt Blog - Ingantt ekibinden haberler ve güncellemeler
+  meta_keywords: Ingantt, blog, haberler, Google Workspace için Gantt
+  meta_description: Ingantt ekibinden son haberler ve güncellemeler

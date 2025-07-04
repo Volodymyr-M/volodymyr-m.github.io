@@ -1,0 +1,374 @@
+lang_name: Українська
+title_tag: Ingantt — планування проектів у діаграмі Ганта з ШІ у будь-якому браузері
+meta_keywords: діаграма Ганта, генератор таймлайнів, генератор таймлайнів з ШІ, створення діаграми Ганта, шаблон діаграми Ганта, генератор таймлайнів з AI, генератор Ганта з ШІ, безкоштовна діаграма Ганта, альтернатива ms project, додаток для діаграми Ганта, планування Ганта, управління проектами Ганта, найкраще ПЗ для діаграми Ганта
+meta_description: Ingantt — інструмент керування проектами з ШІ для Web. Плануйте, розкладайте та відстежуйте свої проекти онлайн з діаграмою Ганта та ШІ. Альтернатива MS Project.
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+products:
+  - icon: fa-solid fa-globe
+    text: Ingantt для Web
+    platform: Web
+    url: web_page
+  - icon: fab fa-android
+    text: Ingantt для Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt для iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt для Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt для macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: Продукти
+    legal:
+      title: Юридична інформація
+      items:
+        - text: Політика конфіденційності
+          url: privacy_policy_page
+        - text: Умови використання
+          url: terms_of_service_page
+    connect:
+      title: Дізнатися більше
+      items:
+        - icon: fa fa-info-circle
+          text: Документація
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: Блог
+          url: blog_page
+        - icon: fa fa-envelope
+          text: Контакти
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    site_settings:
+      title: Налаштування сайту
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: Перемкнути темний режим
+        icon: fas fa-adjust
+  copyright: Ingantt Development. Всі права захищено.
+
+hero:
+  title: Планування проектів у діаграмі Ганта з ШІ
+  subtitle: Змінюйте спосіб планування проектів з розумною діаграмою Ганта, візуальною співпрацею та AI-асистентом — все у вашому браузері
+  cta:
+    primary:
+      text: Спробувати безкоштовно
+      text_fits: true
+    other_versions:
+      title: Інші версії
+  rating:
+    stars: 5
+    text: із 5 зірок
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Чому менеджери проектів обирають Ingantt
+  items:
+    - icon: fas fa-robot
+      title: Планування з ШІ
+      description: Генеруйте повний проектний план з короткого опису за допомогою нашого AI-асистента
+    - icon: fas fa-cloud
+      title: Пряма інтеграція з Google
+      description: Працюйте безперешкодно з Google Drive для легкого та природного співробітництва
+    - icon: fas fa-file-import
+      title: Підтримка MS Project
+      description: Імпортуйте .MPP-файли та зберігайте як XML, сумісний з MS Project — без втрати даних
+    - icon: fas fa-mobile-alt
+      title: Доступ з будь-якого місця
+      description: Повний функціонал на ПК, планшеті та мобільному у вибраному вами браузері
+
+demo:
+  title: Дивіться Ingantt у дії
+  video_id: RhQNQVSOkfU
+
+testimonials:
+  title: Довіряють менеджери проектів по всьому світу
+  show_more:
+    text: Показати більше
+    icon: fas fa-chevron-down
+  show_less:
+    text: Згорнути
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: Найкращий застосунок для Ганта, який не обмежує вас своїм форматом чи хмарою
+      author:
+        name: Noah Wilson
+        title: Директор програми
+    - rating: ★★★★★
+      text: Генерація планів з ШІ — це революція для мене. Я використовую це як відправну точку та натхнення для своїх планів
+      author:
+        name: Alexander Hall
+        title: Agile-коуч
+    - rating: ★★★★★
+      text: Також використовую для перегляду та редагування існуючих MPP-файлів Microsoft Project
+      author:
+        name: Amelia Clark
+        title: Координатор проектів
+    - rating: ★★★★★
+      text: Нарешті справжня альтернатива Microsoft Project!
+      author:
+        name: Isabella Moore
+        title: Керівник проектного менеджменту
+      is_hidden: true
+    - rating: ★★★★★
+      text: Працює як очікувалось, я дуже задоволений
+      author:
+        name: Benjamin Lee
+        title: Agile-коуч
+      is_hidden: true
+    - rating: ★★★★★
+      text: Потужність MS Project у компактному пакеті!
+      author:
+        name: Mia Harris
+        title: Коуч з управління проектами
+      is_hidden: true
+    - rating: ★★★★★
+      text: Можна створювати прості у використанні та структуровані діаграми Ганта — з віхами, плануванням ресурсів та ручним відстеженням прогресу
+      author:
+        name: Emma Rodriguez
+        title: Менеджер продукту
+      is_hidden: true
+    - rating: ★★★★★
+      text: Швидше за конкурентів, дійсно відчувається перетягування таймлайну та відкриття проектів швидше, ніж у багатьох інших додатках. Чудово!
+      author:
+        name: Ethan Walker
+        title: Директор програми
+      is_hidden: true
+    - rating: ★★★★★
+      text: Чудовий застосунок!
+      author:
+        name: Harper Thompson
+        title: Директор PMO
+      is_hidden: true
+
+features_detailed:
+  title: Все необхідне для успішного планування
+  subtitle: Потужні функції для сучасного менеджера проектів
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: Планування
+      content:
+        title: Планування з ШІ
+        features:
+          - icon: fas fa-check
+            title: Генератор проектів з ШІ
+            description: Генеруйте повний проектний план з короткого опису за допомогою сучасного ШІ
+          - icon: fas fa-check
+            title: Легке планування
+            description: Оновлюйте будь-яку частину плану і миттєво бачте загальний вплив
+          - icon: fas fa-check
+            title: Знайоме середовище
+            description: Користувалися MS Project чи схожим ПЗ? Тут все так само зручно!
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
+    - id: tracking
+      icon: fas fa-chart-line
+      title: Відстеження
+      content:
+        title: Розширене відстеження
+        features:
+          - icon: fas fa-check
+            title: Відстеження прогресу
+            description: Відстежуйте відсоток виконання та віхи
+          - icon: fas fa-check
+            title: Використання ресурсів
+            description: Перевіряйте розподіл ресурсів та визначайте вузькі місця
+          - icon: fas fa-check
+            title: Аналіз таймлайну
+            description: Аналізуйте критичний шлях та відстежуйте зміни у графіку
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
+    - id: collaboration
+      icon: fas fa-users
+      title: Співпраця
+      content:
+        title: Візуальна співпраця
+        features:
+          - icon: fas fa-check
+            title: Інтеграція з Google Drive
+            description: Діліться та співпрацюйте з використанням звичних дозволів Google Drive
+          - icon: fas fa-check
+            title: Експорт у PDF, PNG або XML
+            description: Пряма підтримка XML, сумісного з MS Project
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: Інтеграція
+      content:
+        title: Потужна інтеграція
+        features:
+          - icon: fas fa-check
+            title: Інтеграція з Google Workspace
+            description: Використовуйте Ingantt як звичайний додаток Google Drive
+          - icon: fas fa-check
+            title: Підтримка MS Project
+            description: Імпортуйте MPP-файли з MS Project і завжди зберігайте у форматі XML, сумісному з MS Project
+          - icon: fas fa-check
+            title: Варіанти експорту
+            description: Експортуйте у PDF та PNG
+        video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
+
+pricing:
+  title: Прозорі та прості ціни
+  subtitle: Для Ingantt Web
+  plans:
+    - title: Безкоштовна пробна версія
+      price: "$0"
+      duration: 14 днів
+      features:
+        - Повний доступ до всіх функцій
+        - Генератор проектів з ШІ
+        - Імпорт/експорт MS Project
+        - Інтеграція з Google Drive
+      cta:
+        text: Почати безкоштовну пробу
+        url: web_url
+        class: secondary
+    - title: Професійний
+      price: "$5.99"
+      duration: за користувача/місяць
+      annual_price: або $59.99/користувач/рік
+      featured: true
+      features:
+        - Все з безкоштовної пробної версії
+        - Пріоритетна підтримка
+      cta:
+        text: Почати безкоштовну пробу
+        url: web_url
+        class: primary
+    - title: Бізнес
+      price: Індивідуально
+      duration: Для великих команд
+      features:
+        - Все з професійного тарифу
+        - Індивідуальні інтеграції
+        - Виділена підтримка
+        - SLA-гарантія
+      cta:
+        text: Зв'язатися з продажами
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Що можна робити з Ingantt
+  items:
+    - icon: fas fa-brain
+      title: Розширене планування
+      items:
+        - Генеруйте проектні плани з короткого опису за допомогою ШІ
+        - Оновлюйте будь-які дані і миттєво бачте зміни
+        - Прогнозуйте дату завершення та завчасно визначайте вузькі місця
+        - Плануйте витрати
+    - icon: fas fa-tasks
+      title: Управління завданнями
+      items:
+        - Розбийте проект на завдання
+        - Визначайте зв'язки та дедлайни
+        - Позначайте завдання як віхи
+        - Відстежуйте критичний шлях
+        - Перевіряйте статус виконання завдань
+    - icon: fas fa-users
+      title: Співпраця
+      items:
+        - Зберігайте та діліться через Google Drive
+        - Експортуйте у XML, PDF або PNG — пряма підтримка XML, сумісного з MS Project
+    - icon: fas fa-chart-line
+      title: Розширене відстеження
+      items:
+        - Перевіряйте розподіл ресурсів
+        - Аналізуйте критичний шлях
+        - Перевіряйте використання ресурсів
+        - Аналізуйте таймлайн
+    - icon: fas fa-calendar-alt
+      title: Управління ресурсами
+      items:
+        - Управління ресурсами завдань, матеріалів і витрат
+        - Налаштування календаря і робочого часу ресурсів
+        - Автоматичне балансування надлишкових ресурсів
+        - Постійний моніторинг використання ресурсів
+    - icon: fas fa-plug
+      title: Інтеграція
+      items:
+        - Підтримка файлів MS Project (MPP і XML)
+        - Експорт у PDF та PNG
+        - Інтеграція з Google Drive
+
+faq:
+  title: Часті питання
+  items:
+    - question: Що таке Ingantt і як він працює?
+      answer: Ingantt — це професійний інструмент для управління проектами з діаграмою Ганта. Дозволяє створювати, керувати та ділитися проектними планами прямо з Google Drive. Легке співробітництво для команд, що використовують екосистему Google.
+    - question: Чи можу я імпортувати існуючі файли Microsoft Project?
+      answer: Так! Ingantt підтримує імпорт .MPP та .XML файлів Microsoft Project. Всі дані проекту — завдання, ресурси, зв'язки — зберігаються після імпорту.
+    - question: Як працює створення проекту з ШІ?
+      answer: Наш AI-асистент може згенерувати повний проектний план з короткого опису. Просто опишіть цілі та вимоги проекту, і ШІ побудує структурований план із завданнями, дедлайнами та зв'язками за найкращими практиками.
+    - question: Що включає безкоштовна пробна версія?
+      answer: 14-денна безкоштовна проба включає всі функції Ingantt. Не потрібно вводити платіжні дані для початку.
+    - question: Чи можу я використовувати Ingantt Web на мобільних пристроях?
+      answer: Так! Ingantt Web працює на будь-якому пристрої з браузером. Наш веб-інтерфейс повністю оптимізований для смартфонів і планшетів, тож ви завжди маєте доступ до проектів.
+    - question: Що буде з моїми даними, якщо я скасую підписку?
+      answer: Ваші проектні файли лишаються у безпеці на Google Drive навіть після скасування підписки. Файли зберігаються у форматі MS Project, ви не втрачаєте доступ до даних.
+    - question: Як купити Ingantt для колег?
+      answer: Увійдіть у Ingantt через Google-акаунт, натисніть на аватар у верхньому правому куті та оберіть "Купити підписку". Виберіть тариф (річний або місячний), потім оберіть "Я хочу купити підписку для інших" і введіть акаунт Google колеги.
+  support:
+    title: Почніть планувати з Ingantt
+    docs:
+      text: Переглянути документацію
+    contact:
+      title: Маєте ще питання?<br>Зв'яжіться з нашою командою підтримки!
+      text: Контакти
+      icon: fa fa-envelope
+
+cta:
+  title: Готові змінити підхід до планування проектів у вашій команді?
+  subtitle: Почніть безкоштовну пробу вже сьогодні та відкрийте для себе можливості планування з ШІ
+  button:
+    text: Почати безкоштовну пробу
+
+platform_support:
+  title: Потрібна окрема версія для вашого пристрою?
+
+desktop_callback:
+  title: Ingantt
+  cta: Натисніть "Open" у діалоговому вікні зверху
+  success: Натиснули? Можете закрити цю сторінку
+  issue: Виникли проблеми?
+  click: Спробувати ще раз
+
+blog:
+  title: Блог Ingantt
+  subtitle: Новини та останні оновлення
+  title_tag: Блог Ingantt — новини та оновлення від команди Ingantt
+  meta_keywords: Ingantt, блог, новини, Гант для Google Workspace
+  meta_description: Новини та останні оновлення від команди Ingantt

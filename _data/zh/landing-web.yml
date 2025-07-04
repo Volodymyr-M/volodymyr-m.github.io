@@ -1,0 +1,374 @@
+lang_name: 中文
+title_tag: Ingantt - 在任何浏览器中使用AI进行甘特图项目规划
+meta_keywords: 甘特图, 时间轴生成器, ai时间轴生成器, 甘特图制作工具, 甘特图模板, ai时间轴创建器, 甘特ai生成器, 免费甘特图, ms project替代, 甘特图应用, 甘特规划, 项目管理甘特图, 最佳甘特图软件
+meta_description: Ingantt - 面向Web的AI驱动项目管理工具。使用甘特图和AI在Web上规划、安排和跟踪您的项目。MS Project的替代方案。
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+products:
+  - icon: fa-solid fa-globe
+    text: Ingantt网页版
+    platform: Web
+    url: web_page
+  - icon: fab fa-android
+    text: Ingantt安卓版
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt iOS版
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt Windows版
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt macOS版
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: 产品
+    legal:
+      title: 法律
+      items:
+        - text: 隐私政策
+          url: privacy_policy_page
+        - text: 服务条款
+          url: terms_of_service_page
+    connect:
+      title: 了解更多
+      items:
+        - icon: fa fa-info-circle
+          text: 文档
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: 博客
+          url: blog_page
+        - icon: fa fa-envelope
+          text: 联系我们
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    site_settings:
+      title: 网站设置
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: 切换深色模式
+        icon: fas fa-adjust
+  copyright: Ingantt Development. 保留所有权利。
+
+hero:
+  title: 使用AI进行甘特图项目规划
+  subtitle: 通过智能甘特图、直观协作和AI助手，彻底改变您的项目规划方式——全部在您的浏览器中
+  cta:
+    primary:
+      text: 免费试用
+      text_fits: true
+    other_versions:
+      title: 其他版本
+  rating:
+    stars: 5
+    text: 满分5星
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: 为什么项目经理选择Ingantt
+  items:
+    - icon: fas fa-robot
+      title: AI智能规划
+      description: 通过简短描述，借助AI助手生成完整项目计划
+    - icon: fas fa-cloud
+      title: 直接集成Google
+      description: 与Google Drive无缝协作，让团队协作变得轻松自然
+    - icon: fas fa-file-import
+      title: 支持MS Project
+      description: 导入.MPP文件并以兼容MS Project的XML格式保存——无损转换
+    - icon: fas fa-mobile-alt
+      title: 随时随地访问
+      description: 在您选择的浏览器中，桌面、平板和手机均可完整使用
+
+demo:
+  title: 查看Ingantt实际演示
+  video_id: RhQNQVSOkfU
+
+testimonials:
+  title: 全球项目经理的信赖之选
+  show_more:
+    text: 显示更多
+    icon: fas fa-chevron-down
+  show_less:
+    text: 显示更少
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 最好的甘特应用，不会把你锁定在他们的格式或云端
+      author:
+        name: Noah Wilson
+        title: 项目总监
+    - rating: ★★★★★
+      text: 用AI生成项目计划对我来说是革命性的。我用它作为自己计划的起点和灵感
+      author:
+        name: Alexander Hall
+        title: 敏捷教练
+    - rating: ★★★★★
+      text: 我还用它来查看和编辑现有的Microsoft Project MPP文件
+      author:
+        name: Amelia Clark
+        title: 项目协调员
+    - rating: ★★★★★
+      text: 终于有了一个真正可用的Microsoft Project替代品！
+      author:
+        name: Isabella Moore
+        title: 项目管理团队主管
+      is_hidden: true
+    - rating: ★★★★★
+      text: 完全符合预期，我非常满意
+      author:
+        name: Benjamin Lee
+        title: 敏捷教练
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Project的全部强大功能都在一个小巧的包里！
+      author:
+        name: Mia Harris
+        title: 项目管理教练
+      is_hidden: true
+    - rating: ★★★★★
+      text: 你可以轻松创建结构良好的甘特图，包括里程碑、资源规划和手动进度跟踪
+      author:
+        name: Emma Rodriguez
+        title: 产品经理
+      is_hidden: true
+    - rating: ★★★★★
+      text: 比竞争对手快很多，拖动时间轴和打开项目都非常迅速，最棒！
+      author:
+        name: Ethan Walker
+        title: 项目总监
+      is_hidden: true
+    - rating: ★★★★★
+      text: 很棒的应用！
+      author:
+        name: Harper Thompson
+        title: PMO总监
+      is_hidden: true
+
+features_detailed:
+  title: 成功规划所需的一切
+  subtitle: 现代项目经理的强大功能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 规划
+      content:
+        title: AI智能规划
+        features:
+          - icon: fas fa-check
+            title: AI项目生成器
+            description: 通过先进AI，从简短文本描述生成完整项目计划
+          - icon: fas fa-check
+            title: 简单易用
+            description: 实时更新计划任意部分并立即查看整体影响
+          - icon: fas fa-check
+            title: 熟悉体验
+            description: 用过MS Project或类似软件？在这里同样得心应手！
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
+    - id: tracking
+      icon: fas fa-chart-line
+      title: 跟踪
+      content:
+        title: 高级跟踪
+        features:
+          - icon: fas fa-check
+            title: 进度跟踪
+            description: 跟踪完成百分比和里程碑
+          - icon: fas fa-check
+            title: 资源使用
+            description: 检查资源分配并识别瓶颈
+          - icon: fas fa-check
+            title: 时间轴分析
+            description: 分析关键路径并跟踪进度变更
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
+    - id: collaboration
+      icon: fas fa-users
+      title: 协作
+      content:
+        title: 直观协作
+        features:
+          - icon: fas fa-check
+            title: 集成Google Drive
+            description: 使用熟悉的Google Drive权限进行共享与协作
+          - icon: fas fa-check
+            title: 导出PDF、PNG或XML
+            description: 直接支持MS Project兼容XML格式
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: 集成
+      content:
+        title: 强大集成
+        features:
+          - icon: fas fa-check
+            title: 集成Google Workspace
+            description: 像常规Google Drive应用一样使用Ingantt
+          - icon: fas fa-check
+            title: 支持MS Project
+            description: 从MS Project导入MPP文件，始终保存为MS Project兼容XML
+          - icon: fas fa-check
+            title: 导出选项
+            description: 可导出为PDF和PNG
+        video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
+
+pricing:
+  title: 简单透明的价格
+  subtitle: 适用于Ingantt Web
+  plans:
+    - title: 免费试用
+      price: "$0"
+      duration: 14天
+      features:
+        - 完整访问所有功能
+        - AI项目生成器
+        - MS Project导入/导出
+        - 集成Google Drive
+      cta:
+        text: 开始免费试用
+        url: web_url
+        class: secondary
+    - title: 专业版
+      price: "$5.99"
+      duration: 每用户/月
+      annual_price: 或$59.99/用户/年
+      featured: true
+      features:
+        - 免费试用中的所有功能
+        - 优先支持
+      cta:
+        text: 开始免费试用
+        url: web_url
+        class: primary
+    - title: 企业版
+      price: 定制
+      duration: 适用于大型团队
+      features:
+        - 专业版的所有功能
+        - 定制集成
+        - 专属支持
+        - SLA保障
+      cta:
+        text: 联系销售
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Ingantt能为您做什么
+  items:
+    - icon: fas fa-brain
+      title: 高级规划
+      items:
+        - 通过AI从简短描述生成项目计划
+        - 实时更新任意内容并立即查看变更
+        - 预测完成日期并及早识别瓶颈
+        - 进行成本规划
+    - icon: fas fa-tasks
+      title: 任务管理
+      items:
+        - 将项目拆分为任务
+        - 定义任务关系和截止日期
+        - 标记任务为里程碑
+        - 跟踪关键路径
+        - 检查任务进度状态
+    - icon: fas fa-users
+      title: 协作
+      items:
+        - 使用Google Drive保存与共享
+        - 导出为XML、PDF或PNG——直接支持MS Project兼容XML
+    - icon: fas fa-chart-line
+      title: 高级跟踪
+      items:
+        - 检查资源分配
+        - 分析关键路径
+        - 检查资源使用情况
+        - 分析时间轴
+    - icon: fas fa-calendar-alt
+      title: 资源管理
+      items:
+        - 管理任务、物料和成本资源
+        - 设置资源日历和工作时间
+        - 自动平衡多余资源
+        - 持续检查资源使用
+    - icon: fas fa-plug
+      title: 集成
+      items:
+        - 支持MS Project文件（MPP和XML）
+        - 可导出为PDF和PNG
+        - 集成Google Drive
+
+faq:
+  title: 常见问题
+  items:
+    - question: Ingantt是什么，如何工作？
+      answer: Ingantt是一款专业的甘特图项目管理工具。帮助您直接从Google Drive创建、管理和分享项目计划，让使用Google生态的团队轻松协作。
+    - question: 我可以导入现有的Microsoft Project文件吗？
+      answer: 可以！Ingantt完全支持导入Microsoft Project的.MPP和.XML文件。您的所有项目数据（包括任务、资源和关系）在导入时都会保留。
+    - question: 如何用AI创建项目？
+      answer: 我们的AI助手可以根据简短描述生成完整项目计划。只需描述您的项目目标和需求，AI会根据最佳实践生成结构化的任务、截止日期和关系。
+    - question: 免费试用包含哪些内容？
+      answer: 14天免费试用包含Ingantt的所有功能。无需信用卡即可开始。
+    - question: 我可以在移动设备上使用Ingantt Web吗？
+      answer: 可以！Ingantt Web可在任何带浏览器的设备上使用。我们的Web界面针对智能手机和平板电脑进行了全面优化，您可随时随地访问项目。
+    - question: 如果我取消订阅，我的数据会怎样？
+      answer: 即使取消订阅，您的项目文件仍安全保存在Google Drive中。文件以MS Project格式保存，您不会失去数据访问权。
+    - question: 如何为同事购买Ingantt？
+      answer: 使用您的Google账号登录Ingantt，点击右上角头像并选择“购买订阅”。选择套餐（年付或月付），然后选择“我想为他人购买订阅”，输入同事的Google账号即可。
+  support:
+    title: 开始使用Ingantt进行规划
+    docs:
+      text: 查看文档
+    contact:
+      title: 有其他问题？<br>联系我们的支持团队！
+      text: 联系我们
+      icon: fa fa-envelope
+
+cta:
+  title: 准备好改变团队的项目规划方式了吗？
+  subtitle: 立即开始免费试用，体验AI驱动的项目规划力量
+  button:
+    text: 开始免费试用
+
+platform_support:
+  title: 需要适用于您设备的专用版本？
+
+desktop_callback:
+  title: Ingantt
+  cta: 点击上方对话框中的“Open”
+  success: 已点击？您可以关闭此页面
+  issue: 有问题？
+  click: 重试
+
+blog:
+  title: Ingantt博客
+  subtitle: 最新新闻与动态
+  title_tag: Ingantt博客 - 来自Ingantt团队的新闻与更新
+  meta_keywords: Ingantt, 博客, 新闻, Google Workspace甘特图
+  meta_description: 来自Ingantt团队的最新新闻与动态

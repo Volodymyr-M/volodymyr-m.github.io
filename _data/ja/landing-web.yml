@@ -1,0 +1,374 @@
+lang_name: 日本語
+title_tag: Ingantt - AIによるガントチャートプロジェクト計画をあらゆるブラウザで
+meta_keywords: ガントチャート, タイムラインメーカー, AIタイムラインジェネレーター, ガントチャートメーカー, ガントチャートテンプレート, AIタイムラインクリエーター, ガントAIジェネレーター, 無料ガントチャート, MSプロジェクト代替, ガントダイアグラムアプリ, ガント計画, プロジェクト管理ガントチャート, ベストガントチャートソフトウェア
+meta_description: Ingantt - Web向けAI搭載プロジェクト管理ツール。ガントチャートとAIでWeb上のプロジェクトを計画・スケジュール・追跡。MS Projectの代替。
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+products:
+  - icon: fa-solid fa-globe
+    text: Ingantt for Web
+    platform: Web
+    url: web_page
+  - icon: fab fa-android
+    text: Ingantt for Android
+    platform: Android
+    url: android_page
+  - icon: fab fa-app-store-ios
+    text: Ingantt for iOS
+    platform: iOS
+    url: ios_page
+  - icon: fab fa-windows
+    text: Ingantt for Windows
+    platform: Windows
+    url: windows_page
+  - icon: fab fa-apple
+    text: Ingantt for macOS
+    platform: macOS
+    url: macos_page
+
+header:
+  logo_text: Ingantt
+
+footer:
+  sections:
+    products:
+      title: 製品
+    legal:
+      title: 法的情報
+      items:
+        - text: プライバシーポリシー
+          url: privacy_policy_page
+        - text: 利用規約
+          url: terms_of_service_page
+    connect:
+      title: 詳細
+      items:
+        - icon: fa fa-info-circle
+          text: ドキュメント
+          url: docs_url
+          open_in_new_tab: true
+        - icon: fa fa-blog
+          text: ブログ
+          url: blog_page
+        - icon: fa fa-envelope
+          text: お問い合わせ
+          url: support_email
+      social_links:
+        - icon: fab fa-x-twitter
+          title: X (Twitter)
+          url: twitter_url
+        - icon: fab fa-bluesky
+          title: Bluesky
+          url: bluesky_url
+        - icon: fab fa-youtube
+          title: YouTube
+          url: youtube_url
+    site_settings:
+      title: サイト設定
+      language:
+        current:
+          icon: fas fa-globe
+      theme_toggle:
+        text: ダークモード切替
+        icon: fas fa-adjust
+  copyright: Ingantt Development. All rights reserved.
+
+hero:
+  title: AIによるガントチャートプロジェクト計画
+  subtitle: スマートなガントチャート、直感的なコラボレーション、AIサポートでプロジェクト計画を変革—すべてブラウザで。
+  cta:
+    primary:
+      text: 無料で試す
+      text_fits: true
+    other_versions:
+      title: その他のバージョン
+  rating:
+    stars: 5
+    text: 5つ星評価
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: プロジェクトマネージャーがInganttを選ぶ理由
+  items:
+    - icon: fas fa-robot
+      title: AI駆動の計画
+      description: シンプルな説明からAIアシスタントで完全なプロジェクト計画を作成。
+    - icon: fas fa-cloud
+      title: ネイティブGoogle連携
+      description: Google Driveとシームレスに連携し、自然で簡単なコラボレーションを実現。
+    - icon: fas fa-file-import
+      title: MS Project互換
+      description: .MPPファイルをインポートし、MS Project互換XMLで保存—妥協なし。
+    - icon: fas fa-mobile-alt
+      title: どこでも使える
+      description: お気に入りのブラウザでデスクトップ、タブレット、モバイルでフル機能。
+
+demo:
+  title: Inganttを実際に見る
+  video_id: RhQNQVSOkfU
+
+testimonials:
+  title: 世界中のプロジェクトマネージャーに信頼されています
+  show_more:
+    text: さらに表示
+    icon: fas fa-chevron-down
+  show_less:
+    text: 少なく表示
+    icon: fas fa-chevron-up
+  items:
+    - rating: ★★★★★
+      text: 独自フォーマットやクラウドに縛られない最高のガントアプリです。
+      author:
+        name: Noah Wilson
+        title: プログラムディレクター
+    - rating: ★★★★★
+      text: AIによるプロジェクト計画生成は私にとって革命的です。計画の出発点やインスピレーションとして使っています。
+      author:
+        name: Alexander Hall
+        title: アジャイルコーチ
+    - rating: ★★★★★
+      text: Microsoft ProjectファイルのMPPビューア・エディタとしても使っています。
+      author:
+        name: Amelia Clark
+        title: プロジェクトコーディネーター
+    - rating: ★★★★★
+      text: ついに本当に使えるMicrosoft Project代替が登場！
+      author:
+        name: Isabella Moore
+        title: チームリーダー（プロジェクト管理）
+      is_hidden: true
+    - rating: ★★★★★
+      text: 期待通りに動作し、とても満足しています。
+      author:
+        name: Benjamin Lee
+        title: アジャイルコーチ
+      is_hidden: true
+    - rating: ★★★★★
+      text: MS Projectの全機能が小さなパッケージに！
+      author:
+        name: Mia Harris
+        title: プロジェクト管理トレーナー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 直感的で構造化されたガントチャートが作成でき、マイルストーンやリソース計画、手動進捗管理も可能です。
+      author:
+        name: Emma Rodriguez
+        title: プロダクトマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 他社よりも動作が速く、タイムラインのスクロールやプロジェクトのオープンが本当に速いと感じます。素晴らしい！
+      author:
+        name: Ethan Walker
+        title: プログラムマネージャー
+      is_hidden: true
+    - rating: ★★★★★
+      text: 素晴らしいプログラムです！
+      author:
+        name: Harper Thompson
+        title: PMOディレクター（プロジェクト管理オフィス）
+      is_hidden: true
+
+features_detailed:
+  title: 成功するプロジェクト計画に必要なすべて
+  subtitle: 現代のプロジェクトマネージャー向けの強力な機能
+  tabs:
+    - id: planning
+      icon: fas fa-brain
+      title: 計画
+      content:
+        title: AI駆動の計画
+        features:
+          - icon: fas fa-check
+            title: AIプロジェクトジェネレーター
+            description: 高度なAIでシンプルなテキスト説明から完全なプロジェクト計画を作成
+          - icon: fas fa-check
+            title: 簡単なスケジューリング
+            description: プロジェクト計画のどの部分も更新し、全体の結果を即座に確認。
+          - icon: fas fa-check
+            title: なじみやすさ
+            description: MS Projectや類似ソフトの経験がありますか？その経験を活かせます！
+        video_id: 1pFHRsUC1ia_ZQG5HZqIqlZZmPAHo7tTj
+    - id: tracking
+      icon: fas fa-chart-line
+      title: 進捗管理
+      content:
+        title: 高度な進捗管理
+        features:
+          - icon: fas fa-check
+            title: 進捗モニタリング
+            description: 完了率やマイルストーン進捗を追跡
+          - icon: fas fa-check
+            title: リソース利用
+            description: リソース割り当てを監視し、潜在的なボトルネックを特定
+          - icon: fas fa-check
+            title: タイムライン分析
+            description: クリティカルパスを分析し、スケジュールの変動を追跡
+        video_id: 1jDrMe-GfWoGcSRQXeLFy3ve02PBCKR83
+    - id: collaboration
+      icon: fas fa-users
+      title: コラボレーション
+      content:
+        title: 直感的なコラボレーション
+        features:
+          - icon: fas fa-check
+            title: Google Drive連携
+            description: おなじみのGoogle Drive権限で共有・コラボレーション
+          - icon: fas fa-check
+            title: PDF・PNG・XMLでエクスポート
+            description: MS ProjectのXML形式をネイティブサポート。
+        video_id: 1r_eDJpn1uHFMUDe27ZwbStuYgbcyD8TC
+    - id: integration
+      icon: fas fa-plug
+      title: 連携
+      content:
+        title: 強力な連携
+        features:
+          - icon: fas fa-check
+            title: Google Workspace連携
+            description: Inganttを通常のGoogle Driveアプリのように使えます
+          - icon: fas fa-check
+            title: MS Project互換性
+            description: MS ProjectのMPPファイルをインポートし、常にMS Project互換XML形式で保存。
+          - icon: fas fa-check
+            title: エクスポートオプション
+            description: PDFやPNGでエクスポート可能
+        video_id: 1Z1MWOAGe-T-EI9TlTxdkW-wJDU4PbzEa
+
+pricing:
+  title: シンプルで透明な価格設定
+  subtitle: Ingantt for Web
+  plans:
+    - title: 無料トライアル
+      price: "$0"
+      duration: 14日間
+      features:
+        - すべての機能にフルアクセス
+        - AIプロジェクト生成
+        - MS Projectインポート/エクスポート
+        - Google Drive連携
+      cta:
+        text: 無料トライアルを始める
+        url: web_url
+        class: secondary
+    - title: プロフェッショナル
+      price: "$5.99"
+      duration: 1ユーザー/月
+      annual_price: または$59.99/ユーザー/年
+      featured: true
+      features:
+        - 無料トライアルのすべて
+        - 優先サポート
+      cta:
+        text: 無料トライアルを始める
+        url: web_url
+        class: primary
+    - title: エンタープライズ
+      price: カスタム
+      duration: 大規模チーム向け
+      features:
+        - プロフェッショナルのすべて
+        - カスタム連携
+        - 専用サポート
+        - SLA保証
+      cta:
+        text: 営業にお問い合わせ
+        url: support_email
+        class: secondary
+
+features_list:
+  title: Inganttでできること
+  items:
+    - icon: fas fa-brain
+      title: 高度な計画
+      items:
+        - AIでシンプルなテキスト説明からプロジェクト計画を作成
+        - 何でも更新して即座に変化を確認
+        - 完了予定日を予測し、ボトルネックを早期に特定
+        - コストを計画
+    - icon: fas fa-tasks
+      title: タスク管理
+      items:
+        - プロジェクトをタスクに分割
+        - タスク依存関係や締切を設定
+        - タスクをマイルストーンとしてマーク
+        - クリティカルパスを追跡
+        - タスクの完了状況を追跡
+    - icon: fas fa-users
+      title: コラボレーション
+      items:
+        - Google Driveで保存・共有
+        - XML・PDF・PNGでファイル交換—MS ProjectのXML形式をネイティブサポート。
+    - icon: fas fa-chart-line
+      title: 高度な進捗管理
+      items:
+        - リソース割り当てを監視
+        - クリティカルパスを分析
+        - リソース利用を監視
+        - タイムライン分析
+    - icon: fas fa-calendar-alt
+      title: リソース管理
+      items:
+        - タスク・マテリアル・コストリソースを管理
+        - リソースカレンダーや稼働時間を設定
+        - 過剰割り当てリソースを自動レベリング
+        - 時間ごとのリソース利用を確認
+    - icon: fas fa-plug
+      title: 連携
+      items:
+        - MS Projectファイル互換（MPP・XML）
+        - PDFやPNGでエクスポート
+        - Google Drive連携
+
+faq:
+  title: よくある質問
+  items:
+    - question: Inganttとは？どうやって使いますか？
+      answer: Inganttは、Google Driveから直接プロジェクト計画を作成・管理・共有できるプロフェッショナルなガントチャートプロジェクト管理ツールです。すでにGoogleエコシステムを利用しているチームのコラボレーションも簡単です。
+    - question: 既存のMicrosoft Projectファイルをインポートできますか？
+      answer: はい！InganttはMicrosoft Projectの.MPPおよび.XMLファイルのインポートを完全サポートします。タスクやリソース、依存関係など、すべてのプロジェクトデータがインポート中も保持されます。
+    - question: AIプロジェクト生成はどのように動作しますか？
+      answer: 当社のAIアシスタントは、シンプルなテキスト説明から完全なプロジェクト計画を作成できます。プロジェクトの目標や要件を記述するだけで、AIが最適なプロジェクト管理手法に基づき、タスク・締切・依存関係を含む構造化された計画を生成します。
+    - question: 無料トライアルには何が含まれますか？
+      answer: 14日間の無料トライアルにはInganttのすべての機能が含まれます。開始にクレジットカードは不要です。
+    - question: Ingantt Webはモバイルデバイスで使えますか？
+      answer: はい！Ingantt WebはどのデバイスでもWebブラウザで動作します。レスポンシブなインターフェースはスマートフォンやタブレットにも最適化されており、どこからでもプロジェクトにアクセスできます。
+    - question: サブスクリプションを解約した場合、データはどうなりますか？
+      answer: サブスクリプション解約後もプロジェクトファイルはGoogle Driveに安全に保存されます。ファイルはMS Project形式で保存されるため、データへのアクセスを失うことはありません。
+    - question: チームメンバーのためにInganttを購入するには？
+      answer: GoogleアカウントでInganttにサインインし、右上のアバターをクリックして「サブスクリプション購入」を選択してください。プラン（年間または月間）を選び、「他の人の分も購入したい」にチェックを入れて、同僚のGoogleアカウントを入力します。
+  support:
+    title: Inganttで計画を始めましょう
+    docs:
+      text: ドキュメントを見る
+    contact:
+      title: その他のご質問は？<br>サポート担当者にご連絡ください！
+      text: お問い合わせ
+      icon: fa fa-envelope
+
+cta:
+  title: チームのプロジェクト計画を変革しませんか？
+  subtitle: 今日から無料トライアルを始め、AI駆動プロジェクト計画の力を体験してください
+  button:
+    text: 無料トライアルを始める
+
+platform_support:
+  title: 個人利用向けのデバイス別バージョンが必要ですか？
+
+desktop_callback:
+  title: Ingantt
+  cta: 上記ダイアログで「Open」をクリックしてください。
+  success: クリックしましたか？このページを閉じて構いません。
+  issue: 問題が発生しましたか？
+  click: もう一度お試しください。
+
+blog:
+  title: Inganttブログ
+  subtitle: 最新ニュースとアップデートをチェック
+  title_tag: Inganttブログ - Inganttチームからの最新情報とアップデート
+  meta_keywords: Ingantt, ブログ, ニュース, Google Workspace向けガント
+  meta_description: Inganttの最新ニュースとアップデートをチェック
