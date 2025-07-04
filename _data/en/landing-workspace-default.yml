@@ -1,7 +1,7 @@
 lang_name: English
-title_tag: Ingantt - Gantt Chart Project Planning with AI in any browser
+title_tag: Ingantt - Modern Gantt Chart Project Planning in Google Workspace with AI
 meta_keywords: gantt chart, timeline maker, ai timeline generator, gantt chart maker, gantt chart template, ai timeline creator, gantt ai generator, gantt chart free, ms project alternative, gantt diagram app, gantt planning, project management gantt chart, best gantt chart software
-meta_description: Ingantt - AI-powered project management tool for the Web. Plan, schedule, and track your projects on the Web with Gantt charts and AI. Alternative to MS Project.
+meta_description: Ingantt - AI-powered project management tool for Google Workspace. Plan, schedule, and track your projects on the Web with Gantt charts and AI. Alternative to MS Project.
 
 page_url: workspace_page
 platform_url: workspace_url
@@ -9,9 +9,9 @@ store_image: google_workspace_marketplace.png
 platform_image: google_workspace.png
 
 products:
-  - icon: fa-solid fa-globe
-    text: Ingantt for Web
-    platform: Web
+  - icon: fa-brands fa-google
+    text: Ingantt for Google Workspace
+    platform: Google Workspace
     url: workspace_page
   - icon: fab fa-android
     text: Ingantt for Android
@@ -82,8 +82,8 @@ footer:
   copyright: Ingantt Development. All rights reserved.
 
 hero:
-  title: Gantt Chart Project Planning with AI
-  subtitle: Transform your project planning with intelligent Gantt charts, seamless collaboration, and AI assistance - all within your Web browser.
+  title: Gantt Chart Project Planning with AI in Google Workspace
+  subtitle: Transform your project planning with intelligent Gantt charts, seamless collaboration, and AI assistance - all within your Google Drive.
   cta:
     primary:
       text: Try Free
@@ -94,7 +94,7 @@ hero:
     stars: 5
     text: 5 stars on
   image: hero-workspace.png
-  also: Any device, any browser, any time!
+  also: Also works with Google Drive for @gmail.com users!
 
 features_grid:
   title: Why Project Managers Choose Ingantt
