@@ -245,7 +245,7 @@ features_detailed:
 
 pricing:
   title: Simple, Transparent Pricing
-  subtitle: Ingantt for Google Workspace
+  subtitle: Ingantt for Web
   plans:
     - title: Free Trial
       price: $0
@@ -257,7 +257,7 @@ pricing:
         - Google Drive Integration
       cta:
         text: Start Free Trial
-        url: workspace_url
+        url: web_url
         class: secondary
     - title: Professional
       price: $5.99
@@ -269,7 +269,7 @@ pricing:
         - Priority Support
       cta:
         text: Start Free Trial
-        url: workspace_url
+        url: web_url
         class: primary
     - title: Enterprise
       price: Custom
@@ -331,18 +331,16 @@ features_list:
 faq:
   title: Frequently Asked Questions
   items:
-    - question: What is Ingantt and how does it work with Google Workspace?
-      answer: Ingantt is a professional Gantt chart project management tool that integrates seamlessly with Google Workspace. It allows you to create, manage, and share project plans directly from your Google Drive, making collaboration effortless for teams already using Google's ecosystem.
-    - question: Does Ingantt for Google Workspace work with regular Google accounts?
-      answer: Yes! If you don't use Google Workspace but have a regular Google (@gmail.com) account, you can still use Ingantt for Google Workspace. The app integrates seamlessly with your account's Google Drive.
+    - question: What is Ingantt and how does it work?
+      answer: Ingantt is a professional Gantt chart project management tool that allows you to create, manage, and share project plans directly from your Google Drive, making collaboration effortless for teams already using Google's ecosystem.
     - question: Can I import my existing Microsoft Project files?
       answer: Yes! Ingantt fully supports importing .MPP and .XML files from Microsoft Project. All your project data, including tasks, resources, and dependencies, will be preserved during the import process.
     - question: How does the AI project generation work?
       answer: Our AI assistant can generate complete project plans from simple text descriptions. Just describe your project goals and requirements, and the AI will create a structured plan with tasks, timelines, and dependencies based on best project management practices.
     - question: What's included in the free trial?
-      answer: The 14-day free trial includes all Ingantt features and full Google Workspace integration. No credit card required to start.
-    - question: Can I use Ingantt for Google Workspace on mobile devices?
-      answer: Yes! Ingantt for Google Workspace works on any device with a web browser. Our responsive interface adapts perfectly to mobile phones and tablets, giving you full access to your projects on the go.
+      answer: The 14-day free trial includes all Ingantt features. No credit card required to start.
+    - question: Can I use Ingantt for Web on mobile devices?
+      answer: Yes! Ingantt for Web works on any device with a web browser. Our responsive interface adapts perfectly to mobile phones and tablets, giving you full access to your projects on the go.
     - question: What happens to my data if I cancel my subscription?
       answer: Your project files remain safely stored in your Google Drive even after cancellation. Your project files are stored in MS Project format, ensuring you never lose access to your data.
     - question: How can I buy Ingantt for my teammates?
