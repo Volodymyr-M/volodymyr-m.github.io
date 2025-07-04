@@ -83,7 +83,7 @@ hero:
   cta:
     primary:
       text: Experimente Grátis
-      text_fits: true
+      text_fits: false
     other_versions:
       title: Outras Versões
   rating:

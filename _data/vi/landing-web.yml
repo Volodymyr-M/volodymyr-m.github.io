@@ -83,7 +83,7 @@ hero:
   cta:
     primary:
       text: Dùng thử miễn phí
-      text_fits: true
+      text_fits: false
     other_versions:
       title: Phiên bản khác
   rating:
