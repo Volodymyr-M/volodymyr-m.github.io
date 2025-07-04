@@ -344,7 +344,7 @@ faq:
     - question: What happens to my data if I cancel my subscription?
       answer: Your project files remain safely stored in your Google Drive even after cancellation. Your project files are stored in MS Project format, ensuring you never lose access to your data.
     - question: How can I buy Ingantt for my teammates?
-      answer: Sign in to Ingantt with your Google account, click on your avatar in the top right corner and choose "Purchase subsciptions". Check "I want to purchase subscriptions for others" and enter Google-account emails of your coworkers. Choose the payment schedule (monthly or yearly) and proceed to checkout.
+      answer: Sign in to Ingantt with your Google account, click on your avatar in the top right corner and choose "Purchase subscription". Choose a plan (yearly or monthly), then check "I want to purchase subscriptions for others" and enter Google-account emails of your coworkers.
   support:
     title: Get started planning with Ingantt
     docs:
