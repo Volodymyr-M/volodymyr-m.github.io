@@ -11,7 +11,8 @@ android_url: https://play.google.com/store/apps/details?id=com.ingantt_developme
 windows_url: ms-windows-store://pdp/?productid=9NHQ26QV09F6
 macos_url: https://apps.apple.com/us/app/ingantt/id6450835363
 ios_url: https://apps.apple.com/us/app/ingantt-project-scheduling/id6466750274
-workspace_url: https://web.ingantt.com
+workspace_url: https://workspace.google.com/marketplace/app/ingantt/286119906331
+web_url: https://web.ingantt.com
 
 # Site Pages
 android_page: ingantt-for-android.html
@@ -19,6 +20,7 @@ ios_page: ingantt-for-ios.html
 windows_page: ingantt-for-windows.html
 macos_page: ingantt-for-macos.html
 workspace_page: 
+web_page: 
 privacy_policy_page: privacy_policy.html
 terms_of_service_page: terms_of_service.html
 blog_page: blog.html

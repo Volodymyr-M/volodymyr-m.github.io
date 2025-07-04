@@ -4,24 +4,27 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="{{ site.active_lang }}">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% assign page_data = site.data[site.active_lang].text-pages[page.page_name] %}
-    {% assign default_landing_data = site.data[site.active_lang].landing-workspace-default %}
+    {% assign default_landing_data = site.data[site.active_lang].landing-web-default %}
     {% assign landing_data = site.data[site.active_lang][page.data_file_name] %}
     {% assign head_source = page_data | default: landing_data | default: default_landing_data.blog %}
     <title>{{ head_source.title_tag }}</title>
     <meta name="keywords" content="{{ head_source.meta_keywords }}">
     <meta name="description" content="{{ head_source.meta_description }}">
-    {% assign landing_data = landing_data  | default: default_landing_data %}
+    {% assign landing_data = landing_data | default: default_landing_data %}
     <link rel="stylesheet" href="/styles/styles.css">
-    {% if page.styles_file %}<link rel="stylesheet" href="/styles/{{ page.styles_file }}">{% endif %}
+    {% if page.styles_file %}
+    <link rel="stylesheet" href="/styles/{{ page.styles_file }}">{% endif %}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     {% include google_analytics.html %}
     {% include google_ads.html %}
     {% include language_head.html %}
 </head>
+
 <body>
     <header>
         <nav class="container">
@@ -35,7 +38,8 @@ layout: compress
             <div class="nav-right">
                 <div class="language-select nav-version">
                     <div class="language-current">
-                        {% assign current_product = default_landing_data.products | where: 'url', landing_data.page_url | first %}
+                        {% assign current_product = default_landing_data.products | where: 'url', landing_data.page_url
+                        | first %}
                         <i class="{{ current_product.icon }}"></i>
                         <span>{{ current_product.text }}</span>
                         <i class="fas fa-chevron-down"></i>
@@ -80,7 +84,8 @@ layout: compress
                     <ul>
                         {% for item in section_data.items %}
                         <li>
-                            <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}" {% if item.active %}class="active"{% endif %}>
+                            <a href="{% if item.url == '/' %}{{ item.url }}{% else %}/{{ site[item.url] }}{% endif %}"
+                                {% if item.active %}class="active" {% endif %}>
                                 {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
                                 {{ item.text }}
                             </a>
@@ -93,7 +98,8 @@ layout: compress
                     <ul>
                         {% for item in section_data.items %}
                         <li>
-                            <a href="{% if site[item.url] contains '@' %}mailto:{{ site[item.url] | encode_email }}{% else %}{% if site[item.url] contains 'http' %}{{ site[item.url] }}{% else %}/{{ site[item.url] }}{% endif %}{% endif %}" {% if item.open_in_new_tab %}target="_blank"{% endif %}>
+                            <a href="{% if site[item.url] contains '@' %}mailto:{{ site[item.url] | encode_email }}{% else %}{% if site[item.url] contains 'http' %}{{ site[item.url] }}{% else %}/{{ site[item.url] }}{% endif %}{% endif %}"
+                                {% if item.open_in_new_tab %}target="_blank" {% endif %}>
                                 <i class="{{ item.icon }}"></i>{{ item.text }}
                             </a>
                         </li>
@@ -101,7 +107,8 @@ layout: compress
                     </ul>
                     <div class="social-links">
                         {% for social in section_data.social_links %}
-                        <a href="{{ site[social.url] }}" aria-label="{{ social.title }}" title="{{ social.title }}" target="_blank">
+                        <a href="{{ site[social.url] }}" aria-label="{{ social.title }}" title="{{ social.title }}"
+                            target="_blank">
                             <i class="{{ social.icon }}"></i>
                         </a>
                         {% endfor %}
@@ -109,7 +116,8 @@ layout: compress
                     {% endif %}
 
                     {% if section[0] == 'site_settings' %}
-                    <button id="theme-toggle" aria-label="{{ section_data.theme_toggle.text }}" title="{{ section_data.theme_toggle.text }}">
+                    <button id="theme-toggle" aria-label="{{ section_data.theme_toggle.text }}"
+                        title="{{ section_data.theme_toggle.text }}">
                         <i class="{{ section_data.theme_toggle.icon }}"></i> {{ section_data.theme_toggle.text }}
                     </button>
                     <div class="language-select">
@@ -120,8 +128,11 @@ layout: compress
                         </div>
                         <div class="language-dropdown">
                             {% for lang in site.languages %}
-                                {% assign lang_name = site.data[lang].landing-workspace-default.lang_name %}
-                                <a {% if lang == site.active_lang %}class="active"{% endif %} onclick="changeLanguage('{{ lang }}')" href="{% if lang == site.default_lang %} {{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}" lang="{{ lang }}">{{ lang_name }}</a>
+                            {% assign lang_name = site.data[lang].landing-workspace-default.lang_name %}
+                            <a {% if lang==site.active_lang %}class="active" {% endif %}
+                                onclick="changeLanguage('{{ lang }}')"
+                                href="{% if lang == site.default_lang %} {{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}"
+                                lang="{{ lang }}">{{ lang_name }}</a>
                             {% endfor %}
                         </div>
                     </div>
@@ -137,4 +148,5 @@ layout: compress
 
     <script src="/js/main.js"></script>
 </body>
+
 </html>
