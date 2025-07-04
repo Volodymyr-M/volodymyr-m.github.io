@@ -9,7 +9,7 @@ layout: compress
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% assign page_data = site.data[site.active_lang].text-pages[page.page_name] %}
-    {% assign default_landing_data = site.data[site.active_lang].landing-web-default %}
+    {% assign default_landing_data = site.data[site.active_lang].landing-web %}
     {% assign landing_data = site.data[site.active_lang][page.data_file_name] %}
     {% assign head_source = page_data | default: landing_data | default: default_landing_data.blog %}
     <title>{{ head_source.title_tag }}</title>
@@ -128,7 +128,7 @@ layout: compress
                         </div>
                         <div class="language-dropdown">
                             {% for lang in site.languages %}
-                            {% assign lang_name = site.data[lang].landing-workspace-default.lang_name %}
+                            {% assign lang_name = site.data[lang].landing-web.lang_name %}
                             <a {% if lang==site.active_lang %}class="active" {% endif %}
                                 onclick="changeLanguage('{{ lang }}')"
                                 href="{% if lang == site.default_lang %} {{ page.url }}{% else %}/{{ lang }}{{ page.url }}{% endif %}"
