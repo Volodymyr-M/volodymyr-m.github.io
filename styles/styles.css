@@ -1625,10 +1625,19 @@ footer {
         grid-template-columns: 1fr;
         text-align: center;
     }
+    /* Center language dropdown in footer site settings */
+    .footer-section .language-select {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .social-links {
         justify-content: center;
     }
 }
+
 
 
 /* Dark mode enhancements */
