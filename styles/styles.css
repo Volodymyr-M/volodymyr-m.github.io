@@ -1602,23 +1602,34 @@ footer {
 }
 
 @media (max-width: 480px) {
-    .cta-group {
+    /* HERO SECTION CTA BUTTONS: Make topCTA and Other versions full width, stacked, visually balanced */
+    .hero .cta-group {
         flex-direction: column;
+        align-items: stretch;
+        gap: var(--spacing-xs);
     }
-
+    .hero .cta-group .cta-button.primary.main-cta,
+    .hero .cta-group .cta-button.secondary.other-versions {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+    }
+    /* Ensure the language dropdown overlay remains unaffected */
     .hero-badges {
         flex-direction: column;
     }
-
     .footer-grid {
         grid-template-columns: 1fr;
         text-align: center;
     }
-
     .social-links {
         justify-content: center;
     }
 }
+
 
 /* Dark mode enhancements */
 .dark-mode .hero::before {
