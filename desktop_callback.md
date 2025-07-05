@@ -3,7 +3,7 @@ layout: compress
 permalink: desktop_callback.html
 ---
 
-{% assign default_landing_data = site.data[site.active_lang].landing-workspace-default %}
+{% assign default_landing_data = site.data[site.active_lang].landing-web %}
 <html lang="{{ site.active_lang }}">
 <head>
     <meta charset="UTF-8">
