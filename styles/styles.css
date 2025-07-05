@@ -1783,6 +1783,18 @@ section h2 {
     text-align: center;
 }
 
+/* Responsive: Reduce padding on narrow screens for .text-content and .text-page .container */
+@media (max-width: 600px) {
+  .text-content,
+  .blog-content {
+    padding: var(--spacing-md) !important;
+  }
+  .text-page .container {
+    padding: 0 var(--spacing-sm) !important;
+  }
+}
+
+
 .features-list {
     padding: var(--spacing-xl) 0;
     position: relative;
