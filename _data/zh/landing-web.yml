@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: 免费试用
       price: "$0"
-      duration: 14天
+      duration: 7天
       features:
         - 完整访问所有功能
         - AI项目生成器
@@ -334,7 +334,7 @@ faq:
     - question: 如何用AI创建项目？
       answer: 我们的AI助手可以根据简短描述生成完整项目计划。只需描述您的项目目标和需求，AI会根据最佳实践生成结构化的任务、截止日期和关系。
     - question: 免费试用包含哪些内容？
-      answer: 14天免费试用包含Ingantt的所有功能。无需信用卡即可开始。
+      answer: 7天免费试用包含Ingantt的所有功能。无需信用卡即可开始。
     - question: 我可以在移动设备上使用Ingantt Web吗？
       answer: 可以！Ingantt Web可在任何带浏览器的设备上使用。我们的Web界面针对智能手机和平板电脑进行了全面优化，您可随时随地访问项目。
     - question: 如果我取消订阅，我的数据会怎样？

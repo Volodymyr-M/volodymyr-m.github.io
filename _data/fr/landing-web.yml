@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: Essai gratuit
       price: "$0"
-      duration: 14 jours
+      duration: 7 jours
       features:
         - Accès complet aux fonctionnalités
         - Génération de projet IA
@@ -334,7 +334,7 @@ faq:
     - question: Comment fonctionne la génération de projet par IA ?
       answer: Notre assistant IA peut générer des plans de projet complets à partir de simples descriptions textuelles. Décrivez simplement vos objectifs et exigences de projet, et l'IA créera un plan structuré avec des tâches, des échéances et des dépendances selon les meilleures pratiques de gestion de projet.
     - question: Que comprend l'essai gratuit ?
-      answer: L'essai gratuit de 14 jours inclut toutes les fonctionnalités d'Ingantt. Aucune carte bancaire requise pour commencer.
+      answer: L'essai gratuit de 7 jours inclut toutes les fonctionnalités d'Ingantt. Aucune carte bancaire requise pour commencer.
     - question: Puis-je utiliser Ingantt pour le Web sur des appareils mobiles ?
       answer: Oui ! Ingantt pour le Web fonctionne sur tout appareil disposant d'un navigateur web. Notre interface réactive s'adapte parfaitement aux téléphones et tablettes, vous donnant un accès complet à vos projets en déplacement.
     - question: Que devient mes données si j'annule mon abonnement ?

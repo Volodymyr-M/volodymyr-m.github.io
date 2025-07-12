@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: Kostenlose Testversion
       price: "€0"
-      duration: 14 Tage
+      duration: 7 Tage
       features:
         - Voller Funktionsumfang
         - KI-Projektgenerator
@@ -334,7 +334,7 @@ faq:
     - question: Wie funktioniert die KI-Projektgenerierung?
       answer: Unser KI-Assistent kann vollständige Projektpläne aus einfachen Textbeschreibungen generieren. Beschreiben Sie einfach Ihre Projektziele und Anforderungen, und die KI erstellt einen strukturierten Plan mit Aufgaben, Zeitplänen und Abhängigkeiten nach den besten Projektmanagement-Praktiken.
     - question: Was ist in der kostenlosen Testversion enthalten?
-      answer: Die 14-tägige kostenlose Testversion enthält alle Ingantt-Funktionen. Keine Kreditkarte erforderlich, um zu starten.
+      answer: Die 7-tägige kostenlose Testversion enthält alle Ingantt-Funktionen. Keine Kreditkarte erforderlich, um zu starten.
     - question: Kann ich Ingantt für das Web auf mobilen Geräten verwenden?
       answer: Ja! Ingantt für das Web funktioniert auf jedem Gerät mit einem Webbrowser. Unsere reaktionsfähige Oberfläche passt sich perfekt an Smartphones und Tablets an und gibt Ihnen vollen Zugriff auf Ihre Projekte unterwegs.
     - question: Was passiert mit meinen Daten, wenn ich mein Abonnement kündige?

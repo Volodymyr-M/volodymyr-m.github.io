@@ -249,7 +249,7 @@ pricing:
   plans:
     - title: Free Trial
       price: $0
-      duration: 14 days
+      duration: 7 days
       features:
         - Full Feature Access
         - AI Project Generation
@@ -338,7 +338,7 @@ faq:
     - question: How does the AI project generation work?
       answer: Our AI assistant can generate complete project plans from simple text descriptions. Just describe your project goals and requirements, and the AI will create a structured plan with tasks, timelines, and dependencies based on best project management practices.
     - question: What's included in the free trial?
-      answer: The 14-day free trial includes all Ingantt features. No credit card required to start.
+      answer: The 7-day free trial includes all Ingantt features. No credit card required to start.
     - question: Can I use Ingantt for Web on mobile devices?
       answer: Yes! Ingantt for Web works on any device with a web browser. Our responsive interface adapts perfectly to mobile phones and tablets, giving you full access to your projects on the go.
     - question: What happens to my data if I cancel my subscription?

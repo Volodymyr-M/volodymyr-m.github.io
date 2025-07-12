@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: Uji Coba Gratis
       price: "$0"
-      duration: 14 hari
+      duration: 7 hari
       features:
         - Akses penuh ke semua fitur
         - Generasi Proyek AI
@@ -334,7 +334,7 @@ faq:
     - question: Bagaimana cara kerja generasi proyek AI?
       answer: Asisten AI kami dapat membuat rencana proyek lengkap dari deskripsi teks sederhana. Cukup jelaskan tujuan dan kebutuhan proyek Anda, dan AI akan menghasilkan rencana terstruktur dengan tugas, tenggat waktu, dan dependensi berdasarkan praktik terbaik manajemen proyek.
     - question: Apa saja yang termasuk dalam uji coba gratis?
-      answer: Uji coba gratis 14 hari mencakup semua fitur Ingantt. Tidak perlu kartu kredit untuk memulai.
+      answer: Uji coba gratis 7 hari mencakup semua fitur Ingantt. Tidak perlu kartu kredit untuk memulai.
     - question: Bisakah saya menggunakan Ingantt Web di perangkat seluler?
       answer: Ya! Ingantt Web berfungsi di perangkat apa pun dengan browser web. Antarmuka responsif kami sepenuhnya dioptimalkan untuk ponsel dan tablet, sehingga Anda dapat mengakses proyek Anda di mana saja.
     - question: Apa yang terjadi pada data saya jika saya membatalkan langganan?

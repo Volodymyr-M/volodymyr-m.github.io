@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: Ücretsiz Deneme
       price: "$0"
-      duration: 14 gün
+      duration: 7 gün
       features:
         - Tüm özelliklere tam erişim
         - AI Proje Oluşturucu
@@ -334,7 +334,7 @@ faq:
     - question: AI ile proje oluşturma nasıl çalışır?
       answer: AI asistanımız, kısa bir metin açıklamasından tam bir proje planı oluşturabilir. Proje hedeflerinizi ve gereksinimlerinizi açıklayın; AI, en iyi proje yönetimi uygulamalarına göre yapılandırılmış görevler, teslim tarihleri ve ilişkilerle bir plan oluşturur.
     - question: Ücretsiz deneme neleri içerir?
-      answer: 14 günlük ücretsiz deneme, Ingantt'ın tüm özelliklerini içerir. Başlamak için kredi kartı gerekmez.
+      answer: 7 günlük ücretsiz deneme, Ingantt'ın tüm özelliklerini içerir. Başlamak için kredi kartı gerekmez.
     - question: Ingantt Web'i mobil cihazlarda kullanabilir miyim?
       answer: Evet! Ingantt Web, tarayıcısı olan tüm cihazlarda çalışır. Web arayüzümüz akıllı telefonlar ve tabletler için tamamen optimize edilmiştir, böylece projelerinize her yerden erişebilirsiniz.
     - question: Aboneliğimi iptal edersem verilerim ne olur?

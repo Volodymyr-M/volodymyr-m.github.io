@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: Darmowa wersja próbna
       price: "$0"
-      duration: 14 dni
+      duration: 7 dni
       features:
         - Pełny dostęp do wszystkich funkcji
         - Generator projektów AI
@@ -334,7 +334,7 @@ faq:
     - question: Jak działa generowanie projektów z AI?
       answer: Nasz asystent AI może wygenerować pełny plan projektu z krótkiego opisu tekstowego. Wystarczy opisać cele i wymagania projektu, a AI wygeneruje uporządkowany plan z zadaniami, terminami i zależnościami na podstawie najlepszych praktyk zarządzania projektami.
     - question: Co obejmuje darmowa wersja próbna?
-      answer: 14-dniowa darmowa wersja próbna obejmuje wszystkie funkcje Ingantt. Karta kredytowa nie jest wymagana do rozpoczęcia.
+      answer: 7-dniowa darmowa wersja próbna obejmuje wszystkie funkcje Ingantt. Karta kredytowa nie jest wymagana do rozpoczęcia.
     - question: Czy mogę korzystać z Ingantt Web na urządzeniach mobilnych?
       answer: Tak! Ingantt Web działa na każdym urządzeniu z przeglądarką internetową. Nasz responsywny interfejs jest w pełni zoptymalizowany pod smartfony i tablety, więc masz dostęp do projektów wszędzie.
     - question: Co stanie się z moimi danymi, jeśli anuluję subskrypcję?

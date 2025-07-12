@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: Dùng thử miễn phí
       price: "$0"
-      duration: 14 ngày
+      duration: 7 ngày
       features:
         - Truy cập đầy đủ tất cả tính năng
         - Trình tạo dự án AI
@@ -334,7 +334,7 @@ faq:
     - question: Tạo dự án bằng AI hoạt động như thế nào?
       answer: Trợ lý AI của chúng tôi có thể tạo kế hoạch dự án hoàn chỉnh từ mô tả ngắn. Chỉ cần mô tả mục tiêu và yêu cầu dự án, AI sẽ xây dựng kế hoạch có cấu trúc với công việc, hạn chót và mối quan hệ theo thực tiễn quản lý dự án tốt nhất.
     - question: Gói dùng thử miễn phí bao gồm những gì?
-      answer: Dùng thử miễn phí 14 ngày bao gồm tất cả tính năng của Ingantt. Không cần thẻ tín dụng để bắt đầu.
+      answer: Dùng thử miễn phí 7 ngày bao gồm tất cả tính năng của Ingantt. Không cần thẻ tín dụng để bắt đầu.
     - question: Tôi có thể sử dụng Ingantt Web trên thiết bị di động không?
       answer: Có! Ingantt Web hoạt động trên mọi thiết bị có trình duyệt. Giao diện web của chúng tôi tối ưu hóa hoàn toàn cho điện thoại thông minh và máy tính bảng, giúp bạn truy cập dự án mọi lúc mọi nơi.
     - question: Điều gì xảy ra với dữ liệu của tôi nếu tôi hủy đăng ký?

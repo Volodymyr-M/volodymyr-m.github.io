@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: Percubaan Percuma
       price: "$0"
-      duration: 14 hari
+      duration: 7 hari
       features:
         - Akses penuh ke semua ciri
         - Penjana Projek AI
@@ -334,7 +334,7 @@ faq:
     - question: Bagaimana penjanaan projek dengan AI berfungsi?
       answer: Pembantu AI kami boleh menghasilkan pelan projek lengkap daripada deskripsi teks ringkas. Hanya terangkan matlamat dan keperluan projek anda dan AI akan menjana pelan berstruktur dengan tugas, tarikh akhir dan kebergantungan berdasarkan amalan terbaik pengurusan projek.
     - question: Apa yang termasuk dalam percubaan percuma?
-      answer: Percubaan percuma 14 hari termasuk semua ciri Ingantt. Kad kredit tidak diperlukan untuk bermula.
+      answer: Percubaan percuma 7 hari termasuk semua ciri Ingantt. Kad kredit tidak diperlukan untuk bermula.
     - question: Bolehkah saya gunakan Ingantt Web pada peranti mudah alih?
       answer: Ya! Ingantt Web berfungsi pada mana-mana peranti dengan pelayar web. Antara muka responsif kami dioptimumkan sepenuhnya untuk telefon pintar dan tablet, jadi anda boleh mengakses projek anda di mana-mana.
     - question: Apa berlaku kepada data saya jika saya membatalkan langganan?

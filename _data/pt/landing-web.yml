@@ -245,7 +245,7 @@ pricing:
   plans:
     - title: Teste Grátis
       price: "$0"
-      duration: 14 dias
+      duration: 7 dias
       features:
         - Acesso completo a todos os recursos
         - Gerador de Projetos com IA
@@ -334,7 +334,7 @@ faq:
     - question: Como funciona a geração de projetos com IA?
       answer: Nosso assistente de IA pode gerar um plano de projeto completo a partir de uma breve descrição de texto. Basta descrever os objetivos e requisitos do seu projeto e a IA irá gerar um plano estruturado com tarefas, prazos e dependências, com base nas melhores práticas de gerenciamento de projetos.
     - question: O que está incluído no teste grátis?
-      answer: O teste grátis de 14 dias inclui todos os recursos do Ingantt. Não é necessário cartão de crédito para começar.
+      answer: O teste grátis de 7 dias inclui todos os recursos do Ingantt. Não é necessário cartão de crédito para começar.
     - question: Posso usar o Ingantt Web em dispositivos móveis?
       answer: Sim! O Ingantt Web funciona em qualquer dispositivo com navegador. Nossa interface responsiva é totalmente otimizada para smartphones e tablets, para que você possa acessar seus projetos de qualquer lugar.
     - question: O que acontece com meus dados se eu cancelar a assinatura?
