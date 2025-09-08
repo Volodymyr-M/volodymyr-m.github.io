@@ -31,18 +31,18 @@
         const savedLang = getLanguageCookieValue();
         if (savedLang) {
             if (savedLang != '{{ site.default_lang }}') {
-                const redirectUrl = languageFolders[savedLang] + window.location.pathname.split('/')[1];
+                const redirectUrl = languageFolders[savedLang] + window.location.pathname.split('/')[1] + window.location.search + window.location.hash;
                 if (redirectUrl) {
-                    window.location.href = redirectUrl;
+                    window.location.replace(redirectUrl);
                 }
             }
         } else {
             const userLang = navigator.language || navigator.userLanguage;
             const langCode = userLang.split('-')[0];
-            const redirectUrl = languageFolders[langCode] + window.location.pathname.split('/')[1];
+            const redirectUrl = languageFolders[langCode] + window.location.pathname.split('/')[1] + window.location.search + window.location.hash;
             if (redirectUrl) {
                 setLanguageCookie(langCode);
-                window.location.href = redirectUrl;
+                window.location.replace(redirectUrl);
             }
         }
     }
