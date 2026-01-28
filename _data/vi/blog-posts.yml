@@ -1,3 +1,24 @@
+- title: "Biểu đồ tương tác, màu sắc và nhiều hơn nữa"
+  published_on: "28 Tháng Một, 2026"
+  content: |
+    Chúng tôi đã rất bận rộn! Kể từ bản cập nhật trước, Ingantt đã nhận được hàng loạt cải tiến được thiết kế để giúp việc lập kế hoạch dự án trở nên trực quan và mạnh mẽ hơn bao giờ hết.
+
+    Bổ sung lớn nhất là **các thanh biểu đồ Gantt tương tác**. Bạn có thể kéo các công việc để thay đổi ràng buộc ngày bắt đầu và thay đổi kích thước để điều chỉnh thời lượng — tất cả trực tiếp trên biểu đồ. Chú thích công cụ giúp bạn nắm rõ ngày chính xác trong quá trình thao tác. Điều này giúp việc sắp xếp lại kế hoạch dự án nhanh hơn và trực quan hơn bao giờ hết.
+
+    Chúng tôi cũng đã thêm **tùy chỉnh màu sắc công việc**. Bạn có thể gán màu tùy chỉnh cho từng công việc riêng lẻ trên biểu đồ Gantt, giúp dễ dàng phân loại và phân biệt trực quan các phần khác nhau của dự án trong nháy mắt.
+
+    **Xuất PDF** đã được nâng cấp đáng kể. Giờ đây bao gồm danh sách công việc bên cạnh biểu đồ Gantt, giữ nguyên màu sắc biểu đồ và hiển thị biểu tượng trong các ô Thông tin — mang đến cho bạn một tài liệu dự án hoàn chỉnh, chỉn chu, sẵn sàng để in hoặc chia sẻ.
+
+    Tùy chọn **xuất CSV** mới hiện đã có sẵn, giúp bạn dễ dàng đưa dữ liệu dự án vào bảng tính và các công cụ khác.
+
+    Đối với những người quản lý lịch dự án, bạn có thể chỉ định **khoảng ngày** làm ngoại lệ lịch, không chỉ các ngày riêng lẻ — một cách nhanh hơn nhiều để đánh dấu ngày lễ, thời gian ngừng hoạt động hoặc các khoảng thời gian không làm việc khác.
+
+    Chúng tôi đã cải thiện trải nghiệm **Lưu dưới dạng** với hộp thoại gọn gàng hơn, và thêm xác nhận khi đóng trình duyệt để giúp ngăn ngừa mất dữ liệu do vô ý. Trải nghiệm trên thiết bị di động cũng đã được tinh chỉnh toàn diện, với bộ chọn ngày nội tuyến và các tương tác mượt mà hơn.
+
+    Bên trong, chúng tôi đã thực hiện **các cải thiện ổn định lớn** và hiện đại hóa hệ thống đăng ký trên tất cả các nền tảng để mang lại trải nghiệm mượt mà hơn.
+
+    Bản cập nhật này hiện đã có sẵn trên tất cả các nền tảng được hỗ trợ. Hãy tận hưởng!
+
 - title: "Cải thiện năng suất"
   published_on: "21 Tháng Hai, 2025"
   content: |

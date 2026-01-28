@@ -1,3 +1,24 @@
+- title: "Gráficos interativos, cores e muito mais"
+  published_on: "28 de janeiro de 2026"
+  content: |
+    Estivemos ocupados! Desde a nossa última atualização, o Ingantt recebeu uma série de melhorias projetadas para tornar o planejamento de projetos mais intuitivo e poderoso do que nunca.
+
+    A maior novidade são as **barras interativas do gráfico de Gantt**. Agora você pode arrastar tarefas para alterar suas restrições de data de início e redimensioná-las para ajustar a duração — tudo diretamente no gráfico. Uma dica de ferramenta mantém você informado sobre as datas exatas durante a operação. Isso torna a reorganização do seu plano de projeto mais rápida e visual do que nunca.
+
+    Também adicionamos a **personalização de cores das tarefas**. Agora é possível atribuir cores personalizadas a tarefas individuais no gráfico de Gantt, facilitando a categorização e a distinção visual das diferentes partes do seu projeto de relance.
+
+    A **exportação para PDF** foi significativamente aprimorada. Agora inclui a lista de tarefas ao lado do gráfico de Gantt, preserva as cores do gráfico e exibe ícones nas células de informação — oferecendo um documento de projeto completo e polido, pronto para impressão ou compartilhamento.
+
+    Uma nova opção de **exportação para CSV** já está disponível, facilitando a transferência dos dados do seu projeto para planilhas e outras ferramentas.
+
+    Para quem gerencia calendários de projetos, agora é possível especificar **intervalos de datas** como exceções de calendário, não apenas datas individuais — uma maneira muito mais rápida de marcar feriados, paralisações ou outros períodos não úteis.
+
+    Melhoramos a experiência de **Salvar como** com um diálogo mais limpo e adicionamos uma confirmação ao fechar o navegador para ajudar a prevenir perda acidental de dados. A experiência mobile também foi refinada em geral, com seletores de data integrados e interações mais fluidas.
+
+    Nos bastidores, fizemos **melhorias significativas de estabilidade** e modernizamos o sistema de assinaturas em todas as plataformas para uma experiência mais fluida.
+
+    Esta atualização já está disponível em todas as plataformas compatíveis. Aproveite!
+
 - title: "Melhorias de produtividade"
   published_on: "21 de fevereiro de 2025"
   content: |

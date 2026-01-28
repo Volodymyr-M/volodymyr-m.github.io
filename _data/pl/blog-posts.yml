@@ -1,3 +1,24 @@
+- title: "Interaktywne wykresy, kolory i wiele więcej"
+  published_on: "28 stycznia 2026"
+  content: |
+    Nie próżnowaliśmy! Od ostatniej aktualizacji Ingantt otrzymał szereg usprawnień, które sprawiają, że planowanie projektów jest bardziej intuicyjne i potężne niż kiedykolwiek.
+
+    Największym dodatkiem są **interaktywne paski wykresu Gantta**. Teraz możesz przeciągać zadania, aby zmienić ich ograniczenia daty rozpoczęcia, oraz zmieniać ich rozmiar, aby dostosować czas trwania — wszystko bezpośrednio na wykresie. Dymek podpowiedzi informuje Cię o dokładnych datach w trakcie pracy. Dzięki temu reorganizacja planu projektu jest szybsza i bardziej wizualna niż kiedykolwiek.
+
+    Dodaliśmy również **personalizację kolorów zadań**. Teraz możesz przypisywać niestandardowe kolory do poszczególnych zadań na wykresie Gantta, co ułatwia wizualne kategoryzowanie i rozróżnianie różnych części projektu na pierwszy rzut oka.
+
+    **Eksport do PDF** został znacząco ulepszony. Teraz zawiera listę zadań obok wykresu Gantta, zachowuje kolory wykresu i wyświetla ikony w komórkach informacyjnych — dając Ci kompletny, dopracowany dokument projektu gotowy do wydruku lub udostępnienia.
+
+    Dostępna jest teraz nowa opcja **eksportu do CSV**, ułatwiająca przeniesienie danych projektu do arkuszy kalkulacyjnych i innych narzędzi.
+
+    Dla osób zarządzających kalendarzami projektów, można teraz określać **zakresy dat** jako wyjątki kalendarzowe, a nie tylko pojedyncze daty — znacznie szybszy sposób na oznaczenie świąt, przestojów lub innych okresów wolnych od pracy.
+
+    Ulepszyliśmy doświadczenie **Zapisz jako** dzięki czystszemu oknu dialogowemu i dodaliśmy potwierdzenie przy zamykaniu przeglądarki, aby zapobiec przypadkowej utracie danych. Doświadczenie mobilne zostało również dopracowane, z wbudowanymi selektorami dat i płynniejszymi interakcjami.
+
+    Pod maską wprowadziliśmy **istotne ulepszenia stabilności** i zmodernizowaliśmy system subskrypcji na wszystkich platformach, zapewniając płynniejsze działanie.
+
+    Ta aktualizacja jest już dostępna na wszystkich obsługiwanych platformach. Miłego użytkowania!
+
 - title: "Ulepszenia produktywności"
   published_on: "21 lutego 2025"
   content: |

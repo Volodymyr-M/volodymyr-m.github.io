@@ -1,3 +1,24 @@
+- title: "Interactive charts, colors, and more"
+  published_on: "January 28, 2026"
+  content: |
+    We've been busy! Since our last update, Ingantt has received a wave of improvements designed to make project planning more intuitive and powerful than ever.
+
+    The biggest addition is **interactive Gantt chart bars**. You can now drag tasks to change their start date constraints and resize them to adjust duration — all directly on the chart. A tooltip keeps you informed of the exact dates as you go. This makes rearranging your project plan faster and more visual than ever.
+
+    We've also added **task color customization**. You can now assign custom colors to individual tasks in the Gantt chart, making it easy to visually categorize and distinguish different parts of your project at a glance.
+
+    **PDF export** has been significantly upgraded. It now includes the task list alongside the Gantt chart, preserves chart colors, and displays icons in the Info cells — giving you a complete, polished project document ready for printing or sharing.
+
+    A new **CSV export** option is now available, making it easy to get your project data into spreadsheets and other tools.
+
+    For those managing project calendars, you can now specify **date ranges** as calendar exceptions, not just individual dates — a much faster way to mark holidays, shutdowns, or other non-working periods.
+
+    We've improved the **Save As** experience with a cleaner dialog, and added a confirmation when closing the browser to help prevent accidental data loss. The mobile experience has also been refined throughout, with inline date pickers and smoother interactions.
+
+    Under the hood, we've made **major stability improvements** and modernized the subscription system across all platforms for a smoother experience.
+
+    This update is available now across all supported platforms. Enjoy!
+
 - title: "Productivity improvements"
   published_on: "February 21, 2025"
   content: |

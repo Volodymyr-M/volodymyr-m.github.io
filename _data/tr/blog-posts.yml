@@ -1,3 +1,24 @@
+- title: "İnteraktif grafikler, renkler ve daha fazlası"
+  published_on: "28 Ocak 2026"
+  content: |
+    Yoğun bir dönem geçirdik! Son güncellememizden bu yana, Ingantt proje planlamasını her zamankinden daha sezgisel ve güçlü hale getirmek için tasarlanmış bir dizi iyileştirme aldı.
+
+    En büyük yenilik **etkileşimli Gantt şeması çubuklarıdır**. Artık görevleri sürükleyerek başlangıç tarihi kısıtlamalarını değiştirebilir ve boyutlarını ayarlayarak süreyi düzenleyebilirsiniz — tüm bunlar doğrudan şema üzerinde yapılır. Bir araç ipucu, çalışırken tam tarihleri gösterir. Bu sayede proje planınızı yeniden düzenlemek her zamankinden daha hızlı ve görsel hale gelir.
+
+    Ayrıca **görev rengi özelleştirme** özelliğini ekledik. Artık Gantt şemasında tek tek görevlere özel renkler atayabilir, projenizin farklı bölümlerini bir bakışta görsel olarak kategorize edebilir ve ayırt edebilirsiniz.
+
+    **PDF dışa aktarma** önemli ölçüde geliştirildi. Artık Gantt şemasının yanı sıra görev listesini de içeriyor, şema renklerini koruyor ve Bilgi hücrelerinde simgeler gösteriyor — yazdırmaya veya paylaşmaya hazır, eksiksiz ve profesyonel bir proje belgesi sunuyor.
+
+    Yeni bir **CSV dışa aktarma** seçeneği artık mevcut; proje verilerinizi elektronik tablolara ve diğer araçlara kolayca aktarmanızı sağlar.
+
+    Proje takvimlerini yönetenler için artık takvim istisnaları olarak yalnızca tek tarihler değil, **tarih aralıkları** da belirleyebilirsiniz — tatilleri, kapanışları veya diğer çalışılmayan dönemleri işaretlemenin çok daha hızlı bir yolu.
+
+    Daha temiz bir iletişim kutusuyla **Farklı Kaydet** deneyimini iyileştirdik ve tarayıcıyı kapatırken yanlışlıkla veri kaybını önlemek için bir onay ekledik. Mobil deneyim de satır içi tarih seçiciler ve daha akıcı etkileşimlerle genel olarak iyileştirildi.
+
+    Altyapıda **önemli kararlılık iyileştirmeleri** yaptık ve daha sorunsuz bir deneyim için tüm platformlarda abonelik sistemini modernize ettik.
+
+    Bu güncelleme, desteklenen tüm platformlarda şu anda kullanılabilir. Keyfini çıkarın!
+
 - title: "Verimlilik İyileştirmeleri"
   published_on: "21 Şubat 2025"
   content: |

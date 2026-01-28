@@ -1,3 +1,24 @@
+- title: "Graphiques interactifs, couleurs et plus encore"
+  published_on: "28 janvier 2026"
+  content: |
+    Nous avons été bien occupés ! Depuis notre dernière mise à jour, Ingantt a reçu une vague d'améliorations conçues pour rendre la planification de projet plus intuitive et plus puissante que jamais.
+
+    Le plus grand ajout concerne les **barres interactives du diagramme de Gantt**. Vous pouvez désormais déplacer les tâches pour modifier leurs contraintes de date de début et les redimensionner pour ajuster leur durée — le tout directement sur le graphique. Une info-bulle vous tient informé des dates exactes en temps réel. Cela rend la réorganisation de votre plan de projet plus rapide et plus visuelle que jamais.
+
+    Nous avons également ajouté la **personnalisation des couleurs des tâches**. Vous pouvez maintenant attribuer des couleurs personnalisées à chaque tâche du diagramme de Gantt, ce qui permet de catégoriser et de distinguer visuellement les différentes parties de votre projet en un coup d'œil.
+
+    L'**export PDF** a été considérablement amélioré. Il inclut désormais la liste des tâches aux côtés du diagramme de Gantt, conserve les couleurs du graphique et affiche des icônes dans les cellules d'information — pour un document projet complet et soigné, prêt à imprimer ou à partager.
+
+    Une nouvelle option d'**export CSV** est désormais disponible, facilitant l'intégration de vos données de projet dans des tableurs et d'autres outils.
+
+    Pour la gestion des calendriers de projet, vous pouvez maintenant spécifier des **plages de dates** comme exceptions de calendrier, et non plus seulement des dates individuelles — un moyen bien plus rapide de marquer les jours fériés, les fermetures ou autres périodes non travaillées.
+
+    Nous avons amélioré l'expérience **Enregistrer sous** avec un dialogue plus épuré, et ajouté une confirmation lors de la fermeture du navigateur pour prévenir toute perte accidentelle de données. L'expérience mobile a également été peaufinée dans son ensemble, avec des sélecteurs de dates intégrés et des interactions plus fluides.
+
+    En coulisses, nous avons apporté d'**importantes améliorations de stabilité** et modernisé le système d'abonnement sur toutes les plateformes pour une expérience plus fluide.
+
+    Cette mise à jour est disponible dès maintenant sur toutes les plateformes prises en charge. Profitez-en !
+
 - title: "Améliorations de la productivité"
   published_on: "21 février 2025"
   content: |

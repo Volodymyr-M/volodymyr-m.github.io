@@ -1,3 +1,24 @@
+- title: "Interaktive Diagramme, Farben und mehr"
+  published_on: "28. Januar 2026"
+  content: |
+    Wir waren fleißig! Seit unserem letzten Update hat Ingantt eine Reihe von Verbesserungen erhalten, die die Projektplanung intuitiver und leistungsfähiger denn je machen.
+
+    Die größte Neuerung sind **interaktive Gantt-Diagrammbalken**. Sie können nun Aufgaben verschieben, um deren Startdatum-Einschränkungen zu ändern, und ihre Größe anpassen, um die Dauer zu ändern — alles direkt im Diagramm. Ein Tooltip informiert Sie dabei stets über die genauen Daten. So geht die Umstrukturierung Ihres Projektplans schneller und visueller als je zuvor.
+
+    Außerdem haben wir die **farbliche Anpassung von Aufgaben** hinzugefügt. Sie können einzelnen Aufgaben im Gantt-Diagramm nun benutzerdefinierte Farben zuweisen, sodass sich verschiedene Teile Ihres Projekts auf einen Blick visuell kategorisieren und unterscheiden lassen.
+
+    Der **PDF-Export** wurde erheblich verbessert. Er enthält nun die Aufgabenliste neben dem Gantt-Diagramm, bewahrt die Diagrammfarben und zeigt Symbole in den Info-Zellen an — für ein vollständiges, ansprechendes Projektdokument, das druckfertig ist oder geteilt werden kann.
+
+    Eine neue **CSV-Export**-Option ist jetzt verfügbar, mit der Sie Ihre Projektdaten einfach in Tabellenkalkulationen und andere Tools übertragen können.
+
+    Für die Verwaltung von Projektkalendern können Sie nun **Datumsbereiche** als Kalenderausnahmen angeben, nicht nur einzelne Tage — eine deutlich schnellere Methode, um Feiertage, Betriebsferien oder andere arbeitsfreie Zeiträume zu markieren.
+
+    Wir haben das **Speichern unter**-Erlebnis mit einem übersichtlicheren Dialog verbessert und eine Bestätigung beim Schließen des Browsers hinzugefügt, um versehentlichen Datenverlust zu vermeiden. Auch die mobile Nutzung wurde durchgehend optimiert — mit Inline-Datumsauswahl und flüssigeren Interaktionen.
+
+    Unter der Haube haben wir **umfangreiche Stabilitätsverbesserungen** vorgenommen und das Abonnementsystem auf allen Plattformen modernisiert, für ein reibungsloseres Erlebnis.
+
+    Dieses Update ist ab sofort auf allen unterstützten Plattformen verfügbar. Viel Spaß!
+
 - title: "Produktivitätsverbesserungen"
   published_on: "21. Februar 2025"
   content: |

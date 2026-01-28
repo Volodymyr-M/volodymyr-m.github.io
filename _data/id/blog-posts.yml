@@ -1,3 +1,24 @@
+- title: "Bagan interaktif, warna, dan lainnya"
+  published_on: "28 Januari 2026"
+  content: |
+    Kami telah sibuk! Sejak pembaruan terakhir, Ingantt telah menerima serangkaian peningkatan yang dirancang untuk membuat perencanaan proyek lebih intuitif dan lebih canggih dari sebelumnya.
+
+    Penambahan terbesar adalah **bilah bagan Gantt interaktif**. Anda sekarang dapat menyeret tugas untuk mengubah batasan tanggal mulai dan mengubah ukurannya untuk menyesuaikan durasi — semuanya langsung di bagan. Tooltip memberi Anda informasi tanggal yang tepat saat Anda melakukannya. Ini membuat pengaturan ulang rencana proyek Anda menjadi lebih cepat dan lebih visual dari sebelumnya.
+
+    Kami juga telah menambahkan **kustomisasi warna tugas**. Anda sekarang dapat menetapkan warna khusus untuk tugas individual di bagan Gantt, sehingga mudah untuk mengategorikan dan membedakan berbagai bagian proyek Anda secara visual dalam sekejap.
+
+    **Ekspor PDF** telah ditingkatkan secara signifikan. Kini menyertakan daftar tugas bersama bagan Gantt, mempertahankan warna bagan, dan menampilkan ikon di sel Info — memberikan Anda dokumen proyek yang lengkap dan rapi, siap untuk dicetak atau dibagikan.
+
+    Opsi **ekspor CSV** baru kini tersedia, memudahkan Anda untuk memasukkan data proyek ke dalam spreadsheet dan alat lainnya.
+
+    Bagi yang mengelola kalender proyek, Anda sekarang dapat menentukan **rentang tanggal** sebagai pengecualian kalender, bukan hanya tanggal individual — cara yang jauh lebih cepat untuk menandai hari libur, penutupan, atau periode non-kerja lainnya.
+
+    Kami telah meningkatkan pengalaman **Simpan Sebagai** dengan dialog yang lebih bersih, dan menambahkan konfirmasi saat menutup browser untuk membantu mencegah kehilangan data secara tidak sengaja. Pengalaman seluler juga telah disempurnakan secara menyeluruh, dengan pemilih tanggal inline dan interaksi yang lebih lancar.
+
+    Di balik layar, kami telah melakukan **peningkatan stabilitas besar** dan memodernisasi sistem langganan di semua platform untuk pengalaman yang lebih lancar.
+
+    Pembaruan ini sekarang tersedia di semua platform yang didukung. Nikmati!
+
 - title: "Peningkatan Produktivitas"
   published_on: "21 Februari 2025"
   content: |

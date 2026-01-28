@@ -1,3 +1,24 @@
+- title: "Carta interaktif, warna dan banyak lagi"
+  published_on: "28 Januari 2026"
+  content: |
+    Kami telah sibuk! Sejak kemas kini terakhir, Ingantt telah menerima pelbagai penambahbaikan yang direka untuk menjadikan perancangan projek lebih intuitif dan berkuasa berbanding sebelumnya.
+
+    Penambahan terbesar ialah **bar carta Gantt interaktif**. Anda kini boleh menyeret tugasan untuk mengubah kekangan tarikh mula dan mengubah saiznya untuk melaraskan tempoh — semuanya terus di carta. Petua alat memberitahu anda tarikh yang tepat semasa anda melakukannya. Ini menjadikan penyusunan semula pelan projek anda lebih pantas dan lebih visual berbanding sebelumnya.
+
+    Kami juga telah menambah **penyesuaian warna tugasan**. Anda kini boleh menetapkan warna tersuai kepada tugasan individu dalam carta Gantt, memudahkan pengkategorian dan pembezaan secara visual bagi bahagian projek yang berbeza dalam sekelip mata.
+
+    **Eksport PDF** telah dipertingkatkan dengan ketara. Kini ia merangkumi senarai tugasan bersama carta Gantt, mengekalkan warna carta, dan memaparkan ikon dalam sel Maklumat — memberikan anda dokumen projek yang lengkap dan kemas, sedia untuk dicetak atau dikongsi.
+
+    Pilihan **eksport CSV** baharu kini tersedia, memudahkan anda mendapatkan data projek ke dalam hamparan dan alat lain.
+
+    Bagi mereka yang menguruskan kalendar projek, anda kini boleh menentukan **julat tarikh** sebagai pengecualian kalendar, bukan hanya tarikh individu — cara yang jauh lebih pantas untuk menanda cuti, penutupan, atau tempoh tidak bekerja yang lain.
+
+    Kami telah menambah baik pengalaman **Simpan Sebagai** dengan dialog yang lebih bersih, dan menambah pengesahan semasa menutup pelayar untuk membantu mencegah kehilangan data secara tidak sengaja. Pengalaman mudah alih juga telah diperhalusi secara menyeluruh, dengan pemilih tarikh sebaris dan interaksi yang lebih lancar.
+
+    Di sebalik tabir, kami telah melakukan **penambahbaikan kestabilan utama** dan memodenkan sistem langganan di semua platform untuk pengalaman yang lebih lancar.
+
+    Kemas kini ini kini tersedia di semua platform yang disokong. Selamat mencuba!
+
 - title: "Penambahbaikan Produktiviti"
   published_on: "21 Februari 2025"
   content: |
