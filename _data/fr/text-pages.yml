@@ -1,89 +1,428 @@
 terms_of_service:
-    title_tag: Ingantt - Conditions d’utilisation
-    meta_keywords: Ingantt, conditions d’utilisation
-    meta_description: Conditions d’utilisation d’Ingantt
-    text_title: Conditions d’utilisation
+    title_tag: Ingantt - Conditions d'utilisation
+    meta_keywords: Ingantt, conditions d'utilisation
+    meta_description: Conditions d'utilisation d'Ingantt
+    text_title: Conditions d'utilisation
     text: |
-      Bienvenue sur Ingantt ! En utilisant notre application, vous acceptez les conditions générales suivantes :
+      **Last Updated: February 22, 2026**
 
-      ## 1. Acceptation des conditions
+      Les présentes Conditions d'utilisation (« Conditions ») régissent votre accès et votre utilisation d'Ingantt (« l'Application », « le Service »), une application de planification de projets fournie par Ingantt Development (« nous », « notre », « nos »). En accédant ou en utilisant l'Application, vous acceptez d'être lié par les présentes Conditions. Si vous n'acceptez pas, n'utilisez pas l'Application.
 
-      En accédant ou en utilisant Ingantt, vous acceptez d’être lié par les présentes Conditions d’utilisation ainsi que par notre Politique de confidentialité.
+      ## 1. Description du Service
 
-      ## 2. Utilisation de Google Drive
+      Ingantt est une application de planification de projets multiplateforme qui fournit :
 
-      Notre application se connecte à votre Google Drive afin de stocker et de récupérer vos données. En utilisant notre application, vous nous autorisez à accéder à votre compte Google Drive à cette fin.
+      - La planification de projets à l'aide de l'algorithme de la méthode du chemin critique (CPM)
+      - La gestion des tâches avec dépendances, contraintes et affectation de ressources
+      - La visualisation et le rendu de diagrammes de Gantt
+      - La gestion des ressources et le nivellement des ressources
+      - La gestion des calendriers et des plannings de travail
+      - L'importation et l'exportation de projets aux formats XML (compatible Microsoft Project), CSV, PDF et Markdown
+      - La conversion de fichiers Microsoft Project (.mpp) via notre serveur
+      - L'intégration avec Google Drive pour le stockage et le partage de fichiers
+      - La création de projets assistée par l'IA (« Create with AI »)
 
-      ## 3. Données de l’utilisateur
+      L'Application est disponible sur le Web (web.ingantt.com et via Google Workspace Marketplace), iOS, Android, macOS et Windows.
 
-      Vous conservez la propriété de toutes les données que vous téléchargez sur votre Google Drive via notre application. Nous ne revendiquons aucun droit de propriété sur vos données.
+      ## 2. Conditions d'admissibilité
 
-      ## 4. Confidentialité
+      Vous devez avoir au moins 13 ans pour utiliser l'Application. Si vous avez entre 13 et 18 ans, vous devez disposer du consentement d'un parent ou d'un tuteur légal. En utilisant l'Application, vous déclarez et garantissez que vous remplissez ces conditions.
 
-      Votre confidentialité est importante pour nous. Nous n’accédons à vos données, ne les stockons et ne les utilisons que dans la mesure nécessaire à la fourniture de nos services. Veuillez consulter notre Politique de confidentialité pour plus d’informations sur la façon dont nous traitons vos données.
+      ## 3. Compte et authentification
 
-      ## 5. Sécurité
+      ### 3.1 Google Sign-In
 
-      Nous prenons des mesures raisonnables pour protéger vos données. Toutefois, nous ne pouvons pas garantir la sécurité absolue de vos données et ne sommes pas responsables de tout accès non autorisé ou de toute violation de sécurité.
+      La version Web de l'Application nécessite Google Sign-In pour l'authentification. Sur les autres plateformes, Google Sign-In peut être disponible pour des fonctionnalités telles que l'intégration avec Google Drive. En vous connectant, vous nous autorisez à accéder à vos informations de profil de base (nom et adresse e-mail) à des fins d'identification du compte, de gestion des licences et de fourniture du service.
 
-      ## 6. Responsabilités de l’utilisateur
+      ### 3.2 Sécurité du compte
 
-      Vous êtes responsable de la sécurité de votre compte Google Drive et de toute activité effectuée sous votre compte.
+      Vous êtes responsable du maintien de la sécurité des identifiants de votre compte Google. Vous acceptez de nous informer immédiatement à support@ingantt.com de toute utilisation non autorisée de votre compte.
 
-      ## 7. Activités interdites
+      ## 4. Achats et paiement
 
-      Vous vous engagez à ne pas utiliser notre application à des fins illégales ou d’une manière qui enfreint les présentes conditions.
+      ### 4.1 Modèles d'achat
 
-      ## 8. Résiliation
+      L'Application utilise différents modèles d'achat selon la plateforme :
 
-      Nous nous réservons le droit de suspendre ou de résilier votre accès à notre application à tout moment, sans préavis, pour quelque raison que ce soit, y compris en cas de violation de ces conditions.
+      - **Web (web.ingantt.com et Google Workspace Marketplace) :** L'Application fonctionne sur la base d'un abonnement avec des forfaits mensuels et annuels. Un essai gratuit peut être proposé aux nouveaux utilisateurs. Certaines fonctionnalités nécessitent un abonnement actif pour y accéder.
+      - **iOS (App Store), Android (Google Play), macOS (App Store) et Windows (Microsoft Store) :** L'Application est disponible sous forme d'achat unique. Toutes les fonctionnalités sont incluses dans votre achat. Aucun achat intégré ni abonnement n'est requis.
 
-      ## 9. Modifications des conditions
+      ### 4.2 Détails de l'abonnement Web
 
-      Nous pouvons mettre à jour ces conditions de temps à autre. Nous vous informerons de tout changement en publiant les nouvelles conditions sur notre application. Votre utilisation continue de l’application après de tels changements constitue votre acceptation des conditions modifiées.
+      Pour la version Web de l'Application :
 
-      ## 10. Contactez-nous
+      - **Essai gratuit :** Les nouveaux utilisateurs peuvent bénéficier d'une période d'essai gratuite avec accès aux fonctionnalités de l'Application. La période d'essai commence dès la première utilisation.
+      - **Forfaits d'abonnement :** Après la période d'essai, un accès continu nécessite un abonnement actif (mensuel ou annuel). Les tarifs sont affichés dans l'Application.
+      - **Renouvellement automatique :** Les abonnements se renouvellent automatiquement à la fin de chaque période de facturation, sauf annulation avant la date de renouvellement.
+      - **Annulation :** Vous pouvez annuler votre abonnement à tout moment via l'Application ou en contactant support@ingantt.com. L'annulation prend effet à la fin de la période de facturation en cours.
 
-      Si vous avez des questions concernant ces Conditions d’utilisation, veuillez nous contacter.
+      ### 4.3 Traitement des paiements
+
+      Les paiements sont traités via la plateforme applicable :
+
+      - **iOS et macOS (App Store) :** Gérés par Apple et soumis aux conditions d'Apple
+      - **Android (Google Play) :** Gérés par Google Play et soumis aux conditions de Google
+      - **Windows (Microsoft Store) :** Gérés par Microsoft et soumis aux conditions de Microsoft
+      - **Web :** Gérés par notre prestataire de paiement tiers (WayForPay) et soumis à leurs conditions
+
+      ### 4.4 Remboursements
+
+      Les politiques de remboursement sont régies par la plateforme via laquelle vous avez effectué votre achat :
+
+      - **Apple App Store :** Soumis à la politique de remboursement d'Apple
+      - **Google Play Store :** Soumis à la politique de remboursement de Google
+      - **Microsoft Store :** Soumis à la politique de remboursement de Microsoft
+      - **Web :** Contactez support@ingantt.com pour les demandes de remboursement dans les 7 jours suivant l'achat
+
+      ## 5. Contenu utilisateur et données
+
+      ### 5.1 Vos fichiers de projet
+
+      Vous conservez la pleine propriété de tous les fichiers de projet, plannings et données que vous créez ou importez à l'aide de l'Application (« Contenu utilisateur »). Nous ne revendiquons aucun droit de propriété sur votre Contenu utilisateur.
+
+      ### 5.2 Stockage local
+
+      Les fichiers de projet peuvent être stockés localement sur votre appareil. Vous êtes responsable de la conservation de sauvegardes de vos fichiers locaux. Nous ne sommes pas responsables de la perte de données résultant d'une défaillance de l'appareil, de la désinstallation de l'application ou de tout autre événement indépendant de notre volonté.
+
+      ### 5.3 Stockage sur Google Drive
+
+      Si vous choisissez d'utiliser l'intégration Google Drive, vos fichiers sont stockés dans un dossier appelé « Ingantt Schedules » dans votre compte personnel Google Drive et sont soumis aux Conditions d'utilisation et à la Politique de confidentialité de Google. L'Application utilise le périmètre limité `drive.file`, ce qui signifie qu'elle ne peut accéder qu'aux fichiers qu'elle crée ou aux fichiers que vous ouvrez explicitement dans l'Application — elle n'a pas accès à l'ensemble de votre Google Drive. Nous accédons à votre Google Drive uniquement pour lire, écrire et gérer les fichiers de projet selon vos instructions.
+
+      ### 5.4 Sauvegarde automatique
+
+      L'Application peut enregistrer automatiquement votre travail dans le stockage interne comme mesure de protection contre la perte de données. Les données sauvegardées automatiquement sont stockées localement sur votre appareil.
+
+      ### 5.5 Données que nous collectons
+
+      Dans le cadre de la fourniture du Service, nous pouvons collecter et traiter :
+
+      - Votre adresse e-mail et votre nom (pour l'authentification et la gestion des licences)
+      - Les informations de paiement (traitées par des prestataires de paiement tiers ; nous ne stockons pas les détails complets de paiement)
+      - Les données d'utilisation de l'application et les rapports d'erreurs (pour le signalement des plantages et l'amélioration de la stabilité)
+      - Les prompts IA que vous soumettez lorsque vous utilisez la fonctionnalité « Create with AI » (transmis aux fournisseurs d'IA tiers, non conservés sur nos serveurs)
+      - Les retours que vous soumettez, qui peuvent inclure des fichiers de projet en pièce jointe
+
+      Pour plus de détails sur la collecte et l'utilisation des données, veuillez consulter notre [Politique de confidentialité](privacy_policy.html).
+
+      ## 6. Fonctionnalités basées sur l'IA
+
+      ### 6.1 Create with AI
+
+      L'Application propose la création de projets assistée par l'IA. Lorsque vous utilisez cette fonctionnalité :
+
+      - Vos prompts textuels sont envoyés à notre serveur, qui les transmet à Anthropic (Claude) pour traitement. Nous ne conservons pas vos prompts sur nos serveurs. Le traitement de vos prompts par Anthropic est soumis à leurs conditions d'utilisation et à leur politique de confidentialité.
+      - Les plannings de projet générés sont fournis comme points de départ et doivent être vérifiés pour leur exactitude
+      - Nous ne garantissons pas l'exactitude, l'exhaustivité ou la pertinence du contenu généré par l'IA
+      - Vous êtes seul responsable de la vérification et de la validation de tout planning généré par l'IA avant de vous y fier
+
+      ### 6.2 Pas de conseil professionnel
+
+      Le contenu généré par l'IA ne constitue pas un conseil professionnel en gestion de projet. Vous devez exercer votre propre jugement lorsque vous utilisez des plans de projet générés par l'IA.
+
+      ## 7. Compatibilité avec Microsoft Project
+
+      ### 7.1 Prise en charge des formats de fichier
+
+      L'Application prend en charge l'importation et l'exportation de fichiers XML compatibles avec Microsoft Project. L'Application peut également convertir divers formats de fichiers de projet (y compris .mpp, .mpt, .mpx, .gan, .xer et autres) en XML via notre service de conversion côté serveur. Les fichiers téléchargés sont traités en mémoire et ne sont pas conservés sur nos serveurs.
+
+      ### 7.2 Avertissement de compatibilité
+
+      Bien que nous nous efforcions d'assurer la compatibilité avec les formats de fichiers Microsoft Project, nous ne garantissons pas une fidélité parfaite dans tous les cas. Certaines fonctionnalités, mises en forme ou données présentes dans les fichiers Microsoft Project peuvent ne pas être entièrement prises en charge. Vous devez vérifier l'exactitude des fichiers convertis.
+
+      ### 7.3 Absence d'affiliation
+
+      Ingantt n'est pas affilié à, approuvé par, ni sponsorisé par Microsoft Corporation. « Microsoft Project » est une marque déposée de Microsoft Corporation.
+
+      ## 8. Utilisation acceptable
+
+      Vous vous engagez à ne pas :
+
+      - Utiliser l'Application à des fins illégales ou en violation de toute loi applicable
+      - Tenter de procéder à l'ingénierie inverse, à la décompilation ou au désassemblage de l'Application
+      - Contourner toute restriction d'accès, vérification d'abonnement ou mesure de sécurité
+      - Interférer avec ou perturber les serveurs ou l'infrastructure de l'Application
+      - Utiliser des moyens automatisés pour accéder à l'Application au-delà de ses interfaces prévues
+      - Redistribuer, sous-licencier ou revendre l'Application ou toute partie de celle-ci
+      - Utiliser l'Application pour transmettre des logiciels malveillants, des virus ou tout autre code nuisible
+      - Utiliser abusivement la fonctionnalité IA pour générer du contenu nuisible, illégal ou inapproprié
+
+      ## 9. Propriété intellectuelle
+
+      ### 9.1 Nos droits
+
+      L'Application, y compris son code, sa conception, ses algorithmes, son interface utilisateur, sa documentation et son image de marque, est la propriété intellectuelle d'Ingantt Development et est protégée par les lois applicables en matière de droit d'auteur, de marques et d'autres droits de propriété intellectuelle.
+
+      ### 9.2 Licence limitée
+
+      Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour utiliser l'Application conformément aux présentes Conditions et à votre statut d'achat ou d'abonnement.
+
+      ## 10. Services tiers
+
+      L'Application s'intègre avec des services tiers, notamment :
+
+      - **Google** (Sign-In, Drive, OAuth2, Workspace Marketplace, Analytics)
+      - **Apple** (App Store)
+      - **Google Play** (Google Play Store)
+      - **Microsoft** (Microsoft Store)
+      - **WayForPay** (traitement des paiements pour les abonnements Web)
+      - **Anthropic (Claude)** (création de projets assistée par l'IA)
+      - **Sentry** (signalement d'erreurs côté client)
+      - **Resend** (envoi d'e-mails transactionnels pour les abonnements Web)
+      - **Microsoft Azure** (hébergement du serveur, stockage des données et surveillance de l'application)
+
+      Votre utilisation de ces services tiers est soumise à leurs conditions d'utilisation et politiques de confidentialité respectives. Nous ne sommes pas responsables de la disponibilité, de l'exactitude ou des pratiques des services tiers.
+
+      ## 11. Cookies et analyses
+
+      La version Web de l'Application utilise Google Analytics 4 pour collecter des analyses d'utilisation standard telles que les pages consultées et les données de session. Google Analytics peut déposer des cookies sur votre navigateur. Vous pouvez utiliser les outils de blocage des cookies de votre navigateur ou les outils de désactivation pour limiter cette collecte de données. Les versions natives mobiles et de bureau de l'Application n'utilisent pas de cookies ni de suivi analytique.
+
+      ## 12. Engagements en matière de protection des données
+
+      - Nous n'utilisons pas vos données pour entraîner des modèles d'intelligence artificielle ou d'apprentissage automatique.
+      - Nous ne vendons pas vos informations personnelles à des tiers.
+      - Vos données peuvent être transférées et traitées aux États-Unis (où notre serveur backend est hébergé sur Microsoft Azure, région East US) et dans l'UE (où les rapports de plantage côté client sont traités par Sentry). En utilisant l'Application, vous consentez à ces transferts.
+
+      Pour plus de détails, veuillez consulter notre [Politique de confidentialité](privacy_policy.html).
+
+      ## 13. Communications par e-mail
+
+      En utilisant la version Web de l'Application et en créant un compte, vous acceptez de recevoir des e-mails transactionnels liés à votre compte et à votre abonnement, notamment :
+
+      - Messages de bienvenue et d'intégration
+      - Notifications d'expiration de la période d'essai
+      - Confirmations d'activation et d'annulation d'abonnement
+
+      Il s'agit de communications liées au service, nécessaires au fonctionnement de votre compte, et non d'e-mails marketing.
+
+      ## 14. Suppression des données
+
+      Vous pouvez demander la suppression de votre compte et des données associées en contactant support@ingantt.com. Dès réception d'une demande valide, nous supprimerons les informations de votre compte de nos serveurs. Veuillez noter que :
+
+      - Les fichiers stockés sur votre Google Drive sont gérés par vous et ne sont pas affectés par la suppression du compte
+      - Les fichiers stockés localement sur votre appareil ne sont pas affectés par la suppression du compte
+      - Nous pouvons conserver certaines données dans la mesure requise par la loi ou pour des intérêts commerciaux légitimes (tels que les dossiers de paiement)
+
+      ## 15. Disponibilité du Service
+
+      ### 15.1 Aucune garantie de disponibilité
+
+      Nous nous efforçons de maintenir la disponibilité de l'Application mais ne garantissons pas un service ininterrompu ou sans erreur. L'Application, y compris les fonctionnalités dépendantes du serveur (conversion de fichiers, création de projets par IA), peut être temporairement indisponible en raison de la maintenance, de mises à jour ou de circonstances indépendantes de notre volonté.
+
+      ### 15.2 Modifications du Service
+
+      Nous nous réservons le droit de modifier, suspendre ou interrompre toute partie du Service à tout moment, avec ou sans préavis. Nous ferons des efforts raisonnables pour informer les utilisateurs des changements importants.
+
+      ## 16. Exclusion de garanties
+
+      L'APPLICATION EST FOURNIE « EN L'ÉTAT » ET « SELON LA DISPONIBILITÉ » SANS GARANTIE D'AUCUNE SORTE, EXPRESSE OU IMPLICITE, Y COMPRIS, MAIS SANS S'Y LIMITER, LES GARANTIES IMPLICITES DE QUALITÉ MARCHANDE, D'ADÉQUATION À UN USAGE PARTICULIER ET D'ABSENCE DE CONTREFAÇON.
+
+      NOUS NE GARANTISSONS PAS QUE :
+
+      - L'APPLICATION RÉPONDRA À VOS EXIGENCES SPÉCIFIQUES
+      - L'APPLICATION SERA ININTERROMPUE, PONCTUELLE, SÉCURISÉE OU EXEMPTE D'ERREURS
+      - LES CALCULS DE PLANIFICATION, L'ANALYSE DU CHEMIN CRITIQUE OU LES RÉSULTATS DU NIVELLEMENT DES RESSOURCES SERONT EXACTS OU COMPLETS
+      - LE CONTENU GÉNÉRÉ PAR L'IA SERA EXACT, ADAPTÉ OU EXEMPT D'ERREURS
+      - LES CONVERSIONS DE FICHIERS PRÉSERVERONT TOUTES LES DONNÉES AVEC UNE FIDÉLITÉ PARFAITE
+
+      ## 17. Limitation de responsabilité
+
+      DANS TOUTE LA MESURE PERMISE PAR LA LOI APPLICABLE, EN AUCUN CAS INGANTT DEVELOPMENT NE POURRA ÊTRE TENU RESPONSABLE DE TOUT DOMMAGE INDIRECT, ACCESSOIRE, SPÉCIAL, CONSÉCUTIF OU PUNITIF, Y COMPRIS, MAIS SANS S'Y LIMITER :
+
+      - LA PERTE DE DONNÉES OU DE FICHIERS DE PROJET
+      - L'INTERRUPTION D'ACTIVITÉ OU LA PERTE DE BÉNÉFICES
+      - LES DOMMAGES RÉSULTANT DE LA CONFIANCE ACCORDÉE AUX CALCULS DE PLANIFICATION OU AU CONTENU GÉNÉRÉ PAR L'IA
+      - LES DOMMAGES RÉSULTANT DE DÉFAILLANCES DE SERVICES TIERS
+
+      NOTRE RESPONSABILITÉ TOTALE CUMULÉE NE POURRA EXCÉDER LE MONTANT QUE VOUS AVEZ PAYÉ POUR L'APPLICATION AU COURS DES DOUZE (12) MOIS PRÉCÉDANT LA RÉCLAMATION.
+
+      ## 18. Indemnisation
+
+      Vous acceptez d'indemniser, de défendre et de dégager de toute responsabilité Ingantt Development contre toute réclamation, tout dommage, toute perte, toute responsabilité et toute dépense (y compris les honoraires raisonnables d'avocats) découlant de :
+
+      - Votre utilisation de l'Application
+      - Votre violation des présentes Conditions
+      - Votre violation de toute loi applicable ou de tout droit de tiers
+      - Votre Contenu utilisateur
+
+      ## 19. Résiliation
+
+      ### 19.1 Par vous
+
+      Vous pouvez cesser d'utiliser l'Application à tout moment. Si vous disposez d'un abonnement Web, vous pouvez l'annuler en suivant les procédures décrites à la Section 4.2 ci-dessus.
+
+      ### 19.2 Par nous
+
+      Nous pouvons suspendre ou résilier votre accès à l'Application à tout moment, avec ou sans motif, avec ou sans préavis, y compris en cas de violation des présentes Conditions.
+
+      ### 19.3 Effets de la résiliation
+
+      À la résiliation, votre licence d'utilisation de l'Application prend fin. Vos fichiers de projet stockés localement restent sur votre appareil. Les fichiers stockés sur Google Drive restent dans votre compte Google Drive.
+
+      ## 20. Modifications des Conditions
+
+      Nous pouvons mettre à jour les présentes Conditions de temps à autre. Nous informerons les utilisateurs des changements importants en mettant à jour la date de « Last Updated » et, dans la mesure du possible, par une notification dans l'Application. Votre utilisation continue de l'Application après les modifications constitue l'acceptation des Conditions mises à jour.
+
+      ## 21. Droit applicable et litiges
+
+      Les présentes Conditions sont régies et interprétées conformément au droit applicable. Tout litige découlant des présentes Conditions ou de votre utilisation de l'Application sera résolu par négociation de bonne foi. En cas d'échec de la négociation, les litiges seront soumis à un arbitrage contraignant conformément aux règles de l'autorité d'arbitrage compétente dans la juridiction où Ingantt Development est établi.
+
+      ## 22. Dispositions générales
+
+      ### 22.1 Intégralité de l'accord
+
+      Les présentes Conditions, conjointement avec notre [Politique de confidentialité](privacy_policy.html), constituent l'intégralité de l'accord entre vous et Ingantt Development concernant l'Application.
+
+      ### 22.2 Divisibilité
+
+      Si une disposition des présentes Conditions est jugée inapplicable, les dispositions restantes resteront pleinement en vigueur.
+
+      ### 22.3 Renonciation
+
+      Le fait que nous n'exercions pas ou ne fassions pas valoir un droit ou une disposition des présentes Conditions ne constituera pas une renonciation à ce droit ou à cette disposition.
+
+      ### 22.4 Cession
+
+      Vous ne pouvez pas céder ni transférer vos droits au titre des présentes Conditions sans notre consentement écrit préalable. Nous pouvons céder nos droits sans restriction.
+
+      ## 23. Nous contacter
+
+      Si vous avez des questions concernant les présentes Conditions, veuillez nous contacter à :
+
+      - **E-mail :** support@ingantt.com
+      - **Site Web :** https://ingantt.com
+      - **Documentation :** https://docs.ingantt.com
 
 privacy_policy:
     title_tag: Ingantt - Politique de confidentialité
     meta_keywords: Ingantt, politique de confidentialité
-    meta_description: Politique de confidentialité d’Ingantt
+    meta_description: Politique de confidentialité d'Ingantt
     text_title: Politique de confidentialité
     text: |
-      ## Qu’est-ce que les informations personnelles ?
+      **Effective Date:** February 22, 2026
+      **Last Updated:** February 22, 2026
 
-      Les informations personnelles sont des informations ou des opinions permettant d’identifier un individu. Par exemple : noms, adresses, adresses e-mail, numéros de téléphone et de télécopie.
+      Ingantt Development (« nous », « notre » ou « nos ») exploite l'application Ingantt (l'« Application ») et le site Web https://ingantt.com (le « Site Web »). La présente Politique de confidentialité décrit la manière dont nous collectons, utilisons et partageons les informations lorsque vous utilisez l'Application sur toutes les plateformes prises en charge (iOS, Android, macOS, Windows et Web, y compris via Google Workspace Marketplace).
 
-      ## Aucune donnée n’est collectée
+      ## 1. Informations que nous collectons
 
-      Toutes les données reçues de l’utilisateur et traitées par Ingantt sont stockées soit dans des fichiers locaux sur l’appareil de l’utilisateur, soit dans le compte Google Drive de l’utilisateur si celui-ci a explicitement choisi cette option et activé cette fonctionnalité auprès de Google.
+      ### 1.1 Informations que vous fournissez
 
-      Dans le stockage Google Drive de l’utilisateur, Ingantt enregistre uniquement les fichiers que l’utilisateur crée via Ingantt. Ingantt n’accède, n’utilise ou ne partage que les fichiers qu’il crée dans le Google Drive de l’utilisateur.
+      - **Informations du compte Google :** Si vous vous connectez avec Google, nous recevons de Google votre adresse e-mail, votre nom d'affichage et l'URL de votre photo de profil. Sur les plateformes natives (iOS, Android, macOS, Windows), la connexion est facultative et permet le stockage de fichiers sur Google Drive. Sur la version Web, Google Sign-In est obligatoire et est utilisé pour le stockage de fichiers sur Google Drive et la gestion des abonnements. Lors de votre première utilisation de la version Web, un enregistrement utilisateur est créé sur notre serveur contenant votre adresse e-mail, votre nom, votre langue et votre date d'inscription.
 
-      Les fichiers MPP ouverts depuis l’appareil de l’utilisateur sont envoyés au service Web de conversion d’Ingantt pour être convertis et renvoyés au format XML. Les fichiers ne sont pas stockés sur le service.
+      - **Informations d'abonnement et de facturation (Web uniquement) :** Lors de l'achat d'un abonnement via le Web, nous collectons votre nom, votre adresse e-mail, votre adresse postale, votre numéro de téléphone et les détails relatifs au paiement. Ces informations sont transmises à WayForPay, notre prestataire de paiement, pour le traitement des transactions.
 
-      Ainsi, aucune donnée n’est collectée par les développeurs d’Ingantt.
+      - **Retours :** Lorsque vous soumettez des retours via l'Application, nous collectons le texte de votre message. Vous pouvez éventuellement choisir de joindre votre fichier de projet actuellement ouvert pour nous aider à diagnostiquer les problèmes.
 
-      ## Données partagées avec des tiers
+      - **Saisie pour la fonctionnalité IA :** Lorsque vous utilisez la fonctionnalité « Create with AI », le prompt textuel que vous fournissez est envoyé à notre serveur backend pour traitement par Anthropic (Claude).
 
-      Pour activer la fonctionnalité liée à l’IA, la demande (prompt) saisie par l’utilisateur pour créer un nouveau fichier à l’aide de l’IA est partagée avec des outils d’IA tiers : OpenAI et/ou Gemini.
+      - **Fichiers de projet :** Les fichiers de projet que vous créez et modifiez restent sous votre contrôle. Les fichiers sont stockés localement sur votre appareil ou dans votre compte Google Drive (dans un dossier appelé « Ingantt Schedules »). Lorsque vous ouvrez un fichier dans un format non natif (tel que MPP, GAN, XER ou d'autres formats de fichiers de projet pris en charge), le fichier est transmis à notre serveur pour conversion de format. Les fichiers sont traités uniquement en mémoire et ne sont pas stockés sur notre serveur.
 
-      Aucune autre donnée n’est partagée avec des tiers.
+      ### 1.2 Informations collectées automatiquement
 
-      ## Utilisation des données
+      - **Métadonnées de l'application :** Chaque requête envoyée à notre backend inclut la version de votre application, le nom de la plateforme (iOS, Android, macOS, Windows ou Web), la langue du système et, si vous êtes connecté, votre adresse e-mail.
 
-      Aucune donnée utilisateur n’est utilisée pour développer, améliorer ou former des modèles d’IA et/ou d’apprentissage automatique généralisés. Cela inclut également les données utilisateur obtenues via les API de Google Workspace.
+      - **Rapports de plantage et d'erreurs :** Nous utilisons Sentry (hébergé dans l'UE) pour collecter les rapports de plantage et les journaux d'erreurs en production. Cela inclut les traces de pile, les messages d'erreur, la version de l'application et les informations sur la plateforme. Nous ne collectons pas intentionnellement de données personnelles via les rapports de plantage.
 
-      ## Protection des données
+      - **Analyse Web (Web uniquement) :** La version Web de l'Application utilise Google Analytics 4 pour collecter des analyses d'utilisation standard, y compris les pages consultées et les données de session. Google Analytics peut déposer des cookies sur votre navigateur. Les versions natives mobiles et de bureau de l'Application n'incluent pas de suivi analytique.
 
-      Nous mettons en œuvre des mesures techniques et organisationnelles appropriées pour protéger vos données contre tout accès non autorisé, perte ou divulgation.
+      - **Préférences utilisateur :** L'Application stocke vos préférences locales (telles que le thème, les options d'affichage, les largeurs de colonnes et la liste des fichiers récents) sur votre appareil en utilisant les mécanismes de stockage standard de la plateforme. Ces préférences ne sont pas transmises à nos serveurs.
 
-      ## Mises à jour de la politique
+      ### 1.3 Informations que nous ne collectons pas
 
-      Cette politique peut être modifiée de temps à autre et est disponible sur notre site Web.
+      - Nous n'utilisons pas vos données pour entraîner des modèles d'intelligence artificielle ou d'apprentissage automatique.
+      - Nous n'affichons pas de publicités et n'intégrons aucun SDK publicitaire.
+      - Nous ne collectons pas de données de localisation, de contacts, de photos, de données de caméra ou d'entrée microphone.
+      - Nous n'utilisons pas d'identifiants d'appareil à des fins de suivi.
+      - La sauvegarde cloud Android est explicitement désactivée pour l'Application.
 
-      ## Réclamations et questions concernant la Politique de confidentialité
+      ## 2. Comment nous utilisons vos informations
 
-      Si vous avez des questions ou des réclamations concernant notre Politique de confidentialité, veuillez nous contacter.
+      Nous utilisons les informations que nous collectons aux fins suivantes :
+
+      - **Fournir et exploiter l'Application :** Traiter vos demandes, permettre le stockage et la synchronisation de fichiers via Google Drive, convertir les formats de fichiers et fournir la création de projets assistée par l'IA.
+      - **Traiter les abonnements (Web uniquement) :** Traiter les paiements d'abonnement Web, valider le statut de l'abonnement et gérer votre compte.
+      - **Envoyer des e-mails transactionnels (Web uniquement) :** Vous envoyer des notifications relatives à votre compte telles que les messages de bienvenue, les rappels d'essai, les confirmations d'abonnement et les avis d'annulation.
+      - **Améliorer la stabilité et les performances :** Analyser les rapports de plantage, les données d'erreur et la télémétrie côté serveur pour identifier et corriger les bogues.
+      - **Comprendre les schémas d'utilisation (Web uniquement) :** Utiliser les données d'analyse agrégées pour comprendre comment l'application Web est utilisée et améliorer l'expérience utilisateur.
+      - **Répondre aux demandes d'assistance :** Utiliser les retours soumis pour diagnostiquer les problèmes et améliorer l'Application.
+
+      ## 3. Comment nous partageons vos informations
+
+      Nous ne vendons pas vos informations personnelles. Nous partageons les informations uniquement dans les circonstances suivantes :
+
+      - **Prestataires de services :** Nous utilisons les prestataires de services tiers suivants pour exploiter l'Application :
+        - **Sentry** (Functional Software, Inc.) — signalement des plantages et des erreurs côté client, données traitées dans l'UE
+        - **Microsoft Application Insights** (Microsoft Corporation) — télémétrie côté serveur et surveillance des erreurs
+        - **Google Analytics** (Google LLC) — analyse d'utilisation Web (version Web uniquement)
+        - **Google APIs** (Google LLC) — authentification et stockage de fichiers sur Google Drive
+        - **WayForPay** — traitement des paiements d'abonnement (version Web uniquement)
+        - **Resend** (Resend, Inc.) — envoi d'e-mails transactionnels (version Web uniquement)
+        - **Anthropic (Claude)** — traitement des prompts de création de projets assistée par l'IA
+        - **Microsoft Azure** — hébergement du backend et stockage des données (région East US)
+
+      - **Obligations légales :** Nous pouvons divulguer des informations si la loi l'exige ou en réponse à une procédure juridique valide.
+
+      ## 4. Stockage et sécurité des données
+
+      - **Données utilisateur côté serveur (Web uniquement) :** Votre adresse e-mail, votre nom, votre langue, votre date d'inscription et votre statut d'abonnement sont stockés dans Azure Table Storage sur notre serveur backend.
+      - **Les jetons OAuth** (jetons d'accès, de rafraîchissement et d'identification Google) sont stockés dans le stockage sécurisé de la plateforme (iOS Keychain, Android Keystore, macOS Keychain ou équivalent de la plateforme).
+      - **Le statut d'abonnement (Web uniquement)** est mis en cache localement dans un stockage sécurisé pour l'accès hors ligne.
+      - **Les requêtes API** vers notre backend sont signées avec HMAC-MD5 pour la vérification de l'intégrité.
+      - L'Application fonctionne dans les environnements sandbox de la plateforme lorsqu'ils sont disponibles (macOS App Sandbox, iOS App Sandbox).
+      - Nous utilisons HTTPS pour toutes les communications réseau.
+
+      ## 4a. Conservation des données
+
+      - **Enregistrements utilisateur côté serveur (Web uniquement) :** Votre enregistrement utilisateur et votre historique d'abonnement sont conservés aussi longtemps que votre compte existe. Pour demander la suppression de vos données, contactez-nous à support@ingantt.com.
+      - **Fichiers de projet :** Les fichiers soumis pour conversion de format sont traités en mémoire et ne sont pas conservés.
+      - **Prompts IA :** Les prompts textuels envoyés pour la création de projets assistée par l'IA ne sont pas stockés sur notre serveur.
+      - **Retours :** Les messages de retour sont transmis à notre équipe d'assistance par e-mail et ne sont pas stockés dans une base de données.
+      - **Données locales :** Les préférences, les jetons OAuth et le statut d'abonnement mis en cache restent sur votre appareil jusqu'à ce que vous vous déconnectiez ou désinstalliez l'Application.
+
+      ## 5. Vos choix et droits
+
+      - **La connexion est facultative sur les plateformes natives :** Sur iOS, Android, macOS et Windows, vous pouvez utiliser l'Application sans vous connecter à Google. La connexion permet le stockage de fichiers sur Google Drive. Sur la version Web, Google Sign-In est requis pour le fonctionnement de l'application, le stockage de fichiers et la gestion des abonnements.
+      - **Accès à Google Drive :** L'Application utilise le périmètre limité `drive.file`, qui ne permet l'accès qu'aux fichiers créés par l'Application ou explicitement ouverts par vous dans l'Application — et non à l'ensemble de votre Google Drive.
+      - **Pièces jointes de retour :** Joindre votre fichier de projet lors de la soumission de retours est facultatif et nécessite votre consentement explicite.
+      - **Analyse Web :** Vous pouvez utiliser les outils de blocage des cookies de votre navigateur ou les outils de désactivation pour limiter la collecte de données de Google Analytics sur la version Web.
+      - **E-mails transactionnels :** Sur la version Web, vous recevrez des e-mails relatifs à votre compte (bienvenue, rappels d'essai, notifications d'abonnement). Il s'agit de communications de service nécessaires à la gestion de votre abonnement.
+      - **Suppression des données :** Vous pouvez vous déconnecter de votre compte Google dans l'Application à tout moment, ce qui supprime vos jetons OAuth stockés de l'appareil. Pour demander la suppression de votre enregistrement utilisateur et de toute donnée associée sur nos serveurs, contactez-nous à support@ingantt.com.
+
+      ## 6. Confidentialité des enfants
+
+      L'Application n'est pas destinée aux enfants de moins de 13 ans (ou l'âge applicable dans votre juridiction). Nous ne collectons pas sciemment d'informations personnelles auprès d'enfants. Si vous pensez qu'un enfant nous a fourni des informations personnelles, veuillez nous contacter à support@ingantt.com afin que nous puissions prendre les mesures appropriées.
+
+      ## 7. Transferts internationaux de données
+
+      Notre serveur backend est hébergé sur Microsoft Azure dans la région East US. Les rapports de plantage sont traités par Sentry dans l'UE. Si vous vous trouvez en dehors des États-Unis, vos informations peuvent être transférées et traitées aux États-Unis ou dans d'autres juridictions où nos prestataires de services opèrent.
+
+      ## 8. Modifications de la présente Politique de confidentialité
+
+      Nous pouvons mettre à jour la présente Politique de confidentialité de temps à autre. Nous vous informerons de tout changement important en mettant à jour la date de « Last Updated » en haut de cette politique. Votre utilisation continue de l'Application après toute modification constitue votre acceptation de la politique mise à jour.
+
+      ## 9. Informations spécifiques aux plateformes
+
+      ### iOS et macOS (Apple)
+      - L'Application est une application payante distribuée via l'Apple App Store. Les pratiques de confidentialité d'Apple s'appliquent à la transaction d'achat.
+      - L'Application ne demande que les autorisations d'accès aux fichiers que vous accordez explicitement via le sélecteur de fichiers du système.
+
+      ### Android
+      - L'Application est une application payante distribuée via Google Play. Les pratiques de confidentialité de Google s'appliquent à la transaction d'achat.
+      - L'Application demande les autorisations de lecture/écriture du stockage pour les opérations de fichiers locaux et l'autorisation Internet pour l'accès réseau.
+
+      ### Windows
+      - L'Application est une application payante distribuée via le Microsoft Store. Les pratiques de confidentialité de Microsoft s'appliquent à la transaction d'achat.
+
+      ### Web
+      - La version Web utilise un modèle d'abonnement. Les paiements d'abonnement sont traités par WayForPay.
+      - L'Application est également disponible via Google Workspace Marketplace.
+      - Les cookies Google Analytics sont déposés sur le domaine web.ingantt.com.
+      - L'authentification Google OAuth utilise une entrée temporaire localStorage pour le callback de connexion, qui est immédiatement effacée après utilisation.
+
+      ## 10. Nous contacter
+
+      Si vous avez des questions ou des préoccupations concernant la présente Politique de confidentialité ou nos pratiques en matière de données, veuillez nous contacter à :
+
+      **Ingantt Development**
+      Email: support@ingantt.com
+      Website: https://ingantt.com

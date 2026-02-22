@@ -4,47 +4,293 @@ terms_of_service:
     meta_description: Terma Perkhidmatan Ingantt
     text_title: Terma Perkhidmatan
     text: |
-      Selamat datang ke Ingantt! Dengan menggunakan aplikasi kami, anda bersetuju dengan terma dan syarat berikut:
+      **Last Updated: February 22, 2026**
 
-      ## 1. Penerimaan Terma
+      Terma Perkhidmatan ini ("Terma") mengawal akses dan penggunaan anda terhadap Ingantt ("Aplikasi," "Perkhidmatan"), sebuah aplikasi penjadualan projek yang disediakan oleh Ingantt Development ("kami," "kita," "milik kami"). Dengan mengakses atau menggunakan Aplikasi, anda bersetuju untuk terikat dengan Terma ini. Jika anda tidak bersetuju, jangan gunakan Aplikasi.
 
-      Dengan mengakses atau menggunakan Ingantt, anda bersetuju untuk terikat dengan Terma Perkhidmatan ini dan juga Dasar Privasi kami.
+      ## 1. Penerangan Perkhidmatan
 
-      ## 2. Penggunaan Google Drive
+      Ingantt ialah aplikasi penjadualan projek merentas platform yang menyediakan:
 
-      Aplikasi kami disambungkan ke Google Drive anda untuk menyimpan dan mengambil data anda. Dengan menggunakan aplikasi kami, anda memberi kebenaran kepada kami untuk mengakses akaun Google Drive anda bagi tujuan ini.
+      - Penjadualan projek menggunakan algoritma Critical Path Method (CPM)
+      - Pengurusan tugas dengan kebergantungan, kekangan, dan penugasan sumber
+      - Visualisasi dan penyampaian carta Gantt
+      - Pengurusan sumber dan pemerataan sumber
+      - Pengurusan kalendar dan jadual kerja
+      - Import dan eksport projek dalam format XML (serasi Microsoft Project), CSV, PDF, dan Markdown
+      - Penukaran fail Microsoft Project (.mpp) melalui pelayan kami
+      - Integrasi Google Drive untuk penyimpanan dan perkongsian fail
+      - Penciptaan projek berkuasa AI ("Create with AI")
 
-      ## 3. Data Pengguna
+      Aplikasi ini tersedia di Web (web.ingantt.com dan melalui Google Workspace Marketplace), iOS, Android, macOS, dan Windows.
 
-      Anda mengekalkan hak milik ke atas semua data yang anda muat naik ke Google Drive anda melalui aplikasi kami. Kami tidak menuntut sebarang hak milik ke atas data anda.
+      ## 2. Kelayakan
 
-      ## 4. Privasi
+      Anda mestilah berumur sekurang-kurangnya 13 tahun untuk menggunakan Aplikasi. Jika anda berumur antara 13 dan 18 tahun, anda mesti mendapat persetujuan ibu bapa atau penjaga. Dengan menggunakan Aplikasi, anda menyatakan dan menjamin bahawa anda memenuhi keperluan ini.
 
-      Privasi anda adalah penting bagi kami. Kami hanya akan mengakses, menyimpan, dan menggunakan data anda setakat yang diperlukan untuk menyediakan perkhidmatan kami. Sila semak Dasar Privasi kami untuk maklumat lanjut tentang bagaimana kami mengendalikan data anda.
+      ## 3. Akaun dan Pengesahan
 
-      ## 5. Keselamatan
+      ### 3.1 Google Sign-In
 
-      Kami mengambil langkah-langkah wajar untuk melindungi data anda. Walau bagaimanapun, kami tidak dapat menjamin keselamatan mutlak data anda dan tidak bertanggungjawab terhadap sebarang akses tanpa kebenaran atau pelanggaran keselamatan.
+      Versi web Aplikasi memerlukan Google Sign-In untuk pengesahan. Pada platform lain, Google Sign-In mungkin tersedia untuk ciri-ciri seperti integrasi Google Drive. Dengan log masuk, anda memberi kebenaran kepada kami untuk mengakses maklumat profil asas anda (nama dan alamat e-mel) untuk pengenalan akaun, pengurusan lesen, dan penyampaian perkhidmatan.
 
-      ## 6. Tanggungjawab Pengguna
+      ### 3.2 Keselamatan Akaun
 
-      Anda bertanggungjawab untuk mengekalkan keselamatan akaun Google Drive anda dan sebarang aktiviti yang berlaku di bawah akaun tersebut.
+      Anda bertanggungjawab untuk menjaga keselamatan kelayakan akaun Google anda. Anda bersetuju untuk memberitahu kami dengan segera di support@ingantt.com mengenai sebarang penggunaan tanpa kebenaran terhadap akaun anda.
 
-      ## 7. Aktiviti Dilarang
+      ## 4. Pembelian dan Pembayaran
 
-      Anda bersetuju untuk tidak menggunakan aplikasi kami untuk apa-apa aktiviti yang menyalahi undang-undang atau melanggar terma-terma ini.
+      ### 4.1 Model Pembelian
 
-      ## 8. Penamatan
+      Aplikasi menggunakan model pembelian yang berbeza bergantung kepada platform:
 
-      Kami berhak untuk menggantung atau menamatkan akses anda kepada aplikasi kami pada bila-bila masa, tanpa notis terlebih dahulu, atas apa-apa sebab, termasuk jika anda melanggar terma ini.
+      - **Web (web.ingantt.com dan Google Workspace Marketplace):** Aplikasi beroperasi secara langganan dengan pelan bulanan dan tahunan. Percubaan percuma mungkin tersedia untuk pengguna baharu. Ciri-ciri tertentu memerlukan langganan aktif untuk diakses.
+      - **iOS (App Store), Android (Google Play), macOS (App Store), dan Windows (Microsoft Store):** Aplikasi tersedia sebagai pembelian sekali bayar. Semua ciri disertakan dengan pembelian anda. Tiada pembelian dalam aplikasi atau langganan diperlukan.
 
-      ## 9. Pengubahsuaian Terma
+      ### 4.2 Butiran Langganan Web
 
-      Kami mungkin mengemas kini terma ini dari semasa ke semasa. Kami akan memaklumkan anda mengenai sebarang perubahan dengan menyiarkan terma baharu dalam aplikasi kami. Penggunaan berterusan anda terhadap aplikasi selepas perubahan tersebut bermaksud anda menerima terma yang telah dipinda.
+      Untuk versi web Aplikasi:
 
-      ## 10. Hubungi Kami
+      - **Percubaan Percuma:** Pengguna baharu mungkin menerima tempoh percubaan percuma dengan akses kepada ciri-ciri Aplikasi. Tempoh percubaan bermula selepas penggunaan pertama.
+      - **Pelan Langganan:** Selepas tempoh percubaan, akses berterusan memerlukan langganan aktif (bulanan atau tahunan). Harga dipaparkan dalam Aplikasi.
+      - **Pembaharuan Automatik:** Langganan diperbaharui secara automatik pada akhir setiap tempoh pengebilan melainkan dibatalkan sebelum tarikh pembaharuan.
+      - **Pembatalan:** Anda boleh membatalkan langganan anda pada bila-bila masa melalui Aplikasi atau dengan menghubungi support@ingantt.com. Pembatalan berkuat kuasa pada akhir tempoh pengebilan semasa.
 
-      Jika anda mempunyai sebarang soalan mengenai Terma Perkhidmatan ini, sila hubungi kami.
+      ### 4.3 Pemprosesan Pembayaran
+
+      Pembayaran diproses melalui platform yang berkenaan:
+
+      - **iOS dan macOS (App Store):** Diurus melalui Apple dan tertakluk kepada terma Apple
+      - **Android (Google Play):** Diurus melalui Google Play dan tertakluk kepada terma Google
+      - **Windows (Microsoft Store):** Diurus melalui Microsoft dan tertakluk kepada terma Microsoft
+      - **Web:** Diurus melalui pemproses pembayaran pihak ketiga kami (WayForPay) dan tertakluk kepada terma mereka
+
+      ### 4.4 Bayaran Balik
+
+      Polisi bayaran balik ditadbir oleh platform di mana anda membuat pembelian:
+
+      - **Apple App Store:** Tertakluk kepada polisi bayaran balik Apple
+      - **Google Play Store:** Tertakluk kepada polisi bayaran balik Google
+      - **Microsoft Store:** Tertakluk kepada polisi bayaran balik Microsoft
+      - **Web:** Hubungi support@ingantt.com untuk permintaan bayaran balik dalam tempoh 7 hari selepas pembelian
+
+      ## 5. Kandungan dan Data Pengguna
+
+      ### 5.1 Fail Projek Anda
+
+      Anda mengekalkan pemilikan penuh terhadap semua fail projek, jadual, dan data yang anda cipta atau import menggunakan Aplikasi ("Kandungan Pengguna"). Kami tidak menuntut sebarang hak pemilikan terhadap Kandungan Pengguna anda.
+
+      ### 5.2 Storan Tempatan
+
+      Fail projek mungkin disimpan secara tempatan pada peranti anda. Anda bertanggungjawab untuk mengekalkan sandaran fail tempatan anda. Kami tidak bertanggungjawab terhadap kehilangan data akibat kegagalan peranti, penyahpasangan aplikasi, atau kejadian lain di luar kawalan kami.
+
+      ### 5.3 Storan Google Drive
+
+      Jika anda memilih untuk menggunakan integrasi Google Drive, fail anda disimpan dalam folder bernama "Ingantt Schedules" dalam akaun Google Drive peribadi anda dan tertakluk kepada Terma Perkhidmatan dan Dasar Privasi Google. Aplikasi menggunakan skop `drive.file` yang terhad, bermakna ia hanya boleh mengakses fail yang diciptanya atau fail yang anda buka secara eksplisit dalam Aplikasi — ia tidak mempunyai akses kepada keseluruhan Google Drive anda. Kami mengakses Google Drive anda hanya untuk membaca, menulis, dan mengurus fail projek seperti yang diarahkan oleh anda.
+
+      ### 5.4 Simpan Automatik
+
+      Aplikasi mungkin menyimpan kerja anda secara automatik ke storan dalaman sebagai langkah perlindungan terhadap kehilangan data. Data yang disimpan secara automatik disimpan secara tempatan pada peranti anda.
+
+      ### 5.5 Data Yang Kami Kumpul
+
+      Dalam proses menyediakan Perkhidmatan, kami mungkin mengumpul dan memproses:
+
+      - Alamat e-mel dan nama anda (untuk pengesahan dan pengurusan lesen)
+      - Maklumat pembayaran (diproses oleh penyedia pembayaran pihak ketiga; kami tidak menyimpan butiran pembayaran penuh)
+      - Data penggunaan aplikasi dan ralat (untuk pelaporan ranap dan peningkatan kestabilan)
+      - Prompt AI yang anda hantar semasa menggunakan ciri "Create with AI" (dimajukan kepada penyedia AI pihak ketiga, tidak disimpan di pelayan kami)
+      - Maklum balas yang anda hantar, yang mungkin termasuk lampiran fail projek
+
+      Untuk butiran penuh tentang pengumpulan dan penggunaan data, sila semak [Dasar Privasi](privacy_policy.html) kami.
+
+      ## 6. Ciri Berkuasa AI
+
+      ### 6.1 Create with AI
+
+      Aplikasi menawarkan penciptaan projek berkuasa AI. Apabila anda menggunakan ciri ini:
+
+      - Prompt teks anda dihantar ke pelayan kami, yang memajukannya ke Anthropic (Claude) untuk pemprosesan. Kami tidak menyimpan prompt anda di pelayan kami. Pemprosesan prompt anda oleh Anthropic tertakluk kepada terma perkhidmatan dan dasar privasi mereka.
+      - Jadual projek yang dijana disediakan sebagai titik permulaan dan perlu disemak untuk ketepatan
+      - Kami tidak menjamin ketepatan, kelengkapan, atau kesesuaian kandungan yang dijana oleh AI
+      - Anda bertanggungjawab sepenuhnya untuk menyemak dan mengesahkan sebarang jadual yang dijana oleh AI sebelum bergantung kepadanya
+
+      ### 6.2 Bukan Nasihat Profesional
+
+      Kandungan yang dijana oleh AI bukan merupakan nasihat pengurusan projek profesional. Anda perlu menggunakan pertimbangan sendiri apabila menggunakan pelan projek yang dijana oleh AI.
+
+      ## 7. Keserasian Microsoft Project
+
+      ### 7.1 Sokongan Format Fail
+
+      Aplikasi menyokong import dan eksport fail XML yang serasi dengan Microsoft Project. Aplikasi juga boleh menukar pelbagai format fail projek (termasuk .mpp, .mpt, .mpx, .gan, .xer, dan lain-lain) ke XML melalui perkhidmatan penukaran di pihak pelayan kami. Fail yang dimuat naik diproses dalam memori dan tidak disimpan di pelayan kami.
+
+      ### 7.2 Penafian Keserasian
+
+      Walaupun kami berusaha untuk keserasian dengan format fail Microsoft Project, kami tidak menjamin ketepatan sempurna dalam semua kes. Sesetengah ciri, pemformatan, atau data yang terdapat dalam fail Microsoft Project mungkin tidak disokong sepenuhnya. Anda perlu mengesahkan fail yang ditukar untuk ketepatan.
+
+      ### 7.3 Tiada Gabungan
+
+      Ingantt tidak bergabung dengan, disokong oleh, atau ditaja oleh Microsoft Corporation. "Microsoft Project" ialah tanda dagangan Microsoft Corporation.
+
+      ## 8. Penggunaan Yang Diterima
+
+      Anda bersetuju untuk tidak:
+
+      - Menggunakan Aplikasi untuk sebarang tujuan yang menyalahi undang-undang atau melanggar sebarang undang-undang yang berkenaan
+      - Cuba untuk mengkaji semula kejuruteraan, menyahkompil, atau menyahpasang Aplikasi
+      - Mengelak sebarang sekatan akses, semakan langganan, atau langkah keselamatan
+      - Mengganggu atau mengacau pelayan atau infrastruktur Aplikasi
+      - Menggunakan cara automatik untuk mengakses Aplikasi di luar antara muka yang dimaksudkan
+      - Mengedar semula, memberi sublesen, atau menjual semula Aplikasi atau mana-mana bahagiannya
+      - Menggunakan Aplikasi untuk menghantar perisian hasad, virus, atau kod berbahaya lain
+      - Menyalahgunakan ciri AI untuk menjana kandungan yang berbahaya, menyalahi undang-undang, atau tidak sesuai
+
+      ## 9. Harta Intelek
+
+      ### 9.1 Hak Kami
+
+      Aplikasi, termasuk kod, reka bentuk, algoritma, antara muka pengguna, dokumentasi, dan penjenamaan, adalah harta intelek Ingantt Development dan dilindungi oleh undang-undang hak cipta, tanda dagangan, dan harta intelek lain yang berkenaan.
+
+      ### 9.2 Lesen Terhad
+
+      Kami memberi anda lesen terhad, tidak eksklusif, tidak boleh dipindah milik, boleh dibatalkan untuk menggunakan Aplikasi mengikut Terma ini dan status pembelian atau langganan anda.
+
+      ## 10. Perkhidmatan Pihak Ketiga
+
+      Aplikasi berintegrasi dengan perkhidmatan pihak ketiga termasuk tetapi tidak terhad kepada:
+
+      - **Google** (Sign-In, Drive, OAuth2, Workspace Marketplace, Analytics)
+      - **Apple** (App Store)
+      - **Google Play** (Google Play Store)
+      - **Microsoft** (Microsoft Store)
+      - **WayForPay** (pemprosesan pembayaran untuk langganan web)
+      - **Anthropic (Claude)** (penciptaan projek berkuasa AI)
+      - **Sentry** (pelaporan ralat di pihak klien)
+      - **Resend** (penghantaran e-mel transaksi untuk langganan web)
+      - **Microsoft Azure** (pengehosan pelayan, storan data, dan pemantauan aplikasi)
+
+      Penggunaan anda terhadap perkhidmatan pihak ketiga ini tertakluk kepada terma perkhidmatan dan dasar privasi masing-masing. Kami tidak bertanggungjawab terhadap ketersediaan, ketepatan, atau amalan perkhidmatan pihak ketiga.
+
+      ## 11. Kuki dan Analitik
+
+      Versi web Aplikasi menggunakan Google Analytics 4 untuk mengumpul analitik penggunaan standard seperti paparan halaman dan data sesi. Google Analytics mungkin menetapkan kuki pada pelayar anda. Anda boleh menggunakan penyekatan kuki berasaskan pelayar atau alat pilih keluar untuk mengehadkan pengumpulan data ini. Versi mudah alih dan desktop asli Aplikasi tidak menggunakan kuki atau penjejakan analitik.
+
+      ## 12. Komitmen Perlindungan Data
+
+      - Kami tidak menggunakan data anda untuk melatih model kecerdasan buatan atau pembelajaran mesin.
+      - Kami tidak menjual maklumat peribadi anda kepada pihak ketiga.
+      - Data anda mungkin dipindahkan ke dan diproses di Amerika Syarikat (di mana pelayan backend kami dihoskan di Microsoft Azure, wilayah East US) dan EU (di mana laporan ranap di pihak klien diproses oleh Sentry). Dengan menggunakan Aplikasi, anda bersetuju dengan pemindahan ini.
+
+      Untuk butiran penuh, sila semak [Dasar Privasi](privacy_policy.html) kami.
+
+      ## 13. Komunikasi E-mel
+
+      Dengan menggunakan versi web Aplikasi dan membuat akaun, anda bersetuju untuk menerima e-mel transaksi berkaitan akaun dan langganan anda, termasuk:
+
+      - Mesej alu-aluan dan pengenalan
+      - Pemberitahuan tamat tempoh percubaan
+      - Pengesahan pengaktifan dan pembatalan langganan
+
+      Ini adalah komunikasi berkaitan perkhidmatan yang diperlukan untuk operasi akaun anda, bukan e-mel pemasaran.
+
+      ## 14. Pemadaman Data
+
+      Anda boleh meminta pemadaman akaun dan data berkaitan anda dengan menghubungi support@ingantt.com. Selepas menerima permintaan yang sah, kami akan memadamkan maklumat akaun anda daripada pelayan kami. Sila ambil perhatian bahawa:
+
+      - Fail yang disimpan di Google Drive anda diurus oleh anda dan tidak terjejas oleh pemadaman akaun
+      - Fail yang disimpan secara tempatan pada peranti anda tidak terjejas oleh pemadaman akaun
+      - Kami mungkin menyimpan data tertentu seperti yang dikehendaki oleh undang-undang atau untuk tujuan perniagaan yang sah (seperti rekod pembayaran)
+
+      ## 15. Ketersediaan Perkhidmatan
+
+      ### 15.1 Tiada Jaminan Ketersediaan
+
+      Kami berusaha untuk mengekalkan ketersediaan Aplikasi tetapi tidak menjamin perkhidmatan tanpa gangguan atau bebas ralat. Aplikasi, termasuk ciri yang bergantung kepada pelayan (penukaran fail, penciptaan projek AI), mungkin tidak tersedia buat sementara waktu disebabkan oleh penyelenggaraan, kemas kini, atau keadaan di luar kawalan kami.
+
+      ### 15.2 Pengubahsuaian Perkhidmatan
+
+      Kami berhak untuk mengubah suai, menggantung, atau menghentikan mana-mana bahagian Perkhidmatan pada bila-bila masa, dengan atau tanpa notis. Kami akan berusaha secara munasabah untuk memberitahu pengguna tentang perubahan yang ketara.
+
+      ## 16. Penafian Waranti
+
+      APLIKASI DISEDIAKAN "SEBAGAIMANA ADANYA" DAN "SEBAGAIMANA TERSEDIA" TANPA WARANTI DALAM APA JUA BENTUK, SAMA ADA NYATA ATAU TERSIRAT, TERMASUK TETAPI TIDAK TERHAD KEPADA WARANTI TERSIRAT KEBOLEHDAGANGAN, KESESUAIAN UNTUK TUJUAN TERTENTU, DAN KETIADAAN PELANGGARAN.
+
+      KAMI TIDAK MENJAMIN BAHAWA:
+
+      - APLIKASI AKAN MEMENUHI KEPERLUAN KHUSUS ANDA
+      - APLIKASI AKAN TANPA GANGGUAN, TEPAT PADA MASANYA, SELAMAT, ATAU BEBAS RALAT
+      - PENGIRAAN PENJADUALAN, ANALISIS LALUAN KRITIKAL, ATAU KEPUTUSAN PEMERATAAN SUMBER AKAN TEPAT ATAU LENGKAP
+      - KANDUNGAN YANG DIJANA OLEH AI AKAN TEPAT, SESUAI, ATAU BEBAS DARIPADA RALAT
+      - PENUKARAN FAIL AKAN MENGEKALKAN SEMUA DATA DENGAN KETEPATAN SEMPURNA
+
+      ## 17. Had Liabiliti
+
+      SETAKAT MAKSIMUM YANG DIBENARKAN OLEH UNDANG-UNDANG YANG BERKENAAN, DALAM APA JUA KEADAAN INGANTT DEVELOPMENT TIDAK AKAN BERTANGGUNGJAWAB TERHADAP SEBARANG KEROSAKAN TIDAK LANGSUNG, SAMPINGAN, KHAS, AKIBAT, ATAU PUNITIF, TERMASUK TETAPI TIDAK TERHAD KEPADA:
+
+      - KEHILANGAN DATA ATAU FAIL PROJEK
+      - GANGGUAN PERNIAGAAN ATAU KEHILANGAN KEUNTUNGAN
+      - KEROSAKAN YANG TIMBUL DARIPADA PERGANTUNGAN KEPADA PENGIRAAN PENJADUALAN ATAU KANDUNGAN YANG DIJANA OLEH AI
+      - KEROSAKAN YANG TIMBUL DARIPADA KEGAGALAN PERKHIDMATAN PIHAK KETIGA
+
+      JUMLAH LIABILITI AGREGAT KAMI TIDAK AKAN MELEBIHI JUMLAH YANG ANDA BAYAR UNTUK APLIKASI DALAM TEMPOH DUA BELAS (12) BULAN SEBELUM TUNTUTAN.
+
+      ## 18. Indemnifikasi
+
+      Anda bersetuju untuk menanggung rugi, mempertahankan, dan membebaskan Ingantt Development daripada sebarang tuntutan, kerosakan, kerugian, liabiliti, dan perbelanjaan (termasuk yuran peguam yang munasabah) yang timbul daripada:
+
+      - Penggunaan anda terhadap Aplikasi
+      - Pelanggaran anda terhadap Terma ini
+      - Pelanggaran anda terhadap sebarang undang-undang yang berkenaan atau hak pihak ketiga
+      - Kandungan Pengguna anda
+
+      ## 19. Penamatan
+
+      ### 19.1 Oleh Anda
+
+      Anda boleh berhenti menggunakan Aplikasi pada bila-bila masa. Jika anda mempunyai langganan web, anda boleh membatalkannya mengikut prosedur yang diterangkan dalam Seksyen 4.2 di atas.
+
+      ### 19.2 Oleh Kami
+
+      Kami boleh menggantung atau menamatkan akses anda kepada Aplikasi pada bila-bila masa, dengan atau tanpa sebab, dengan atau tanpa notis, termasuk atas pelanggaran Terma ini.
+
+      ### 19.3 Kesan Penamatan
+
+      Selepas penamatan, lesen anda untuk menggunakan Aplikasi akan terhenti. Fail projek yang disimpan secara tempatan kekal pada peranti anda. Fail yang disimpan di Google Drive kekal dalam akaun Google Drive anda.
+
+      ## 20. Perubahan Terma
+
+      Kami mungkin mengemas kini Terma ini dari semasa ke semasa. Kami akan memberitahu pengguna tentang perubahan yang ketara dengan mengemas kini tarikh "Last Updated" dan, jika boleh, melalui notis dalam aplikasi. Penggunaan berterusan anda terhadap Aplikasi selepas perubahan bermaksud penerimaan Terma yang dikemas kini.
+
+      ## 21. Undang-undang Pentadbiran dan Pertikaian
+
+      Terma ini akan ditadbir oleh dan ditafsirkan mengikut undang-undang yang berkenaan. Sebarang pertikaian yang timbul daripada Terma ini atau penggunaan anda terhadap Aplikasi akan diselesaikan melalui rundingan dengan niat baik. Jika rundingan gagal, pertikaian akan dikemukakan kepada timbang tara yang mengikat mengikut peraturan pihak berkuasa timbang tara yang berkenaan di bidang kuasa di mana Ingantt Development ditubuhkan.
+
+      ## 22. Peruntukan Am
+
+      ### 22.1 Keseluruhan Perjanjian
+
+      Terma ini, bersama-sama dengan [Dasar Privasi](privacy_policy.html) kami, merupakan keseluruhan perjanjian antara anda dan Ingantt Development berkenaan Aplikasi.
+
+      ### 22.2 Kebolehasingan
+
+      Jika mana-mana peruntukan Terma ini didapati tidak boleh dikuatkuasakan, peruntukan yang selebihnya akan terus berkuat kuasa sepenuhnya.
+
+      ### 22.3 Penepian
+
+      Kegagalan kami untuk menguatkuasakan sebarang hak atau peruntukan Terma ini tidak akan menjadi penepian hak atau peruntukan tersebut.
+
+      ### 22.4 Penyerahan Hak
+
+      Anda tidak boleh menyerahkan atau memindahkan hak anda di bawah Terma ini tanpa persetujuan bertulis kami terlebih dahulu. Kami boleh menyerahkan hak kami tanpa sekatan.
+
+      ## 23. Hubungi Kami
+
+      Jika anda mempunyai soalan tentang Terma ini, sila hubungi kami di:
+
+      - **E-mel:** support@ingantt.com
+      - **Laman web:** https://ingantt.com
+      - **Dokumentasi:** https://docs.ingantt.com
 
 privacy_policy:
     title_tag: Ingantt - Dasar Privasi
@@ -52,38 +298,131 @@ privacy_policy:
     meta_description: Dasar Privasi Ingantt
     text_title: Dasar Privasi
     text: |
-      ## Apakah Maklumat Peribadi?
+      **Effective Date:** February 22, 2026
+      **Last Updated:** February 22, 2026
 
-      Maklumat Peribadi ialah maklumat atau pendapat yang boleh mengenal pasti seseorang individu. Contohnya termasuk nama, alamat, alamat e-mel, nombor telefon dan nombor faks.
+      Ingantt Development ("kami," "kita," atau "milik kami") mengendalikan aplikasi Ingantt ("Aplikasi") dan laman web di https://ingantt.com ("Laman Web"). Dasar Privasi ini menerangkan bagaimana kami mengumpul, menggunakan, dan berkongsi maklumat apabila anda menggunakan Aplikasi merentas semua platform yang disokong (iOS, Android, macOS, Windows, dan Web, termasuk melalui Google Workspace Marketplace).
 
-      ## Tiada data yang dikumpulkan
+      ## 1. Maklumat Yang Kami Kumpul
 
-      Semua data yang diterima daripada pengguna dan diproses oleh Ingantt disimpan sama ada dalam fail tempatan pada peranti pengguna atau dalam akaun Google Drive pengguna, jika pengguna telah memilih dengan jelas pilihan ini dan mengaktifkan fungsi tersebut dengan Google.
+      ### 1.1 Maklumat Yang Anda Berikan
 
-      Di dalam storan Google Drive pengguna, Ingantt hanya menyimpan fail yang dicipta oleh pengguna semasa menggunakan Ingantt. Ingantt hanya akan mengakses, menggunakan atau berkongsi fail yang diciptanya dalam storan Google Drive tersebut.
+      - **Maklumat Akaun Google:** Jika anda log masuk dengan Google, kami menerima alamat e-mel, nama paparan, dan URL foto profil anda daripada Google. Pada platform asli (iOS, Android, macOS, Windows), log masuk adalah pilihan dan membolehkan storan fail Google Drive. Pada versi Web, Google Sign-In diperlukan dan digunakan untuk storan fail Google Drive dan pengurusan langganan. Apabila anda mula menggunakan versi Web, rekod pengguna dicipta di pelayan kami yang mengandungi alamat e-mel, nama, lokasi, dan tarikh pendaftaran anda.
 
-      Fail MPP yang dibuka daripada peranti pengguna akan dihantar ke perkhidmatan web penukaran Ingantt untuk ditukar dan kemudian dikembalikan dalam format XML. Fail-fail ini tidak disimpan di perkhidmatan tersebut.
+      - **Maklumat Langganan dan Pengebilan (Web sahaja):** Apabila membeli langganan melalui Web, kami mengumpul nama, alamat e-mel, alamat surat-menyurat, nombor telefon, dan butiran berkaitan pembayaran anda. Maklumat ini dihantar kepada WayForPay, pemproses pembayaran kami, untuk pemprosesan transaksi.
 
-      Dengan demikian, tiada data dikumpulkan oleh pembangun Ingantt.
+      - **Maklum Balas:** Apabila anda menghantar maklum balas melalui Aplikasi, kami mengumpul teks mesej anda. Anda boleh memilih untuk melampirkan fail projek yang sedang dibuka untuk membantu kami mendiagnosis masalah.
 
-      ## Data dikongsi dengan pihak ketiga
+      - **Input Ciri AI:** Apabila anda menggunakan ciri "Create with AI", prompt teks yang anda berikan dihantar ke pelayan backend kami untuk pemprosesan oleh Anthropic (Claude).
 
-      Untuk mengaktifkan fungsi berkaitan AI, prompt yang dimasukkan oleh pengguna untuk menghasilkan fail baharu menggunakan AI akan dikongsi dengan alat AI pihak ketiga: OpenAI dan/atau Gemini.
+      - **Fail Projek:** Fail projek yang anda cipta dan sunting kekal di bawah kawalan anda. Fail disimpan secara tempatan pada peranti anda atau dalam akaun Google Drive anda (dalam folder bernama "Ingantt Schedules"). Apabila anda membuka fail dalam format bukan asli (seperti MPP, GAN, XER, atau format fail projek lain yang disokong), fail tersebut dihantar ke pelayan kami untuk penukaran format. Fail diproses dalam memori sahaja dan tidak disimpan di pelayan kami.
 
-      Tiada data lain yang dikongsi dengan pihak ketiga.
+      ### 1.2 Maklumat Yang Dikumpul Secara Automatik
 
-      ## Penggunaan data
+      - **Metadata Aplikasi:** Setiap permintaan ke backend kami termasuk versi aplikasi anda, nama platform (iOS, Android, macOS, Windows, atau Web), lokasi sistem, dan, jika log masuk, alamat e-mel anda.
 
-      Tiada data pengguna yang digunakan untuk membangunkan, memperbaik atau melatih model AI atau ML umum. Ini termasuk data pengguna yang diperoleh melalui API Google Workspace.
+      - **Laporan Ranap dan Ralat:** Kami menggunakan Sentry (dihoskan di EU) untuk mengumpul laporan ranap dan log ralat dalam pengeluaran. Ini termasuk jejak tindanan, mesej ralat, versi aplikasi, dan maklumat platform. Kami tidak sengaja mengumpul data peribadi melalui laporan ranap.
 
-      ## Perlindungan data
+      - **Analitik Web (Web sahaja):** Versi Web Aplikasi menggunakan Google Analytics 4 untuk mengumpul analitik penggunaan standard, termasuk paparan halaman dan data sesi. Google Analytics mungkin menetapkan kuki pada pelayar anda. Versi mudah alih dan desktop asli Aplikasi tidak menyertakan penjejakan analitik.
 
-      Kami melaksanakan langkah-langkah teknikal dan organisasi yang sesuai bagi melindungi data anda daripada akses tanpa kebenaran, kehilangan, atau pendedahan.
+      - **Keutamaan Pengguna:** Aplikasi menyimpan keutamaan tempatan anda (seperti tema, pilihan paparan, lebar lajur, dan senarai fail terkini) pada peranti anda menggunakan mekanisme storan platform standard. Keutamaan ini tidak dihantar ke pelayan kami.
 
-      ## Kemas Kini Dasar
+      ### 1.3 Maklumat Yang Kami Tidak Kumpul
 
-      Dasar ini mungkin berubah dari semasa ke semasa dan boleh didapati di laman web kami.
+      - Kami tidak menggunakan data anda untuk melatih model kecerdasan buatan atau pembelajaran mesin.
+      - Kami tidak memaparkan iklan dan tidak mengintegrasikan sebarang SDK pengiklanan.
+      - Kami tidak mengumpul data lokasi, kenalan, foto, input kamera, atau input mikrofon.
+      - Kami tidak menggunakan pengecam peranti untuk tujuan penjejakan.
+      - Sandaran awan Android dinyahdayakan secara eksplisit untuk Aplikasi.
 
-      ## Aduan dan Pertanyaan tentang Dasar Privasi
+      ## 2. Bagaimana Kami Menggunakan Maklumat Anda
 
-      Jika anda mempunyai sebarang pertanyaan atau aduan mengenai Dasar Privasi kami, sila hubungi kami.
+      Kami menggunakan maklumat yang kami kumpul untuk tujuan berikut:
+
+      - **Menyediakan dan mengendalikan Aplikasi:** Memproses permintaan anda, membolehkan storan fail dan penyegerakan melalui Google Drive, menukar format fail, dan menyampaikan penciptaan projek berkuasa AI.
+      - **Memproses langganan (Web sahaja):** Memproses pembayaran langganan Web, mengesahkan status langganan, dan mengurus akaun anda.
+      - **Menghantar e-mel transaksi (Web sahaja):** Menghantar pemberitahuan berkaitan akaun kepada anda seperti mesej alu-aluan, peringatan percubaan, pengesahan langganan, dan notis pembatalan.
+      - **Meningkatkan kestabilan dan prestasi:** Menganalisis laporan ranap, data ralat, dan telemetri di pihak pelayan untuk mengenal pasti dan membetulkan pepijat.
+      - **Memahami corak penggunaan (Web sahaja):** Menggunakan data analitik agregat untuk memahami bagaimana aplikasi Web digunakan dan untuk meningkatkan pengalaman pengguna.
+      - **Membalas permintaan sokongan:** Menggunakan penyerahan maklum balas untuk mendiagnosis masalah dan meningkatkan Aplikasi.
+
+      ## 3. Bagaimana Kami Berkongsi Maklumat Anda
+
+      Kami tidak menjual maklumat peribadi anda. Kami berkongsi maklumat hanya dalam keadaan berikut:
+
+      - **Penyedia Perkhidmatan:** Kami menggunakan penyedia perkhidmatan pihak ketiga berikut untuk mengendalikan Aplikasi:
+        - **Sentry** (Functional Software, Inc.) — pelaporan ranap dan ralat di pihak klien, data diproses di EU
+        - **Microsoft Application Insights** (Microsoft Corporation) — telemetri dan pemantauan ralat di pihak pelayan
+        - **Google Analytics** (Google LLC) — analitik penggunaan web (versi Web sahaja)
+        - **Google APIs** (Google LLC) — pengesahan dan storan fail Google Drive
+        - **WayForPay** — pemprosesan pembayaran langganan (versi Web sahaja)
+        - **Resend** (Resend, Inc.) — penghantaran e-mel transaksi (versi Web sahaja)
+        - **Anthropic (Claude)** — pemprosesan prompt penciptaan projek berkuasa AI
+        - **Microsoft Azure** — pengehosan backend dan storan data (wilayah East US)
+
+      - **Keperluan Undang-undang:** Kami mungkin mendedahkan maklumat jika dikehendaki oleh undang-undang atau sebagai respons kepada proses undang-undang yang sah.
+
+      ## 4. Storan dan Keselamatan Data
+
+      - **Data pengguna di pihak pelayan (Web sahaja):** Alamat e-mel, nama, lokasi, tarikh pendaftaran, dan status langganan anda disimpan dalam Azure Table Storage pada pelayan backend kami.
+      - **Token OAuth** (token akses, segar semula, dan ID Google) disimpan dalam storan selamat platform (iOS Keychain, Android Keystore, macOS Keychain, atau setara platform).
+      - **Status langganan (Web sahaja)** dicache secara tempatan dalam storan selamat untuk akses luar talian.
+      - **Permintaan API** ke backend kami ditandatangani dengan HMAC-MD5 untuk pengesahan integriti.
+      - Aplikasi beroperasi dalam kotak pasir platform jika tersedia (macOS App Sandbox, iOS App Sandbox).
+      - Kami menggunakan HTTPS untuk semua komunikasi rangkaian.
+
+      ## 4a. Pengekalan Data
+
+      - **Rekod pengguna di pihak pelayan (Web sahaja):** Rekod pengguna dan sejarah langganan anda dikekalkan selagi akaun anda wujud. Untuk meminta pemadaman data anda, hubungi kami di support@ingantt.com.
+      - **Fail projek:** Fail yang dihantar untuk penukaran format diproses dalam memori dan tidak disimpan.
+      - **Prompt AI:** Prompt teks yang dihantar untuk penciptaan projek berkuasa AI tidak disimpan di pelayan kami.
+      - **Maklum balas:** Mesej maklum balas dimajukan kepada pasukan sokongan kami melalui e-mel dan tidak disimpan dalam pangkalan data.
+      - **Data tempatan:** Keutamaan, token OAuth, dan status langganan yang dicache kekal pada peranti anda sehingga anda log keluar atau menyahpasang Aplikasi.
+
+      ## 5. Pilihan dan Hak Anda
+
+      - **Log masuk adalah pilihan pada platform asli:** Pada iOS, Android, macOS, dan Windows, anda boleh menggunakan Aplikasi tanpa log masuk ke Google. Log masuk membolehkan storan fail Google Drive. Pada versi Web, Google Sign-In diperlukan untuk fungsi aplikasi, storan fail, dan pengurusan langganan.
+      - **Akses Google Drive:** Aplikasi menggunakan skop `drive.file` yang terhad, yang hanya membenarkan akses kepada fail yang dicipta oleh Aplikasi atau yang dibuka secara eksplisit oleh anda dalam Aplikasi — bukan keseluruhan Google Drive anda.
+      - **Lampiran maklum balas:** Melampirkan fail projek anda semasa menghantar maklum balas adalah pilihan dan memerlukan persetujuan eksplisit anda.
+      - **Analitik web:** Anda boleh menggunakan penyekatan kuki berasaskan pelayar atau alat pilih keluar untuk mengehadkan pengumpulan data Google Analytics pada versi Web.
+      - **E-mel transaksi:** Pada versi Web, anda akan menerima e-mel berkaitan akaun (alu-aluan, peringatan percubaan, pemberitahuan langganan). Ini adalah komunikasi perkhidmatan yang diperlukan untuk mengurus langganan anda.
+      - **Pemadaman data:** Anda boleh log keluar daripada akaun Google anda dalam Aplikasi pada bila-bila masa, yang membuang token OAuth yang disimpan daripada peranti. Untuk meminta pemadaman rekod pengguna dan sebarang data berkaitan di pelayan kami, hubungi kami di support@ingantt.com.
+
+      ## 6. Privasi Kanak-kanak
+
+      Aplikasi tidak ditujukan kepada kanak-kanak di bawah umur 13 tahun (atau umur yang berkenaan di bidang kuasa anda). Kami tidak secara sengaja mengumpul maklumat peribadi daripada kanak-kanak. Jika anda percaya seorang kanak-kanak telah memberikan maklumat peribadi kepada kami, sila hubungi kami di support@ingantt.com supaya kami boleh mengambil tindakan yang sewajarnya.
+
+      ## 7. Pemindahan Data Antarabangsa
+
+      Pelayan backend kami dihoskan di Microsoft Azure di wilayah East US. Laporan ranap diproses oleh Sentry di EU. Jika anda berada di luar Amerika Syarikat, maklumat anda mungkin dipindahkan ke dan diproses di Amerika Syarikat atau bidang kuasa lain di mana penyedia perkhidmatan kami beroperasi.
+
+      ## 8. Perubahan Kepada Dasar Privasi Ini
+
+      Kami mungkin mengemas kini Dasar Privasi ini dari semasa ke semasa. Kami akan memberitahu anda tentang sebarang perubahan yang ketara dengan mengemas kini tarikh "Last Updated" di bahagian atas polisi ini. Penggunaan berterusan anda terhadap Aplikasi selepas sebarang perubahan bermaksud penerimaan anda terhadap polisi yang dikemas kini.
+
+      ## 9. Pendedahan Khusus Platform
+
+      ### iOS dan macOS (Apple)
+      - Aplikasi ini ialah aplikasi berbayar yang diedarkan melalui Apple App Store. Amalan privasi Apple terpakai untuk transaksi pembelian.
+      - Aplikasi hanya meminta kebenaran akses fail yang anda berikan secara eksplisit melalui pemilih fail sistem.
+
+      ### Android
+      - Aplikasi ini ialah aplikasi berbayar yang diedarkan melalui Google Play. Amalan privasi Google terpakai untuk transaksi pembelian.
+      - Aplikasi meminta kebenaran baca/tulis storan untuk operasi fail tempatan dan kebenaran internet untuk akses rangkaian.
+
+      ### Windows
+      - Aplikasi ini ialah aplikasi berbayar yang diedarkan melalui Microsoft Store. Amalan privasi Microsoft terpakai untuk transaksi pembelian.
+
+      ### Web
+      - Versi Web menggunakan model langganan. Pembayaran langganan diproses melalui WayForPay.
+      - Aplikasi juga tersedia melalui Google Workspace Marketplace.
+      - Kuki Google Analytics ditetapkan pada domain web.ingantt.com.
+      - Pengesahan Google OAuth menggunakan entri localStorage sementara untuk panggilan balik log masuk, yang segera dikosongkan selepas digunakan.
+
+      ## 10. Hubungi Kami
+
+      Jika anda mempunyai soalan atau kebimbangan tentang Dasar Privasi ini atau amalan data kami, sila hubungi kami di:
+
+      **Ingantt Development**
+      E-mel: support@ingantt.com
+      Laman web: https://ingantt.com

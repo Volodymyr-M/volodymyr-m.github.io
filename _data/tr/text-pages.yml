@@ -4,47 +4,293 @@ terms_of_service:
     meta_description: Ingantt'ın Hizmet Şartları
     text_title: Hizmet Şartları
     text: |
-      Ingantt’a hoş geldiniz! Uygulamamızı kullanarak aşağıdaki şartları kabul etmiş sayılırsınız:
+      **Son Güncelleme: February 22, 2026**
 
-      ## 1. Şartların Kabulü
+      Bu Hizmet Şartları ("Şartlar"), Ingantt Development ("biz," "bize," "bizim") tarafından sağlanan bir proje planlama uygulaması olan Ingantt'a ("Uygulama," "Hizmet") erişiminizi ve kullanımınızı düzenler. Uygulamaya erişerek veya kullanarak bu Şartlara bağlı olmayı kabul edersiniz. Kabul etmiyorsanız Uygulamayı kullanmayınız.
 
-      Ingantt’a erişerek veya kullanarak, bu Hizmet Şartları ve Gizlilik Politikamızla bağlı olmayı kabul etmiş olursunuz.
+      ## 1. Hizmet Açıklaması
 
-      ## 2. Google Drive Kullanımı
+      Ingantt, aşağıdakileri sunan çapraz platform bir proje planlama uygulamasıdır:
 
-      Uygulamamız, verilerinizi depolamak ve geri almak için Google Drive hesabınıza bağlanır. Uygulamamızı kullanarak, bu amaçla Google Drive hesabınıza erişmemize izin vermiş olursunuz.
+      - Critical Path Method (CPM) algoritmasını kullanarak proje planlama
+      - Bağımlılıklar, kısıtlamalar ve kaynak atamaları ile görev yönetimi
+      - Gantt şeması görselleştirme ve oluşturma
+      - Kaynak yönetimi ve kaynak dengeleme
+      - Takvim ve çalışma programı yönetimi
+      - XML (Microsoft Project uyumlu), CSV, PDF ve Markdown formatlarında proje içe ve dışa aktarma
+      - Sunucumuz aracılığıyla Microsoft Project (.mpp) dosya dönüştürme
+      - Dosya depolama ve paylaşım için Google Drive entegrasyonu
+      - Yapay zeka destekli proje oluşturma ("Create with AI")
 
-      ## 3. Kullanıcı Verileri
+      Uygulama; Web (web.ingantt.com ve Google Workspace Marketplace üzerinden), iOS, Android, macOS ve Windows platformlarında kullanılabilir.
 
-      Uygulamamız aracılığıyla Google Drive’a yüklediğiniz tüm verilerin mülkiyeti size aittir. Verileriniz üzerinde herhangi bir mülkiyet hakkı talep etmiyoruz.
+      ## 2. Uygunluk
 
-      ## 4. Gizlilik
+      Uygulamayı kullanmak için en az 13 yaşında olmanız gerekmektedir. 13 ile 18 yaş arasındaysanız ebeveyn veya vasi onayı almanız gerekmektedir. Uygulamayı kullanarak bu gereksinimleri karşıladığınızı beyan ve garanti edersiniz.
 
-      Gizliliğiniz bizim için önemlidir. Hizmetlerimizi sunmak için gerekli olduğu ölçüde verilerinize erişir, bunları saklar ve kullanırız. Verilerinizi nasıl işlediğimiz hakkında daha fazla bilgi edinmek için lütfen Gizlilik Politikamızı inceleyin.
+      ## 3. Hesap ve Kimlik Doğrulama
 
-      ## 5. Güvenlik
+      ### 3.1 Google Sign-In
 
-      Verilerinizi korumak için makul önlemler alıyoruz. Ancak, verilerinizin mutlak güvenliğini garanti edemeyiz ve yetkisiz erişim veya güvenlik ihlallerinden sorumlu değiliz.
+      Uygulamanın web sürümü, kimlik doğrulama için Google Sign-In gerektirir. Diğer platformlarda, Google Drive entegrasyonu gibi özellikler için Google Sign-In kullanılabilir. Oturum açarak, hesap tanımlama, lisans yönetimi ve hizmet sunumu amacıyla temel profil bilgilerinize (ad ve e-posta adresi) erişmemize yetki verirsiniz.
 
-      ## 6. Kullanıcı Sorumlulukları
+      ### 3.2 Hesap Güvenliği
 
-      Google Drive hesabınızın güvenliğini sağlamak ve hesabınız altında gerçekleşen tüm etkinliklerden sorumlu olmak sizin sorumluluğunuzdadır.
+      Google hesap bilgilerinizin güvenliğini sağlamak sizin sorumluluğunuzdadır. Hesabınızın yetkisiz kullanımını derhal support@ingantt.com adresine bildirmeyi kabul edersiniz.
 
-      ## 7. Yasaklı Etkinlikler
+      ## 4. Satın Alma ve Ödeme
 
-      Uygulamamızı yasa dışı faaliyetlerde veya bu şartları ihlal edecek şekilde kullanmayacağınızı kabul edersiniz.
+      ### 4.1 Satın Alma Modelleri
 
-      ## 8. Fesih
+      Uygulama, platforma bağlı olarak farklı satın alma modelleri kullanır:
 
-      Bu şartları ihlal etmeniz de dahil olmak üzere herhangi bir nedenle, önceden bildirimde bulunmaksızın uygulamamıza erişiminizi askıya alma veya sonlandırma hakkımız saklıdır.
+      - **Web (web.ingantt.com ve Google Workspace Marketplace):** Uygulama, aylık ve yıllık planlarla abonelik bazında çalışır. Yeni kullanıcılar için ücretsiz deneme süresi sunulabilir. Belirli özelliklere erişim için aktif bir abonelik gereklidir.
+      - **iOS (App Store), Android (Google Play), macOS (App Store) ve Windows (Microsoft Store):** Uygulama, tek seferlik ödeme ile satın alınabilir. Tüm özellikler satın alma ile birlikte dahildir. Uygulama içi satın alma veya abonelik gerekmez.
 
-      ## 9. Şartlarda Değişiklik
+      ### 4.2 Web Abonelik Detayları
 
-      Bu şartları zaman zaman güncelleyebiliriz. Yeni şartları uygulamamızda yayınlayarak sizi bilgilendireceğiz. Bu değişikliklerden sonra uygulamayı kullanmaya devam etmeniz, güncellenen şartları kabul ettiğiniz anlamına gelir.
+      Uygulamanın web sürümü için:
 
-      ## 10. İletişim
+      - **Ücretsiz Deneme:** Yeni kullanıcılara, Uygulamanın özelliklerine erişim sağlayan ücretsiz bir deneme süresi verilebilir. Deneme süresi ilk kullanımda başlar.
+      - **Abonelik Planları:** Deneme süresinden sonra erişimin devamı için aktif bir abonelik (aylık veya yıllık) gereklidir. Fiyatlandırma Uygulama içinde görüntülenir.
+      - **Otomatik Yenileme:** Abonelikler, yenileme tarihinden önce iptal edilmedikçe her faturalama döneminin sonunda otomatik olarak yenilenir.
+      - **İptal:** Aboneliğinizi istediğiniz zaman Uygulama üzerinden veya support@ingantt.com adresine başvurarak iptal edebilirsiniz. İptal, mevcut faturalama döneminin sonunda geçerli olur.
 
-      Bu Hizmet Şartları hakkında herhangi bir sorunuz varsa lütfen bizimle iletişime geçin.
+      ### 4.3 Ödeme İşlemleri
+
+      Ödemeler ilgili platform aracılığıyla işlenir:
+
+      - **iOS ve macOS (App Store):** Apple tarafından yönetilir ve Apple'ın şartlarına tabidir
+      - **Android (Google Play):** Google Play tarafından yönetilir ve Google'ın şartlarına tabidir
+      - **Windows (Microsoft Store):** Microsoft tarafından yönetilir ve Microsoft'un şartlarına tabidir
+      - **Web:** Üçüncü taraf ödeme işlemcimiz (WayForPay) aracılığıyla yönetilir ve onların şartlarına tabidir
+
+      ### 4.4 İadeler
+
+      İade politikaları, satın alma işleminizi gerçekleştirdiğiniz platforma göre belirlenir:
+
+      - **Apple App Store:** Apple'ın iade politikasına tabidir
+      - **Google Play Store:** Google'ın iade politikasına tabidir
+      - **Microsoft Store:** Microsoft'un iade politikasına tabidir
+      - **Web:** Satın alma tarihinden itibaren 7 gün içinde iade talepleri için support@ingantt.com adresine başvurun
+
+      ## 5. Kullanıcı İçeriği ve Verileri
+
+      ### 5.1 Proje Dosyalarınız
+
+      Uygulamayı kullanarak oluşturduğunuz veya içe aktardığınız tüm proje dosyaları, planlar ve veriler ("Kullanıcı İçeriği") üzerinde tam mülkiyet hakkınız saklıdır. Kullanıcı İçeriğiniz üzerinde herhangi bir mülkiyet hakkı talep etmiyoruz.
+
+      ### 5.2 Yerel Depolama
+
+      Proje dosyaları cihazınızda yerel olarak depolanabilir. Yerel dosyalarınızın yedeklerini almak sizin sorumluluğunuzdadır. Cihaz arızası, uygulama kaldırma veya kontrolümüz dışındaki diğer olaylardan kaynaklanan veri kaybından sorumlu değiliz.
+
+      ### 5.3 Google Drive Depolama
+
+      Google Drive entegrasyonunu kullanmayı tercih ederseniz dosyalarınız, kişisel Google Drive hesabınızdaki "Ingantt Schedules" adlı bir klasörde depolanır ve Google'ın Hizmet Şartları ve Gizlilik Politikasına tabidir. Uygulama, sınırlı `drive.file` kapsamını kullanır; bu da yalnızca oluşturduğu dosyalara veya Uygulamada açıkça açtığınız dosyalara erişebileceği anlamına gelir — tüm Google Drive'ınıza erişimi yoktur. Google Drive'ınıza yalnızca sizin yönlendirmeniz doğrultusunda proje dosyalarını okumak, yazmak ve yönetmek için erişiriz.
+
+      ### 5.4 Otomatik Kaydetme
+
+      Uygulama, veri kaybına karşı bir önlem olarak çalışmanızı otomatik olarak dahili depolamaya kaydedebilir. Otomatik kaydedilen veriler cihazınızda yerel olarak depolanır.
+
+      ### 5.5 Topladığımız Veriler
+
+      Hizmetin sunulması sürecinde aşağıdaki verileri toplayabilir ve işleyebiliriz:
+
+      - E-posta adresiniz ve adınız (kimlik doğrulama ve lisans yönetimi için)
+      - Ödeme bilgileri (üçüncü taraf ödeme sağlayıcıları tarafından işlenir; tam ödeme detaylarını saklamıyoruz)
+      - Uygulama kullanım ve hata verileri (çökme raporlaması ve kararlılık iyileştirmeleri için)
+      - "Create with AI" özelliğini kullanırken gönderdiğiniz yapay zeka istemleri (üçüncü taraf yapay zeka sağlayıcılarına iletilir, sunucularımızda saklanmaz)
+      - Proje dosyası ekleri içerebilen gönderdiğiniz geri bildirimler
+
+      Veri toplama ve kullanım hakkında tam ayrıntılar için lütfen [Gizlilik Politikamızı](privacy_policy.html) inceleyin.
+
+      ## 6. Yapay Zeka Destekli Özellikler
+
+      ### 6.1 Create with AI
+
+      Uygulama, yapay zeka destekli proje oluşturma sunar. Bu özelliği kullandığınızda:
+
+      - Metin istemleriniz sunucumuza gönderilir ve işlenmek üzere Anthropic (Claude) hizmetine iletilir. İstemlerinizi sunucularımızda saklamıyoruz. İstemlerinizin Anthropic tarafından işlenmesi, onların hizmet şartlarına ve gizlilik politikasına tabidir.
+      - Oluşturulan proje planları başlangıç noktası olarak sunulur ve doğruluk açısından incelenmelidir
+      - Yapay zeka tarafından oluşturulan içeriğin doğruluğunu, eksiksizliğini veya uygunluğunu garanti etmiyoruz
+      - Yapay zeka tarafından oluşturulan planları kullanmadan önce incelemek ve doğrulamak tamamen sizin sorumluluğunuzdadır
+
+      ### 6.2 Profesyonel Tavsiye Değildir
+
+      Yapay zeka tarafından oluşturulan içerik, profesyonel proje yönetimi tavsiyesi niteliği taşımaz. Yapay zeka tarafından oluşturulan proje planlarını kullanırken bağımsız değerlendirmenizi yapmalısınız.
+
+      ## 7. Microsoft Project Uyumluluğu
+
+      ### 7.1 Dosya Formatı Desteği
+
+      Uygulama, Microsoft Project ile uyumlu XML dosyalarının içe ve dışa aktarımını destekler. Uygulama ayrıca çeşitli proje dosyası formatlarını (.mpp, .mpt, .mpx, .gan, .xer ve diğerleri dahil) sunucu tarafı dönüştürme hizmetimiz aracılığıyla XML'e dönüştürebilir. Yüklenen dosyalar bellekte işlenir ve sunucularımızda saklanmaz.
+
+      ### 7.2 Uyumluluk Sorumluluk Reddi
+
+      Microsoft Project dosya formatlarıyla uyumluluk sağlamak için çaba göstersek de tüm durumlarda mükemmel uyumluluğu garanti etmiyoruz. Microsoft Project dosyalarında bulunan bazı özellikler, biçimlendirmeler veya veriler tam olarak desteklenmeyebilir. Dönüştürülen dosyaları doğruluk açısından kontrol etmelisiniz.
+
+      ### 7.3 Bağlantısızlık
+
+      Ingantt, Microsoft Corporation ile bağlantılı değildir, onun tarafından onaylanmamıştır veya desteklenmemektedir. "Microsoft Project", Microsoft Corporation'ın bir ticari markasıdır.
+
+      ## 8. Kabul Edilebilir Kullanım
+
+      Aşağıdakileri yapmamayı kabul edersiniz:
+
+      - Uygulamayı yasa dışı herhangi bir amaçla veya geçerli yasaları ihlal edecek şekilde kullanmak
+      - Uygulamayı tersine mühendislik, derlemeyi çözme veya ayrıştırma girişiminde bulunmak
+      - Erişim kısıtlamalarını, abonelik kontrollerini veya güvenlik önlemlerini atlatmak
+      - Uygulamanın sunucularını veya altyapısını engellemek veya bozmak
+      - Uygulamaya amaçlanan arayüzleri dışında otomatik araçlarla erişmek
+      - Uygulamayı veya herhangi bir bölümünü yeniden dağıtmak, alt lisans vermek veya yeniden satmak
+      - Uygulamayı kötü amaçlı yazılım, virüs veya diğer zararlı kodları iletmek için kullanmak
+      - Yapay zeka özelliğini zararlı, yasa dışı veya uygunsuz içerik oluşturmak için kötüye kullanmak
+
+      ## 9. Fikri Mülkiyet
+
+      ### 9.1 Haklarımız
+
+      Uygulama; kodu, tasarımı, algoritmaları, kullanıcı arayüzü, dokümantasyonu ve markalaşması dahil olmak üzere Ingantt Development'ın fikri mülkiyetidir ve geçerli telif hakkı, ticari marka ve diğer fikri mülkiyet yasaları tarafından korunmaktadır.
+
+      ### 9.2 Sınırlı Lisans
+
+      Bu Şartlara ve satın alma veya abonelik durumunuza uygun olarak Uygulamayı kullanmanız için size sınırlı, münhasır olmayan, devredilemez, geri alınabilir bir lisans veriyoruz.
+
+      ## 10. Üçüncü Taraf Hizmetleri
+
+      Uygulama, aşağıdakiler dahil ancak bunlarla sınırlı olmamak üzere üçüncü taraf hizmetleriyle entegre çalışır:
+
+      - **Google** (Sign-In, Drive, OAuth2, Workspace Marketplace, Analytics)
+      - **Apple** (App Store)
+      - **Google Play** (Google Play Store)
+      - **Microsoft** (Microsoft Store)
+      - **WayForPay** (web abonelikleri için ödeme işleme)
+      - **Anthropic (Claude)** (yapay zeka destekli proje oluşturma)
+      - **Sentry** (istemci tarafı hata raporlama)
+      - **Resend** (web abonelikleri için işlemsel e-posta gönderimi)
+      - **Microsoft Azure** (sunucu barındırma, veri depolama ve uygulama izleme)
+
+      Bu üçüncü taraf hizmetlerinin kullanımınız, ilgili hizmet şartlarına ve gizlilik politikalarına tabidir. Üçüncü taraf hizmetlerinin kullanılabilirliği, doğruluğu veya uygulamalarından sorumlu değiliz.
+
+      ## 11. Çerezler ve Analitik
+
+      Uygulamanın web sürümü, sayfa görüntülemeleri ve oturum verileri gibi standart kullanım analizlerini toplamak için Google Analytics 4 kullanır. Google Analytics tarayıcınıza çerezler yerleştirebilir. Bu veri toplamasını sınırlamak için tarayıcı tabanlı çerez engelleme veya devre dışı bırakma araçlarını kullanabilirsiniz. Uygulamanın yerel mobil ve masaüstü sürümleri çerez veya analitik takibi kullanmaz.
+
+      ## 12. Veri Koruma Taahhütleri
+
+      - Verilerinizi yapay zeka veya makine öğrenimi modellerini eğitmek için kullanmıyoruz.
+      - Kişisel bilgilerinizi üçüncü taraflara satmıyoruz.
+      - Verileriniz, Amerika Birleşik Devletleri'ne (arka uç sunucumuzun Microsoft Azure, East US bölgesinde barındırıldığı yer) ve AB'ye (istemci tarafı çökme raporlarının Sentry tarafından işlendiği yer) aktarılabilir ve buralarda işlenebilir. Uygulamayı kullanarak bu aktarımlara onay vermiş olursunuz.
+
+      Tam ayrıntılar için lütfen [Gizlilik Politikamızı](privacy_policy.html) inceleyin.
+
+      ## 13. E-posta İletişimleri
+
+      Uygulamanın web sürümünü kullanarak ve bir hesap oluşturarak, hesabınız ve aboneliğinizle ilgili işlemsel e-postalar almayı kabul edersiniz; bunlar şunları içerir:
+
+      - Hoş geldiniz ve başlangıç mesajları
+      - Deneme süresi sona erme bildirimleri
+      - Abonelik etkinleştirme ve iptal onayları
+
+      Bunlar, hesabınızın işletilmesi için gerekli olan hizmetle ilgili iletişimlerdir, pazarlama e-postaları değildir.
+
+      ## 14. Veri Silme
+
+      Hesabınızın ve ilişkili verilerinizin silinmesini support@ingantt.com adresine başvurarak talep edebilirsiniz. Geçerli bir talep aldığımızda hesap bilgilerinizi sunucularımızdan sileriz. Lütfen şunları dikkate alın:
+
+      - Google Drive'ınızda depolanan dosyalar sizin tarafınızdan yönetilir ve hesap silinmesinden etkilenmez
+      - Cihazınızda yerel olarak depolanan dosyalar hesap silinmesinden etkilenmez
+      - Yasal gereklilikler veya meşru iş amaçları doğrultusunda (ödeme kayıtları gibi) belirli verileri saklayabiliriz
+
+      ## 15. Hizmet Kullanılabilirliği
+
+      ### 15.1 Kullanılabilirlik Garantisi Yoktur
+
+      Uygulamanın kullanılabilirliğini sürdürmek için çaba gösteriyoruz ancak kesintisiz veya hatasız hizmet garantisi vermiyoruz. Uygulama, sunucuya bağlı özellikler (dosya dönüştürme, yapay zeka ile proje oluşturma) dahil olmak üzere bakım, güncellemeler veya kontrolümüz dışındaki nedenlerle geçici olarak kullanılamayabilir.
+
+      ### 15.2 Hizmette Değişiklikler
+
+      Hizmetin herhangi bir bölümünü herhangi bir zamanda, bildirimli veya bildirimsiz olarak değiştirme, askıya alma veya durdurma hakkımızı saklı tutarız. Önemli değişiklikler konusunda kullanıcıları bilgilendirmek için makul çaba göstereceğiz.
+
+      ## 16. Garanti Reddi
+
+      UYGULAMA, TİCARİ ELVERİŞLİLİK, BELİRLİ BİR AMACA UYGUNLUK VE İHLAL ETMEME GARANTİLERİ DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE, AÇIK VEYA ZIMNİ HERHANGİ BİR GARANTİ OLMAKSIZIN "OLDUĞU GİBİ" VE "MEVCUT OLDUĞU ŞEKİLDE" SUNULMAKTADIR.
+
+      AŞAĞIDAKİLERİ GARANTİ ETMİYORUZ:
+
+      - UYGULAMANIN ÖZEL GEREKSİNİMLERİNİZİ KARŞILAYACAĞI
+      - UYGULAMANIN KESİNTİSİZ, ZAMANINDA, GÜVENLİ VEYA HATASIZ OLACAĞI
+      - PLANLAMA HESAPLAMALARI, KRİTİK YOL ANALİZİ VEYA KAYNAK DENGELEME SONUÇLARININ DOĞRU VEYA EKSIKSIZ OLACAĞI
+      - YAPAY ZEKA TARAFINDAN OLUŞTURULAN İÇERİĞİN DOĞRU, UYGUN VEYA HATASIZ OLACAĞI
+      - DOSYA DÖNÜŞTÜRMELERİNİN TÜM VERİLERİ MÜKEMMEL UYUMLULUKLA KORUYACAĞI
+
+      ## 17. Sorumluluk Sınırlaması
+
+      GEÇERLİ YASALARIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE, INGANTT DEVELOPMENT HİÇBİR DURUMDA AŞAĞIDAKİLER DAHİL ANCAK BUNLARLA SINIRLI OLMAMAK ÜZERE DOLAYLI, ARIZİ, ÖZEL, SONUÇSAL VEYA CEZAİ ZARARLARDAN SORUMLU OLMAYACAKTIR:
+
+      - VERİ VEYA PROJE DOSYASI KAYBI
+      - İŞ KESİNTİSİ VEYA KAR KAYBI
+      - PLANLAMA HESAPLAMALARINA VEYA YAPAY ZEKA TARAFINDAN OLUŞTURULAN İÇERİĞE GÜVENMEKTEN KAYNAKLANAN ZARARLAR
+      - ÜÇÜNCÜ TARAF HİZMET ARIZALARINDAN KAYNAKLANAN ZARARLAR
+
+      TOPLAM SORUMLULUĞUMUZ, TALEPTEKİ ON İKİ (12) AYLIK DÖNEMDE UYGULAMA İÇİN ÖDEDİĞİNİZ TUTARI AŞMAYACAKTIR.
+
+      ## 18. Tazminat
+
+      Aşağıdakilerden kaynaklanan her türlü talep, zarar, kayıp, yükümlülük ve masraflara (makul avukatlık ücretleri dahil) karşı Ingantt Development'ı tazmin etmeyi, savunmayı ve zararsız tutmayı kabul edersiniz:
+
+      - Uygulamayı kullanımınız
+      - Bu Şartları ihlal etmeniz
+      - Geçerli herhangi bir yasayı veya üçüncü taraf haklarını ihlal etmeniz
+      - Kullanıcı İçeriğiniz
+
+      ## 19. Fesih
+
+      ### 19.1 Sizin Tarafınızdan
+
+      Uygulamayı kullanmayı istediğiniz zaman bırakabilirsiniz. Web aboneliğiniz varsa yukarıdaki Bölüm 4.2'de açıklanan prosedürleri izleyerek iptal edebilirsiniz.
+
+      ### 19.2 Bizim Tarafımızdan
+
+      Bu Şartların ihlali dahil olmak üzere herhangi bir nedenle, bildirimli veya bildirimsiz olarak Uygulamaya erişiminizi askıya alabilir veya sonlandırabiliriz.
+
+      ### 19.3 Feshin Etkisi
+
+      Fesih üzerine, Uygulamayı kullanma lisansınız sona erer. Yerel olarak depolanan proje dosyalarınız cihazınızda kalır. Google Drive'da depolanan dosyalar Google Drive hesabınızda kalır.
+
+      ## 20. Şartlardaki Değişiklikler
+
+      Bu Şartları zaman zaman güncelleyebiliriz. Önemli değişiklikleri "Son Güncelleme" tarihini güncelleyerek ve mümkün olduğunda uygulama içi bildirimle kullanıcılara bildireceğiz. Değişikliklerden sonra Uygulamayı kullanmaya devam etmeniz, güncellenmiş Şartları kabul ettiğiniz anlamına gelir.
+
+      ## 21. Uygulanacak Hukuk ve Uyuşmazlıklar
+
+      Bu Şartlar, yürürlükteki yasalara göre yönetilir ve yorumlanır. Bu Şartlardan veya Uygulamayı kullanımınızdan kaynaklanan herhangi bir uyuşmazlık, iyi niyetli müzakere yoluyla çözülecektir. Müzakere başarısız olursa, uyuşmazlıklar Ingantt Development'ın kurulduğu yargı bölgesindeki geçerli tahkim kuruluşunun kurallarına uygun olarak bağlayıcı tahkime sunulacaktır.
+
+      ## 22. Genel Hükümler
+
+      ### 22.1 Sözleşmenin Bütünlüğü
+
+      Bu Şartlar, [Gizlilik Politikamız](privacy_policy.html) ile birlikte, Uygulama ile ilgili olarak siz ve Ingantt Development arasındaki sözleşmenin tamamını oluşturur.
+
+      ### 22.2 Bölünebilirlik
+
+      Bu Şartların herhangi bir hükmünün uygulanamaz olduğu tespit edilirse, kalan hükümler tam olarak yürürlükte kalmaya devam eder.
+
+      ### 22.3 Feragat
+
+      Bu Şartların herhangi bir hakkını veya hükmünü uygulamamız, söz konusu hak veya hükümden feragat ettiğimiz anlamına gelmez.
+
+      ### 22.4 Devir
+
+      Önceden yazılı onayımız olmadan bu Şartlar kapsamındaki haklarınızı devredemez veya aktaramazsınız. Biz haklarımızı kısıtlama olmaksızın devredebiliriz.
+
+      ## 23. Bize Ulaşın
+
+      Bu Şartlar hakkında sorularınız varsa lütfen bizimle iletişime geçin:
+
+      - **E-posta:** support@ingantt.com
+      - **Web sitesi:** https://ingantt.com
+      - **Dokümantasyon:** https://docs.ingantt.com
 
 privacy_policy:
     title_tag: Ingantt - Gizlilik Politikası
@@ -52,38 +298,131 @@ privacy_policy:
     meta_description: Ingantt'ın Gizlilik Politikası
     text_title: Gizlilik Politikası
     text: |
-      ## Kişisel Bilgi Nedir?
+      **Yürürlük Tarihi:** February 22, 2026
+      **Son Güncelleme:** February 22, 2026
 
-      Kişisel Bilgi, bir bireyi tanımlayan bilgi veya görüşleri ifade eder. Örneğin isimler, adresler, e-posta adresleri, telefon ve faks numaraları gibi bilgileri içerir.
+      Ingantt Development ("biz," "bize" veya "bizim"), Ingantt uygulamasını ("Uygulama") ve https://ingantt.com adresindeki web sitesini ("Web Sitesi") işletmektedir. Bu Gizlilik Politikası, desteklenen tüm platformlarda (iOS, Android, macOS, Windows ve Web, Google Workspace Marketplace dahil) Uygulamayı kullandığınızda bilgilerinizi nasıl topladığımızı, kullandığımızı ve paylaştığımızı açıklar.
 
-      ## Herhangi Bir Veri Toplanmıyor
+      ## 1. Topladığımız Bilgiler
 
-      Ingantt’ın kullanıcıdan aldığı ve işlediği tüm veriler, kullanıcının kendi cihazındaki yerel dosyalarda veya kullanıcının bu seçeneği açıkça tercih edip Google ile bu özelliği etkinleştirmesi hâlinde kullanıcının Google Drive hesabında saklanır.
+      ### 1.1 Sağladığınız Bilgiler
 
-      Kullanıcının Google Drive alanında, Ingantt sadece kullanıcının Ingantt’ı kullanarak oluşturduğu dosyaları saklar. Ingantt, kullanıcının Google Drive’ına eklediği kendi oluşturduğu dosyalara erişir, bunları kullanır veya paylaşır.
+      - **Google Hesap Bilgileri:** Google ile oturum açarsanız, Google'dan e-posta adresinizi, görünen adınızı ve profil fotoğrafı URL'nizi alırız. Yerel platformlarda (iOS, Android, macOS, Windows) oturum açma isteğe bağlıdır ve Google Drive dosya depolamayı etkinleştirir. Web sürümünde, Google Sign-In zorunludur ve Google Drive dosya depolama ile abonelik yönetimi için kullanılır. Web sürümünü ilk kullandığınızda, sunucumuzda e-posta adresinizi, adınızı, yerel ayarınızı ve kayıt tarihinizi içeren bir kullanıcı kaydı oluşturulur.
 
-      Kullanıcının cihazından açılan MPP dosyaları, XML formatına dönüştürülüp geri gönderilmek üzere Ingantt’ın dönüştürme web servisine gönderilir. Bu dosyalar sunucuda saklanmaz.
+      - **Abonelik ve Faturalama Bilgileri (yalnızca Web):** Web üzerinden bir abonelik satın aldığınızda adınızı, e-posta adresinizi, posta adresinizi, telefon numaranızı ve ödemeyle ilgili bilgilerinizi toplarız. Bu bilgiler, işlem gerçekleştirme amacıyla ödeme işlemcimiz WayForPay'e iletilir.
 
-      Dolayısıyla, Ingantt geliştiricileri tarafından herhangi bir veri toplanmamaktadır.
+      - **Geri Bildirim:** Uygulama üzerinden geri bildirim gönderdiğinizde mesajınızın metnini toplarız. Sorunları teşhis etmemize yardımcı olmak için isteğe bağlı olarak mevcut açık proje dosyanızı eklemeyi tercih edebilirsiniz.
 
-      ## Üçüncü Taraflarla Paylaşılan Veriler
+      - **Yapay Zeka Özelliği Girişi:** "Create with AI" özelliğini kullandığınızda, sağladığınız metin istemi Anthropic (Claude) tarafından işlenmek üzere arka uç sunucumuza gönderilir.
 
-      Yapay zeka (AI) ile ilgili işlevlerin etkinleştirilmesi amacıyla, kullanıcı tarafından yeni bir dosya oluşturmak için girilen yapay zeka istemi (prompt), OpenAI ve/veya Gemini gibi üçüncü taraf yapay zeka araçlarıyla paylaşılır.
+      - **Proje Dosyaları:** Oluşturduğunuz ve düzenlediğiniz proje dosyaları sizin kontrolünüz altındadır. Dosyalar cihazınızda yerel olarak veya Google Drive hesabınızda ("Ingantt Schedules" adlı bir klasörde) depolanır. Yerel olmayan bir formattaki dosyayı (MPP, GAN, XER veya desteklenen diğer proje dosyası formatları gibi) açtığınızda, dosya format dönüştürme için sunucumuza iletilir. Dosyalar yalnızca bellekte işlenir ve sunucumuzda depolanmaz.
 
-      Başka hiçbir veri üçüncü taraflarla paylaşılmaz.
+      ### 1.2 Otomatik Olarak Toplanan Bilgiler
 
-      ## Verilerin Kullanımı
+      - **Uygulama Meta Verileri:** Arka uç sunucumuza yapılan her istek, uygulama sürümünüzü, platform adını (iOS, Android, macOS, Windows veya Web), sistem yerel ayarını ve oturum açtıysanız e-posta adresinizi içerir.
 
-      Kullanıcı verileri genel yapay zeka veya makine öğrenimi (ML) modellerini geliştirmek, iyileştirmek veya eğitmek için kullanılmaz. Bu durum, Google Workspace API’lerinden elde edilen kullanıcı verileri için de geçerlidir.
+      - **Çökme ve Hata Raporları:** Üretim ortamında çökme raporları ve hata günlükleri toplamak için Sentry (AB'de barındırılır) kullanıyoruz. Bu, yığın izleri, hata mesajları, uygulama sürümü ve platform bilgilerini içerir. Çökme raporları aracılığıyla kasıtlı olarak kişisel veri toplamıyoruz.
 
-      ## Veri Koruması
+      - **Web Analitiği (yalnızca Web):** Uygulamanın Web sürümü, sayfa görüntülemeleri ve oturum verileri dahil standart kullanım analizlerini toplamak için Google Analytics 4 kullanır. Google Analytics tarayıcınıza çerezler yerleştirebilir. Uygulamanın yerel mobil ve masaüstü sürümleri analitik takibi içermez.
 
-      Verilerinizi yetkisiz erişim, kayıp veya ifşaya karşı korumak için uygun teknik ve organizasyonel önlemler uyguluyoruz.
+      - **Kullanıcı Tercihleri:** Uygulama, yerel tercihlerinizi (tema, görüntüleme seçenekleri, sütun genişlikleri ve son dosya listesi gibi) standart platform depolama mekanizmalarını kullanarak cihazınızda depolar. Bu tercihler sunucularımıza iletilmez.
 
-      ## Politika Güncellemeleri
+      ### 1.3 Toplamadığımız Bilgiler
 
-      Bu Politika zaman zaman güncellenebilir ve web sitemizde mevcuttur.
+      - Verilerinizi yapay zeka veya makine öğrenimi modellerini eğitmek için kullanmıyoruz.
+      - Reklam sunmuyor ve herhangi bir reklam SDK'sı entegre etmiyoruz.
+      - Konum verisi, kişiler, fotoğraflar, kamera girişi veya mikrofon girişi toplamıyoruz.
+      - Cihaz tanımlayıcılarını izleme amacıyla kullanmıyoruz.
+      - Uygulama için Android bulut yedekleme açıkça devre dışı bırakılmıştır.
 
-      ## Gizlilik Politikası ile İlgili Şikayetler ve Sorular
+      ## 2. Bilgilerinizi Nasıl Kullanıyoruz
 
-      Gizlilik Politikamız hakkında herhangi bir soru veya şikayetiniz varsa lütfen bizimle iletişime geçin.
+      Topladığımız bilgileri aşağıdaki amaçlarla kullanıyoruz:
+
+      - **Uygulamayı sağlamak ve işletmek:** İsteklerinizi işlemek, Google Drive aracılığıyla dosya depolama ve senkronizasyonunu sağlamak, dosya formatlarını dönüştürmek ve yapay zeka destekli proje oluşturmayı sunmak.
+      - **Abonelikleri işlemek (yalnızca Web):** Web abonelik ödemelerini işlemek, abonelik durumunu doğrulamak ve hesabınızı yönetmek.
+      - **İşlemsel e-postalar göndermek (yalnızca Web):** Hoş geldiniz mesajları, deneme hatırlatıcıları, abonelik onayları ve iptal bildirimleri gibi hesapla ilgili bildirimler göndermek.
+      - **Kararlılık ve performansı artırmak:** Hataları belirlemek ve düzeltmek için çökme raporlarını, hata verilerini ve sunucu tarafı telemetriyi analiz etmek.
+      - **Kullanım kalıplarını anlamak (yalnızca Web):** Web uygulamasının nasıl kullanıldığını anlamak ve kullanıcı deneyimini iyileştirmek için toplu analitik verilerini kullanmak.
+      - **Destek taleplerine yanıt vermek:** Sorunları teşhis etmek ve Uygulamayı iyileştirmek için geri bildirim gönderimlerini kullanmak.
+
+      ## 3. Bilgilerinizi Nasıl Paylaşıyoruz
+
+      Kişisel bilgilerinizi satmıyoruz. Bilgileri yalnızca aşağıdaki durumlarda paylaşıyoruz:
+
+      - **Hizmet Sağlayıcıları:** Uygulamayı işletmek için aşağıdaki üçüncü taraf hizmet sağlayıcılarını kullanıyoruz:
+        - **Sentry** (Functional Software, Inc.) — istemci tarafı çökme ve hata raporlama, veriler AB'de işlenir
+        - **Microsoft Application Insights** (Microsoft Corporation) — sunucu tarafı telemetri ve hata izleme
+        - **Google Analytics** (Google LLC) — web kullanım analitiği (yalnızca Web sürümü)
+        - **Google APIs** (Google LLC) — kimlik doğrulama ve Google Drive dosya depolama
+        - **WayForPay** — abonelik ödeme işleme (yalnızca Web sürümü)
+        - **Resend** (Resend, Inc.) — işlemsel e-posta gönderimi (yalnızca Web sürümü)
+        - **Anthropic (Claude)** — yapay zeka destekli proje oluşturma istemlerinin işlenmesi
+        - **Microsoft Azure** — arka uç barındırma ve veri depolama (East US bölgesi)
+
+      - **Yasal Gereksinimler:** Yasa gereği veya geçerli bir hukuki süreç doğrultusunda bilgi ifşa edebiliriz.
+
+      ## 4. Veri Depolama ve Güvenlik
+
+      - **Sunucu tarafı kullanıcı verileri (yalnızca Web):** E-posta adresiniz, adınız, yerel ayarınız, kayıt tarihiniz ve abonelik durumunuz arka uç sunucumuzdaki Azure Table Storage'da depolanır.
+      - **OAuth belirteçleri** (Google erişim, yenileme ve kimlik belirteçleri) platform güvenli depolamada (iOS Keychain, Android Keystore, macOS Keychain veya platform eşdeğeri) saklanır.
+      - **Abonelik durumu (yalnızca Web)** çevrimdışı erişim için güvenli depolamada yerel olarak önbelleğe alınır.
+      - **API istekleri** arka uç sunucumuza bütünlük doğrulaması için HMAC-MD5 ile imzalanır.
+      - Uygulama, mevcut olduğunda platform korumalı alanları (macOS App Sandbox, iOS App Sandbox) içinde çalışır.
+      - Tüm ağ iletişimleri için HTTPS kullanıyoruz.
+
+      ## 4a. Veri Saklama
+
+      - **Sunucu tarafı kullanıcı kayıtları (yalnızca Web):** Kullanıcı kaydınız ve abonelik geçmişiniz hesabınız var olduğu sürece saklanır. Verilerinizin silinmesini talep etmek için support@ingantt.com adresinden bizimle iletişime geçin.
+      - **Proje dosyaları:** Format dönüştürme için gönderilen dosyalar bellekte işlenir ve saklanmaz.
+      - **Yapay zeka istemleri:** Yapay zeka destekli proje oluşturma için gönderilen metin istemleri sunucumuzda depolanmaz.
+      - **Geri bildirim:** Geri bildirim mesajları destek ekibimize e-posta yoluyla iletilir ve bir veritabanında depolanmaz.
+      - **Yerel veriler:** Tercihler, OAuth belirteçleri ve önbelleğe alınmış abonelik durumu, oturumunuzu kapatana veya Uygulamayı kaldırana kadar cihazınızda kalır.
+
+      ## 5. Tercihleriniz ve Haklarınız
+
+      - **Yerel platformlarda oturum açma isteğe bağlıdır:** iOS, Android, macOS ve Windows'ta Google'a oturum açmadan Uygulamayı kullanabilirsiniz. Oturum açmak, Google Drive dosya depolamayı etkinleştirir. Web sürümünde, Google Sign-In uygulama işlevselliği, dosya depolama ve abonelik yönetimi için zorunludur.
+      - **Google Drive erişimi:** Uygulama, sınırlı `drive.file` kapsamını kullanır; bu yalnızca Uygulama tarafından oluşturulan veya Uygulamada sizin tarafınızdan açıkça açılan dosyalara erişime izin verir — tüm Google Drive'ınıza değil.
+      - **Geri bildirim ekleri:** Geri bildirim gönderirken proje dosyanızı eklemek isteğe bağlıdır ve açık onayınızı gerektirir.
+      - **Web analitiği:** Web sürümünde Google Analytics veri toplamasını sınırlamak için tarayıcı tabanlı çerez engelleme veya devre dışı bırakma araçlarını kullanabilirsiniz.
+      - **İşlemsel e-postalar:** Web sürümünde, hesapla ilgili e-postalar (hoş geldiniz, deneme hatırlatıcıları, abonelik bildirimleri) alacaksınız. Bunlar, aboneliğinizi yönetmek için gerekli hizmet iletişimleridir.
+      - **Veri silme:** Google hesabınızdan istediğiniz zaman Uygulama içinde çıkış yapabilirsiniz; bu, depolanan OAuth belirteçlerini cihazınızdan kaldırır. Kullanıcı kaydınızın ve sunucularımızdaki ilişkili verilerin silinmesini talep etmek için support@ingantt.com adresinden bizimle iletişime geçin.
+
+      ## 6. Çocukların Gizliliği
+
+      Uygulama, 13 yaşın altındaki çocuklara (veya yargı bölgenizde geçerli olan yaşa) yönelik değildir. Bilerek çocuklardan kişisel bilgi toplamıyoruz. Bir çocuğun bize kişisel bilgi sağladığını düşünüyorsanız, uygun önlemleri alabilmemiz için lütfen support@ingantt.com adresinden bizimle iletişime geçin.
+
+      ## 7. Uluslararası Veri Aktarımları
+
+      Arka uç sunucumuz, East US bölgesinde Microsoft Azure üzerinde barındırılmaktadır. Çökme raporları AB'de Sentry tarafından işlenmektedir. Amerika Birleşik Devletleri dışında bulunuyorsanız, bilgileriniz Amerika Birleşik Devletleri'ne veya hizmet sağlayıcılarımızın faaliyet gösterdiği diğer yargı bölgelerine aktarılabilir ve buralarda işlenebilir.
+
+      ## 8. Bu Gizlilik Politikasındaki Değişiklikler
+
+      Bu Gizlilik Politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikleri, bu politikanın başındaki "Son Güncelleme" tarihini güncelleyerek size bildireceğiz. Herhangi bir değişiklikten sonra Uygulamayı kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir.
+
+      ## 9. Platforma Özel Bildirimler
+
+      ### iOS ve macOS (Apple)
+      - Uygulama, Apple App Store aracılığıyla dağıtılan ücretli bir uygulamadır. Apple'ın gizlilik uygulamaları satın alma işlemi için geçerlidir.
+      - Uygulama, yalnızca sistem dosya seçici aracılığıyla açıkça verdiğiniz dosya erişim izinlerini talep eder.
+
+      ### Android
+      - Uygulama, Google Play aracılığıyla dağıtılan ücretli bir uygulamadır. Google'ın gizlilik uygulamaları satın alma işlemi için geçerlidir.
+      - Uygulama, yerel dosya işlemleri için depolama okuma/yazma izinleri ve ağ erişimi için internet izni talep eder.
+
+      ### Windows
+      - Uygulama, Microsoft Store aracılığıyla dağıtılan ücretli bir uygulamadır. Microsoft'un gizlilik uygulamaları satın alma işlemi için geçerlidir.
+
+      ### Web
+      - Web sürümü bir abonelik modeli kullanır. Abonelik ödemeleri WayForPay aracılığıyla işlenir.
+      - Uygulama ayrıca Google Workspace Marketplace üzerinden de kullanılabilir.
+      - Google Analytics çerezleri web.ingantt.com alan adında ayarlanır.
+      - Google OAuth kimlik doğrulaması, oturum açma geri çağırması için geçici bir localStorage girişi kullanır ve bu giriş kullanımdan hemen sonra temizlenir.
+
+      ## 10. Bize Ulaşın
+
+      Bu Gizlilik Politikası veya veri uygulamalarımız hakkında sorularınız veya endişeleriniz varsa lütfen bizimle iletişime geçin:
+
+      **Ingantt Development**
+      E-posta: support@ingantt.com
+      Web sitesi: https://ingantt.com

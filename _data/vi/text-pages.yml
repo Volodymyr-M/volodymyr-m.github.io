@@ -4,47 +4,293 @@ terms_of_service:
     meta_description: Điều khoản Dịch vụ của Ingantt
     text_title: Điều khoản Dịch vụ
     text: |
-      Chào mừng bạn đến với Ingantt! Bằng việc sử dụng ứng dụng của chúng tôi, bạn đồng ý với các điều khoản và điều kiện sau đây:
+      **Last Updated: February 22, 2026**
 
-      ## 1. Chấp nhận Điều khoản
+      Các Điều khoản Dịch vụ này ("Điều khoản") quy định việc truy cập và sử dụng Ingantt ("Ứng dụng," "Dịch vụ"), một ứng dụng lập lịch dự án được cung cấp bởi Ingantt Development ("chúng tôi," "của chúng tôi"). Bằng việc truy cập hoặc sử dụng Ứng dụng, bạn đồng ý bị ràng buộc bởi các Điều khoản này. Nếu bạn không đồng ý, vui lòng không sử dụng Ứng dụng.
 
-      Khi truy cập hoặc sử dụng Ingantt, bạn đồng ý bị ràng buộc bởi những Điều khoản Dịch vụ này cùng với Chính sách Quyền riêng tư của chúng tôi.
+      ## 1. Mô tả Dịch vụ
 
-      ## 2. Sử dụng Google Drive
+      Ingantt là ứng dụng lập lịch dự án đa nền tảng cung cấp:
 
-      Ứng dụng của chúng tôi kết nối với Google Drive của bạn để lưu trữ và lấy dữ liệu. Bằng việc sử dụng ứng dụng, bạn cho phép chúng tôi truy cập tài khoản Google Drive của bạn cho mục đích này.
+      - Lập lịch dự án sử dụng thuật toán Critical Path Method (CPM)
+      - Quản lý công việc với các phụ thuộc, ràng buộc và phân công nguồn lực
+      - Trực quan hóa và hiển thị biểu đồ Gantt
+      - Quản lý nguồn lực và cân bằng nguồn lực
+      - Quản lý lịch và lịch làm việc
+      - Nhập và xuất dự án ở các định dạng XML (tương thích Microsoft Project), CSV, PDF và Markdown
+      - Chuyển đổi tệp Microsoft Project (.mpp) qua máy chủ của chúng tôi
+      - Tích hợp Google Drive để lưu trữ và chia sẻ tệp
+      - Tạo dự án bằng AI ("Create with AI")
 
-      ## 3. Dữ liệu Người dùng
+      Ứng dụng có sẵn trên Web (web.ingantt.com và qua Google Workspace Marketplace), iOS, Android, macOS và Windows.
 
-      Bạn giữ quyền sở hữu mọi dữ liệu mà bạn tải lên Google Drive thông qua ứng dụng của chúng tôi. Chúng tôi không yêu cầu bất kỳ quyền sở hữu nào đối với dữ liệu của bạn.
+      ## 2. Điều kiện Sử dụng
 
-      ## 4. Quyền riêng tư
+      Bạn phải từ 13 tuổi trở lên để sử dụng Ứng dụng. Nếu bạn từ 13 đến 18 tuổi, bạn phải có sự đồng ý của cha mẹ hoặc người giám hộ. Bằng việc sử dụng Ứng dụng, bạn cam đoan và đảm bảo rằng bạn đáp ứng các yêu cầu này.
 
-      Quyền riêng tư của bạn rất quan trọng đối với chúng tôi. Chúng tôi chỉ truy cập, lưu trữ và sử dụng dữ liệu của bạn trong phạm vi cần thiết để cung cấp dịch vụ. Vui lòng xem Chính sách Quyền riêng tư của chúng tôi để biết thêm chi tiết về cách chúng tôi xử lý dữ liệu của bạn.
+      ## 3. Tài khoản và Xác thực
 
-      ## 5. Bảo mật
+      ### 3.1 Google Sign-In
 
-      Chúng tôi áp dụng các biện pháp hợp lý để bảo vệ dữ liệu của bạn. Tuy nhiên, chúng tôi không thể đảm bảo sự an toàn tuyệt đối cho dữ liệu của bạn và không chịu trách nhiệm cho bất kỳ truy cập trái phép hoặc vi phạm nào.
+      Phiên bản web của Ứng dụng yêu cầu Google Sign-In để xác thực. Trên các nền tảng khác, Google Sign-In có thể được sử dụng cho các tính năng như tích hợp Google Drive. Bằng việc đăng nhập, bạn cho phép chúng tôi truy cập thông tin hồ sơ cơ bản của bạn (tên và địa chỉ email) để nhận dạng tài khoản, quản lý giấy phép và cung cấp dịch vụ.
 
-      ## 6. Trách nhiệm của Người dùng
+      ### 3.2 Bảo mật Tài khoản
 
-      Bạn chịu trách nhiệm duy trì tính bảo mật cho tài khoản Google Drive của mình và chịu trách nhiệm cho bất kỳ hoạt động nào diễn ra dưới tài khoản đó.
+      Bạn chịu trách nhiệm duy trì bảo mật thông tin đăng nhập tài khoản Google của mình. Bạn đồng ý thông báo ngay cho chúng tôi tại support@ingantt.com về bất kỳ việc sử dụng trái phép nào đối với tài khoản của bạn.
 
-      ## 7. Hoạt động Bị cấm
+      ## 4. Mua hàng và Thanh toán
 
-      Bạn đồng ý không sử dụng ứng dụng của chúng tôi cho bất kỳ hoạt động bất hợp pháp nào hoặc dưới hình thức vi phạm các điều khoản này.
+      ### 4.1 Mô hình Mua hàng
 
-      ## 8. Chấm dứt
+      Ứng dụng sử dụng các mô hình mua hàng khác nhau tùy thuộc vào nền tảng:
 
-      Chúng tôi có quyền tạm ngừng hoặc chấm dứt quyền truy cập ứng dụng của bạn bất cứ lúc nào, không cần thông báo trước, vì bất kỳ lý do nào, bao gồm cả việc bạn vi phạm các điều khoản này.
+      - **Web (web.ingantt.com và Google Workspace Marketplace):** Ứng dụng hoạt động theo hình thức đăng ký với các gói hàng tháng và hàng năm. Bản dùng thử miễn phí có thể được cung cấp cho người dùng mới. Một số tính năng yêu cầu đăng ký đang hoạt động để truy cập.
+      - **iOS (App Store), Android (Google Play), macOS (App Store) và Windows (Microsoft Store):** Ứng dụng có sẵn dưới dạng mua một lần. Tất cả các tính năng đều được bao gồm trong giao dịch mua của bạn. Không yêu cầu mua trong ứng dụng hoặc đăng ký.
 
-      ## 9. Thay đổi Điều khoản
+      ### 4.2 Chi tiết Đăng ký Web
 
-      Chúng tôi có thể cập nhật các điều khoản này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi nào bằng cách đăng điều khoản mới trên ứng dụng của chúng tôi. Việc bạn tiếp tục sử dụng ứng dụng sau những thay đổi đó đồng nghĩa với việc bạn chấp nhận các điều khoản đã sửa đổi.
+      Đối với phiên bản web của Ứng dụng:
 
-      ## 10. Liên hệ với chúng tôi
+      - **Dùng thử miễn phí:** Người dùng mới có thể nhận thời gian dùng thử miễn phí với quyền truy cập các tính năng của Ứng dụng. Thời gian dùng thử bắt đầu từ lần sử dụng đầu tiên.
+      - **Gói đăng ký:** Sau thời gian dùng thử, việc tiếp tục truy cập yêu cầu đăng ký đang hoạt động (hàng tháng hoặc hàng năm). Giá cả được hiển thị trong Ứng dụng.
+      - **Tự động gia hạn:** Đăng ký tự động gia hạn vào cuối mỗi chu kỳ thanh toán trừ khi được hủy trước ngày gia hạn.
+      - **Hủy đăng ký:** Bạn có thể hủy đăng ký bất cứ lúc nào thông qua Ứng dụng hoặc bằng cách liên hệ support@ingantt.com. Việc hủy có hiệu lực vào cuối chu kỳ thanh toán hiện tại.
 
-      Nếu bạn có bất kỳ câu hỏi nào về Điều khoản Dịch vụ này, vui lòng liên hệ với chúng tôi.
+      ### 4.3 Xử lý Thanh toán
+
+      Thanh toán được xử lý thông qua nền tảng tương ứng:
+
+      - **iOS và macOS (App Store):** Được quản lý thông qua Apple và tuân theo các điều khoản của Apple
+      - **Android (Google Play):** Được quản lý thông qua Google Play và tuân theo các điều khoản của Google
+      - **Windows (Microsoft Store):** Được quản lý thông qua Microsoft và tuân theo các điều khoản của Microsoft
+      - **Web:** Được quản lý thông qua nhà xử lý thanh toán bên thứ ba của chúng tôi (WayForPay) và tuân theo các điều khoản của họ
+
+      ### 4.4 Hoàn tiền
+
+      Chính sách hoàn tiền được điều chỉnh bởi nền tảng mà bạn đã thực hiện giao dịch mua:
+
+      - **Apple App Store:** Tuân theo chính sách hoàn tiền của Apple
+      - **Google Play Store:** Tuân theo chính sách hoàn tiền của Google
+      - **Microsoft Store:** Tuân theo chính sách hoàn tiền của Microsoft
+      - **Web:** Liên hệ support@ingantt.com để yêu cầu hoàn tiền trong vòng 7 ngày kể từ ngày mua
+
+      ## 5. Nội dung và Dữ liệu Người dùng
+
+      ### 5.1 Tệp Dự án của Bạn
+
+      Bạn giữ toàn quyền sở hữu đối với tất cả các tệp dự án, lịch biểu và dữ liệu mà bạn tạo hoặc nhập bằng Ứng dụng ("Nội dung Người dùng"). Chúng tôi không yêu cầu bất kỳ quyền sở hữu nào đối với Nội dung Người dùng của bạn.
+
+      ### 5.2 Lưu trữ Cục bộ
+
+      Các tệp dự án có thể được lưu trữ cục bộ trên thiết bị của bạn. Bạn chịu trách nhiệm duy trì bản sao lưu các tệp cục bộ của mình. Chúng tôi không chịu trách nhiệm về việc mất dữ liệu do hỏng thiết bị, gỡ cài đặt ứng dụng hoặc các sự kiện khác ngoài tầm kiểm soát của chúng tôi.
+
+      ### 5.3 Lưu trữ Google Drive
+
+      Nếu bạn chọn sử dụng tích hợp Google Drive, các tệp của bạn được lưu trữ trong thư mục có tên "Ingantt Schedules" trong tài khoản Google Drive cá nhân của bạn và tuân theo Điều khoản Dịch vụ và Chính sách Quyền riêng tư của Google. Ứng dụng sử dụng phạm vi `drive.file` hạn chế, nghĩa là nó chỉ có thể truy cập các tệp mà nó tạo ra hoặc các tệp bạn mở rõ ràng trong Ứng dụng — nó không có quyền truy cập toàn bộ Google Drive của bạn. Chúng tôi truy cập Google Drive của bạn chỉ để đọc, ghi và quản lý các tệp dự án theo chỉ dẫn của bạn.
+
+      ### 5.4 Tự động Lưu
+
+      Ứng dụng có thể tự động lưu công việc của bạn vào bộ nhớ nội bộ như biện pháp bảo vệ chống mất dữ liệu. Dữ liệu tự động lưu được lưu trữ cục bộ trên thiết bị của bạn.
+
+      ### 5.5 Dữ liệu Chúng tôi Thu thập
+
+      Trong quá trình cung cấp Dịch vụ, chúng tôi có thể thu thập và xử lý:
+
+      - Địa chỉ email và tên của bạn (để xác thực và quản lý giấy phép)
+      - Thông tin thanh toán (được xử lý bởi nhà cung cấp thanh toán bên thứ ba; chúng tôi không lưu trữ đầy đủ chi tiết thanh toán)
+      - Dữ liệu sử dụng ứng dụng và lỗi (để báo cáo sự cố và cải thiện tính ổn định)
+      - Các lời nhắc AI bạn gửi khi sử dụng tính năng "Create with AI" (được chuyển tiếp đến nhà cung cấp AI bên thứ ba, không được lưu giữ trên máy chủ của chúng tôi)
+      - Phản hồi bạn gửi, có thể bao gồm tệp dự án đính kèm
+
+      Để biết đầy đủ chi tiết về việc thu thập và sử dụng dữ liệu, vui lòng xem [Chính sách Quyền riêng tư](privacy_policy.html) của chúng tôi.
+
+      ## 6. Tính năng Hỗ trợ bởi AI
+
+      ### 6.1 Create with AI
+
+      Ứng dụng cung cấp tính năng tạo dự án bằng AI. Khi bạn sử dụng tính năng này:
+
+      - Các lời nhắc văn bản của bạn được gửi đến máy chủ của chúng tôi, sau đó được chuyển tiếp đến Anthropic (Claude) để xử lý. Chúng tôi không lưu giữ các lời nhắc của bạn trên máy chủ của chúng tôi. Việc xử lý các lời nhắc của bạn bởi Anthropic tuân theo các điều khoản dịch vụ và chính sách quyền riêng tư của họ.
+      - Các lịch biểu dự án được tạo ra chỉ là điểm khởi đầu và nên được xem xét về tính chính xác
+      - Chúng tôi không đảm bảo tính chính xác, đầy đủ hoặc phù hợp của nội dung do AI tạo ra
+      - Bạn hoàn toàn chịu trách nhiệm xem xét và xác minh bất kỳ lịch biểu nào do AI tạo ra trước khi dựa vào chúng
+
+      ### 6.2 Không phải Tư vấn Chuyên nghiệp
+
+      Nội dung do AI tạo ra không cấu thành tư vấn quản lý dự án chuyên nghiệp. Bạn nên sử dụng phán đoán độc lập khi sử dụng các kế hoạch dự án do AI tạo ra.
+
+      ## 7. Tương thích với Microsoft Project
+
+      ### 7.1 Hỗ trợ Định dạng Tệp
+
+      Ứng dụng hỗ trợ nhập và xuất các tệp XML tương thích với Microsoft Project. Ứng dụng cũng có thể chuyển đổi nhiều định dạng tệp dự án khác nhau (bao gồm .mpp, .mpt, .mpx, .gan, .xer và các định dạng khác) sang XML qua dịch vụ chuyển đổi phía máy chủ của chúng tôi. Các tệp tải lên được xử lý trong bộ nhớ và không được lưu giữ trên máy chủ của chúng tôi.
+
+      ### 7.2 Tuyên bố Miễn trừ về Tương thích
+
+      Mặc dù chúng tôi nỗ lực đảm bảo tương thích với các định dạng tệp Microsoft Project, chúng tôi không đảm bảo sự chính xác hoàn hảo trong mọi trường hợp. Một số tính năng, định dạng hoặc dữ liệu có trong tệp Microsoft Project có thể không được hỗ trợ đầy đủ. Bạn nên xác minh các tệp đã chuyển đổi về tính chính xác.
+
+      ### 7.3 Không Liên kết
+
+      Ingantt không liên kết, không được xác nhận hoặc tài trợ bởi Microsoft Corporation. "Microsoft Project" là nhãn hiệu của Microsoft Corporation.
+
+      ## 8. Sử dụng Chấp nhận được
+
+      Bạn đồng ý không:
+
+      - Sử dụng Ứng dụng cho bất kỳ mục đích bất hợp pháp nào hoặc vi phạm bất kỳ luật hiện hành nào
+      - Cố gắng dịch ngược, giải biên dịch hoặc tháo rời Ứng dụng
+      - Vượt qua bất kỳ hạn chế truy cập, kiểm tra đăng ký hoặc biện pháp bảo mật nào
+      - Can thiệp hoặc làm gián đoạn máy chủ hoặc cơ sở hạ tầng của Ứng dụng
+      - Sử dụng phương tiện tự động để truy cập Ứng dụng ngoài các giao diện dự định
+      - Phân phối lại, cấp phép phụ hoặc bán lại Ứng dụng hoặc bất kỳ phần nào của nó
+      - Sử dụng Ứng dụng để truyền phần mềm độc hại, vi-rút hoặc mã có hại khác
+      - Lạm dụng tính năng AI để tạo nội dung có hại, bất hợp pháp hoặc không phù hợp
+
+      ## 9. Sở hữu Trí tuệ
+
+      ### 9.1 Quyền của Chúng tôi
+
+      Ứng dụng, bao gồm mã nguồn, thiết kế, thuật toán, giao diện người dùng, tài liệu và thương hiệu, là tài sản trí tuệ của Ingantt Development và được bảo vệ bởi các luật bản quyền, nhãn hiệu và sở hữu trí tuệ hiện hành.
+
+      ### 9.2 Giấy phép Hạn chế
+
+      Chúng tôi cấp cho bạn giấy phép hạn chế, không độc quyền, không thể chuyển nhượng, có thể thu hồi để sử dụng Ứng dụng theo các Điều khoản này và trạng thái mua hàng hoặc đăng ký của bạn.
+
+      ## 10. Dịch vụ Bên thứ ba
+
+      Ứng dụng tích hợp với các dịch vụ bên thứ ba bao gồm nhưng không giới hạn:
+
+      - **Google** (Sign-In, Drive, OAuth2, Workspace Marketplace, Analytics)
+      - **Apple** (App Store)
+      - **Google Play** (Google Play Store)
+      - **Microsoft** (Microsoft Store)
+      - **WayForPay** (xử lý thanh toán cho đăng ký web)
+      - **Anthropic (Claude)** (tạo dự án bằng AI)
+      - **Sentry** (báo cáo lỗi phía máy khách)
+      - **Resend** (gửi email giao dịch cho đăng ký web)
+      - **Microsoft Azure** (lưu trữ máy chủ, lưu trữ dữ liệu và giám sát ứng dụng)
+
+      Việc sử dụng các dịch vụ bên thứ ba này của bạn tuân theo các điều khoản dịch vụ và chính sách quyền riêng tư tương ứng của họ. Chúng tôi không chịu trách nhiệm về tính khả dụng, độ chính xác hoặc các hoạt động của các dịch vụ bên thứ ba.
+
+      ## 11. Cookie và Phân tích
+
+      Phiên bản web của Ứng dụng sử dụng Google Analytics 4 để thu thập phân tích sử dụng tiêu chuẩn như lượt xem trang và dữ liệu phiên. Google Analytics có thể đặt cookie trên trình duyệt của bạn. Bạn có thể sử dụng công cụ chặn cookie hoặc công cụ từ chối dựa trên trình duyệt để hạn chế việc thu thập dữ liệu này. Các phiên bản di động và máy tính để bàn gốc của Ứng dụng không sử dụng cookie hoặc theo dõi phân tích.
+
+      ## 12. Cam kết Bảo vệ Dữ liệu
+
+      - Chúng tôi không sử dụng dữ liệu của bạn để huấn luyện các mô hình trí tuệ nhân tạo hoặc học máy.
+      - Chúng tôi không bán thông tin cá nhân của bạn cho bên thứ ba.
+      - Dữ liệu của bạn có thể được chuyển đến và xử lý tại Hoa Kỳ (nơi máy chủ backend của chúng tôi được lưu trữ trên Microsoft Azure, khu vực East US) và EU (nơi báo cáo sự cố phía máy khách được xử lý bởi Sentry). Bằng việc sử dụng Ứng dụng, bạn đồng ý với các chuyển giao này.
+
+      Để biết đầy đủ chi tiết, vui lòng xem [Chính sách Quyền riêng tư](privacy_policy.html) của chúng tôi.
+
+      ## 13. Thông tin Liên lạc qua Email
+
+      Bằng việc sử dụng phiên bản web của Ứng dụng và tạo tài khoản, bạn đồng ý nhận các email giao dịch liên quan đến tài khoản và đăng ký của bạn, bao gồm:
+
+      - Tin nhắn chào mừng và hướng dẫn
+      - Thông báo hết hạn dùng thử
+      - Xác nhận kích hoạt và hủy đăng ký
+
+      Đây là các thông tin liên lạc liên quan đến dịch vụ cần thiết cho hoạt động của tài khoản của bạn, không phải email tiếp thị.
+
+      ## 14. Xóa Dữ liệu
+
+      Bạn có thể yêu cầu xóa tài khoản và dữ liệu liên quan bằng cách liên hệ support@ingantt.com. Sau khi nhận được yêu cầu hợp lệ, chúng tôi sẽ xóa thông tin tài khoản của bạn khỏi máy chủ của chúng tôi. Xin lưu ý rằng:
+
+      - Các tệp được lưu trữ trên Google Drive của bạn do bạn quản lý và không bị ảnh hưởng bởi việc xóa tài khoản
+      - Các tệp được lưu trữ cục bộ trên thiết bị của bạn không bị ảnh hưởng bởi việc xóa tài khoản
+      - Chúng tôi có thể giữ lại một số dữ liệu theo yêu cầu của pháp luật hoặc cho mục đích kinh doanh hợp pháp (chẳng hạn như hồ sơ thanh toán)
+
+      ## 15. Tính Khả dụng của Dịch vụ
+
+      ### 15.1 Không Đảm bảo Tính Khả dụng
+
+      Chúng tôi nỗ lực duy trì tính khả dụng của Ứng dụng nhưng không đảm bảo dịch vụ liên tục hoặc không có lỗi. Ứng dụng, bao gồm các tính năng phụ thuộc máy chủ (chuyển đổi tệp, tạo dự án AI), có thể tạm thời không khả dụng do bảo trì, cập nhật hoặc các trường hợp ngoài tầm kiểm soát của chúng tôi.
+
+      ### 15.2 Sửa đổi Dịch vụ
+
+      Chúng tôi có quyền sửa đổi, tạm ngừng hoặc ngừng cung cấp bất kỳ phần nào của Dịch vụ bất cứ lúc nào, có hoặc không có thông báo. Chúng tôi sẽ nỗ lực hợp lý để thông báo cho người dùng về những thay đổi quan trọng.
+
+      ## 16. Tuyên bố Miễn trừ Bảo hành
+
+      ỨNG DỤNG ĐƯỢC CUNG CẤP "NGUYÊN TRẠNG" VÀ "NHƯ CÓ SẴN" KHÔNG CÓ BẤT KỲ BẢO HÀNH NÀO, DÙ RÕ RÀNG HAY NGỤ Ý, BAO GỒM NHƯNG KHÔNG GIỚI HẠN Ở CÁC BẢO HÀNH NGỤ Ý VỀ KHẢ NĂNG THƯƠNG MẠI, SỰ PHÙ HỢP CHO MỤC ĐÍCH CỤ THỂ VÀ KHÔNG VI PHẠM.
+
+      CHÚNG TÔI KHÔNG BẢO ĐẢM RẰNG:
+
+      - ỨNG DỤNG SẼ ĐÁP ỨNG CÁC YÊU CẦU CỤ THỂ CỦA BẠN
+      - ỨNG DỤNG SẼ HOẠT ĐỘNG LIÊN TỤC, KỊP THỜI, AN TOÀN HOẶC KHÔNG CÓ LỖI
+      - CÁC TÍNH TOÁN LẬP LỊCH, PHÂN TÍCH ĐƯỜNG GĂNG HOẶC KẾT QUẢ CÂN BẰNG NGUỒN LỰC SẼ CHÍNH XÁC HOẶC ĐẦY ĐỦ
+      - NỘI DUNG DO AI TẠO RA SẼ CHÍNH XÁC, PHÙ HỢP HOẶC KHÔNG CÓ LỖI
+      - CHUYỂN ĐỔI TỆP SẼ BẢO TOÀN TẤT CẢ DỮ LIỆU VỚI ĐỘ CHÍNH XÁC HOÀN HẢO
+
+      ## 17. Giới hạn Trách nhiệm
+
+      TRONG PHẠM VI TỐI ĐA ĐƯỢC PHÁP LUẬT HIỆN HÀNH CHO PHÉP, TRONG MỌI TRƯỜNG HỢP INGANTT DEVELOPMENT SẼ KHÔNG CHỊU TRÁCH NHIỆM VỀ BẤT KỲ THIỆT HẠI GIÁN TIẾP, NGẪU NHIÊN, ĐẶC BIỆT, HẬU QUẢ HOẶC MANG TÍNH TRỪNG PHẠT NÀO, BAO GỒM NHƯNG KHÔNG GIỚI HẠN Ở:
+
+      - MẤT DỮ LIỆU HOẶC TỆP DỰ ÁN
+      - GIÁN ĐOẠN KINH DOANH HOẶC MẤT LỢI NHUẬN
+      - THIỆT HẠI PHÁT SINH TỪ VIỆC DỰA VÀO CÁC TÍNH TOÁN LẬP LỊCH HOẶC NỘI DUNG DO AI TẠO RA
+      - THIỆT HẠI PHÁT SINH TỪ SỰ CỐ CỦA DỊCH VỤ BÊN THỨ BA
+
+      TỔNG TRÁCH NHIỆM GỘP CỦA CHÚNG TÔI SẼ KHÔNG VƯỢT QUÁ SỐ TIỀN BẠN ĐÃ TRẢ CHO ỨNG DỤNG TRONG MƯỜI HAI (12) THÁNG TRƯỚC KHI PHÁT SINH KHIẾU NẠI.
+
+      ## 18. Bồi thường
+
+      Bạn đồng ý bồi thường, bảo vệ và giữ cho Ingantt Development không bị thiệt hại trước bất kỳ khiếu nại, thiệt hại, tổn thất, trách nhiệm và chi phí nào (bao gồm phí luật sư hợp lý) phát sinh từ:
+
+      - Việc bạn sử dụng Ứng dụng
+      - Việc bạn vi phạm các Điều khoản này
+      - Việc bạn vi phạm bất kỳ luật hiện hành hoặc quyền của bên thứ ba nào
+      - Nội dung Người dùng của bạn
+
+      ## 19. Chấm dứt
+
+      ### 19.1 Bởi Bạn
+
+      Bạn có thể ngừng sử dụng Ứng dụng bất cứ lúc nào. Nếu bạn có đăng ký web, bạn có thể hủy theo các thủ tục được mô tả trong Mục 4.2 ở trên.
+
+      ### 19.2 Bởi Chúng tôi
+
+      Chúng tôi có thể tạm ngừng hoặc chấm dứt quyền truy cập của bạn vào Ứng dụng bất cứ lúc nào, có hoặc không có lý do, có hoặc không có thông báo, bao gồm cả việc vi phạm các Điều khoản này.
+
+      ### 19.3 Hệ quả của Việc Chấm dứt
+
+      Khi chấm dứt, giấy phép sử dụng Ứng dụng của bạn sẽ hết hiệu lực. Các tệp dự án được lưu trữ cục bộ của bạn vẫn còn trên thiết bị của bạn. Các tệp được lưu trữ trên Google Drive vẫn còn trong tài khoản Google Drive của bạn.
+
+      ## 20. Thay đổi Điều khoản
+
+      Chúng tôi có thể cập nhật các Điều khoản này theo thời gian. Chúng tôi sẽ thông báo cho người dùng về các thay đổi quan trọng bằng cách cập nhật ngày "Last Updated" và, khi có thể, thông qua thông báo trong ứng dụng. Việc bạn tiếp tục sử dụng Ứng dụng sau các thay đổi đồng nghĩa với việc bạn chấp nhận các Điều khoản đã cập nhật.
+
+      ## 21. Luật Áp dụng và Giải quyết Tranh chấp
+
+      Các Điều khoản này sẽ được điều chỉnh và giải thích theo luật hiện hành. Bất kỳ tranh chấp nào phát sinh từ các Điều khoản này hoặc việc bạn sử dụng Ứng dụng sẽ được giải quyết thông qua đàm phán thiện chí. Nếu đàm phán không thành công, tranh chấp sẽ được đưa ra trọng tài ràng buộc theo quy tắc của cơ quan trọng tài có thẩm quyền tại khu vực tài phán nơi Ingantt Development được thành lập.
+
+      ## 22. Điều khoản Chung
+
+      ### 22.1 Toàn bộ Thỏa thuận
+
+      Các Điều khoản này, cùng với [Chính sách Quyền riêng tư](privacy_policy.html) của chúng tôi, cấu thành toàn bộ thỏa thuận giữa bạn và Ingantt Development liên quan đến Ứng dụng.
+
+      ### 22.2 Tính Tách rời
+
+      Nếu bất kỳ điều khoản nào của các Điều khoản này được cho là không thể thi hành, các điều khoản còn lại sẽ tiếp tục có đầy đủ hiệu lực.
+
+      ### 22.3 Từ bỏ Quyền
+
+      Việc chúng tôi không thực thi bất kỳ quyền hoặc điều khoản nào của các Điều khoản này sẽ không cấu thành việc từ bỏ quyền hoặc điều khoản đó.
+
+      ### 22.4 Chuyển nhượng
+
+      Bạn không được chuyển nhượng hoặc chuyển giao quyền của mình theo các Điều khoản này mà không có sự đồng ý bằng văn bản trước của chúng tôi. Chúng tôi có thể chuyển nhượng quyền của mình mà không bị hạn chế.
+
+      ## 23. Liên hệ với Chúng tôi
+
+      Nếu bạn có câu hỏi về các Điều khoản này, vui lòng liên hệ với chúng tôi tại:
+
+      - **Email:** support@ingantt.com
+      - **Website:** https://ingantt.com
+      - **Tài liệu:** https://docs.ingantt.com
 
 privacy_policy:
     title_tag: Ingantt - Chính sách Quyền riêng tư
@@ -52,38 +298,131 @@ privacy_policy:
     meta_description: Chính sách Quyền riêng tư của Ingantt
     text_title: Chính sách Quyền riêng tư
     text: |
-      ## Thông tin Cá nhân là gì?
+      **Effective Date:** February 22, 2026
+      **Last Updated:** February 22, 2026
 
-      Thông tin Cá nhân là bất kỳ thông tin hoặc ý kiến nào có thể xác định một cá nhân. Ví dụ bao gồm tên, địa chỉ, địa chỉ email, số điện thoại và số fax.
+      Ingantt Development ("chúng tôi" hoặc "của chúng tôi") vận hành ứng dụng Ingantt ("Ứng dụng") và trang web tại https://ingantt.com ("Trang web"). Chính sách Quyền riêng tư này mô tả cách chúng tôi thu thập, sử dụng và chia sẻ thông tin khi bạn sử dụng Ứng dụng trên tất cả các nền tảng được hỗ trợ (iOS, Android, macOS, Windows và Web, bao gồm qua Google Workspace Marketplace).
 
-      ## Không có dữ liệu nào được thu thập
+      ## 1. Thông tin Chúng tôi Thu thập
 
-      Tất cả dữ liệu mà Ingantt nhận và xử lý từ người dùng đều được lưu trữ trong các tệp cục bộ trên chính thiết bị của người dùng hoặc trong tài khoản Google Drive của người dùng, nếu người dùng đã chọn tùy chọn này một cách rõ ràng và kích hoạt chức năng đó với Google.
+      ### 1.1 Thông tin Bạn Cung cấp
 
-      Trong không gian lưu trữ Google Drive của người dùng, Ingantt chỉ lưu những tệp mà người dùng tạo bằng Ingantt. Ingantt chỉ truy cập, sử dụng hoặc chia sẻ những tệp mà chính nó tạo trong Google Drive của người dùng.
+      - **Thông tin Tài khoản Google:** Nếu bạn đăng nhập bằng Google, chúng tôi nhận được địa chỉ email, tên hiển thị và URL ảnh hồ sơ từ Google. Trên các nền tảng gốc (iOS, Android, macOS, Windows), việc đăng nhập là tùy chọn và cho phép lưu trữ tệp trên Google Drive. Trên phiên bản Web, Google Sign-In là bắt buộc và được sử dụng để lưu trữ tệp trên Google Drive và quản lý đăng ký. Khi bạn sử dụng phiên bản Web lần đầu tiên, một bản ghi người dùng được tạo trên máy chủ của chúng tôi chứa địa chỉ email, tên, ngôn ngữ và ngày đăng ký của bạn.
 
-      Các tệp MPP được mở từ thiết bị của người dùng sẽ được gửi đến dịch vụ web chuyển đổi của Ingantt để chuyển đổi sang định dạng XML và trả về cho người dùng. Những tệp này không được lưu trữ trên máy chủ.
+      - **Thông tin Đăng ký và Thanh toán (chỉ Web):** Khi mua đăng ký qua Web, chúng tôi thu thập tên, địa chỉ email, địa chỉ gửi thư, số điện thoại và các chi tiết liên quan đến thanh toán của bạn. Thông tin này được truyền đến WayForPay, nhà xử lý thanh toán của chúng tôi, để xử lý giao dịch.
 
-      Do đó, nhà phát triển của Ingantt không thu thập bất kỳ dữ liệu nào.
+      - **Phản hồi:** Khi bạn gửi phản hồi qua Ứng dụng, chúng tôi thu thập nội dung tin nhắn của bạn. Bạn có thể tùy chọn đính kèm tệp dự án đang mở để giúp chúng tôi chẩn đoán vấn đề.
 
-      ## Dữ liệu được chia sẻ với bên thứ ba
+      - **Dữ liệu Đầu vào Tính năng AI:** Khi bạn sử dụng tính năng "Create with AI", lời nhắc văn bản bạn cung cấp được gửi đến máy chủ backend của chúng tôi để xử lý bởi Anthropic (Claude).
 
-      Để kích hoạt chức năng liên quan đến AI, lời nhắc (prompt) do người dùng nhập nhằm tạo tệp mới bằng AI sẽ được chia sẻ với các công cụ AI của bên thứ ba: OpenAI và/hoặc Gemini.
+      - **Tệp Dự án:** Các tệp dự án bạn tạo và chỉnh sửa vẫn thuộc quyền kiểm soát của bạn. Các tệp được lưu trữ cục bộ trên thiết bị của bạn hoặc trong tài khoản Google Drive của bạn (trong thư mục có tên "Ingantt Schedules"). Khi bạn mở tệp ở định dạng không phải gốc (như MPP, GAN, XER hoặc các định dạng tệp dự án được hỗ trợ khác), tệp được truyền đến máy chủ của chúng tôi để chuyển đổi định dạng. Các tệp chỉ được xử lý trong bộ nhớ và không được lưu trữ trên máy chủ của chúng tôi.
 
-      Không có dữ liệu nào khác được chia sẻ với bên thứ ba.
+      ### 1.2 Thông tin Được Thu thập Tự động
 
-      ## Sử dụng dữ liệu
+      - **Siêu dữ liệu Ứng dụng:** Mỗi yêu cầu đến backend của chúng tôi bao gồm phiên bản ứng dụng, tên nền tảng (iOS, Android, macOS, Windows hoặc Web), ngôn ngữ hệ thống và, nếu đã đăng nhập, địa chỉ email của bạn.
 
-      Không có dữ liệu người dùng nào được sử dụng để phát triển, cải thiện hoặc huấn luyện các mô hình AI và/hoặc ML tổng quát. Điều này cũng áp dụng cho dữ liệu người dùng lấy từ Google Workspace API.
+      - **Báo cáo Sự cố và Lỗi:** Chúng tôi sử dụng Sentry (được lưu trữ tại EU) để thu thập báo cáo sự cố và nhật ký lỗi trong môi trường sản xuất. Điều này bao gồm stack trace, thông báo lỗi, phiên bản ứng dụng và thông tin nền tảng. Chúng tôi không cố ý thu thập dữ liệu cá nhân thông qua báo cáo sự cố.
 
-      ## Bảo vệ dữ liệu
+      - **Phân tích Web (chỉ Web):** Phiên bản Web của Ứng dụng sử dụng Google Analytics 4 để thu thập phân tích sử dụng tiêu chuẩn, bao gồm lượt xem trang và dữ liệu phiên. Google Analytics có thể đặt cookie trên trình duyệt của bạn. Các phiên bản di động và máy tính để bàn gốc của Ứng dụng không bao gồm theo dõi phân tích.
 
-      Chúng tôi triển khai các biện pháp kỹ thuật và tổ chức phù hợp để bảo vệ dữ liệu của bạn khỏi truy cập trái phép, mất mát hoặc tiết lộ.
+      - **Tùy chọn Người dùng:** Ứng dụng lưu trữ các tùy chọn cục bộ của bạn (như giao diện, tùy chọn hiển thị, độ rộng cột và danh sách tệp gần đây) trên thiết bị của bạn bằng cơ chế lưu trữ nền tảng tiêu chuẩn. Các tùy chọn này không được truyền đến máy chủ của chúng tôi.
 
-      ## Cập nhật Chính sách
+      ### 1.3 Thông tin Chúng tôi Không Thu thập
 
-      Chính sách này có thể thay đổi theo thời gian và có sẵn trên trang web của chúng tôi.
+      - Chúng tôi không sử dụng dữ liệu của bạn để huấn luyện các mô hình trí tuệ nhân tạo hoặc học máy.
+      - Chúng tôi không phục vụ quảng cáo và không tích hợp bất kỳ SDK quảng cáo nào.
+      - Chúng tôi không thu thập dữ liệu vị trí, danh bạ, ảnh, đầu vào camera hoặc đầu vào micro.
+      - Chúng tôi không sử dụng mã định danh thiết bị cho mục đích theo dõi.
+      - Sao lưu đám mây Android được tắt rõ ràng cho Ứng dụng.
 
-      ## Khiếu nại và Thắc mắc về Chính sách Quyền riêng tư
+      ## 2. Cách Chúng tôi Sử dụng Thông tin của Bạn
 
-      Nếu bạn có bất kỳ thắc mắc hoặc khiếu nại nào liên quan đến Chính sách Quyền riêng tư của chúng tôi, vui lòng liên hệ với chúng tôi.
+      Chúng tôi sử dụng thông tin thu thập được cho các mục đích sau:
+
+      - **Cung cấp và vận hành Ứng dụng:** Xử lý yêu cầu của bạn, cho phép lưu trữ và đồng bộ tệp qua Google Drive, chuyển đổi định dạng tệp và cung cấp tạo dự án bằng AI.
+      - **Xử lý đăng ký (chỉ Web):** Xử lý thanh toán đăng ký Web, xác thực trạng thái đăng ký và quản lý tài khoản của bạn.
+      - **Gửi email giao dịch (chỉ Web):** Gửi cho bạn các thông báo liên quan đến tài khoản như tin nhắn chào mừng, nhắc nhở dùng thử, xác nhận đăng ký và thông báo hủy.
+      - **Cải thiện tính ổn định và hiệu suất:** Phân tích báo cáo sự cố, dữ liệu lỗi và dữ liệu đo lường phía máy chủ để xác định và sửa lỗi.
+      - **Hiểu mẫu sử dụng (chỉ Web):** Sử dụng dữ liệu phân tích tổng hợp để hiểu cách ứng dụng Web được sử dụng và cải thiện trải nghiệm người dùng.
+      - **Phản hồi yêu cầu hỗ trợ:** Sử dụng các phản hồi đã gửi để chẩn đoán vấn đề và cải thiện Ứng dụng.
+
+      ## 3. Cách Chúng tôi Chia sẻ Thông tin của Bạn
+
+      Chúng tôi không bán thông tin cá nhân của bạn. Chúng tôi chỉ chia sẻ thông tin trong các trường hợp sau:
+
+      - **Nhà cung cấp Dịch vụ:** Chúng tôi sử dụng các nhà cung cấp dịch vụ bên thứ ba sau để vận hành Ứng dụng:
+        - **Sentry** (Functional Software, Inc.) — báo cáo sự cố và lỗi phía máy khách, dữ liệu được xử lý tại EU
+        - **Microsoft Application Insights** (Microsoft Corporation) — dữ liệu đo lường và giám sát lỗi phía máy chủ
+        - **Google Analytics** (Google LLC) — phân tích sử dụng web (chỉ phiên bản Web)
+        - **Google APIs** (Google LLC) — xác thực và lưu trữ tệp Google Drive
+        - **WayForPay** — xử lý thanh toán đăng ký (chỉ phiên bản Web)
+        - **Resend** (Resend, Inc.) — gửi email giao dịch (chỉ phiên bản Web)
+        - **Anthropic (Claude)** — xử lý lời nhắc tạo dự án bằng AI
+        - **Microsoft Azure** — lưu trữ backend và lưu trữ dữ liệu (khu vực East US)
+
+      - **Yêu cầu Pháp lý:** Chúng tôi có thể tiết lộ thông tin nếu pháp luật yêu cầu hoặc để phản hồi quy trình pháp lý hợp lệ.
+
+      ## 4. Lưu trữ và Bảo mật Dữ liệu
+
+      - **Dữ liệu người dùng phía máy chủ (chỉ Web):** Địa chỉ email, tên, ngôn ngữ, ngày đăng ký và trạng thái đăng ký của bạn được lưu trữ trong Azure Table Storage trên máy chủ backend của chúng tôi.
+      - **OAuth token** (Google access, refresh và ID token) được lưu trữ trong bộ nhớ bảo mật nền tảng (iOS Keychain, Android Keystore, macOS Keychain hoặc tương đương nền tảng).
+      - **Trạng thái đăng ký (chỉ Web)** được lưu bộ nhớ đệm cục bộ trong bộ nhớ bảo mật để truy cập ngoại tuyến.
+      - **Yêu cầu API** đến backend của chúng tôi được ký bằng HMAC-MD5 để xác minh tính toàn vẹn.
+      - Ứng dụng hoạt động trong sandbox nền tảng khi có sẵn (macOS App Sandbox, iOS App Sandbox).
+      - Chúng tôi sử dụng HTTPS cho tất cả các giao tiếp mạng.
+
+      ## 4a. Lưu giữ Dữ liệu
+
+      - **Bản ghi người dùng phía máy chủ (chỉ Web):** Bản ghi người dùng và lịch sử đăng ký của bạn được lưu giữ miễn là tài khoản của bạn tồn tại. Để yêu cầu xóa dữ liệu của bạn, liên hệ chúng tôi tại support@ingantt.com.
+      - **Tệp dự án:** Các tệp được gửi để chuyển đổi định dạng được xử lý trong bộ nhớ và không được lưu giữ.
+      - **Lời nhắc AI:** Các lời nhắc văn bản được gửi để tạo dự án bằng AI không được lưu trữ trên máy chủ của chúng tôi.
+      - **Phản hồi:** Tin nhắn phản hồi được chuyển tiếp đến đội ngũ hỗ trợ của chúng tôi qua email và không được lưu trữ trong cơ sở dữ liệu.
+      - **Dữ liệu cục bộ:** Tùy chọn, OAuth token và trạng thái đăng ký lưu bộ nhớ đệm vẫn còn trên thiết bị của bạn cho đến khi bạn đăng xuất hoặc gỡ cài đặt Ứng dụng.
+
+      ## 5. Lựa chọn và Quyền của Bạn
+
+      - **Đăng nhập là tùy chọn trên các nền tảng gốc:** Trên iOS, Android, macOS và Windows, bạn có thể sử dụng Ứng dụng mà không cần đăng nhập Google. Đăng nhập cho phép lưu trữ tệp trên Google Drive. Trên phiên bản Web, Google Sign-In là bắt buộc cho chức năng ứng dụng, lưu trữ tệp và quản lý đăng ký.
+      - **Truy cập Google Drive:** Ứng dụng sử dụng phạm vi `drive.file` hạn chế, chỉ cho phép truy cập các tệp được tạo bởi Ứng dụng hoặc được bạn mở rõ ràng trong Ứng dụng — không phải toàn bộ Google Drive của bạn.
+      - **Tệp đính kèm phản hồi:** Việc đính kèm tệp dự án khi gửi phản hồi là tùy chọn và yêu cầu sự đồng ý rõ ràng của bạn.
+      - **Phân tích web:** Bạn có thể sử dụng công cụ chặn cookie hoặc công cụ từ chối dựa trên trình duyệt để hạn chế việc thu thập dữ liệu Google Analytics trên phiên bản Web.
+      - **Email giao dịch:** Trên phiên bản Web, bạn sẽ nhận các email liên quan đến tài khoản (chào mừng, nhắc nhở dùng thử, thông báo đăng ký). Đây là các thông tin liên lạc dịch vụ cần thiết để quản lý đăng ký của bạn.
+      - **Xóa dữ liệu:** Bạn có thể đăng xuất khỏi tài khoản Google trong Ứng dụng bất cứ lúc nào, điều này sẽ xóa OAuth token đã lưu trữ khỏi thiết bị. Để yêu cầu xóa bản ghi người dùng và bất kỳ dữ liệu liên quan nào trên máy chủ của chúng tôi, liên hệ chúng tôi tại support@ingantt.com.
+
+      ## 6. Quyền Riêng tư của Trẻ em
+
+      Ứng dụng không hướng đến trẻ em dưới 13 tuổi (hoặc độ tuổi áp dụng tại khu vực tài phán của bạn). Chúng tôi không cố ý thu thập thông tin cá nhân từ trẻ em. Nếu bạn tin rằng một trẻ em đã cung cấp cho chúng tôi thông tin cá nhân, vui lòng liên hệ với chúng tôi tại support@ingantt.com để chúng tôi có thể thực hiện hành động thích hợp.
+
+      ## 7. Chuyển giao Dữ liệu Quốc tế
+
+      Máy chủ backend của chúng tôi được lưu trữ trên Microsoft Azure tại khu vực East US. Báo cáo sự cố được xử lý bởi Sentry tại EU. Nếu bạn ở ngoài Hoa Kỳ, thông tin của bạn có thể được chuyển đến và xử lý tại Hoa Kỳ hoặc các khu vực tài phán khác nơi các nhà cung cấp dịch vụ của chúng tôi hoạt động.
+
+      ## 8. Thay đổi Chính sách Quyền riêng tư này
+
+      Chúng tôi có thể cập nhật Chính sách Quyền riêng tư này theo thời gian. Chúng tôi sẽ thông báo cho bạn về bất kỳ thay đổi quan trọng nào bằng cách cập nhật ngày "Last Updated" ở đầu chính sách này. Việc bạn tiếp tục sử dụng Ứng dụng sau bất kỳ thay đổi nào đồng nghĩa với việc bạn chấp nhận chính sách đã cập nhật.
+
+      ## 9. Thông tin Cụ thể theo Nền tảng
+
+      ### iOS và macOS (Apple)
+      - Ứng dụng là ứng dụng trả phí được phân phối qua Apple App Store. Các quy định quyền riêng tư của Apple áp dụng cho giao dịch mua hàng.
+      - Ứng dụng chỉ yêu cầu quyền truy cập tệp mà bạn cấp rõ ràng thông qua bộ chọn tệp hệ thống.
+
+      ### Android
+      - Ứng dụng là ứng dụng trả phí được phân phối qua Google Play. Các quy định quyền riêng tư của Google áp dụng cho giao dịch mua hàng.
+      - Ứng dụng yêu cầu quyền đọc/ghi bộ nhớ cho các thao tác tệp cục bộ và quyền internet cho truy cập mạng.
+
+      ### Windows
+      - Ứng dụng là ứng dụng trả phí được phân phối qua Microsoft Store. Các quy định quyền riêng tư của Microsoft áp dụng cho giao dịch mua hàng.
+
+      ### Web
+      - Phiên bản Web sử dụng mô hình đăng ký. Thanh toán đăng ký được xử lý thông qua WayForPay.
+      - Ứng dụng cũng có sẵn thông qua Google Workspace Marketplace.
+      - Cookie Google Analytics được đặt trên tên miền web.ingantt.com.
+      - Xác thực Google OAuth sử dụng mục nhập localStorage tạm thời cho callback đăng nhập, được xóa ngay sau khi sử dụng.
+
+      ## 10. Liên hệ với Chúng tôi
+
+      Nếu bạn có câu hỏi hoặc thắc mắc về Chính sách Quyền riêng tư này hoặc các hoạt động dữ liệu của chúng tôi, vui lòng liên hệ với chúng tôi tại:
+
+      **Ingantt Development**
+      Email: support@ingantt.com
+      Website: https://ingantt.com
