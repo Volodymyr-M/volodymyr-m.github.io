@@ -1,0 +1,68 @@
+title_tag: Visualizador Gantt — Abrir arquivos .MPP em qualquer dispositivo | Ingantt
+meta_keywords: visualizador gantt, mpp viewer, visualizador de gráfico de gantt, abrir arquivo mpp, visualizador gantt grátis, ver gráfico de gantt, ms project viewer, visualizador mpp, ler arquivo mpp, ver mpp, visualizador gantt online
+meta_description: Abra e visualize gráficos de Gantt e arquivos .MPP no Mac, iPhone, iPad, Windows, Android ou no navegador. Interativo — zoom, rolagem, impressão.
+
+hero:
+  title: Visualizador Gantt — Abra arquivos .MPP ou Gantt em qualquer dispositivo
+  subtitle: Solte um arquivo .MPP ou Microsoft Project XML no Ingantt e ele abre como um gráfico de Gantt interativo para dar zoom, rolar, filtrar e imprimir — no Mac, iPhone, iPad, Windows, Android ou direto no navegador sem instalar nada.
+  cta:
+    primary:
+      text: Teste grátis
+      text_fits: true
+    other_versions:
+      title: Outras versões
+  rating:
+    stars: 5
+    text: 5 estrelas em
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: O que um visualizador Gantt deveria fazer de verdade
+  items:
+    - icon: fas fa-file-import
+      title: Abre arquivos .MPP reais
+      description: Lê nativamente arquivos Microsoft Project .MPP e .XML — tarefas, subtarefas, dependências, marcos e recursos chegam intactos.
+    - icon: fas fa-magnifying-glass-plus
+      title: Interativo, não uma imagem
+      description: Dê zoom na linha do tempo, role pelas fases, expanda grupos, passe o cursor sobre tarefas. Um Gantt real, não uma captura.
+    - icon: fas fa-laptop-mobile
+      title: Em qualquer dispositivo
+      description: Aplicativos nativos para Mac, iOS, iPad, Windows e Android, além da versão navegador — abra o mesmo arquivo onde estiver.
+    - icon: fas fa-eye
+      title: Sem conhecimento de gestão de projetos
+      description: Se você só precisa ver o que um Gantt diz — uma data, uma dependência, quem faz o quê — dá para fazer sem aprender nada novo.
+
+faq:
+  title: Visualizador Gantt — Perguntas frequentes
+  items:
+    - question: O que é um visualizador Gantt?
+      answer: Um visualizador Gantt é uma ferramenta que abre um arquivo de gráfico de Gantt — geralmente um Microsoft Project .MPP ou .XML — e exibe o projeto como uma linha do tempo interativa. Um visualizador real permite rolar o cronograma, dar zoom, expandir ou recolher fases e passar o cursor sobre as tarefas para ver dependências, datas de início e fim, e recursos. O Ingantt é um visualizador Gantt que roda em Mac, iOS, iPad, Windows, Android e no navegador, permitindo abrir o mesmo arquivo em qualquer dispositivo.
+    - question: Como visualizo um gráfico de Gantt sem o Microsoft Project?
+      answer: Abra o arquivo no Ingantt. Ele importa diretamente o formato .MPP nativo do Microsoft Project e MS Project XML, então um arquivo recebido de um colega que usa MS Project abre como um Gantt completamente interativo — sem licença MS Project ou instalação Windows. Use a versão navegador para um uso pontual ou instale o teste grátis do app Mac, iOS, Windows ou Android. Tarefas, dependências e o caminho crítico chegam intactos.
+    - question: Posso visualizar um arquivo .MPP no Mac?
+      answer: Sim. O Ingantt tem um app macOS nativo que abre arquivos .MPP e MS Project XML direto em qualquer Mac recente. Você não precisa de máquina virtual, Parallels ou instalação Windows. Baixe o Ingantt da Mac App Store, abra o arquivo .MPP e verá o Gantt completo com fases, tarefas, dependências e caminho crítico. Se não quiser instalar nada, a versão navegador funciona igual no Safari, Chrome ou Firefox.
+    - question: Posso visualizar um Gantt no iPhone ou iPad?
+      answer: Sim. O Ingantt tem apps iOS nativos para iPhone e iPad que abrem arquivos .MPP e MS Project XML igual à versão Mac. No iPad você recebe uma linha do tempo Gantt em largura total com zoom por pinça e rolagem por toque; no iPhone o layout se adapta para que tarefas e marcos continuem legíveis. É a forma mais rápida de olhar um Gantt que um colega acabou de enviar quando você está longe da mesa.
+    - question: Existe um visualizador Gantt gratuito?
+      answer: O Ingantt oferece um teste grátis de 7 dias sem cartão de crédito. O teste inclui a visualização e edição completas de arquivos .MPP e MS Project XML em todas as plataformas — nada fica bloqueado atrás de uma "edição visualizador" vs "edição editor". Após o teste, os planos pagos começam em R$29,99/usuário/mês. A maioria das necessidades pontuais de visualização cabe dentro do teste grátis.
+    - question: Posso ver um Gantt no navegador sem instalar nada?
+      answer: Sim. O Ingantt tem uma versão navegador que abre arquivos Gantt em Chrome, Safari, Firefox ou Edge no Mac, Windows, Linux, Chromebook ou celular. Entre com uma conta Google, abra um arquivo .MPP do Google Drive ou faça upload, e o Gantt carrega no navegador com zoom, rolagem e detalhes ao passar o cursor. Nada é instalado, nada é baixado.
+    - question: Preciso saber gestão de projetos?
+      answer: Não. O Ingantt foi desenhado para que um não especialista — um gestor verificando uma data de entrega, um cliente checando um marco, um membro novo de equipe se orientando — possa abrir um Gantt e lê-lo sem aprender nada. Role a linha do tempo para ver quando as coisas acontecem, passe o cursor sobre uma tarefa para ver quem está nela, expanda uma fase para ver seu conteúdo. Sem jargão, sem configuração.
+    - question: Posso imprimir ou compartilhar o Gantt que estou vendo?
+      answer: Sim. O Ingantt exporta o Gantt para PDF ou PNG para imprimir, anexar a um e-mail ou colar numa apresentação. A exportação PDF preserva o layout da linha do tempo em qualquer nível de zoom, útil para entregar uma versão somente leitura a um interessado. Se você precisa reabrir o mesmo .MPP em outro lugar depois, veja nosso guia de <a href="/open-mpp-file">abrir arquivos .MPP sem Microsoft Project</a>.
+  support:
+    title: Comece a ver seus Gantt com o Ingantt
+    docs:
+      text: Ir para a documentação
+    contact:
+      title: Mais perguntas?<br>Fale conosco por e-mail.
+      text: Envie um e-mail
+      icon: fa fa-envelope
+
+cta:
+  title: Abra seu Gantt em segundos
+  subtitle: Solte um arquivo .MPP ou XML no Ingantt e visualize em qualquer dispositivo — teste grátis, sem cartão.
+  button:
+    text: Abrir Gantt

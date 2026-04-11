@@ -1,0 +1,60 @@
+title_tag: 甘特图查看器 — 在任何设备上打开 .MPP 文件 | Ingantt
+meta_keywords: 甘特图查看器, mpp viewer, 甘特图查看, 打开 mpp 文件, 甘特查看器免费, 查看甘特图, ms project viewer, mpp 查看, 读取 mpp 文件, 在线甘特图查看器
+meta_description: 在 Mac、iPhone、iPad、Windows、Android 或浏览器中打开和查看甘特图和 .MPP 文件。完全交互式 — 缩放、滚动、打印。免费试用。
+
+hero:
+  title: 甘特图查看器 — 在任何设备上打开 .MPP 或甘特图文件
+  subtitle: 将 .MPP 或 Microsoft Project XML 文件拖放到 Ingantt 中，它将作为交互式甘特图打开，您可以缩放、滚动、筛选和打印 — 在 Mac、iPhone、iPad、Windows、Android 上，或直接在浏览器中无需安装任何软件。
+  cta:
+    primary:
+      text: 免费试用
+      text_fits: true
+    other_versions:
+      title: 其他版本
+  rating:
+    stars: 5
+    text: 5 星评价
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: 真正的甘特图查看器应该做什么
+  items:
+    - icon: fas fa-file-import
+      title: 打开真正的 .MPP 文件
+      description: 原生解析 Microsoft Project .MPP 和 .XML 文件 — 任务、子任务、依赖关系、里程碑和资源完整保留。
+    - icon: fas fa-magnifying-glass-plus
+      title: 交互式，不是图像
+      description: 缩放时间线，滚动查看阶段，展开或折叠分组，悬停查看任务详情。真正的甘特图，不是截图。
+    - icon: fas fa-laptop-mobile
+      title: 任何设备
+      description: Mac、iOS、iPad、Windows 和 Android 原生应用，加上浏览器版本 — 在任何地方打开同一文件。
+    - icon: fas fa-eye
+      title: 无需项目管理知识
+      description: 如果您只需查看甘特图显示的内容 — 交付日期、依赖关系、谁在做什么 — 无需学习任何新工具。
+
+faq:
+  title: 甘特图查看器 — 常见问题
+  items:
+    - question: 什么是甘特图查看器？
+      answer: 甘特图查看器是一种打开甘特图文件（通常是 Microsoft Project .MPP 或 .XML 文件）并将项目显示为交互式时间线的工具。真正的查看器允许您滚动时间表、缩放、展开或折叠阶段，以及悬停在任务上以查看依赖关系、开始和结束日期以及资源。Ingantt 是一款在 Mac、iOS、iPad、Windows、Android 和浏览器上运行的甘特图查看器。
+    - question: 如何在没有 Microsoft Project 的情况下查看甘特图？
+      answer: 在 Ingantt 中打开文件。它直接导入 Microsoft Project 的原生 .MPP 格式和 MS Project XML，因此来自使用 MS Project 的同事的文件可以作为完全交互式的甘特图打开 — 无需 MS Project 许可证或 Windows 安装。使用浏览器版本或安装 Mac、iOS、Windows 或 Android 应用的免费试用。任务、依赖关系和关键路径完整保留。
+    - question: 有免费的甘特图查看器吗？
+      answer: Ingantt 提供 7 天免费试用，无需信用卡。试用包括所有平台上 .MPP 和 MS Project XML 文件的完整查看和编辑 — 没有"查看器版"与"编辑器版"的区分。试用结束后，付费计划每用户每月起 $5.99。大多数一次性查看需求都能在免费试用范围内完成。
+    - question: 我可以打印或分享正在查看的甘特图吗？
+      answer: 可以。Ingantt 将甘特图导出为 PDF 或 PNG，以便打印、附加到电子邮件或粘贴到幻灯片中。PDF 导出在任何缩放级别都保留时间线布局。如果您稍后需要在其他地方打开同一 .MPP 文件，请参阅我们的<a href="/open-mpp-file">在没有 Microsoft Project 的情况下打开 .MPP 文件</a>指南。
+  support:
+    title: 使用 Ingantt 开始查看您的甘特图
+    docs:
+      text: 前往文档
+    contact:
+      title: 更多问题？<br>请通过电子邮件联系我们。
+      text: 发送邮件
+      icon: fa fa-envelope
+
+cta:
+  title: 几秒钟内打开您的甘特图
+  subtitle: 将 .MPP 或 XML 文件拖放到 Ingantt 中，在任何设备上查看 — 免费试用，无需信用卡。
+  button:
+    text: 打开甘特图

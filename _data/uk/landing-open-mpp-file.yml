@@ -1,0 +1,60 @@
+title_tag: Відкрити .MPP файл — без Microsoft Project | Ingantt
+meta_keywords: відкрити mpp файл, mpp без microsoft project, mpp файл mac, mpp онлайн, переглядач mpp, mpp безкоштовно, mpp файл iphone, mpp файл android, читати mpp файл
+meta_description: Відкривайте .MPP файл на Mac, iPhone, iPad, Windows, Android або в браузері — без Microsoft Project. Усі завдання, залежності та ресурси збережено.
+
+hero:
+  title: Відкрити .MPP файл без Microsoft Project — на будь-якому пристрої
+  subtitle: Вам більше не потрібен Microsoft Project, щоб відкрити .MPP файл. Ingantt читає рідний бінарний формат .MPP на Mac, iPhone, iPad, Windows, Android та в браузері й приносить кожне завдання, підзавдання, залежність, ресурс, етап і критичний шлях — приблизно за 30 секунд.
+  cta:
+    primary:
+      text: Спробувати безкоштовно
+      text_fits: true
+    other_versions:
+      title: Інші версії
+  rating:
+    stars: 5
+    text: 5 зірок на
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Чому Ingantt відкриває .MPP файли, які не відкриваються іншими інструментами
+  items:
+    - icon: fas fa-file-code
+      title: Читає справжній бінарний .MPP
+      description: Напряму розбирає рідний формат .MPP від Microsoft Project — не короткий список завдань, не скриншот. Проект приходить повністю.
+    - icon: fas fa-laptop-mobile
+      title: Працює там, де MS Project не працює
+      description: Нативні додатки на Mac, iPhone, iPad та Android, плюс версія для браузера — на всіх платформах, де Microsoft Project не запускається.
+    - icon: fas fa-diagram-project
+      title: Нічого не втрачається
+      description: Завдання, підзавдання, залежності finish-to-start, ресурси, етапи та критичний шлях імпортуються з оригінальною структурою.
+    - icon: fas fa-right-left
+      title: Зберігайте знову як .MPP
+      description: Після відкриття збережіть файл як .MPP або MS Project XML, щоб ваш колега, який досі користується Microsoft Project, міг відкрити його звично.
+
+faq:
+  title: Відкриття .MPP файлів — запитання, коли ви застрягли
+  items:
+    - question: Як відкрити .MPP файл?
+      answer: Найшвидший шлях — відкрити файл в Ingantt. .MPP файл — це рідний бінарний формат Microsoft Project, і за замовчуванням лише Microsoft Project відкриває його чисто, але MS Project працює лише на Windows, коштує кількасот доларів і це навряд те, що ви хочете купувати заради одного файлу. Ingantt імпортує .MPP напряму, працює на Mac, iPhone, iPad, Windows, Android та в браузері, і пропонує 7-денну безкоштовну пробну версію без кредитної картки.
+    - question: Як відкрити .MPP файл на Mac?
+      answer: Microsoft Project не працює на macOS — версії для Mac не існує. Тож відповідь не "встановіть Project на Mac", а "користуйтеся чимось, що нативно читає .MPP на Mac". У Ingantt є нативний додаток macOS у Mac App Store, який відкриває .MPP файли напряму на Apple Silicon та Intel Mac. Завантажте, відкрийте .MPP — і ви побачите повну діаграму Ганта із завданнями, залежностями та критичним шляхом.
+    - question: Чи можу я відкрити .MPP файл на iPhone або iPad?
+      answer: Так. Ingantt має нативні iOS-додатки для iPhone та iPad в App Store, які відкривають .MPP та MS Project XML файли напряму. На iPad ви отримаєте широку часову шкалу з масштабуванням жестами та сенсорною прокруткою — найближче до досвіду десктопного Microsoft Project на iOS-пристрої.
+    - question: Чи можу я зберегти .MPP файл після відкриття?
+      answer: Так. Ingantt зберігає проекти у рідному форматі .MPP від Microsoft Project, а також .XML, PDF і PNG. Ви можете відкрити .MPP на Mac, iPhone або в браузері, внести зміни, зберегти як .MPP і передати файл колезі, який досі користується Microsoft Project — він відкриє його як завжди. Якщо ви лише хочете подивитися на діаграму без редагування, наша сторінка <a href="/gantt-viewer">Переглядача Ганта</a> охоплює випадок лише для перегляду.
+  support:
+    title: Відкрийте свій .MPP файл з Ingantt
+    docs:
+      text: До документації
+    contact:
+      title: Маєте ще запитання?<br>Напишіть нам електронного листа.
+      text: Написати нам
+      icon: fa fa-envelope
+
+cta:
+  title: Відкрийте .MPP файл приблизно за 30 секунд
+  subtitle: Без Microsoft Project, без сервісів конвертації, без PDF на пошту — просто повний проект на вашому пристрої.
+  button:
+    text: Відкрити .MPP

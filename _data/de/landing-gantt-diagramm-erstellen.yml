@@ -1,0 +1,73 @@
+title_tag: Gantt-Diagramm online erstellen — kostenlos testen | Ingantt
+meta_keywords: gantt diagramm online erstellen, gantt diagramm erstellen online, gantt diagramm online tool, gantt diagramm erstellen, gantt diagramm app, gantt diagramm im browser, gantt diagramm erstellen kostenlos, online gantt tool, gantt chart online, gantt diagramm software, gantt diagramm ki, ms project alternative
+meta_description: Gantt-Diagramm online erstellen — im Browser, ohne Installation. Mit KI in 30 Sekunden. Aufgaben, Abhängigkeiten, kritischer Pfad. Kostenlos testen.
+
+page_url: web_page
+platform_url: web_url
+store_image: google_workspace_marketplace.png
+platform_image: web.png
+
+hero:
+  title: Gantt-Diagramm online erstellen — im Browser, ohne Installation
+  subtitle: Öffnen Sie Ingantt im Browser, beschreiben Sie Ihr Projekt in einem Satz, und die KI erstellt ein vollständiges Gantt-Diagramm mit Aufgaben, Abhängigkeiten und kritischem Pfad in etwa 30 Sekunden. Keine Installation, keine MS-Project-Lizenz, 7 Tage kostenlos testen ohne Kreditkarte.
+  cta:
+    primary:
+      text: Kostenlos testen
+      text_fits: true
+    other_versions:
+      title: Andere Versionen
+  rating:
+    stars: 5
+    text: 5 Sterne auf
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Was ein echtes Online-Gantt-Tool können muss
+  items:
+    - icon: fas fa-globe
+      title: Direkt im Browser
+      description: Läuft in Chrome, Safari, Firefox und Edge auf Mac, Windows, Linux oder Chromebook. Keine Installation, kein Download, kein Admin-Rechte-Problem.
+    - icon: fas fa-wand-magic-sparkles
+      title: Per KI aus einem Prompt
+      description: Beschreiben Sie Ihr Projekt in einfacher Sprache, und die KI baut den Plan mit Aufgaben, Phasen und Dauern in etwa 30 Sekunden.
+    - icon: fas fa-file-import
+      title: .MPP-Dateien öffnen
+      description: Öffnet vorhandene Microsoft-Project-.MPP- und -.XML-Dateien direkt im Browser — ohne MS-Project-Lizenz oder Windows-Installation.
+    - icon: fas fa-diagram-project
+      title: Abhängigkeiten & kritischer Pfad
+      description: Echte Finish-to-Start-Abhängigkeiten, Meilensteine und automatisch berechneter kritischer Pfad — nicht nur eine Aufgabenliste.
+
+faq:
+  title: Gantt-Diagramm online erstellen — häufige Fragen
+  items:
+    - question: Wie erstelle ich ein Gantt-Diagramm online?
+      answer: Öffnen Sie Ingantt im Browser, melden Sie sich mit einem Google-Konto an und starten Sie ein neues Projekt. Dann haben Sie zwei Wege. Entweder beschreiben Sie Ihr Projekt in einem Satz, und die KI erstellt den Plan mit Aufgaben, Dauern und Abhängigkeiten in etwa 30 Sekunden, oder Sie bauen den Gantt manuell auf, indem Sie Aufgaben anlegen, Dauern setzen und Abhängigkeiten zwischen Aufgaben ziehen. Beide Wege erzeugen einen vollständigen, bearbeitbaren Gantt mit kritischem Pfad — keine Vorlage, kein statisches Bild.
+    - question: Kann ich ein Gantt-Diagramm kostenlos erstellen?
+      answer: Ingantt bietet eine 7-tägige kostenlose Testversion ohne Kreditkarte. In der Testphase haben Sie vollen Zugriff auf alle Funktionen, einschließlich KI-Projektgenerierung, .MPP-Import, Abhängigkeiten, kritischem Pfad und Google-Drive-Integration. Nach der Testversion kosten die kostenpflichtigen Pläne ab 5,99 € pro Nutzer und Monat. Für einmalige Projekte reicht die Testversion in der Regel vollständig aus, und Ihre Projektdateien bleiben in Ihrem eigenen Google Drive gespeichert — ohne Anbieter-Lock-in.
+    - question: Welches ist das beste Online-Tool für Gantt-Diagramme?
+      answer: Das hängt davon ab, was Sie brauchen. Wenn Sie ein echtes Projektmanagement-Tool mit Abhängigkeiten, Ressourcen, kritischem Pfad und .MPP-Kompatibilität im Browser suchen — ohne MS Project zu installieren — ist Ingantt die direkte Wahl. Drei Dinge unterscheiden Ingantt von den meisten Online-Gantt-Tools — es öffnet Microsoft-Project-.MPP-Dateien nativ, es generiert komplette Pläne per KI aus einem Text-Prompt, und dieselbe Datei lässt sich in den nativen Apps für Mac, iPhone, iPad, Windows und Android öffnen.
+    - question: Brauche ich Microsoft Project, um ein Gantt-Diagramm zu erstellen?
+      answer: Nein. Microsoft Project ist nur eine von vielen Möglichkeiten, einen Gantt zu erstellen — und eine relativ teure, an Windows gebundene. Ingantt erstellt Gantt-Diagramme direkt im Browser, auf jedem Betriebssystem, und öffnet zusätzlich bestehende .MPP-Dateien, falls Sie oder ein Kollege MS Project bereits verwenden. Wenn Sie konkret eine .MPP-Datei öffnen müssen, sehen Sie sich <a href="/de/open-mpp-file.html">unsere Anleitung zum Öffnen von .MPP-Dateien ohne Microsoft Project</a> an.
+    - question: Kann ich ein Gantt-Diagramm mit KI erstellen?
+      answer: Ja. Ingantts KI nimmt eine kurze Projektbeschreibung in natürlicher Sprache und baut daraus einen vollständigen Gantt-Plan mit Phasen, Aufgaben, realistischen Dauern, Finish-to-Start-Abhängigkeiten und Meilensteinen — in etwa 30 Sekunden. Das Ergebnis ist ein echter, bearbeitbarer Gantt, kein statisches Bild. Mehr Details zur KI-Generierung finden Sie auf unserer <a href="/de/ai-gantt-chart.html">Seite zum KI-Gantt-Diagramm-Generator</a>.
+    - question: Welche Funktionen muss ein professionelles Gantt-Tool haben?
+      answer: Ein professionelles Gantt-Tool sollte mindestens vier Dinge können — Aufgaben mit Start, Ende und Dauer verwalten, echte Abhängigkeiten zwischen Aufgaben (mindestens Finish-to-Start) zeichnen, den kritischen Pfad automatisch berechnen und Ressourcen zuweisen. Viele kostenlose Online-Tools stellen einen Gantt nur optisch dar, ohne diese Planungslogik. Ingantt bietet alle vier — plus .MPP-Import/-Export, KI-Generierung und eine native App für jede große Plattform.
+    - question: Kann ich eine .MPP-Datei in Ingantt öffnen?
+      answer: Ja. Ingantt importiert Microsoft-Project-.MPP- und -.XML-Dateien direkt, sowohl im Browser als auch in den nativen Apps für Mac, iPhone, iPad, Windows und Android. Aufgaben, Teilaufgaben, Finish-to-Start-Abhängigkeiten, Ressourcenzuweisungen, Meilensteine und der kritische Pfad werden alle ohne Datenverlust übernommen. Sie können die Datei anschließend bearbeiten und wieder als .MPP speichern. Details dazu finden Sie auf der Seite <a href="/de/open-mpp-file.html">.MPP-Datei öffnen ohne Microsoft Project</a>.
+    - question: Kann ich mein Gantt-Diagramm teilen oder drucken?
+      answer: Ja. Ingantt exportiert Gantt-Diagramme nach PDF und PNG zum Drucken, für E-Mail-Anhänge oder für Folien. Projektdateien selbst werden als .MPP oder MS-Project-XML gespeichert, sodass Sie sie an Kolleg:innen weitergeben können, die noch Microsoft Project nutzen. Wenn Sie im Google-Drive-Workflow arbeiten, können Sie Projekte über Google-Drive-Berechtigungen freigeben und gemeinsam bearbeiten — genauso, wie Sie es bei Google-Docs-Dateien kennen.
+  support:
+    title: Starten Sie mit der Projektplanung in Ingantt
+    docs:
+      text: Zur Dokumentation
+    contact:
+      title: Haben Sie weitere Fragen?<br>Kontaktieren Sie eine echte Person für Unterstützung!
+      text: Kontakt
+      icon: fa fa-envelope
+
+cta:
+  title: Erstellen Sie Ihr erstes Gantt-Diagramm direkt im Browser
+  subtitle: Keine Installation, keine Kreditkarte — 7 Tage kostenlos mit allen Funktionen testen.
+  button:
+    text: Jetzt kostenlos starten

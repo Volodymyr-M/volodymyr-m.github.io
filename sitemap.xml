@@ -29,4 +29,9 @@ layout: compress
     {% endfor %}
 
 {% endfor %}
+
+{% comment %}<!-- Lang-exclusive pages: manual entries for pages that only exist in one language (skipped by the loop above because site.pages during the default-language pass filters them out via polyglot's lang-exclusive frontmatter) -->{% endcomment %}
+<url>
+    <loc>{{ site.url }}/de/gantt-diagramm-erstellen.html</loc>
+</url>
 </urlset>

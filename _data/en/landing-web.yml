@@ -102,15 +102,18 @@ features_grid:
     - icon: fas fa-robot
       title: AI-Powered Planning
       description: Generate complete project plans from simple descriptions using our AI assistant.
+      url: /ai-gantt-chart.html
     - icon: fas fa-cloud
       title: Native Google Integration
       description: Works seamlessly with Google Drive, making collaboration natural and effortless.
     - icon: fas fa-file-import
       title: MS Project Compatible
       description: Import .MPP files and save to MS Project compatible XML - no compromises.
+      url: /open-mpp-file.html
     - icon: fas fa-mobile-alt
       title: Works Everywhere
       description: Full functionality on desktop, tablet, and mobile in your favorite browser.
+      url: /gantt-viewer.html
 
 demo:
   title: See Ingantt in Action

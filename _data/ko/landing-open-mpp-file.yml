@@ -1,0 +1,60 @@
+title_tag: .MPP 파일 열기 — Microsoft Project 불필요 | Ingantt
+meta_keywords: mpp 파일 열기, microsoft project 없이 mpp, mpp 파일 mac, mpp 파일 온라인, mpp 뷰어, mpp 무료, mpp 파일 iphone, mpp 파일 android, mpp 파일 읽기
+meta_description: Mac, iPhone, iPad, Windows, Android 또는 브라우저에서 .MPP 파일을 열어보세요 — Microsoft Project 불필요. 모든 작업, 종속성, 리소스 보존.
+
+hero:
+  title: Microsoft Project 없이 .MPP 파일 열기 — 모든 기기에서
+  subtitle: 이제 .MPP 파일을 열기 위해 Microsoft Project가 필요하지 않습니다. Ingantt는 Mac, iPhone, iPad, Windows, Android, 브라우저에서 네이티브 .MPP 바이너리 형식을 읽고 약 30초 안에 모든 작업, 하위 작업, 종속성, 리소스, 마일스톤, 크리티컬 패스를 가져옵니다.
+  cta:
+    primary:
+      text: 무료 체험
+      text_fits: true
+    other_versions:
+      title: 다른 버전
+  rating:
+    stars: 5
+    text: 별 5개 평가
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Ingantt가 다른 도구로 열 수 없는 .MPP 파일을 여는 이유
+  items:
+    - icon: fas fa-file-code
+      title: 실제 .MPP 바이너리 읽기
+      description: Microsoft Project의 네이티브 .MPP 형식을 직접 파싱 — 작업 목록 요약도, 스크린샷도 아닙니다. 전체 프로젝트가 들어옵니다.
+    - icon: fas fa-laptop-mobile
+      title: MS Project가 실행되지 않는 곳에서 실행
+      description: Mac, iPhone, iPad, Android용 네이티브 앱과 브라우저 버전 — Microsoft Project가 실행되지 않는 모든 플랫폼에서.
+    - icon: fas fa-diagram-project
+      title: 아무것도 손실되지 않음
+      description: 작업, 하위 작업, finish-to-start 종속성, 리소스, 마일스톤, 크리티컬 패스가 원본 구조로 가져와집니다.
+    - icon: fas fa-right-left
+      title: .MPP로 다시 저장
+      description: 열기 후, 파일을 .MPP 또는 MS Project XML로 저장하여 여전히 Microsoft Project를 사용하는 동료가 평소처럼 열 수 있습니다.
+
+faq:
+  title: .MPP 파일 열기 — 막혔을 때의 질문
+  items:
+    - question: .MPP 파일을 어떻게 여나요?
+      answer: 가장 빠른 방법은 Ingantt에서 파일을 여는 것입니다. .MPP 파일은 Microsoft Project의 네이티브 바이너리 형식이며 기본적으로 Microsoft Project만이 이를 깔끔하게 열 수 있지만, MS Project는 Windows에서만 실행되고 수백 달러가 들며 단일 파일을 위해 구매하기에는 부적합합니다. Ingantt는 .MPP를 직접 가져오며 Mac, iPhone, iPad, Windows, Android, 브라우저에서 작동하고 신용카드 없이 7일 무료 체험을 제공합니다.
+    - question: Mac에서 .MPP 파일을 어떻게 여나요?
+      answer: Microsoft Project는 macOS에서 실행되지 않습니다. 따라서 답은 "Mac에 Project 설치"가 아니라 "Mac에서 네이티브로 .MPP를 읽는 도구를 사용"입니다. Ingantt는 Mac App Store에 네이티브 macOS 앱을 제공하며 Apple Silicon 및 Intel Mac에서 .MPP 파일을 직접 엽니다. 다운로드 후 .MPP를 열면 작업, 종속성, 크리티컬 패스가 포함된 전체 간트 차트가 표시됩니다.
+    - question: iPhone이나 iPad에서 .MPP 파일을 열 수 있나요?
+      answer: 예. Ingantt는 App Store에 iPhone 및 iPad용 네이티브 iOS 앱을 제공하며 .MPP 및 MS Project XML 파일을 직접 엽니다. iPad에서는 핀치 줌과 터치 스크롤이 있는 넓은 타임라인을 얻을 수 있으며, 이는 iOS 기기에서 Microsoft Project 데스크톱 경험에 가장 가까운 것입니다.
+    - question: .MPP 파일을 연 후 다시 저장할 수 있나요?
+      answer: 예. Ingantt는 프로젝트를 Microsoft Project의 네이티브 .MPP 형식으로 다시 저장하며 .XML, PDF, PNG도 지원합니다. Mac, iPhone 또는 브라우저에서 .MPP를 열고 편집한 후 .MPP로 저장하여 여전히 Microsoft Project를 사용하는 동료에게 전달할 수 있습니다. 차트를 보기만 하고 편집하거나 다시 저장할 계획이 없다면 <a href="/gantt-viewer">간트 뷰어</a> 페이지를 참조하세요.
+  support:
+    title: Ingantt로 .MPP 파일 열기
+    docs:
+      text: 문서로 이동
+    contact:
+      title: 추가 질문이 있으신가요?<br>이메일로 문의해 주세요.
+      text: 이메일 보내기
+      icon: fa fa-envelope
+
+cta:
+  title: 약 30초 안에 .MPP 파일 열기
+  subtitle: Microsoft Project 없이, 변환 서비스 없이, 이메일 PDF 없이 — 기기에서 바로 전체 프로젝트를 확인하세요.
+  button:
+    text: .MPP 열기

@@ -1,0 +1,68 @@
+title_tag: Abrir arquivo .MPP — sem Microsoft Project | Ingantt
+meta_keywords: abrir arquivo mpp, abrir mpp sem microsoft project, arquivo mpp mac, abrir mpp online, visualizador mpp, abrir mpp grátis, arquivo mpp iphone, arquivo mpp android, ler arquivo mpp, ms project arquivo, como abrir mpp
+meta_description: Abra um arquivo .MPP no Mac, iPhone, iPad, Windows, Android ou no navegador — sem Microsoft Project. Todas as tarefas, dependências e recursos preservados.
+
+hero:
+  title: Abrir um arquivo .MPP sem Microsoft Project — em qualquer dispositivo
+  subtitle: Você não precisa mais do Microsoft Project para abrir um arquivo .MPP. O Ingantt lê o formato binário nativo .MPP no Mac, iPhone, iPad, Windows, Android e no navegador, e traz cada tarefa, subtarefa, dependência, recurso, marco e o caminho crítico — em cerca de 30 segundos.
+  cta:
+    primary:
+      text: Teste grátis
+      text_fits: true
+    other_versions:
+      title: Outras versões
+  rating:
+    stars: 5
+    text: 5 estrelas em
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Por que o Ingantt abre arquivos .MPP que outras ferramentas não abrem
+  items:
+    - icon: fas fa-file-code
+      title: Lê o binário .MPP real
+      description: Analisa diretamente o formato nativo .MPP do Microsoft Project — não um resumo de tarefas, não uma captura. O projeto completo chega.
+    - icon: fas fa-laptop-mobile
+      title: Roda onde o MS Project não roda
+      description: Apps nativos no Mac, iPhone, iPad e Android, mais uma versão navegador — em todas as plataformas onde o Microsoft Project não executa.
+    - icon: fas fa-diagram-project
+      title: Nada se perde
+      description: Tarefas, subtarefas, dependências finish-to-start, recursos, marcos e o caminho crítico são importados com a estrutura original.
+    - icon: fas fa-right-left
+      title: Salva de volta como .MPP
+      description: Depois de abrir, salve o arquivo como .MPP ou MS Project XML para que um colega com Microsoft Project consiga abri-lo normalmente.
+
+faq:
+  title: Abrir arquivos .MPP — perguntas de quem está preso
+  items:
+    - question: Como abro um arquivo .MPP?
+      answer: O caminho mais rápido é abrir o arquivo no Ingantt. Um arquivo .MPP é o formato binário nativo do Microsoft Project, e por padrão só o Microsoft Project o abre limpo — mas o MS Project só roda no Windows, custa várias centenas de reais e provavelmente não é o que você quer comprar por um único arquivo. O Ingantt importa .MPP direto, funciona no Mac, iPhone, iPad, Windows, Android e no navegador, com um teste grátis de 7 dias sem cartão de crédito. Abra o app, solte o .MPP, e o projeto completo aparece em cerca de 30 segundos.
+    - question: Como abro um arquivo .MPP sem Microsoft Project?
+      answer: Use o Ingantt. Ele lê o formato binário .MPP direto — sem licença Microsoft Project, sem máquina virtual Windows, sem serviço de conversão que manda um PDF por e-mail. O Ingantt importa cada tarefa, subtarefa, dependência, atribuição de recurso, marco e o caminho crítico, e renderiza o projeto como um gráfico de Gantt completo. O teste grátis de 7 dias cobre a maioria das situações pontuais, sem cartão.
+    - question: Como abro um arquivo .MPP no Mac?
+      answer: O Microsoft Project não roda no macOS — não existe versão Mac. Então a resposta não é "instale o Project no Mac", é "use algo que leia .MPP nativamente no Mac". O Ingantt tem um app macOS nativo na Mac App Store que abre arquivos .MPP direto em Macs Apple Silicon e Intel. Baixe-o, abra o .MPP e veja o Gantt completo com tarefas, dependências e caminho crítico. Se não quiser instalar nada, a versão navegador funciona igual no Safari, Chrome ou Firefox.
+    - question: Posso abrir um arquivo .MPP no iPhone ou iPad?
+      answer: Sim. O Ingantt tem apps iOS nativos para iPhone e iPad na App Store que abrem arquivos .MPP e MS Project XML direto. No iPad você recebe uma linha do tempo larga com zoom por pinça e rolagem por toque — o mais próximo da experiência de Microsoft Project desktop num dispositivo iOS. No iPhone o layout se adapta ao tamanho da tela para que tarefas, datas e marcos continuem legíveis. Normalmente é a forma mais rápida de abrir um .MPP que um colega acabou de enviar.
+    - question: Posso abrir um arquivo .MPP online no navegador?
+      answer: Sim. O Ingantt tem uma versão navegador que abre arquivos .MPP em Chrome, Safari, Firefox ou Edge no Mac, Windows, Linux, Chromebook ou celular. Entre com uma conta Google, suba o .MPP ou escolha-o no Google Drive, e o projeto completo abre no navegador. Nada é instalado localmente. É o caminho certo numa máquina de trabalho onde não dá para instalar software, ou no Linux/Chromebook onde o Microsoft Project nunca foi opção.
+    - question: Existe uma forma gratuita de abrir arquivos .MPP?
+      answer: O Ingantt oferece um teste grátis de 7 dias sem cartão de crédito, e o teste inclui a importação e edição completas de .MPP — nada fica bloqueado. Para quem só precisa abrir um .MPP uma ou duas vezes, o teste cobre a situação inteira. Depois, os planos pagos começam em R$29,99/usuário/mês. Se você trabalha com .MPP regularmente, o plano é menos do que um único mês de Microsoft 365 Project.
+    - question: Vou perder dependências, recursos ou o caminho crítico?
+      answer: No Ingantt, não — a importação é sem perdas para os campos que importam. Tarefas, subtarefas, dependências finish-to-start, atribuições de recursos, trabalho e duração, marcos e o cálculo do caminho crítico chegam todos do arquivo .MPP original. O Ingantt usa a mesma estrutura de projeto que o Microsoft Project usa internamente, então um Gantt que levou uma tarde para montar no Project fica igual depois de aberto no Ingantt. Visualizadores gratuitos que mostram só listas de tarefas ou achatam o projeto numa imagem perdem o grafo de dependências.
+    - question: Posso salvar o arquivo .MPP depois de abrir?
+      answer: Sim. O Ingantt salva projetos de volta no formato nativo .MPP do Microsoft Project, além de .XML, PDF e PNG. Você pode abrir um .MPP no Mac, iPhone ou no navegador, fazer edições, salvar de volta como .MPP e entregar o arquivo a um colega que ainda usa Microsoft Project — ele vai abri-lo como sempre. Se você só quer olhar o gráfico sem editar ou re-salvar, nossa página de <a href="/gantt-viewer">Visualizador Gantt</a> cobre o caso somente leitura.
+  support:
+    title: Abra seu arquivo .MPP com o Ingantt
+    docs:
+      text: Ir para a documentação
+    contact:
+      title: Mais perguntas?<br>Fale conosco por e-mail.
+      text: Envie um e-mail
+      icon: fa fa-envelope
+
+cta:
+  title: Abra seu arquivo .MPP em cerca de 30 segundos
+  subtitle: Sem Microsoft Project, sem serviço de conversão, sem PDFs por e-mail — só o projeto completo no seu dispositivo.
+  button:
+    text: Abrir .MPP

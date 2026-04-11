@@ -1,6 +1,6 @@
-title_tag: Ingantt – Moderne Gantt-Diagramm-Projektplanung für Mac mit KI
-meta_keywords: Gantt-Diagramm-App für macOS, MPP, Gantt für Mac, MPP-Reader, MPP-Viewer, Gantt-Anwendung, MS Project-Alternative, Gantt für Apple, Projektplanung, Projektmanagement
-meta_description: Ingantt – KI-gestütztes Projektmanagement-Tool für macOS. Planen, terminieren und verfolgen Sie Ihre Projekte mühelos auf Ihrem Mac.
+title_tag: Gantt-Diagramm für Mac — Projektplanung mit KI | Ingantt
+meta_keywords: gantt diagramm mac, projektplanung mac, gantt für mac, gantt-diagramm für apple, mpp datei mac, ms project alternative mac, gantt app macos, gantt software mac, gantt-diagramm macos, projektmanagement mac, gantt ki mac
+meta_description: Gantt-Diagramm für Mac — Projektplanung mit KI, .MPP-Import und kritischem Pfad. Native macOS-App im Mac App Store. Kostenlos testen.
 
 page_url: macos_page
 platform_url: macos_url
@@ -8,8 +8,8 @@ store_image: app_store.png
 platform_image: macos.png
 
 hero:
-  title: Gantt-Diagramm-Projektplanung mit KI für Ihren Mac
-  subtitle: Verwandeln Sie Ihre Projektplanung mit intelligenten Gantt-Diagrammen und KI-Unterstützung auf Ihrem Mac.
+  title: Gantt-Diagramm für Mac — Projektplanung mit KI
+  subtitle: Native macOS-App für echte Projektplanung auf dem Mac — Gantt-Diagramme mit Abhängigkeiten und kritischem Pfad, .MPP-Dateien direkt öffnen und per KI aus einem Prompt generieren. Läuft auf Apple Silicon und Intel-Macs, erhältlich im Mac App Store.
   cta:
     primary:
       text: Jetzt holen
@@ -27,15 +27,18 @@ features_grid:
     - icon: fas fa-robot
       title: KI-gestützte Planung
       description: Generieren Sie komplette Projektpläne aus einfachen Beschreibungen mithilfe unseres KI-Assistenten.
+      url: /de/ai-gantt-chart.html
     - icon: fas fa-brain
       title: Alles planen
       description: Terminierung, Kosten, Aufgaben, Abhängigkeiten, Ressourcen und mehr – alles an einem Ort.
     - icon: fas fa-laptop
       title: Optimiert für macOS
       description: Planen, prüfen und verwalten Sie Projekte auf macOS mit einer nativen und nahtlosen Erfahrung.
+      url: /de/gantt-viewer.html
     - icon: fas fa-file-import
       title: MS Project-kompatibel
       description: Importieren Sie .MPP-Dateien und speichern Sie im MS Project-kompatiblen XML – ohne Kompromisse.
+      url: /de/open-mpp-file.html
 
 demo:
   title: Sehen Sie Ingantt in Aktion

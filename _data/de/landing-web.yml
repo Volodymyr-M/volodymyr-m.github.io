@@ -1,7 +1,7 @@
 lang_name: Deutsch
-title_tag: Ingantt - Gantt-Diagramm-Projektplanung mit KI in jedem Browser
-meta_keywords: gantt diagramm, zeitachsen-ersteller, ki-zeitachse-generator, gantt diagramm ersteller, gantt diagramm vorlage, ki-zeitachse creator, gantt ki generator, gantt diagramm kostenlos, ms project alternative, gantt diagramm app, gantt planung, projektmanagement gantt diagramm, beste gantt diagramm software
-meta_description: Ingantt – KI-Projektmanagement im Web. Erstellen Sie Gantt-Diagramme mit KI und verfolgen Sie Projekte. MS-Project-Alternative, ab 5,99 €/Monat.
+title_tag: Gantt-Diagramm online erstellen — mit KI | Ingantt
+meta_keywords: gantt diagramm online erstellen, gantt diagramm erstellen, gantt diagramm online tool, gantt diagramm app, gantt diagramm ki, gantt diagramm kostenlos, ms project alternative, gantt ki generator, gantt diagramm software, gantt diagramm vorlage, projektmanagement gantt diagramm, gantt diagramm browser
+meta_description: Gantt-Diagramm online erstellen — mit KI in 30 Sekunden. Aufgaben, Abhängigkeiten und kritischer Pfad. MS-Project-Alternative, kostenlos testen.
 
 page_url: web_page
 platform_url: web_url
@@ -78,8 +78,8 @@ footer:
   copyright: Ingantt Development. Alle Rechte vorbehalten.
 
 hero:
-  title: Gantt-Diagramm-Projektplanung mit KI
-  subtitle: Transformieren Sie Ihre Projektplanung mit intelligenten Gantt-Diagrammen, nahtloser Zusammenarbeit und KI-Unterstützung – alles in Ihrem Webbrowser.
+  title: Gantt-Diagramm online erstellen — mit KI
+  subtitle: Erstellen Sie Gantt-Diagramme direkt im Browser — beschreiben Sie Ihr Projekt, und Ingantts KI baut einen vollständigen Plan mit Aufgaben, Abhängigkeiten und kritischem Pfad in etwa 30 Sekunden. Kein Download, keine MS-Project-Lizenz.
   cta:
     primary:
       text: Kostenlos testen
@@ -98,15 +98,18 @@ features_grid:
     - icon: fas fa-robot
       title: KI-gestützte Planung
       description: Erstellen Sie vollständige Projektpläne aus einfachen Beschreibungen mit unserem KI-Assistenten.
+      url: /de/ai-gantt-chart.html
     - icon: fas fa-cloud
       title: Native Google-Integration
       description: Funktioniert nahtlos mit Google Drive und macht die Zusammenarbeit natürlich und mühelos.
     - icon: fas fa-file-import
       title: MS Project kompatibel
       description: Importieren Sie .MPP-Dateien und speichern Sie im MS Project-kompatiblen XML-Format – ohne Kompromisse.
+      url: /de/open-mpp-file.html
     - icon: fas fa-mobile-alt
       title: Funktioniert überall
       description: Volle Funktionalität auf Desktop, Tablet und Mobilgerät in Ihrem Lieblingsbrowser.
+      url: /de/gantt-viewer.html
 
 demo:
   title: Sehen Sie Ingantt in Aktion

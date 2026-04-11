@@ -4,34 +4,54 @@ layout: default
 
 {% assign default_landing_data = site.data[site.active_lang].landing-web %}
 {% assign landing_data = site.data[site.active_lang][page.data_file_name] %}
+{% comment %}
+Section-level fallbacks: any field a cluster page (e.g. landing-ai-gantt) does
+not define falls back to the default landing-web data for the active language.
+This lets new SEO cluster pages override only hero/faq/features_grid/etc.
+without re-declaring 370 lines of testimonials, features_list, pricing, etc.
+{% endcomment %}
+{% assign page_url = landing_data.page_url | default: default_landing_data.page_url %}
+{% assign platform_url = landing_data.platform_url | default: default_landing_data.platform_url %}
+{% assign platform_image = landing_data.platform_image | default: default_landing_data.platform_image %}
+{% assign store_image = landing_data.store_image | default: default_landing_data.store_image %}
+{% assign hero = landing_data.hero | default: default_landing_data.hero %}
+{% assign features_grid = landing_data.features_grid | default: default_landing_data.features_grid %}
+{% assign demo = landing_data.demo | default: default_landing_data.demo %}
+{% assign testimonials = landing_data.testimonials | default: default_landing_data.testimonials %}
+{% assign features_detailed = landing_data.features_detailed | default: default_landing_data.features_detailed %}
+{% assign pricing = landing_data.pricing | default: default_landing_data.pricing %}
+{% assign features_list = landing_data.features_list | default: default_landing_data.features_list %}
+{% assign faq = landing_data.faq | default: default_landing_data.faq %}
+{% assign cta = landing_data.cta | default: default_landing_data.cta %}
+{% assign platform_support = landing_data.platform_support | default: default_landing_data.platform_support %}
 
 <!-- Hero Section -->
 <section class="hero">
     <div class="container">
         <div class="hero-wrapper">
             <div class="hero-content">
-                <h1>{{ landing_data.hero.title }}</h1>
-                <p class="hero-subtitle">{{ landing_data.hero.subtitle }}</p>
+                <h1>{{ hero.title }}</h1>
+                <p class="hero-subtitle">{{ hero.subtitle }}</p>
                 <div class="cta-group">
-                    <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary main-cta"
+                    <a href="{{ site[platform_url] }}" class="cta-button primary main-cta"
                         data-label="topCTA" target="_blank">
                         <span class="button-content">
                             <span class="button-title-wrapper">
-                                <span {% unless landing_data.hero.cta.primary.text_fits %}class="button-title" {%
-                                    endunless %}>{{ landing_data.hero.cta.primary.text }}</span>
+                                <span {% unless hero.cta.primary.text_fits %}class="button-title" {%
+                                    endunless %}>{{ hero.cta.primary.text }}</span>
                             </span>
-                            <img src="/images/platforms/{{ landing_data.platform_image }}" alt="Platform Logo"
+                            <img src="/images/platforms/{{ platform_image }}" alt="Platform Logo"
                                 class="workspace-logo">
                         </span>
                     </a>
                     <div class="language-select nav-version other-versions-btn">
                         <button class="cta-button secondary other-versions">
                             <span class="button-content">
-                                <span class="button-title">{{ landing_data.hero.cta.other_versions.title }} <i
+                                <span class="button-title">{{ hero.cta.other_versions.title }} <i
                                         class="fas fa-chevron-down"></i></span>
                                 <span class="platform-icons">
                                     {% for platform in default_landing_data.products %}
-                                    {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
+                                    {% if platform.url == page_url %}{% continue %}{% endif %}
                                     <i class="{{ platform.icon }}"></i>
                                     {% endfor %}
                                 </span>
@@ -39,30 +59,30 @@ layout: default
                         </button>
                         <div class="language-dropdown">
                             {% for platform in default_landing_data.products %}
-                            {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
+                            {% if platform.url == page_url %}{% continue %}{% endif %}
                             <a href="/{{ site[platform.url] }}"><i class="{{ platform.icon }}"></i> {{ platform.text
                                 }}</a>
                             {% endfor %}
                         </div>
                     </div>
                 </div>
-                {% if landing_data.hero.rating.stars %}
+                {% if hero.rating.stars %}
                 <div class="hero-badges">
                     <div class="rating">
-                        <div class="stars" style="--stars: {{ landing_data.hero.rating.stars }};"></div>
-                        <span>{{ landing_data.hero.rating.text }} <img
-                                src="/images/stores/{{ landing_data.store_image }}" class="inline-marketplace-logo"
+                        <div class="stars" style="--stars: {{ hero.rating.stars }};"></div>
+                        <span>{{ hero.rating.text }} <img
+                                src="/images/stores/{{ store_image }}" class="inline-marketplace-logo"
                                 alt="Store Logo"></span>
                     </div>
                     <div class="hero-also">
-                        <span>{{ landing_data.hero.also }}</span>
+                        <span>{{ hero.also }}</span>
                     </div>
                 </div>
                 {% endif %}
             </div>
             <div class="hero-image">
                 <div class="hero-image-wrapper">
-                    <img src="/images/heros/{{ landing_data.hero.image }}" alt="Illustration">
+                    <img src="/images/heros/{{ hero.image }}" alt="Illustration">
                     <div class="hero-shape-1"></div>
                     <div class="hero-shape-2"></div>
                     <div class="hero-shape-3"></div>
@@ -75,14 +95,22 @@ layout: default
 <!-- Features Grid -->
 <section class="features">
     <div class="container">
-        <h2>{{ landing_data.features_grid.title }}</h2>
+        <h2>{{ features_grid.title }}</h2>
         <div class="features-grid">
-            {% for item in landing_data.features_grid.items %}
+            {% for item in features_grid.items %}
+            {% if item.url %}
+            <a class="feature-card" href="{{ item.url }}">
+                <i class="{{ item.icon }}"></i>
+                <h3>{{ item.title }}</h3>
+                <p>{{ item.description }}</p>
+            </a>
+            {% else %}
             <div class="feature-card">
                 <i class="{{ item.icon }}"></i>
                 <h3>{{ item.title }}</h3>
                 <p>{{ item.description }}</p>
             </div>
+            {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -91,9 +119,9 @@ layout: default
 <!-- Demo Section -->
 <section id="demo" class="demo">
     <div class="container">
-        <h2>{{ landing_data.demo.title }}</h2>
+        <h2>{{ demo.title }}</h2>
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/{{ landing_data.demo.video_id }}" lang="{{ site.default_lang }}"
+            <iframe src="https://www.youtube.com/embed/{{ demo.video_id }}" lang="{{ site.default_lang }}"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen>
@@ -102,12 +130,22 @@ layout: default
     </div>
 </section>
 
+{% comment %}
+Cluster pages (page_type: cluster — e.g. /ai-gantt-chart.html, /gantt-viewer.html,
+/open-mpp-file.html, /de/gantt-diagramm-erstellen.html) skip testimonials,
+features_detailed, pricing, and features_list because those blocks are identical
+to the homepage copy and would cause duplicate-content cannibalization across /,
+/{lang}/, and the cluster pages. Cluster pages keep hero, features_grid, demo,
+faq, cta, and platform_support — the unique cluster copy plus the shared
+video/cross-nav that are not duplicate-content risks.
+{% endcomment %}
+{% unless page.page_type == 'cluster' %}
 <!-- Social Proof -->
 <section class="testimonials">
     <div class="container">
-        <h2>{{ landing_data.testimonials.title }}</h2>
+        <h2>{{ testimonials.title }}</h2>
         <div class="testimonials-grid">
-            {% for testimonial in landing_data.testimonials.items %}
+            {% for testimonial in testimonials.items %}
             <div class="testimonial-card {% if testimonial.is_hidden %}hidden-testimonials{% endif %}">
                 <div class="quote">{{ testimonial.rating }}</div>
                 <p>{{ testimonial.text }}</p>
@@ -121,24 +159,26 @@ layout: default
             {% endfor %}
         </div>
         <div class="show-more-container">
-            <button class="show-more-button" data-show-more="{{ landing_data.testimonials.show_more.text }}"
-                data-show-less="{{ landing_data.testimonials.show_less.text }}">
-                <span class="button-text">{{ landing_data.testimonials.show_more.text }}</span>
+            <button class="show-more-button" data-show-more="{{ testimonials.show_more.text }}"
+                data-show-less="{{ testimonials.show_less.text }}">
+                <span class="button-text">{{ testimonials.show_more.text }}</span>
                 <i class="fas fa-chevron-down"></i>
             </button>
         </div>
     </div>
 </section>
+{% endunless %}
 
+{% unless page.page_type == 'cluster' %}
 <!-- Features Section -->
 <section class="features-detailed">
     <div class="container">
-        <h2>{{ landing_data.features_detailed.title }}</h2>
-        <p class="section-subtitle">{{ landing_data.features_detailed.subtitle }}</p>
+        <h2>{{ features_detailed.title }}</h2>
+        <p class="section-subtitle">{{ features_detailed.subtitle }}</p>
 
         <div class="features-tabs">
             <div class="features-nav">
-                {% for tab in landing_data.features_detailed.tabs %}
+                {% for tab in features_detailed.tabs %}
                 <button class="feature-tab {% if forloop.first %}active{% endif %}" data-tab="{{ tab.id }}">
                     <i class="{{ tab.icon }}"></i>
                     {{ tab.title }}
@@ -147,7 +187,7 @@ layout: default
             </div>
 
             <div class="features-content">
-                {% for tab in landing_data.features_detailed.tabs %}
+                {% for tab in features_detailed.tabs %}
                 <div class="feature-panel {% if forloop.first %}active{% endif %}" id="{{ tab.id }}">
                     <div class="feature-details">
                         <div class="feature-text">
@@ -183,15 +223,17 @@ layout: default
         </div>
     </div>
 </section>
+{% endunless %}
 
+{% unless page.page_type == 'cluster' %}
 <!-- Pricing -->
-{% if landing_data.pricing %}
+{% if pricing %}
 <section class="pricing">
     <div class="container">
-        <h2>{{ landing_data.pricing.title }}</h2>
-        <p class="section-subtitle">{{ landing_data.pricing.subtitle }}</p>
+        <h2>{{ pricing.title }}</h2>
+        <p class="section-subtitle">{{ pricing.subtitle }}</p>
         <div class="pricing-grid">
-            {% for plan in landing_data.pricing.plans %}
+            {% for plan in pricing.plans %}
             {% unless plan.title %}
             <div class="pricing-card" style="visibility: hidden;"></div>
             {% continue %}
@@ -221,14 +263,16 @@ layout: default
     </div>
 </section>
 {% endif %}
+{% endunless %}
 
+{% unless page.page_type == 'cluster' %}
 <!-- Features List Section -->
 <section class="features-list">
     <div class="container">
         <div class="feature-group">
-            <h2>{{ landing_data.features_list.title }}</h2>
+            <h2>{{ features_list.title }}</h2>
             <div class="feature-grid">
-                {% for feature in landing_data.features_list.items %}
+                {% for feature in features_list.items %}
                 <div class="feature-item">
                     <i class="{{ feature.icon }}"></i>
                     <h3>{{ feature.title }}</h3>
@@ -243,15 +287,16 @@ layout: default
         </div>
     </div>
 </section>
+{% endunless %}
 
 <!-- FAQ Section -->
 <section class="faq">
     <div class="container">
         <div class="faq-wrapper">
             <div class="faq-content">
-                <h2>{{ landing_data.faq.title }}</h2>
+                <h2>{{ faq.title }}</h2>
                 <div class="faq-grid">
-                    {% for item in landing_data.faq.items %}
+                    {% for item in faq.items %}
                     <div class="faq-item">
                         <div class="faq-question">
                             <h3>{{ item.question }}</h3>
@@ -266,14 +311,14 @@ layout: default
             </div>
             <div class="faq-support">
                 <div class="support-content">
-                    <h2>{{ landing_data.faq.support.title }}</h2>
+                    <h2>{{ faq.support.title }}</h2>
                     <a href="{{ site.docs_url }}" class="cta-button secondary" target="_blank">{{
-                        landing_data.faq.support.docs.text }}</a>
+                        faq.support.docs.text }}</a>
                     <div class="support-divider">
-                        <h2>{{ landing_data.faq.support.contact.title }}</h2>
+                        <h2>{{ faq.support.contact.title }}</h2>
                         <a href="mailto:{{ site.support_email | encode_email }}" class="cta-button primary">
-                            <i class="{{ landing_data.faq.support.contact.icon }}"></i>
-                            {{ landing_data.faq.support.contact.text }}
+                            <i class="{{ faq.support.contact.icon }}"></i>
+                            {{ faq.support.contact.text }}
                         </a>
                     </div>
                 </div>
@@ -285,16 +330,16 @@ layout: default
 <!-- CTA -->
 <section class="cta">
     <div class="container">
-        <h2>{{ landing_data.cta.title }}</h2>
-        <p>{{ landing_data.cta.subtitle }}</p>
+        <h2>{{ cta.title }}</h2>
+        <p>{{ cta.subtitle }}</p>
         <div class="cta-buttons">
-            <a href="{{ site[landing_data.platform_url] }}" class="cta-button primary main-cta" data-label="bottomCTA"
+            <a href="{{ site[platform_url] }}" class="cta-button primary main-cta" data-label="bottomCTA"
                 target="_blank">
                 <span class="button-content">
                     <span class="button-title-wrapper">
-                        <span class="button-title">{{ landing_data.cta.button.text }}</span>
+                        <span class="button-title">{{ cta.button.text }}</span>
                     </span>
-                    <img src="/images/platforms/{{ landing_data.platform_image }}" alt="Platform Logo"
+                    <img src="/images/platforms/{{ platform_image }}" alt="Platform Logo"
                         class="workspace-logo" loading="lazy">
                 </span>
             </a>
@@ -306,10 +351,10 @@ layout: default
 <section class="platform-support features-list">
     <div class="container">
         <div class="feature-group">
-            <h2>{{ landing_data.platform_support.title }}</h2>
+            <h2>{{ platform_support.title }}</h2>
             <div class="platform-grid">
                 {% for platform in default_landing_data.products %}
-                {% if platform.url == landing_data.page_url %}{% continue %}{% endif %}
+                {% if platform.url == page_url %}{% continue %}{% endif %}
                 <a href="/{{ site[platform.url] }}" class="platform-item">
                     <i class="{{ platform.icon }}"></i>
                     <span>{{ platform.platform }}</span>
@@ -335,7 +380,7 @@ layout: default
     document.querySelectorAll('.main-cta').forEach(function (element) {
         element.addEventListener('click', function () {
             const label = element.getAttribute('data-label') || 'Unknown';
-            gtag('event', '{{ landing_data.page_url }}_cta_click', {
+            gtag('event', '{{ page_url }}_cta_click', {
                 'event_category': 'click',
                 'event_label': label
             });

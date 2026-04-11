@@ -1,0 +1,60 @@
+title_tag: 간트 뷰어 — 모든 기기에서 .MPP 파일 열기 | Ingantt
+meta_keywords: 간트 뷰어, mpp viewer, 간트 차트 뷰어, mpp 파일 열기, 간트 뷰어 무료, 간트 보기, ms project viewer, mpp 뷰어, mpp 파일 읽기, 온라인 간트 뷰어
+meta_description: Mac, iPhone, iPad, Windows, Android 또는 브라우저에서 간트 차트와 .MPP 파일을 열고 확인하세요. 인터랙티브 — 확대, 스크롤, 인쇄 가능. 무료 체험.
+
+hero:
+  title: 간트 뷰어 — 모든 기기에서 .MPP 또는 간트 파일 열기
+  subtitle: .MPP 또는 Microsoft Project XML 파일을 Ingantt에 드롭하면 확대/축소, 스크롤, 필터링, 인쇄가 가능한 인터랙티브 간트 차트로 열립니다. Mac, iPhone, iPad, Windows, Android, 또는 설치 없이 브라우저에서 바로 사용 가능합니다.
+  cta:
+    primary:
+      text: 무료 체험
+      text_fits: true
+    other_versions:
+      title: 다른 버전
+  rating:
+    stars: 5
+    text: 별 5개 평가
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: 진짜 간트 뷰어가 해야 할 일
+  items:
+    - icon: fas fa-file-import
+      title: 실제 .MPP 파일 열기
+      description: Microsoft Project .MPP 및 .XML 파일을 네이티브로 파싱 — 작업, 하위 작업, 종속성, 마일스톤, 리소스가 그대로 유지됩니다.
+    - icon: fas fa-magnifying-glass-plus
+      title: 이미지가 아닌 인터랙티브
+      description: 타임라인 확대, 단계별 스크롤, 그룹 펼치기/접기, 작업에 호버하여 세부정보 확인. 스크린샷이 아닌 진짜 간트 차트입니다.
+    - icon: fas fa-laptop-mobile
+      title: 모든 기기에서
+      description: Mac, iOS, iPad, Windows, Android용 네이티브 앱과 브라우저 버전 — 어디서든 같은 파일을 열 수 있습니다.
+    - icon: fas fa-eye
+      title: 프로젝트 관리 지식 불필요
+      description: 간트 차트가 보여주는 것 — 납기일, 종속성, 담당자 — 만 확인하면 된다면 새 도구를 배울 필요가 없습니다.
+
+faq:
+  title: 간트 뷰어 — 자주 묻는 질문
+  items:
+    - question: 간트 뷰어란 무엇인가요?
+      answer: 간트 뷰어는 간트 차트 파일(일반적으로 Microsoft Project .MPP 또는 .XML)을 열어 프로젝트를 인터랙티브 타임라인으로 표시하는 도구입니다. 진짜 뷰어는 일정 스크롤, 확대/축소, 단계 펼치기/접기, 작업에 호버하여 종속성, 시작/종료 날짜, 리소스를 볼 수 있습니다. Ingantt는 Mac, iOS, iPad, Windows, Android, 브라우저에서 작동하는 간트 뷰어입니다.
+    - question: Microsoft Project 없이 간트 차트를 어떻게 봅니까?
+      answer: Ingantt에서 파일을 여세요. Microsoft Project의 네이티브 .MPP 형식과 MS Project XML을 직접 가져오므로 MS Project를 사용하는 동료에게 받은 파일이 완전히 인터랙티브한 간트 차트로 열립니다. MS Project 라이선스나 Windows 설치가 필요하지 않습니다. 작업, 종속성, 크리티컬 패스가 모두 그대로 유지됩니다.
+    - question: 무료 간트 차트 뷰어가 있나요?
+      answer: Ingantt는 신용카드 없이 7일 무료 체험을 제공합니다. 체험판에는 모든 플랫폼에서 .MPP 및 MS Project XML 파일의 전체 보기 및 편집 기능이 포함되어 있습니다. "뷰어 에디션"과 "에디터 에디션"의 구분이 없습니다. 체험 후에는 유료 플랜이 사용자당 월 $5.99부터 시작합니다.
+    - question: 보고 있는 간트 차트를 인쇄하거나 공유할 수 있나요?
+      answer: 예. Ingantt는 간트 차트를 PDF 또는 PNG로 내보내어 인쇄하거나 이메일에 첨부하거나 슬라이드 덱에 붙여넣을 수 있습니다. PDF 내보내기는 어떤 확대 수준에서도 타임라인 레이아웃을 유지합니다. 동일한 .MPP를 나중에 다른 곳에서 열어야 한다면 <a href="/open-mpp-file">Microsoft Project 없이 .MPP 파일 열기</a> 가이드를 참조하세요.
+  support:
+    title: Ingantt로 간트 차트 보기를 시작하세요
+    docs:
+      text: 문서로 이동
+    contact:
+      title: 추가 질문이 있으신가요?<br>이메일로 문의해 주세요.
+      text: 이메일 보내기
+      icon: fa fa-envelope
+
+cta:
+  title: 몇 초 안에 간트 차트를 여세요
+  subtitle: .MPP 또는 XML 파일을 Ingantt에 드롭하고 모든 기기에서 확인하세요 — 무료 체험, 카드 불필요.
+  button:
+    text: 간트 열기

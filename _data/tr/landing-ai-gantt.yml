@@ -1,0 +1,48 @@
+title_tag: Yapay Zekâ Gantt Çizelgesi Üreteci — Prompttan Plana 30 Saniyede | Ingantt
+meta_keywords: yapay zekâ gantt çizelgesi, AI gantt, gantt AI üreteci, yapay zekâ proje planlama, akıllı gantt çizelgesi, modern gantt çizelgesi, AI proje yönetimi, prompttan gantt
+meta_description: Bir proje açıklamasından 30 saniyede tam bir Gantt çizelgesi oluşturun. Ingantt'ın yapay zekâsı görevleri, bağımlılıkları ve zaman çizelgesini otomatik oluşturur. Kredi kartı gerekmez.
+
+hero:
+  title: Yapay Zekâ Gantt Çizelgesi Üreteci — Prompttan Plana 30 Saniyede
+  subtitle: Projenizi doğal dille tanımlayın, Ingantt'ın yapay zekâsı görevler, bağımlılıklar, zaman çizelgesi ve kaynaklar dahil tam bir Gantt çizelgesi oluştursun — düzenlemeye ve paylaşmaya hazır.
+  cta:
+    primary:
+      text: Ücretsiz dene
+      text_fits: true
+    other_versions:
+      title: Diğer sürümler
+  rating:
+    stars: 5
+    text: 5 yıldız üzerinden
+  image: hero-workspace.png
+  also:
+
+faq:
+  title: Yapay Zekâ Gantt Çizelgesi — Sıkça Sorulan Sorular
+  items:
+    - question: Yapay zekâ gerçekten Gantt çizelgesi oluşturabilir mi?
+      answer: Evet. Ingantt'ın yapay zekâsı, doğal dildeki proje açıklamalarından görevler, alt görevler, bağımlılıklar, süreler ve kilometre taşları dahil tam Gantt çizelgeleri üretir. Hedefinizi bir-iki cümleyle anlatırsınız, AI planı yaklaşık 30 saniyede oluşturur, sonra siz düzenlersiniz.
+    - question: AI bir Gantt çizelgesini nasıl oluşturur?
+      answer: Ingantt, açıklamanızı proje yönetimi kalıplarıyla eğitilmiş bir dil modeline gönderir. Model işi aşamalara ve görevlere ayırır, gerçekçi süreler seçer, bağımlılıkları bağlar ve sonucu statik bir görüntü değil, gerçek düzenlenebilir bir Gantt çizelgesi olarak üretir.
+    - question: AI Gantt çizelgesi şablondan daha mı iyi?
+      answer: Şablonlar geneldir; AI Gantt çizelgesi tek adımda projenize özel hazırlanır. Şablonla görev adlarını değiştirmek, süreleri ayarlamak ve bağımlılıkları eklemek hâlâ sizin işiniz. AI bunu prompttan halleder ve sonuç tamamen düzenlenebilir kalır.
+    - question: ChatGPT Gantt çizelgesi oluşturabilir mi?
+      answer: ChatGPT bir proje planını metin olarak tarif edebilir, ancak gerçek bağımlılıkları, kilometre taşları ve kaynak tahsisi olan etkileşimli, düzenlenebilir bir Gantt çizelgesi üretemez. Ingantt'ın AI'ı bunu yapar ve sonucu Microsoft Project ile uyumlu .MPP dosyası olarak kaydeder.
+    - question: AI'ın oluşturduğunu düzenleyebilir miyim?
+      answer: Evet. AI tarafından üretilen her Gantt çizelgesi tamamen düzenlenebilir. Görevleri sürükleyin, süreleri ayarlayın, bağımlılık ekleyin veya kaldırın, kaynakları yeniden atayın ya da AI'dan bir bölümü revize etmesini isteyin.
+    - question: Ücretsiz deneme var mı?
+      answer: Evet. 7 günlük ücretsiz deneme sınırsız AI proje üretimi, tam düzenleme, MS Project içe/dışa aktarma ve Google Drive entegrasyonunu içerir. Kredi kartı gerekmez.
+  support:
+    title: Ingantt ile planlamaya başlayın
+    docs:
+      text: Dokümantasyona git
+    contact:
+      title: Başka sorular mı var?<br>Bize e-posta ile ulaşın.
+      text: E-posta gönder
+      icon: fa fa-envelope
+
+cta:
+  title: İlk AI Gantt çizelgenizi oluşturmaya hazır mısınız?
+  subtitle: Ücretsiz denemenizi başlatın ve bir proje açıklamasını 30 saniyede tam bir plana dönüştürün.
+  button:
+    text: Ücretsiz başla

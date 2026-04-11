@@ -1,0 +1,58 @@
+title_tag: Pemapar Gantt — Buka fail .MPP pada mana-mana peranti | Ingantt
+meta_keywords: pemapar gantt, mpp viewer, pemapar carta gantt, buka fail mpp, pemapar gantt percuma, ms project viewer, baca mpp, pemapar gantt dalam talian
+meta_description: Buka dan lihat carta Gantt dan fail .MPP pada Mac, iPhone, iPad, Windows, Android atau dalam pelayar. Interaktif sepenuhnya — zum, skrol, cetak.
+
+hero:
+  title: Pemapar Gantt — Buka fail .MPP atau Gantt pada mana-mana peranti
+  subtitle: Lepaskan fail .MPP atau Microsoft Project XML ke dalam Ingantt dan ia akan dibuka sebagai carta Gantt interaktif yang boleh anda zum, skrol, tapis dan cetak — pada Mac, iPhone, iPad, Windows, Android atau terus dalam pelayar tanpa memasang apa-apa.
+  cta:
+    primary:
+      text: Cuba percuma
+      text_fits: true
+    other_versions:
+      title: Versi lain
+  rating:
+    stars: 5
+    text: 5 bintang pada
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Apa yang pemapar Gantt sebenar patut lakukan
+  items:
+    - icon: fas fa-file-import
+      title: Membuka fail .MPP sebenar
+      description: Membaca fail Microsoft Project .MPP dan .XML secara asli — tugasan, sub-tugasan, kebergantungan, pencapaian dan sumber kekal utuh.
+    - icon: fas fa-magnifying-glass-plus
+      title: Interaktif, bukan imej
+      description: Zum garis masa, skrol fasa, kembangkan kumpulan, halus atas tugasan. Carta Gantt sebenar, bukan tangkap layar.
+    - icon: fas fa-laptop-mobile
+      title: Pada mana-mana peranti
+      description: Aplikasi asli untuk Mac, iOS, iPad, Windows dan Android, serta versi pelayar — buka fail yang sama di mana-mana.
+    - icon: fas fa-eye
+      title: Tiada pengetahuan pengurusan projek diperlukan
+      description: Jika anda hanya perlu melihat apa yang ditunjukkan oleh carta Gantt — tarikh, kebergantungan, siapa buat apa — anda boleh tanpa belajar apa-apa yang baru.
+
+faq:
+  title: Pemapar Gantt — Soalan Lazim
+  items:
+    - question: Bagaimana cara melihat carta Gantt tanpa Microsoft Project?
+      answer: Buka fail dalam Ingantt. Ia mengimport format .MPP asli Microsoft Project dan MS Project XML secara langsung, jadi fail daripada rakan sekerja yang menggunakan MS Project terbuka sebagai carta Gantt yang sepenuhnya interaktif — tanpa lesen MS Project atau pemasangan Windows. Tugasan, kebergantungan dan laluan kritikal kekal utuh.
+    - question: Adakah terdapat pemapar Gantt percuma?
+      answer: Ingantt menawarkan percubaan percuma 7 hari tanpa kad kredit. Percubaan termasuk pemaparan dan penyuntingan penuh fail .MPP dan MS Project XML pada semua platform. Selepas percubaan, pelan berbayar bermula dari $5.99 setiap pengguna setiap bulan. Kebanyakan keperluan pemaparan sekali sahaja muat dalam percubaan percuma.
+    - question: Bolehkah saya mencetak atau berkongsi carta Gantt yang sedang dilihat?
+      answer: Ya. Ingantt mengeksport carta Gantt ke PDF atau PNG untuk mencetaknya, melampirkannya ke e-mel atau menampalnya ke slaid. Eksport PDF mengekalkan susun atur garis masa pada mana-mana tahap zum. Jika anda perlu membuka .MPP yang sama di tempat lain kemudian, lihat panduan kami untuk <a href="/open-mpp-file">membuka fail .MPP tanpa Microsoft Project</a>.
+  support:
+    title: Mula melihat carta Gantt anda dengan Ingantt
+    docs:
+      text: Ke dokumentasi
+    contact:
+      title: Ada soalan lain?<br>Hubungi kami melalui e-mel.
+      text: Hantar e-mel
+      icon: fa fa-envelope
+
+cta:
+  title: Buka carta Gantt anda dalam beberapa saat
+  subtitle: Lepaskan fail .MPP atau XML ke Ingantt dan lihatnya pada mana-mana peranti — percubaan percuma, tanpa kad.
+  button:
+    text: Buka Gantt

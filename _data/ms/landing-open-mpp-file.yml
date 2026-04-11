@@ -1,0 +1,58 @@
+title_tag: Buka fail .MPP — tanpa Microsoft Project | Ingantt
+meta_keywords: buka fail mpp, mpp tanpa microsoft project, fail mpp mac, buka mpp dalam talian, pemapar mpp, mpp percuma, fail mpp iphone, fail mpp android
+meta_description: Buka fail .MPP pada Mac, iPhone, iPad, Windows, Android atau dalam pelayar — tanpa Microsoft Project. Semua tugasan, kebergantungan dan sumber dikekalkan.
+
+hero:
+  title: Buka fail .MPP tanpa Microsoft Project — pada mana-mana peranti
+  subtitle: Anda tidak lagi memerlukan Microsoft Project untuk membuka fail .MPP. Ingantt membaca format binari asli .MPP pada Mac, iPhone, iPad, Windows, Android dan dalam pelayar, dan membawa setiap tugasan, sub-tugasan, kebergantungan, sumber, pencapaian dan laluan kritikal — dalam kira-kira 30 saat.
+  cta:
+    primary:
+      text: Cuba percuma
+      text_fits: true
+    other_versions:
+      title: Versi lain
+  rating:
+    stars: 5
+    text: 5 bintang pada
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Mengapa Ingantt membuka fail .MPP yang alat lain tidak boleh
+  items:
+    - icon: fas fa-file-code
+      title: Membaca binari .MPP sebenar
+      description: Menghuraikan format .MPP asli Microsoft Project secara terus — bukan ringkasan senarai tugas, bukan tangkap layar. Projek lengkap tiba.
+    - icon: fas fa-laptop-mobile
+      title: Berjalan di mana MS Project tidak berjalan
+      description: Aplikasi asli pada Mac, iPhone, iPad dan Android, serta versi pelayar — pada semua platform di mana Microsoft Project tidak berjalan.
+    - icon: fas fa-diagram-project
+      title: Tiada apa yang hilang
+      description: Tugasan, sub-tugasan, kebergantungan finish-to-start, sumber, pencapaian dan laluan kritikal diimport dengan struktur asal.
+    - icon: fas fa-right-left
+      title: Simpan semula sebagai .MPP
+      description: Selepas membuka, simpan fail sebagai .MPP atau MS Project XML supaya rakan sekerja yang masih menggunakan Microsoft Project boleh membukanya seperti biasa.
+
+faq:
+  title: Membuka fail .MPP — soalan apabila anda tersekat
+  items:
+    - question: Bagaimana cara membuka fail .MPP tanpa Microsoft Project?
+      answer: Gunakan Ingantt. Ia membaca format binari .MPP secara terus — tanpa lesen Microsoft Project, tanpa mesin maya Windows, tanpa perkhidmatan penukaran yang menghantar PDF melalui e-mel. Ingantt mengimport setiap tugasan, sub-tugasan, kebergantungan, tugasan sumber, pencapaian dan laluan kritikal, dan memaparkan projek sebagai carta Gantt lengkap. Percubaan percuma 7 hari meliputi kebanyakan situasi sekali sahaja.
+    - question: Bagaimana cara membuka fail .MPP pada Mac?
+      answer: Microsoft Project tidak berjalan pada macOS — tiada versi Mac. Jadi jawapannya bukan "pasang Project pada Mac" tetapi "gunakan sesuatu yang membaca .MPP secara asli pada Mac". Ingantt mempunyai aplikasi macOS asli di Mac App Store yang membuka fail .MPP secara terus pada Mac Apple Silicon dan Intel. Muat turun, buka .MPP, dan anda akan melihat carta Gantt penuh dengan tugasan, kebergantungan dan laluan kritikal.
+    - question: Bolehkah saya menyimpan fail .MPP selepas membukanya?
+      answer: Ya. Ingantt menyimpan projek semula dalam format .MPP asli Microsoft Project, serta .XML, PDF dan PNG. Anda boleh membuka .MPP pada Mac, iPhone atau dalam pelayar, membuat suntingan, menyimpannya semula sebagai .MPP dan menyerahkan fail kepada rakan sekerja yang masih menggunakan Microsoft Project. Jika anda hanya mahu melihat carta tanpa mengedit, halaman <a href="/gantt-viewer">Pemapar Gantt</a> kami meliputi kes baca sahaja.
+  support:
+    title: Buka fail .MPP anda dengan Ingantt
+    docs:
+      text: Ke dokumentasi
+    contact:
+      title: Ada soalan lain?<br>Hubungi kami melalui e-mel.
+      text: Hantar e-mel
+      icon: fa fa-envelope
+
+cta:
+  title: Buka fail .MPP anda dalam kira-kira 30 saat
+  subtitle: Tiada Microsoft Project, tiada perkhidmatan penukaran, tiada PDF melalui e-mel — hanya projek lengkap pada peranti anda.
+  button:
+    text: Buka .MPP

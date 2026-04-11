@@ -1,0 +1,60 @@
+title_tag: ガントビューア — .MPPファイルをあらゆるデバイスで開く | Ingantt
+meta_keywords: ガントビューア, mpp viewer, ガントチャートビューア, mpp ファイル 開く, ガントビューア 無料, ガント 表示, ms project viewer, mpp 表示, ガントファイル 開く, ガントビューア オンライン
+meta_description: ガントチャートと.MPPファイルをMac、iPhone、iPad、Windows、Android、またはブラウザで開いて表示。ズーム、スクロール、印刷可能。無料体験。
+
+hero:
+  title: ガントビューア — .MPPファイルをあらゆるデバイスで開く
+  subtitle: .MPPやMicrosoft Project XMLファイルをIngamttにドロップするだけで、ズーム・スクロール・フィルタ・印刷可能なインタラクティブなガントチャートとして開きます。Mac、iPhone、iPad、Windows、Android、またはインストール不要のブラウザで動作します。
+  cta:
+    primary:
+      text: 無料で試す
+      text_fits: true
+    other_versions:
+      title: 他のバージョン
+  rating:
+    stars: 5
+    text: 5つ星評価
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: 本物のガントビューアができるべきこと
+  items:
+    - icon: fas fa-file-import
+      title: 本物の.MPPファイルを開く
+      description: Microsoft Project .MPPおよび.XMLファイルをネイティブに読み込み、タスク、サブタスク、依存関係、マイルストーン、リソースがそのまま取り込まれます。
+    - icon: fas fa-magnifying-glass-plus
+      title: 画像ではなくインタラクティブ
+      description: タイムラインをズーム、フェーズをスクロール、グループの展開、タスクの詳細表示。本物のガントチャートで、スクリーンショットではありません。
+    - icon: fas fa-laptop-mobile
+      title: あらゆるデバイスで
+      description: Mac、iOS、iPad、Windows、Android用のネイティブアプリに加え、ブラウザ版も。どこにいても同じファイルを開けます。
+    - icon: fas fa-eye
+      title: プロジェクト管理の知識不要
+      description: 納期、依存関係、担当者を見たいだけなら、新しいツールを学ぶ必要はありません。
+
+faq:
+  title: ガントビューア — よくある質問
+  items:
+    - question: ガントビューアとは何ですか？
+      answer: ガントビューアは、ガントチャートファイル（通常はMicrosoft Projectの.MPPまたは.XML）を開いて、プロジェクトをインタラクティブなタイムラインとして表示するツールです。本物のビューアでは、スケジュールのスクロール、ズームイン/アウト、フェーズの展開/折りたたみ、タスクにホバーして依存関係・開始日・終了日・リソースを確認できます。Ingamttは、Mac、iOS、iPad、Windows、Android、ブラウザで動作するガントビューアです。
+    - question: Microsoft Projectなしでガントチャートを表示できますか？
+      answer: はい。Ingamttはプロジェクトのネイティブ.MPP形式とMS Project XMLを直接インポートします。MS Projectのライセンスもインストールも不要です。ブラウザ版を使うか、Mac、iOS、Windows、Android用の無料体験版をインストールしてください。タスク、依存関係、クリティカルパスがすべてそのまま取り込まれます。
+    - question: .MPPファイルを無料で表示する方法は？
+      answer: Ingamttは、クレジットカード不要の7日間無料体験を提供しています。体験版には、すべてのプラットフォームでの.MPPおよびMS Project XMLファイルの完全な表示と編集が含まれており、「ビューア版」と「エディタ版」の区別はありません。体験後は月額600円程度の有料プランからご利用いただけます。一度きりの表示用途なら無料体験で十分カバーできます。
+    - question: 見ているガントチャートを印刷・共有できますか？
+      answer: はい。IngamttはガントチャートをPDFまたはPNGにエクスポートして、印刷、メール添付、スライド資料への貼り付けが可能です。PDFエクスポートは任意のズームレベルでタイムラインのレイアウトを保持します。同じ.MPPを後で別の場所で開く必要がある場合は、<a href="/open-mpp-file">Microsoft Projectなしで.MPPファイルを開くガイド</a>をご覧ください。
+  support:
+    title: Ingamttでガントチャートを表示
+    docs:
+      text: ドキュメントへ
+    contact:
+      title: その他のご質問は？<br>メールでお問い合わせください。
+      text: メールで問い合わせ
+      icon: fa fa-envelope
+
+cta:
+  title: 数秒でガントチャートを開きましょう
+  subtitle: .MPPやXMLファイルをIngamttにドロップすると、あらゆるデバイスで表示できます。無料体験、カード不要。
+  button:
+    text: ガントを開く

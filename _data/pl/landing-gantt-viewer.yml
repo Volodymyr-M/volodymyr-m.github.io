@@ -1,0 +1,58 @@
+title_tag: Przeglądarka Gantta — otwieraj pliki .MPP na każdym urządzeniu | Ingantt
+meta_keywords: przeglądarka gantta, mpp viewer, podgląd wykresu gantta, otwórz plik mpp, darmowa przeglądarka gantta, ms project viewer, czytaj mpp, przeglądarka gantta online
+meta_description: Otwieraj i przeglądaj wykresy Gantta i pliki .MPP na Mac, iPhone, iPad, Windows, Android lub w przeglądarce. W pełni interaktywnie — powiększenie, przewijanie, drukowanie.
+
+hero:
+  title: Przeglądarka Gantta — otwieraj pliki .MPP lub Gantta na każdym urządzeniu
+  subtitle: Przeciągnij plik .MPP lub Microsoft Project XML do Ingantt, a otworzy się jako interaktywny wykres Gantta — powiększaj, przewijaj, filtruj i drukuj — na Mac, iPhone, iPad, Windows, Android lub bezpośrednio w przeglądarce bez instalacji.
+  cta:
+    primary:
+      text: Wypróbuj za darmo
+      text_fits: true
+    other_versions:
+      title: Inne wersje
+  rating:
+    stars: 5
+    text: 5 gwiazdek na
+  image: hero-workspace.png
+  also:
+
+features_grid:
+  title: Co prawdziwa przeglądarka Gantta powinna robić
+  items:
+    - icon: fas fa-file-import
+      title: Otwiera prawdziwe pliki .MPP
+      description: Natywnie odczytuje pliki Microsoft Project .MPP i .XML — zadania, podzadania, zależności, kamienie milowe i zasoby pozostają nietknięte.
+    - icon: fas fa-magnifying-glass-plus
+      title: Interaktywnie, nie obrazek
+      description: Powiększaj oś czasu, przewijaj fazy, rozwijaj grupy, najeżdżaj na zadania. Prawdziwy wykres Gantta, nie zrzut ekranu.
+    - icon: fas fa-laptop-mobile
+      title: Na każdym urządzeniu
+      description: Natywne aplikacje dla Mac, iOS, iPad, Windows i Android oraz wersja przeglądarkowa — otwieraj ten sam plik wszędzie.
+    - icon: fas fa-eye
+      title: Bez wiedzy z zarządzania projektami
+      description: Jeśli chcesz tylko zobaczyć, co pokazuje Gantt — datę, zależność, kto co robi — nie musisz uczyć się nowego narzędzia.
+
+faq:
+  title: Przeglądarka Gantta — częste pytania
+  items:
+    - question: Jak otworzyć wykres Gantta bez Microsoft Project?
+      answer: Otwórz plik w Ingantt. Bezpośrednio importuje natywny format .MPP Microsoft Project oraz MS Project XML, więc plik od kolegi używającego MS Project otwiera się jako w pełni interaktywny wykres Gantta — bez licencji MS Project ani instalacji Windows. Zadania, zależności i ścieżka krytyczna są zachowane.
+    - question: Czy istnieje darmowa przeglądarka Gantta?
+      answer: Ingantt oferuje 7-dniowy darmowy okres próbny bez karty kredytowej. Próba obejmuje pełne przeglądanie i edycję plików .MPP i MS Project XML na wszystkich platformach. Po próbie plany płatne zaczynają się od 5,99 USD za użytkownika miesięcznie. Większość jednorazowych potrzeb przeglądania mieści się w darmowej próbie.
+    - question: Czy mogę wydrukować lub udostępnić oglądany wykres Gantta?
+      answer: Tak. Ingantt eksportuje wykres Gantta do PDF lub PNG, abyś mógł go wydrukować, dołączyć do e-maila lub wkleić do prezentacji. Eksport PDF zachowuje układ osi czasu na dowolnym poziomie powiększenia. Jeśli musisz później otworzyć ten sam .MPP gdzie indziej, zobacz nasz przewodnik <a href="/open-mpp-file">otwierania plików .MPP bez Microsoft Project</a>.
+  support:
+    title: Zacznij przeglądać wykresy Gantta z Ingantt
+    docs:
+      text: Do dokumentacji
+    contact:
+      title: Masz więcej pytań?<br>Skontaktuj się z nami e-mailem.
+      text: Napisz do nas
+      icon: fa fa-envelope
+
+cta:
+  title: Otwórz wykres Gantta w kilka sekund
+  subtitle: Przeciągnij plik .MPP lub XML do Ingantt i przeglądaj go na każdym urządzeniu — darmowa próba, bez karty.
+  button:
+    text: Otwórz Gantta

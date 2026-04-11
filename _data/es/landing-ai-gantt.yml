@@ -1,0 +1,50 @@
+title_tag: Generador de Diagrama de Gantt con IA — del Prompt al Plan en 30s | Ingantt
+meta_keywords: diagrama de gantt ia, gantt con ia, ia gantt, generador gantt ia, diagrama gantt ai, ia planificación proyecto, gantt inteligente, creador gantt ia, ia gestión proyecto, prompt a gantt, mejor gantt ia, generador cronograma ia
+meta_description: Convierte una descripción en un diagrama de Gantt completo en 30 segundos. La IA de Ingantt crea tareas, dependencias y cronograma. Prueba gratis, sin tarjeta.
+
+hero:
+  title: Generador de Diagrama de Gantt con IA — del Prompt al Plan en 30 Segundos
+  subtitle: Describe tu proyecto en lenguaje natural y la IA de Ingantt crea un diagrama de Gantt completo — tareas, dependencias, cronograma y recursos — listo para editar y compartir.
+  cta:
+    primary:
+      text: Prueba gratis
+      text_fits: true
+    other_versions:
+      title: Otras versiones
+  rating:
+    stars: 5
+    text: 5 estrellas en
+  image: hero-workspace.png
+  also:
+
+faq:
+  title: Diagrama de Gantt con IA — Preguntas frecuentes
+  items:
+    - question: ¿Puede la IA crear un diagrama de Gantt de verdad?
+      answer: Sí. La IA de Ingantt genera diagramas de Gantt completos a partir de descripciones de proyecto en lenguaje natural, incluyendo tareas, subtareas, dependencias, duraciones y hitos. Describes el objetivo en una o dos frases, la IA elabora el plan en unos 30 segundos y tú lo editas después.
+    - question: ¿Cómo genera la IA un diagrama de Gantt?
+      answer: Ingantt envía tu descripción a un modelo de lenguaje entrenado en patrones de gestión de proyectos. El modelo descompone el trabajo en fases y tareas, elige duraciones realistas, conecta las dependencias y renderiza el resultado como un diagrama de Gantt editable — no una imagen estática.
+    - question: ¿Un diagrama de Gantt con IA es mejor que una plantilla?
+      answer: Las plantillas son genéricas; un diagrama de Gantt con IA está personalizado para tu proyecto en un solo paso. Con una plantilla, tienes que renombrar tareas, ajustar duraciones y añadir dependencias manualmente. La IA lo hace todo a partir del prompt, y el resultado es totalmente editable.
+    - question: ¿Puede ChatGPT crear un diagrama de Gantt?
+      answer: ChatGPT puede describir un plan de proyecto en texto, pero no puede producir un diagrama de Gantt interactivo y editable con dependencias reales, hitos y asignación de recursos. La IA de Ingantt sí — y guarda el resultado como un archivo .MPP compatible con Microsoft Project.
+    - question: ¿Puedo editar lo que crea la IA?
+      answer: Sí. Cada diagrama de Gantt generado por la IA es totalmente editable. Arrastra tareas, ajusta duraciones, añade o elimina dependencias, reasigna recursos, o pide a la IA que revise una sección.
+    - question: ¿A qué formatos exporta el diagrama de Gantt con IA?
+      answer: Ingantt guarda en el formato nativo de Microsoft Project (.MPP) y en .XML, y exporta a PDF y PNG. Puedes abrir el mismo proyecto en Microsoft Project o compartir un archivo .MPP con un compañero.
+    - question: ¿Hay una prueba gratuita?
+      answer: Sí. La prueba gratuita de 7 días incluye generación de proyectos con IA ilimitada, edición completa, importación/exportación de MS Project e integración con Google Drive. Sin tarjeta de crédito.
+  support:
+    title: Comienza a planificar con Ingantt
+    docs:
+      text: Ir a la documentación
+    contact:
+      title: ¿Más preguntas?<br>Contáctanos por correo electrónico.
+      text: Envíanos un email
+      icon: fa fa-envelope
+
+cta:
+  title: ¿Listo para crear tu primer diagrama de Gantt con IA?
+  subtitle: Comienza tu prueba gratuita y convierte una descripción de proyecto en un plan completo en 30 segundos.
+  button:
+    text: Prueba gratis

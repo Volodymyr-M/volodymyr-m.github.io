@@ -27,6 +27,7 @@ features_grid:
     - icon: fas fa-robot
       title: AI-Powered Planning
       description: Generate complete project plans from simple descriptions using our AI assistant.
+      url: /ai-gantt-chart.html
     - icon: fas fa-brain
       title: Plan everything
       description: Schedule, costs, tasks, dependencies, resources and more—all in one place.
@@ -36,6 +37,7 @@ features_grid:
     - icon: fas fa-file-import
       title: MS Project Compatible
       description: Import .MPP files and save to MS Project compatible XML—no compromises.
+      url: /open-mpp-file.html
 
 demo:
   title: See Ingantt in Action

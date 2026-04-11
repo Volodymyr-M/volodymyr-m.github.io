@@ -1,0 +1,48 @@
+title_tag: Trình tạo biểu đồ Gantt AI — Từ prompt đến kế hoạch trong 30 giây | Ingantt
+meta_keywords: biểu đồ gantt AI, AI gantt, trình tạo gantt AI, AI lập kế hoạch dự án, quản lý dự án AI, biểu đồ gantt thông minh, biểu đồ gantt hiện đại, prompt đến gantt
+meta_description: Biến mô tả dự án thành biểu đồ Gantt đầy đủ trong 30 giây. AI của Ingantt tạo tự động các nhiệm vụ, phụ thuộc và tiến độ. Dùng thử miễn phí, không cần thẻ.
+
+hero:
+  title: Trình tạo biểu đồ Gantt AI — Từ prompt đến kế hoạch trong 30 giây
+  subtitle: Mô tả dự án của bạn bằng ngôn ngữ tự nhiên và AI của Ingantt sẽ tạo biểu đồ Gantt đầy đủ — nhiệm vụ, phụ thuộc, tiến độ và tài nguyên — sẵn sàng để chỉnh sửa và chia sẻ.
+  cta:
+    primary:
+      text: Dùng thử miễn phí
+      text_fits: true
+    other_versions:
+      title: Các phiên bản khác
+  rating:
+    stars: 5
+    text: 5 sao trên
+  image: hero-workspace.png
+  also:
+
+faq:
+  title: Biểu đồ Gantt AI — Câu hỏi thường gặp
+  items:
+    - question: AI thực sự có thể tạo biểu đồ Gantt không?
+      answer: Có. AI của Ingantt tạo biểu đồ Gantt hoàn chỉnh từ các mô tả dự án bằng ngôn ngữ tự nhiên, bao gồm nhiệm vụ, nhiệm vụ con, phụ thuộc, thời lượng và cột mốc. Bạn mô tả mục tiêu trong một hoặc hai câu, AI lập kế hoạch trong khoảng 30 giây và bạn chỉnh sửa sau đó.
+    - question: AI tạo biểu đồ Gantt như thế nào?
+      answer: Ingantt gửi mô tả của bạn đến một mô hình ngôn ngữ được đào tạo trên các mẫu quản lý dự án. Mô hình phân chia công việc thành các giai đoạn và nhiệm vụ, chọn thời lượng thực tế, kết nối các phụ thuộc và hiển thị kết quả dưới dạng biểu đồ Gantt thực sự có thể chỉnh sửa — không phải hình ảnh tĩnh.
+    - question: Biểu đồ Gantt AI có tốt hơn mẫu không?
+      answer: Các mẫu là chung chung; biểu đồ Gantt AI được điều chỉnh cho dự án của bạn trong một bước. Với mẫu, bạn vẫn phải tự đổi tên nhiệm vụ, điều chỉnh thời lượng và thêm phụ thuộc. AI làm tất cả từ prompt và kết quả vẫn có thể chỉnh sửa đầy đủ.
+    - question: ChatGPT có thể tạo biểu đồ Gantt không?
+      answer: ChatGPT có thể mô tả kế hoạch dự án bằng văn bản, nhưng không thể tạo biểu đồ Gantt tương tác, có thể chỉnh sửa với phụ thuộc thực, cột mốc và phân bổ tài nguyên. AI của Ingantt làm được — và lưu kết quả dưới dạng tệp .MPP tương thích với Microsoft Project.
+    - question: Tôi có thể chỉnh sửa những gì AI tạo không?
+      answer: Có. Mọi biểu đồ Gantt do AI tạo đều có thể chỉnh sửa đầy đủ. Kéo nhiệm vụ, điều chỉnh thời lượng, thêm hoặc xóa phụ thuộc, phân bổ lại tài nguyên hoặc yêu cầu AI sửa đổi một phần.
+    - question: Có bản dùng thử miễn phí không?
+      answer: Có. Bản dùng thử miễn phí 7 ngày bao gồm tạo dự án AI không giới hạn, chỉnh sửa đầy đủ, nhập/xuất MS Project và tích hợp Google Drive. Không cần thẻ tín dụng.
+  support:
+    title: Bắt đầu lập kế hoạch với Ingantt
+    docs:
+      text: Đến tài liệu
+    contact:
+      title: Còn câu hỏi khác?<br>Liên hệ với chúng tôi qua email.
+      text: Gửi email
+      icon: fa fa-envelope
+
+cta:
+  title: Sẵn sàng tạo biểu đồ Gantt AI đầu tiên của bạn?
+  subtitle: Bắt đầu dùng thử miễn phí và biến mô tả dự án thành kế hoạch đầy đủ trong 30 giây.
+  button:
+    text: Dùng thử miễn phí

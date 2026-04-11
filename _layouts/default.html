@@ -29,9 +29,10 @@ layout: compress
     <meta name="twitter:title" content="{{ head_source.title_tag }}">
     <meta name="twitter:description" content="{{ head_source.meta_description }}">
     <meta name="twitter:image" content="{{ site.url }}/images/heros/hero-workspace.png">
-    {% if landing_data.faq.items %}
+    {% assign faq_source = landing_data.faq | default: default_landing_data.faq %}
+    {% if page.data_file_name and faq_source.items %}
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in landing_data.faq.items %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.answer | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
+    {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{% for item in faq_source.items %}{"@type":"Question","name":{{ item.question | jsonify }},"acceptedAnswer":{"@type":"Answer","text":{{ item.answer | jsonify }}}}{% unless forloop.last %},{% endunless %}{% endfor %}]}
     </script>
     {% endif %}
     {% assign os_name = '' %}{% case page.data_file_name %}{% when 'landing-macos' %}{% assign os_name = 'macOS' %}{% when 'landing-ios' %}{% assign os_name = 'iOS' %}{% when 'landing-windows' %}{% assign os_name = 'Windows' %}{% when 'landing-android' %}{% assign os_name = 'Android' %}{% endcase %}
