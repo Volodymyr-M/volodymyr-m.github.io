@@ -1,2 +1,4 @@
 User-agent: *
+Allow: /
+
 Sitemap: https://ingantt.com/sitemap.xml
