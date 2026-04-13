@@ -1,5 +1,2 @@
----
-layout: content
----
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Sitemap: https://ingantt.com/sitemap.xml
