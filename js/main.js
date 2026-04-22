@@ -141,6 +141,28 @@ if (viewsShowcase) {
     }
 }
 
+// CTA click tracking (Google Analytics + Google Ads conversion)
+if (typeof gtag === 'function') {
+    const pageKey = document.body.dataset.pageKey || 'unknown';
+    const reportConversion = () => {
+        gtag('event', 'conversion', {
+            'send_to': 'AW-16857347186/4Pa5CIL-o5saEPLomuY-',
+            'value': 1.0,
+            'currency': 'UAH'
+        });
+    };
+    document.querySelectorAll('.main-cta').forEach(element => {
+        element.addEventListener('click', () => {
+            const label = element.getAttribute('data-label') || 'Unknown';
+            gtag('event', pageKey + '_cta_click', {
+                'event_category': 'click',
+                'event_label': label
+            });
+            reportConversion();
+        });
+    });
+}
+
 // Show more testimonials functionality
 const showMoreBtn = document.querySelector('.show-more-button');
 const hiddenTestimonials = document.querySelectorAll('.hidden-testimonials');

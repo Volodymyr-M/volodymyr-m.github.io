@@ -297,11 +297,22 @@ p  { margin: 0 0 var(--s-4) 0; }
 .strip-cell { white-space: nowrap; }
 .strip-cell:first-child { color: var(--signal); }
 .strip-lang { margin-left: auto; }
+.strip-cta { margin-left: auto; }
+.strip-cta a {
+    color: var(--signal);
+    text-decoration: none;
+}
+.strip-cta a:hover,
+.strip-cta a:focus-visible {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
 @media (max-width: 720px){
     .sheet-strip .container { gap: var(--s-4); }
 }
 @media (max-width: 480px){
     .strip-edition { display: none; }
+    body[data-page-key="landing-web"] .strip-project { display: none; }
 }
 
 /* ---------- Header ---------- */
@@ -3727,27 +3738,22 @@ footer {
 .footer-bottom {
     border-top: 0;
     padding: var(--s-5) 0 var(--s-4) 0;
-    text-align: left;
+    text-align: center;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-family: var(--font-mono);
     font-size: 0.75rem;
     letter-spacing: 0.1em;
     color: rgba(244, 239, 230, 0.72);
     text-transform: uppercase;
 }
-.footer-bottom p { text-align: left; margin: 0; }
-.footer-bottom::after {
-    content: "drafted · engraved · scheduled";
-    color: rgba(244, 239, 230, 0.55);
-}
+.footer-bottom p { text-align: center; margin: 0; }
 
 @media (max-width: 900px){ .footer-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 520px){
     .footer-grid { grid-template-columns: 1fr; }
-    .footer-bottom { flex-direction: column; gap: var(--s-3); align-items: flex-start; }
-    .footer-bottom::after { content: ""; display:none; }
+    .footer-bottom { flex-direction: column; gap: var(--s-3); }
 }
 
 /* ---------- Language select ---------- */
