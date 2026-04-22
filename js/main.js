@@ -108,6 +108,39 @@ featureTabs.forEach(tab => {
     });
 });
 
+// 10 Views Showcase — tile click swaps the big screenshot, "show more" expands extra tiles
+const viewsShowcase = document.querySelector('.views-showcase');
+if (viewsShowcase) {
+    const tiles = viewsShowcase.querySelectorAll('.view-tile');
+    const images = viewsShowcase.querySelectorAll('.view-image');
+    tiles.forEach(tile => {
+        tile.addEventListener('click', () => {
+            const id = tile.getAttribute('data-view');
+            tiles.forEach(t => t.classList.toggle('active', t === tile));
+            images.forEach(img => img.classList.toggle('active', img.getAttribute('data-view-image') === id));
+            viewsShowcase.setAttribute('data-active-view', id);
+        });
+    });
+    const moreToggle = viewsShowcase.querySelector('.views-more-toggle');
+    const moreGrid = viewsShowcase.querySelector('.views-tiles-more');
+    if (moreToggle && moreGrid) {
+        moreToggle.addEventListener('click', () => {
+            const expanded = moreToggle.getAttribute('aria-expanded') === 'true';
+            moreToggle.setAttribute('aria-expanded', (!expanded).toString());
+            if (expanded) {
+                moreGrid.hidden = true;
+                moreToggle.querySelector('.views-more-text').textContent = moreToggle.getAttribute('data-original-label') || moreToggle.querySelector('.views-more-text').textContent;
+            } else {
+                if (!moreToggle.getAttribute('data-original-label')) {
+                    moreToggle.setAttribute('data-original-label', moreToggle.querySelector('.views-more-text').textContent);
+                }
+                moreGrid.hidden = false;
+                moreToggle.querySelector('.views-more-text').textContent = moreToggle.getAttribute('data-collapse-label') || 'Show fewer';
+            }
+        });
+    }
+}
+
 // Show more testimonials functionality
 const showMoreBtn = document.querySelector('.show-more-button');
 const hiddenTestimonials = document.querySelectorAll('.hidden-testimonials');

@@ -1,216 +1,37 @@
-/* Android-specific theme overrides */
-.light-mode {
-    /* Light Mode Colors */
-    --primary-color: #66bb6a !important; /* Soft green */
-    --primary-hover: #4caf50 !important; /* Slightly darker green for hover */
-    --secondary-color: #81c784 !important; /* Light green */
-    --accent-color: #f5a623 !important; /* Bright orange for accent */
-    --background: #ffffff !important;
-    --surface: #ffffff !important;
-    --surface-alt: #f2f4f7 !important;
-    --text-primary: #333333 !important; /* Dark gray for text */
-    --text-secondary: #555555 !important; /* Medium gray for secondary text */
-    --text-muted: #777777 !important; /* Light gray for muted text */   
-    --border: #e1e1e1 !important; /* Light gray for borders */
-    --shadow: rgba(0, 0, 0, 0.1) !important; /* Slightly darker shadow */
-    
-    /* Gradients */
-    --gradient-1: linear-gradient(135deg, #66bb6a, #81c784) !important; /* Green to light green gradient */
-    --gradient-2: linear-gradient(135deg, #f5a623, #81c784) !important; /* Orange to light green gradient */
-}
+/* Android landing — tint only. */
 
-.light-mode h1, .light-mode h2, .light-mode h3, .light-mode h4, .light-mode h5, .light-mode h6 {
-    color: var(--text-primary) !important;
+:root {
+    --signal: #1E8E3E;           /* Material green */
+    --signal-deep: #156C2E;
+    --signal-wash: #E3F3E8;
+    --primary-color: var(--signal);
+    --primary-hover: var(--signal-deep);
 }
-
-.light-mode .cta-button.primary {
-    background-color: var(--primary-color) !important;
-    color: var(--surface) !important;
-}
-
-.light-mode .cta-button.secondary {
-    background-color: var(--surface-alt) !important;
-    color: var(--primary-color) !important;
-}
-
 .dark-mode {
-    --primary-color: #66bb6a !important; /* Soft green */
-    --primary-hover: #4caf50 !important; /* Slightly darker green for hover */
-    --secondary-color: #81c784 !important; /* Light green */
-    --accent-color: #f5a623 !important; /* Bright orange for accent */
-    --background: #1c1c1c !important; /* Very dark gray for background */
-    --surface: #2c2c2c !important; /* Dark gray for surfaces */
-    --surface-alt: #1c1c1c !important; /* Very dark gray for alternate surfaces */
-    --text-primary: #f0f0f0 !important; /* Very light gray for primary text */
-    --text-secondary: #d0d0d0 !important; /* Light gray for secondary text */
-    --text-muted: #a0a0a0 !important; /* Muted gray for muted text */
-    --border: #3a3a3a !important; /* Dark gray for borders */
-    --shadow: rgba(0, 0, 0, 0.5) !important; /* Darker shadow */
-    
-    /* Gradients */
-    --gradient-1: linear-gradient(135deg, #66bb6a, #81c784) !important; /* Green to light green gradient */
-    --gradient-2: linear-gradient(135deg, #f5a623, #81c784) !important; /* Orange to light green gradient */
+    --signal: #7ED492;
+    --signal-deep: #5EB876;
+    --signal-wash: #122818;
+    --primary-color: var(--signal);
+    --primary-hover: var(--signal-deep);
 }
 
-.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
-    color: var(--text-primary) !important;
-}
-
-.dark-mode .cta-button.primary {
-    background-color: var(--primary-color) !important;
-    color: var(--surface) !important;
-}
-
-.dark-mode .cta-button.secondary {
-    background-color: var(--surface-alt) !important;
-    color: var(--primary-color) !important;
-}
-
-/* Common styles */
+/* Offset dot grid for Android */
 body {
-    color: var(--text-primary) !important;
-    background-color: var(--background) !important;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-image:
+        radial-gradient(circle, var(--rule-soft) 1.25px, transparent 1.25px),
+        radial-gradient(circle, var(--rule-soft) 1.25px, transparent 1.25px);
+    background-size: 28px 28px, 28px 28px;
+    background-position: 0 0, 14px 14px;
 }
+@media (max-width: 640px){ body { background-size: 22px 22px, 22px 22px; background-position: 0 0, 11px 11px; } }
 
-.hero {
-    background: var(--surface-alt) !important;
-    position: relative;
-    overflow: hidden;
-}
-
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0.03;
-    pointer-events: none;
-    background-color: var(--primary-color) !important;
-}
-
-.hero-content h1 {
-    color: var(--primary-color) !important;
-    font-weight: 800;
-}
-
-.dark-mode .hero-content h1 {
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.hero-subtitle {
-    color: var(--text-secondary) !important;
-}
-
-.cta-button.primary {
-    background-color: var(--primary-color) !important;
-    color: var(--surface) !important;
-    border: none;
-    transition: all 0.2s ease;
-    box-shadow: 0 2px 4px var(--shadow) !important;
-}
-
-.dark-mode .cta-button.primary {
-    background: var(--gradient-1) !important;
-    color: var(--text-on-gradient) !important;
-}
-
-.cta-button.primary:hover {
-    background-color: var(--primary-hover) !important;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 6px var(--shadow) !important;
-}
-
-.cta-button.secondary {
-    background: var(--surface-alt) !important;
-    color: var(--primary-color) !important;
-    border: 1px solid var(--border) !important;
-    transition: all 0.2s ease;
-}
-
-.cta-button.secondary:hover {
-    border-color: var(--primary-color) !important;
-}
-
-.card, .feature-card, .pricing-card {
-    background-color: var(--surface) !important;
-    border: 1px solid var(--border) !important;
-    box-shadow: 0 2px 4px var(--shadow) !important;
-    transition: all 0.2s ease;
-}
-
-.card:hover, .feature-card:hover, .pricing-card:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px var(--shadow) !important;
-    border-color: var(--primary-color) !important;
-}
-
-section {
-    background-color: var(--surface-alt) !important;
-    border-bottom: 1px solid var(--border) !important;
-}
-
-section:nth-child(even) {
-    background-color: var(--surface) !important;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    color: var(--text-primary) !important;
-    font-weight: 700;
-}
-
-h2 {
-    color: var(--primary-color) !important;
-}
-
-.dark-mode h2 {
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-}
-
-.section-subtitle {
-    color: var(--text-secondary) !important;
-}
-
-/* Additional UI enhancements */
-.language-dropdown {
-    background: var(--surface) !important;
-    border: 1px solid var(--border) !important;
-    box-shadow: 0 2px 4px var(--shadow) !important;
-}
-
-.language-dropdown a {
-    color: var(--text-primary) !important;
-    transition: background-color 0.2s ease;
-}
-
-.language-dropdown a:hover {
-    background-color: var(--surface-alt) !important;
-    color: var(--primary-color) !important;
-}
-
-.testimonials-grid {
-    gap: 2rem;
-}
-
-.pricing-grid {
-    gap: 2rem;
-}
-
-/* Success/Error states */
-.success {
-    color: #10b981 !important;
-}
-
-.error {
-    color: #ef4444 !important;
-}
-
-.light-mode .cta h2 {
-    color: var(--text-on-gradient) !important;
+.hero .hero-content::after {
+    content: "Android · Phone · Tablet · Foldable · ChromeOS";
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--signal);
+    margin-top: var(--s-6);
 }
