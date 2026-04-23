@@ -31,6 +31,96 @@
 
 .page-cluster .timeline-rule { max-width: 360px; }
 
+/* ---------- Cluster hero with stacked media: slot → arrow → slot ---------- */
+/* Applies to any cluster page whose landing-*.yml declares hero.media.
+   Widens the wrapper so screenshots have room to breathe, centers the
+   hero copy, and stacks the two media slots below it. */
+.page-cluster .hero-wrapper:has(.hero-ai-media) {
+    grid-template-columns: minmax(0, 1fr);
+    max-width: 68rem;
+    row-gap: var(--s-7);
+}
+.page-cluster .hero-wrapper:has(.hero-ai-media) .hero-content {
+    order: 1;
+    max-width: 48rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.page-cluster .hero-wrapper:has(.hero-ai-media) .hero-ai-media {
+    order: 2;
+}
+.page-cluster .hero-wrapper:has(.hero-ai-media) .hero-content .timeline-rule {
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-cluster .hero-wrapper:has(.hero-ai-media) .hero-content .hero-subtitle {
+    margin-left: auto;
+    margin-right: auto;
+}
+.page-cluster .hero-wrapper:has(.hero-ai-media) .hero-content .cta-group {
+    justify-content: center;
+}
+.page-cluster .hero-wrapper:has(.hero-ai-media) .hero-content .hero-badges {
+    justify-content: center;
+}
+
+.hero-ai-media {
+    max-width: 60rem;
+    margin: 0 auto;
+    width: 100%;
+}
+.hero-ai-media .create-ai-prompt {
+    max-width: 46rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hero-ai-media .create-ai-prompt-body {
+    text-align: center;
+}
+.hero-ai-media .create-ai-frame + .create-ai-prompt-arrow,
+.hero-ai-media .create-ai-prompt + .create-ai-prompt-arrow {
+    margin-top: var(--s-3);
+}
+
+/* Large-format prompt body — for single-token inputs like a file extension. */
+.hero-ai-media .create-ai-prompt-xl {
+    max-width: 22rem;
+    text-align: center;
+    padding: var(--s-6) var(--s-5);
+}
+.hero-ai-media .create-ai-prompt-xl .create-ai-prompt-label {
+    text-align: center;
+}
+.hero-ai-media .create-ai-prompt-xl .create-ai-prompt-body {
+    font-style: normal;
+    font-weight: 500;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    text-align: center;
+}
+
+/* Optional caption next to the arrow ("opens as", "becomes", etc.) */
+.create-ai-prompt-arrow-labelled {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--s-2);
+}
+.create-ai-prompt-arrow-labelled .create-ai-prompt-arrow-line {
+    display: none;
+}
+.create-ai-prompt-arrow-labelled .create-ai-prompt-arrow-label {
+    font-family: var(--font-mono);
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--signal);
+}
+.create-ai-prompt-arrow-labelled i {
+    margin-top: 0;
+    font-size: 0.95rem;
+}
+
 /* ---------- Features as an editorial numbered list ---------- */
 .page-cluster .features {
     background: var(--paper);
@@ -41,7 +131,8 @@
 
 .page-cluster .features h2 {
     max-width: 48rem;
-    margin-bottom: var(--s-6);
+    margin: 0 auto var(--s-6);
+    text-align: center;
 }
 
 .page-cluster .features-grid {
@@ -51,6 +142,8 @@
     border-radius: 0;
     overflow: visible;
     max-width: 52rem;
+    margin-left: auto;
+    margin-right: auto;
     counter-reset: fcnote;
 }
 
