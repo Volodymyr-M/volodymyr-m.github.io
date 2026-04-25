@@ -2381,10 +2381,6 @@
     <xhtml:link rel="alternate" hreflang="zh" href="https://ingantt.com/zh/open-mpp-file.html"/>
   </url>
   <url>
-    <loc>https://ingantt.com/de/gantt-diagramm-erstellen.html</loc>
-    <xhtml:link rel="alternate" hreflang="de" href="https://ingantt.com/de/gantt-diagramm-erstellen.html"/>
-  </url>
-  <url>
     <loc>https://ingantt.com/blog.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://ingantt.com/blog.html"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://ingantt.com/de/blog.html"/>
