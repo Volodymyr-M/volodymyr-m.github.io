@@ -143,9 +143,9 @@ if (viewsShowcase) {
 
 // CTA click tracking (Google Analytics + Google Ads conversion)
 if (typeof gtag === 'function') {
-    const rawKey = (document.body.dataset.pageKey || 'unknown').replace(/^landing-/, '');
+    const rawKey = (document.body.dataset.pageKey || 'unknown').replace(/^landing-/, '') + '_page';
     // Cluster pages roll up to the Web landing for conversion tracking.
-    const pageKey = document.body.classList.contains('page-cluster') ? 'web' : rawKey;
+    const pageKey = document.body.classList.contains('page-cluster') ? 'web_page' : rawKey;
     const reportConversion = () => {
         gtag('event', 'conversion', {
             'send_to': 'AW-16857347186/4Pa5CIL-o5saEPLomuY-',
