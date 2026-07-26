@@ -632,7 +632,9 @@ nav {
     font-stretch: 88%;
     font-size: 0.9375rem;
     font-weight: 600;
-    letter-spacing: 0.01em;
+    /* Caps need air between letters — 0.01em was tuned for mixed case. */
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
     text-decoration: none;
     cursor: pointer;
     transition: transform var(--transition-fast), background var(--transition-fast), color var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
@@ -2529,14 +2531,12 @@ a.feature-card:hover h3 {
     min-width: 180px;
     background: var(--paper-2);
 }
+/* --paper reads light on the deep signal blue, dark on the exposed dark-mode blue */
 .comparison-table thead th.comparison-col-us {
     background: var(--signal);
-    color: var(--deep);
+    color: var(--paper);
     border-bottom-color: var(--deep);
     position: relative;
-}
-.dark-mode .comparison-table thead th.comparison-col-us {
-    color: var(--paper);
 }
 
 /* Row labels (Fraunces display, left-aligned) */
@@ -3048,13 +3048,14 @@ a.feature-card:hover h3 {
     display: inline-flex;
     justify-content: center;
 }
+/* Label colour is left to .cta-button.primary — white on the light-mode signal,
+   --deep on the exposed dark-mode signal. */
 .support-content .cta-button.primary {
     background: var(--signal);
-    color: var(--deep);
     border-color: var(--signal);
     box-shadow: none;
 }
-.support-content .cta-button.primary:hover { background: var(--signal-deep); border-color: var(--signal-deep); color: var(--deep); }
+.support-content .cta-button.primary:hover { background: var(--signal-deep); border-color: var(--signal-deep); }
 .support-content .cta-button.secondary {
     background: transparent;
     color: var(--chalk);
@@ -3408,6 +3409,7 @@ footer {
 .social-links { display: flex; gap: var(--s-4); margin-top: var(--s-5); }
 .social-links a {
     color: rgba(238, 243, 249, 0.82);
+    text-decoration: none;
     font-size: 1.125rem;
     transition: color var(--transition-fast), transform var(--transition-fast), border-color var(--transition-fast);
     width: 34px; height: 34px;
