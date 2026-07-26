@@ -1,4 +1,4 @@
-/* Windows landing — tint only. */
+/* Windows landing — tint only. Layout, type, and rhythm come from styles.css. */
 
 :root {
     --signal: #0067C0;           /* Fluent blue */
@@ -15,23 +15,4 @@
     --primary-hover: var(--signal-deep);
 }
 
-/* Crosshatch grid for Windows */
-body {
-    background-image:
-        linear-gradient(to right, var(--rule-soft) 1px, transparent 1px),
-        linear-gradient(to bottom, var(--rule-soft) 1px, transparent 1px),
-        linear-gradient(45deg, transparent 49.5%, var(--rule-soft) 49.5% 50.5%, transparent 50.5%);
-    background-size: 64px 64px, 64px 64px, 64px 64px;
-    background-blend-mode: normal;
-}
-
-.hero .hero-content::after {
-    content: "Windows · 10 · 11 · ARM64 · x64";
-    display: block;
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--signal);
-    margin-top: var(--s-6);
-}
+.hero .hero-content::after { content: "Windows · 10 · 11 · ARM64 · x64"; }

@@ -9,8 +9,7 @@ body { line-height: 1.7; }
 .blog-date {
     font-family: var(--font-mono);
     font-size: 0.72rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
     color: var(--ink-soft);
     text-align: left;
     margin-bottom: var(--s-3);
@@ -41,7 +40,7 @@ body { line-height: 1.7; }
 .blog-subtitle {
     font-family: var(--font-body);
     font-size: 1.25rem;
-    font-style: italic;
+    font-style: normal;
     color: var(--ink-soft);
     margin-bottom: var(--s-6);
     text-align: left;
@@ -103,7 +102,7 @@ body { line-height: 1.7; }
     border-left: 3px solid var(--signal);
     background: var(--paper-2);
     font-family: var(--font-display);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.2rem;
     color: var(--ink);
 }
@@ -114,7 +113,8 @@ body { line-height: 1.7; }
     border-top: 1px solid var(--rule);
     text-align: left;
     color: var(--ink-soft);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.8rem;
     letter-spacing: 0.08em;
 }
@@ -144,10 +144,11 @@ h1 { color: inherit; }
     border-top: 1px solid var(--rule);
 }
 .older-posts-title {
-    font-family: var(--font-mono);
-    font-weight: 500;
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink-soft);
     text-align: left;
@@ -223,8 +224,7 @@ h1 { color: inherit; }
 .older-post-date {
     font-family: var(--font-mono);
     font-size: 0.72rem;
-    letter-spacing: 0.16em;
-    text-transform: uppercase;
+    letter-spacing: 0.02em;
     color: var(--ink-soft);
     margin-bottom: var(--s-3);
 }
@@ -246,7 +246,9 @@ h1 { color: inherit; }
     gap: var(--s-3);
     padding: 0;
     margin: 0 0 var(--s-6) 0;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;

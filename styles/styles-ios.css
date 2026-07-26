@@ -1,5 +1,4 @@
-/* iOS landing — tint the shared drafting-table system with iOS signal.
-   Only colour + one texture detail changes; layout, type, and rhythm stay. */
+/* iOS landing — tint only. Layout, type, and rhythm come from styles.css. */
 
 :root {
     --signal: #0A84FF;           /* SF system blue */
@@ -17,22 +16,5 @@
     --primary-hover: var(--signal-deep);
 }
 
-/* Dotted grid for iOS (springboard) */
-body {
-    background-image:
-        radial-gradient(circle, var(--rule-soft) 1px, transparent 1px);
-    background-size: 22px 22px;
-}
-@media (max-width: 640px){ body { background-size: 18px 18px; } }
-
-/* Tag the OS in the hero — sits above the H1 */
-.hero .hero-content::after {
-    content: "iOS · Universal · iPad · iPhone";
-    display: block;
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--signal);
-    margin-top: var(--s-6);
-}
+/* Tag the OS in the hero. Styling lives in styles.css; this only names it. */
+.hero .hero-content::after { content: "iOS · Universal · iPad · iPhone"; }

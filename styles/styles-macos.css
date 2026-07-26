@@ -1,7 +1,7 @@
-/* macOS landing — tint only. */
+/* macOS landing — tint only. Layout, type, and rhythm come from styles.css. */
 
 :root {
-    --signal: #7A2ABF;           /* macOS indigo — darkened for AA on cream */
+    --signal: #7A2ABF;           /* macOS indigo — darkened to hold AA on paper */
     --signal-deep: #5A1C90;
     --signal-wash: #EFE2FA;
     --primary-color: var(--signal);
@@ -15,14 +15,4 @@
     --primary-hover: var(--signal-deep);
 }
 
-/* Hero tag */
-.hero .hero-content::after {
-    content: "macOS · Apple Silicon · Intel · Universal";
-    display: block;
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--signal);
-    margin-top: var(--s-6);
-}
+.hero .hero-content::after { content: "macOS · Apple Silicon · Intel · Universal"; }

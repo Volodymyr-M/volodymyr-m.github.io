@@ -1,54 +1,66 @@
 /* ============================================================
-   Ingantt — "Drafting table" design system
-   Aesthetic: editorial blueprint, gantt-bar motifs, hairline grid
-   No gradient text. No blurred blobs. One signal colour.
+   Ingantt — "Cyanotype" design system
+   Ground: cool drafting stock, blueprint navy in the dark.
+   Type:   one grotesk (Archivo) + one mono, for data only.
+   Colour: blue is structure. Red means critical path and nothing else —
+           the same convention MS Project and Primavera use.
+   Geometry comes from the product: bars, spans, dependency links.
    ============================================================ */
 
 /* ---------- Fonts ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=JetBrains+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,62..125,100..900;1,62..125,100..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,400&display=swap');
 
 /* ---------- Tokens ---------- */
 :root {
     /* Paper & ink */
-    --paper: #F4EFE6;              /* warm cream */
-    --paper-2: #EDE6D8;            /* slightly darker */
-    --paper-3: #E2D9C6;            /* deepest paper */
-    --ink: #141210;                /* near-black ink */
-    --ink-2: #2B2722;
-    --ink-soft: #5B524A;
-    --rule: #CFC4AE;               /* ruled-grid line */
-    --rule-soft: #E1D7C2;
+    --paper: #F2F5F8;              /* cool drafting stock */
+    --paper-2: #E8EDF3;            /* recessed band */
+    --paper-3: #DBE3EC;            /* deepest paper */
+    --ink: #0E1723;                /* near-black, blue cast */
+    --ink-2: #24313F;
+    --ink-soft: #55636F;           /* 5.6:1 on --paper */
+    --rule: #C6D0DC;               /* hairline */
+    --rule-soft: #DEE5ED;
 
     /* Absolute tokens — do NOT theme-flip.
        Use these anywhere a fixed colour is required (e.g. text on a
-       dark panel that must stay cream in both themes). */
-    --cream: #F4EFE6;
-    --cream-soft: rgba(244, 239, 230, 0.75);
-    --cream-mute: rgba(244, 239, 230, 0.55);
-    --cream-hair: rgba(244, 239, 230, 0.18);
-    --cream-hair-soft: rgba(244, 239, 230, 0.12);
-    --night: #141210;
+       dark panel that must stay pale in both themes). */
+    --chalk: #EEF3F9;
+    --chalk-soft: rgba(238, 243, 249, 0.75);
+    --chalk-mute: rgba(238, 243, 249, 0.55);
+    --chalk-hair: rgba(238, 243, 249, 0.18);
+    --chalk-hair-soft: rgba(238, 243, 249, 0.12);
+    --deep: #0A1A2E;
 
-    /* One signal colour — traffic-cone orange */
-    --signal: #E8471F;
-    --signal-deep: #B8350F;
-    --signal-wash: #FCE7DE;
+    /* Signal — cyanotype blue. Structure, links, active state, normal bars. */
+    --signal: #1350C8;             /* 6.4:1 on --paper */
+    --signal-deep: #0C3A96;
+    --signal-wash: #E2E9F9;
+
+    /* Critical — the only second colour, and it carries meaning:
+       critical path, slipped dates, blocking work. Never decorative. */
+    --critical: #D02F2F;
+    --critical-wash: #FBE6E6;
 
     /* Surfaces */
-    --surface: #FBF7EE;            /* lightest card */
-    --surface-2: #EFE8D7;
-    --border: #D6CAB1;
-    --border-strong: #8D7F68;
+    --surface: #FFFFFF;            /* raised card */
+    --surface-2: #E8EDF3;
+    --border: #CFD9E4;
+    --border-strong: #8494A6;
 
-    /* Status accents used sparingly (blueprint-pencil colours) */
-    --pencil-blue: #24516B;
-    --pencil-red:  #A42A1F;
-    --pencil-green:#5E7042;
+    /* Status accents used sparingly */
+    --pencil-blue: var(--signal);
+    --pencil-red:  var(--critical);
+    --pencil-green:#2F7D5B;
 
-    /* Type */
-    --font-display: "Fraunces", "Times New Roman", serif;
-    --font-body:    "Newsreader", Georgia, "Times New Roman", serif;
-    --font-mono:    "JetBrains Mono", ui-monospace, Menlo, monospace;
+    /* Type — two families, no more */
+    --font-display: "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-body:    "Archivo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-mono:    "DM Mono", ui-monospace, "SF Mono", Menlo, monospace;
+
+    /* Gantt geometry — the page's only decorative vocabulary */
+    --bar-h: 10px;
+    --bar-radius: 1px;
 
     /* Spacing — based on a 6px rhythm */
     --s-1: 0.25rem;
@@ -78,10 +90,11 @@
     --transition-normal: 220ms cubic-bezier(.2,.7,.3,1);
     --transition-slow: 380ms cubic-bezier(.2,.7,.3,1);
 
-    --shadow-sm: 0 1px 0 rgba(20,18,16,0.06);
-    --shadow-md: 0 2px 0 rgba(20,18,16,0.08), 0 8px 24px -16px rgba(20,18,16,0.25);
-    --shadow-lg: 0 2px 0 rgba(20,18,16,0.1),  0 20px 40px -24px rgba(20,18,16,0.35);
-    --shadow-xl: 0 2px 0 rgba(20,18,16,0.12), 0 30px 60px -28px rgba(20,18,16,0.4);
+    /* Real elevation — no offset blocks */
+    --shadow-sm: 0 1px 2px rgba(14, 23, 35, 0.06);
+    --shadow-md: 0 1px 2px rgba(14, 23, 35, 0.06), 0 6px 16px -8px rgba(14, 23, 35, 0.18);
+    --shadow-lg: 0 1px 3px rgba(14, 23, 35, 0.08), 0 16px 34px -14px rgba(14, 23, 35, 0.24);
+    --shadow-xl: 0 2px 6px rgba(14, 23, 35, 0.10), 0 28px 56px -22px rgba(14, 23, 35, 0.30);
     --shadow: var(--shadow-md);
 
     /* Legacy colour aliases (so CSS inside other stylesheets keeps working) */
@@ -97,32 +110,35 @@
 }
 
 .dark-mode {
-    --paper:     #0B1220;      /* blueprint navy — darkest plane */
-    --paper-2:   #070C17;      /* deeper recess BETWEEN cards so cards pop forward */
-    --paper-3:   #132038;
-    --ink:       #F1EEE4;      /* warm white */
-    --ink-2:     #D9D4C6;
-    --ink-soft:  #9BA7BE;      /* slightly brighter so body copy hits AA */
-    --rule:      #2A3A58;
-    --rule-soft: #1A2538;
+    --paper:     #08192E;      /* cyanotype ground — darkest plane */
+    --paper-2:   #050F1F;      /* deeper recess BETWEEN cards so cards pop forward */
+    --paper-3:   #102A4A;
+    --ink:       #E6EEF8;
+    --ink-2:     #C6D4E4;
+    --ink-soft:  #94A9C4;      /* 7.3:1 on --paper */
+    --rule:      #21395A;
+    --rule-soft: #16273F;
 
-    --signal:      #6BE1FF;    /* cyan blueprint ink */
-    --signal-deep: #3DCFF4;
-    --signal-wash: #152B3A;
+    --signal:      #5CC8F5;    /* blueprint ink, exposed */
+    --signal-deep: #33B4EA;
+    --signal-wash: #10314A;
 
-    --surface:   #132038;      /* raised card — lighter than paper */
-    --surface-2: #1B2B47;
-    --border:    #2A3A58;
-    --border-strong: #4B5E82;
+    --critical:      #FF7B6B;
+    --critical-wash: #3A1A18;
 
-    --pencil-blue:  #6BE1FF;
-    --pencil-red:   #F27A6E;
-    --pencil-green: #9FD27C;
+    --surface:   #102A4A;      /* raised card — lighter than paper */
+    --surface-2: #17385E;
+    --border:    #21395A;
+    --border-strong: #44618C;
 
-    --shadow-sm: 0 1px 0 rgba(0,0,0,0.35);
-    --shadow-md: 0 2px 0 rgba(0,0,0,0.4), 0 12px 28px -16px rgba(0,0,0,0.6);
-    --shadow-lg: 0 2px 0 rgba(0,0,0,0.5), 0 24px 50px -28px rgba(0,0,0,0.7);
-    --shadow-xl: 0 2px 0 rgba(0,0,0,0.55),0 40px 70px -30px rgba(0,0,0,0.75);
+    --pencil-blue:  var(--signal);
+    --pencil-red:   var(--critical);
+    --pencil-green: #7FC79E;
+
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+    --shadow-md: 0 1px 2px rgba(0,0,0,0.4), 0 8px 20px -10px rgba(0,0,0,0.6);
+    --shadow-lg: 0 2px 4px rgba(0,0,0,0.5), 0 20px 40px -18px rgba(0,0,0,0.7);
+    --shadow-xl: 0 3px 8px rgba(0,0,0,0.55),0 34px 64px -24px rgba(0,0,0,0.75);
 
     --primary-color: var(--signal);
     --primary-hover: var(--signal-deep);
@@ -140,22 +156,17 @@ html { scroll-behavior: smooth; }
 
 body {
     font-family: var(--font-body);
-    font-size: 1.0625rem;
-    line-height: 1.6;
+    font-size: 1rem;
+    line-height: 1.62;
     color: var(--ink);
     background-color: var(--paper);
-    font-feature-settings: "ss01","ss02","liga","kern";
-    /* Ruled-paper grid — the signature texture */
-    background-image:
-        linear-gradient(to right, var(--rule-soft) 1px, transparent 1px),
-        linear-gradient(to bottom, var(--rule-soft) 1px, transparent 1px);
-    background-size: 64px 64px, 64px 64px;
-    background-position: 0 0;
+    font-feature-settings: "kern","liga","tnum";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     transition: background-color var(--transition-normal), color var(--transition-normal);
 }
 .dark-mode body { background-color: var(--paper); }
 
-/* Selection — orange ink on paper */
 ::selection { background: var(--signal); color: #fff; }
 .dark-mode ::selection { background: var(--signal); color: var(--paper); }
 
@@ -173,119 +184,93 @@ a { color: inherit; }
     position: relative;
 }
 
-/* ---------- Typography ---------- */
+/* ---------- Typography ----------
+   One family. Width and weight do the work that a second and third
+   family used to do. Headings are slightly condensed; labels heavily so. */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-display);
-    font-weight: 500;
+    font-weight: 600;
+    font-stretch: 92%;
     font-style: normal;
     color: var(--ink);
-    letter-spacing: -0.01em;
+    letter-spacing: -0.02em;
     margin: 0 0 var(--s-5) 0;
-    line-height: 1.05;
-    font-optical-sizing: auto;
+    line-height: 1.1;
 }
 h1 {
-    font-size: clamp(3rem, 6.2vw, 5.5rem);
-    font-weight: 400;
+    font-size: clamp(2.75rem, 5.6vw, 4.75rem);
+    font-weight: 700;
+    font-stretch: 88%;
     letter-spacing: -0.035em;
     line-height: 0.98;
+    margin-bottom: var(--s-5);
+    text-wrap: balance;
 }
-h1 em { font-style: italic; color: var(--signal); font-weight: 400; }
 h2 {
-    font-size: clamp(2rem, 4vw, 3rem);
-    font-weight: 400;
-    letter-spacing: -0.02em;
+    font-size: clamp(1.875rem, 3.6vw, 2.75rem);
+    font-weight: 700;
+    font-stretch: 88%;
+    letter-spacing: -0.028em;
 }
-h3 { font-size: 1.375rem; font-weight: 500; line-height: 1.25; }
-h4 { font-size: 1.125rem; font-weight: 600; }
+h3 { font-size: 1.3125rem; font-weight: 600; line-height: 1.28; letter-spacing: -0.015em; }
+h4 { font-size: 1.0625rem; font-weight: 600; letter-spacing: -0.01em; }
 p  { margin: 0 0 var(--s-4) 0; }
 
-/* Section number prefix stamped by the template inside h2 */
-.s-num {
-    display: inline-block;
-    font-family: var(--font-mono);
-    font-size: 0.44em;
-    font-weight: 500;
-    letter-spacing: 0.22em;
-    color: var(--signal);
-    vertical-align: 0.35em;
-    margin-right: 0.9em;
-    padding: 0.15em 0.55em 0.1em;
-    border: 1px solid var(--signal);
-    border-radius: 2px;
-    line-height: 1;
-    text-transform: none;
-    transform: translateY(-0.15em);
-}
-.cta h2 .s-num,
-.pricing-card.featured h3 .s-num { color: var(--signal); border-color: var(--signal); }
-.faq-support .s-num { display: none; }
-@media (max-width: 640px){
-    .s-num { margin-right: 0.6em; font-size: 0.5em; }
+/* Emphasis in a heading is drawn as a Gantt bar under the span, not as an
+   italic. It wraps cleanly because the bar is a background, not a box. */
+h1 em, h2 em, .em-bar {
+    font-style: normal;
+    font-weight: inherit;
+    color: inherit;
+    background-image: linear-gradient(var(--signal), var(--signal));
+    background-repeat: no-repeat;
+    /* Detached from the baseline so it reads as a bar under the phrase, not
+       as a link underline. */
+    background-size: 100% 0.1em;
+    background-position: 0 100%;
+    padding-bottom: 0.22em;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
 }
 
-/* Eyebrow label used across sections */
+/* Condensed caps label. Replaces every mono eyebrow on the page — the mono
+   is now reserved for things that are actually data. */
 .eyebrow {
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 0.18em;
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
     color: var(--ink-soft);
-    display: inline-flex;
-    align-items: center;
-    gap: var(--s-3);
-    margin: 0 0 var(--s-5) 0;
-}
-.eyebrow::before {
-    content: "";
-    width: 28px;
-    height: 2px;
-    background: var(--signal);
     display: inline-block;
+    margin: 0 0 var(--s-4) 0;
 }
 
-/* Section header block: [ 01 ──── ] + title */
-.section-head {
-    margin-bottom: var(--s-7);
-}
-.section-head .section-num {
+/* Tabular data — timestamps, counts, prices, file formats. Nothing else. */
+.mono, .data {
     font-family: var(--font-mono);
-    font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 0.18em;
-    color: var(--ink-soft);
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    gap: var(--s-3);
-    margin-bottom: var(--s-4);
-}
-.section-head .section-num::before { content: ""; width: 10px; height: 10px; background: var(--signal); display: inline-block; }
-.section-head .section-num::after  { content: ""; flex: 1; height: 1px; background: var(--rule); }
-.section-head h2 { margin-bottom: var(--s-3); }
-.section-head .section-sub {
-    font-family: var(--font-body);
-    font-size: 1.125rem;
-    max-width: 52ch;
-    color: var(--ink-soft);
-    font-style: italic;
+    font-variant-numeric: tabular-nums;
+    font-size: 0.8125rem;
+    letter-spacing: 0.01em;
 }
 
 /* ---------- Sheet strip (top metadata bar) ---------- */
 .sheet-strip {
-    background: var(--night);
-    color: rgba(244, 239, 230, 0.78);
-    font-family: var(--font-mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.18em;
+    background: var(--deep);
+    color: var(--chalk-soft);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(244, 239, 230, 0.12);
+    border-bottom: 1px solid var(--chalk-hair-soft);
 }
 .dark-mode .sheet-strip {
-    background: #080C18;
-    color: rgba(244, 239, 230, 0.78);
-    border-bottom-color: rgba(244, 239, 230, 0.12);
+    background: #050F1F;
+    color: var(--chalk-soft);
+    border-bottom-color: var(--chalk-hair-soft);
 }
 .sheet-strip .container {
     display: flex;
@@ -325,14 +310,13 @@ header {
 }
 .header-meta { display: inline-flex; align-items: center; }
 .header-kicker {
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink-soft);
-    padding: 4px 10px;
-    border: 1px solid var(--border-strong);
-    border-radius: 999px;
 }
 @media (max-width: 640px){ .header-kicker { display: none; } }
 nav {
@@ -350,25 +334,28 @@ nav {
 .logo-img { height: 1.75rem; border-radius: 2px; }
 .logo-text {
     font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 1.5rem;
-    letter-spacing: -0.02em;
+    font-weight: 700;
+    font-stretch: 88%;
+    font-size: 1.4375rem;
+    letter-spacing: -0.03em;
     color: var(--ink);
-}
-.logo-text::after {
-    content: "·";
-    margin-left: 0.3em;
-    color: var(--signal);
 }
 
 #theme-toggle {
-    font-family: var(--font-mono);
-    font-size: 0.75rem;
+    font-family: var(--font-display);
+    font-stretch: 80%;
+    font-size: 0.8125rem;
+    font-weight: 600;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     background: transparent;
-    border: 1px solid rgba(244, 239, 230, 0.35);
-    color: var(--cream);
+    border: 1px solid rgba(238, 243, 249, 0.35);
+    color: var(--chalk);
+    /* 44px min so it is a comfortable tap target on touch. */
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    gap: var(--s-2);
     padding: var(--s-2) var(--s-4);
     cursor: pointer;
     border-radius: var(--radius-sm);
@@ -376,7 +363,7 @@ nav {
 }
 #theme-toggle:hover {
     background: var(--signal);
-    color: var(--night);
+    color: var(--deep);
     border-color: var(--signal);
     transform: none;
 }
@@ -385,27 +372,7 @@ nav {
 .hero {
     position: relative;
     padding: var(--s-6) 0 var(--s-8);
-    overflow: hidden;
 }
-/* Giant ghost numeral 01 as editorial detail */
-.hero::before {
-    content: "01";
-    position: absolute;
-    top: var(--s-3);
-    right: -2vw;
-    font-family: var(--font-display);
-    font-weight: 300;
-    font-size: clamp(14rem, 28vw, 28rem);
-    line-height: 0.8;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--ink-soft);
-    opacity: 0.22;
-    pointer-events: none;
-    letter-spacing: -0.08em;
-    z-index: 0;
-}
-.dark-mode .hero::before { -webkit-text-stroke-color: var(--ink-soft); opacity: 0.28; }
-@media (max-width: 720px){ .hero::before { display: none; } }
 
 .hero-wrapper {
     display: grid;
@@ -413,76 +380,186 @@ nav {
     gap: var(--s-7);
     align-items: center;
     position: relative;
-    z-index: 1;
 }
 
 .hero-content { position: relative; }
-.hero-content::before {
-    /* Gantt-bar marker pinned to the left margin */
-    content: "";
-    position: absolute;
-    top: 0.35em;
-    left: -28px;
-    width: 14px;
-    height: calc(0.5em + 8px);
-    background: var(--signal);
-    box-shadow: 3px 3px 0 var(--ink);
-}
-@media (max-width: 900px){ .hero-content::before{ display:none; } }
 
 .hero h1 {
     margin-bottom: var(--s-5);
 }
 .hero-subtitle {
     font-family: var(--font-body);
-    font-size: 1.25rem;
+    font-size: 1.1875rem;
     line-height: 1.55;
     color: var(--ink-soft);
     margin-bottom: var(--s-6);
-    max-width: 46ch;
-    font-style: italic;
+    max-width: 48ch;
 }
 
-/* Gantt timeline rule: ticks + a filled bar, immediately under H1 */
-.timeline-rule {
-    display: flex;
-    align-items: center;
-    gap: 0;
-    height: 28px;
-    margin: 0 0 var(--s-5) 0;
+/* Platform tag emitted by the per-OS stylesheets (content only, styled here). */
+.hero .hero-content::after {
+    display: block;
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--signal);
+    margin-top: var(--s-6);
+}
+
+/* ---------- Gantt strip ----------
+   Not an ornament: a real three-task plan with a finish-to-start chain, a
+   critical-path tail, and a today line. Bars are positioned from --s (start)
+   and --w (span) as percentages of the track, the same way the app does it. */
+.gantt-strip {
+    position: relative;
+    margin: 0 0 var(--s-6) 0;
+    max-width: 480px;
+    /* Bottom padding leaves a lane for the TODAY caption under the last row. */
+    padding: var(--s-3) 0 var(--s-5);
     border-top: 1px solid var(--rule);
     border-bottom: 1px solid var(--rule);
-    padding: 4px 0;
-    position: relative;
-    max-width: 460px;
 }
-.timeline-rule .tl-tick {
-    display: inline-block;
-    width: 1px;
-    height: 6px;
-    background: var(--ink-soft);
-    margin-right: 44px;
-    opacity: 0.6;
+.gs-scale {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    margin-bottom: var(--s-2);
 }
-.timeline-rule .tl-tick:nth-child(odd) { height: 10px; opacity: 0.9; }
-.timeline-rule .tl-bar {
+.gs-scale > span:last-child {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.08em;
+    color: var(--ink-soft);
+    opacity: 0.75;
+}
+.gs-row {
+    display: grid;
+    grid-template-columns: 64px 1fr;
+    align-items: center;
+    height: 20px;
+}
+.gs-name {
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    white-space: nowrap;
+}
+.gs-track { position: relative; height: 100%; }
+.gs-bar {
     position: absolute;
-    left: 22px;
     top: 50%;
-    transform: translateY(-50%);
-    height: 10px;
-    width: 58%;
+    left: calc(var(--s) * 1%);
+    width: calc(var(--w) * 1%);
+    height: var(--bar-h);
+    margin-top: calc(var(--bar-h) / -2);
     background: var(--signal);
-    box-shadow: 2px 2px 0 var(--ink);
-    animation: drawBar 1.2s cubic-bezier(.2,.7,.3,1) both;
+    border-radius: var(--bar-radius);
+    transform-origin: left center;
+    animation: gsDraw 620ms cubic-bezier(.2,.7,.3,1) both;
+    animation-delay: calc(var(--i, 0) * 130ms);
 }
-@keyframes drawBar {
-    from { width: 0; }
-    to   { width: 58%; }
+.gs-bar-critical { background: var(--critical); }
+
+/* Finish-to-start link: drop from the predecessor, arrow into this bar. */
+.gs-row + .gs-row .gs-bar::before {
+    content: "";
+    position: absolute;
+    left: 0; bottom: 100%;
+    width: 1px; height: 10px;
+    background: var(--border-strong);
+    opacity: 0.7;
 }
+.gs-row + .gs-row .gs-bar::after {
+    content: "";
+    position: absolute;
+    left: -5px; top: 50%;
+    margin-top: -3px;
+    border-left: 5px solid var(--border-strong);
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    opacity: 0.7;
+}
+
+/* Today line — starts below the week scale so it never crosses a tick label,
+   and captions itself in the padding lane at the foot of the strip. */
+.gs-today {
+    position: absolute;
+    top: calc(var(--s-3) + 1.25rem);
+    bottom: var(--s-5);
+    left: calc(64px + (100% - 64px) * var(--t) / 100);
+    width: 1px;
+    background: var(--ink-soft);
+    opacity: 0.5;
+}
+.gs-today::after {
+    content: attr(data-today);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transform: translateX(-50%);
+    padding-top: 3px;
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-size: 0.625rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: var(--ink-soft);
+    white-space: nowrap;
+}
+
+@keyframes gsDraw {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+    .gs-bar { animation: none; }
+}
+/* ---------- Section links ----------
+   Every band boundary is drawn as a finish-to-start link, so the page reads
+   as one plan running top to bottom. This is the ONLY mark cards and sections
+   carry — one rule applied consistently, at hairline weight. */
+.features::before,
+.demo::before,
+.create-ai::before,
+.trust::before,
+.testimonials::before,
+.features-detailed::before,
+.views-showcase::before,
+.pitch::before,
+.four-jobs::before,
+.feature-story::before,
+.interop::before,
+.edit-ai::before,
+.personas::before,
+.pain-points::before,
+.comparison::before,
+.faq::before,
+.cta::before,
+.features-list::before {
+    content: "";
+    position: absolute;
+    top: -1px;
+    left: max(var(--s-5), calc((100% - 1220px) / 2 + var(--s-5)));
+    width: 13px;
+    height: 15px;
+    border-left: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    pointer-events: none;
+}
+
 @media (max-width: 640px){
-    .timeline-rule { max-width: 320px; }
-    .timeline-rule .tl-tick { margin-right: 30px; }
+    .gantt-strip { max-width: 100%; }
+    .gs-scale, .gs-row { grid-template-columns: 52px 1fr; }
+    .gs-today { left: calc(52px + (100% - 52px) * var(--t) / 100); }
 }
 
 .hero-badges {
@@ -493,52 +570,30 @@ nav {
     margin-top: var(--s-6);
     padding-top: var(--s-5);
     border-top: 1px solid var(--rule);
-    font-family: var(--font-mono);
-    font-size: 0.82rem;
+    font-size: 0.9375rem;
     color: var(--ink-soft);
 }
-.hero-also { font-family: var(--font-body); font-style: italic; font-size: 1rem; color: var(--ink-soft); }
-.hero-also span::before { content: "→ "; color: var(--signal); font-style: normal; }
+.hero-also { font-size: 0.9375rem; color: var(--ink-soft); }
 
 .rating { display: inline-flex; align-items: center; gap: var(--s-3); }
 .rating span { display: inline-flex; align-items: center; gap: var(--s-2); }
 
-/* Hero visual area — replaces floating blobs with a gantt-sheet frame */
+/* Hero visual area — a plain sheet. The screenshot is the picture; the frame
+   is not. No fake window chrome, no corner marks. */
 .hero-image { position: relative; }
 .hero-image-wrapper {
     position: relative;
-    padding: var(--s-5);
+    padding: var(--s-4);
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-xl);
-}
-.hero-image-wrapper::before {
-    /* Window-chrome traffic lights — subtle, in ink */
-    content: "";
-    position: absolute; top: 14px; left: 14px;
-    width: 40px; height: 8px;
-    background:
-        radial-gradient(circle 4px at 4px 4px,  var(--ink-soft) 99%, transparent 100%),
-        radial-gradient(circle 4px at 20px 4px, var(--ink-soft) 99%, transparent 100%),
-        radial-gradient(circle 4px at 36px 4px, var(--ink-soft) 99%, transparent 100%);
-    opacity: 0.35;
-}
-.hero-image-wrapper::after {
-    /* Corner tick — draftsman mark */
-    content: "";
-    position: absolute; right: -1px; bottom: -1px;
-    width: 22px; height: 22px;
-    border-right: 2px solid var(--signal);
-    border-bottom: 2px solid var(--signal);
 }
 .hero-image img {
     width: 100%;
     height: auto;
     border-radius: 2px;
     display: block;
-    margin-top: var(--s-4);
-    filter: contrast(1.02);
 }
 /* Kill the old blurred blobs — templates still emit them */
 .hero-shape-1, .hero-shape-2, .hero-shape-3 { display: none !important; }
@@ -559,43 +614,45 @@ nav {
     align-items: center;
     justify-content: center;
     gap: var(--s-3);
-    padding: 0.95rem 1.4rem;
+    padding: 0.9rem 1.5rem;
     border: 1px solid transparent;
     border-radius: var(--radius-sm);
-    font-family: var(--font-mono);
-    font-size: 0.82rem;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
+    font-family: var(--font-display);
+    font-stretch: 88%;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
     text-decoration: none;
     cursor: pointer;
     transition: transform var(--transition-fast), background var(--transition-fast), color var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
-    will-change: transform;
 }
 
 .cta-button.primary {
-    background: var(--ink);
-    color: var(--paper);
-    border-color: var(--ink);
-    box-shadow: 4px 4px 0 var(--signal);
+    background: var(--signal);
+    color: #fff;
+    border-color: var(--signal);
+    box-shadow: var(--shadow-sm);
 }
 .cta-button.primary:hover {
-    transform: translate(-2px, -2px);
-    box-shadow: 6px 6px 0 var(--signal);
-    background: var(--ink);
+    background: var(--signal-deep);
+    border-color: var(--signal-deep);
+    transform: translateY(-1px);
+    box-shadow: var(--shadow-md);
 }
 .cta-button.primary:active {
-    transform: translate(2px, 2px);
-    box-shadow: 0 0 0 var(--signal);
+    transform: translateY(0);
+    box-shadow: var(--shadow-sm);
 }
 .dark-mode .cta-button.primary {
     background: var(--signal);
-    color: var(--paper);
+    color: var(--deep);
     border-color: var(--signal);
-    box-shadow: 4px 4px 0 var(--ink-2);
 }
-.dark-mode .cta-button.primary:hover { box-shadow: 6px 6px 0 var(--ink-2); }
-.dark-mode .cta-button.primary:active { box-shadow: 0 0 0 var(--ink-2); }
+.dark-mode .cta-button.primary:hover {
+    background: var(--signal-deep);
+    border-color: var(--signal-deep);
+    color: var(--deep);
+}
 
 .cta-button.secondary {
     background: transparent;
@@ -694,18 +751,6 @@ nav {
     flex-direction: column;
     gap: var(--s-3);
 }
-.feature-card::before {
-    /* corner tick, draftsman */
-    content: "";
-    position: absolute;
-    top: var(--s-4); right: var(--s-4);
-    width: 12px; height: 12px;
-    border-top: 1.5px solid var(--ink);
-    border-right: 1.5px solid var(--ink);
-    opacity: 0.55;
-    transition: border-color var(--transition-fast), opacity var(--transition-fast);
-}
-.dark-mode .feature-card::before { border-color: var(--ink); opacity: 0.7; }
 .feature-card i {
     font-size: 1.5rem;
     color: var(--ink);
@@ -737,7 +782,6 @@ nav {
     background: var(--paper);
     transform: none;
 }
-.feature-card:hover::before { border-color: var(--signal); opacity: 1; }
 a.feature-card:hover h3 {
     text-decoration: underline;
     text-decoration-color: var(--signal);
@@ -752,7 +796,6 @@ a.feature-card:hover h3 {
     position: relative;
     overflow: visible;
 }
-.features-detailed::before, .features-detailed::after { display: none !important; }
 .features-detailed h2 {
     text-align: left;
     margin-bottom: var(--s-3);
@@ -763,7 +806,7 @@ a.feature-card:hover h3 {
 .features-detailed .section-subtitle {
     text-align: left;
     color: var(--ink-soft);
-    font-style: italic;
+    font-style: normal;
     font-family: var(--font-body);
     font-size: 1.125rem;
     margin: 0 0 var(--s-7) 0;
@@ -787,11 +830,12 @@ a.feature-card:hover h3 {
     color: var(--ink-soft);
     padding: var(--s-4) var(--s-5);
     cursor: pointer;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.78rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     display: inline-flex;
     align-items: center;
     gap: var(--s-3);
@@ -916,7 +960,6 @@ a.feature-card:hover h3 {
     position: relative;
     overflow: visible;
 }
-.demo::before, .demo::after { display: none !important; }
 .demo h2 {
     text-align: left;
     background: none;
@@ -941,7 +984,9 @@ a.feature-card:hover h3 {
 .video-container::after {
     content: "▶ DEMO FILM";
     position: absolute; left: 0; bottom: calc(-1 * var(--s-5));
-    font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.18em;
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600; font-size: 0.72rem; letter-spacing: 0.14em;
     color: var(--ink-soft); text-transform: uppercase;
     pointer-events: none;
 }
@@ -975,20 +1020,9 @@ a.feature-card:hover h3 {
     text-wrap: balance;
 }
 .edit-ai .edit-ai-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.edit-ai .edit-ai-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .edit-ai .edit-ai-subtitle {
     max-width: 56ch;
@@ -996,7 +1030,7 @@ a.feature-card:hover h3 {
 }
 .edit-ai .edit-ai-subtitle p {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.55;
     color: var(--ink-soft);
@@ -1023,9 +1057,11 @@ a.feature-card:hover h3 {
     margin: 0 0 var(--s-5) 0;
 }
 .edit-ai .edit-ai-prompts-label {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.72rem;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink-soft);
     margin: 0 0 var(--s-3) 0;
@@ -1052,7 +1088,7 @@ a.feature-card:hover h3 {
 .edit-ai .edit-ai-prompts > li {
     list-style: none !important;
     font-family: var(--font-display);
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     font-size: 1.125rem;
     line-height: 1.4;
@@ -1086,7 +1122,8 @@ a.feature-card:hover h3 {
     box-shadow: var(--shadow-xl);
     background: var(--paper-2);
     color: var(--ink-soft);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.75rem;
     text-align: center;
 }
@@ -1114,16 +1151,6 @@ a.feature-card:hover h3 {
     transform: translateY(-2px);
     border-color: var(--ink);
     box-shadow: var(--shadow-md);
-}
-/* Corner bracket — top-right (different from create-ai's top-left for visual variety) */
-.edit-ai .edit-ai-benefit::before {
-    content: "";
-    position: absolute;
-    top: -1px; right: -1px;
-    width: 14px; height: 14px;
-    border-top: 2px solid var(--signal);
-    border-right: 2px solid var(--signal);
-    pointer-events: none;
 }
 .edit-ai .edit-ai-benefit > i {
     width: 40px; height: 40px;
@@ -1183,24 +1210,13 @@ a.feature-card:hover h3 {
     text-wrap: balance;
 }
 .create-ai .create-ai-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.create-ai .create-ai-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .create-ai .create-ai-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.6;
     color: var(--ink-soft);
@@ -1250,9 +1266,10 @@ a.feature-card:hover h3 {
     border-left: 3px solid var(--signal);
 }
 .create-ai-prompt-label {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.7rem;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--signal);
@@ -1260,7 +1277,7 @@ a.feature-card:hover h3 {
 }
 .create-ai-prompt-body {
     font-family: var(--font-display);
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     font-size: 1.0625rem;
     line-height: 1.45;
@@ -1298,25 +1315,6 @@ a.feature-card:hover h3 {
     box-shadow: var(--shadow-lg);
     overflow: hidden;
 }
-.create-ai-frame::before {
-    content: "";
-    position: absolute;
-    top: 14px; left: 14px;
-    width: 40px; height: 8px;
-    background:
-        radial-gradient(circle 4px at 4px 4px,  var(--ink-soft) 99%, transparent 100%),
-        radial-gradient(circle 4px at 20px 4px, var(--ink-soft) 99%, transparent 100%),
-        radial-gradient(circle 4px at 36px 4px, var(--ink-soft) 99%, transparent 100%);
-    opacity: 0.35;
-}
-.create-ai-frame::after {
-    content: "";
-    position: absolute;
-    right: -1px; bottom: -1px;
-    width: 18px; height: 18px;
-    border-right: 2px solid var(--signal);
-    border-bottom: 2px solid var(--signal);
-}
 .create-ai-frame img {
     display: block;
     width: 100%;
@@ -1327,7 +1325,8 @@ a.feature-card:hover h3 {
     margin-top: var(--s-3);
     background: var(--paper-2);
     color: var(--ink-soft);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.75rem;
     text-align: center;
 }
@@ -1367,16 +1366,6 @@ a.feature-card:hover h3 {
     border-color: var(--ink);
     box-shadow: var(--shadow-md);
 }
-.create-ai-step::before {
-    /* corner tick — mirrors interop / trust pattern, top-left */
-    content: "";
-    position: absolute;
-    top: -1px; left: -1px;
-    width: 14px; height: 14px;
-    border-top: 2px solid var(--signal);
-    border-left: 2px solid var(--signal);
-    pointer-events: none;
-}
 .create-ai .create-ai-step-num {
     display: inline-flex;
     align-items: center;
@@ -1388,7 +1377,7 @@ a.feature-card:hover h3 {
     background: var(--paper-2);
     color: var(--signal);
     font-family: var(--font-display);
-    font-style: italic;
+    font-style: normal;
     font-weight: 500;
     font-size: 1.5rem;
     line-height: 1;
@@ -1434,7 +1423,9 @@ a.feature-card:hover h3 {
     margin-top: var(--s-7);
 }
 .create-ai-cta-footnote {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -1449,7 +1440,9 @@ a.feature-card:hover h3 {
 
 @media (max-width: 900px){
     .create-ai-pitch { grid-template-columns: 1fr; gap: var(--s-5); }
-    .create-ai-steps { grid-template-columns: 1fr; }
+    /* Must match the specificity of `.create-ai ol.create-ai-steps` above,
+       or the three columns never collapse and the page scrolls sideways. */
+    .create-ai ol.create-ai-steps { grid-template-columns: 1fr; }
 }
 
 /* ---------- Pitch (between demo and testimonials) ---------- */
@@ -1469,35 +1462,6 @@ a.feature-card:hover h3 {
     padding: var(--s-7) var(--s-6);
     text-align: center;
 }
-/* Drafting brackets flanking the block */
-.pitch-inner::before,
-.pitch-inner::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 18px;
-    height: 100%;
-    border: 1px solid var(--ink);
-    pointer-events: none;
-}
-.pitch-inner::before { left: 0; border-right: 0; }
-.pitch-inner::after  { right: 0; border-left: 0; }
-.dark-mode .pitch-inner::before,
-.dark-mode .pitch-inner::after { border-color: var(--ink-soft); }
-
-.pitch-num {
-    display: inline-block;
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 0.22em;
-    color: var(--signal);
-    padding: 0.15em 0.55em 0.1em;
-    border: 1px solid var(--signal);
-    border-radius: 2px;
-    line-height: 1;
-    margin-bottom: var(--s-5);
-}
 .pitch-title {
     font-family: var(--font-display);
     font-weight: 400;
@@ -1509,9 +1473,9 @@ a.feature-card:hover h3 {
     max-width: 22ch;
 }
 .pitch-title em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .pitch-subtitle {
     font-family: var(--font-body);
@@ -1520,7 +1484,7 @@ a.feature-card:hover h3 {
     color: var(--ink-soft);
     margin: 0 auto var(--s-6) auto;
     max-width: 52ch;
-    font-style: italic;
+    font-style: normal;
 }
 .pitch-cta {
     display: flex;
@@ -1528,7 +1492,9 @@ a.feature-card:hover h3 {
     margin-bottom: var(--s-4);
 }
 .pitch-footnote {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -1551,6 +1517,7 @@ a.feature-card:hover h3 {
     background: var(--paper-2);
     border-top: 1px solid var(--rule);
     border-bottom: 1px solid var(--rule);
+    position: relative;
 }
 .testimonials h2 {
     text-align: left;
@@ -1584,10 +1551,12 @@ a.feature-card:hover h3 {
     font-size: 5rem;
     color: var(--signal);
     line-height: 1;
-    font-style: italic;
+    font-style: normal;
 }
 .testimonial-card .quote {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.7rem;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -1596,7 +1565,7 @@ a.feature-card:hover h3 {
 }
 .testimonial-card p {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     color: var(--ink);
     font-size: 1.0625rem;
     line-height: 1.55;
@@ -1616,7 +1585,9 @@ a.feature-card:hover h3 {
     color: var(--ink);
 }
 .author span {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.7rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1629,11 +1600,14 @@ a.feature-card:hover h3 {
     display: inline-flex;
     align-items: center;
     gap: var(--s-3);
+    min-height: 44px;
     padding: var(--s-3) var(--s-5);
     background: transparent;
     border: 1px solid var(--border-strong);
     color: var(--ink);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -1663,7 +1637,7 @@ a.feature-card:hover h3 {
 .pricing .section-subtitle {
     text-align: left;
     color: var(--ink-soft);
-    font-style: italic;
+    font-style: normal;
     margin: 0 0 var(--s-7) 0;
     max-width: 52ch;
 }
@@ -1684,25 +1658,29 @@ a.feature-card:hover h3 {
     transition: border-color var(--transition-fast), transform var(--transition-fast), box-shadow var(--transition-fast);
     overflow: hidden;
 }
+/* Each tier is a bar, and its length is the commitment it buys: a 7-day
+   trial is a stub, a monthly seat runs on, an enterprise term runs the
+   whole track. Same encoding the app uses for a task's span. */
 .pricing-card::before {
-    /* top accent bar — 1.5mm rule */
     content: "";
-    position: absolute; top: 0; left: 0; right: 0;
-    height: 3px; background: var(--border-strong);
-    transition: background var(--transition-fast), height var(--transition-fast);
+    position: absolute; top: 0; left: 0;
+    width: var(--span, 100%);
+    height: var(--bar-h); background: var(--signal);
+    transition: width var(--transition-normal);
 }
+.pricing-card:nth-child(1) { --span: 16%; }
+.pricing-card:nth-child(2) { --span: 58%; }
+.pricing-card:nth-child(3) { --span: 100%; }
 .pricing-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); border-color: var(--ink); }
-.pricing-card:hover::before { background: var(--signal); height: 6px; }
 
 .pricing-card.featured {
-    background: var(--night);
-    color: var(--cream);
+    background: var(--deep);
+    color: var(--chalk);
     transform: none;
-    border-color: var(--night);
+    border-color: var(--deep);
 }
-.pricing-card.featured::before { background: var(--signal); height: 6px; }
 .pricing-card.featured:hover { transform: translateY(-2px); }
-.pricing-card.featured h3 { color: var(--cream); }
+.pricing-card.featured h3 { color: var(--chalk); }
 .pricing-card.featured .pricing-features i { color: var(--signal); }
 .dark-mode .pricing-card.featured {
     background: #0A0F1E;
@@ -1710,14 +1688,16 @@ a.feature-card:hover h3 {
 }
 
 .pricing-header h3 {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink-soft);
     margin-bottom: var(--s-4);
 }
-.pricing-card.featured .pricing-header h3 { color: var(--cream); opacity: 0.8; }
+.pricing-card.featured .pricing-header h3 { color: var(--chalk); opacity: 0.8; }
 .price {
     font-family: var(--font-display);
     font-weight: 300;
@@ -1727,15 +1707,17 @@ a.feature-card:hover h3 {
     margin: var(--s-2) 0 var(--s-1) 0;
     color: var(--ink);
 }
-.pricing-card.featured .price { color: var(--cream); }
+.pricing-card.featured .price { color: var(--chalk); }
 .pricing-header span {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.72rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
     color: var(--ink-soft);
 }
-.pricing-card.featured .pricing-header span { color: var(--cream); opacity: 0.7; }
+.pricing-card.featured .pricing-header span { color: var(--chalk); opacity: 0.7; }
 .pricing-features {
     list-style: none;
     padding: 0;
@@ -1750,7 +1732,7 @@ a.feature-card:hover h3 {
     align-items: flex-start;
     gap: var(--s-3);
 }
-.pricing-card.featured .pricing-features li { border-color: var(--cream-hair); }
+.pricing-card.featured .pricing-features li { border-color: var(--chalk-hair); }
 .pricing-features li:last-child { border-bottom: 0; }
 .pricing-features i { color: var(--signal); padding-top: 4px; font-size: 0.85rem; }
 .pricing-card .annual-price {
@@ -1759,7 +1741,7 @@ a.feature-card:hover h3 {
     color: var(--ink-soft);
     margin-top: var(--s-2);
 }
-.pricing-card.featured .annual-price { color: var(--cream-soft); }
+.pricing-card.featured .annual-price { color: var(--chalk-soft); }
 
 .pricing-card .cta-button { width: 100%; }
 
@@ -1788,24 +1770,13 @@ a.feature-card:hover h3 {
     text-wrap: balance;
 }
 .four-jobs .four-jobs-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.four-jobs .four-jobs-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .four-jobs .four-jobs-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.6;
     color: var(--ink-soft);
@@ -1840,30 +1811,13 @@ a.feature-card:hover h3 {
     border-color: var(--ink);
     box-shadow: var(--shadow-md);
 }
-/* Two corner brackets — top-left and bottom-right (mirrors the comparison table treatment) */
-.four-jobs .job-card::before,
-.four-jobs .job-card::after {
-    content: "";
-    position: absolute;
-    width: 14px; height: 14px;
-    pointer-events: none;
-}
-.four-jobs .job-card::before {
-    top: -1px; left: -1px;
-    border-top: 2px solid var(--signal);
-    border-left: 2px solid var(--signal);
-}
-.four-jobs .job-card::after {
-    bottom: -1px; right: -1px;
-    border-bottom: 2px solid var(--signal);
-    border-right: 2px solid var(--signal);
-}
 
 .four-jobs .job-kicker {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 0.22em;
+    font-weight: 600;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--signal);
     display: inline-flex;
@@ -1888,13 +1842,13 @@ a.feature-card:hover h3 {
     margin: 0;
 }
 .four-jobs .job-title em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .four-jobs .job-lead {
     font-family: var(--font-display);
-    font-style: italic;
+    font-style: normal;
     font-weight: 400;
     font-size: 1.0625rem;
     line-height: 1.4;
@@ -1924,7 +1878,8 @@ a.feature-card:hover h3 {
     left: 0;
     top: 0;
     color: var(--signal);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-weight: 700;
     font-size: 0.95rem;
 }
@@ -1944,17 +1899,18 @@ a.feature-card:hover h3 {
     align-items: center;
 }
 .four-jobs .four-jobs-cross-label {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 0.22em;
+    font-weight: 600;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--signal);
     white-space: nowrap;
 }
 .four-jobs .four-jobs-cross-text {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1rem;
     line-height: 1.55;
     color: var(--ink);
@@ -1991,24 +1947,13 @@ a.feature-card:hover h3 {
     text-wrap: balance;
 }
 .pain-points .pain-points-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.pain-points .pain-points-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .pain-points .pain-points-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.55;
     color: var(--ink-soft);
@@ -2042,19 +1987,9 @@ a.feature-card:hover h3 {
     border-color: var(--ink);
     box-shadow: var(--shadow-md);
 }
-/* Corner bracket — top-left, signal */
-.pain-points .pain-card::before {
-    content: "";
-    position: absolute;
-    top: -1px; left: -1px;
-    width: 14px; height: 14px;
-    border-top: 2px solid var(--signal);
-    border-left: 2px solid var(--signal);
-    pointer-events: none;
-}
 .pain-points .pain-quote {
     font-family: var(--font-display);
-    font-style: italic;
+    font-style: normal;
     font-weight: 500;
     font-size: 1.375rem;
     line-height: 1.2;
@@ -2090,7 +2025,8 @@ a.feature-card:hover h3 {
     left: 0;
     top: 0;
     color: var(--signal);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-weight: 700;
     font-size: 0.95rem;
 }
@@ -2110,10 +2046,11 @@ a.feature-card:hover h3 {
     align-items: center;
 }
 .pain-points .pain-stat-label {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.72rem;
-    font-weight: 500;
-    letter-spacing: 0.22em;
+    font-weight: 600;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--signal);
     white-space: nowrap;
@@ -2152,24 +2089,13 @@ a.feature-card:hover h3 {
     -webkit-background-clip: initial;
 }
 .personas-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.personas-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .personas-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.55;
     color: var(--ink-soft);
@@ -2202,16 +2128,6 @@ a.feature-card:hover h3 {
     border-color: var(--ink);
     box-shadow: var(--shadow-md);
 }
-/* Single draftsman corner mark, bottom-left, to differentiate from trust cards (top-right) */
-.persona-card::before {
-    content: "";
-    position: absolute;
-    bottom: -1px; left: -1px;
-    width: 14px; height: 14px;
-    border-bottom: 2px solid var(--signal);
-    border-left: 2px solid var(--signal);
-    pointer-events: none;
-}
 .persona-card i {
     display: inline-flex;
     align-items: center;
@@ -2240,7 +2156,7 @@ a.feature-card:hover h3 {
     margin: 0;
 }
 
-/* Closer block: italic paragraph + centered CTA + footnote */
+/* Closer block: lead paragraph + centered CTA + footnote */
 .personas-closer {
     max-width: 720px;
     margin: var(--s-7) auto 0 auto;
@@ -2248,7 +2164,7 @@ a.feature-card:hover h3 {
 }
 .personas-closer > p {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.6;
     color: var(--ink-soft);
@@ -2262,7 +2178,9 @@ a.feature-card:hover h3 {
     gap: var(--s-3);
 }
 .personas-cta-footnote {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -2306,24 +2224,13 @@ a.feature-card:hover h3 {
     text-wrap: balance;
 }
 .views-showcase .views-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.views-showcase .views-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .views-showcase .views-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.6;
     color: var(--ink-soft);
@@ -2431,7 +2338,9 @@ a.feature-card:hover h3 {
     border: 1px solid var(--border-strong);
     border-radius: var(--radius-sm);
     cursor: pointer;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     color: var(--ink);
@@ -2451,9 +2360,9 @@ a.feature-card:hover h3 {
 .views-showcase .views-more-text { text-transform: none; letter-spacing: 0.02em; font-family: var(--font-body); font-size: 0.95rem; flex: 1; text-align: left; }
 
 /* Stacked screenshots — only the active one is visible (crossfade).
-   Frame chrome (dots, corner tick, padding, border, shadow) is reused from
-   .create-ai-frame so the Gantt/Timeline/etc. screenshots sit in exactly the
-   same surround as the "Create any project plan with AI" frame. */
+   Frame chrome (padding, border, shadow) is reused from .create-ai-frame so
+   the Gantt/Timeline/etc. screenshots sit in the same surround as the
+   "Create any project plan with AI" frame. */
 .views-showcase .views-screenshot {
     max-width: 720px;
     margin: var(--s-4) auto 0 auto;
@@ -2519,24 +2428,13 @@ a.feature-card:hover h3 {
     -webkit-background-clip: initial;
 }
 .feature-story-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.feature-story-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .feature-story-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.55;
     color: var(--ink-soft);
@@ -2570,9 +2468,10 @@ a.feature-card:hover h3 {
     display: inline-flex;
     align-items: center;
     gap: var(--s-3);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.72rem;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: var(--ink-soft);
@@ -2616,12 +2515,13 @@ a.feature-card:hover h3 {
     left: 0;
     top: 0;
     color: var(--signal);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-weight: 700;
     font-size: 0.95rem;
 }
 
-/* Wide screenshot frame — gives the image generous width with a draftsman border */
+/* Wide screenshot frame — gives the image generous width */
 .feature-story-media {
     position: relative;
 }
@@ -2634,27 +2534,6 @@ a.feature-card:hover h3 {
     box-shadow: var(--shadow-lg);
     overflow: hidden;
 }
-.feature-story-frame::before {
-    /* window-chrome dots — same as hero-image-wrapper */
-    content: "";
-    position: absolute;
-    top: 14px; left: 14px;
-    width: 40px; height: 8px;
-    background:
-        radial-gradient(circle 4px at 4px 4px,  var(--ink-soft) 99%, transparent 100%),
-        radial-gradient(circle 4px at 20px 4px, var(--ink-soft) 99%, transparent 100%),
-        radial-gradient(circle 4px at 36px 4px, var(--ink-soft) 99%, transparent 100%);
-    opacity: 0.35;
-}
-.feature-story-frame::after {
-    /* draftsman corner mark */
-    content: "";
-    position: absolute;
-    right: -1px; bottom: -1px;
-    width: 18px; height: 18px;
-    border-right: 2px solid var(--signal);
-    border-bottom: 2px solid var(--signal);
-}
 .feature-story-frame img {
     display: block;
     width: 100%;
@@ -2665,7 +2544,8 @@ a.feature-card:hover h3 {
     margin-top: var(--s-3);
     background: var(--paper-2);
     color: var(--ink-soft);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.75rem;
     text-align: center;
 }
@@ -2681,10 +2561,13 @@ a.feature-card:hover h3 {
         grid-template-columns: 1fr;
         gap: var(--s-5);
     }
-    .feature-story-block.image-left .feature-story-text { order: 2; }
-    .feature-story-block.image-left .feature-story-media { order: 1; }
-    .feature-story-block .feature-story-text { order: 1; }
-    .feature-story-block .feature-story-media { order: 2; }
+    /* Stacked, every block reads the same way: kicker, heading, copy, then the
+       screenshot. The .image-left overrides that used to sit here outranked
+       this rule and flipped alternate sections to image-first. */
+    .feature-story-block .feature-story-text,
+    .feature-story-block.image-left .feature-story-text { order: 1; }
+    .feature-story-block .feature-story-media,
+    .feature-story-block.image-left .feature-story-media { order: 2; }
 }
 
 /* ---------- Comparison table — English Web landing only ---------- */
@@ -2708,24 +2591,13 @@ a.feature-card:hover h3 {
     -webkit-background-clip: initial;
 }
 .comparison-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.comparison-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .comparison-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.55;
     color: var(--ink-soft);
@@ -2752,25 +2624,6 @@ a.feature-card:hover h3 {
     box-shadow: var(--shadow-sm);
     position: relative;
 }
-/* Signal corner brackets on the table — mirror the other cards on this page */
-.comparison-table-wrap::before,
-.comparison-table-wrap::after {
-    content: "";
-    position: absolute;
-    width: 14px; height: 14px;
-    pointer-events: none;
-    z-index: 2;
-}
-.comparison-table-wrap::before {
-    top: -1px; left: -1px;
-    border-top: 2px solid var(--signal);
-    border-left: 2px solid var(--signal);
-}
-.comparison-table-wrap::after {
-    bottom: -1px; right: -1px;
-    border-bottom: 2px solid var(--signal);
-    border-right: 2px solid var(--signal);
-}
 
 .comparison-table {
     width: 100%;
@@ -2778,13 +2631,14 @@ a.feature-card:hover h3 {
     font-family: var(--font-body);
 }
 
-/* Column headers: mono caps, orange divider under "Ingantt" to call it out */
+/* Column headers: condensed caps, signal divider under "Ingantt" to call it out */
 .comparison-table thead th {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     color: var(--ink);
     padding: var(--s-4) var(--s-3);
     text-align: center;
@@ -2801,8 +2655,8 @@ a.feature-card:hover h3 {
 }
 .comparison-table thead th.comparison-col-us {
     background: var(--signal);
-    color: var(--night);
-    border-bottom-color: var(--night);
+    color: var(--deep);
+    border-bottom-color: var(--deep);
     position: relative;
 }
 .dark-mode .comparison-table thead th.comparison-col-us {
@@ -2843,7 +2697,8 @@ a.feature-card:hover h3 {
 /* Marks */
 .mark {
     display: inline-block;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-weight: 500;
     line-height: 1;
     font-size: 1.1rem;
@@ -2891,7 +2746,8 @@ a.feature-card:hover h3 {
 .comparison-footnote {
     max-width: 1080px;
     margin: var(--s-4) auto 0 auto;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.74rem;
     letter-spacing: 0.08em;
     color: var(--ink-soft);
@@ -2908,7 +2764,9 @@ a.feature-card:hover h3 {
 }
 .comparison-cta .cta-button.primary { align-self: center; }
 .comparison-cta-footnote {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -2944,16 +2802,6 @@ a.feature-card:hover h3 {
     border-bottom: 1px solid var(--rule);
     position: relative;
 }
-/* Subtle blueprint dot overlay to differentiate from the pitch section above */
-.trust::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    background-image: radial-gradient(circle, var(--rule) 1px, transparent 1px);
-    background-size: 32px 32px;
-    opacity: 0.35;
-    pointer-events: none;
-}
 .trust .container { position: relative; z-index: 1; }
 .trust-head {
     max-width: 780px;
@@ -2968,24 +2816,13 @@ a.feature-card:hover h3 {
     -webkit-background-clip: initial;
 }
 .trust-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.trust-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .trust-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.0625rem;
     line-height: 1.6;
     color: var(--ink-soft);
@@ -3012,16 +2849,6 @@ a.feature-card:hover h3 {
     transform: translateY(-2px);
     border-color: var(--ink);
     box-shadow: var(--shadow-md);
-}
-/* Draftsman corner bracket — top-right only */
-.trust-card::before {
-    content: "";
-    position: absolute;
-    top: -1px; right: -1px;
-    width: 14px; height: 14px;
-    border-top: 2px solid var(--signal);
-    border-right: 2px solid var(--signal);
-    pointer-events: none;
 }
 .trust-card i {
     display: inline-flex;
@@ -3052,7 +2879,9 @@ a.feature-card:hover h3 {
 }
 
 .trust-footnote {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -3093,24 +2922,13 @@ a.feature-card:hover h3 {
     -webkit-background-clip: initial;
 }
 .interop-head h2 em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
-}
-.interop-head h2 .s-num {
-    display: block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 auto var(--s-4) auto;
-    width: fit-content;
-    transform: none;
-    vertical-align: baseline;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 .interop-subtitle {
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     font-size: 1.125rem;
     line-height: 1.55;
     color: var(--ink-soft);
@@ -3130,7 +2948,7 @@ a.feature-card:hover h3 {
     .interop-grid { grid-template-columns: 1fr; }
 }
 
-/* Each column is a blueprint panel: hairline border, signal corner brackets */
+/* Each column is a plain panel: hairline border, raised surface */
 .interop-col {
     position: relative;
     padding: var(--s-6) var(--s-5) var(--s-6) var(--s-6);
@@ -3139,33 +2957,15 @@ a.feature-card:hover h3 {
     border-radius: var(--radius-sm);
     box-shadow: var(--shadow-sm);
 }
-/* Draftsman corner brackets */
-.interop-col::before,
-.interop-col::after {
-    content: "";
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    pointer-events: none;
-}
-.interop-col::before {
-    top: -1px; left: -1px;
-    border-top: 2px solid var(--signal);
-    border-left: 2px solid var(--signal);
-}
-.interop-col::after {
-    bottom: -1px; right: -1px;
-    border-bottom: 2px solid var(--signal);
-    border-right: 2px solid var(--signal);
-}
 
 .interop-col-label {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.78rem;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--ink);
-    font-weight: 500;
+    font-weight: 600;
     margin: 0 0 var(--s-5) 0;
     padding-bottom: var(--s-3);
     border-bottom: 1px solid var(--rule);
@@ -3214,7 +3014,9 @@ a.feature-card:hover h3 {
     letter-spacing: -0.005em;
 }
 .interop-note {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.72rem;
     letter-spacing: 0.14em;
     text-transform: uppercase;
@@ -3222,7 +3024,7 @@ a.feature-card:hover h3 {
 }
 
 /* "and more" flavor line gets a lighter bullet */
-.interop-list li:last-child:not(:only-child) .interop-name { color: var(--ink-soft); font-style: italic; }
+.interop-list li:last-child:not(:only-child) .interop-name { color: var(--ink-soft); font-style: normal; }
 
 @media (max-width: 640px){
     .interop-col { padding: var(--s-5) var(--s-4) var(--s-5) var(--s-5); }
@@ -3234,6 +3036,7 @@ a.feature-card:hover h3 {
     padding: var(--s-8) 0;
     background: var(--paper);
     border-top: 1px solid var(--rule);
+    position: relative;
 }
 .faq h2 {
     text-align: left;
@@ -3305,22 +3108,22 @@ a.feature-card:hover h3 {
 }
 
 .faq-support {
-    background: var(--night);
-    color: var(--cream);
+    background: var(--deep);
+    color: var(--chalk);
     border-radius: var(--radius-sm);
     padding: var(--s-6);
     border: 0;
     position: sticky;
     top: 6rem;
-    box-shadow: 6px 6px 0 var(--signal);
+    box-shadow: var(--shadow-lg);
 }
-.dark-mode .faq-support { background: #0A0F1E; box-shadow: 6px 6px 0 var(--signal); }
+.dark-mode .faq-support { background: #050F1F; box-shadow: var(--shadow-lg); }
 .support-content { text-align: left; }
 .support-content h2 {
     font-family: var(--font-display);
     font-weight: 500;
     font-size: 1.5rem;
-    color: var(--cream);
+    color: var(--chalk);
     text-align: left;
     margin-bottom: var(--s-4);
 }
@@ -3328,7 +3131,7 @@ a.feature-card:hover h3 {
 .support-divider {
     margin-top: var(--s-6);
     padding-top: var(--s-6);
-    border-top: 1px solid var(--cream-hair);
+    border-top: 1px solid var(--chalk-hair);
 }
 .support-content .cta-button {
     margin-top: var(--s-2);
@@ -3339,20 +3142,20 @@ a.feature-card:hover h3 {
 }
 .support-content .cta-button.primary {
     background: var(--signal);
-    color: var(--night);
+    color: var(--deep);
     border-color: var(--signal);
-    box-shadow: 4px 4px 0 var(--cream);
+    box-shadow: none;
 }
-.support-content .cta-button.primary:hover { box-shadow: 6px 6px 0 var(--cream); }
+.support-content .cta-button.primary:hover { background: var(--signal-deep); border-color: var(--signal-deep); color: var(--deep); }
 .support-content .cta-button.secondary {
     background: transparent;
-    color: var(--cream);
-    border-color: rgba(244, 239, 230, 0.45);
+    color: var(--chalk);
+    border-color: rgba(238, 243, 249, 0.45);
 }
 .support-content .cta-button.secondary:hover {
-    background: var(--cream);
-    color: var(--night);
-    border-color: var(--cream);
+    background: var(--chalk);
+    color: var(--deep);
+    border-color: var(--chalk);
 }
 
 @media (max-width: 1024px) {
@@ -3370,27 +3173,6 @@ a.feature-card:hover h3 {
     border-top: 1px solid var(--rule);
     border-bottom: 1px solid var(--rule);
 }
-.cta::before { display: none; }
-.cta::after {
-    /* Giant outlined "10" numeral — signals the closing section */
-    content: "10";
-    position: absolute;
-    right: -0.05em;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: var(--font-display);
-    font-weight: 300;
-    font-size: clamp(10rem, 20vw, 22rem);
-    line-height: 0.8;
-    color: transparent;
-    -webkit-text-stroke: 1px var(--ink-soft);
-    pointer-events: none;
-    letter-spacing: -0.08em;
-    opacity: 0.18;
-    z-index: 0;
-}
-.dark-mode .cta::after { -webkit-text-stroke-color: var(--cream); opacity: 0.12; }
-@media (max-width: 820px){ .cta::after { display: none; } }
 .cta .container {
     position: relative;
     z-index: 1;
@@ -3424,7 +3206,7 @@ a.feature-card:hover h3 {
     font-size: 1.125rem;
     margin-bottom: 0;
     font-family: var(--font-body);
-    font-style: italic;
+    font-style: normal;
     text-align: left;
     max-width: 48ch;
 }
@@ -3433,17 +3215,18 @@ a.feature-card:hover h3 {
 .cta-buttons { display: flex; gap: var(--s-4); flex-wrap: wrap; justify-content: flex-end; }
 
 .cta .cta-button.primary {
-    background: var(--night);
-    color: var(--cream);
-    border-color: var(--night);
-    box-shadow: 4px 4px 0 var(--signal);
+    background: var(--deep);
+    color: var(--chalk);
+    border-color: var(--deep);
+    box-shadow: var(--shadow-sm);
     font-weight: 600;
 }
 .cta .cta-button.primary:hover {
-    background: var(--night);
-    box-shadow: 6px 6px 0 var(--signal);
-    transform: translate(-2px,-2px);
-    color: var(--cream);
+    background: var(--ink-2);
+    border-color: var(--ink-2);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-1px);
+    color: var(--chalk);
 }
 .cta .cta-button.secondary {
     color: var(--ink);
@@ -3451,18 +3234,18 @@ a.feature-card:hover h3 {
     background: transparent;
 }
 .cta .cta-button.secondary:hover {
-    background: var(--night);
-    color: var(--cream);
-    border-color: var(--night);
+    background: var(--deep);
+    color: var(--chalk);
+    border-color: var(--deep);
 }
 .cta .workspace-logo { filter: brightness(0) invert(1); height: 14px; opacity: 1; }
 .dark-mode .cta .cta-button.primary {
-    background: var(--night);
-    color: var(--cream);
-    border-color: var(--night);
-    box-shadow: 4px 4px 0 var(--signal);
+    background: var(--deep);
+    color: var(--chalk);
+    border-color: var(--border-strong);
+    box-shadow: var(--shadow-sm);
 }
-.dark-mode .cta .cta-button.primary:hover { box-shadow: 6px 6px 0 var(--signal); }
+.dark-mode .cta .cta-button.primary:hover { background: var(--surface-2); border-color: var(--signal); box-shadow: var(--shadow-md); }
 .dark-mode .cta .workspace-logo { filter: brightness(0) invert(1); }
 
 @media (max-width: 820px){
@@ -3472,7 +3255,7 @@ a.feature-card:hover h3 {
     .cta.cta-web .cta-buttons { justify-content: center; }
 }
 
-/* --- CTA web variant: centered, bracket-flanked (English Web landing) --- */
+/* --- CTA web variant: centered (English Web landing) --- */
 .cta.cta-web .container {
     display: block;
     max-width: 760px;
@@ -3485,32 +3268,6 @@ a.feature-card:hover h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.cta-web-inner::before,
-.cta-web-inner::after {
-    content: "";
-    position: absolute;
-    top: var(--s-4);
-    bottom: var(--s-4);
-    width: 12px;
-    border: 1px solid var(--ink);
-    pointer-events: none;
-}
-.cta-web-inner::before { left: 0; border-right: 0; }
-.cta-web-inner::after  { right: 0; border-left: 0; }
-.dark-mode .cta-web-inner::before,
-.dark-mode .cta-web-inner::after { border-color: var(--ink-soft); }
-
-.cta.cta-web .s-num {
-    display: inline-block;
-    font-size: 0.72rem;
-    letter-spacing: 0.22em;
-    padding: 0.15em 0.55em 0.1em;
-    line-height: 1;
-    margin: 0 0 var(--s-5) 0;
-    transform: none;
-    align-self: center;
-    vertical-align: baseline;
 }
 .cta.cta-web h2.cta-web-title {
     font-family: var(--font-display);
@@ -3525,9 +3282,9 @@ a.feature-card:hover h3 {
     max-width: 18ch;
 }
 .cta.cta-web h2.cta-web-title em {
-    font-style: italic;
-    color: var(--signal);
-    font-weight: 400;
+    font-style: normal;
+    color: inherit;
+    font-weight: inherit;
 }
 /* Drop the "— " tick spacer from the base rule in this variant */
 .cta.cta-web h2.cta-web-title::after { display: none; }
@@ -3539,7 +3296,7 @@ a.feature-card:hover h3 {
     margin: 0 0 var(--s-6) 0;
     max-width: 46ch;
     text-align: center;
-    font-style: italic;
+    font-style: normal;
     text-wrap: balance;
 }
 .cta.cta-web .cta-buttons {
@@ -3549,7 +3306,9 @@ a.feature-card:hover h3 {
     width: auto;
 }
 .cta.cta-web p.cta-web-footnote {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.12em;
     text-transform: uppercase;
@@ -3573,6 +3332,7 @@ a.feature-card:hover h3 {
     padding: var(--s-8) 0;
     background: var(--paper);
     border-top: 1px solid var(--rule);
+    position: relative;
 }
 .features-list .feature-group h2 {
     text-align: left;
@@ -3633,7 +3393,8 @@ a.feature-card:hover h3 {
     color: var(--signal);
     position: absolute;
     left: 0;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-weight: 700;
 }
 
@@ -3656,7 +3417,9 @@ a.feature-card:hover h3 {
     transition: transform var(--transition-fast), border-color var(--transition-fast), background var(--transition-fast);
     text-decoration: none;
     color: var(--ink);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.78rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -3677,8 +3440,8 @@ a.feature-card:hover h3 {
 
 /* ---------- Footer ---------- */
 footer {
-    background: var(--night);
-    color: var(--cream);
+    background: var(--deep);
+    color: var(--chalk);
     padding-top: var(--s-8);
     border-top: 2px solid var(--signal);
 }
@@ -3688,23 +3451,24 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     gap: var(--s-6);
     padding: var(--s-7) 0 var(--s-6) 0;
-    border-bottom: 1px solid var(--cream-hair-soft);
+    border-bottom: 1px solid var(--chalk-hair-soft);
 }
 .footer-section h3 {
-    color: var(--cream);
+    color: var(--chalk);
     margin-bottom: var(--s-5);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.72rem;
-    letter-spacing: 0.18em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     padding-bottom: var(--s-3);
-    border-bottom: 1px solid rgba(244, 239, 230, 0.22);
+    border-bottom: 1px solid rgba(238, 243, 249, 0.22);
 }
 .footer-section ul { list-style: none; padding: 0; margin: 0; }
 .footer-section ul li { margin-bottom: var(--s-3); }
 .footer-section ul li a {
-    color: rgba(244, 239, 230, 0.82);
+    color: rgba(238, 243, 249, 0.82);
     text-decoration: none;
     transition: color var(--transition-fast), padding-left var(--transition-fast);
     font-family: var(--font-body);
@@ -3722,12 +3486,12 @@ footer {
 
 .social-links { display: flex; gap: var(--s-4); margin-top: var(--s-5); }
 .social-links a {
-    color: rgba(244, 239, 230, 0.82);
+    color: rgba(238, 243, 249, 0.82);
     font-size: 1.125rem;
     transition: color var(--transition-fast), transform var(--transition-fast), border-color var(--transition-fast);
     width: 34px; height: 34px;
     display: inline-flex; align-items: center; justify-content: center;
-    border: 1px solid rgba(244, 239, 230, 0.3);
+    border: 1px solid rgba(238, 243, 249, 0.3);
     border-radius: var(--radius-sm);
 }
 .social-links a:hover {
@@ -3742,10 +3506,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.75rem;
     letter-spacing: 0.1em;
-    color: rgba(244, 239, 230, 0.72);
+    color: rgba(238, 243, 249, 0.72);
     text-transform: uppercase;
 }
 .footer-bottom p { text-align: center; margin: 0; }
@@ -3772,18 +3538,19 @@ footer {
     border-radius: var(--radius-sm);
     cursor: pointer;
     transition: border-color var(--transition-fast), color var(--transition-fast);
-    color: rgba(244, 239, 230, 0.88);
+    color: rgba(238, 243, 249, 0.88);
     padding: var(--s-3) var(--s-4);
     background: transparent;
-    border: 1px solid rgba(244, 239, 230, 0.32);
-    font-family: var(--font-mono);
+    border: 1px solid rgba(238, 243, 249, 0.32);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.8rem;
     letter-spacing: 0.08em;
 }
 .language-current i { font-size: 0.85rem; color: var(--signal); }
 .language-current span { font-size: 0.8rem; font-weight: 500; flex-grow: 1; }
 .language-current .fa-chevron-up { font-size: 0.7rem; margin-left: auto; opacity: 0.7; }
-.language-current:hover { color: var(--cream); border-color: var(--signal); }
+.language-current:hover { color: var(--chalk); border-color: var(--signal); }
 .language-current:hover i { color: var(--signal); }
 
 .language-dropdown {
@@ -3792,10 +3559,10 @@ footer {
     left: 0;
     right: 0;
     background: var(--paper);
-    border: 1px solid var(--ink);
+    border: 1px solid var(--border-strong);
     border-radius: var(--radius-sm);
     padding: var(--s-2);
-    box-shadow: 6px 6px 0 var(--signal);
+    box-shadow: var(--shadow-lg);
     opacity: 0;
     visibility: hidden;
     transform: translateY(4px);
@@ -3813,7 +3580,8 @@ footer {
     padding: var(--s-2) var(--s-3);
     color: var(--ink);
     text-decoration: none;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.82rem;
     letter-spacing: 0.05em;
     border-radius: 2px;
@@ -3832,10 +3600,10 @@ footer {
     transform: translateX(-50%) translateY(-4px);
     width: 320px;
     background: var(--paper);
-    border: 1px solid var(--ink);
+    border: 1px solid var(--border-strong);
     border-radius: var(--radius-sm);
     padding: var(--s-2);
-    box-shadow: 6px 6px 0 var(--signal);
+    box-shadow: var(--shadow-lg);
     opacity: 0;
     visibility: hidden;
     transition: opacity var(--transition-fast), visibility var(--transition-fast), transform var(--transition-fast);
@@ -3852,7 +3620,8 @@ footer {
     padding: var(--s-3) var(--s-4);
     color: var(--ink);
     text-decoration: none;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.8rem;
     letter-spacing: 0.06em;
     transition: background var(--transition-fast), color var(--transition-fast);
@@ -3895,7 +3664,7 @@ footer {
     width: 16px;
     height: 0.55em;
     background: var(--signal);
-    box-shadow: 3px 3px 0 var(--ink);
+    border-radius: var(--bar-radius);
 }
 
 .text-content {
@@ -3963,19 +3732,30 @@ footer {
     .feature-image { order: -1; }
 }
 @media (max-width: 640px) {
-    body { background-size: 40px 40px, 40px 40px; }
     .container { padding: 0 var(--s-4); }
+    /* These two set their own padding at full specificity, so they have to be
+       named here or the closing CTA sits on a different gutter to every
+       other section. */
+    .cta .container,
+    .cta.cta-web .container { padding: 0 var(--s-4); }
     h1 { font-size: clamp(2.25rem, 9vw, 3.25rem); }
     .hero { padding: var(--s-5) 0 var(--s-7); }
     .hero-wrapper { gap: var(--s-5); }
     .cta-group { flex-direction: column; align-items: stretch; }
     .cta-group .cta-button { width: 100%; }
+    /* The closing CTA uses .cta-buttons, not .cta-group — stack it the same way.
+       align-self is needed because .cta-web-inner centres its flex children,
+       which otherwise shrinks the row to its content width. */
+    .cta .cta-buttons {
+        flex-direction: column;
+        align-items: stretch;
+        align-self: stretch;
+        width: 100%;
+    }
+    .cta .cta-buttons .cta-button { width: 100%; }
     nav.container { flex-direction: row; }
     .footer-section .language-select { margin-left: 0; }
     .cta .container { gap: var(--s-5); }
-}
-@media (max-width: 420px) {
-    body { background-size: 32px 32px, 32px 32px; }
 }
 
 /* ---------- OS stylesheets override safety net ---------- */
@@ -4046,7 +3826,8 @@ section h2 { color: var(--ink); background: none; -webkit-background-clip: initi
     position: relative;
     z-index: 101;
     border: 1px solid var(--border-strong);
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.82rem;
 }
 .nav-current:hover { border-color: var(--ink); }
@@ -4078,7 +3859,8 @@ section h2 { color: var(--ink); background: none; -webkit-background-clip: initi
     padding: var(--s-3) var(--s-4);
     color: var(--ink);
     text-decoration: none;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.82rem;
     transition: background var(--transition-fast);
 }

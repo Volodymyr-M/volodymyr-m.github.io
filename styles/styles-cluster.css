@@ -29,7 +29,7 @@
     font-size: 1.15rem;
 }
 
-.page-cluster .timeline-rule { max-width: 360px; }
+.page-cluster .gantt-strip { max-width: 400px; }
 
 /* ---------- Cluster hero with stacked media: slot → arrow → slot ---------- */
 /* Applies to any cluster page whose landing-*.yml declares hero.media.
@@ -49,7 +49,7 @@
 .page-cluster .hero-wrapper:has(.hero-ai-media) .hero-ai-media {
     order: 2;
 }
-.page-cluster .hero-wrapper:has(.hero-ai-media) .hero-content .timeline-rule {
+.page-cluster .hero-wrapper:has(.hero-ai-media) .hero-content .gantt-strip {
     margin-left: auto;
     margin-right: auto;
 }
@@ -110,9 +110,11 @@
     display: none;
 }
 .create-ai-prompt-arrow-labelled .create-ai-prompt-arrow-label {
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-weight: 600;
     font-size: 0.72rem;
-    letter-spacing: 0.22em;
+    letter-spacing: 0.14em;
     text-transform: uppercase;
     color: var(--signal);
 }
@@ -163,7 +165,7 @@
 .page-cluster .feature-card:last-child { border-bottom: 1px solid var(--rule); }
 
 .page-cluster .feature-card::before {
-    /* Replace the draftsman corner tick with an editorial numeral. */
+    /* Cluster feature lists are a genuinely numbered list, so they keep numerals. */
     content: counter(fcnote, decimal-leading-zero);
     position: static;
     grid-column: 1;
@@ -171,7 +173,8 @@
     width: auto;
     height: auto;
     border: none;
-    font-family: var(--font-mono);
+    font-family: var(--font-display);
+    font-stretch: 76%;
     font-size: 0.78rem;
     font-weight: 500;
     letter-spacing: 0.18em;

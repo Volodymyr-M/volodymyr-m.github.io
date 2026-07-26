@@ -1,4 +1,4 @@
-/* Android landing — tint only. */
+/* Android landing — tint only. Layout, type, and rhythm come from styles.css. */
 
 :root {
     --signal: #1E8E3E;           /* Material green */
@@ -15,23 +15,4 @@
     --primary-hover: var(--signal-deep);
 }
 
-/* Offset dot grid for Android */
-body {
-    background-image:
-        radial-gradient(circle, var(--rule-soft) 1.25px, transparent 1.25px),
-        radial-gradient(circle, var(--rule-soft) 1.25px, transparent 1.25px);
-    background-size: 28px 28px, 28px 28px;
-    background-position: 0 0, 14px 14px;
-}
-@media (max-width: 640px){ body { background-size: 22px 22px, 22px 22px; background-position: 0 0, 11px 11px; } }
-
-.hero .hero-content::after {
-    content: "Android · Phone · Tablet · Foldable · ChromeOS";
-    display: block;
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--signal);
-    margin-top: var(--s-6);
-}
+.hero .hero-content::after { content: "Android · Phone · Tablet · Foldable · ChromeOS"; }
