@@ -1,12 +1,14 @@
 // Theme handling
 const themeToggle = document.getElementById('theme-toggle');
 const body = document.body;
-const icon = themeToggle.querySelector('i');
+const icon = themeToggle ? themeToggle.querySelector('i') : null;
 
 // Function to set theme
 function setTheme(isDark) {
-    icon.classList.toggle('fa-sun', isDark);
-    icon.classList.toggle('fa-adjust', !isDark);
+    if (icon) {
+        icon.classList.toggle('fa-sun', isDark);
+        icon.classList.toggle('fa-adjust', !isDark);
+    }
     document.cookie = `theme=${isDark ? 'dark' : 'light'}; path=/; max-age=31536000`; // Cookie expires in 1 year
     if (isDark) {
         body.classList.add('dark-mode');
@@ -45,50 +47,30 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)
 });
 
 // Theme toggle click handler
-themeToggle.addEventListener('click', () => {
-    const isDark = !body.classList.contains('dark-mode');
-    setTheme(isDark);
-});
+if (themeToggle) {
+    themeToggle.addEventListener('click', () => {
+        const isDark = !body.classList.contains('dark-mode');
+        setTheme(isDark);
+    });
+}
 
 // Initialize theme on page load
 initializeTheme();
 
-// Position versions dropdown
-const otherVersionsBtn = document.querySelector('.cta-group .nav-version');
-const versionsDropdown = otherVersionsBtn?.querySelector('.language-dropdown');
-
-if (otherVersionsBtn && versionsDropdown) {
-    const updateDropdownPosition = () => {
-        const btnRect = otherVersionsBtn.getBoundingClientRect();
-        versionsDropdown.style.top = `${btnRect.bottom}px`;
-        versionsDropdown.style.left = `${btnRect.left + (btnRect.width / 2)}px`;
-    };
-
-    // Update position on hover
-    otherVersionsBtn.addEventListener('mouseenter', updateDropdownPosition);
-    // Update position on scroll
-    window.addEventListener('scroll', updateDropdownPosition);
-    // Update position on resize
-    window.addEventListener('resize', updateDropdownPosition);
-}
-
-// FAQ toggles
-document.querySelectorAll('.faq-question').forEach(question => {
-    question.addEventListener('click', () => {
-        const answer = question.nextElementSibling;
-        const icon = question.querySelector('i');
-        
-        // Toggle this answer
-        answer.style.maxHeight = answer.style.maxHeight ? null : answer.scrollHeight + 'px';
-        question.classList.toggle('active');
-        
-        // Close other answers
-        document.querySelectorAll('.faq-answer').forEach(otherAnswer => {
-            if (otherAnswer !== answer && otherAnswer.style.maxHeight) {
-                otherAnswer.style.maxHeight = null;
-                otherAnswer.previousElementSibling.classList.remove('active');
-            }
-        });
+// FAQ toggles — one open at a time
+const faqItems = Array.from(document.querySelectorAll('.faq-item'));
+const setFaqOpen = (item, open) => {
+    const button = item.querySelector('.faq-question');
+    item.classList.toggle('is-open', open);
+    if (button) button.setAttribute('aria-expanded', open ? 'true' : 'false');
+};
+faqItems.forEach(item => {
+    const button = item.querySelector('.faq-question');
+    if (!button) return;
+    button.addEventListener('click', () => {
+        const willOpen = !item.classList.contains('is-open');
+        faqItems.forEach(other => { if (other !== item) setFaqOpen(other, false); });
+        setFaqOpen(item, willOpen);
     });
 });
 
@@ -116,7 +98,10 @@ if (viewsShowcase) {
     tiles.forEach(tile => {
         tile.addEventListener('click', () => {
             const id = tile.getAttribute('data-view');
-            tiles.forEach(t => t.classList.toggle('active', t === tile));
+            tiles.forEach(t => {
+                t.classList.toggle('active', t === tile);
+                t.setAttribute('aria-pressed', t === tile ? 'true' : 'false');
+            });
             images.forEach(img => img.classList.toggle('active', img.getAttribute('data-view-image') === id));
             viewsShowcase.setAttribute('data-active-view', id);
         });
@@ -169,18 +154,15 @@ if (typeof gtag === 'function') {
 const showMoreBtn = document.querySelector('.show-more-button');
 const hiddenTestimonials = document.querySelectorAll('.hidden-testimonials');
 
-if (showMoreBtn && hiddenTestimonials) {
+if (showMoreBtn && hiddenTestimonials.length) {
     showMoreBtn.addEventListener('click', () => {
-        const isHidden = hiddenTestimonials[0].style.display === 'none' || hiddenTestimonials[0].style.display === '';
-        hiddenTestimonials.forEach(t => t.style.display = isHidden ? 'grid' : 'none');
-        
-        // Update text content
-        const textSpan = showMoreBtn.querySelector('.button-text');
-        textSpan.textContent = isHidden ? 
-            showMoreBtn.getAttribute('data-show-less') : 
-            showMoreBtn.getAttribute('data-show-more');
-        
-        // Toggle active state for animation
-        showMoreBtn.classList.toggle('active');
+        const expanded = showMoreBtn.getAttribute('aria-expanded') === 'true';
+        const next = !expanded;
+        hiddenTestimonials.forEach(t => t.classList.toggle('is-revealed', next));
+        showMoreBtn.setAttribute('aria-expanded', next ? 'true' : 'false');
+        showMoreBtn.querySelector('.button-text').textContent = next
+            ? showMoreBtn.getAttribute('data-show-less')
+            : showMoreBtn.getAttribute('data-show-more');
+        showMoreBtn.classList.toggle('active', next);
     });
 }

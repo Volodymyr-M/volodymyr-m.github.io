@@ -177,6 +177,20 @@ body {
 img { max-width: 100%; display: block; }
 a { color: inherit; }
 
+/* One focus treatment for the whole site. Keyboard users had nothing before,
+   and .feature-card's decorative outline was overriding the UA ring outright. */
+:focus-visible {
+    outline: 2px solid var(--signal);
+    outline-offset: 2px;
+    border-radius: var(--radius-xs);
+}
+.sheet-strip :focus-visible,
+footer :focus-visible,
+.faq-support :focus-visible,
+.pricing-card.featured :focus-visible {
+    outline-color: var(--chalk);
+}
+
 .container {
     max-width: 1220px;
     margin: 0 auto;
@@ -538,7 +552,6 @@ nav {
 .four-jobs::before,
 .feature-story::before,
 .interop::before,
-.edit-ai::before,
 .personas::before,
 .pain-points::before,
 .comparison::before,
@@ -595,8 +608,6 @@ nav {
     border-radius: 2px;
     display: block;
 }
-/* Kill the old blurred blobs — templates still emit them */
-.hero-shape-1, .hero-shape-2, .hero-shape-3 { display: none !important; }
 
 /* ---------- Buttons ---------- */
 .cta-group {
@@ -692,18 +703,33 @@ nav {
     opacity: 0.65;
 }
 .dark-mode .inline-marketplace-logo { filter: brightness(0) invert(1); opacity: 0.8; }
+/* App Store / Microsoft Store ship a square glyph, not a wordmark: flattening
+   it to one ink value leaves a featureless block, so it keeps its own colour. */
+.inline-marketplace-logo.is-glyph,
+.dark-mode .inline-marketplace-logo.is-glyph {
+    filter: none;
+    opacity: 1;
+    height: 20px;
+    border-radius: 4px;
+}
 
-/* ---------- Stars ---------- */
+/* ---------- Stars ----------
+   The fill is a percentage of the host, so the host has to be exactly as wide
+   as five stars. A fixed 96px was wider than the glyphs actually render, which
+   made every rating — 3.5, 4.5, 5 — fill all five stars. Sizing to max-content
+   ties the percentage to the same glyph run the fill is drawn from, whatever
+   font ends up supplying ★. */
 .stars {
     unicode-bidi: bidi-override;
     color: var(--border-strong);
     font-size: 18px;
     height: 20px;
-    width: 96px;
+    width: max-content;
     position: relative;
     margin: 0;
     line-height: 20px;
     letter-spacing: 1px;
+    white-space: nowrap;
 }
 .stars::before { content: "★★★★★"; opacity: 0.55; }
 .stars::after {
@@ -712,6 +738,7 @@ nav {
     position: absolute; top: 0; left: 0;
     width: calc(var(--stars) * 20%);
     overflow: hidden;
+    white-space: nowrap;
     letter-spacing: 1px;
 }
 
@@ -724,8 +751,10 @@ nav {
     position: relative;
 }
 .features h2 {
-    text-align: left;
-    margin-bottom: var(--s-7);
+    text-align: center;
+    max-width: 20ch;
+    margin: 0 auto var(--s-7) auto;
+    text-wrap: balance;
 }
 .features-grid {
     display: grid;
@@ -743,8 +772,9 @@ nav {
     padding: var(--s-6) var(--s-5) var(--s-6);
     text-align: left;
     transition: background var(--transition-fast), transform var(--transition-fast);
-    outline: 1px solid var(--border);
-    outline-offset: -1px;
+    /* Drawn as a shadow, not an outline, so :focus-visible can still use the
+       outline property on the linked variant of this card. */
+    box-shadow: 0 0 0 1px var(--border);
     text-decoration: none;
     color: inherit;
     display: flex;
@@ -797,19 +827,21 @@ a.feature-card:hover h3 {
     overflow: visible;
 }
 .features-detailed h2 {
-    text-align: left;
-    margin-bottom: var(--s-3);
+    text-align: center;
+    margin: 0 auto var(--s-3) auto;
+    max-width: 22ch;
     background: none;
     -webkit-background-clip: initial;
     color: var(--ink);
+    text-wrap: balance;
 }
 .features-detailed .section-subtitle {
-    text-align: left;
+    text-align: center;
     color: var(--ink-soft);
     font-style: normal;
     font-family: var(--font-body);
     font-size: 1.125rem;
-    margin: 0 0 var(--s-7) 0;
+    margin: 0 auto var(--s-7) auto;
     max-width: 56ch;
 }
 
@@ -903,14 +935,14 @@ a.feature-card:hover h3 {
     border-radius: 0;
     border: 0;
     border-top: 1px solid var(--rule);
-    transition: background var(--transition-fast), padding-left var(--transition-fast);
+    transition: background var(--transition-fast), box-shadow var(--transition-fast);
 }
 .feature-list li:first-child { border-top: 0; }
 .feature-list li:hover {
     background: var(--paper-2);
     border-color: var(--rule);
     transform: none;
-    padding-left: var(--s-5);
+    box-shadow: inset 2px 0 0 var(--signal);
 }
 .feature-list li i {
     color: var(--signal);
@@ -961,11 +993,13 @@ a.feature-card:hover h3 {
     overflow: visible;
 }
 .demo h2 {
-    text-align: left;
+    text-align: center;
     background: none;
     -webkit-background-clip: initial;
     color: var(--ink);
-    margin-bottom: var(--s-6);
+    margin: 0 auto var(--s-6) auto;
+    max-width: 20ch;
+    text-wrap: balance;
 }
 
 .video-container {
@@ -981,208 +1015,9 @@ a.feature-card:hover h3 {
     background: #000;
     box-shadow: var(--shadow-xl);
 }
-.video-container::after {
-    content: "▶ DEMO FILM";
-    position: absolute; left: 0; bottom: calc(-1 * var(--s-5));
-    font-family: var(--font-display);
-    font-stretch: 76%;
-    font-weight: 600; font-size: 0.72rem; letter-spacing: 0.14em;
-    color: var(--ink-soft); text-transform: uppercase;
-    pointer-events: none;
-}
 .video-container iframe {
     position: absolute; top: 0; left: 0;
     width: 100%; height: 100%; border: 0;
-}
-
-/* ---------- Edit with AI — English Web landing only ---------- */
-.edit-ai {
-    padding: var(--s-8) 0;
-    background: var(--paper-2);
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-    position: relative;
-}
-
-.edit-ai .edit-ai-head {
-    max-width: 820px;
-    margin: 0 auto var(--s-7) auto;
-    text-align: center;
-}
-.edit-ai .edit-ai-head h2 {
-    text-align: center;
-    margin-bottom: var(--s-5);
-    color: var(--ink);
-    background: none;
-    -webkit-background-clip: initial;
-    font-size: clamp(2rem, 4vw, 2.75rem);
-    line-height: 1.1;
-    text-wrap: balance;
-}
-.edit-ai .edit-ai-head h2 em {
-    font-style: normal;
-    color: inherit;
-    font-weight: inherit;
-}
-.edit-ai .edit-ai-subtitle {
-    max-width: 56ch;
-    margin: 0 auto;
-}
-.edit-ai .edit-ai-subtitle p {
-    font-family: var(--font-body);
-    font-style: normal;
-    font-size: 1.0625rem;
-    line-height: 1.55;
-    color: var(--ink-soft);
-    margin: 0 0 var(--s-2) 0;
-    text-align: center;
-}
-.edit-ai .edit-ai-subtitle p:last-child { margin-bottom: 0; }
-
-/* Pitch row — text 45 / image 55, image stays wide */
-.edit-ai .edit-ai-pitch {
-    display: grid;
-    grid-template-columns: 45fr 55fr;
-    gap: var(--s-7);
-    align-items: start;
-    max-width: 1240px;
-    margin: 0 auto var(--s-8) auto;
-}
-
-.edit-ai .edit-ai-text > p {
-    font-family: var(--font-body);
-    font-size: 1.05rem;
-    line-height: 1.6;
-    color: var(--ink);
-    margin: 0 0 var(--s-5) 0;
-}
-.edit-ai .edit-ai-prompts-label {
-    font-family: var(--font-display);
-    font-stretch: 76%;
-    font-weight: 600;
-    font-size: 0.72rem;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--ink-soft);
-    margin: 0 0 var(--s-3) 0;
-    display: flex;
-    align-items: center;
-    gap: var(--s-3);
-}
-.edit-ai .edit-ai-prompts-label::before {
-    content: "";
-    width: 22px;
-    height: 2px;
-    background: var(--signal);
-    display: inline-block;
-}
-.edit-ai .edit-ai-prompts {
-    list-style: none !important;
-    padding: 0;
-    margin: 0 0 var(--s-6) 0;
-    display: grid;
-    gap: var(--s-3);
-    border-left: 2px solid var(--signal);
-    padding-left: var(--s-5);
-}
-.edit-ai .edit-ai-prompts > li {
-    list-style: none !important;
-    font-family: var(--font-display);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.125rem;
-    line-height: 1.4;
-    color: var(--ink);
-    margin: 0;
-    padding: 0;
-}
-.edit-ai .edit-ai-prompts > li::marker { content: "" !important; color: transparent !important; }
-
-.edit-ai .edit-ai-button { align-self: flex-start; }
-
-.edit-ai .edit-ai-media { position: relative; }
-/* The screenshot already has macOS chrome; render it naked, no extra frame. */
-.edit-ai .edit-ai-frame {
-    position: relative;
-    background: transparent;
-    border: 0;
-    border-radius: 0;
-    padding: 0;
-    box-shadow: none;
-    overflow: visible;
-}
-.edit-ai .edit-ai-frame img {
-    display: block;
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    object-fit: contain;
-    margin: 0;
-    border-radius: var(--radius-md);
-    box-shadow: var(--shadow-xl);
-    background: var(--paper-2);
-    color: var(--ink-soft);
-    font-family: var(--font-display);
-    font-stretch: 76%;
-    font-size: 0.75rem;
-    text-align: center;
-}
-
-/* Benefit row — 3 compact cards */
-.edit-ai .edit-ai-benefits {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--s-5);
-    max-width: 1080px;
-    margin: 0 auto;
-}
-.edit-ai .edit-ai-benefit {
-    position: relative;
-    padding: var(--s-6) var(--s-5);
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius-sm);
-    display: flex;
-    flex-direction: column;
-    gap: var(--s-3);
-    transition: transform var(--transition-fast), border-color var(--transition-fast), box-shadow var(--transition-fast);
-}
-.edit-ai .edit-ai-benefit:hover {
-    transform: translateY(-2px);
-    border-color: var(--ink);
-    box-shadow: var(--shadow-md);
-}
-.edit-ai .edit-ai-benefit > i {
-    width: 40px; height: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid var(--border-strong);
-    border-radius: var(--radius-xs);
-    background: var(--paper-2);
-    color: var(--signal);
-    font-size: 1.05rem;
-    margin: 0;
-}
-.edit-ai .edit-ai-benefit h4 {
-    font-family: var(--font-display);
-    font-weight: 500;
-    font-size: 1.125rem;
-    letter-spacing: -0.005em;
-    color: var(--ink);
-    margin: 0 0 var(--s-2) 0;
-}
-.edit-ai .edit-ai-benefit p {
-    font-family: var(--font-body);
-    font-size: 0.95rem;
-    line-height: 1.5;
-    color: var(--ink-soft);
-    margin: 0;
-}
-
-@media (max-width: 900px){
-    .edit-ai .edit-ai-pitch { grid-template-columns: 1fr; gap: var(--s-5); }
-    .edit-ai .edit-ai-benefits { grid-template-columns: 1fr; }
 }
 
 /* ---------- Create with AI — English Web landing only ---------- */
@@ -1258,12 +1093,20 @@ a.feature-card:hover h3 {
 
 /* Prompt card — shown above the Gantt frame as "input → output" */
 .create-ai-prompt {
+    position: relative;
     margin: 0 0 var(--s-3) 0;
     padding: var(--s-4) var(--s-5) var(--s-5);
     background: var(--paper-2);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
-    border-left: 3px solid var(--signal);
+    overflow: hidden;
+}
+.create-ai-prompt::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--signal);
 }
 .create-ai-prompt-label {
     font-family: var(--font-display);
@@ -1372,7 +1215,7 @@ a.feature-card:hover h3 {
     justify-content: center;
     width: 48px;
     height: 48px;
-    border-radius: 50%;
+    border-radius: var(--radius-sm);
     border: 1.5px solid var(--signal);
     background: var(--paper-2);
     color: var(--signal);
@@ -1520,11 +1363,13 @@ a.feature-card:hover h3 {
     position: relative;
 }
 .testimonials h2 {
-    text-align: left;
+    text-align: center;
     background: none;
     -webkit-background-clip: initial;
     color: var(--ink);
-    margin-bottom: var(--s-7);
+    margin: 0 auto var(--s-7) auto;
+    max-width: 22ch;
+    text-wrap: balance;
 }
 
 .testimonials-grid {
@@ -1540,6 +1385,8 @@ a.feature-card:hover h3 {
     border-radius: var(--radius-sm);
     box-shadow: var(--shadow-sm);
     position: relative;
+    display: flex;
+    flex-direction: column;
     transition: box-shadow var(--transition-fast), transform var(--transition-fast);
 }
 .testimonial-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-md); }
@@ -1571,10 +1418,13 @@ a.feature-card:hover h3 {
     line-height: 1.55;
     margin-bottom: var(--s-5);
 }
+/* Pushed to the foot of the card so attributions line up across the row
+   however long the quote above them runs. */
 .author {
     display: flex;
     align-items: flex-start;
     gap: var(--s-3);
+    margin-top: auto;
     padding-top: var(--s-4);
     border-top: 1px solid var(--rule);
 }
@@ -1595,7 +1445,7 @@ a.feature-card:hover h3 {
     margin-top: 2px;
 }
 
-.show-more-container { text-align: left; margin-top: var(--s-6); }
+.show-more-container { text-align: center; margin-top: var(--s-6); }
 .show-more-button {
     display: inline-flex;
     align-items: center;
@@ -1621,6 +1471,7 @@ a.feature-card:hover h3 {
 .show-more-button i { transition: transform var(--transition-fast); }
 .show-more-button.active i { transform: rotate(180deg); }
 .hidden-testimonials { display: none; }
+.hidden-testimonials.is-revealed { display: flex; }
 
 /* ---------- Pricing ---------- */
 .pricing {
@@ -1628,17 +1479,19 @@ a.feature-card:hover h3 {
     background: var(--paper);
 }
 .pricing h2 {
-    text-align: left;
+    text-align: center;
     background: none;
     -webkit-background-clip: initial;
     color: var(--ink);
-    margin-bottom: var(--s-3);
+    margin: 0 auto var(--s-3) auto;
+    max-width: 22ch;
+    text-wrap: balance;
 }
 .pricing .section-subtitle {
-    text-align: left;
+    text-align: center;
     color: var(--ink-soft);
     font-style: normal;
-    margin: 0 0 var(--s-7) 0;
+    margin: 0 auto var(--s-7) auto;
     max-width: 52ch;
 }
 
@@ -1666,7 +1519,6 @@ a.feature-card:hover h3 {
     position: absolute; top: 0; left: 0;
     width: var(--span, 100%);
     height: var(--bar-h); background: var(--signal);
-    transition: width var(--transition-normal);
 }
 .pricing-card:nth-child(1) { --span: 16%; }
 .pricing-card:nth-child(2) { --span: 58%; }
@@ -1685,7 +1537,11 @@ a.feature-card:hover h3 {
 .dark-mode .pricing-card.featured {
     background: #0A0F1E;
     border-color: var(--signal);
+    /* Both neighbours are dark cards too, so the recommended plan needs more
+       than a fill change to still read as recommended. */
+    box-shadow: 0 0 0 1px var(--signal), var(--shadow-lg);
 }
+.dark-mode .pricing-card.featured:hover { box-shadow: 0 0 0 1px var(--signal), var(--shadow-xl); }
 
 .pricing-header h3 {
     font-family: var(--font-display);
@@ -1886,17 +1742,25 @@ a.feature-card:hover h3 {
 
 /* Cross-cutting strip — full width below the grid */
 .four-jobs .four-jobs-cross {
+    position: relative;
     max-width: 1180px;
     margin: var(--s-7) auto 0 auto;
     padding: var(--s-5) var(--s-6);
     background: var(--paper-2);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
-    border-left: 3px solid var(--signal);
+    overflow: hidden;
     display: grid;
     grid-template-columns: auto 1fr;
     gap: var(--s-5);
     align-items: center;
+}
+.four-jobs .four-jobs-cross::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--signal);
 }
 .four-jobs .four-jobs-cross-label {
     font-family: var(--font-display);
@@ -2033,17 +1897,25 @@ a.feature-card:hover h3 {
 
 /* Stat strip — full-width band with mono label and stat sentence */
 .pain-points .pain-stat {
+    position: relative;
     max-width: 1080px;
     margin: var(--s-7) auto 0 auto;
     padding: var(--s-5) var(--s-6);
     background: var(--paper-2);
     border: 1px solid var(--border);
     border-radius: var(--radius-sm);
-    border-left: 3px solid var(--signal);
+    overflow: hidden;
     display: grid;
     grid-template-columns: auto 1fr;
     gap: var(--s-5);
     align-items: center;
+}
+.pain-points .pain-stat::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 2px;
+    background: var(--signal);
 }
 .pain-points .pain-stat-label {
     font-family: var(--font-display);
@@ -2135,8 +2007,8 @@ a.feature-card:hover h3 {
     width: 52px; height: 52px;
     border: 1px solid var(--border-strong);
     border-radius: var(--radius-sm);
-    background: var(--paper-2);
-    color: var(--signal);
+    background: var(--paper);
+    color: var(--ink);
     font-size: 1.5rem;
     margin-bottom: var(--s-2);
 }
@@ -2307,14 +2179,18 @@ a.feature-card:hover h3 {
     background: var(--paper);
 }
 .views-showcase .view-tile-name {
+    display: block;
     font-family: var(--font-display);
     font-weight: 500;
+    font-stretch: 92%;
     font-size: 1.0625rem;
+    line-height: 1.28;
     letter-spacing: -0.005em;
     color: var(--ink);
     margin: 0;
 }
 .views-showcase .view-tile-body {
+    display: block;
     font-family: var(--font-body);
     font-size: 0.92rem;
     line-height: 1.45;
@@ -2788,6 +2664,19 @@ a.feature-card:hover h3 {
         overflow-y: hidden;
     }
     .comparison-table { min-width: 680px; }
+    /* Row labels stay put while the competitor columns scroll under them —
+       otherwise past the second column a tick has nothing to belong to. */
+    .comparison-table thead .comparison-col-feature,
+    .comparison-table tbody th[scope="row"] {
+        position: sticky;
+        left: 0;
+        z-index: 2;
+        background: var(--surface);
+        /* Reads as the edge the rest of the table scrolls under. */
+        box-shadow: 1px 0 0 var(--rule), 6px 0 8px -6px rgba(14, 23, 35, 0.22);
+    }
+    .comparison-table thead .comparison-col-feature,
+    .comparison-price-row th[scope="row"] { background: var(--paper-2); }
 }
 @media (max-width: 520px) {
     .comparison-table { min-width: 560px; font-size: 0.92rem; }
@@ -3023,9 +2912,6 @@ a.feature-card:hover h3 {
     color: var(--ink-soft);
 }
 
-/* "and more" flavor line gets a lighter bullet */
-.interop-list li:last-child:not(:only-child) .interop-name { color: var(--ink-soft); font-style: normal; }
-
 @media (max-width: 640px){
     .interop-col { padding: var(--s-5) var(--s-4) var(--s-5) var(--s-5); }
     .interop-name { font-size: 1rem; }
@@ -3039,10 +2925,12 @@ a.feature-card:hover h3 {
     position: relative;
 }
 .faq h2 {
-    text-align: left;
+    text-align: center;
     background: none; -webkit-background-clip: initial;
     color: var(--ink);
-    margin-bottom: var(--s-6);
+    margin: 0 auto var(--s-6) auto;
+    max-width: 22ch;
+    text-wrap: balance;
 }
 .faq-wrapper {
     display: grid;
@@ -3066,7 +2954,10 @@ a.feature-card:hover h3 {
     transition: background var(--transition-fast);
 }
 .faq-item:hover { transform: none; box-shadow: none; background: var(--paper-2); }
+/* The heading is a wrapper only — the button inside it is the control. */
+.faq-question-heading { margin: 0; font-size: inherit; letter-spacing: inherit; }
 .faq-question {
+    width: 100%;
     padding: var(--s-5) var(--s-2);
     display: flex;
     justify-content: space-between;
@@ -3074,14 +2965,19 @@ a.feature-card:hover h3 {
     align-items: center;
     cursor: pointer;
     user-select: none;
+    background: transparent;
+    border: 0;
+    text-align: left;
+    color: inherit;
+    font: inherit;
 }
-.faq-question h3 {
+.faq-question-text {
     font-family: var(--font-display);
     font-weight: 500;
+    font-stretch: 92%;
     font-size: 1.125rem;
+    letter-spacing: -0.015em;
     color: var(--ink);
-    margin: 0;
-    padding: 0;
     line-height: 1.35;
 }
 .faq-question i {
@@ -3091,11 +2987,20 @@ a.feature-card:hover h3 {
     flex-shrink: 0;
 }
 .faq-item:hover .faq-question i { color: var(--signal); }
-.faq-question.active i { transform: rotate(180deg); color: var(--signal); }
+.faq-item.is-open .faq-question i { transform: rotate(180deg); color: var(--signal); }
+/* 0fr → 1fr animates to the content's own height without JS measuring it.
+   The padding lives on the paragraph, never on .faq-answer-inner: box-sizing is
+   border-box, so a grid item with padding cannot collapse below it and leaks a
+   line of every answer in the closed state. */
 .faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height var(--transition-slow);
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows var(--transition-slow);
+}
+.faq-item.is-open .faq-answer { grid-template-rows: 1fr; }
+.faq-answer-inner { overflow: hidden; min-height: 0; }
+@media (prefers-reduced-motion: reduce) {
+    .faq-answer { transition: none; }
 }
 .faq-answer p {
     padding: 0 var(--s-2) var(--s-5) var(--s-2);
@@ -3119,15 +3024,18 @@ a.feature-card:hover h3 {
 }
 .dark-mode .faq-support { background: #050F1F; box-shadow: var(--shadow-lg); }
 .support-content { text-align: left; }
-.support-content h2 {
+.support-content h3 {
     font-family: var(--font-display);
     font-weight: 500;
+    font-stretch: 92%;
     font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
     color: var(--chalk);
     text-align: left;
     margin-bottom: var(--s-4);
 }
-.support-content h2::before { display: none; }
+.support-content h3::before { display: none; }
 .support-divider {
     margin-top: var(--s-6);
     padding-top: var(--s-6);
@@ -3240,13 +3148,18 @@ a.feature-card:hover h3 {
 }
 .cta .workspace-logo { filter: brightness(0) invert(1); height: 14px; opacity: 1; }
 .dark-mode .cta .cta-button.primary {
-    background: var(--deep);
-    color: var(--chalk);
-    border-color: var(--border-strong);
+    background: var(--chalk);
+    color: var(--deep);
+    border-color: var(--chalk);
     box-shadow: var(--shadow-sm);
 }
-.dark-mode .cta .cta-button.primary:hover { background: var(--surface-2); border-color: var(--signal); box-shadow: var(--shadow-md); }
-.dark-mode .cta .workspace-logo { filter: brightness(0) invert(1); }
+.dark-mode .cta .cta-button.primary:hover {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    color: var(--deep);
+    box-shadow: var(--shadow-md);
+}
+.dark-mode .cta .cta-button.primary .workspace-logo { filter: brightness(0); }
 
 @media (max-width: 820px){
     .cta .container { grid-template-columns: 1fr; }
@@ -3335,10 +3248,12 @@ a.feature-card:hover h3 {
     position: relative;
 }
 .features-list .feature-group h2 {
-    text-align: left;
+    text-align: center;
     background: none; -webkit-background-clip: initial;
     color: var(--ink);
-    margin-bottom: var(--s-7);
+    margin: 0 auto var(--s-7) auto;
+    max-width: 22ch;
+    text-wrap: balance;
 }
 .feature-grid {
     display: grid;
@@ -3470,19 +3385,25 @@ footer {
 .footer-section ul li a {
     color: rgba(238, 243, 249, 0.82);
     text-decoration: none;
-    transition: color var(--transition-fast), padding-left var(--transition-fast);
+    transition: color var(--transition-fast);
     font-family: var(--font-body);
     font-size: 0.97rem;
     display: inline-flex;
-    align-items: center;
-    gap: var(--s-2);
+    align-items: baseline;
+    gap: var(--s-3);
     border-bottom: 1px solid transparent;
 }
-.footer-section ul li a:hover {
-    color: var(--signal);
-    padding-left: 4px;
+.footer-section ul li a:hover { color: var(--signal); }
+/* Fixed icon column — brand glyphs have wildly different widths, and without
+   this the link labels start at five different x positions. */
+.footer-section ul li a i {
+    flex: 0 0 1.1em;
+    width: 1.1em;
+    text-align: center;
+    margin-right: 0;
+    opacity: 0.8;
+    font-size: 0.85rem;
 }
-.footer-section ul li a i { margin-right: 2px; opacity: 0.8; font-size: 0.85rem; }
 
 .social-links { display: flex; gap: var(--s-4); margin-top: var(--s-5); }
 .social-links a {
@@ -3721,8 +3642,6 @@ footer {
 .text-content a:hover { background: var(--signal-wash); }
 .dark-mode .text-content a:hover { background: var(--signal-wash); color: var(--ink); }
 
-.text-center { text-align: center; }
-
 /* ---------- Responsive ---------- */
 @media (max-width: 960px) {
     .hero-wrapper { grid-template-columns: 1fr; gap: var(--s-6); }
@@ -3733,6 +3652,12 @@ footer {
 }
 @media (max-width: 640px) {
     .container { padding: 0 var(--s-4); }
+    /* On a 390px screen every pixel of frame padding is a pixel the screenshot
+       does not get, and these screenshots are already dense. */
+    .create-ai-frame,
+    .feature-story-frame { padding: var(--s-3) var(--s-2) var(--s-2); }
+    .create-ai-frame img,
+    .feature-story-frame img { margin-top: var(--s-2); }
     /* These two set their own padding at full specificity, so they have to be
        named here or the closing CTA sits on a different gutter to every
        other section. */
@@ -3786,102 +3711,3 @@ section h2 { color: var(--ink); background: none; -webkit-background-clip: initi
 }
 .hero .cta-button.primary:hover .button-title { transform: none; }
 
-.platform-info { display: inline; font-size: 0.7em; font-family: var(--font-mono); letter-spacing: 0.05em; }
-.platform-info i { margin-right: var(--s-2); }
-
-/* Reusable animated "float" — keep class name but make it subtle */
-.floating { animation: draftFloat 8s ease-in-out infinite; }
-@keyframes draftFloat {
-    0%, 100% { transform: translateY(0); }
-    50%      { transform: translateY(-4px); }
-}
-
-/* Buttons inside CTA group — nav-version language dropdown */
-.cta-group .nav-version .language-dropdown {
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1001;
-    width: 320px;
-}
-.cta-group .nav-version { position: relative; }
-
-.nav-select {
-    position: relative;
-    text-align: left;
-    width: 300px;
-    z-index: 100;
-}
-.nav-current {
-    display: flex;
-    align-items: center;
-    gap: var(--s-3);
-    border-radius: var(--radius-sm);
-    cursor: pointer;
-    transition: border-color var(--transition-fast);
-    color: var(--ink);
-    width: 100%;
-    padding: var(--s-3) var(--s-4);
-    background: var(--surface);
-    position: relative;
-    z-index: 101;
-    border: 1px solid var(--border-strong);
-    font-family: var(--font-display);
-    font-stretch: 76%;
-    font-size: 0.82rem;
-}
-.nav-current:hover { border-color: var(--ink); }
-.nav-current i { color: var(--signal); font-size: 0.9rem; }
-.nav-current span { font-size: 0.85rem; }
-.nav-current .fa-chevron-down { margin-left: auto; font-size: 0.75rem; color: var(--ink-soft); }
-
-.nav-dropdown {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: var(--surface);
-    border: 1px solid var(--ink);
-    border-radius: 0 0 var(--radius-sm) var(--radius-sm);
-    padding: var(--s-2) 0;
-    box-shadow: var(--shadow-md);
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-4px);
-    transition: opacity var(--transition-fast), visibility var(--transition-fast), transform var(--transition-fast);
-    z-index: 102;
-}
-.nav-select:hover .nav-dropdown { opacity: 1; visibility: visible; transform: translateY(0); }
-.nav-dropdown a {
-    display: flex;
-    align-items: center;
-    gap: var(--s-3);
-    padding: var(--s-3) var(--s-4);
-    color: var(--ink);
-    text-decoration: none;
-    font-family: var(--font-display);
-    font-stretch: 76%;
-    font-size: 0.82rem;
-    transition: background var(--transition-fast);
-}
-.nav-dropdown a i { color: var(--signal); font-size: 0.9rem; width: 18px; text-align: center; }
-.nav-dropdown a:hover { background: var(--paper-2); color: var(--ink); }
-
-.nav-version { margin-top: 0; width: 335px; }
-.nav-version .language-dropdown {
-    bottom: auto;
-    top: 100%;
-    border-radius: 0 0 var(--radius-sm) var(--radius-sm);
-    transform: translateY(-4px);
-}
-.nav-version:hover .language-dropdown { transform: translateY(0); }
-.nav-version .language-current { padding: var(--s-3) var(--s-4); background: var(--surface); border-color: var(--border-strong); color: var(--ink); }
-.nav-version .language-current:hover { border-color: var(--ink); color: var(--ink); }
-.nav-version .language-dropdown a { padding: var(--s-3) var(--s-4); }
-.nav-version .language-dropdown a i { min-width: 20px; }
-
-button.other-versions {
-    background: none; border: none; padding: 0;
-    font: inherit; cursor: pointer; outline: inherit;
-    text-align: left; width: 100%; color: inherit; text-decoration: none;
-}
