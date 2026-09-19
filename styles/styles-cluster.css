@@ -235,3 +235,18 @@
 /* ---------- Demo & FAQ: slightly tightened for the shorter page ---------- */
 .page-cluster .demo { padding: var(--s-7) 0; }
 .page-cluster .faq { padding-top: var(--s-7); }
+
+/* ---------- Content blocks (cluster pages) ---------- */
+/* Open, readable prose sections — deliberately not inside an accordion. */
+.page-cluster .content-block-prose {
+    max-width: 44rem;
+    margin: 0 auto var(--s-7) auto;
+}
+.page-cluster .content-block-prose p {
+    font-size: 1.02rem;
+    line-height: 1.75;
+    color: var(--ink-soft);
+    margin: 0 0 var(--s-5) 0;
+}
+.page-cluster .content-block-prose p:last-child { margin-bottom: 0; }
+.page-cluster .content-block-prose strong { color: var(--ink); font-weight: 600; }

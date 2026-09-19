@@ -279,3 +279,30 @@ h1 { color: inherit; }
     .older-post-card { padding: var(--s-4) var(--s-5); }
     .older-post-title { font-size: 1.125rem; }
 }
+
+/* ---------- Lead post (blog index) ---------- */
+/* The newest post is shown in full here and also has its own URL. */
+.blog-post-lead .blog-card-title a {
+    color: inherit;
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+.blog-post-lead .blog-card-title a:hover { color: var(--signal); }
+
+.blog-lead-more {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--s-2);
+    margin-top: var(--s-4);
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--signal);
+    text-decoration: none;
+}
+.blog-lead-more i {
+    font-size: 0.8rem;
+    transition: transform var(--transition-fast);
+}
+.blog-lead-more:hover i { transform: translateX(4px); }
