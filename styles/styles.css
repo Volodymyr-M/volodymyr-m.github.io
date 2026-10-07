@@ -1603,6 +1603,39 @@ a.feature-card:hover h3 {
 
 .pricing-card .cta-button { width: 100%; }
 
+/* Link out to the dedicated pricing page from the Web landing's price section. */
+.pricing-more {
+    margin: var(--s-5) 0 0 0;
+    text-align: center;
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-size: 0.86rem;
+    letter-spacing: 0.06em;
+}
+.pricing-more a {
+    color: var(--text-primary);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+.pricing-more a:hover { color: var(--signal); }
+
+/* Billing-basis and purchase-model notes under the price cards. The subscription
+   and the one-time store apps are different purchases, and the distinction has
+   to be legible next to the numbers rather than further down the page. */
+.pricing-notes {
+    max-width: 780px;
+    margin: var(--s-5) auto 0 auto;
+    text-align: center;
+}
+.pricing-notes p {
+    margin: 0 0 var(--s-2) 0;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    line-height: 1.55;
+    color: var(--ink-soft);
+}
+.pricing-notes p:last-child { margin-bottom: 0; }
+
 /* ---------- Four jobs of a project plan — English Web landing only ---------- */
 .four-jobs {
     padding: var(--s-8) 0;
@@ -2630,6 +2663,40 @@ a.feature-card:hover h3 {
     text-align: center;
 }
 
+/* Dated provenance for the competitor price cell. Sits directly under the table,
+   above the footnote, so it reads as a caption on the price row rather than as
+   another line of small print. */
+.comparison-price-source {
+    margin-bottom: var(--s-2);
+    font-style: italic;
+}
+
+/* Per-competitor deep links under the table. Same display type as the footnote
+   so the row reads as table apparatus, but at body contrast and underlined, so
+   the links are not carried by colour alone. */
+.comparison-links {
+    max-width: 1080px;
+    margin: var(--s-3) auto 0 auto;
+    font-family: var(--font-display);
+    font-stretch: 76%;
+    font-size: 0.82rem;
+    letter-spacing: 0.06em;
+    color: var(--ink-soft);
+    text-align: center;
+}
+.comparison-links-label {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.74rem;
+    letter-spacing: 0.12em;
+}
+.comparison-links a {
+    color: var(--text-primary);
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+}
+.comparison-links a:hover { color: var(--signal); }
+
 /* CTA below the table — centered, small repeat of the primary button + mono footnote */
 .comparison-cta {
     display: flex;
@@ -3353,6 +3420,21 @@ a.feature-card:hover h3 {
 }
 .platform-item:hover i { color: var(--signal); }
 .platform-item span { font-weight: 500; }
+
+/* ---------- Trademark / non-affiliation notice ---------- */
+/* Last thing before the footer on the competitor comparison pages. Deliberately
+   quiet: it has to be legible and findable, not read as a selling line. */
+.legal-notice {
+    padding: var(--s-5) 0 var(--s-6);
+}
+.legal-notice p {
+    max-width: 1080px;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    line-height: 1.6;
+    color: var(--ink-soft);
+    text-align: center;
+}
 
 /* ---------- Footer ---------- */
 footer {
